@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 183
+! Entries: 179
 !
 ! Updated: 2022.10.19
 !
@@ -81,10 +81,6 @@
 ! (For now disabled) @@||web.facebook.com^
 ! Blocked by DuckDuckGo Tracker Radar
 ! (For now disabled) @@||mqtt-mini.facebook.com^
-! (For now disabled) @@||connect.facebook.net^$tag=fb-embeds
-! (For now disabled) @@||connect.facebook.com^$tag=fb-embeds
-! (For now disabled) @@||facebook.com/plugins/$tag=fb-embeds
-! (For now disabled) @@||graph.facebook.com^$tag=fb-embeds
 
 ! Firefox [Mozilla]
 @@||addons.mozilla.org^
