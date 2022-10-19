@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 2933
+! Entries: 2936
 ! [1108 cookies] [120(207) lang cookies] [79(86) spec cookies] [128(130) 3rd part cookies] [407(431) XXX sites] [238 XXX 3rd party] [32 XXX 3rd party pop-ups] [527 Adult sh1t] [146 Adult pop-ups]
 !
 ! Updated: 2022.10.19
@@ -191,6 +191,10 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse
 @@||kamczatka.zbiornik.com/socket.io^$domain=zbiornik.com
 @@||talk.zbiornik.com/socket.io^$domain=zbiornik.com
 @@||av.zbiornik.com/av^$domain=zbiornik.com
+@@||zbiornik.com/zbiornik.css?6$domain=zbiornik.com
+@@||zbiornik.com/zbiornik.js?6$domain=zbiornik.com
+@@||zbiornik.com/tmp-ps^$domain=zbiornik.com
+
 
 ! Default
 /afs/ads/*
