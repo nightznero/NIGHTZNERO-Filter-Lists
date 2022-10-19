@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 2230
+! Entries: 2234
 ! [1108 cookies] [120(207) lang cookies] [79(86) spec cookies] [128(130) 3rd part cookies] [415(431) XXX sites] [238 XXX 3rd party] [32 XXX 3rd party pop-ups]
 !
 ! Updated: 2022.10.19
@@ -20,6 +20,137 @@
 !
 ! Copyright (c) 2022 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Facebook [Meta]
+@@||connect.facebook.net^$tag=fb-embeds
+@@||connect.facebook.com^$tag=fb-embeds
+@@||facebook.com/plugins/$tag=fb-embeds
+@@||graph.facebook.com^$tag=fb-embeds
+
+! Fandom
+!! League of Legends
+leagueoflegends.fandom.com##.featured-video
+leagueoflegends.fandom.com##.featured-video__player-container
+leagueoflegends.fandom.com##.WikiaTopAds
+leagueoflegends.fandom.com###WikiaTopAds
+leagueoflegends.fandom.com##.WikiaBarWrapper
+leagueoflegends.fandom.com###WikiaBarWrapper
+leagueoflegends.fandom.com##iframe[src="https://www.btserve.com/render?ifrId=5b2d1649b2-188-1&code=5b2d1649b2-188&t=bidt-sra&auctionId=16fc5c49-780f-45e7-bf10-31555366afa1|5b2d1649b2-188|1&v2=true&passback=false&btserve=true"]
+leagueoflegends.fandom.com##iframe[src="https://www.btserve.com/render?ifrId=5b2d1649b2-188-1&code=5b2d1649b2-188&t=bidt-sra&auctionId=e1f74ab4-1b98-4891-8d36-197e47ca7774|5b2d1649b2-188|1&v2=true&passback=false&btserve=true"]
+leagueoflegends.fandom.com##iframe[src="https://www.btserve.com/render?ifrId=5bbe13967e-188-1&code=5bbe13967e-188&t=bidt-sra&auctionId=8fb4df1d-98f1-4f1f-bc34-9ec5603f55df|5bbe13967e-188|1&v2=true&passback=false&btserve=true"]
+leagueoflegends.fandom.com##video[src="blob:https://leagueoflegends.fandom.com/1e445559-b99b-4b62-99ed-3368ca5dbbc2"]
+leagueoflegends.fandom.com##.jw-aspect.jw-reset
+leagueoflegends.fandom.com##.jw-media.jw-reset
+leagueoflegends.fandom.com##.jw-video.jw-reset
+leagueoflegends.fandom.com##.wds-banner-notification__text
+leagueoflegends.fandom.com##.wds-banner-notification.wds-message.notify
+leagueoflegends.fandom.com###\35 b2d1649b2-188-1
+leagueoflegends.fandom.com###\35 bbe13967e-188-1
+
+! Outbrain Elements
+###around-the-web
+###g-outbrain
+###js-outbrain-module
+###js-outbrain-relateds
+###js-outbrain-under-article
+###outbrain
+###outbrain1
+###outbrainWidget
+###outbrain_widget_0
+##.ArticleFooter-outbrain
+##.ArticleOutbrainLocal
+##.Atom-outbrain
+##.OUTBRAIN
+##.box-outbrain
+##.c2_outbrain
+##.component-outbrain
+##.nok-outbrain-list
+##.ob-smartfeed-wrapper
+##.outbrain
+##.outbrain-ads
+##.outbrain-bloc
+##.outbrain-content
+##.outbrain-group
+##.outbrain-module
+##.outbrain-placeholder
+##.outbrain-recommended
+##.outbrain-relateds
+##.outbrain-widget
+##.outbrain-wrapper
+##.outbrainWidget
+##.outbrain__main
+##.outbrain_container
+##.outbrain_skybox
+##.outbrainbox
+##.pane-bonnier-outbrain-outbrain-video-vr3-widget
+##.pmc-outbrain-amp-widget
+##.sics-component__outbrain
+##.tr-outbrain-container
+##.widget_ione-outbrain
+##.yom-outbrain
+!! Outbrain Scripts
+/cdn-cgi/pe/bag2?*odb.outbrain.com
+/outbrain-load-
+/outbrain.js
+/outbrain/base?
+/outbrain?
+||outbrainimg.com^$third-party
+
+! Showup.tv
+@@||showup.tv/files^$domain=showup.tv
+@@||showup.tv/scripts^$domain=showup.tv
+@@||j01.showup.tv^$domain=showup.tv
+@@||j02.showup.tv^$domain=showup.tv
+@@||j03.showup.tv^$domain=showup.tv
+@@||j04.showup.tv^$domain=showup.tv
+@@||j05.showup.tv^$domain=showup.tv
+@@||j06.showup.tv^$domain=showup.tv
+@@||j07.showup.tv^$domain=showup.tv
+@@||j08.showup.tv^$domain=showup.tv
+@@||j09.showup.tv^$domain=showup.tv
+@@||showup.tv/site/socket_addr^$domain=showup.tv
+@@||cdn-e01.showup.tv/h5live^$domain=showup.tv
+@@||cdn-e02.showup.tv/h5live^$domain=showup.tv
+@@||cdn-e03.showup.tv/h5live^$domain=showup.tv
+@@||cdn-e04.showup.tv/h5live^$domain=showup.tv
+@@||cdn-e05.showup.tv/h5live^$domain=showup.tv
+@@||cdn-e06.showup.tv/h5live^$domain=showup.tv
+@@||cdn-e07.showup.tv/h5live^$domain=showup.tv
+@@||cdn-e08.showup.tv/h5live^$domain=showup.tv
+@@||cdn-e09.showup.tv/h5live^$domain=showup.tv
+@@||showup.tv/images^$domain=showup.tv
+
+! StartPage
+||startpage.*^$removeparam=segment
+
+! Taboola scripts
+-taboola-article.
+-taboola-loader.
+/components/taboola/*
+/modulo/taboola/*
+/taboola-iframe/*
+/taboola.js
+/taboola/footer.
+/taboola/head.
+/taboola_header.
+/taboolaArticleFooter.
+/taboolaArticleHead.
+/taboolaBottomBody.
+/taboolaHead.
+||taboolasyndication.com^$third-party
+
+! Twitter
+twitter.com##[style]>div>div>[data-testid=placementTracking]
+twitter.com#@#.ProfileCanopy-card, .u-cf.OpenInAppBar, div:not([aria-labelledby="modal-header"]) .r-18qmn74.r-1vsu8ta.r-1joea0r.r-1777fci.r-1pz39u2.r-obd0qt.css-1dbjc4n > div:not([aria-disabled="true"]), header div[style*="height: calc(53px);"]
+
+! Youtube
+youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, [].playerResponse.adPlacements)
+youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, [].playerResponse.playerAds)
+youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, 2.playerResponse.adPlacements)
+youtubekids.com,youtube-nocookie.com,youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, null)
+youtubekids.com,youtube-nocookie.com,youtube.com##+js(set, playerResponse.adPlacements, undefined)
+youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse.adPlacements)
+youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse.playerAds)
+
 ! Default
 /afs/ads/*
 /gen_204?$image,other,ping,script
@@ -2181,128 +2312,3 @@ $websocket,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|
 ||tm-offers.gamingadult.com^$popup
 ||tour.mrskin.com^$popup,third-party
 ||zillastream.com/api/$popup
-
-! StartPage
-||startpage.*^$removeparam=segment
-
-! Fandom
-!! League of Legends
-leagueoflegends.fandom.com##.featured-video
-leagueoflegends.fandom.com##.featured-video__player-container
-leagueoflegends.fandom.com##.WikiaTopAds
-leagueoflegends.fandom.com###WikiaTopAds
-leagueoflegends.fandom.com##.WikiaBarWrapper
-leagueoflegends.fandom.com###WikiaBarWrapper
-leagueoflegends.fandom.com##iframe[src="https://www.btserve.com/render?ifrId=5b2d1649b2-188-1&code=5b2d1649b2-188&t=bidt-sra&auctionId=16fc5c49-780f-45e7-bf10-31555366afa1|5b2d1649b2-188|1&v2=true&passback=false&btserve=true"]
-leagueoflegends.fandom.com##iframe[src="https://www.btserve.com/render?ifrId=5b2d1649b2-188-1&code=5b2d1649b2-188&t=bidt-sra&auctionId=e1f74ab4-1b98-4891-8d36-197e47ca7774|5b2d1649b2-188|1&v2=true&passback=false&btserve=true"]
-leagueoflegends.fandom.com##iframe[src="https://www.btserve.com/render?ifrId=5bbe13967e-188-1&code=5bbe13967e-188&t=bidt-sra&auctionId=8fb4df1d-98f1-4f1f-bc34-9ec5603f55df|5bbe13967e-188|1&v2=true&passback=false&btserve=true"]
-leagueoflegends.fandom.com##video[src="blob:https://leagueoflegends.fandom.com/1e445559-b99b-4b62-99ed-3368ca5dbbc2"]
-leagueoflegends.fandom.com##.jw-aspect.jw-reset
-leagueoflegends.fandom.com##.jw-media.jw-reset
-leagueoflegends.fandom.com##.jw-video.jw-reset
-leagueoflegends.fandom.com##.wds-banner-notification__text
-leagueoflegends.fandom.com##.wds-banner-notification.wds-message.notify
-leagueoflegends.fandom.com###\35 b2d1649b2-188-1
-leagueoflegends.fandom.com###\35 bbe13967e-188-1
-
-! Outbrain Elements
-###around-the-web
-###g-outbrain
-###js-outbrain-module
-###js-outbrain-relateds
-###js-outbrain-under-article
-###outbrain
-###outbrain1
-###outbrainWidget
-###outbrain_widget_0
-##.ArticleFooter-outbrain
-##.ArticleOutbrainLocal
-##.Atom-outbrain
-##.OUTBRAIN
-##.box-outbrain
-##.c2_outbrain
-##.component-outbrain
-##.nok-outbrain-list
-##.ob-smartfeed-wrapper
-##.outbrain
-##.outbrain-ads
-##.outbrain-bloc
-##.outbrain-content
-##.outbrain-group
-##.outbrain-module
-##.outbrain-placeholder
-##.outbrain-recommended
-##.outbrain-relateds
-##.outbrain-widget
-##.outbrain-wrapper
-##.outbrainWidget
-##.outbrain__main
-##.outbrain_container
-##.outbrain_skybox
-##.outbrainbox
-##.pane-bonnier-outbrain-outbrain-video-vr3-widget
-##.pmc-outbrain-amp-widget
-##.sics-component__outbrain
-##.tr-outbrain-container
-##.widget_ione-outbrain
-##.yom-outbrain
-!! Outbrain Scripts
-/cdn-cgi/pe/bag2?*odb.outbrain.com
-/outbrain-load-
-/outbrain.js
-/outbrain/base?
-/outbrain?
-||outbrainimg.com^$third-party
-
-! Showup.tv
-@@||showup.tv/files^$domain=showup.tv
-@@||showup.tv/scripts^$domain=showup.tv
-@@||j01.showup.tv^$domain=showup.tv
-@@||j02.showup.tv^$domain=showup.tv
-@@||j03.showup.tv^$domain=showup.tv
-@@||j04.showup.tv^$domain=showup.tv
-@@||j05.showup.tv^$domain=showup.tv
-@@||j06.showup.tv^$domain=showup.tv
-@@||j07.showup.tv^$domain=showup.tv
-@@||j08.showup.tv^$domain=showup.tv
-@@||j09.showup.tv^$domain=showup.tv
-@@||showup.tv/site/socket_addr^$domain=showup.tv
-@@||cdn-e01.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e02.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e03.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e04.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e05.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e06.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e07.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e08.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e09.showup.tv/h5live^$domain=showup.tv
-@@||showup.tv/images^$domain=showup.tv
-
-! Taboola scripts
--taboola-article.
--taboola-loader.
-/components/taboola/*
-/modulo/taboola/*
-/taboola-iframe/*
-/taboola.js
-/taboola/footer.
-/taboola/head.
-/taboola_header.
-/taboolaArticleFooter.
-/taboolaArticleHead.
-/taboolaBottomBody.
-/taboolaHead.
-||taboolasyndication.com^$third-party
-
-! Twitter
-twitter.com##[style]>div>div>[data-testid=placementTracking]
-twitter.com#@#.ProfileCanopy-card, .u-cf.OpenInAppBar, div:not([aria-labelledby="modal-header"]) .r-18qmn74.r-1vsu8ta.r-1joea0r.r-1777fci.r-1pz39u2.r-obd0qt.css-1dbjc4n > div:not([aria-disabled="true"]), header div[style*="height: calc(53px);"]
-
-! Youtube
-youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, [].playerResponse.adPlacements)
-youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, [].playerResponse.playerAds)
-youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, 2.playerResponse.adPlacements)
-youtubekids.com,youtube-nocookie.com,youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, null)
-youtubekids.com,youtube-nocookie.com,youtube.com##+js(set, playerResponse.adPlacements, undefined)
-youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse.adPlacements)
-youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse.playerAds)
