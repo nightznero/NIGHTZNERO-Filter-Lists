@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 2909
+! Entries: 2931
 ! [1108 cookies] [120(207) lang cookies] [79(86) spec cookies] [128(130) 3rd part cookies] [407(431) XXX sites] [238 XXX 3rd party] [32 XXX 3rd party pop-ups] [527 Adult sh1t] [146 Adult pop-ups]
 !
 ! Updated: 2022.10.19
@@ -129,6 +129,7 @@ leagueoflegends.fandom.com###\35 bbe13967e-188-1
 @@||cdn-e09.showup.tv/h5live^$domain=showup.tv
 @@||showup.tv/images^$domain=showup.tv
 @@||showup.tv/styles^$domain=showup.tv
+! Blocked by Energized.Pro - Basic
 
 ! StartPage
 ||startpage.*^$removeparam=segment
@@ -164,6 +165,30 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(set, ytInitialPlayerRespon
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(set, playerResponse.adPlacements, undefined)
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse.adPlacements)
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse.playerAds)
+
+! Zbiornik.com
+@@||zbiornik.com/i18n.php$domain=zbiornik.com
+@@||zbiornik.com/css/zbiornik-welcome.css$domain=zbiornik.com
+@@||zbiornik.com/css/zbiornik-welcome-common.css$domain=zbiornik.com
+@@||zbiornik.com/css/zbiornik-welcome-small.css$domain=zbiornik.com
+@@||zbiornik.com/swingers.js$domain=zbiornik.com
+@@||zbiornik.com/imgs^$domain=zbiornik.com
+@@||vimg.zbiornik.com^$domain=zbiornik.com
+@@||img01.zbiornik.com/*/images^$domain=zbiornik.com
+@@||img02.zbiornik.com/*/images^$domain=zbiornik.com
+@@||img03.zbiornik.com/*/images^$domain=zbiornik.com
+@@||img04.zbiornik.com/*/images^$domain=zbiornik.com
+@@||img05.zbiornik.com/*/images^$domain=zbiornik.com
+@@||img06.zbiornik.com/*/images^$domain=zbiornik.com
+@@||camshot.zbiornik.com^$domain=zbiornik.com
+@@||brajanek.zbiornik.com/ajax^$domain=zbiornik.com
+@@||denisek.zbiornik.com/ajax^$domain=zbiornik.com
+@@||dzesika.zbiornik.com/ajax^$domain=zbiornik.com
+@@||vaneska.zbiornik.com/ajax^$domain=zbiornik.com
+@@||wowzafut.zbiornik.com/socket.io^$domain=zbiornik.com
+@@||kamczatka.zbiornik.com/socket.io^$domain=zbiornik.com
+@@||talk.zbiornik.com/socket.io^$domain=zbiornik.com
+@@||av.zbiornik.com/av^$domain=zbiornik.com
 
 ! Default
 /afs/ads/*
