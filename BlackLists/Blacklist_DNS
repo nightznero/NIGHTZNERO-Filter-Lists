@@ -11,7 +11,7 @@
 !
 ! Description: X
 !
-! Entries: 352
+! Entries: 353
 !
 ! Updated: 2022.10.18
 !
@@ -38,6 +38,7 @@
 ! Fvck off - Avast
 0.0.0.0 shepherd.ff.avast.com
 0.0.0.0 vanheim.ff.avast.com
+0.0.0.0 analytics.ff.avast.com
 
 ! Fvck off - Reddit
 0.0.0.0 e.reddit.com
