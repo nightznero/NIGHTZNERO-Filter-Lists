@@ -108,25 +108,9 @@ leagueoflegends.fandom.com###\35 bbe13967e-188-1
 ! Showup.tv
 @@||showup.tv/files^$domain=showup.tv
 @@||showup.tv/scripts^$domain=showup.tv
-@@||j01.showup.tv^$domain=showup.tv
-@@||j02.showup.tv^$domain=showup.tv
-@@||j03.showup.tv^$domain=showup.tv
-@@||j04.showup.tv^$domain=showup.tv
-@@||j05.showup.tv^$domain=showup.tv
-@@||j06.showup.tv^$domain=showup.tv
-@@||j07.showup.tv^$domain=showup.tv
-@@||j08.showup.tv^$domain=showup.tv
-@@||j09.showup.tv^$domain=showup.tv
+@@||j01.showup.tv,j02.showup.tv,j03.showup.tv,j04.showup.tv,j05.showup.tv,j06.showup.tv,j07.showup.tv,j08.showup.tv,j09.showup.tv$domain=showup.tv
 @@||showup.tv/site/socket_addr^$domain=showup.tv
-@@||cdn-e01.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e02.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e03.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e04.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e05.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e06.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e07.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e08.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e09.showup.tv/h5live^$domain=showup.tv
+@@||cdn-e01.showup.tv/h5live,cdn-e02.showup.tv/h5live,cdn-e03.showup.tv/h5live,cdn-e04.showup.tv/h5live,cdn-e05.showup.tv/h5live,cdn-e06.showup.tv/h5live,cdn-e07.showup.tv/h5live,cdn-e08.showup.tv/h5live,cdn-e09.showup.tv/h5live$domain=showup.tv
 @@||showup.tv/images^$domain=showup.tv
 @@||showup.tv/styles^$domain=showup.tv
 
