@@ -1,0 +1,58 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!                                                                                                  !
+!                     _   _ ___ ____ _   _ _____ ______   _ _____ ____   ___                       !
+!                     | \ | |_ _/ ___| | | |_   _|__  | \ | | ____|  _ \ / _ \                     !
+!                     |  \| || | |  _| |_| | | |   / /|  \| |  _| | |_) | | | |                    !
+!                     | |\  || | |_| |  _  | | |  / /_| |\  | |___|  _ <| |_| |                    !
+!                     |_| \_|___\____|_| |_| |_| /____|_| \_|_____|_| \_\\___/                     !
+!                                                                                                  !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Title: Cashback Allowlist [.pl] (NIGHTZNERO) [AdBlock-Syntax]
+!
+! Description: Created for my own but hopefully it's gonna help someone's (:
+!
+! Entries: 19 Revolut Stores + 61 ZEN Stores
+!
+! Updated: 2022.10.03
+!
+! MIT License
+!
+! Copyright (c) 2022 NIGHTZNERO
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+@@||ad.doubleclick.net^
+@@||tc.tradetracker.net^
+@@||clk.tradedoubler.com^
+@@||clkpl.tradedoubler.com^
+@@||planetplus.go2cloud.org^
+
+! Revolut
+@@$removeparam=utm_source,domain=answear.com|converse.pl|danielwellington.com|douglas.pl|dresslily.com|eu.feelunique.com|guess.eu|lacoste.pl|mapiful.com|miniinthebox.com|nbsklep.pl|nike.com|patriziapepe.com|peek-cloppenburg.pl|sephora.pl|stradivarius.com|unicornbeauty.com.pl|zaful.com|zalando-lounge.pl
+####################################################################################################
+@@$removeparam=utm_medium,domain=answear.com|converse.pl|danielwellington.com|douglas.pl|dresslily.com|eu.feelunique.com|guess.eu|lacoste.pl|mapiful.com|miniinthebox.com|nbsklep.pl|nike.com|patriziapepe.com|peek-cloppenburg.pl|sephora.pl|stradivarius.com|unicornbeauty.com.pl|zaful.com|zalando-lounge.pl
+####################################################################################################
+@@$removeparam=utm_campaign,domain=answear.com|converse.pl|danielwellington.com|douglas.pl|dresslily.com|eu.feelunique.com|guess.eu|lacoste.pl|mapiful.com|miniinthebox.com|nbsklep.pl|nike.com|patriziapepe.com|peek-cloppenburg.pl|sephora.pl|stradivarius.com|unicornbeauty.com.pl|zaful.com|zalando-lounge.pl
+####################################################################################################
+@@$removeparam=awc,domain=answear.com|converse.pl|danielwellington.com|douglas.pl|dresslily.com|eu.feelunique.com|guess.eu|lacoste.pl|mapiful.com|miniinthebox.com|nbsklep.pl|nike.com|patriziapepe.com|peek-cloppenburg.pl|sephora.pl|stradivarius.com|unicornbeauty.com.pl|zaful.com|zalando-lounge.pl
+####################################################################################################
+@@$removeparam=utm_content,domain=answear.com|converse.pl|danielwellington.com|douglas.pl|dresslily.com|eu.feelunique.com|guess.eu|lacoste.pl|mapiful.com|miniinthebox.com|nbsklep.pl|nike.com|patriziapepe.com|peek-cloppenburg.pl|sephora.pl|stradivarius.com|unicornbeauty.com.pl|zaful.com|zalando-lounge.pl
+####################################################################################################
+@@$removeparam=utm_term,domain=answear.com|converse.pl|danielwellington.com|douglas.pl|dresslily.com|eu.feelunique.com|guess.eu|lacoste.pl|mapiful.com|miniinthebox.com|nbsklep.pl|nike.com|patriziapepe.com|peek-cloppenburg.pl|sephora.pl|stradivarius.com|unicornbeauty.com.pl|zaful.com|zalando-lounge.pl
+####################################################################################################
+@@$removeparam=dclid,domain=answear.com|converse.pl|danielwellington.com|douglas.pl|dresslily.com|eu.feelunique.com|guess.eu|lacoste.pl|mapiful.com|miniinthebox.com|nbsklep.pl|nike.com|patriziapepe.com|peek-cloppenburg.pl|sephora.pl|stradivarius.com|unicornbeauty.com.pl|zaful.com|zalando-lounge.pl
+####################################################################################################
+
+! ZEN
+@@$removeparam=utm_source,domain=51015kids.eu|aliexpress.com|allegro.pl|atlasformen.pl|avans.pl|banggood.com|bonprix.pl|booking.com|buff.pl|carrefour.pl|ccc.eu|converse.pl|decathlon.pl|deichmann.com|desigual.com|douglas.pl|electro.pl|emako.pl|empik.com|eobuwie.com.pl|frisco.pl|gatta.pl|groupon.pl|guess.eu|halfprice.eu|kfc.pl|komputronik.pl|konesso.pl|lidl.pl|lufthansa.com|mediaexpert.pl|mediamarkt.pl|modivo.pl|morele.net|mosquito-sklep.pl|neo24.pl|neonet.pl|nike.com|oleole.pl|peek-cloppenburg.pl|perfumy.pl|pyszne.pl|rentalcars.com|euro.com.pl|runmageddon.pl|rylko.com|semilac.pl|sephora.pl|shopee.pl|smyk.com|taniaksiazka.pl|ticketmaster.pl|tolpa.pl|udemy.com|vistula.pl|wish.com|worldbox.pl|wolczanka.pl|zaful.com|zalando-lounge.pl|zooplus.pl|
+####################################################################################################
+@@$removeparam=utm_medium,domain=51015kids.eu|aliexpress.com|allegro.pl|atlasformen.pl|avans.pl|banggood.com|bonprix.pl|booking.com|buff.pl|carrefour.pl|ccc.eu|converse.pl|decathlon.pl|deichmann.com|desigual.com|douglas.pl|electro.pl|emako.pl|empik.com|eobuwie.com.pl|frisco.pl|gatta.pl|groupon.pl|guess.eu|halfprice.eu|kfc.pl|komputronik.pl|konesso.pl|lidl.pl|lufthansa.com|mediaexpert.pl|mediamarkt.pl|modivo.pl|morele.net|mosquito-sklep.pl|neo24.pl|neonet.pl|nike.com|oleole.pl|peek-cloppenburg.pl|perfumy.pl|pyszne.pl|rentalcars.com|euro.com.pl|runmageddon.pl|rylko.com|semilac.pl|sephora.pl|shopee.pl|smyk.com|taniaksiazka.pl|ticketmaster.pl|tolpa.pl|udemy.com|vistula.pl|wish.com|worldbox.pl|wolczanka.pl|zaful.com|zalando-lounge.pl|zooplus.pl|
+####################################################################################################
+@@$removeparam=utm_campaign,domain=51015kids.eu|aliexpress.com|allegro.pl|atlasformen.pl|avans.pl|banggood.com|bonprix.pl|booking.com|buff.pl|carrefour.pl|ccc.eu|converse.pl|decathlon.pl|deichmann.com|desigual.com|douglas.pl|electro.pl|emako.pl|empik.com|eobuwie.com.pl|frisco.pl|gatta.pl|groupon.pl|guess.eu|halfprice.eu|kfc.pl|komputronik.pl|konesso.pl|lidl.pl|lufthansa.com|mediaexpert.pl|mediamarkt.pl|modivo.pl|morele.net|mosquito-sklep.pl|neo24.pl|neonet.pl|nike.com|oleole.pl|peek-cloppenburg.pl|perfumy.pl|pyszne.pl|rentalcars.com|euro.com.pl|runmageddon.pl|rylko.com|semilac.pl|sephora.pl|shopee.pl|smyk.com|taniaksiazka.pl|ticketmaster.pl|tolpa.pl|udemy.com|vistula.pl|wish.com|worldbox.pl|wolczanka.pl|zaful.com|zalando-lounge.pl|zooplus.pl|
+####################################################################################################
+@@$removeparam=awc,domain=51015kids.eu|aliexpress.com|allegro.pl|atlasformen.pl|avans.pl|banggood.com|bonprix.pl|booking.com|buff.pl|carrefour.pl|ccc.eu|converse.pl|decathlon.pl|deichmann.com|desigual.com|douglas.pl|electro.pl|emako.pl|empik.com|eobuwie.com.pl|frisco.pl|gatta.pl|groupon.pl|guess.eu|halfprice.eu|kfc.pl|komputronik.pl|konesso.pl|lidl.pl|lufthansa.com|mediaexpert.pl|mediamarkt.pl|modivo.pl|morele.net|mosquito-sklep.pl|neo24.pl|neonet.pl|nike.com|oleole.pl|peek-cloppenburg.pl|perfumy.pl|pyszne.pl|rentalcars.com|euro.com.pl|runmageddon.pl|rylko.com|semilac.pl|sephora.pl|shopee.pl|smyk.com|taniaksiazka.pl|ticketmaster.pl|tolpa.pl|udemy.com|vistula.pl|wish.com|worldbox.pl|wolczanka.pl|zaful.com|zalando-lounge.pl|zooplus.pl|
+####################################################################################################
+@@$removeparam=utm_content,domain=51015kids.eu|aliexpress.com|allegro.pl|atlasformen.pl|avans.pl|banggood.com|bonprix.pl|booking.com|buff.pl|carrefour.pl|ccc.eu|converse.pl|decathlon.pl|deichmann.com|desigual.com|douglas.pl|electro.pl|emako.pl|empik.com|eobuwie.com.pl|frisco.pl|gatta.pl|groupon.pl|guess.eu|halfprice.eu|kfc.pl|komputronik.pl|konesso.pl|lidl.pl|lufthansa.com|mediaexpert.pl|mediamarkt.pl|modivo.pl|morele.net|mosquito-sklep.pl|neo24.pl|neonet.pl|nike.com|oleole.pl|peek-cloppenburg.pl|perfumy.pl|pyszne.pl|rentalcars.com|euro.com.pl|runmageddon.pl|rylko.com|semilac.pl|sephora.pl|shopee.pl|smyk.com|taniaksiazka.pl|ticketmaster.pl|tolpa.pl|udemy.com|vistula.pl|wish.com|worldbox.pl|wolczanka.pl|zaful.com|zalando-lounge.pl|zooplus.pl|
+####################################################################################################
+@@$removeparam=utm_term,domain=51015kids.eu|aliexpress.com|allegro.pl|atlasformen.pl|avans.pl|banggood.com|bonprix.pl|booking.com|buff.pl|carrefour.pl|ccc.eu|converse.pl|decathlon.pl|deichmann.com|desigual.com|douglas.pl|electro.pl|emako.pl|empik.com|eobuwie.com.pl|frisco.pl|gatta.pl|groupon.pl|guess.eu|halfprice.eu|kfc.pl|komputronik.pl|konesso.pl|lidl.pl|lufthansa.com|mediaexpert.pl|mediamarkt.pl|modivo.pl|morele.net|mosquito-sklep.pl|neo24.pl|neonet.pl|nike.com|oleole.pl|peek-cloppenburg.pl|perfumy.pl|pyszne.pl|rentalcars.com|euro.com.pl|runmageddon.pl|rylko.com|semilac.pl|sephora.pl|shopee.pl|smyk.com|taniaksiazka.pl|ticketmaster.pl|tolpa.pl|udemy.com|vistula.pl|wish.com|worldbox.pl|wolczanka.pl|zaful.com|zalando-lounge.pl|zooplus.pl|
+####################################################################################################
+@@$removeparam=dclid,domain=51015kids.eu|aliexpress.com|allegro.pl|atlasformen.pl|avans.pl|banggood.com|bonprix.pl|booking.com|buff.pl|carrefour.pl|ccc.eu|converse.pl|decathlon.pl|deichmann.com|desigual.com|douglas.pl|electro.pl|emako.pl|empik.com|eobuwie.com.pl|frisco.pl|gatta.pl|groupon.pl|guess.eu|halfprice.eu|kfc.pl|komputronik.pl|konesso.pl|lidl.pl|lufthansa.com|mediaexpert.pl|mediamarkt.pl|modivo.pl|morele.net|mosquito-sklep.pl|neo24.pl|neonet.pl|nike.com|oleole.pl|peek-cloppenburg.pl|perfumy.pl|pyszne.pl|rentalcars.com|euro.com.pl|runmageddon.pl|rylko.com|semilac.pl|sephora.pl|shopee.pl|smyk.com|taniaksiazka.pl|ticketmaster.pl|tolpa.pl|udemy.com|vistula.pl|wish.com|worldbox.pl|wolczanka.pl|zaful.com|zalando-lounge.pl|zooplus.pl|
+####################################################################################################
