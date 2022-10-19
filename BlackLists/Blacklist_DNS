@@ -11,7 +11,7 @@
 !
 ! Description: X
 !
-! Entries: 351
+! Entries: 352
 !
 ! Updated: 2022.10.18
 !
@@ -53,6 +53,9 @@
 
 ! Fvck off - Snapchat
 0.0.0.0 app-analytics-v2.snapchat.com
+
+! Fvck off - GitHub
+0.0.0.0 collector.github.com
 
 ! Fvck off - Revolut
 0.0.0.0 aqueduct.revolutlabs.com
