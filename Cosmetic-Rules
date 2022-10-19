@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 2234
+! Entries: 2235
 ! [1108 cookies] [120(207) lang cookies] [79(86) spec cookies] [128(130) 3rd part cookies] [415(431) XXX sites] [238 XXX 3rd party] [32 XXX 3rd party pop-ups]
 !
 ! Updated: 2022.10.19
@@ -136,6 +136,7 @@ leagueoflegends.fandom.com###\35 bbe13967e-188-1
 /taboolaArticleHead.
 /taboolaBottomBody.
 /taboolaHead.
+||taboola.com^$third-party
 ||taboolasyndication.com^$third-party
 
 ! Twitter
