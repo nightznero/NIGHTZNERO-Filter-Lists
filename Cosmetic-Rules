@@ -11,10 +11,10 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 2936
+! Entries: 2951
 ! [1108 cookies] [120(207) lang cookies] [79(86) spec cookies] [128(130) 3rd part cookies] [407(431) XXX sites] [238 XXX 3rd party] [32 XXX 3rd party pop-ups] [527 Adult sh1t] [146 Adult pop-ups]
 !
-! Updated: 2022.10.19
+! Updated: 2022.10.21
 !
 ! MIT License
 !
@@ -55,6 +55,9 @@ leagueoflegends.fandom.com##.wds-banner-notification__text
 leagueoflegends.fandom.com##.wds-banner-notification.wds-message.notify
 leagueoflegends.fandom.com###\35 b2d1649b2-188-1
 leagueoflegends.fandom.com###\35 bbe13967e-188-1
+
+! Open.fm
+@@||std.wpcdn.pl^$domain=open.fm
 
 ! Outbrain Elements
 ###around-the-web
@@ -105,6 +108,22 @@ leagueoflegends.fandom.com###\35 bbe13967e-188-1
 /outbrain?
 ||outbrainimg.com^$third-party
 
+! PornReactor.cc
+@@||js.pornreactor.cc^$domain=pornreactor.cc
+@@||img.pornreactor.cc^$domain=pornreactor.cc
+@@||img0.pornreactor.cc^$domain=pornreactor.cc
+@@||img1.pornreactor.cc^$domain=pornreactor.cc
+@@||img2.pornreactor.cc^$domain=pornreactor.cc
+@@||img10.pornreactor.cc^$domain=pornreactor.cc
+
+! Reactor.cc
+@@||js.reactor.cc^$important,domain=reactor.cc
+@@||img.reactor.cc^$domain=reactor.cc
+@@||img0.reactor.cc^$domain=reactor.cc
+@@||img1.reactor.cc^$domain=reactor.cc
+@@||img2.reactor.cc^$domain=reactor.cc
+@@||img10.reactor.cc^$domain=reactor.cc
+
 ! Showup.tv
 @@||showup.tv/files^$domain=showup.tv
 @@||showup.tv/scripts^$domain=showup.tv
@@ -132,6 +151,9 @@ leagueoflegends.fandom.com###\35 bbe13967e-188-1
 @@||showup.tv/fonts^$domain=showup.tv
 ! Blocked by Energized.Pro - Basic
 
+! SpankBang
+@@||assets.sb-cd.com/static^$domain=spankbang.com
+
 ! StartPage
 ||startpage.*^$removeparam=segment
 
@@ -153,6 +175,7 @@ leagueoflegends.fandom.com###\35 bbe13967e-188-1
 ||taboolasyndication.com^$third-party
 
 ! Twitter
+@@||api.twitter.com/1.1/jot/client_event.json$domain=twitter.com
 twitter.com##[style]>div>div>[data-testid=placementTracking]
 twitter.com#@#.ProfileCanopy-card, .u-cf.OpenInAppBar, div:not([aria-labelledby="modal-header"]) .r-18qmn74.r-1vsu8ta.r-1joea0r.r-1777fci.r-1pz39u2.r-obd0qt.css-1dbjc4n > div:not([aria-disabled="true"]), header div[style*="height: calc(53px);"]
 ||api.twitter.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp
