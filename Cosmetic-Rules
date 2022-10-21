@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 2951
+! Entries: 2959
 ! [1108 cookies] [120(207) lang cookies] [79(86) spec cookies] [128(130) 3rd part cookies] [407(431) XXX sites] [238 XXX 3rd party] [32 XXX 3rd party pop-ups] [527 Adult sh1t] [146 Adult pop-ups]
 !
 ! Updated: 2022.10.21
@@ -55,6 +55,16 @@ leagueoflegends.fandom.com##.wds-banner-notification__text
 leagueoflegends.fandom.com##.wds-banner-notification.wds-message.notify
 leagueoflegends.fandom.com###\35 b2d1649b2-188-1
 leagueoflegends.fandom.com###\35 bbe13967e-188-1
+
+! Igg-Games
+igg-games.com###evM
+igg-games.com###XHp
+igg-games.com###dLg
+igg-games.com###wBe
+igg-games.com###Ylq
+igg-games.com###msy
+igg-games.com###yVF
+igg-games.com###LfY
 
 ! Open.fm
 @@||std.wpcdn.pl^$domain=open.fm
