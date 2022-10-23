@@ -13,188 +13,188 @@
 !
 ! Entries: 179
 !
-! Updated: 2022.10.19
+! Updated: 2022.10.23
 !
 ! MIT License
 !
 ! Copyright (c) 2022 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Accuweather 
-@@||vortex.accuweather.com^
+@@||vortex.accuweather.com
 
 ! AMP
-@@||*.ampproject.org^
+@@||*.ampproject.org
 
 ! Apple Music
-@@||itunes.apple.com^
-@@||s.mzstatic.com^
+@@||itunes.apple.com
+@@||s.mzstatic.com
 
 ! Avast
-@@||bugs-bunny.sb.avast.com^
+@@||bugs-bunny.sb.avast.com
 ! Blocked by GoodbyeAds 
 
 ! Betclic
-@@||betclic.pl^
+@@||betclic.pl
 ! Blocked by Energized.Pro - Basic
 
 ! Bing Maps / Microsoft Flight Simulator
-@@||dev.virtualearth.net^
-@@||ecn.dev.virtualearth.net^
-@@||t0.ssl.ak.dynamic.tiles.virtualearth.net^
-@@||t0.ssl.ak.tiles.virtualearth.net^
+@@||dev.virtualearth.net
+@@||ecn.dev.virtualearth.net
+@@||t0.ssl.ak.dynamic.tiles.virtualearth.net
+@@||t0.ssl.ak.tiles.virtualearth.net
 
 ! Blokada.org
-@@||api.blocka.net^
+@@||api.blocka.net
 ! Blocked by Energized.Pro - IPs
 
 ! Buzzfeed
-@@||weaver-api.buzzfeed.com^
-@@||buzzfeed.com^
-@@||img.buzzfeed.com^
-@@||spicerack.buzzfeed.com^
+@@||weaver-api.buzzfeed.com
+@@||buzzfeed.com
+@@||img.buzzfeed.com
+@@||spicerack.buzzfeed.com
 
 ! Canon
-@@||gdlp01.c-wss.com^
+@@||gdlp01.c-wss.com
 
 ! Captcha
-@@||api-verify.recaptcha.net^
+@@||api-verify.recaptcha.net
 
 ! Discord
-@@||cdn.discordapp.com^
+@@||cdn.discordapp.com
 ! Blocked by Energized.Pro - IPs
 
 ! Dropbox
-@@||bolt.dropbox.com^
-@@||dl.dropbox.com^
-@@||dl.dropboxusercontent.com^
+@@||bolt.dropbox.com
+@@||dl.dropbox.com
+@@||dl.dropboxusercontent.com
 
 ! Electronic Arts (EA)
-@@||eaassets-a.akamaihd.net^
+@@||eaassets-a.akamaihd.net
 ! Blocked by GoodbyeAds
 
 ! Epic Games
-@@||tracking.epicgames.com^
+@@||tracking.epicgames.com
 
 ! Facebook [Meta]
-! (For now disabled) @@||graph.facebook.com^
-! (For now disabled) @@||graph-video.facebook.com^
-! (For now disabled) @@||web.facebook.com^
+! (For now disabled) @@||graph.facebook.com
+! (For now disabled) @@||graph-video.facebook.com
+! (For now disabled) @@||web.facebook.com
 ! Blocked by DuckDuckGo Tracker Radar
-! (For now disabled) @@||mqtt-mini.facebook.com^
+! (For now disabled) @@||mqtt-mini.facebook.com
 
 ! Firefox [Mozilla]
-@@||addons.mozilla.org^
+@@||addons.mozilla.org
 
 ! GitHub
-@@||raw.githubusercontent.com^
+@@||raw.githubusercontent.com
 ! Blocked by Energized.Pro - IPs
 
 ! Google
-@@||firebaseinstallations.googleapis.com^
+@@||firebaseinstallations.googleapis.com
 ! Blocked by various lists,and breaking apps cuz its creating unique id
-@@||play-fe.googleapis.com^
+@@||play-fe.googleapis.com
 ! Blocked by Energized.Pro - IPs
 
 ! Google Play Console
-@@||fonts.gstatic.com^
+@@||fonts.gstatic.com
 
 ! GTA Online [Rockstar]
-@@||prod.telemetry.ros.rockstargames.com^
+@@||prod.telemetry.ros.rockstargames.com
 
 ! ImgBox
-@@||images2.imgbox.com^
+@@||images2.imgbox.com
 ! Blocked by Energized.Pro - Regional
 
 ! InShot
-@@||aws.inshot.cc^
+@@||aws.inshot.cc
 ! Blocked by GoodbyeAds n NIGHTZNERO Blacklist
 
 ! Instagram [Meta]
-! (For now disabled) @@||graph.instagram.com^
-@@||i.instagram.com^
+! (For now disabled) @@||graph.instagram.com
+@@||i.instagram.com
 
-# LinkedIn [Microsoft]
-! (For now disabled) @@||licdn.com^$tag=linked-in-embeds
-! (For now disabled) @@||platform.linkedin.com^$tag=linked-in-embeds
+! LinkedIn [Microsoft]
+! (For now disabled) @@||licdn.com
+! (For now disabled) @@||platform.linkedin.com
 
 ! Netflix
-@@||nflximg.com^
-@@||nflxvideo.net^
-@@||llnwd.net^
-@@||nflximg.com^
-@@||secure.netflix.com^
-@@||appboot.netflix.com^
-@@||uiboot.netflix.com^
-@@||api-global.netflix.com^
-@@||ichnaea.netflix.com^
+@@||nflximg.com
+@@||nflxvideo.net
+@@||llnwd.net
+@@||nflximg.com
+@@||secure.netflix.com
+@@||appboot.netflix.com
+@@||uiboot.netflix.com
+@@||api-global.netflix.com
+@@||ichnaea.netflix.com
 
 ! Nvidia GeForce
-@@||events.gfe.nvidia.com^
-@@||gfwsl.geforce.com^
-@@||ota-downloads.nvidia.com^
+@@||events.gfe.nvidia.com
+@@||gfwsl.geforce.com
+@@||ota-downloads.nvidia.com
 
 ! OnePlus OTA updates
-@@||open.oneplus.net^
+@@||open.oneplus.net
 
 ! Opera
-@@||api.recsys.opera.com^
+@@||api.recsys.opera.com
 ! Blocked by 4PDA
-@@||discover.operacdn.com^
+@@||discover.operacdn.com
 ! Blocked by Energized.Pro - Basic
 
 ! Philips Hue
-@@||ecdinterface.philips.com^
+@@||ecdinterface.philips.com
 
 ! Pinterest
-@@||assets.pinterest.com^
-@@||api.pinterest.com^
+@@||assets.pinterest.com
+@@||api.pinterest.com
 
 ! Pixeldrain
-@@||pixeldrain.com^
+@@||pixeldrain.com
 ! Blocked by GoodbyeAds
 
 ! PlayStation 5 (Sony)
-@@||telemetry-console.api.playstation.com^
+@@||telemetry-console.api.playstation.com
 
 ! Plex
-@@||app.plex.tv^
-@@||dashboard.plex.tv^
+@@||app.plex.tv
+@@||dashboard.plex.tv
 
 ! Pornhub
-@@||pornhub.com^
-@@||ss.phncdn.com^
-@@||di.phncdn.com^
-@@||ci.phncdn.com^
-@@||cv-h.phncdn.com^
-@@||cw.phncdn.com^
-@@||ew.phncdn.com^
-@@||hubt.pornhub.com^
-@@||cdn1d-static-shared.phncdn.com^
+@@||pornhub.com
+@@||ss.phncdn.com
+@@||di.phncdn.com
+@@||ci.phncdn.com
+@@||cv-h.phncdn.com
+@@||cw.phncdn.com
+@@||ew.phncdn.com
+@@||hubt.pornhub.com
+@@||cdn1d-static-shared.phncdn.com
 
 ! PornReactor.cc ! Blocked by Energized.Pro - Spark
-@@||img.pornreactor.cc^
-@@||img0.pornreactor.cc^
-@@||img1.pornreactor.cc^
-@@||img2.pornreactor.cc^
-@@||img10.pornreactor.cc^
-@@||js.pornreactor.cc^
+@@||img.pornreactor.cc
+@@||img0.pornreactor.cc
+@@||img1.pornreactor.cc
+@@||img2.pornreactor.cc
+@@||img10.pornreactor.cc
+@@||js.pornreactor.cc
 
 ! Reactor.cc ! Blocked by Energized.Pro - Spark
-@@||img.reactor.cc^
-@@||img0.reactor.cc^
-@@||img1.reactor.cc^
-@@||img2.reactor.cc^
-@@||img10.reactor.cc^
-@@||js.reactor.cc^
+@@||img.reactor.cc
+@@||img0.reactor.cc
+@@||img1.reactor.cc
+@@||img2.reactor.cc
+@@||img10.reactor.cc
+@@||js.reactor.cc
 
 ! Reddit 
-! (For now disabled) @@||accounts.reddit.com^$important
-! (For now disabled) @@||i.reddit.com^$important
-! (For now disabled) @@||redd.it^$important
-! (For now disabled) @@||cdn.embedly.com^$important
+! (For now disabled) @@||accounts.reddit.com
+! (For now disabled) @@||i.reddit.com
+! (For now disabled) @@||redd.it
+! (For now disabled) @@||cdn.embedly.com
 
 ! Samsung
-@@||account.samsung.com^
+@@||account.samsung.com
 
 ! Smart TV
 @@||ngfts.lge.com^
@@ -238,13 +238,13 @@
 @@||api.euro.hismarttv.com^
 
 ! Snapchat
-! (For now disabled) @@||gcp.api.snapchat.com^
-! (For now disabled) @@||bolt-gcdn.sc-cdn.net^
-! (For now disabled) @@||cf-st.sc-cdn.net^
-! (For now disabled) @@||app.snapchat.com^
+! (For now disabled) @@||gcp.api.snapchat.com
+! (For now disabled) @@||bolt-gcdn.sc-cdn.net
+! (For now disabled) @@||cf-st.sc-cdn.net
+! (For now disabled) @@||app.snapchat.com
 
 ! SoundCloud
-@@||s.pwt.soundcloud.com^
+@@||s.pwt.soundcloud.com
 ! Blocked by Energized.Pro - Basic
 
 ! Spotify
@@ -253,45 +253,45 @@
 ! (For now disabled) @@||spclient.wg.spotify.com^
 
 ! TeaTV
-@@||image.tmdb.org^
+@@||image.tmdb.org
 ! Blocked by Energized.Pro - Basic [Hosts]
 
 ! Terabox
-@@||c-all.terabox.com^
+@@||c-all.terabox.com
 ! Blocked by Energized.Pro - IPs
 
 ! The Daily Beast
-@@||thedailybeast.com^
+@@||thedailybeast.com
 ! Don't unbreak their metrics though
-||metrics.thedailybeast.com^
+||metrics.thedailybeast.com
 
 ! TikTok
-@@||tiktoknow.onelink.me^
+@@||tiktoknow.onelink.me
 ! Blocked by Energized.Pro - Basic / GoodbyeAds
 
 ! Twitch.tv
-@@||irc-ws.chat.twitch.tv^
+@@||irc-ws.chat.twitch.tv
 ! Blocked by Energized.Pro - IPs
-@@||api.7tv.app^
+@@||api.7tv.app
 ! Blocked by Energized.Pro - IPs
-@@||cdn.7tv.app^
+@@||cdn.7tv.app
 ! Blocked by Energized.Pro - IPs
-@@||api.betterttv.net^
+@@||api.betterttv.net
 ! Just to being sure nobody list blocks it
-@@||cdn.betterttv.net^
+@@||cdn.betterttv.net
 ! Just to being sure nobody list blocks it
-@@||api.frankerfacez.com^
+@@||api.frankerfacez.com
 ! Blocked by Energized.Pro - IPs
-@@||cdn.frankerfacez.com^
+@@||cdn.frankerfacez.com
 ! Blocked by Energized.Pro - IPs
 
 ! Twitter
-@@||twimg.com^
-! (For now disabled) @@||api.twitter.com^$tag=twitter-embeds
-! (For now disabled) @@||platform.twitter.com^$tag=twitter-embeds
+@@||twimg.com
+! (For now disabled) @@||api.twitter.com
+! (For now disabled) @@||platform.twitter.com
 
 ! Wild Rift [Riot Games]
-@@||lolstatic-a.akamaihd.net^
+@@||lolstatic-a.akamaihd.net
 ! Blocked by GoodbyeAds Spotify
 
 ! Windows [Microsoft]
@@ -310,35 +310,35 @@
 
 ! Xiaomi
 !! Xiaomi Home
-@@||data.sec.miui.com^
+@@||data.sec.miui.com
 ! Blocked by GoodbyeAds
-@@||de.api.io.mi.com^
+@@||de.api.io.mi.com
 ! Blocked by GoodbyeAds
-@@||sts.api.io.mi.com^
+@@||sts.api.io.mi.com
 ! Blocked by GoodbyeAds
 !! Xiaomi Weather (Wearable)
-@@||restapi.amap.com^
-@@||adiu.amap.com^
-@@||digitalassetlinks.googleapis.com^
+@@||restapi.amap.com
+@@||adiu.amap.com
+@@||digitalassetlinks.googleapis.com
 
 ! X-kom
-@@||mobileapi.x-kom.pl^
-@@||cdn.x-kom.pl^
+@@||mobileapi.x-kom.pl
+@@||cdn.x-kom.pl
 ! Blocked by Energized.Pro - IPs
 
 ! YouTube [Google] ! Blocked by various lists
-@@||youtu.be^
-@@||s.youtube.com^
-@@||i.ytimg.com^
-@@||youtubei.googleapis.com^
-! (For now disabled) @@||video-stats.l.google.com^
-! (For now disabled) @@||play.googleapis.com^
-! (For now disabled) @@||googlevideo.com^
+@@||youtu.be
+@@||s.youtube.com
+@@||i.ytimg.com
+@@||youtubei.googleapis.com
+! (For now disabled) @@||video-stats.l.google.com
+! (For now disabled) @@||play.googleapis.com
+@@||redirector.googlevideo.com
 
 ! Zbiornik
-@@||zbiornik.com^
+@@||zbiornik.com
 ! Blocked by GoodbyeAds
 
 ! Żappka [Żabka]
-@@||snrcdn.net^
+@@||snrcdn.net
 ! Blocked by Energized.Pro - Basic
