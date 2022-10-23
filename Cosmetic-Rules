@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 2960
+! Entries: 2964
 ! [1108 cookies] [120(207) lang cookies] [79(86) spec cookies] [128(130) 3rd part cookies] [407(431) XXX sites] [238 XXX 3rd party] [32 XXX 3rd party pop-ups] [527 Adult sh1t] [146 Adult pop-ups]
 !
 ! Updated: 2022.10.23
@@ -65,6 +65,10 @@ igg-games.com###Ylq
 igg-games.com###msy
 igg-games.com###yVF
 igg-games.com###LfY
+
+! LinkedIn [Microsoft]
+@@||licdn.com^$tag=linked-in-embeds
+@@||platform.linkedin.com^$tag=linked-in-embeds
 
 ! Open.fm
 @@||std.wpcdn.pl^$domain=open.fm
@@ -186,6 +190,8 @@ igg-games.com###LfY
 
 ! Twitter
 @@||api.twitter.com/1.1/jot/client_event.json$domain=twitter.com
+@@||api.twitter.com^$tag=twitter-embeds
+@@||platform.twitter.com^$tag=twitter-embeds
 twitter.com##[style]>div>div>[data-testid=placementTracking]
 twitter.com#@#.ProfileCanopy-card, .u-cf.OpenInAppBar, div:not([aria-labelledby="modal-header"]) .r-18qmn74.r-1vsu8ta.r-1joea0r.r-1777fci.r-1pz39u2.r-obd0qt.css-1dbjc4n > div:not([aria-disabled="true"]), header div[style*="height: calc(53px);"]
 ||api.twitter.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp
