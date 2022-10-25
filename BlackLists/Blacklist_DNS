@@ -11,9 +11,9 @@
 !
 ! Description: X
 !
-! Entries: 20917
+! Entries: 20919
 !
-! Updated: 2022.10.19
+! Updated: 2022.10.25
 !
 ! MIT License
 !
@@ -83,15 +83,20 @@
 0.0.0.0 pixel6.wp.pl
 
 ! Fvck off - Trackers
+!! Branch.io
 0.0.0.0 branch.io
 0.0.0.0 api.branch.io
 0.0.0.0 api2.branch.io
 0.0.0.0 cdn.branch.io
+!! adjust
 0.0.0.0 adjust.com
 0.0.0.0 adjust.net.in
 0.0.0.0 adjust.world
 0.0.0.0 adjust.io
 0.0.0.0 appsflyer.com
+!! Umeng
+0.0.0.0 ulogs.umeng.com
+0.0.0.0 ulogs.umengcloud.com
 
 ! Fvck off - Jump Scares
 0.0.0.0 pnrtscr.com
