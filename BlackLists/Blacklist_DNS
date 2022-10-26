@@ -11,15 +11,17 @@
 !
 ! Description: X
 !
-! Entries: 20919 21 379
+! Entries: 21 379
 !
-! Updated: 2022.10.25
+! Updated: 2022.10.27
 !
 ! MIT License
 !
 ! Copyright (c) 2022 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-0.0.0.0 0.0.0.0 
+! Fvck off - Attribute
+0.0.0.0 0.0.0.0
+
 ! Fvck off - Google
 0.0.0.0 ad.doubleclick.net
 0.0.0.0 app-measurement.com
