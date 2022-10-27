@@ -11,7 +11,7 @@
 !
 ! Description: X
 !
-! Entries: 21 379
+! Entries: 21 380
 !
 ! Updated: 2022.10.27
 !
@@ -85,6 +85,8 @@
 0.0.0.0 pixel6.wp.pl
 
 ! Fvck off - Trackers
+0.0.0.0 appsflyer.com
+0.0.0.0 beacons5.gvt3.com
 !! Branch.io
 0.0.0.0 branch.io
 0.0.0.0 api.branch.io
@@ -95,7 +97,6 @@
 0.0.0.0 adjust.net.in
 0.0.0.0 adjust.world
 0.0.0.0 adjust.io
-0.0.0.0 appsflyer.com
 !! Umeng
 0.0.0.0 ulogs.umeng.com
 0.0.0.0 ulogs.umengcloud.com
