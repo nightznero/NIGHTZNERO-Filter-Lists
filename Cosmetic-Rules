@@ -11,10 +11,10 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 2970
+! Entries: 2971
 ! [1108 cookies] [120(207) lang cookies] [79(86) spec cookies] [128(130) 3rd part cookies] [407(431) XXX sites] [238 XXX 3rd party] [32 XXX 3rd party pop-ups] [527 Adult sh1t] [146 Adult pop-ups]
 !
-! Updated: 2022.10.27
+! Updated: 2022.10.30
 !
 ! MIT License
 !
@@ -139,6 +139,7 @@ igg-games.com###LfY
 @@||img10.reactor.cc^$domain=reactor.cc
 
 ! Showup.tv
+@@||showup.tv/site/log_in$domain=showup.tv
 @@||showup.tv/files^$domain=showup.tv
 @@||showup.tv/scripts^$domain=showup.tv
 @@||j01.showup.tv^$domain=showup.tv
