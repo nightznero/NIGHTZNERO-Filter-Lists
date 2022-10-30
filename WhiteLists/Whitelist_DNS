@@ -11,9 +11,9 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 179
+! Entries: 180
 !
-! Updated: 2022.10.23
+! Updated: 2022.10.30
 !
 ! MIT License
 !
@@ -195,6 +195,11 @@
 
 ! Samsung
 @@||account.samsung.com
+
+! Showup.tv
+@@||showup.tv
+! Blocked by Energized.Pro - Basic [Hosts]
+
 
 ! Smart TV
 @@||ngfts.lge.com^
