@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 2974
+! Entries: 2975
 ! [1108 cookies] [120(207) lang cookies] [79(86) spec cookies] [128(130) 3rd part cookies] [407(431) XXX sites] [238 XXX 3rd party] [32 XXX 3rd party pop-ups] [527 Adult sh1t] [146 Adult pop-ups]
 !
 ! Updated: 2022.10.31
@@ -121,6 +121,10 @@ igg-games.com###LfY
 /outbrain/base?
 /outbrain?
 ||outbrainimg.com^$third-party
+
+! PixelDrain
+@@||pixeldrain.com^
+! Blocked by GoodbyeAds
 
 ! PornReactor.cc
 @@||js.pornreactor.cc^$domain=pornreactor.cc
