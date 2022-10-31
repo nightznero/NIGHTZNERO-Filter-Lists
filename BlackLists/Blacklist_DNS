@@ -11,9 +11,9 @@
 !
 ! Description: X
 !
-! Entries: 21 380
+! Entries: 21 381
 !
-! Updated: 2022.10.27
+! Updated: 2022.10.31
 !
 ! MIT License
 !
@@ -73,6 +73,11 @@
 ! Fvck off - Snaptube
 0.0.0.0 api.ad-snaptube.app
 
+! Fvck off - wp (Wirtualna Polska)
+0.0.0.0 v.wpimg.pl
+0.0.0.0 pixel.wp.pl
+0.0.0.0 pixel6.wp.pl
+
 ! Fvck off - Ads
 0.0.0.0 syndication.exdynsrv.com
 0.0.0.0 a.exdynsrv.com
@@ -81,8 +86,6 @@
 0.0.0.0 adsessionserv.com
 0.0.0.0 fgn.cdn.serverable.com
 0.0.0.0 mcdlks.com
-0.0.0.0 v.wpimg.pl
-0.0.0.0 pixel6.wp.pl
 
 ! Fvck off - Trackers
 0.0.0.0 appsflyer.com
