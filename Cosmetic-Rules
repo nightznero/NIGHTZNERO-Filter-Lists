@@ -200,7 +200,7 @@ twitter.com#@#.ProfileCanopy-card, .u-cf.OpenInAppBar, div:not([aria-labelledby=
 
 ! wp.pl [Wirtualna Polska]
 @@||1login.wp.pl^$domain=profil.wp.pl
-@@||std.wpcdn.pl^$domain=profil.wp.pl
+@@||std.wpcdn.pl^$domain=profil.wp.pl|1login.wp.pl
 ! Blocked by uBlock Origin - Quick Fixes
 
 ! Youtube
