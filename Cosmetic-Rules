@@ -11,8 +11,8 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 2982
-! [1108 cookies] [120(207) lang cookies] [79(86) spec cookies] [128(130) 3rd part cookies] [407(431) XXX sites] [238 XXX 3rd party] [32 XXX 3rd party pop-ups] [527 Adult sh1t] [146 Adult pop-ups]
+! Entries: 2990
+! [1118 cookies] [120(207) lang cookies] [79(86) spec cookies] [128(130) 3rd part cookies] [407(431) XXX sites] [238 XXX 3rd party] [32 XXX 3rd party pop-ups] [527 Adult sh1t] [146 Adult pop-ups]
 !
 ! Updated: 2022.11.03
 !
@@ -478,6 +478,7 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse
 /consent/message.
 /consent_banner-
 /consent_non-eu.
+/consentbanner-fragment/*
 /consentcookie.js
 /consentcookie.min.js
 /ConsentTracking-
@@ -699,7 +700,9 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse
 /cookielaw_mip.
 /cookielawinfo.$~script
 /CookieLawProduct/*
+/cookielay.js
 /cookielayer/*
+/cookielayover.
 /cookielegal.
 /cookieloi.
 /cookiemanagement.js
@@ -850,6 +853,7 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse
 /divascookies_
 /diyscmp.min.js
 /dkmb_gdpr.
+/dock-privacy-settings.
 /DonCookie.min.js
 /donotviewcookiemsg.
 /dotbandeaucookie/*
@@ -926,6 +930,7 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse
 /gdpr-banner/*
 /gdpr-bundle.
 /gdpr-cmp-
+/gdpr-compliance.js
 /gdpr-consent-
 /gdpr-consent.
 /gdpr-consent/*
@@ -1130,6 +1135,7 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse
 /onetrustConsent.js
 /onpc-rgpd/*
 /opendotcom-cookie/*
+/opnWidget.js
 /opt-in-select/cookie/*
 /optInCookieGdprSSR.
 /otBannerSdk.js$domain=avast.com|avg.com|coca-cola-deutschland.de|coca-cola.co.uk|coca-cola.dk|coca-cola.pl|dhl.com|elmundo.es|gusto.at|mendeley.com|mintos.com|pons.com|thetrainline.com|washingtonpost.com
@@ -1181,6 +1187,7 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse
 /pum-site-scripts.
 /pwcookielaw.js
 /pxpcookies.
+/qc-consent.js
 /quantastCmp.js
 /rb/cookie/*
 /rbicookiepolicy.
@@ -1297,6 +1304,7 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse
 /wkp_cookies.js
 /woody-addon-cookies/*
 /wp-content/plugins/cookiemedia/*
+/wp-content/plugins/cookies-and-content-security-policy
 /wp-content/plugins/rodo
 /wp-content/plugins/zigcookie/*
 /wp-cookie-allow/*$script,stylesheet
