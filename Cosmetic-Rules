@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 195
+! Entries: 226
 !
 ! Updated: 2022.11.03
 !
@@ -140,6 +140,39 @@ igg-games.com###LfY
 @@||img1.reactor.cc^$domain=reactor.cc
 @@||img2.reactor.cc^$domain=reactor.cc
 @@||img10.reactor.cc^$domain=reactor.cc
+
+! RedTube
+redtube.com###eu_cookie_disclaimer
+redtube.com###paid_tabs_list
+redtube.com##.top_popular_category.clearfix
+redtube.com###show_page_streamate
+redtube.com###ab_banner
+redtube.com###content_container > div.search_results_streamate.clearfix:nth-child(6)
+redtube.com##.ane0q62003bmv.clearfix
+redtube.com##.l676v.clearfix
+redtube.com##.xt18vnore08bjy2v.clearfix
+redtube.com##.wj17iv.clearfix
+redtube.com##.skedov.clearfix
+redtube.com##.ane0q62003bmr.ane0q62003bmu.hd
+redtube.com##.l676r.l676u.hd
+redtube.com##.xt18vnore08bjy2r.xt18vnore08bjy2u.hd
+redtube.com##.skedor.skedou.hd
+redtube.com##.v6l8r6f
+redtube.com##.t57idio53h6m50ww.t57idio53h6m50wc
+redtube.com##.igsymlycaw
+redtube.com##.rcs2wy1aggi267cof
+redtube.com##.wuufdomhiv
+redtube.com##.lelyjskmai
+redtube.com##.mgsniizodc
+redtube.com##.lg8unlozng1kuf
+redtube.com##.x26fddf
+redtube.com##.vhlcu54qu4kp6w.vhlcu54qu4kp6c
+redtube.com##.crdawlldykegw.crdawlldykegc
+redtube.com##.ucy2oah4t4kw.ucy2oah4t4kc
+redtube.com##.j53ml3w.j53ml3c
+redtube.com##.tbsamrv7qv3f
+redtube.com##.kze9tw.kze9tc
+redtube.com##.uf9iw7uaw.uf9iw7uac
 
 ! Showup.tv
 @@||showup.tv/site/log_in$domain=showup.tv
