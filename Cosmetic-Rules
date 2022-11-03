@@ -244,7 +244,7 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse
 @@||zbiornik.com/zbiornik.css?6$domain=zbiornik.com
 @@||zbiornik.com/zbiornik.js?6$domain=zbiornik.com
 @@||zbiornik.com/tmp-ps^$domain=zbiornik.com
-@@||c5.zbiornik.com/AntMediaZbiornik^$domain=zbiornik.com
+@@||zbiornik.com^$domain=c1.zbiornik.com/AntMediaZbiornik^|c2.zbiornik.com/AntMediaZbiornik^|c3.zbiornik.com/AntMediaZbiornik^|c4.zbiornik.com/AntMediaZbiornik^|c5.zbiornik.com/AntMediaZbiornik^|c6.zbiornik.com/AntMediaZbiornik^|c7.zbiornik.com/AntMediaZbiornik^|c8.zbiornik.com/AntMediaZbiornik^|c9.zbiornik.com/AntMediaZbiornik^|c10.zbiornik.com/AntMediaZbiornik^
 
 
 ! Default
