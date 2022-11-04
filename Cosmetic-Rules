@@ -11,14 +11,428 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 232
+! Entries: 640
 !
-! Updated: 2022.11.03
+! Updated: 2022.11.04
 !
 ! MIT License
 !
 ! Copyright (c) 2022 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Anti AdBlock Enhanced+
+&crc=1|$xmlhttprequest,third-party
+&dev=r&adb=y|$document
+.com/1?z=$script,third-party
+.com/2?z=$script,third-party
+.com/a.js|$script,~third-party
+.com/add.php|$xmlhttprequest,third-party
+.com/custom|$xmlhttprequest,third-party
+.com/e/fp.js|$~third-party
+.com/embed/*&subAffId=$script,third-party
+.com/event|$xmlhttprequest,third-party
+.com/fr.js|$~third-party
+.com/go/go.js|$script,~third-party
+.com/js/initsite.js|$~third-party
+.com/jsb/js_script.js|$~third-party
+.com/npt/banner/*&psprogram=$image,third-party
+.com/pup.php?section=$script,third-party
+.com/script/compatibility.js|$third-party
+.com/script/intrf.js|$third-party
+.com/script/ippg.js|$third-party
+.com/script/suv4r.js|$third-party
+.com/sfp.js|$script,third-party
+.com/slider.php?section=$script,third-party
+.com/v.js?v=3|$~third-party
+.info/drive.js?sid=$script,third-party
+.net/custom|$xmlhttprequest,third-party
+.net/event|$xmlhttprequest,third-party
+.net/js/popup.js?v=1.$script,~third-party
+.net/js/popup.js?ver=1.$script,~third-party
+.org/script/compatibility.js|$third-party
+.xyz/h/?$script,third-party
+/\.xxx\/re(?:k|tr)\/[0-9a-z]{4,6}\.js$/$script,~third-party,match-case
+/\/js\/\d{3}eka\d{2,3}\.js$/$script,~third-party
+/\/nb\/[a-z]{4}\.js$/$script,~third-party,match-case
+/\/v\d\/a\/[a-z]{2,3}\/js\/\d{5,6}/$script,third-party
+/\/wp-content\/uploads\/[a-z]{6,9}\.js(?:\?ver=[.0-9]+|,qver=[.0-9]+\.pagespeed\..+\.js)$/$script,~third-party
+/\/wp-content\/uploads\/[a-zA-Z]{12}\/[a-zA-Z]{12}\.js(?:\?ver=[.0-9]+|,qver=[.0-9]+\.pagespeed\..+\.js)$/$script,~third-party
+/?rb=*&zoneid=$xmlhttprequest,popup,third-party
+/\/[A-Z]\/[-0-9a-z]{5,}\.com\/(?:[0-9a-f]{2}\/){3}[0-9a-f]{32}\.js$/$script,~third-party,match-case
+/^https:\/\/(?:cdn77\.)?aj[0-9a-z]{2}\d{2}\.online\/[0-9a-z]{8}\.js$/$script,third-party
+/^https:\/\/(?:[a-z]{2}\.)?[a-z]{10,14}\.(?:com|casa|website)\/[a-z]{2,3}\/\d{5}\?md=[%0-9a-zA-Z]{900,}(?:&cr=\d{5})?$/$xmlhttprequest,third-party
+/^https:\/\/1ts\d{2}\.top\/show\.php$/$script,third-party
+/^https:\/\/\d{4}\.[a-z]{10}\.name\/[-_0-9a-zA-Z]{90,}\?_=\d+/$script,third-party
+/^https:\/\/aj[0-9a-z]{2}\d{2}\.online\/\S{100,}$/$xmlhttprequest,third-party
+/^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$script,third-party
+/^https:\/\/[-a-z]{8,15}\.(?:com|net)\/500\/\d{7}\?/$xmlhttprequest,third-party
+/^https:\/\/[-a-z]{8,15}\.(?:com|net)\/40[01]\/\d{7}$/$script,third-party
+/^https:\/\/[a-z]{6,10}\.com\/script\/n[a-z]su\.js$/$script,third-party
+/^https:\/\/[a-z]{8}\.com\/sdk\.js\?sid=[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/$script,third-party
+/^https:\/\/[a-z]{8}\.xyz\/main\.js$/$script,third-party
+/^https:\/\/[a-z]{10,14}\.(?:c[ao][ms]a?|fun)\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xmlhttprequest,third-party
+/^https:\/\/[a-z]{10,14}\.casa\/tsk\/[\*_0-9a-zA-Z]{600,}$/$image,third-party
+/^https?:\/\/www\.[0-9a-z]{5,11}\.(?:com|name)\/ok\/ok\.js$/$script,~third-party,match-case
+/^https?:\/\/[-0-9a-z]{4,}\.[a-z]{2,7}(\.[a-z]{2})?\/apis-\d\.js(\?v=\d)?$/$script,~third-party
+/^https?:\/\/[a-z-]{6,16}\.(?:com?|pro|info|xyz)\/[acd][-\.\/_A-Za-z][DHWm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6wyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$script,xmlhttprequest,third-party,match-case
+/^https?:\/\/[a-z]{8,15}\.(?:com|net|top|xyz)(\/(?:\d{1,5}|0NaN|articles?|browse|index|movie|news|pages?|static|view|web|wiki)){1,4}(?:\.html|\/)$/$subdocument,third-party,match-case
+/^https:\/\/[a-z]{8,15}\.xyz\/[%0-9a-zA-Z]{170,}$/$script,third-party
+/^https:\/\/[a-z]{8,15}\.com\/(?:beta|gamma|omega)\/\d{3,4}$/$xmlhttprequest,third-party
+/^https:\/\/[a-z]{8}\.net\/1\/\d{7}\/\?var=/$popup,third-party
+/^https?:\/\/(?:ak\.)?[a-z]{6,12}\.(?:com|net)\/4\/\d{7}/$document,subdocument,popup
+/^https?:\/\/[a-z]{6,15}\.(?:com|net|top|xyz)\/1\/\d{7}\/\?var=\d{7}&/$document,popup
+/^https?:\/\/[a-z]{8,15}\.(?:com|net)\/5\/\d{7}(?:\?_=\d+)?$/$script,third-party
+/^https?:\/\/[a-z]{8,15}\.(?:com|net)\/tag\.min\.js$/$script,third-party
+/1clkn/*$script
+/a/ban/iframe/*
+/a/isv/js/*
+/a/na/js/*?container=$script,third-party
+/a/prl/vst/*
+/a/vsl/vst/*
+/ab/thejsfile.js
+/ajax/banner/list?page=$xmlhttprequest,~third-party
+/api/pop.php$xmlhttprequest,~third-party
+/api/spots/*&ev$script
+/api/spots/*&fill=$xmlhttprequest
+/api/spots/*?s1=$script,third-party
+/apw.hh?$document,subdocument,popup
+/asset/angular.min.js?t=$xmlhttprequest,~third-party
+/asset/jquery/slim-3.2.min.js?*&t=$xmlhttprequest,~third-party
+/asset/vue.min.js?ts=1&_=$xmlhttprequest,~third-party
+/bens/vinos$script
+/ceef/gdt3g0/tbt/*$xmlhttprequest,third-party
+/click?pid=*&sub1=$popup,third-party
+/clientscript/popcode_v4.js$~third-party
+/clientscript/poptrigger_v5.js$~third-party
+/code/pops.js?h=
+/code/silent.js?h=
+/dgfp/frdsj58hg/*$script,third-party
+/eab/eab_fl.js
+/em/*/ip.js|$script,third-party
+/exoclick.js
+/exzUndSJBH.js*|$script,~third-party
+/fac.php$subdocument,third-party
+/feed/?zid=*&ver=1&cnt=1|$xmlhttprequest,third-party
+/files/js/ab.v11.js|$script,~third-party
+/ftt2/js.php|$script,~third-party
+/fv.js?t=*&cb=$third-party
+/fyckld0t/ckp/fd3w4/*$script,third-party
+/get/*.js#ns=bullads|$third-party
+/glx_*.js$script
+/goclick?t=every_$script,third-party
+/js/bxsp.js|$~third-party
+/js/popec.js|$~third-party
+/js/ppndr.
+/jsa.hh?$script,~third-party
+/jss/external_pop.js?$~third-party
+/lvesnk.html?zoneid=
+/mbp/pre/*$script,third-party
+/mnpw3.js
+/ms/*/inpage.js|$script,third-party
+/multi?cs=$xmlhttprequest,third-party
+/myvids/rek/*$script,subdocument,~third-party
+/myvids/show.php$subdocument,~third-party
+/nb/f_ls.js
+/nb/fe_ld.js
+/nb/nb_script.js
+/ntv.json?key=$xmlhttprequest,third-party
+/out/300x250.php#$subdocument
+/out/b.html#$subdocument,~third-party
+/player/html.php?aid=*_html&video_id=*&referer=$subdocument,~third-party
+/player/plugins/vast-*.js$script
+/plugins/poppy/poppy.js$third-party
+/pn21ywqw/z/sc/scssx/*$script,third-party
+/pop1.js|$script,~third-party
+/pop_8/pop_8_$script,~third-party
+/preroll.engine?id=$xmlhttprequest,third-party,redirect=nooptext
+/pub?id=$script,third-party
+/rci?tr=false^$xmlhttprequest,third-party
+/rdrr/renderer.js$script,third-party
+/ren.gif?sid=$image,third-party
+/rek/?s=1|$script,~third-party
+/retr/?s=1|$script,~third-party
+/rtbfeed.php?$image,third-party
+/s/s/custom.php?dw=
+/s/s/js/m/im.js?v=
+/s/s/sup.php
+/safu/safu.js
+/sc4fr/rwff/f9ef/*$script,third-party
+/script/atg.js
+/script/native_render.js
+/script/native_server.js
+/script/preurl.php?r=
+/script/su.js$script,third-party
+/script/wait.php?q=$xmlhttprequest,third-party
+/serve/show.php?a=$subdocument,third-party
+/sppc.php|$script,third-party
+/ssp/req/*/?pb=$script,third-party
+/sweetie/hello.min.js?id=$script,third-party
+/t.js?i=*&cb=$script,third-party
+/t/9/heis/svewg/*$script,third-party
+/tag?zone_id=$script,third-party
+/tmp/?s=1|$script,~third-party
+/ts.php?$xmlhttprequest,third-party
+/uthnafrwy.js
+/utx?cb=$xmlhttprequest,third-party
+/utx?tid=$xmlhttprequest,third-party
+/v2/a/push/js/*$script,third-party
+/vast.php?p=$xmlhttprequest,third-party
+/watchnew?key=$subdocument,third-party
+/wcm/?sh=$script,third-party
+/wrapper/cwrapper.min.js?v=$third-party
+/yzfdmoan.js
+/zlk/zlk.js
+://a.*/posty?id=$script,third-party
+://a.*/static?r=$script,third-party
+://a.*/warp/$script,third-party
+://a.*/warpim?id=$script,third-party
+://go.*.com/?userId=$subdocument,third-party
+://go.*/api/models?userId=$xmlhttprequest
+://go.*/i?tag=$subdocument,third-party
+://go.*/smartpop/$subdocument,third-party
+?a=1&e=*&if=0|$xmlhttprequest,third-party
+?adl=1&id=$script,~third-party
+?bpem=*&refer=$popup,third-party
+?gcflkd=*&key=$popup,third-party
+?key=*&psid=https://$popup,third-party
+?oo=1^$xmlhttprequest,third-party
+?spot_id=*&psid=https://$popup,third-party
+?var=1&psid=https://$popup,third-party
+?wl=0&event_id=$xmlhttprequest,third-party
+_spot_id=*&zone_id=$script,~third-party
+=%*&v=&m=|$popup
+=eyJ.js^$script
+###ad_300:not([style^="position: absolute; left: -5000px"])
+###ad_728:not([style^="position: absolute; left: -5000px"])
+###ad_area:not([style^="position: absolute; left: -5000px"])
+###ad_big:not([style^="position: absolute; left: -5000px"])
+###ad_box:not([style^="position: absolute; left: -5000px"])
+###ad_footer:not([style^="position: absolute; left: -5000px"])
+###ad_slot:not([style^="position: absolute; left: -5000px"])
+~streetinsider.com###ad_space:not([style^="position: absolute; left: -5000px"])
+###adframe:not(frameset):not([style^="position: absolute; left: -5000px"])
+###adheader:not([style^="position: absolute; left: -5000px"])
+###ads-1:not([style^="position: absolute; left: -5000px"])
+###ads-banner:not([style^="position: absolute; left: -5000px"])
+###ads-footer:not([style^="position: absolute; left: -5000px"])
+###adslot:not([style^="position: absolute; left: -5000px"])
+~ma-bank.net,~video.tv-tokyo.co.jp###adspace:not([style^="position: absolute; left: -5000px"])
+###adsquare:not([style^="position: absolute; left: -5000px"])
+###adtagfooter:not(:empty)
+###banner468:not([style^="position: absolute; left: -5000px"])
+###banner728x90:not([style^="position: absolute; left: -5000px"])
+###iqadtile5:not(:empty)
+###rvt-inline-0
+###rvt-inline-1
+##.ad-300x250:not(.ads)
+~backcar.fr,~flat-ads.com,~job.inshokuten.com##.ad-content:not(:empty)
+##.ad-left:not(.adsbox)
+##.ad-link:not(.adsbox)
+##.ad-loading:not(.adsbox)
+##.ad-marker:not(.adsbox)
+##.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
+##.ad-placement:not(.adsbox):not(.afs_ads):not(#ablockercheck)
+##.ad-refresh:not(.adsbox)
+##.ad-unit:not(.text-ad)
+##.adBanner:not(:empty):not(.testAd):not(#wrapfabtest > .adBanner)
+~hdfcbank.com##.adbanner:not(#rb-adbanner)
+##.ad_unit:not(.text-ad)
+##.adde_modal_detector
+##.adde_modal-overlay
+##.google-ad:not(.testAd)
+##.href_
+##a#mobile_pop.js-mob-popup
+##a[dont][style$="position: absolute; z-index: 2147483647;"]
+##a[href^="//"][rel="nofollow norefferer noopener"][style*="position: fixed;"][style*="height:"][style*="width:"][style*="inset:"][style*="z-index:"]
+##a[id][href*="/PVZ/PVZ.php?c="]
+##a[style="position: absolute; inset: 0px; display: block;"][href*="?promo="][target="_blank"]
+##body > div[class][style*="bottom: 0px; left: 0px;"][style*="z-index:"][style*="background-color:"][style*="display: flex; justify-content: center;"]
+##div[id][style^="position: fixed; inset: 0px; z-index: 2147483647; background: black none repeat scroll 0% 0%; opacity: 0.01"]
+##div[style="position: absolute; inset: 0px; overflow: hidden; z-index: 160; background: transparent none repeat scroll 0% 0%; display: block;"]
+##div[style^="position: fixed; display: block"][style*="inset: 0px;"][style*="background-color: rgba(0, 0, 0, 0)"][style*="z-index"][style*="height: 100%"][style*="width: 100%"]
+##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
+##div[style^="z-index: 2147483647 !important; position: fixed !important; width: 420px !important; height:"]
+##div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"]
+##iframe[class][scrolling=no][sandbox="allow-same-origin allow-scripts allow-popups"][style*="z-index: 2147483647; position: fixed"]
+##iframe[style*="opacity: 1 !important; max-width:"][style*="position: fixed !important; display: block !important; z-index: 2147483647 !important; inset:"]
+##iframe[style*="z-index: 2147483647; min-width: 240px !important; display: block !important; max-width:"]
+##iframe[style^="width: 100% !important; height: 100% !important; margin: 0px; padding: 0px"][style$="overflow: hidden; z-index: 2147483647;"]
+##in-page-message[id][doskip]
+##ins[style*="cursor:"][style*="user-select: none;"][style*="z-index:"]
+#$#.div-gpt-ad { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
+~anydebrid.com,~colonist.io,~ff14angler.com,~downloads.descendant.me,~hotdebrid.com,~html5.gamedistribution.com,~paraphraser.io,~sekai-kabuka.com,~tamrieltradecentre.com,~teemo.gg,~xtremestream.co#$#ins.adsbygoogle { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
+#$#[class^="div-gpt-ad"] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
+~dropgalaxy.com,~kurashiru.com,~saitama-np.co.jp#$#[id^="div-gpt-ad"] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
+#$#div[id^="div-gpt-"]:not([id^="div-gpt-ad"]) { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
+-prebid.$script,badfilter
+.com/ads.$subdocument,redirect-rule=noopframe
+.tv/ads.$xmlhttprequest,redirect-rule=prebid-ads
+/ad_ads_advert_advertisement_adform_pub_300x250.png$image,xmlhttprequest,redirect-rule=1x1-transparent.gif
+/adblock_detector.$script,redirect-rule=noopjs
+/adblockdetect/*$~image,badfilter
+/addons/ads/*$script,redirect-rule=prebid-ads
+/ads-prebid.js$script,redirect-rule=prebid-ads
+/ads.css$badfilter
+/ads.html$subdocument,redirect-rule=noopframe
+/ads/dfp/banner300x250/ads.js$xmlhttprequest,redirect-rule=1x1-transparent.gif
+/adsEnd.$badfilter
+/adsense1.$badfilter
+/popunder_$script,redirect-rule=noopjs
+/player/stats.php?$image,1p,redirect-rule=1x1.gif
+/prebid-add.js$script,redirect-rule=prebid-ads
+/prebid-ads.js$script,redirect-rule=prebid-ads,domain=~exey.io
+/px.gif?$image,redirect-rule=1x1-transparent.gif
+@@/\/js\/[_0-9a-zA-Z]{4,12}\/(?:ad[-a-z]{4}|bannerpump|nugg\.min|transad|[a-z]{2}ads|[a-z]{3}-(?:adscript|inspire-ad|rail-ads))\.js\?_v=[0-9a-f]{8}$/$script,~third-party
+@@/ad/banner/_adsense_/_adserver/_adview_.ad.js$script,xmlhttprequest,~third-party
+@@/ads-prebid.js$script,~third-party
+@@/adsense.js?adsdata=$script,~third-party
+@@/adv/ads/popunder.js?$script,~third-party
+@@/adview_pic_cpc_cpm_cpa_guanggao_gg_ads_300x250.js|$script,~third-party
+@@/design/relaunch/gfx/elitepartner_|$script,third-party
+@@/dh-anti-adblocker/assets/js/ads-prebid.js?
+@@/dnsads.js?dfp=$script,~third-party
+@@/inc/embed/ads.js|$script,~third-party
+@@/includes/ads/js/ads.js|$script,~third-party
+@@/js/ad_pop.js|$other,script,~third-party
+@@/js/adsense_callback.js|$script,~third-party
+@@/js/adv/fuckadblock.js?$script,~third-party
+@@/libs/advertisement.js?ad_ids=*&show_ad=$script,~third-party
+@@/player/player_ads.html?advertising_id=$subdocument,~third-party
+@@/prebid-ads.js$script,xmlhttprequest,~third-party
+@@/shared/bannerpages/darttagsbanner.aspx?h=$script,third-party
+@@/site_ads.js?ad_slot=*&ad_ids=$script,~third-party
+@@/static/image/ad_top_bg2.png?&ad_box_=$image,~third-party
+@@/wp-content/plugins/imedia-basic/adserver-$script,~third-party
+@@/wp-content/plugins/quick-adsense-reloaded/assets/js/ads.js
+@@/wp-content/plugins/wordpress-popup/assets/js/adb.min.js?$script,~third-party
+@@||crunchyroll.adclixx.net/vast?fg=$script
+@@||crunchyroll.adnetasia.com/vast?fg=$script
+@@||crunchyroll.adtrackers.net/vast?fg=$script
+@@||crunchyroll.bannertrack.net/vast?fg=$script
+@@||fundingchoicesmessages.google.com^$script,domain=bbc.com|soranews24.com|youpouch.com
+@@||g.adspeed.net/ad.php?do=detectadblocker|$script
+@@||ox-d.adclixx.net/auid=$script
+@@||ox-d.adnetasia.com/auid=$script
+@@||ox-d.adtrackers.net/auid=$script
+@@||ox-d.bannertrack.net/auid=$script
+@@||serve.adclixx.net/promoload?d=$script
+@@||serve.adnetasia.com/promoload?d=$script
+@@||serve.adtrackers.net/promoload?d=$script
+@@||serve.bannertrack.net/promoload?d=$script
+@@||torrentz.adnetasia.com/mgid/ad.js|
+@@||torrentz.adtrackers.net/mgid/ad.js|
+@@||torrentz.bannertrack.net/mgid/ad.js|
+@@||yahoo.adnetasia.com/serv?s=$script
+@@||yahoo.adtrackers.net/serv?s=$script
+@@||yahoo.bannertrack.net/serv?s=$script
+||a.pub.network^$script,redirect-rule=noopjs
+||adblockanalytics.com/ads.js$script,redirect-rule=noopjs
+||ads-api.twitter.com^$xmlhttprequest,redirect-rule=nooptext,domain=~twitter.com
+||ads-twitter.com/uwt.js$xmlhttprequest,third-party,redirect-rule=nooptext
+||ads.facebook.com^$xmlhttprequest,redirect-rule=nooptext,domain=~d3ward.github.io
+||ads.reddit.com^$xmlhttprequest,redirect-rule=nooptext,domain=~d3ward.github.io
+||ads.sportslocalmedia.com^$script,redirect-rule=noopjs
+||ads.twitter.com/favicon.ico$image,third-party,redirect-rule=32x32-transparent.png
+||ads.youtube.com^$xmlhttprequest,redirect-rule=nooptext,domain=~d3ward.github.io
+||adsafeprotected.com/favicon.ico$xmlhttprequest,redirect-rule=nooptext
+||advertising.yahoo.com/favicon.ico$image,third-party,redirect-rule=32x32-transparent.png
+||advice-ads.s3.amazonaws.com^$xmlhttprequest,redirect-rule=nooptext
+||arc.io/widget.min.js$script,redirect-rule=noopjs
+||as.inbox.com/banner_ad.gif|$image,redirect-rule=1x1-transparent.gif
+||bebi.com/js/plugins.js$script,redirect-rule=noopjs
+||cdn.purpleads.io^$script,redirect-rule=noopjs
+||cloudfront.net/prebid_$script,redirect-rule=noopjs
+||cloudfront.net/videojs/videojs-contrib-ads.js$script,redirect-rule=noopjs
+||coinad.org/display/items.php$script,redirect-rule=noopjs
+||coinzillatag.com^$script,redirect-rule=noopjs
+||connect.facebook.net/en_US/fbevents.js$script,redirect-rule=noopjs
+||cryptocoinsad.com^$script,redirect-rule=noopjs
+||cxense.com/cx.js$script,redirect-rule=noopjs
+||doubleclick.net/tag/js/gpt.js$redirect-rule=googletagservices-gpt
+||doubleclick.net^$xmlhttprequest,redirect=nooptext,domain=~d3ward.github.io
+||doubleclickbygoogle.com/favicon.ico$image,third-party,redirect-rule=32x32-transparent.png
+||dsh7ky7308k4b.cloudfront.net^$script,redirect-rule=noopjs
+||google-analytics.com/analytics.js$redirect-rule=google-analytics
+||google.com/adsense/start/images/favicon.ico$image,third-party,redirect-rule=32x32-transparent.png
+||googleads.g.doubleclick.net/pagead/id^$xmlhttprequest,redirect=nooptext
+||googlesyndication.com/favicon.ico$image,redirect-rule=1x1-transparent.gif
+||googletagmanager.com/gtag/js$script,redirect-rule=googletagmanager-gtm
+||gstatic.com/adx/doubleclick.ico|$image,redirect-rule=32x32-transparent.png
+||htlbid.com/*/htlbid.js$script,redirect-rule=noopjs
+!||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima3
+||js.wpadmngr.com/static/adManager.js$script,redirect-rule=noopjs
+||media.fastclick.net^$xmlhttprequest,redirect-rule=nooptext,domain=~d3ward.github.io
+||media.net/dmedianet.js$redirect-rule=noopjs
+||nessainy.net/favicon.ico$image,redirect-rule=32x32-transparent.png
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=googlesyndication-adsbygoogle,domain=~zipextractor.app
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect-rule=nooptext
+||pagead2.googlesyndication.com/pagead/show_ads.js$script,redirect-rule=noopjs
+||pagead2.googlesyndication.com/tag/js/gpt.js$script,redirect=googletagservices-gpt
+||popcash.net^$xmlhttprequest,third-party,redirect-rule=nooptext
+||privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$script,redirect-rule=noopjs
+||surfe.pro/js/net.js$script,xmlhttprequest,redirect-rule=noopjs
+||taboola.com/libtrc/*/loader.js$script,redirect-rule=noopjs
+||thisiswaldo.com/static/js$script,redirect-rule=noopjs
+||wtg-ads.com/publisher/$script,redirect-rule=noopjs
+||yieldmo.com/ym.adv.$script,redirect-rule=noopjs
+#@##ad_300
+#@##ad_728
+#@##ad_area
+#@##ad_big
+#@##ad_box
+#@##ad_footer
+#@##ad_slot
+#@##ad_space
+#@##adframe:not(frameset)
+#@##adheader
+#@##ads-1
+#@##ads-banner
+#@##ads-footer
+#@##adspace
+#@##adsquare
+#@##banner468
+#@##banner728x90
+#@##iqadtile5
+#@#.ad-300x250
+#@#.ad-content
+#@#.ad-left
+#@#.ad-link
+#@#.ad-loading
+#@#.ad-placeholder
+#@#.ad-placement
+#@#.ad-refresh
+#@#.ad-unit
+#@#.adBanner
+#@#.adbanner
+#@#.ad_unit
+#@#.ads-iframe
+#@#.adsBanner
+#@#.adsBox
+#@#.adsbygoogle
+#@#.display_ad
+#@#.div-gpt-ad
+#@#.google-ad
+#@#div[class^="div-gpt-ad"]
+#@#div[id^="div-gpt-"]
+#@#[class^="div-gpt-ad"]
+#@#[id^="div-gpt-ad"]
+/\/nb\/(?=[a-z]{0,9}[A-Z])[a-zA-Z]{10}\.js/$script,~third-party,match-case
+/^https:\/\/[0-9a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[-_0-9a-z]{0,84}[A-Z])(?=[-_a-zA-Z]{0,84}[0-9])[-_0-9a-zA-Z]{54,85}(#\?v=[0-9a-f]{32})?$/$ping,script,xmlhttprequest,third-party,match-case
+/^https:\/\/[a-z]{7,16}\.(?:buzz|com?|lol|one|xyz)\/(?=[+\/a-zA-Z]*\d)(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{140,}$/$image,ping,third-party,match-case,domain=~edu|~gov|~jp
+/^https:\/\/[a-z]{8,16}\.(?:com?|club|fun|hair|work|xyz)\/(?=[%a-zA-Z]*\d)(?=[%0-9a-z]*[A-Z])[%0-9a-zA-Z]{170,}$/$script,third-party,match-case,domain=~edu|~gov|~jp
+/^https:\/\/[a-z]{10,14}\.com\/(?=[%=\?_0-9a-zA-Z]*\*)(?=[%\*=\?_a-zA-Z]*\d)(?=[%\*=\?_0-9a-z]*[A-Z])[%\*=\?_0-9a-zA-Z]{1000,}$/$xmlhttprequest,third-party,domain=~edu|~gov|~jp
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.com\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-5]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$script,redirect-rule=noopjs
+/^https?:\/\/[a-z]{5,12}\.com\/script\/bootstrap\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp
+/^https?:\/\/[a-z]{5,12}\.com\/script\/jquery\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp
+/^https?:\/\/[a-z]{7,16}\.(?:buzz|com?|lol|one|xyz)\/(?=[+\/a-zA-Z]*\d)(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{400,}$/$subdocument,popup,third-party,match-case,domain=~edu|~gov|~jp
+/^https?:\/\/[a-z]{8,15}\.(?:com|net|top|xyz)\/(?!api|available)[a-z]{4,}\.json$/$xmlhttprequest,third-party,match-case,domain=~edu|~gov|~jp
+/^https?:\/\/[a-z]{8,15}\.(?:com|net|top|xyz)\/[-a-z]{4,}\.css\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$stylesheet,third-party,match-case
+/^https?:\/\/[a-z]{8,15}\.(?:com|net|top|xyz)\/[a-z]{4,}\.png\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$image,third-party,match-case
+
+! Default
+/afs/ads/*
+/gen_204?$image,other,ping,script
+||syndication.*.com^$popup
+
 ! Crypto (Fake Crypto sites)
 !! BAT (Basic Attention Token)
 ||basicattentiontoken.claims^
@@ -292,8 +706,3 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse
 @@||c8.zbiornik.com/AntMediaZbiornik^$domain=zbiornik.com
 @@||c9.zbiornik.com/AntMediaZbiornik^$domain=zbiornik.com
 @@||c10.zbiornik.com/AntMediaZbiornik^$domain=zbiornik.com
-
-! Default
-/afs/ads/*
-/gen_204?$image,other,ping,script
-||syndication.exdynsrv.com^$popup
