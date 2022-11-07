@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 641
+! Entries: 642
 !
 ! Updated: 2022.11.07
 !
@@ -417,6 +417,7 @@ _spot_id=*&zone_id=$script,~third-party
 #@#.display_ad
 #@#.div-gpt-ad
 #@#.google-ad
+#@#adsContent
 #@#div[class^="div-gpt-ad"]
 #@#div[id^="div-gpt-"]
 #@#[class^="div-gpt-ad"]
