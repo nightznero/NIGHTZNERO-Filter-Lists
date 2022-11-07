@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 659
+! Entries: 678
 !
 ! Updated: 2022.11.07
 !
@@ -19,6 +19,27 @@
 !
 ! Copyright (c) 2022 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Fanboy missing elements
+###ad-plea
+##.banner
+##.basic-banner
+##.board-tail-banner
+###adblock-warning
+##.whine
+##.modal-container
+##.premiumPromoBanner
+###veta_top
+###veta_branding
+##.banner_area
+/ads_*/ads.load.js$script,redirect=noop.js
+/ad/alliance_
+/loadPopIn.
+/itsads/*
+##body:style(overflow: auto !important;)
+#@#adsContent
+##.box-adv
+##.sponsored-post
+
 ! Default
 /afs/ads/*
 /gen_204?$image,other,ping,script
