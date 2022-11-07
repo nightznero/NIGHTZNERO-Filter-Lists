@@ -637,6 +637,7 @@ redtube.com##.uf9iw7uaw.uf9iw7uac
 
 ! StartPage
 ||startpage.*^$removeparam=segment
+startpage.com###gcsa-top
 
 ! Taboola scripts
 -taboola-article.
