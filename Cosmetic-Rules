@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 651
+! Entries: 648
 !
 ! Updated: 2022.11.07
 !
@@ -241,14 +241,11 @@ _spot_id=*&zone_id=$script,~third-party
 ##.ad-unit:not(.text-ad)
 ##.adBanner:not(:empty):not(.testAd):not(#wrapfabtest > .adBanner)
 ~hdfcbank.com##.adbanner:not(#rb-adbanner)
-##.ad-unit
 ##.ad_unit:not(.text-ad)
 ##.adde_modal_detector
 ##.adde_modal-overlay
-##.box-adv
 ##.google-ad:not(.testAd)
 ##.href_
-##.sponsored-post
 ##a#mobile_pop.js-mob-popup
 ##a[dont][style$="position: absolute; z-index: 2147483647;"]
 ##a[href^="//"][rel="nofollow norefferer noopener"][style*="position: fixed;"][style*="height:"][style*="width:"][style*="inset:"][style*="z-index:"]
