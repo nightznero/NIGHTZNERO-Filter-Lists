@@ -11,9 +11,9 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 181
+! Entries: 165
 !
-! Updated: 2022.11.03
+! Updated: 2022.11.07
 !
 ! MIT License
 !
@@ -43,10 +43,6 @@
 @@||t0.ssl.ak.dynamic.tiles.virtualearth.net
 @@||t0.ssl.ak.tiles.virtualearth.net
 
-! Blokada.org
-@@||api.blocka.net
-! Blocked by Energized.Pro - IPs
-
 ! Buzzfeed
 @@||weaver-api.buzzfeed.com
 @@||buzzfeed.com
@@ -58,10 +54,6 @@
 
 ! Captcha
 @@||api-verify.recaptcha.net
-
-! Discord
-@@||cdn.discordapp.com
-! Blocked by Energized.Pro - IPs
 
 ! Dropbox
 @@||bolt.dropbox.com
@@ -85,25 +77,16 @@
 ! Firefox [Mozilla]
 @@||addons.mozilla.org
 
-! GitHub
-@@||raw.githubusercontent.com
-! Blocked by Energized.Pro - IPs
 
 ! Google
 @@||firebaseinstallations.googleapis.com
 ! Blocked by various lists,and breaking apps cuz its creating unique id
-@@||play-fe.googleapis.com
-! Blocked by Energized.Pro - IPs
 
 ! Google Play Console
 @@||fonts.gstatic.com
 
 ! GTA Online [Rockstar]
 @@||prod.telemetry.ros.rockstargames.com
-
-! ImgBox
-@@||images2.imgbox.com
-! Blocked by Energized.Pro - Regional
 
 ! InShot
 @@||aws.inshot.cc
@@ -195,13 +178,10 @@
 
 ! Samsung
 @@||account.samsung.com
-@@||img.samsungapps.com
-! Blocked by Energized.Pro - IPs
 
 ! Showup.tv
 @@||showup.tv
 ! Blocked by Energized.Pro - Basic [Hosts]
-
 
 ! Smart TV
 @@||ngfts.lge.com^
@@ -263,10 +243,6 @@
 @@||image.tmdb.org
 ! Blocked by Energized.Pro - Basic [Hosts]
 
-! Terabox
-@@||c-all.terabox.com
-! Blocked by Energized.Pro - IPs
-
 ! The Daily Beast
 @@||thedailybeast.com
 ! Don't unbreak their metrics though
@@ -275,22 +251,6 @@
 ! TikTok
 @@||tiktoknow.onelink.me
 ! Blocked by Energized.Pro - Basic / GoodbyeAds
-
-! Twitch.tv
-@@||irc-ws.chat.twitch.tv
-! Blocked by Energized.Pro - IPs
-@@||api.7tv.app
-! Blocked by Energized.Pro - IPs
-@@||cdn.7tv.app
-! Blocked by Energized.Pro - IPs
-@@||api.betterttv.net
-! Just to being sure nobody list blocks it
-@@||cdn.betterttv.net
-! Just to being sure nobody list blocks it
-@@||api.frankerfacez.com
-! Blocked by Energized.Pro - IPs
-@@||cdn.frankerfacez.com
-! Blocked by Energized.Pro - IPs
 
 ! Twitter
 @@||twimg.com
@@ -327,11 +287,6 @@
 @@||restapi.amap.com
 @@||adiu.amap.com
 @@||digitalassetlinks.googleapis.com
-
-! X-kom
-@@||mobileapi.x-kom.pl
-@@||cdn.x-kom.pl
-! Blocked by Energized.Pro - IPs
 
 ! YouTube [Google] ! Blocked by various lists
 @@||youtu.be
