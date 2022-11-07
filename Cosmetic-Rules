@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 656
+! Entries: 659
 !
 ! Updated: 2022.11.07
 !
@@ -440,6 +440,12 @@ _spot_id=*&zone_id=$script,~third-party
 
 ! Bing [Microsoft]
 ||bing.com/mouselog$script,redirect-rule=noopjs,domain=bing.com
+
+! Brave
+@@||brave.com^$image,stylesheet,first-party
+@@||search.brave.com/api/$first-party
+@@||stats.brave.com/local/img/publisher-icons/$domain=stats.brave.com
+
 
 ! Crypto (Fake Crypto sites)
 !! BAT (Basic Attention Token)
