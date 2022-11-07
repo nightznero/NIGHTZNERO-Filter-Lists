@@ -11,9 +11,9 @@
 !
 ! Description: X
 !
-! Entries: 593
+! Entries: 595
 !
-! Updated: 2022.11.04
+! Updated: 2022.11.07
 !
 ! MIT License
 !
@@ -322,6 +322,8 @@
 0.0.0.0 a.realsrv.com
 0.0.0.0 ads.exoclick.com
 0.0.0.0 adsessionserv.com
+0.0.0.0 adspy.javrank.com
+0.0.0.0 ads.bullionyield.com
 0.0.0.0 fgn.cdn.serverable.com
 0.0.0.0 mcdlks.com
 !! Doubleclick.net
