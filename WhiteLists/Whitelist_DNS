@@ -13,7 +13,7 @@
 !
 ! Entries: 167
 !
-! Updated: 2022.11.07
+! Updated: 2022.11.09
 !
 ! MIT License
 !
@@ -68,7 +68,7 @@
 @@||tracking.epicgames.com
 
 ! Facebook [Meta]
-! (For now disabled) @@||graph.facebook.com
+@@||graph.facebook.com
 ! (For now disabled) @@||graph-video.facebook.com
 ! (For now disabled) @@||web.facebook.com
 ! Blocked by DuckDuckGo Tracker Radar
