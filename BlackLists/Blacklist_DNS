@@ -11,7 +11,7 @@
 !
 ! Description: X
 !
-! Entries: 595
+! Entries: 597
 !
 ! Updated: 2022.11.07
 !
@@ -29,6 +29,7 @@
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 userlocation.googleapis.com
 0.0.0.0 geomobileservices-pa.googleapis.com
+0.0.0.0 optimizationguide-pa.googleapis.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 ads.google.com
@@ -223,6 +224,9 @@
 
 ! Fvck off - Realme
 0.0.0.0 bdapi-in-ads.realmemobile.com
+
+! Fvck off - Microsoft
+0.0.0.0 self.events.data.microsoft.com
 
 ! Fvck off - Amazon
 0.0.0.0 pinpoint.us-east-1.amazonaws.com
