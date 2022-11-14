@@ -11,9 +11,9 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 678 (25 SU)
+! Entries: 653
 !
-! Updated: 2022.11.07
+! Updated: 2022.11.14
 !
 ! MIT License
 !
@@ -633,34 +633,6 @@ redtube.com##.j53ml3w.j53ml3c
 redtube.com##.tbsamrv7qv3f
 redtube.com##.kze9tw.kze9tc
 redtube.com##.uf9iw7uaw.uf9iw7uac
-
-! Showup.tv
-! (For now disabled) @@||showup.tv/site/log_in$domain=showup.tv
-! (For now disabled) @@||showup.tv/files^$domain=showup.tv
-! (For now disabled) @@||showup.tv/scripts^$domain=showup.tv
-! (For now disabled) @@||j01.showup.tv^$domain=showup.tv
-! (For now disabled) @@||j02.showup.tv^$domain=showup.tv
-! (For now disabled) @@||j03.showup.tv^$domain=showup.tv
-! (For now disabled) @@||j04.showup.tv^$domain=showup.tv
-! (For now disabled) @@||j05.showup.tv^$domain=showup.tv
-! (For now disabled) @@||j06.showup.tv^$domain=showup.tv
-! (For now disabled) @@||j07.showup.tv^$domain=showup.tv
-! (For now disabled) @@||j08.showup.tv^$domain=showup.tv
-! (For now disabled) @@||j09.showup.tv^$domain=showup.tv
-! (For now disabled) @@||showup.tv/site/socket_addr^$domain=showup.tv
-! (For now disabled) @@||cdn-e01.showup.tv/h5live^$domain=showup.tv
-! (For now disabled) @@||cdn-e02.showup.tv/h5live^$domain=showup.tv
-! (For now disabled) @@||cdn-e03.showup.tv/h5live^$domain=showup.tv
-! (For now disabled) @@||cdn-e04.showup.tv/h5live^$domain=showup.tv
-! (For now disabled) @@||cdn-e05.showup.tv/h5live^$domain=showup.tv
-! (For now disabled) @@||cdn-e06.showup.tv/h5live^$domain=showup.tv
-! (For now disabled) @@||cdn-e07.showup.tv/h5live^$domain=showup.tv
-! (For now disabled) @@||cdn-e08.showup.tv/h5live^$domain=showup.tv
-! (For now disabled) @@||cdn-e09.showup.tv/h5live^$domain=showup.tv
-! (For now disabled) @@||showup.tv/images^$domain=showup.tv
-! (For now disabled) @@||showup.tv/styles^$domain=showup.tv
-! (For now disabled) @@||showup.tv/fonts^$domain=showup.tv
-! Blocked by Energized.Pro - Basic
 
 ! SpankBang
 @@||assets.sb-cd.com/static^$domain=spankbang.com
