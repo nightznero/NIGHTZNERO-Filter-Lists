@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 678
+! Entries: 678 (25 SU)
 !
 ! Updated: 2022.11.07
 !
@@ -635,31 +635,31 @@ redtube.com##.kze9tw.kze9tc
 redtube.com##.uf9iw7uaw.uf9iw7uac
 
 ! Showup.tv
-@@||showup.tv/site/log_in$domain=showup.tv
-@@||showup.tv/files^$domain=showup.tv
-@@||showup.tv/scripts^$domain=showup.tv
-@@||j01.showup.tv^$domain=showup.tv
-@@||j02.showup.tv^$domain=showup.tv
-@@||j03.showup.tv^$domain=showup.tv
-@@||j04.showup.tv^$domain=showup.tv
-@@||j05.showup.tv^$domain=showup.tv
-@@||j06.showup.tv^$domain=showup.tv
-@@||j07.showup.tv^$domain=showup.tv
-@@||j08.showup.tv^$domain=showup.tv
-@@||j09.showup.tv^$domain=showup.tv
-@@||showup.tv/site/socket_addr^$domain=showup.tv
-@@||cdn-e01.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e02.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e03.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e04.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e05.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e06.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e07.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e08.showup.tv/h5live^$domain=showup.tv
-@@||cdn-e09.showup.tv/h5live^$domain=showup.tv
-@@||showup.tv/images^$domain=showup.tv
-@@||showup.tv/styles^$domain=showup.tv
-@@||showup.tv/fonts^$domain=showup.tv
+! (For now disabled) @@||showup.tv/site/log_in$domain=showup.tv
+! (For now disabled) @@||showup.tv/files^$domain=showup.tv
+! (For now disabled) @@||showup.tv/scripts^$domain=showup.tv
+! (For now disabled) @@||j01.showup.tv^$domain=showup.tv
+! (For now disabled) @@||j02.showup.tv^$domain=showup.tv
+! (For now disabled) @@||j03.showup.tv^$domain=showup.tv
+! (For now disabled) @@||j04.showup.tv^$domain=showup.tv
+! (For now disabled) @@||j05.showup.tv^$domain=showup.tv
+! (For now disabled) @@||j06.showup.tv^$domain=showup.tv
+! (For now disabled) @@||j07.showup.tv^$domain=showup.tv
+! (For now disabled) @@||j08.showup.tv^$domain=showup.tv
+! (For now disabled) @@||j09.showup.tv^$domain=showup.tv
+! (For now disabled) @@||showup.tv/site/socket_addr^$domain=showup.tv
+! (For now disabled) @@||cdn-e01.showup.tv/h5live^$domain=showup.tv
+! (For now disabled) @@||cdn-e02.showup.tv/h5live^$domain=showup.tv
+! (For now disabled) @@||cdn-e03.showup.tv/h5live^$domain=showup.tv
+! (For now disabled) @@||cdn-e04.showup.tv/h5live^$domain=showup.tv
+! (For now disabled) @@||cdn-e05.showup.tv/h5live^$domain=showup.tv
+! (For now disabled) @@||cdn-e06.showup.tv/h5live^$domain=showup.tv
+! (For now disabled) @@||cdn-e07.showup.tv/h5live^$domain=showup.tv
+! (For now disabled) @@||cdn-e08.showup.tv/h5live^$domain=showup.tv
+! (For now disabled) @@||cdn-e09.showup.tv/h5live^$domain=showup.tv
+! (For now disabled) @@||showup.tv/images^$domain=showup.tv
+! (For now disabled) @@||showup.tv/styles^$domain=showup.tv
+! (For now disabled) @@||showup.tv/fonts^$domain=showup.tv
 ! Blocked by Energized.Pro - Basic
 
 ! SpankBang
