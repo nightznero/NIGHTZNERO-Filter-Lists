@@ -9,11 +9,11 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Title: NIGHTZNERO Blacklist DNS [Hosts]
 !
-! Description: X
+! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 883
+! Entries: 1 884
 !
-! Updated: 2022.11.12
+! Updated: 2022.11.16
 !
 ! MIT License
 !
@@ -246,6 +246,9 @@
 ! Fvck off - YouTube
 0.0.0.0 ads.youtube.com
 0.0.0.0 youtube.cleverads.vn
+
+! Fvck off - Twitch.tv
+0.0.0.0 spade.twitch.tv
 
 ! Fvck off - Facebook
 0.0.0.0 pixel.facebook.com
