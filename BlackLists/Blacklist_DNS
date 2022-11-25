@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 890
+! Entries: 1 891
 !
 ! Updated: 2022.11.25
 !
@@ -146,6 +146,11 @@
 0.0.0.0 share.yandex.ru
 0.0.0.0 yandexadexchange.net
 0.0.0.0 mobile.yandexadexchange.net
+
+! Fvck off - Mathon
+0.0.0.0 stats-a.maxthon.com
+0.0.0.0 maxthon.cn
+0.0.0.0 pv.sohu.com
 
 ! Fvck off - Apple
 0.0.0.0 metrics.apple.com
@@ -628,8 +633,6 @@
 0.0.0.0 360safe.com
 0.0.0.0 360totalsecurity.com
 0.0.0.0 toolkits.mobi
-0.0.0.0 maxthon.cn
-0.0.0.0 maxthon.com
 0.0.0.0 uu.me
 
 ! Fvck off - Kika
