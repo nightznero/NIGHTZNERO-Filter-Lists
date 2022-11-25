@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 693 (43zb)
+! Entries: 694 (43zb)
 !
 ! Updated: 2022.11.25
 !
@@ -463,6 +463,8 @@ _spot_id=*&zone_id=$script,~third-party
 ||bing.com/mouselog$script,redirect-rule=noopjs,domain=bing.com
 
 ! Brave
+||ads.brave.com^$badfilter
+! Blocked by GoodbyeAds [AdBlock-Syntax]
 @@||brave.com^$image,stylesheet,first-party
 @@||search.brave.com^$ghide
 @@||search.brave.com/api/$first-party
