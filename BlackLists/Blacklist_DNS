@@ -11,9 +11,9 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 884
+! Entries: 1 885
 !
-! Updated: 2022.11.16
+! Updated: 2022.11.25
 !
 ! MIT License
 !
@@ -349,7 +349,8 @@
 0.0.0.0 media.fastclick.net
 0.0.0.0 cdn.fastclick.net
 
-! Fvck off - Analytics 
+! Fvck off - Analytics
+0.0.0.0 api2.amplitude.com
 ! -Hotjar- !
 0.0.0.0 api-hotjar.com
 0.0.0.0 hotjar-analytics.com
