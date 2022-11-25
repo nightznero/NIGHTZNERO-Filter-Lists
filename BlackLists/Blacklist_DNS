@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 891
+! Entries: 1 892
 !
 ! Updated: 2022.11.25
 !
@@ -41,6 +41,7 @@
 0.0.0.0 googleadservices.com
 0.0.0.0 google-analytics.com
 0.0.0.0 ssl.google-analytics.com
+0.0.0.0 csp.withgoogle.com
 0.0.0.0 safebrowsing.googleapis.com
 
 ! Fvck off - Yahoo
