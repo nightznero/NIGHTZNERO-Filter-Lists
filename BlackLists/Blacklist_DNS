@@ -11,9 +11,9 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 892
+! Entries: 1 895
 !
-! Updated: 2022.11.25
+! Updated: 2022.11.26
 !
 ! MIT License
 !
@@ -362,6 +362,9 @@
 
 ! Fvck off - Analytics
 0.0.0.0 api2.amplitude.com
+0.0.0.0 e3log1.fineboost.com
+0.0.0.0 e3log2.fineboost.com
+0.0.0.0 e3log3.fineboost.com
 ! -Hotjar- !
 0.0.0.0 api-hotjar.com
 0.0.0.0 hotjar-analytics.com
