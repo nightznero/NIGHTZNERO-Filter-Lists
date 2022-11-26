@@ -11,9 +11,9 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 694 (43zb)
+! Entries: 695 (43zb)
 !
-! Updated: 2022.11.25
+! Updated: 2022.11.26
 !
 ! MIT License
 !
@@ -536,6 +536,10 @@ igg-games.com###LfY
 ! LinkedIn [Microsoft]
 @@||licdn.com^$tag=linked-in-embeds
 @@||platform.linkedin.com^$tag=linked-in-embeds
+
+! NextCloud
+@@||bes.to^$stealth
+! Stealth breaks media player
 
 ! Open.fm
 @@||std.wpcdn.pl^$domain=open.fm
