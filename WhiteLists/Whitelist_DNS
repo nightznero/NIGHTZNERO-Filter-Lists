@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 169
+! Entries: 168
 !
 ! Updated: 2022.11.27
 !
@@ -80,10 +80,6 @@
 
 ! Firefox [Mozilla]
 @@||addons.mozilla.org
-
-! GitHub
-@@||raw.githubusercontent.com
-! Blocked by Energized.Pro - Basic
 
 ! Google
 @@||firebaseinstallations.googleapis.com
