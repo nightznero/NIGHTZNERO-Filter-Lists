@@ -11,9 +11,9 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 895
+! Entries: 1 897
 !
-! Updated: 2022.11.26
+! Updated: 2022.11.27
 !
 ! MIT License
 !
@@ -334,7 +334,7 @@
 0.0.0.0 pixel.wp.pl
 0.0.0.0 pixel6.wp.pl
 
-! Fvck off - Ads 
+! Fvck off - Ads
 0.0.0.0 syndication.exdynsrv.com
 0.0.0.0 a.exdynsrv.com
 0.0.0.0 a.realsrv.com
@@ -344,6 +344,7 @@
 0.0.0.0 ads.bullionyield.com
 0.0.0.0 fgn.cdn.serverable.com
 0.0.0.0 mcdlks.com
+0.0.0.0 0x01n2ptpuz3.com
 ! -Doubleclick.net- !
 0.0.0.0 mediavisor.doubleclick.net
 0.0.0.0 m.doubleclick.net
@@ -365,6 +366,7 @@
 0.0.0.0 e3log1.fineboost.com
 0.0.0.0 e3log2.fineboost.com
 0.0.0.0 e3log3.fineboost.com
+0.0.0.0 api16-access-sg.pangle.io
 ! -Hotjar- !
 0.0.0.0 api-hotjar.com
 0.0.0.0 hotjar-analytics.com
