@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 897
+! Entries: 1 898
 !
 ! Updated: 2022.11.27
 !
@@ -21,6 +21,86 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Fvck off - Attribute
 0.0.0.0 0.0.0.0
+
+! Fvck off - Ads
+0.0.0.0 syndication.exdynsrv.com
+0.0.0.0 tsyndicate.com
+0.0.0.0 a.exdynsrv.com
+0.0.0.0 a.realsrv.com
+0.0.0.0 ads.exoclick.com
+0.0.0.0 adsessionserv.com
+0.0.0.0 adspy.javrank.com
+0.0.0.0 ads.bullionyield.com
+0.0.0.0 fgn.cdn.serverable.com
+0.0.0.0 mcdlks.com
+0.0.0.0 0x01n2ptpuz3.com
+! -Doubleclick.net- !
+0.0.0.0 mediavisor.doubleclick.net
+0.0.0.0 m.doubleclick.net
+0.0.0.0 static.doubleclick.net
+0.0.0.0 doubleclick.net
+0.0.0.0 ad.doubleclick.net
+! -Media.net- !
+0.0.0.0 static.media.net
+0.0.0.0 media.net
+0.0.0.0 adservetx.media.net
+! -FastClick- !
+0.0.0.0 fastclick.com
+0.0.0.0 fastclick.net
+0.0.0.0 media.fastclick.net
+0.0.0.0 cdn.fastclick.net
+
+! Fvck off - Analytics
+0.0.0.0 api2.amplitude.com
+0.0.0.0 e3log1.fineboost.com
+0.0.0.0 e3log2.fineboost.com
+0.0.0.0 e3log3.fineboost.com
+0.0.0.0 api16-access-sg.pangle.io
+! -Hotjar- !
+0.0.0.0 api-hotjar.com
+0.0.0.0 hotjar-analytics.com
+0.0.0.0 hotjar.com
+0.0.0.0 static.hotjar.com
+! -MouseFlow- !
+0.0.0.0 mouseflow.com
+0.0.0.0 a.mouseflow.com
+! -FreshMarketer- !
+0.0.0.0 freshmarketer.com
+! -Luckyorange- !
+0.0.0.0 luckyorange.com
+0.0.0.0 luckyorange.net
+0.0.0.0 cdn.luckyorange.com
+0.0.0.0 w1.luckyorange.com
+0.0.0.0 upload.luckyorange.net
+0.0.0.0 cs.luckyorange.net
+0.0.0.0 settings.luckyorange.net
+! -WP Plugin- !
+0.0.0.0 stats.wp.com
+
+! Fvck off - Trackers
+0.0.0.0 appsflyer.com
+0.0.0.0 beacons5.gvt3.com
+! -Branch.io- !
+0.0.0.0 branch.io
+0.0.0.0 api.branch.io
+0.0.0.0 api2.branch.io
+0.0.0.0 cdn.branch.io
+! -adjust- !
+0.0.0.0 adjust.com
+0.0.0.0 adjust.net.in
+0.0.0.0 adjust.world
+0.0.0.0 adjust.io
+! -Bugsnag- !
+0.0.0.0 notify.bugsnag.com
+0.0.0.0 sessions.bugsnag.com
+0.0.0.0 api.bugsnag.com
+0.0.0.0 app.bugsnag.com
+! -Sentry- !
+0.0.0.0 browser.sentry-cdn.com
+0.0.0.0 app.getsentry.com
+! -Umeng- !
+0.0.0.0 ulogs.umeng.com
+0.0.0.0 ulogs.umengcloud.com
 
 ! Fvck off - Google
 0.0.0.0 app-measurement.com
@@ -333,85 +413,6 @@
 0.0.0.0 v.wpimg.pl
 0.0.0.0 pixel.wp.pl
 0.0.0.0 pixel6.wp.pl
-
-! Fvck off - Ads
-0.0.0.0 syndication.exdynsrv.com
-0.0.0.0 a.exdynsrv.com
-0.0.0.0 a.realsrv.com
-0.0.0.0 ads.exoclick.com
-0.0.0.0 adsessionserv.com
-0.0.0.0 adspy.javrank.com
-0.0.0.0 ads.bullionyield.com
-0.0.0.0 fgn.cdn.serverable.com
-0.0.0.0 mcdlks.com
-0.0.0.0 0x01n2ptpuz3.com
-! -Doubleclick.net- !
-0.0.0.0 mediavisor.doubleclick.net
-0.0.0.0 m.doubleclick.net
-0.0.0.0 static.doubleclick.net
-0.0.0.0 doubleclick.net
-0.0.0.0 ad.doubleclick.net
-! -Media.net- !
-0.0.0.0 static.media.net
-0.0.0.0 media.net
-0.0.0.0 adservetx.media.net
-! -FastClick- !
-0.0.0.0 fastclick.com
-0.0.0.0 fastclick.net
-0.0.0.0 media.fastclick.net
-0.0.0.0 cdn.fastclick.net
-
-! Fvck off - Analytics
-0.0.0.0 api2.amplitude.com
-0.0.0.0 e3log1.fineboost.com
-0.0.0.0 e3log2.fineboost.com
-0.0.0.0 e3log3.fineboost.com
-0.0.0.0 api16-access-sg.pangle.io
-! -Hotjar- !
-0.0.0.0 api-hotjar.com
-0.0.0.0 hotjar-analytics.com
-0.0.0.0 hotjar.com
-0.0.0.0 static.hotjar.com
-! -MouseFlow- !
-0.0.0.0 mouseflow.com
-0.0.0.0 a.mouseflow.com
-! -FreshMarketer- !
-0.0.0.0 freshmarketer.com
-! -Luckyorange- !
-0.0.0.0 luckyorange.com
-0.0.0.0 luckyorange.net
-0.0.0.0 cdn.luckyorange.com
-0.0.0.0 w1.luckyorange.com
-0.0.0.0 upload.luckyorange.net
-0.0.0.0 cs.luckyorange.net
-0.0.0.0 settings.luckyorange.net
-! -WP Plugin- !
-0.0.0.0 stats.wp.com
-
-! Fvck off - Trackers
-0.0.0.0 appsflyer.com
-0.0.0.0 beacons5.gvt3.com
-! -Branch.io- !
-0.0.0.0 branch.io
-0.0.0.0 api.branch.io
-0.0.0.0 api2.branch.io
-0.0.0.0 cdn.branch.io
-! -adjust- !
-0.0.0.0 adjust.com
-0.0.0.0 adjust.net.in
-0.0.0.0 adjust.world
-0.0.0.0 adjust.io
-! -Bugsnag- !
-0.0.0.0 notify.bugsnag.com
-0.0.0.0 sessions.bugsnag.com
-0.0.0.0 api.bugsnag.com
-0.0.0.0 app.bugsnag.com
-! -Sentry- !
-0.0.0.0 browser.sentry-cdn.com
-0.0.0.0 app.getsentry.com
-! -Umeng- !
-0.0.0.0 ulogs.umeng.com
-0.0.0.0 ulogs.umengcloud.com
 
 ! Fvck off - Jump Scares
 0.0.0.0 pnrtscr.com
