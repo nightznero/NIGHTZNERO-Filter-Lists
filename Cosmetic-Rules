@@ -758,4 +758,4 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse
 @@||zbiornik.com/zbiornik.js?6$domain=zbiornik.com
 @@||zbiornik.com/tmp-ps^$domain=zbiornik.com
 @@||c*.zbiornik.com/AntMediaZbiornik^$domain=zbiornik.com
-||zbiornik.com$badfilter
+||zbiornik.com^$badfilter
