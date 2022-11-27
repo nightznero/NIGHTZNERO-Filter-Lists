@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 695 (43zb)
+! Entries: 699 (43zb)
 !
 ! Updated: 2022.11.27
 !
@@ -41,6 +41,7 @@
 ##.sponsored-post
 
 ! Default
+@@/favicon.ico|
 /afs/ads/*
 /gen_204?$image,other,ping,script
 $document,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|asos.com|att.com|bankofamerica.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|blog.getadblock.com|blogs.oracle.com|boxboat.com|britishcornershop.co.uk|bybit.com|chollometro.com|coinpanel.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|edx.org|educba.com|eonline.com|escentual.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|hammacher.com|hanes.com|hotspotshield.com|hottopic.com|housing.com|hp.com|instagram.com|itnext.io|jacquielawson.com|just-eat.co.uk|kasta.io|medium.com|microsoftedgewelcome.microsoft.com|nautica.com|nortonsafe.search.ask.com|onehanesplace.com|outnorth.fi|pepper.pl|petsupplies.com|phonesoap.com|riteaid.com|runnode.com|search.brave.com|seekingalpha.com|sonos.com|spiceworks.com|squarespace.com|studio.co.uk|subscribe.gq.com|t.me|thedailybeast.com|tiktok.com|tokopedia.com|torrid.com|tous.com|tradingview.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wired.com|ylighting.com|youtube.com|yubo.live
@@ -679,6 +680,11 @@ redtube.com##.j53ml3w.j53ml3c
 redtube.com##.tbsamrv7qv3f
 redtube.com##.kze9tw.kze9tc
 redtube.com##.uf9iw7uaw.uf9iw7uac
+
+! Showup.tv
+@@||showup.tv/styles^$domain=showup.tv
+@@||showup.tv/scripts^$domain=showup.tv
+@@||showup.tv/images^$domain=showup.tv
 
 ! SpankBang
 @@||assets.sb-cd.com/static^$domain=spankbang.com
