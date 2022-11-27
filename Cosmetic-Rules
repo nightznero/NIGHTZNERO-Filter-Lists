@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 676
+! Entries: 679
 !
 ! Updated: 2022.11.27
 !
@@ -681,6 +681,9 @@ redtube.com##.uf9iw7uaw.uf9iw7uac
 @@||showup.tv/fonts^$domain=showup.tv
 @@||cdn-s*.showup.tv/files^$domain=showup.tv
 @@||j*.showup.tv^$domain=showup.tv
+@@||showup.tv/site^$domain=showup.tv
+@@||cdn-e*.showup.tv^$domain=showup.tv
+||showup.tv$badfilter
 
 ! SpankBang
 @@||assets.sb-cd.com/static^$domain=spankbang.com
@@ -732,7 +735,6 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse.playerAds)
 
 ! Zbiornik.com
-@@||zbiornik.com^
 @@||zbiornik.com/i18n.php$domain=zbiornik.com
 @@||zbiornik.com/css/zbiornik-welcome.css$domain=zbiornik.com
 @@||zbiornik.com/css/zbiornik-welcome-common.css$domain=zbiornik.com
@@ -756,3 +758,4 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse
 @@||zbiornik.com/zbiornik.js?6$domain=zbiornik.com
 @@||zbiornik.com/tmp-ps^$domain=zbiornik.com
 @@||c*.zbiornik.com/AntMediaZbiornik^$domain=zbiornik.com
+||zbiornik.com$badfilter
