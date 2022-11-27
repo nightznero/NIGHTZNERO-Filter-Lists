@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 684
+! Entries: 676
 !
 ! Updated: 2022.11.27
 !
@@ -634,19 +634,11 @@ pornhubpremium.com##div.wrapper:nth-child(13) > div.container:last-child > div.g
 
 ! PornReactor.cc
 @@||js.pornreactor.cc^$domain=pornreactor.cc
-@@||img.pornreactor.cc^$domain=pornreactor.cc
-@@||img0.pornreactor.cc^$domain=pornreactor.cc
-@@||img1.pornreactor.cc^$domain=pornreactor.cc
-@@||img2.pornreactor.cc^$domain=pornreactor.cc
-@@||img10.pornreactor.cc^$domain=pornreactor.cc
+@@||img*.pornreactor.cc^$domain=pornreactor.cc
 
 ! Reactor.cc
 @@||js.reactor.cc^$important,domain=reactor.cc
-@@||img.reactor.cc^$domain=reactor.cc
-@@||img0.reactor.cc^$domain=reactor.cc
-@@||img1.reactor.cc^$domain=reactor.cc
-@@||img2.reactor.cc^$domain=reactor.cc
-@@||img10.reactor.cc^$domain=reactor.cc
+@@||img*.reactor.cc^$domain=reactor.cc
 
 ! RedTube
 redtube.com###eu_cookie_disclaimer
