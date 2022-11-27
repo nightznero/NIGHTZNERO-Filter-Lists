@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 704 (43zb)
+! Entries: 684
 !
 ! Updated: 2022.11.27
 !
@@ -687,8 +687,7 @@ redtube.com##.uf9iw7uaw.uf9iw7uac
 @@||showup.tv/images^$domain=showup.tv
 @@||showup.tv/files^$domain=showup.tv
 @@||showup.tv/fonts^$domain=showup.tv
-@@||cdn-s01.showup.tv/files^$domain=showup.tv
-@@||j01.showup.tv^$domain=showup.tv
+@@||cdn-s*.showup.tv/files^$domain=showup.tv
 @@||j*.showup.tv^$domain=showup.tv
 
 ! SpankBang
@@ -749,18 +748,8 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse
 @@||zbiornik.com/swingers.js$domain=zbiornik.com
 @@||zbiornik.com/imgs^$domain=zbiornik.com
 @@||vimg.zbiornik.com^$domain=zbiornik.com
-@@||img01.zbiornik.com/*/images^$domain=zbiornik.com
-@@||img02.zbiornik.com/*/images^$domain=zbiornik.com
-@@||img03.zbiornik.com/*/images^$domain=zbiornik.com
-@@||img04.zbiornik.com/*/images^$domain=zbiornik.com
-@@||img05.zbiornik.com/*/images^$domain=zbiornik.com
-@@||img06.zbiornik.com/*/images^$domain=zbiornik.com
-@@||v01.zbiornik.com/*/videos^$domain=zbiornik.com
-@@||v02.zbiornik.com/*/videos^$domain=zbiornik.com
-@@||v03.zbiornik.com/*/videos^$domain=zbiornik.com
-@@||v04.zbiornik.com/*/videos^$domain=zbiornik.com
-@@||v05.zbiornik.com/*/videos^$domain=zbiornik.com
-@@||v06.zbiornik.com/*/videos^$domain=zbiornik.com
+@@||img0*.zbiornik.com/*/images^$domain=zbiornik.com
+@@||v0*.zbiornik.com/*/videos^$domain=zbiornik.com
 @@||camshot.zbiornik.com^$domain=zbiornik.com
 @@||brajanek.zbiornik.com/ajax^$domain=zbiornik.com
 @@||denisek.zbiornik.com/ajax^$domain=zbiornik.com
@@ -774,13 +763,4 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse
 @@||zbiornik.com/zbiornik.css?6$domain=zbiornik.com
 @@||zbiornik.com/zbiornik.js?6$domain=zbiornik.com
 @@||zbiornik.com/tmp-ps^$domain=zbiornik.com
-@@||c1.zbiornik.com/AntMediaZbiornik^$domain=zbiornik.com
-@@||c2.zbiornik.com/AntMediaZbiornik^$domain=zbiornik.com
-@@||c3.zbiornik.com/AntMediaZbiornik^$domain=zbiornik.com
-@@||c4.zbiornik.com/AntMediaZbiornik^$domain=zbiornik.com
-@@||c5.zbiornik.com/AntMediaZbiornik^$domain=zbiornik.com
-@@||c6.zbiornik.com/AntMediaZbiornik^$domain=zbiornik.com
-@@||c7.zbiornik.com/AntMediaZbiornik^$domain=zbiornik.com
-@@||c8.zbiornik.com/AntMediaZbiornik^$domain=zbiornik.com
-@@||c9.zbiornik.com/AntMediaZbiornik^$domain=zbiornik.com
-@@||c10.zbiornik.com/AntMediaZbiornik^$domain=zbiornik.com
+@@||c*.zbiornik.com/AntMediaZbiornik^$domain=zbiornik.com
