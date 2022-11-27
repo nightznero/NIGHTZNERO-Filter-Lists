@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 898
+! Entries: 1 901
 !
 ! Updated: 2022.11.27
 !
@@ -408,6 +408,11 @@
 
 ! Fvck off - Snaptube
 0.0.0.0 api.ad-snaptube.app
+
+! Fvck off - Roblox
+0.0.0.0 client-telemetry.roblox.com
+0.0.0.0 metrics.roblox.com
+0.0.0.0 aws-eu-west-2b-lms.rbx.com
 
 ! Fvck off - wp (Wirtualna Polska)
 0.0.0.0 v.wpimg.pl
