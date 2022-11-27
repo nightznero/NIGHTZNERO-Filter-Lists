@@ -11,9 +11,9 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 695 (43zb)
+! Entries: 696 (43zb)
 !
-! Updated: 2022.11.26
+! Updated: 2022.11.27
 !
 ! MIT License
 !
@@ -522,6 +522,10 @@ leagueoflegends.fandom.com##.wds-banner-notification__text
 leagueoflegends.fandom.com##.wds-banner-notification.wds-message.notify
 leagueoflegends.fandom.com###\35 b2d1649b2-188-1
 leagueoflegends.fandom.com###\35 bbe13967e-188-1
+
+! GitHub
+@@||githubusercontent.com^
+! Blocked by Energized.Pro - Regional (extension)
 
 ! Igg-Games
 igg-games.com###evM
