@@ -11,9 +11,9 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 901
+! Entries: 1 902
 !
-! Updated: 2022.11.27
+! Updated: 2022.11.28
 !
 ! MIT License
 !
@@ -408,6 +408,9 @@
 
 ! Fvck off - Snaptube
 0.0.0.0 api.ad-snaptube.app
+
+! Fvck off - PicsArt
+0.0.0.0 analytics.picsart.com
 
 ! Fvck off - Roblox
 0.0.0.0 client-telemetry.roblox.com
