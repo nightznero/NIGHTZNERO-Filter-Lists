@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 902
+! Entries: 1 903
 !
 ! Expires: 1 days
 !
@@ -342,6 +342,7 @@
 
 ! Fvck off - Twitch.tv
 0.0.0.0 spade.twitch.tv
+0.0.0.0 spade.sci.twitch.tv
 
 ! Fvck off - Facebook
 0.0.0.0 pixel.facebook.com
