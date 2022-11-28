@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 168
+! Entries: 173
 !
 ! Expires: 1 days
 !
@@ -86,9 +86,13 @@
 ! Google
 @@||firebaseinstallations.googleapis.com
 ! Blocked by various lists,and breaking apps cuz its creating unique id
-
-! Google Play Console
+@@||connectivitycheck.gstatic.com
+@@||mtalk.google.com
+@@||*mtalk.google.com
+@@||feeds.feedburner.com
+@@||feedproxy.google.com
 @@||fonts.gstatic.com
+
 
 ! GTA Online [Rockstar]
 @@||prod.telemetry.ros.rockstargames.com
