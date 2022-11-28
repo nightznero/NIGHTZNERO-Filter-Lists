@@ -700,7 +700,7 @@ redtube.com##.uf9iw7uaw.uf9iw7uac
 @@||j*.showup.tv^$domain=showup.tv
 @@||showup.tv/site^$domain=showup.tv
 @@||cdn-e*.showup.tv^$domain=showup.tv
-||showup.tv$badfilter
+||showup.tv^$badfilter
 ||showup.tv/sounds^$domain=showup.tv
 
 ! SpankBang
