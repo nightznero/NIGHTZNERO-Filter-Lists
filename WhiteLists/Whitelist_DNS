@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 173
+! Entries: 180
 !
 ! Expires: 1 days
 !
@@ -92,6 +92,7 @@
 @@||feeds.feedburner.com
 @@||feedproxy.google.com
 @@||fonts.gstatic.com
+@@||*.gmail.com
 
 
 ! GTA Online [Rockstar]
@@ -307,6 +308,12 @@
 ! (For now disabled) @@||video-stats.l.google.com
 ! (For now disabled) @@||play.googleapis.com
 @@||redirector.googlevideo.com
+@@||www.youtube.com
+@@||m.youtube.com
+@@||img.youtube.com
+@@||*.googlevideo.com
+@@||*.ytimg.com
+@@||consent.youtube.com
 
 ! Zbiornik
 @@||zbiornik.com
