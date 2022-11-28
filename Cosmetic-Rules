@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 692
+! Entries: 693
 !
 ! Expires: 1 days
 !
@@ -701,6 +701,7 @@ redtube.com##.uf9iw7uaw.uf9iw7uac
 @@||showup.tv/site^$domain=showup.tv
 @@||cdn-e*.showup.tv^$domain=showup.tv
 ||showup.tv$badfilter
+||showup.tv/sounds^$domain=showup.tv
 
 ! SpankBang
 @@||assets.sb-cd.com/static^$domain=spankbang.com
