@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 701
+! Entries: 732
 !
 ! Expires: 1 days
 !
@@ -48,6 +48,39 @@
 /gen_204?$image,other,ping,script
 $document,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|asos.com|att.com|bankofamerica.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|blog.getadblock.com|blogs.oracle.com|boxboat.com|britishcornershop.co.uk|bybit.com|chollometro.com|coinpanel.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|edx.org|educba.com|eonline.com|escentual.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|hammacher.com|hanes.com|hotspotshield.com|hottopic.com|housing.com|hp.com|instagram.com|itnext.io|jacquielawson.com|just-eat.co.uk|kasta.io|medium.com|microsoftedgewelcome.microsoft.com|nautica.com|nortonsafe.search.ask.com|onehanesplace.com|outnorth.fi|pepper.pl|petsupplies.com|phonesoap.com|riteaid.com|runnode.com|search.brave.com|seekingalpha.com|sonos.com|spiceworks.com|squarespace.com|studio.co.uk|subscribe.gq.com|t.me|thedailybeast.com|tiktok.com|tokopedia.com|torrid.com|tous.com|tradingview.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wired.com|ylighting.com|youtube.com|yubo.live
 ||syndication.*.com^$popup
+
+! In-Video Ads
+||api.fw.tv^
+||avantisvideo.com/avm/js/video-loader.js$script,third-party
+||channelexco.com/player/$third-party
+||connatix.com^$script,third-party
+||delivery.vidible.tv/jsonp/
+||dywolfer.de^
+||embed.sendtonews.com^$third-party
+||fqtag.com^$third-party
+||fwcdn1.com/js/fwn.js
+||fwcdn1.com/js/storyblock.js
+||fwcdn2.com^$third-party
+||go.trvdp.com^
+||live.primis.tech^$third-party
+||play.anyclip.com^$script,third-party
+||play.springboardplatform.com^
+||playbuzz.com/embed/$script,third-party
+||playbuzz.com/player/$script,third-party
+||player.anyclip.com/anyclip-widget/$script,third-party
+||player.avplayer.com^$third-party
+||player.ex.co^$script,third-party
+||player.sendtonews.com^$third-party
+||playwire.com/bolt/js/$script,third-party
+||sportrecs.com/redirect/embed/
+||ultimedia.com/js/common/smart.js$script,third-party
+||vidazoo.com/basev/$script,third-party
+||video-api.yql.yahoo.com^*/wf-channel=related-videos?
+||vidora.com^$third-party
+||viewdeos.com^$script,third-party
+||vms-players.minutemediaservices.com^$script,third-party
+||voqally.com/hub/app/
+||vplayer.newseveryday.com^
 
 ! Anti AdBlock Enhanced+
 &crc=1|$xmlhttprequest,third-party
