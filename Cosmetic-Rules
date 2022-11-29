@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 696
+! Entries: 701
 !
 ! Expires: 1 days
 !
@@ -476,6 +476,11 @@ _spot_id=*&zone_id=$script,~third-party
 
 ! (Fvcking) Adservers
 ||pixfuture.com^$third-party
+||closureevaporatefume.com^
+||pub.network^
+||d2o03z2xnyxlz5.cloudfront.net^
+||papayads.net^$third-party
+||revcontent.com^$third-party
 
 ! Bing [Microsoft]
 ||bing.com/mouselog$script,redirect-rule=noopjs,domain=bing.com
