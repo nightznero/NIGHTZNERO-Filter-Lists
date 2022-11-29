@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 732
+! Entries: 734
 !
 ! Expires: 1 days
 !
@@ -591,6 +591,8 @@ igg-games.com###LfY
 ! LinkedIn [Microsoft]
 @@||licdn.com^$tag=linked-in-embeds
 @@||platform.linkedin.com^$tag=linked-in-embeds
+||licdn.com^$third-party,domain=~linkedin.com
+||linkedin.com^$third-party
 
 ! NextCloud
 @@||bes.to^$stealth
