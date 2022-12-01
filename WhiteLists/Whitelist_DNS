@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 181
+! Entries: 183
 !
 ! Expires: 1 days
 !
-! Updated: 2022.12.01
+! Updated: 2022.12.02
 !
 ! MIT License
 !
@@ -85,6 +85,11 @@
 
 ! Firefox [Mozilla]
 @@||addons.mozilla.org
+
+Future plc (images for other sites)
+@@||bordeaux.futurecdn.net^
+@@||champagne.futurecdn.net^
+! Blocked by GoodbyeAds
 
 ! Google
 @@||firebaseinstallations.googleapis.com
