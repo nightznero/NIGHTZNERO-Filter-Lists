@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 181
+! Entries: 183
 !
 ! Expires: 1 days
 !
-! Updated: 2022.11.27
+! Updated: 2022.12.01
 !
 ! MIT License
 !
@@ -86,6 +86,11 @@
 ! Firefox [Mozilla]
 @@||addons.mozilla.org
 
+! Future plc (images for sites)
+@@||champagne.futurecdn.net
+@@||bordeaux.futurecdn.net
+! Blocked by GoodbyeAds
+
 ! Google
 @@||firebaseinstallations.googleapis.com
 ! Blocked by various lists,and breaking apps cuz its creating unique id
@@ -96,7 +101,6 @@
 @@||feedproxy.google.com
 @@||fonts.gstatic.com
 @@||*.gmail.com
-
 
 ! GTA Online [Rockstar]
 @@||prod.telemetry.ros.rockstargames.com
