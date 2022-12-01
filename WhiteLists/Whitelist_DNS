@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 183
+! Entries: 181
 !
 ! Expires: 1 days
 !
@@ -85,10 +85,6 @@
 
 ! Firefox [Mozilla]
 @@||addons.mozilla.org
-
-! Future plc (images for sites)
-@@||vanilla.futurecdn.net
-@@||slice.vanilla.futurecdn.net
 
 ! Google
 @@||firebaseinstallations.googleapis.com
