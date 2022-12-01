@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 181
+! Entries: 182
 !
 ! Expires: 1 days
 !
-! Updated: 2022.12.01
+! Updated: 2022.12.02
 !
 ! MIT License
 !
@@ -48,6 +48,10 @@
 @@||ecn.dev.virtualearth.net
 @@||t0.ssl.ak.dynamic.tiles.virtualearth.net
 @@||t0.ssl.ak.tiles.virtualearth.net
+
+! Blokada
+@@||go.blokada.org^
+! Blocked by DuckDuckGo Tracker Radar
 
 ! Buzzfeed
 @@||weaver-api.buzzfeed.com
