@@ -11,18 +11,16 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 745
+! Entries: 744
 !
 ! Expires: 1 days
 !
-! Updated: 2022.11.30
+! Updated: 2022.12.01
 !
 ! MIT License
 !
 ! Copyright (c) 2022 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-||vanilla.futurecdn.net$badfilter
-
 ! Fanboy missing elements
 ###ad-plea
 ##.banner
