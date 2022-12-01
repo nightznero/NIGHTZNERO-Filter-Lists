@@ -87,9 +87,8 @@
 @@||addons.mozilla.org
 
 ! Future plc (images for sites)
-@@||champagne.futurecdn.net
-@@||bordeaux.futurecdn.net
-! Blocked by GoodbyeAds
+@@||vanilla.futurecdn.net
+@@||slice.vanilla.futurecdn.net
 
 ! Google
 @@||firebaseinstallations.googleapis.com
