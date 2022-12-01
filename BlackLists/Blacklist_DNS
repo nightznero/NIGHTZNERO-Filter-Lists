@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 976
+! Entries: 1 977
 !
 ! Expires: 1 days
 !
@@ -117,6 +117,7 @@
 0.0.0.0 encrypted-tbn1.gstatic.com
 0.0.0.0 encrypted-tbn2.gstatic.com
 0.0.0.0 encrypted-tbn3.gstatic.com
+0.0.0.0 geller-pa.googleapis.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 ads.google.com
