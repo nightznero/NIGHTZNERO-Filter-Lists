@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 744
+! Entries: 745
 !
 ! Expires: 1 days
 !
-! Updated: 2022.12.01
+! Updated: 2022.12.02
 !
 ! MIT License
 !
@@ -524,6 +524,9 @@ _spot_id=*&zone_id=$script,~third-party
 ||d2o03z2xnyxlz5.cloudfront.net^
 ||papayads.net^$third-party
 ||revcontent.com^$third-party
+
+! Adobe
+@@||use.typekit.net/af^$domain=commonhealth.org
 
 ! Bing [Microsoft]
 ||bing.com/mouselog$script,redirect-rule=noopjs,domain=bing.com
