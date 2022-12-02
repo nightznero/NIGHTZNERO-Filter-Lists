@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 745
+! Entries: 746
 !
 ! Expires: 1 days
 !
@@ -525,9 +525,6 @@ _spot_id=*&zone_id=$script,~third-party
 ||papayads.net^$third-party
 ||revcontent.com^$third-party
 
-! Adobe
-@@||use.typekit.net/af^$domain=commonhealth.org
-
 ! Bing [Microsoft]
 ||bing.com/mouselog$script,redirect-rule=noopjs,domain=bing.com
 
@@ -755,6 +752,11 @@ redtube.com##.uf9iw7uaw.uf9iw7uac
 @@||cdn-e*.showup.tv^$domain=showup.tv
 ||showup.tv^$badfilter
 ||showup.tv/sounds^$domain=showup.tv
+
+! SquareSpace
+||assets.squarespace.com$badfilter
+||static1.squarespace.com$badfilter
+! Blocked by DuckDuckGo Tracker Radar
 
 ! SpankBang
 @@||assets.sb-cd.com/static^$domain=spankbang.com
