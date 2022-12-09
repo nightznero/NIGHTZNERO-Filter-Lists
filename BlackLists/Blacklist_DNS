@@ -99,7 +99,7 @@
 0.0.0.0 api.bugsnag.com
 0.0.0.0 app.bugsnag.com
 ! -Sentry- !
-0.0.0.0 ingest.sentry.io
+0.0.0.0 sentry.io
 0.0.0.0 browser.sentry-cdn.com
 0.0.0.0 app.getsentry.com
 ! -Umeng- !
