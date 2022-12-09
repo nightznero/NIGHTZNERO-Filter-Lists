@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 977
+! Entries: 1 978
 !
 ! Expires: 1 days
 !
-! Updated: 2022.12.01
+! Updated: 2022.12.09
 !
 ! MIT License
 !
@@ -99,6 +99,7 @@
 0.0.0.0 api.bugsnag.com
 0.0.0.0 app.bugsnag.com
 ! -Sentry- !
+0.0.0.0 ingest.sentry.io
 0.0.0.0 browser.sentry-cdn.com
 0.0.0.0 app.getsentry.com
 ! -Umeng- !
