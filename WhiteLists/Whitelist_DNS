@@ -321,7 +321,7 @@
 @@||www.youtube.com
 @@||m.youtube.com
 @@||img.youtube.com
-@@||*.googlevideo.com
+! (For now disabled) @@||*.googlevideo.com
 @@||*.ytimg.com
 @@||consent.youtube.com
 
