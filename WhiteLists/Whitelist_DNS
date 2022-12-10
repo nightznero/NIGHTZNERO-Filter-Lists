@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 183
+! Entries: 199
 !
 ! Expires: 1 days
 !
-! Updated: 2022.12.02
+! Updated: 2022.12.10
 !
 ! MIT License
 !
@@ -23,6 +23,20 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Accuweather 
 @@||vortex.accuweather.com
+
+! Amazon
+@@||mobileanalytics.us-east-1.amazonaws.com 
+@@||cognito-identity.us-east-1.amazonaws.com
+@@||unagi-na.amazon.com
+@@||ocsp.rootg2.amazontrust.com
+@@||det-ta-g7g.amazon.com
+@@||todo-ta-g7g.amazon.com
+@@||device-messaging-na.amazon.com
+@@||vs3-eu-west-1.amazonaws.com
+@@||us-east-1.amazonaws.com
+@@||device-metrics-us-2.amazon.com
+@@||device-metrics-us.amazon.com
+@@||sqs.us-east-1.amazonaws.com
 
 ! AMP
 @@||*.ampproject.org
@@ -100,6 +114,10 @@
 @@||feedproxy.google.com
 @@||fonts.gstatic.com
 @@||*.gmail.com
+@@||clients4.google.com 
+@@||clients2.google.com
+@@||android.clients.google.com
+@@||googleapis.l.google.com
 
 ! GTA Online [Rockstar]
 @@||prod.telemetry.ros.rockstargames.com
