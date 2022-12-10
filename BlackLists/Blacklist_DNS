@@ -114,6 +114,7 @@
 0.0.0.0 userlocation.googleapis.com
 0.0.0.0 geomobileservices-pa.googleapis.com
 0.0.0.0 optimizationguide-pa.googleapis.com
+0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 id.google.com
 0.0.0.0 encrypted-tbn1.gstatic.com
 0.0.0.0 encrypted-tbn2.gstatic.com
@@ -125,7 +126,6 @@
 0.0.0.0 adservice.google.com
 0.0.0.0 googleadservices.com
 0.0.0.0 google-analytics.com
-0.0.0.0 ssl.google-analytics.com
 0.0.0.0 csp.withgoogle.com
 0.0.0.0 safebrowsing.googleapis.com
 
