@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 746
+! Entries: 747
 !
 ! Expires: 1 days
 !
-! Updated: 2022.12.02
+! Updated: 2022.12.10
 !
 ! MIT License
 !
@@ -741,6 +741,7 @@ redtube.com##.kze9tw.kze9tc
 redtube.com##.uf9iw7uaw.uf9iw7uac
 
 ! Showup.tv
+@@||showup.tv^$domain=showup.tv,stealth
 @@||showup.tv/styles^$domain=showup.tv
 @@||showup.tv/scripts^$domain=showup.tv
 @@||showup.tv/images^$domain=showup.tv
