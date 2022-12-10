@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list
 !
-! Entries: 747
+! Entries: 750
 !
 ! Expires: 1 days
 !
@@ -665,39 +665,43 @@ igg-games.com###LfY
 ! Blocked by GoodbyeAds
 
 ! PornHub
-pornhub.com##.cookieBanner
-pornhub.com##div.wrapper:nth-child(*) > div.container:last-child > div.gridWrapper:nth-child(*) > div.nf-videos:last-child > div.sectionWrapper > div.sectionWrapper:nth-child(7)
-pornhub.com##div.wrapper:nth-child(8) > div.container:last-child > div.gridWrapper:nth-child(6) > div.nf-videos:last-child > div.sectionWrapper > div.sectionWrapper:nth-child(7)
-pornhub.com##div.wrapper:nth-child(11) > div.container:last-child > div.gridWrapper:nth-child(8) > div.nf-videos:last-child > div.sectionWrapper > div.sectionWrapper:nth-child(7)
-pornhub.com##.*.hd.clear
-pornhub.com##.fhd057mkkb6wzp3zk6rfr.fhd057mkkb6wzp3zk6rfu.hd.clear
-pornhub.com##.kkyb159obd3nt7g3td5hr.kkyb159obd3nt7g3td5hu.hd.clear
-pornhub.com##.uhvhg4nur.uhvhg4nuu.hd.clear
-pornhub.com##.cwgv5r244lcsigr.cwgv5r244lcsigu.hd.clear
-pornhub.com##.tashszrysqr.tashszrysqu.hd.clear
-pornhub.com##.ttasnbsngjr.ttasnbsngju.hd.clear
-pornhub.com##.gdm3ofm3hwpr.gdm3ofm3hwpu.hd.clear
-pornhub.com##.a5buu4qcbgz1i7r.a5buu4qcbgz1i7u.hd.clear
-pornhub.com##.ifdmxgtzox
-pornhub.com##.fhd057mkkb6wzp3zk6rff
-pornhub.com##.srtyogkwcr
-pornhub.com##.peclneklto
-pornhub.com##.beikuljzth
-pornhub.com##.a5buu4qcbgz1i7f
-pornhub.com###\31 *
-pornhub.com###\31 577970664796
-pornhub.com###\31 577970737216
-pornhub.com###\31 577970663690
-pornhub.com###\31 577971207891
-pornhub.com###\31 579017928416
-pornhub.com###\31 579017969010
-pornhub.com###\31 579018113971
-pornhub.com###\31 579018317420
-pornhub.com###\31 579018344545
-pornhub.com###\31 580001936703
-pornhubpremium.com##div.wrapper:nth-child(13) > div.container:last-child > div.gridWrapper:nth-child(6) > div.nf-videos:last-child > div.sectionWrapper > div.sectionWrapper:nth-child(7)
-pornhubpremium.com##div.wrapper:nth-child(13) > div.container:last-child > div.gridWrapper:nth-child(7) > div.nf-videos:last-child > div.sectionWrapper > div.sectionWrapper:nth-child(7)
-pornhubpremium.com##div.wrapper:nth-child(13) > div.container:last-child > div.gridWrapper:nth-child(8) > div.nf-videos:last-child > div.sectionWrapper > div.sectionWrapper:nth-child(7)
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.realsex
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.premiumPromoBanner
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###pb_template
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##+js(set, page_params.holiday_promo, true)
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.cookieBanner
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##div.wrapper:nth-child(*) > div.container:last-child > div.gridWrapper:nth-child(*) > div.nf-videos:last-child > div.sectionWrapper > div.sectionWrapper:nth-child(7)
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##div.wrapper:nth-child(8) > div.container:last-child > div.gridWrapper:nth-child(6) > div.nf-videos:last-child > div.sectionWrapper > div.sectionWrapper:nth-child(7)
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##div.wrapper:nth-child(11) > div.container:last-child > div.gridWrapper:nth-child(8) > div.nf-videos:last-child > div.sectionWrapper > div.sectionWrapper:nth-child(7)
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##div.wrapper:nth-child(13) > div.container:last-child > div.gridWrapper:nth-child(6) > div.nf-videos:last-child > div.sectionWrapper > div.sectionWrapper:nth-child(7)
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##div.wrapper:nth-child(13) > div.container:last-child > div.gridWrapper:nth-child(7) > div.nf-videos:last-child > div.sectionWrapper > div.sectionWrapper:nth-child(7)
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##div.wrapper:nth-child(13) > div.container:last-child > div.gridWrapper:nth-child(8) > div.nf-videos:last-child > div.sectionWrapper > div.sectionWrapper:nth-child(7)
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.*.hd.clear
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.fhd057mkkb6wzp3zk6rfr.fhd057mkkb6wzp3zk6rfu.hd.clear
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.kkyb159obd3nt7g3td5hr.kkyb159obd3nt7g3td5hu.hd.clear
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.uhvhg4nur.uhvhg4nuu.hd.clear
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.cwgv5r244lcsigr.cwgv5r244lcsigu.hd.clear
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.tashszrysqr.tashszrysqu.hd.clear
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.ttasnbsngjr.ttasnbsngju.hd.clear
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.gdm3ofm3hwpr.gdm3ofm3hwpu.hd.clear
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.a5buu4qcbgz1i7r.a5buu4qcbgz1i7u.hd.clear
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.ifdmxgtzox
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.fhd057mkkb6wzp3zk6rff
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.srtyogkwcr
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.peclneklto
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.beikuljzth
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.a5buu4qcbgz1i7f
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 *
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 577970664796
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 577970737216
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 577970663690
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 577971207891
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 579017928416
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 579017969010
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 579018113971
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 579018317420
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 579018344545
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 580001936703
 
 ! PornReactor.cc
 @@||js.pornreactor.cc^$domain=pornreactor.cc
