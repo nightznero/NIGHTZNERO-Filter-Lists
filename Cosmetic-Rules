@@ -9,13 +9,13 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Title: NIGHTZNERO - Cosmetic Rules
 !
-! Description: My Cosmetic Rules migrated from AdGuard to dis list
+! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
 ! Entries: 750
 !
 ! Expires: 1 days
 !
-! Updated: 2022.12.10
+! Updated: 2022.12.11
 !
 ! MIT License
 !
@@ -745,7 +745,7 @@ redtube.com##.kze9tw.kze9tc
 redtube.com##.uf9iw7uaw.uf9iw7uac
 
 ! Showup.tv
-@@||showup.tv^$domain=showup.tv,stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi
+@@||showup.tv^$domain=showup.tv,stealth=ip|3p-auth|referrer|useragent|webrtc|location|flash|java
 @@||showup.tv/styles^$domain=showup.tv
 @@||showup.tv/scripts^$domain=showup.tv
 @@||showup.tv/images^$domain=showup.tv
