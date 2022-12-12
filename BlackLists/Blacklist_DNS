@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 981
+! Entries: 1 982
 !
 ! Expires: 1 days
 !
@@ -126,6 +126,7 @@
 0.0.0.0 adservice.google.com
 0.0.0.0 googleadservices.com
 0.0.0.0 google-analytics.com
+0.0.0.0 auditrecording-pa.googleapis.com
 0.0.0.0 csp.withgoogle.com
 0.0.0.0 safebrowsing.googleapis.com
 
