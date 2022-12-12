@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 979
+! Entries: 1 983
 !
 ! Expires: 1 days
 !
-! Updated: 2022.12.10
+! Updated: 2022.12.12
 !
 ! MIT License
 !
@@ -356,7 +356,11 @@
 0.0.0.0 msmetrics-test.ws.sonos.com
 
 ! Fvck off - YouTube
-||rr*---sn-5uh5o-f*f*.googlevideo.com
+! (For now disabled) ||rr*---sn-5uh5o-f*f*.googlevideo.com
+0.0.0.0 rr*---sn-*.googlevideo.com
+0.0.0.0 rr*---sn-*-*.googlevideo.com
+0.0.0.0 r*---sn-*.googlevideo.com
+0.0.0.0 r*---sn-*-*.googlevideo.com
 0.0.0.0 ads.youtube.com
 0.0.0.0 youtube.cleverads.vn
 
