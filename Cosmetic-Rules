@@ -745,7 +745,7 @@ redtube.com##.kze9tw.kze9tc
 redtube.com##.uf9iw7uaw.uf9iw7uac
 
 ! Showup.tv
-@@||showup.tv^$domain=showup.tv,stealth
+@@||showup.tv^$stealth=3p-auth|webrtc|push|flash|java,domain=showup.tv
 @@||showup.tv/styles^$domain=showup.tv
 @@||showup.tv/scripts^$domain=showup.tv
 @@||showup.tv/images^$domain=showup.tv
