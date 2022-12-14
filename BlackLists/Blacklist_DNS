@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 982
+! Entries: 1 983
 !
 ! Expires: 1 days
 !
-! Updated: 2022.12.12
+! Updated: 2022.12.14
 !
 ! MIT License
 !
@@ -114,6 +114,7 @@
 0.0.0.0 userlocation.googleapis.com
 0.0.0.0 geomobileservices-pa.googleapis.com
 0.0.0.0 optimizationguide-pa.googleapis.com
+0.0.0.0 clients1.google.com
 0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 id.google.com
 0.0.0.0 encrypted-tbn1.gstatic.com
