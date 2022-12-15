@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 754
+! Entries: 755
 !
 ! Expires: 1 days
 !
@@ -813,6 +813,9 @@ startpage.com###gcsa-top
 ||platform.twitter.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp
 twitter.com##[style]>div>div>[data-testid=placementTracking]
 twitter.com#@#.ProfileCanopy-card, .u-cf.OpenInAppBar, div:not([aria-labelledby="modal-header"]) .r-18qmn74.r-1vsu8ta.r-1joea0r.r-1777fci.r-1pz39u2.r-obd0qt.css-1dbjc4n > div:not([aria-disabled="true"]), header div[style*="height: calc(53px);"]
+
+! You.com (Search engine)
+@@||*.you.com^$domain=*.you.com,stealth
 
 ! Youtube
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, [].playerResponse.adPlacements)
