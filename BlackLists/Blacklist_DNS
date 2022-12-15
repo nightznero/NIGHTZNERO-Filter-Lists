@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 983
+! Entries: 1 996
 !
 ! Expires: 1 days
 !
@@ -24,6 +24,19 @@
 ! Fvck off - Attribute
 0.0.0.0 0.0.0.0
 0.0.0.0 0.0.0
+127.0.0.1 localhost
+127.0.0.1 localhost.localdomain
+127.0.0.1 local
+255.255.255.255 broadcasthost
+::1 localhost
+::1 ip6-localhost
+::1 ip6-loopback
+fe80::1%lo0 localhost
+ff00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
 
 ! Fvck off - Ads
 0.0.0.0 syndication.exdynsrv.com
