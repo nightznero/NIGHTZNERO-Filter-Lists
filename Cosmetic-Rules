@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 750
+! Entries: 754
 !
 ! Expires: 1 days
 !
-! Updated: 2022.12.11
+! Updated: 2022.12.15
 !
 ! MIT License
 !
@@ -710,6 +710,12 @@ pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 580001936703
 ! Reactor.cc
 @@||js.reactor.cc^$important,domain=reactor.cc
 @@||img*.reactor.cc^$domain=reactor.cc
+
+! Redgifs (Stealth breaking site)
+@@||redgifs.com^$domain=redgifs.com,stealth
+@@||thumbs4.redgifs.com^$domain=redgifs.com,stealth
+@@||auth.redgifs.com^$domain=redgifs.com,stealth
+@@||api.redgifs.com/v2^$domain=redgifs.com,stealth
 
 ! RedTube
 redtube.com###eu_cookie_disclaimer
