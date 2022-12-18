@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 997
+! Entries: 1 999
 !
 ! Expires: 1 days
 !
@@ -72,6 +72,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 e3log2.fineboost.com
 0.0.0.0 e3log3.fineboost.com
 0.0.0.0 api16-access-sg.pangle.io
+0.0.0.0 tnc16-alisg.isnssdk.com
+0.0.0.0 tnc16-alisg.byteoversea.com
 ! -Hotjar- !
 0.0.0.0 api-hotjar.com
 0.0.0.0 hotjar-analytics.com
@@ -125,6 +127,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 google-analytics.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 userlocation.googleapis.com
+0.0.0.0 semanticlocation-pa.googleapis.com
 0.0.0.0 geomobileservices-pa.googleapis.com
 0.0.0.0 optimizationguide-pa.googleapis.com
 0.0.0.0 clients1.google.com
@@ -347,8 +350,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pinpoint.us-east-1.amazonaws.com
 0.0.0.0 msh.amazon.com
 0.0.0.0 mads.amazon.com
-0.0.0.0 aax-eu.amazon-adsystem.com
-0.0.0.0 s.amazon-adsystem.com
+0.0.0.0 amazon-adsystem.com
 0.0.0.0 fls-na.amazon.com
 0.0.0.0 adtago.s3.amazonaws.com
 0.0.0.0 analyticsengine.s3.amazonaws.com
