@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 996
+! Entries: 1 997
 !
 ! Expires: 1 days
 !
-! Updated: 2022.12.15
+! Updated: 2022.12.18
 !
 ! MIT License
 !
@@ -348,6 +348,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 msh.amazon.com
 0.0.0.0 mads.amazon.com
 0.0.0.0 aax-eu.amazon-adsystem.com
+0.0.0.0 s.amazon-adsystem.com
 0.0.0.0 fls-na.amazon.com
 0.0.0.0 adtago.s3.amazonaws.com
 0.0.0.0 analyticsengine.s3.amazonaws.com
