@@ -604,6 +604,10 @@ igg-games.com###LfY
 ||licdn.com^$third-party,domain=~linkedin.com
 ||linkedin.com^$third-party
 
+! MasterCard
+@@||bezcennechwile.mastercard.pl^
+@@||rpm.upaid.pl^
+
 ! NextCloud
 @@||bes.to^$stealth
 ! Stealth breaks media player
