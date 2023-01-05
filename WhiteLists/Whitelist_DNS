@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2023.01.03
+! Updated: 2023.01.05
 !
 ! MIT License
 !
@@ -99,10 +99,10 @@
 
 ! Facebook [Meta]
 @@||graph.facebook.com
+@@||graph-video.facebook.com
 ! Blocked by GoodbyeAds
 @@||b-graph.facebook.com
 ! Blocked by 1Hosts Pro
-! (For now disabled) @@||graph-video.facebook.com
 ! (For now disabled) @@||web.facebook.com
 ! Blocked by DuckDuckGo Tracker Radar
 ! (For now disabled) @@||mqtt-mini.facebook.com
