@@ -11,27 +11,23 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 755
+! Entries: 757
 !
 ! Expires: 1 days
 !
-! Updated: 2022.12.22
+! Updated: 2023.01.05
 !
 ! MIT License
 !
 ! Copyright (c) 2022 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Fanboy missing elements
-###ad-plea
 ##.banner
 ##.basic-banner
 ##.board-tail-banner
-###adblock-warning
 ##.whine
 ##.modal-container
 ##.premiumPromoBanner
-###veta_top
-###veta_branding
 ##.banner_area
 /ads_*/ads.load.js$script,redirect=noop.js
 /ad/alliance_
@@ -41,6 +37,12 @@
 #@#adsContent
 ##.box-adv
 ##.sponsored-post
+##.cmp-footer_footer
+###ad-plea
+###adblock-warning
+###cookie-bar
+###veta_branding
+###veta_top
 
 ! Default
 @@/favicon.ico|
