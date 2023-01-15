@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2023.01.14
+! Updated: 2023.01.15
 !
 ! MIT License
 !
@@ -128,9 +128,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 clients1.google.com
 0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 id.google.com
-0.0.0.0 encrypted-tbn1.gstatic.com
-0.0.0.0 encrypted-tbn2.gstatic.com
-0.0.0.0 encrypted-tbn3.gstatic.com
+!For now disabled 0.0.0.0 encrypted-tbn1.gstatic.com
+!For now disabled 0.0.0.0 encrypted-tbn2.gstatic.com
+!For now disabled 0.0.0.0 encrypted-tbn3.gstatic.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 ads.google.com
