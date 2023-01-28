@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2023.01.26
+! Updated: 2023.01.28
 !
 ! MIT License
 !
@@ -375,7 +375,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 msmetrics-test.ws.sonos.com
 
 ! Fvck off - YouTube
-! (For now disabled) ||rr*---sn-5uh5o-f*f*.googlevideo.com
 ||rr*---sn-*.googlevideo.com
 ||rr*---sn-*-*.googlevideo.com
 0.0.0.0 ads.youtube.com
@@ -428,6 +427,7 @@ ff02::3 ip6-allhosts
 
 ! Fvck off - Snapchat
 0.0.0.0 app-analytics-v2.snapchat.com
+0.0.0.0 internal-api.snapkit.com
 
 ! Fvck off - Pinterest
 0.0.0.0 ads.pinterest.com
