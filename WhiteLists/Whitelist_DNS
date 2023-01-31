@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 204
+! Entries: 207
 !
 ! Expires: 1 days
 !
-! Updated: 2023.01.29
+! Updated: 2023.01.31
 !
 ! MIT License
 !
@@ -120,6 +120,10 @@
 ! Google
 @@||firebaseinstallations.googleapis.com
 ! Blocked by various lists,and breaking apps cuz its creating unique id
+@@||encrypted-tbn1.gstatic.com
+@@||encrypted-tbn2.gstatic.com
+@@||encrypted-tbn3.gstatic.com
+! Blocked by 4PDA Community hosts blacklist
 @@||connectivitycheck.gstatic.com
 @@||mtalk.google.com
 @@||*mtalk.google.com
