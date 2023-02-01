@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 010
+! Entries: 2 011
 !
 ! Expires: 1 days
 !
-! Updated: 2023.01.31
+! Updated: 2023.02.01
 !
 ! MIT License
 !
@@ -50,6 +50,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 fgn.cdn.serverable.com
 0.0.0.0 mcdlks.com
 0.0.0.0 0x01n2ptpuz3.com
+0.0.0.0 adtng.com
 ! -Doubleclick.net- !
 0.0.0.0 mediavisor.doubleclick.net
 0.0.0.0 m.doubleclick.net
