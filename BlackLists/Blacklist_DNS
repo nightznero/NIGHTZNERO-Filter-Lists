@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 012
+! Entries: 2 014
 !
 ! Expires: 1 days
 !
@@ -491,14 +491,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 pnrtscr.com
 
 ! Fvck off - Scams (really?xd)
-0.0.0.0 re-vanced.com
-0.0.0.0 bustygirlsnetwork.com
-0.0.0.0 sexy-egirls-leaked.com
-0.0.0.0 leakedonlyf.com
 0.0.0.0 api.panda.boosters.company
 0.0.0.0 gsmgov.com
 0.0.0.0 twpytr.com
 0.0.0.0 ijnb.cn
+0.0.0.0 re-vanced.com
+0.0.0.0 bustygirlsnetwork.com
+0.0.0.0 sexy-egirls-leaked.com
+0.0.0.0 leakedonlyf.com
+0.0.0.0 vervesex.com
+0.0.0.0 xxxhub123.com
 
 ! Fvck off - Fake Apk Stores (It's not about modding,they have injected malware/trojans/trackers/ads)
 0.0.0.0 apksoul.net
