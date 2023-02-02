@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 011
+! Entries: 2 012
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.01
+! Updated: 2023.02.02
 !
 ! MIT License
 !
@@ -472,6 +472,10 @@ ff02::3 ip6-allhosts
 
 ! Fvck off - Puffin Browser [CloudMosa]
 0.0.0.0 collector.cloudmosa.net
+
+! Fvck off - Blue mods [Blue•] (Discord/KiK)
+! Reason why blocked -> https://is.gd/hXN4QD
+0.0.0.0 bluemods.com
 
 ! Fvck off - Roblox
 0.0.0.0 client-telemetry.roblox.com
