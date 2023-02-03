@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 014
+! Entries: 2 011
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.02
+! Updated: 2023.02.03
 !
 ! MIT License
 !
@@ -129,9 +129,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 clients1.google.com
 0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 id.google.com
-!For now disabled 0.0.0.0 encrypted-tbn1.gstatic.com
-!For now disabled 0.0.0.0 encrypted-tbn2.gstatic.com
-!For now disabled 0.0.0.0 encrypted-tbn3.gstatic.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 ads.google.com
@@ -502,7 +499,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 vervesex.com
 0.0.0.0 xxxhub123.com
 
-! Fvck off - Fake Apk Stores (It's not about modding,they have injected malware/trojans/trackers/ads)
+! Fvck off - Fake Apk Stores (I have nothing to mods if they are made properly n safe)
 0.0.0.0 apksoul.net
 
 ! Fvck off - Camscanner App
@@ -547,9 +544,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 api-lytics.macpaw.com
 
 ! Fvck off - Fake Crypto sites
-!BAT (Basic Attention Token)
+! -BAT- ! (Basic Attention Token)
 0.0.0.0 basicattentiontoken.claims
-!APE
+! -APE- !
 0.0.0.0 ape-coin.gift
 
 ! Fvck off - CMCM
