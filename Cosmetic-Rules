@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 762
+! Entries: 773
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.02
+! Updated: 2023.02.03
 !
 ! MIT License
 !
@@ -606,6 +606,19 @@ igg-games.com###Ylq
 igg-games.com###msy
 igg-games.com###yVF
 igg-games.com###LfY
+
+! Imgur
+imgur.com##iframe[src="javascript:'<html><head></head><body style=\"margin:0 auto\"><script>var uponit=true; var upapi=true;</script></body></html>'"]
+imgur.com###div-ad-under_sidebar
+imgur.com##.advertisement.div-ad-active-under_sidebar
+imgur.com###div-ad-top_banner
+imgur.com###div-ad-bottom_banner
+imgur.com##.advertisement.div-ad-active-top_banner
+imgur.com##.advertisement.div-ad-active-bottom_banner
+imgur.com###div-ad-top_med_rec
+imgur.com###div-ad-bottom_med_rec
+imgur.com##.advertisement.div-ad-active-top_med_rec
+imgur.com##.advertisement.div-ad-active-bottom_med_rec
 
 ! LinkedIn [Microsoft]
 @@||licdn.com^$tag=linked-in-embeds
