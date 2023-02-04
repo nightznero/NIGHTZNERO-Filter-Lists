@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 773
+! Entries: 774
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.03
+! Updated: 2023.02.04
 !
 ! MIT License
 !
@@ -629,6 +629,9 @@ imgur.com##.advertisement.div-ad-active-bottom_med_rec
 ! MasterCard
 @@||bezcennechwile.mastercard.pl^
 @@||rpm.upaid.pl^
+
+! Mobilism.org
+@@||forum.mobilism.org/portal.php?mode=articles&block=aapp
 
 ! NextCloud
 @@||bes.to^$stealth
