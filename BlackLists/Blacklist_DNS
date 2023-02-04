@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 011
+! Entries: 2 015
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.03
+! Updated: 2023.02.04
 !
 ! MIT License
 !
@@ -121,6 +121,10 @@ ff02::3 ip6-allhosts
 ! -Umeng- !
 0.0.0.0 ulogs.umeng.com
 0.0.0.0 ulogs.umengcloud.com
+0.0.0.0 oc.umeng.com
+0.0.0.0 ulogs.umeng.co
+0.0.0.0 ulogs.umengcloud.co
+0.0.0.0 oc.umeng.co
 
 ! Fvck off - Google
 0.0.0.0 app-measurement.com
