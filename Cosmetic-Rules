@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 776
+! Entries: 778
 !
 ! Expires: 1 days
 !
@@ -621,6 +621,8 @@ imgur.com##.advertisement.div-ad-active-top_med_rec
 imgur.com##.advertisement.div-ad-active-bottom_med_rec
 
 ! KFC
+@@||api.amrest.eu/amdv/ordering-api/KFC_PL/rest^$stealth
+@@||kfc.pl^$stealth
 @@||kfcdostawa.pl/ordering-api^$stealth
 
 ! LinkedIn [Microsoft]
