@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 207
+! Entries: 208
 !
 ! Expires: 1 days
 !
-! Updated: 2023.01.31
+! Updated: 2023.02.04
 !
 ! MIT License
 !
@@ -292,9 +292,10 @@
 ! Blocked by Energized.Pro - Basic
 
 ! Spotify
-! (For now disabled) @@||api-tv.spotify.com^
-! (For now disabled) @@||apresolve.spotify.com^
-! (For now disabled) @@||spclient.wg.spotify.com^
+@@||api-tv.spotify.com^
+@@||apresolve.spotify.com^
+@@||spclient.wg.spotify.com^
+@@||audio-ak-spotify-com.akamaized.net^
 
 ! Square Space
 @@||static1.squarespace.com
