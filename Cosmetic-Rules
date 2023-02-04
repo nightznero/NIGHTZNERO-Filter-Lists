@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 773
+! Entries: 776
 !
 ! Expires: 1 days
 !
@@ -620,6 +620,9 @@ imgur.com###div-ad-bottom_med_rec
 imgur.com##.advertisement.div-ad-active-top_med_rec
 imgur.com##.advertisement.div-ad-active-bottom_med_rec
 
+! KFC
+@@||kfcdostawa.pl/ordering-api^$stealth
+
 ! LinkedIn [Microsoft]
 @@||licdn.com^$tag=linked-in-embeds
 @@||platform.linkedin.com^$tag=linked-in-embeds
@@ -732,6 +735,10 @@ pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 580001936703
 ! PornReactor.cc
 @@||js.pornreactor.cc^$domain=pornreactor.cc
 @@||img*.pornreactor.cc^$domain=pornreactor.cc
+
+! Pyszne.pl [TakeAway]
+@@||cw-api.takeaway.com/api^$stealth
+@@||www.pyszne.pl^$stealth
 
 ! Reactor.cc
 @@||js.reactor.cc^$important,domain=reactor.cc
