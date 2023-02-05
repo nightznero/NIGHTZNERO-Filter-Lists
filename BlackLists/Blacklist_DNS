@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 015
+! Entries: 2 023
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.04
+! Updated: 2023.02.05
 !
 ! MIT License
 !
@@ -149,6 +149,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 geller-pa.googleapis.com
 0.0.0.0 auditrecording-pa.googleapis.com
 0.0.0.0 jnn-pa.googleapis.com
+
+! Fvck off - Firefox
+0.0.0.0 crash-reports.mozilla.com
+0.0.0.0 incoming.telemetry.mozilla.org
 
 ! Fvck off - Yahoo
 0.0.0.0 ads.yahoo.com
@@ -410,6 +414,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 vanheim.ff.avast.com
 0.0.0.0 analytics.ff.avast.com
 
+! Fvck off - CCleaner [Avast]
+0.0.0.0 shepherd.ff.avast.com.piriform.com
+0.0.0.0 ipm-provider.ff.avast.com
+0.0.0.0 license.piriform.com
+
 ! Fvck off - Reddit
 0.0.0.0 e.reddit.com
 0.0.0.0 w3-reporting.reddit.com
@@ -435,6 +444,11 @@ ff02::3 ip6-allhosts
 ! Fvck off - Snapchat
 0.0.0.0 app-analytics-v2.snapchat.com
 0.0.0.0 internal-api.snapkit.com
+
+! Fvck off - Viber
+0.0.0.0 ads.viber.com
+0.0.0.0 ads-d.viber.com
+0.0.0.0 ads.aws.viber.com
 
 ! Fvck off - Pinterest
 0.0.0.0 ads.pinterest.com
