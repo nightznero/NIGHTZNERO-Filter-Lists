@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 208
+! Entries: 211
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.04
+! Updated: 2023.02.06
 !
 ! MIT License
 !
@@ -135,6 +135,11 @@
 @@||clients2.google.com
 @@||android.clients.google.com
 @@||googleapis.l.google.com
+
+! GsmArena
+@@||fdn.gsmarena.com
+@@||fdn2.gsmarena.com
+@@||cdn.gsmarena.com
 
 ! GTA Online [Rockstar]
 @@||prod.telemetry.ros.rockstargames.com
