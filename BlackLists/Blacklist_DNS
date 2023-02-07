@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 060
+! Entries: 2 060 (+13 local hosts)
 !
 ! Expires: 1 days
 !
@@ -22,8 +22,6 @@
 ! Copyright (c) 2023 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Fvck off - Attribute
-0.0.0.0 0.0.0.0
-0.0.0.0 0.0.0
 127.0.0.1 localhost
 127.0.0.1 localhost.localdomain
 127.0.0.1 local
