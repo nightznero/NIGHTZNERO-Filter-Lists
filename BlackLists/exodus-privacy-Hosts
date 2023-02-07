@@ -11,7 +11,7 @@
 !
 ! Description: εxodus-privacy list compiled into hostlist
 !
-! Entries: 517 (+15 local hosts)
+! Entries: 517 (+13 local hosts)
 !
 ! Expires: 1 days
 !
@@ -22,8 +22,6 @@
 ! Copyright (c) 2023 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Local Hosts
-0.0.0.0 0.0.0.0
-0.0.0.0 0.0.0
 127.0.0.1 localhost
 127.0.0.1 localhost.localdomain
 127.0.0.1 local
