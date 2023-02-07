@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 061
+! Entries: 2 060
 !
 ! Expires: 1 days
 !
@@ -420,7 +420,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 msmetrics-test.ws.sonos.com
 
 ! Fvck off - YouTube
-||rr*---sn-*-*.googlevideo.com
 0.0.0.0 ads.youtube.com
 0.0.0.0 youtube.cleverads.vn
 
