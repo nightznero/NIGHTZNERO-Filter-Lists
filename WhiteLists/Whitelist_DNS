@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 212
+! Entries: 213
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.08
+! Updated: 2023.02.09
 !
 ! MIT License
 !
@@ -220,21 +220,25 @@
 @@||hubt.pornhub.com
 @@||cdn1d-static-shared.phncdn.com
 
-! PornReactor.cc ! Blocked by Energized.Pro - Spark
+! PornReactor.cc
 @@||img.pornreactor.cc
 @@||img0.pornreactor.cc
 @@||img1.pornreactor.cc
 @@||img2.pornreactor.cc
 @@||img10.pornreactor.cc
 @@||js.pornreactor.cc
+! Blocked by Energized.Pro - Spark
 
-! Reactor.cc ! Blocked by Energized.Pro - Spark
+! Reactor.cc
+@@||reactor.cc
+! Blocked by GoodbyeAds
 @@||img.reactor.cc
 @@||img0.reactor.cc
 @@||img1.reactor.cc
 @@||img2.reactor.cc
 @@||img10.reactor.cc
 @@||js.reactor.cc
+! Blocked by Energized.Pro - Spark
 
 ! Reddit 
 ! (For now disabled) @@||accounts.reddit.com
