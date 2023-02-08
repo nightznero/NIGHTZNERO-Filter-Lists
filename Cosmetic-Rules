@@ -11,15 +11,15 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 778
+! Entries: 782
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.04
+! Updated: 2023.02.08
 !
 ! MIT License
 !
-! Copyright (c) 2022 NIGHTZNERO
+! Copyright (c) 2023 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Fanboy missing elements
 ##.banner
@@ -521,6 +521,12 @@ _spot_id=*&zone_id=$script,~third-party
 @@||*mtalk.google.com^
 @@||feeds.feedburner.com^
 @@||feedproxy.google.com^
+
+! (Fvcking) Ads
+||*.exdynsrv.com^$third-party,popup,important
+||*.realsrv.com^$third-party,popup,important
+||tsyndicate.com^$third-party,popup,important
+||*.exoclick.com^$third-party,popup,important
 
 ! (Fvcking) Adservers
 ||pixfuture.com^$third-party
