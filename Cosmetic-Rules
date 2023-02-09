@@ -563,7 +563,7 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 @@||cyberfiles-static.b-cdn.net/assets^
 
 ! f00.esfr.pl
-@@||f00.esfr.pl/foto^
+@@||f00.esfr.pl/foto/*/*/*/*,*.jpg^
 
 ! Facebook [Meta]
 @@||connect.facebook.net^$tag=fb-embeds
