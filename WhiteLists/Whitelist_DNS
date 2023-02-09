@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 213
+! Entries: 214
 !
 ! Expires: 1 days
 !
@@ -303,6 +303,10 @@
 ! SoundCloud
 @@||s.pwt.soundcloud.com
 ! Blocked by Energized.Pro - Basic
+
+! SpankBang
+@@||spankbang.com^
+! Blocked by GoodbyeAds
 
 ! Spotify
 @@||api-tv.spotify.com^
