@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 782
+! Entries: 783
 !
 ! Expires: 1 days
 !
@@ -561,6 +561,9 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 ! CyberFile (filehosting service) [Bunkr]
 @@||cyberfile-is.b-cdn.net/themes^
 @@||cyberfiles-static.b-cdn.net/assets^
+
+! f00.esfr.pl
+@@||f00.esfr.pl/foto^
 
 ! Facebook [Meta]
 @@||connect.facebook.net^$tag=fb-embeds
