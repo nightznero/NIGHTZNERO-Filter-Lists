@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 783
+! Entries: 785
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.09
+! Updated: 2023.02.10
 !
 ! MIT License
 !
@@ -563,7 +563,9 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 @@||cyberfiles-static.b-cdn.net/assets^
 
 ! f00.esfr.pl
-@@||f00.esfr.pl/foto/*/*/*/*,*.jpg^
+@@||f00.esfr.pl/foto^
+@@||f00.esfr.pl/si_upload/unity^
+@@||f00.esfr.pl/img^
 
 ! Facebook [Meta]
 @@||connect.facebook.net^$tag=fb-embeds
