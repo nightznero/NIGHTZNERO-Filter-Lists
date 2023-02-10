@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 291
+! Entries: 295
 !
 ! Expires: 1 days
 !
@@ -37,6 +37,8 @@
 ! Aliexpress
 @@||alitems.site
 ! Blocked by GoodbyeAds
+@@||ae01.alicdn.com^
+@@||my.aliexpress.com^
 
 ! Amazon
 @@||mobileanalytics.us-east-1.amazonaws.com 
@@ -118,6 +120,9 @@
 ! CyroseHD
 @@||cyrosehd.page.link
 ! Blocked by GoodbyeAds
+
+! Discord
+@@||discord.gg^
 
 ! Dropbox
 @@||bolt.dropbox.com
@@ -323,6 +328,9 @@
 ! Showup.tv
 @@||showup.tv^
 ! Blocked by Energized.Pro - Basic [Hosts]
+
+! Skype [Microsoft]
+@@||client-s.gateway.messenger.live.com^
 
 ! Smart TV
 @@||ngfts.lge.com^
