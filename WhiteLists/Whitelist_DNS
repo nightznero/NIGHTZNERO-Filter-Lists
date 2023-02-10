@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 219
+! Entries: 231
 !
 ! Expires: 1 days
 !
@@ -100,6 +100,20 @@
 
 ! Captcha
 @@||api-verify.recaptcha.net
+
+! CoinBase
+@@||coinbase.com
+@@||www.coinbase.com
+@@||custody.coinbase.com
+@@||status.coinbase.com
+@@||blog.coinbase.com
+@@||support.coinbase.com
+@@||static.coinbase.com
+@@||static.ada.support
+@@||ws.coinbase.com
+@@||assets.coinbase.com
+@@||am.coinbase.com
+@@||api.coinbase.com
 
 ! CyroseHD
 @@||cyrosehd.page.link
