@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 238
+! Entries: 258
 !
 ! Expires: 1 days
 !
@@ -386,6 +386,28 @@
 @@||v20.events.data.microsoft.com^
 @@||client-s.gateway.messenger.live.com^
 @@||arc.msn.com^
+
+! Xbox [Microsoft]
+@@||xbox.ipv6.microsoft.com
+@@||device.auth.xboxlive.com 
+@@||title.mgt.xboxlive.com
+@@||xsts.auth.xboxlive.com
+@@||title.auth.xboxlive.com
+@@||ctldl.windowsupdate.com
+@@||attestation.xboxlive.com
+@@||xboxexperiencesprod.experimentation.xboxlive.com
+@@||xflight.xboxlive.com
+@@||cert.mgt.xboxlive.com
+@@||xkms.xboxlive.com
+@@||def-vef.xboxlive.com
+@@||notify.xboxlive.com
+@@||help.ui.xboxlive.com
+@@||licensing.xboxlive.com
+@@||eds.xboxlive.com
+@@||www.xboxlive.com
+@@||v10.vortex-win.data.microsoft.com
+@@||settings-win.data.microsoft.com
+@@||clientconfig.passport.net
 
 ! Xiaomi
 !! Xiaomi Home
