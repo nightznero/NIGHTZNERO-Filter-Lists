@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 285
+! Entries: 291
 !
 ! Expires: 1 days
 !
@@ -310,6 +310,13 @@
 ! Samsung
 @@||account.samsung.com
 
+! Samsung Pay
+@@||api.usebutton.com^
+@@||cdn-us-ec.yottaa.net^
+@@||www.anrdoezrs.net^
+@@||cj.dotomi.com^
+@@||www.emjcd.com^
+
 ! Shopify
 @@||s.shopify.com^
 
@@ -390,6 +397,9 @@
 @@||thedailybeast.com
 ! Don't unbreak their metrics though
 ||metrics.thedailybeast.com
+
+! Twitch.tv
+@@||mp.twitch.tv^
 
 ! Twitter
 @@||twimg.com
