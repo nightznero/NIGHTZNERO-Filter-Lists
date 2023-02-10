@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 215
+! Entries: 219
 !
 ! Expires: 1 days
 !
@@ -26,6 +26,10 @@
 @@||nwsalert1.onelouder.com
 @@||nwsalert2.onelouder.com
 ! Blocked by 1Hosts (Pro) [Hosts]
+
+! 4Chan
+@@||8ch.net
+@@||4chan.org
 
 ! Accuweather 
 @@||vortex.accuweather.com
@@ -50,6 +54,7 @@
 
 ! AMP
 @@||*.ampproject.org
+@@||cdn-content.ampproject.org
 
 ! Apple Music
 @@||itunes.apple.com
@@ -335,6 +340,9 @@
 @@||twimg.com
 ! (For now disabled) @@||api.twitter.com
 ! (For now disabled) @@||platform.twitter.com
+
+! UTorrent
+@@||update.utorrent.com
 
 ! Wild Rift [Riot Games]
 @@||lolstatic-a.akamaihd.net
