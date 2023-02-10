@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 214
+! Entries: 215
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.09
+! Updated: 2023.02.10
 !
 ! MIT License
 !
@@ -29,6 +29,10 @@
 
 ! Accuweather 
 @@||vortex.accuweather.com
+
+! Aliexpress
+@@||alitems.site
+! Blocked by GoodbyeAds
 
 ! Amazon
 @@||mobileanalytics.us-east-1.amazonaws.com 
