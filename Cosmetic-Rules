@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 782
+! Entries: 784
 !
 ! Expires: 1 days
 !
@@ -62,7 +62,6 @@
 /adsense/*
 &adsafe=
 $document,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|asos.com|att.com|bankofamerica.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|blog.getadblock.com|blogs.oracle.com|boxboat.com|britishcornershop.co.uk|bybit.com|chollometro.com|coinpanel.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|edx.org|educba.com|eonline.com|escentual.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|hammacher.com|hanes.com|hotspotshield.com|hottopic.com|housing.com|hp.com|instagram.com|itnext.io|jacquielawson.com|just-eat.co.uk|kasta.io|medium.com|microsoftedgewelcome.microsoft.com|nautica.com|nortonsafe.search.ask.com|onehanesplace.com|outnorth.fi|pepper.pl|petsupplies.com|phonesoap.com|riteaid.com|runnode.com|search.brave.com|seekingalpha.com|sonos.com|spiceworks.com|squarespace.com|studio.co.uk|subscribe.gq.com|t.me|thedailybeast.com|tiktok.com|tokopedia.com|torrid.com|tous.com|tradingview.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wired.com|ylighting.com|youtube.com|yubo.live
-||syndication.*.com^$popup
 
 ! In-Video Ads
 ||api.fw.tv^
@@ -523,6 +522,7 @@ _spot_id=*&zone_id=$script,~third-party
 @@||feedproxy.google.com^
 
 ! (Fvcking) Ads
+||syndication.*.com^$third-party,popup,important
 ||*.exdynsrv.com^$third-party,popup,important
 ||*.realsrv.com^$third-party,popup,important
 ||tsyndicate.com^$third-party,popup,important
@@ -602,6 +602,10 @@ leagueoflegends.fandom.com##.wds-banner-notification__text
 leagueoflegends.fandom.com##.wds-banner-notification.wds-message.notify
 leagueoflegends.fandom.com###\35 b2d1649b2-188-1
 leagueoflegends.fandom.com###\35 bbe13967e-188-1
+
+! Google
+||www.googletagmanager.com^
+||www.google-analytics.com^
 
 ! Igg-Games
 igg-games.com###evM
