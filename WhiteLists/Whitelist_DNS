@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 266
+! Entries: 274
 !
 ! Expires: 1 days
 !
@@ -143,7 +143,15 @@
 ! (For now disabled) @@||mqtt-mini.facebook.com
 
 ! Firefox [Mozilla]
-@@||addons.mozilla.org
+@@||addons.mozilla.org^
+@@||detectportal.firefox.com^
+@@||shavar.services.mozilla.com^
+@@||push.services.mozilla.com^
+@@||updates.push.services.mozilla.com^
+@@||token.services.mozilla.com^
+@@||snippets.cdn.mozilla.net^
+@@||meta.wikimedia.org^
+@@||location.services.mozilla.com^
 
 ! Google
 @@||firebaseinstallations.googleapis.com
