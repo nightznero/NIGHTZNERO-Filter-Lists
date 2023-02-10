@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 274
+! Entries: 279
 !
 ! Expires: 1 days
 !
@@ -140,7 +140,14 @@
 ! Blocked by 1Hosts Pro
 ! (For now disabled) @@||web.facebook.com
 ! Blocked by DuckDuckGo Tracker Radar
-! (For now disabled) @@||mqtt-mini.facebook.com
+
+! Facebook Lite/Messenger Lite [Meta]
+@@||api.facebook.com^
+@@||b-api.facebook.com^
+@@||mqtt-mini.facebook.com^
+@@||snaptu-mini.facebook.com^
+@@||snaptu-mini.c10r.facebook.com^
+@@||rupload.facebook.com^
 
 ! Firefox [Mozilla]
 @@||addons.mozilla.org^
