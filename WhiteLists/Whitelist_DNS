@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 301
+! Entries: 302
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.10
+! Updated: 2023.02.13
 !
 ! MIT License
 !
@@ -37,6 +37,8 @@
 ! Aliexpress
 @@||alitems.site
 ! Blocked by GoodbyeAds
+@@||click.aliexpress.com^
+! Blocked by DuckDuckGo Tracker Radar & Certyficate.it
 @@||ae01.alicdn.com^
 @@||my.aliexpress.com^
 
