@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 301
+! Entries: 302
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.15
+! Updated: 2023.02.16
 !
 ! MIT License
 !
@@ -81,6 +81,10 @@
 ! Blokada
 @@||go.blokada.org^
 ! Blocked by DuckDuckGo Tracker Radar
+
+! Brave Browser
+@@||rewards.brave.com^
+! Blocked by 1Hosts (Pro) [Hosts]
 
 ! Brazzers AIO
 @@||site-api.project1service.com^
