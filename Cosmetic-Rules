@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 785
+! Entries: 797
 !
 ! Expires: 1 days
 !
@@ -521,6 +521,11 @@ _spot_id=*&zone_id=$script,~third-party
 @@||feeds.feedburner.com^
 @@||feedproxy.google.com^
 
+! Browsers SM (WhiteList)
+@@$css
+@@$font
+@@$media
+
 ! (Fvcking) Ads
 ||syndication.*.com^$third-party,popup,important
 ||*.exdynsrv.com^$third-party,popup,important
@@ -535,6 +540,17 @@ _spot_id=*&zone_id=$script,~third-party
 ||d2o03z2xnyxlz5.cloudfront.net^
 ||papayads.net^$third-party
 ||revcontent.com^$third-party
+
+! 4PDA
+||4pda.*/79tJPvZFILa8.*
+||4pda.*/st/ztm?*
+||ds-assets.cdn.devapps.ru*/79tJPvZFILa8.*$domain=4pda.to
+4pda.*##[class="fix-post"][style="display:block!important"]
+4pda.*##[id="appbanner"]
+4pda.*##[id="fo_-1"][class="borderwrap"]
+4pda.*##[target] [src*="ds-assets.cdn.devapps.ru"][alt=""][title=""][border="0"]
+4pda.*##[target] [src*="s.4pda.to"][alt=""][title=""][border="0"]
+4pda.*##[valign="top"] > > :not(#logostrip)
 
 ! Bing [Microsoft]
 ||bing.com/mouselog$script,redirect-rule=noopjs,domain=bing.com
