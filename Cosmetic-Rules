@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 797
+! Entries: 804
 !
 ! Expires: 1 days
 !
@@ -663,6 +663,9 @@ imgur.com##.advertisement.div-ad-active-bottom_med_rec
 @@||bezcennechwile.mastercard.pl^
 @@||rpm.upaid.pl^
 
+! Mozilla
+forum.mozilla-*.org##[id="announce"]
+
 ! NextCloud
 @@||bes.to^$stealth
 ! Stealth breaks media player
@@ -724,6 +727,9 @@ imgur.com##.advertisement.div-ad-active-bottom_med_rec
 ! Blocked by GoodbyeAds
 
 ! PornHub
+pornhub.com##[id="pb_block"]
+pornhub.com##[id="pb_template"]
+pornhub.com##[id^="age-verification"]
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.realsex
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.premiumPromoBanner
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###pb_template
@@ -781,6 +787,9 @@ pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 580001936703
 @@||api.redgifs.com/v2^$domain=redgifs.com,stealth
 
 ! RedTube
+redtube.com##[id="pb_block"]
+redtube.com##[style^="float:"]
+redtube.com##[target]
 redtube.com###eu_cookie_disclaimer
 redtube.com###paid_tabs_list
 redtube.com##.top_popular_category.clearfix
