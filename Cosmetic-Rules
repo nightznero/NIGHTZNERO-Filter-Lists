@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 784
+! Entries: 785
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.10
+! Updated: 2023.02.16
 !
 ! MIT License
 !
@@ -540,6 +540,8 @@ _spot_id=*&zone_id=$script,~third-party
 ||bing.com/mouselog$script,redirect-rule=noopjs,domain=bing.com
 
 ! Brave
+||rewards.brave.com^$badfilter
+! Blocked by 1Hosts - Pro [Domains]
 ||ads.brave.com^$badfilter
 ! Blocked by GoodbyeAds [AdBlock-Syntax]
 @@||brave.com^$image,stylesheet,first-party
