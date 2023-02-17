@@ -22,61 +22,61 @@
 ! Copyright (c) 2023 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! 1Weather
-@@||1weather.onelouder.com
-@@||nwsalert1.onelouder.com
-@@||nwsalert2.onelouder.com
-! Blocked by 1Hosts (Pro) [Hosts]
+@@||1weather.onelouder.com^
+@@||nwsalert1.onelouder.com^
+@@||nwsalert2.onelouder.com^
+! Blocked by 1Hosts - Pro
 
 ! 4Chan
-@@||8ch.net
-@@||4chan.org
+@@||8ch.net^
+@@||4chan.org^
 
 ! Accuweather 
-@@||vortex.accuweather.com
+@@||vortex.accuweather.com^
 
 ! Aliexpress
 @@||ae01.alicdn.com^
 @@||my.aliexpress.com^
 
 ! Amazon
-@@||mobileanalytics.us-east-1.amazonaws.com 
-@@||cognito-identity.us-east-1.amazonaws.com
-@@||unagi-na.amazon.com
-@@||ocsp.rootg2.amazontrust.com
-@@||det-ta-g7g.amazon.com
-@@||todo-ta-g7g.amazon.com
-@@||device-messaging-na.amazon.com
-@@||vs3-eu-west-1.amazonaws.com
-@@||us-east-1.amazonaws.com
-@@||device-metrics-us-2.amazon.com
-@@||device-metrics-us.amazon.com
-@@||sqs.us-east-1.amazonaws.com
+@@||mobileanalytics.us-east-1.amazonaws.com^
+@@||cognito-identity.us-east-1.amazonaws.com^
+@@||unagi-na.amazon.com^
+@@||ocsp.rootg2.amazontrust.com^
+@@||det-ta-g7g.amazon.com^
+@@||todo-ta-g7g.amazon.com^
+@@||device-messaging-na.amazon.com^
+@@||vs3-eu-west-1.amazonaws.com^
+@@||us-east-1.amazonaws.com^
+@@||device-metrics-us-2.amazon.com^
+@@||device-metrics-us.amazon.com^
+@@||sqs.us-east-1.amazonaws.com^
 
 ! AMP
-@@||*.ampproject.org
-@@||cdn-content.ampproject.org
+@@||*.ampproject.org^
+@@||cdn-content.ampproject.org^
 
 ! Apple Music
-@@||itunes.apple.com
-@@||s.mzstatic.com
+@@||itunes.apple.com^
+@@||s.mzstatic.com^
 
 ! Avast
-@@||bugs-bunny.sb.avast.com
+@@||bugs-bunny.sb.avast.com^
 ! Blocked by GoodbyeAds 
 
 ! Betclic
-@@||betclic.pl
+@@||betclic.pl^
 ! Blocked by Energized.Pro - Basic
 
 ! Bing [Microsoft]
-@@||bing.com
+@@||bing.com^
 ! Blocked by NIGHTZNERO Blacklist
 
 ! Bing Maps / Microsoft Flight Simulator
-@@||dev.virtualearth.net
-@@||ecn.dev.virtualearth.net
-@@||t0.ssl.ak.dynamic.tiles.virtualearth.net
-@@||t0.ssl.ak.tiles.virtualearth.net
+@@||dev.virtualearth.net^
+@@||ecn.dev.virtualearth.net^
+@@||t0.ssl.ak.dynamic.tiles.virtualearth.net^
+@@||t0.ssl.ak.tiles.virtualearth.net^
 
 ! Blokada
 @@||go.blokada.org^
@@ -84,68 +84,68 @@
 
 ! Brave Browser
 @@||rewards.brave.com^
-! Blocked by 1Hosts (Pro) [Hosts]
+! Blocked by 1Hosts - Pro
 
 ! Brazzers AIO
 @@||site-api.project1service.com^
 
 ! Buzzfeed
-@@||weaver-api.buzzfeed.com
-@@||buzzfeed.com
-@@||img.buzzfeed.com
-@@||spicerack.buzzfeed.com
+@@||weaver-api.buzzfeed.com^
+@@||buzzfeed.com^
+@@||img.buzzfeed.com^
+@@||spicerack.buzzfeed.com^
 
 ! Camwhores
-@@||cdn.tapioni.com
-! Blocked by 1Hosts (Pro) [Hosts]
+@@||cdn.tapioni.com^
+! Blocked by 1Hosts - Pro
 
 ! Canon
-@@||gdlp01.c-wss.com
+@@||gdlp01.c-wss.com^
 
 ! Captcha
-@@||api-verify.recaptcha.net
+@@||api-verify.recaptcha.net^
 
 ! CoinBase
-@@||coinbase.com
-@@||www.coinbase.com
-@@||custody.coinbase.com
-@@||status.coinbase.com
-@@||blog.coinbase.com
-@@||support.coinbase.com
-@@||static.coinbase.com
-@@||static.ada.support
-@@||ws.coinbase.com
-@@||assets.coinbase.com
-@@||am.coinbase.com
-@@||api.coinbase.com
+@@||coinbase.com^
+@@||www.coinbase.com^
+@@||custody.coinbase.com^
+@@||status.coinbase.com^
+@@||blog.coinbase.com^
+@@||support.coinbase.com^
+@@||static.coinbase.com^
+@@||static.ada.support^
+@@||ws.coinbase.com^
+@@||assets.coinbase.com^
+@@||am.coinbase.com^
+@@||api.coinbase.com^
 
 ! CyroseHD
-@@||cyrosehd.page.link
+@@||cyrosehd.page.link^
 ! Blocked by GoodbyeAds
 
 ! Discord
 @@||discord.gg^
 
 ! Dropbox
-@@||bolt.dropbox.com
-@@||dl.dropbox.com
-@@||dl.dropboxusercontent.com
+@@||bolt.dropbox.com^
+@@||dl.dropbox.com^
+@@||dl.dropboxusercontent.com^
 
 ! Electronic Arts (EA)
-@@||eaassets-a.akamaihd.net
+@@||eaassets-a.akamaihd.net^
 ! Blocked by GoodbyeAds
 @@||ea.com^
 
 ! Epic Games
-@@||tracking.epicgames.com
+@@||tracking.epicgames.com^
 
 ! Facebook [Meta]
-@@||graph.facebook.com
-@@||graph-video.facebook.com
+@@||graph.facebook.com^
+@@||graph-video.facebook.com^
 ! Blocked by GoodbyeAds
-@@||b-graph.facebook.com
-! Blocked by 1Hosts (Pro) [Hosts]
-! (For now disabled) @@||web.facebook.com
+@@||b-graph.facebook.com^
+! Blocked by 1Hosts - Pro
+! (For now disabled) @@||web.facebook.com^
 ! Blocked by DuckDuckGo Tracker Radar
 
 ! Facebook Lite/Messenger Lite [Meta]
@@ -171,23 +171,23 @@
 @@||t.en25.com^
 
 ! Google
-@@||firebaseinstallations.googleapis.com
+@@||firebaseinstallations.googleapis.com^
 ! Blocked by various lists,and breaking apps cuz its creating unique id
-@@||encrypted-tbn1.gstatic.com
-@@||encrypted-tbn2.gstatic.com
-@@||encrypted-tbn3.gstatic.com
+@@||encrypted-tbn1.gstatic.com^
+@@||encrypted-tbn2.gstatic.com^
+@@||encrypted-tbn3.gstatic.com^
 ! Blocked by 4PDA Community hosts blacklist
-@@||connectivitycheck.gstatic.com
-@@||mtalk.google.com
-@@||*mtalk.google.com
-@@||feeds.feedburner.com
-@@||feedproxy.google.com
-@@||fonts.gstatic.com
-@@||*.gmail.com
-@@||clients4.google.com 
-@@||clients2.google.com
-@@||android.clients.google.com
-@@||googleapis.l.google.com
+@@||connectivitycheck.gstatic.com^
+@@||mtalk.google.com^
+@@||*mtalk.google.com^
+@@||feeds.feedburner.com^
+@@||feedproxy.google.com^
+@@||fonts.gstatic.com^
+@@||*.gmail.com^
+@@||clients4.google.com^
+@@||clients2.google.com^
+@@||android.clients.google.com^
+@@||googleapis.l.google.com^
 
 ! Google Drive
 @@||www.googleapis.com^
@@ -204,12 +204,12 @@
 @@||play.app.goo.gl^
 
 ! GsmArena
-@@||fdn.gsmarena.com
-@@||fdn2.gsmarena.com
-@@||cdn.gsmarena.com
+@@||fdn.gsmarena.com^
+@@||fdn2.gsmarena.com^
+@@||cdn.gsmarena.com^
 
 ! GTA Online [Rockstar]
-@@||prod.telemetry.ros.rockstargames.com
+@@||prod.telemetry.ros.rockstargames.com^
 
 ! InShot
 @@||aws.inshot.cc
@@ -219,116 +219,116 @@
 @@||cdninstagram.com^
 @@||scontent.cdninstagram.com^
 @@||instagram.c10r.facebook.com^
-! (For now disabled) @@||graph.instagram.com
+! (For now disabled) @@||graph.instagram.com^
 @@||i.instagram.com^
 
 ! LeakedZone
-@@||p.jwpcdn.com
-@@||prd.jwpltx.com
-@@||entitlements.jwplayer.com
+@@||p.jwpcdn.com^
+@@||prd.jwpltx.com^
+@@||entitlements.jwplayer.com^
 ! Blocked by 4PDA Community hosts blacklist
 
 ! LinkedIn [Microsoft]
-! (For now disabled) @@||licdn.com
-! (For now disabled) @@||platform.linkedin.com
+! (For now disabled) @@||licdn.com^
+! (For now disabled) @@||platform.linkedin.com^
 
 ! Malwarebytes
-@@||keystone.mwbsys.com
+@@||keystone.mwbsys.com^
 
 ! Netflix
-@@||nflximg.com
-@@||nflxvideo.net
-@@||llnwd.net
-@@||nflximg.com
-@@||secure.netflix.com
-@@||appboot.netflix.com
-@@||uiboot.netflix.com
-@@||api-global.netflix.com
-@@||ichnaea.netflix.com
+@@||nflximg.com^
+@@||nflxvideo.net^
+@@||llnwd.net^
+@@||nflximg.com^
+@@||secure.netflix.com^
+@@||appboot.netflix.com^
+@@||uiboot.netflix.com^
+@@||api-global.netflix.com^
+@@||ichnaea.netflix.com^
 
 ! Nvidia GeForce
-@@||events.gfe.nvidia.com
-@@||gfwsl.geforce.com
-@@||ota-downloads.nvidia.com
+@@||events.gfe.nvidia.com^
+@@||gfwsl.geforce.com^
+@@||ota-downloads.nvidia.com^
 
 ! OnePlus OTA updates
-@@||open.oneplus.net
+@@||open.oneplus.net^
 
 ! Opera
-@@||api.recsys.opera.com
+@@||api.recsys.opera.com^
 ! Blocked by 4PDA
-@@||discover.operacdn.com
+@@||discover.operacdn.com^
 ! Blocked by Energized.Pro - Basic
 
 ! Origin
 @@||cdn.optimizely.com^
 
 ! PayPal
-@@||www.paypal.com
-@@||www.glb.paypal.com
-@@||t.paypal.com
-@@||www.paypal.com.edgekey.net
+@@||www.paypal.com^
+@@||www.glb.paypal.com^
+@@||t.paypal.com^
+@@||www.paypal.com.edgekey.net^
 
 ! Philips Hue
-@@||ecdinterface.philips.com
+@@||ecdinterface.philips.com^
 
 ! Pinterest
-@@||assets.pinterest.com
-@@||api.pinterest.com
+@@||assets.pinterest.com^
+@@||api.pinterest.com^
 
 ! Pixeldrain
-@@||pixeldrain.com
+@@||pixeldrain.com^
 ! Blocked by GoodbyeAds
 
 ! PlayStation 5 (Sony)
-@@||telemetry-console.api.playstation.com
+@@||telemetry-console.api.playstation.com^
 
 ! Plex
-@@||app.plex.tv
-@@||dashboard.plex.tv
+@@||app.plex.tv^
+@@||dashboard.plex.tv^
 
 ! Pornhub
-@@||pornhub.com
-@@||ss.phncdn.com
-@@||di.phncdn.com
-@@||ci.phncdn.com
-@@||cv-h.phncdn.com
-@@||cw.phncdn.com
-@@||ew.phncdn.com
-@@||hubt.pornhub.com
-@@||cdn1d-static-shared.phncdn.com
+@@||pornhub.com^
+@@||ss.phncdn.com^
+@@||di.phncdn.com^
+@@||ci.phncdn.com^
+@@||cv-h.phncdn.com^
+@@||cw.phncdn.com^
+@@||ew.phncdn.com^
+@@||hubt.pornhub.com^
+@@||cdn1d-static-shared.phncdn.com^
 
 ! PornReactor.cc
-@@||img.pornreactor.cc
-@@||img0.pornreactor.cc
-@@||img1.pornreactor.cc
-@@||img2.pornreactor.cc
-@@||img10.pornreactor.cc
-@@||js.pornreactor.cc
+@@||img.pornreactor.cc^
+@@||img0.pornreactor.cc^
+@@||img1.pornreactor.cc^
+@@||img2.pornreactor.cc^
+@@||img10.pornreactor.cc^
+@@||js.pornreactor.cc^
 ! Blocked by Energized.Pro - Spark
 
 ! Reactor.cc
-@@||reactor.cc
+@@||reactor.cc^
 ! Blocked by GoodbyeAds
-@@||img.reactor.cc
-@@||img0.reactor.cc
-@@||img1.reactor.cc
-@@||img2.reactor.cc
-@@||img10.reactor.cc
-@@||js.reactor.cc
+@@||img.reactor.cc^
+@@||img0.reactor.cc^
+@@||img1.reactor.cc^
+@@||img2.reactor.cc^
+@@||img10.reactor.cc^
+@@||js.reactor.cc^
 ! Blocked by Energized.Pro - Spark
 
 ! Reddit 
-! (For now disabled) @@||accounts.reddit.com
-! (For now disabled) @@||i.reddit.com
-! (For now disabled) @@||redd.it
-! (For now disabled) @@||cdn.embedly.com
+! (For now disabled) @@||accounts.reddit.com^
+! (For now disabled) @@||i.reddit.com^
+! (For now disabled) @@||redd.it^
+! (For now disabled) @@||cdn.embedly.com^
 
 ! Samsung
 @@||pushmessage.samsung.com^
-! Blocked by 1Hosts (Pro) [Hosts]
+! Blocked by 1Hosts - Pro
 @@||us-api.mcsvc.samsung.com^
-! Blocked by 1Hosts (Pro) [Hosts]
+! Blocked by 1Hosts - Pro
 @@||account.samsung.com^
 
 ! Samsung Pay
@@ -343,7 +343,7 @@
 
 ! Showup.tv
 @@||showup.tv^
-! Blocked by Energized.Pro - Basic [Hosts]
+! Blocked by Energized.Pro - Basic
 
 ! Skype [Microsoft]
 @@||client-s.gateway.messenger.live.com^
@@ -390,13 +390,13 @@
 @@||api.euro.hismarttv.com^
 
 ! Snapchat
-! (For now disabled) @@||gcp.api.snapchat.com
-! (For now disabled) @@||bolt-gcdn.sc-cdn.net
-! (For now disabled) @@||cf-st.sc-cdn.net
-! (For now disabled) @@||app.snapchat.com
+! (For now disabled) @@||gcp.api.snapchat.com^
+! (For now disabled) @@||bolt-gcdn.sc-cdn.net^
+! (For now disabled) @@||cf-st.sc-cdn.net^
+! (For now disabled) @@||app.snapchat.com^
 
 ! SoundCloud
-@@||s.pwt.soundcloud.com
+@@||s.pwt.soundcloud.com^
 ! Blocked by Energized.Pro - Basic
 
 ! SpankBang
@@ -410,17 +410,17 @@
 @@||audio-ak-spotify-com.akamaized.net^
 
 ! Square Space
-@@||static1.squarespace.com
+@@||static1.squarespace.com^
 ! Blocked by DuckDuckGo Tracker Radar
 
 ! TeaTV
-@@||image.tmdb.org
-! Blocked by Energized.Pro - Basic [Hosts]
+@@||image.tmdb.org^
+! Blocked by Energized.Pro - Basic
 
 ! The Daily Beast
-@@||thedailybeast.com
+@@||thedailybeast.com^
 ! Don't unbreak their metrics though
-||metrics.thedailybeast.com
+||metrics.thedailybeast.com^
 
 ! TuneIn Radio
 @@||traffic.megaphone.fm^
@@ -430,20 +430,20 @@
 @@||mp.twitch.tv^
 
 ! Twitter
-@@||twimg.com
-! (For now disabled) @@||api.twitter.com
-! (For now disabled) @@||platform.twitter.com
+@@||twimg.com^
+! (For now disabled) @@||api.twitter.com^
+! (For now disabled) @@||platform.twitter.com^
 
 ! UTorrent
-@@||update.utorrent.com
+@@||update.utorrent.com^
 
 ! VK (VKontate)
-@@||vk.com
-@@||pp.userapi.com
-@@||userapi.com
+@@||vk.com^
+@@||pp.userapi.com^
+@@||userapi.com^
 
 ! Wild Rift [Riot Games]
-@@||lolstatic-a.akamaihd.net
+@@||lolstatic-a.akamaihd.net^
 ! Blocked by GoodbyeAds Spotify
 
 ! Windows [Microsoft]
@@ -461,64 +461,64 @@
 @@||arc.msn.com^
 
 ! Xbox [Microsoft]
-@@||xbox.ipv6.microsoft.com
-@@||device.auth.xboxlive.com 
-@@||title.mgt.xboxlive.com
-@@||xsts.auth.xboxlive.com
-@@||title.auth.xboxlive.com
-@@||ctldl.windowsupdate.com
-@@||attestation.xboxlive.com
-@@||xboxexperiencesprod.experimentation.xboxlive.com
-@@||xflight.xboxlive.com
-@@||cert.mgt.xboxlive.com
-@@||xkms.xboxlive.com
-@@||def-vef.xboxlive.com
-@@||notify.xboxlive.com
-@@||help.ui.xboxlive.com
-@@||licensing.xboxlive.com
-@@||eds.xboxlive.com
-@@||www.xboxlive.com
-@@||v10.vortex-win.data.microsoft.com
-@@||settings-win.data.microsoft.com
-@@||clientconfig.passport.net
+@@||xbox.ipv6.microsoft.com^
+@@||device.auth.xboxlive.com^
+@@||title.mgt.xboxlive.com^
+@@||xsts.auth.xboxlive.com^
+@@||title.auth.xboxlive.com^
+@@||ctldl.windowsupdate.com^
+@@||attestation.xboxlive.com^
+@@||xboxexperiencesprod.experimentation.xboxlive.com^
+@@||xflight.xboxlive.com^
+@@||cert.mgt.xboxlive.com^
+@@||xkms.xboxlive.com^
+@@||def-vef.xboxlive.com^
+@@||notify.xboxlive.com^
+@@||help.ui.xboxlive.com^
+@@||licensing.xboxlive.com^
+@@||eds.xboxlive.com^
+@@||www.xboxlive.com^
+@@||v10.vortex-win.data.microsoft.com^
+@@||settings-win.data.microsoft.com^
+@@||clientconfig.passport.net^
 
 ! Xiaomi
 !! Xiaomi Home
-@@||data.sec.miui.com
+@@||data.sec.miui.com^
 ! Blocked by GoodbyeAds
-@@||de.api.io.mi.com
+@@||de.api.io.mi.com^
 ! Blocked by GoodbyeAds
-@@||sts.api.io.mi.com
+@@||sts.api.io.mi.com^
 ! Blocked by GoodbyeAds
 !! Xiaomi Payments
-@@||metok.sys.miui.com
-@@||data.mistat.xiaomi.com
-@@||api.jr.mi.com
-@@||resolver.msg.xiaomi.ne
+@@||metok.sys.miui.com^
+@@||data.mistat.xiaomi.com^
+@@||api.jr.mi.com^
+@@||resolver.msg.xiaomi.net^
 !! Xiaomi Weather (Wearable)
-@@||restapi.amap.com
-@@||adiu.amap.com
-@@||digitalassetlinks.googleapis.com
+@@||restapi.amap.com^
+@@||adiu.amap.com^
+@@||digitalassetlinks.googleapis.com^
 
 ! YouTube [Google] ! Blocked by various lists
-@@||youtu.be
-@@||s.youtube.com
-@@||i.ytimg.com
-@@||youtubei.googleapis.com
-! (For now disabled) @@||video-stats.l.google.com
-! (For now disabled) @@||play.googleapis.com
-@@||redirector.googlevideo.com
-@@||www.youtube.com
-@@||m.youtube.com
-@@||img.youtube.com
-! (For now disabled) @@||*.googlevideo.com
-@@||*.ytimg.com
-@@||consent.youtube.com
+@@||youtu.be^
+@@||s.youtube.com^
+@@||i.ytimg.com^
+@@||youtubei.googleapis.com^
+! (For now disabled) @@||video-stats.l.google.com^
+! (For now disabled) @@||play.googleapis.com^
+@@||redirector.googlevideo.com^
+@@||www.youtube.com^
+@@||m.youtube.com^
+@@||img.youtube.com^
+! (For now disabled) @@||*.googlevideo.com^
+@@||*.ytimg.com^
+@@||consent.youtube.com^
 
 ! Zbiornik
-@@||zbiornik.com
+@@||zbiornik.com^
 ! Blocked by GoodbyeAds
 
 ! Żappka [Żabka]
-@@||snrcdn.net
+@@||snrcdn.net^
 ! Blocked by Energized.Pro - Basic
