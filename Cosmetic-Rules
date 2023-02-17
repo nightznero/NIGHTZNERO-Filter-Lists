@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 804
+! Entries: 809
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.16
+! Updated: 2023.02.17
 !
 ! MIT License
 !
@@ -570,6 +570,12 @@ _spot_id=*&zone_id=$script,~third-party
 @@||basicattentiontoken.org^$first-party
 search.brave.com#@#+js(no-fetch-if, body:browser)
 
+! CamWhores.tv
+@@||www.camwhores.tv^$stealth
+@@||cdn.camwhores.tv/styles/all-responsive-metal.css?v=*$domain=camwhores.tv
+@@||cdn.camwhores.tv/styles/jquery.fancybox-metal.css?v=*$domain=camwhores.tv
+@@||cdn.camwhores.tv/js/main.min.js?v=*$domain=camwhores.tv
+
 ! Crypto (Fake Crypto sites)
 !! BAT (Basic Attention Token)
 ||basicattentiontoken.claims^
@@ -672,6 +678,9 @@ forum.mozilla-*.org##[id="announce"]
 
 ! Open.fm
 @@||std.wpcdn.pl^$domain=open.fm
+
+! OpenAI
+@@||*.openai.com^$stealth
 
 ! Outbrain Elements
 ###around-the-web
