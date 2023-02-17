@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 660 (+15 local hosts)
+! Entries: 1 663 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -547,6 +547,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 ijnb.cn
 0.0.0.0 czyj-to-numer.pl
 0.0.0.0 re-vanced.com
+0.0.0.0 yesdownloader.com
+0.0.0.0 saveporn.net
+0.0.0.0 phdownload.net
 0.0.0.0 bustygirlsnetwork.com
 0.0.0.0 sexy-egirls-leaked.com
 0.0.0.0 leakedonlyf.com
