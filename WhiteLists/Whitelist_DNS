@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.17
+! Updated: 2023.02.18
 !
 ! MIT License
 !
@@ -216,10 +216,11 @@
 ! Blocked by GoodbyeAds n NIGHTZNERO Blacklist
 
 ! Instagram [Meta]
+@@||graph.instagram.com^
+! Blocked by GoodbyeAds
 @@||cdninstagram.com^
 @@||scontent.cdninstagram.com^
 @@||instagram.c10r.facebook.com^
-! (For now disabled) @@||graph.instagram.com^
 @@||i.instagram.com^
 
 ! LeakedZone
