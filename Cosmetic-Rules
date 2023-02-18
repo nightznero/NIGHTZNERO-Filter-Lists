@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 826
+! Entries: 830
 !
 ! Expires: 1 days
 !
@@ -695,6 +695,11 @@ open.fm##.aoie2jv
 open.fm##.gybvdm8
 open.fm##.kr1hon2
 
+! op.gg
+*.op.gg##.banner_banner--3pjXd
+*.op.gg##.vm-skin-left-ads-container
+*.op.gg##.vm-skin-right-ads-container
+*.op.gg##iframe[src="/ads.txt/ads?uponit=true&upapi=true"]
 
 ! OpenAI
 @@||*.openai.com^$stealth
