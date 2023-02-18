@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 809
+! Entries: 821
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.17
+! Updated: 2023.02.18
 !
 ! MIT License
 !
@@ -676,8 +676,18 @@ forum.mozilla-*.org##[id="announce"]
 @@||bes.to^$stealth
 ! Stealth breaks media player
 
+! OnlyFans
+onlyfans.com##.b-feed__aside.b-recommended
+onlyfans.com###content > div.container:first-child > div.b-feed__wrapper:last-child > div.b-feed > div.user_posts > div.b-feed__aside.b-recommended:first-child
+
 ! Open.fm
 @@||std.wpcdn.pl^$domain=open.fm
+open.fm###ADrail
+open.fm###right-side-box
+open.fm##.aoie2jv
+open.fm##.gybvdm8
+open.fm##.kr1hon2
+
 
 ! OpenAI
 @@||*.openai.com^$stealth
@@ -861,6 +871,13 @@ redtube.com##.uf9iw7uaw.uf9iw7uac
 ! StartPage
 ||startpage.*^$removeparam=segment
 startpage.com###gcsa-top
+
+! Sympatia.onet
+sympatia.onet.pl##.auto-promotion.premium.side
+sympatia.onet.pl###proposals > div.proposals > div.users-list:nth-child(3) > div.auto-promotion.premium.side:nth-child(7)
+sympatia.onet.pl##.cmp-footer_footer
+sympatia.onet.pl##.line
+sympatia.onet.pl###line
 
 ! Taboola scripts
 -taboola-article.
