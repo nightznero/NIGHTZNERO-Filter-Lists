@@ -216,12 +216,12 @@
 ! Blocked by GoodbyeAds n NIGHTZNERO Blacklist
 
 ! Instagram [Meta]
-@@||graph.instagram.com^
+@@||i.instagram.com^
+! (For now disabled) @@||graph.instagram.com^
 ! Blocked by GoodbyeAds
 @@||cdninstagram.com^
 @@||scontent.cdninstagram.com^
 @@||instagram.c10r.facebook.com^
-@@||i.instagram.com^
 
 ! LeakedZone
 @@||p.jwpcdn.com^
