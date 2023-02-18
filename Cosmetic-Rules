@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 821
+! Entries: 826
 !
 ! Expires: 1 days
 !
@@ -626,6 +626,13 @@ leagueoflegends.fandom.com##.wds-banner-notification__text
 leagueoflegends.fandom.com##.wds-banner-notification.wds-message.notify
 leagueoflegends.fandom.com###\35 b2d1649b2-188-1
 leagueoflegends.fandom.com###\35 bbe13967e-188-1
+
+! Gamecore
+gamcore.com##.add_game
+gamcore.com##.cc_banner-wrapper
+gamcore.com##.cc_banner.cc_container.cc_container--open
+gamcore.com##.d-none.col-xl-2.col-lg-2.col-md-12.col-sm-12.col-xs-12.d-lg-block.rightAdd
+gamcore.com###thgir
 
 ! Google
 ||www.googletagmanager.com^
