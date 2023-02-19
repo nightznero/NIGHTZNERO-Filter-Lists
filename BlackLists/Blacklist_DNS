@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 663 (+15 local hosts)
+! Entries: 1 664 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.17
+! Updated: 2023.02.19
 !
 ! MIT License
 !
@@ -553,6 +553,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bustygirlsnetwork.com
 0.0.0.0 sexy-egirls-leaked.com
 0.0.0.0 leakedonlyf.com
+0.0.0.0 leaked-of.com
 0.0.0.0 vervesex.com
 0.0.0.0 xxxhub123.com
 
