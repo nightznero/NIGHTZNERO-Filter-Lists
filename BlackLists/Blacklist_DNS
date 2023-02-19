@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 664 (+15 local hosts)
+! Entries: 1 666 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -51,6 +51,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mcdlks.com
 0.0.0.0 0x01n2ptpuz3.com
 0.0.0.0 adtng.com
+0.0.0.0 go.adltserv.com
 ! -Doubleclick.net- !
 0.0.0.0 g.doubleclick.net
 0.0.0.0 mediavisor.doubleclick.net
@@ -94,6 +95,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 api16-access-sg.pangle.io
 0.0.0.0 tnc16-alisg.isnssdk.com
 0.0.0.0 tnc16-alisg.byteoversea.com
+0.0.0.0 analytics.saint.to
 ! -Hotjar- !
 0.0.0.0 api-hotjar.com
 0.0.0.0 hotjar-analytics.com
