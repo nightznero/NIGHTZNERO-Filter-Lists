@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 303
+! Entries: 304
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.18
+! Updated: 2023.02.21
 !
 ! MIT License
 !
@@ -327,8 +327,8 @@
 
 ! Samsung
 @@||pushmessage.samsung.com^
-! Blocked by 1Hosts - Pro
 @@||us-api.mcsvc.samsung.com^
+@@||capi.samsungcloud.com^
 ! Blocked by 1Hosts - Pro
 @@||account.samsung.com^
 
