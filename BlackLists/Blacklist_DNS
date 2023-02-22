@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 130 (+15 local hosts)
+! Entries: 1 129 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -180,7 +180,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 pagead-googlehosted.l.google.com
 0.0.0.0 partner.googleadservices.com
 0.0.0.0 sb-ssl.google.com
-0.0.0.0 ssl.google-analytics.com
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 video-ad-stats.googlesyndication.com
 0.0.0.0 www.google-analytics.com
