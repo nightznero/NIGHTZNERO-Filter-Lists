@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 160 (+15 local hosts)
+! Entries: 1 161 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -446,7 +446,8 @@ ff02::3 ip6-allhosts
 
 ! Fvck off - YouTube
 0.0.0.0 ads.youtube.com
-0.0.0.0 youtube.cleverads.vn
+0.0.0.0 fcmatch.youtube.com
+0.0.0.0 youtubei.youtube.com
 
 ! Fvck off - Spotify
 0.0.0.0 heads-fa.scdn.co
