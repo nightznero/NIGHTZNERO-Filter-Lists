@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 147 (+15 local hosts)
+! Entries: 1 154 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -155,6 +155,7 @@ ff02::3 ip6-allhosts
 ! Fvck off - Google
 0.0.0.0 ade.googlesyndication.com
 0.0.0.0 ads.google.com
+0.0.0.0 ads-icl.googleusercontent.com
 0.0.0.0 adservice.google.com
 0.0.0.0 adservice.google.com.ai
 0.0.0.0 adservice.google.ad
@@ -166,17 +167,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 blogergadgets.googlecode.com
 0.0.0.0 bloggergreetbox.googlecode.com
 0.0.0.0 buttons.googlesyndication.com
+0.0.0.0 cert-test.sandbox.google.com
 0.0.0.0 console.googletagservices.com
 0.0.0.0 contributor.google.com
 0.0.0.0 displayads-formats.googleusercontent.com
 0.0.0.0 fcmatch.google.com
 0.0.0.0 fundingchoicesmessages.google.com
+0.0.0.0 google.mediacategory.com
 0.0.0.0 googleadservices.com
 0.0.0.0 googleanalytics.com
+0.0.0.0 googleapi.club
+0.0.0.0 googlecm.hit.gemius.pl
 0.0.0.0 googlecommerce.com
 0.0.0.0 googleoptimize.com
 0.0.0.0 googletagservices.com
 0.0.0.0 google-analytics.com
+0.0.0.0 gg.google.com
 0.0.0.0 id.google.com
 0.0.0.0 id.google.pl
 0.0.0.0 id.google.ad
@@ -190,6 +196,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 partner.googleadservices.com
 0.0.0.0 safeframe.googlesyndication.com
 0.0.0.0 sb-ssl.google.com
+0.0.0.0 ssl-google-analytics.l.google.com
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 video-ad-stats.googlesyndication.com
 0.0.0.0 www.google-analytics.com
