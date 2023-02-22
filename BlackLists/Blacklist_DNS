@@ -52,8 +52,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 0x01n2ptpuz3.com
 0.0.0.0 adtng.com
 0.0.0.0 go.adltserv.com
+0.0.0.0 g.adxadserv.com
 ! -Doubleclick.net- !
-0.0.0.0 g.doubleclick.net
 0.0.0.0 mediavisor.doubleclick.net
 0.0.0.0 m.doubleclick.net
 0.0.0.0 static.doubleclick.net
@@ -73,9 +73,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 pagead46.l.doubleclick.net
 0.0.0.0 partnerad.l.doubleclick.net
 0.0.0.0 pubads.g.doubleclick.net
+0.0.0.0 secureads.g.doubleclick.net
 0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 survey.g.doubleclick.net
+0.0.0.0 www.googleads.g.doubleclick.net
 0.0.0.0 www.doubleclickbygoogle.com
 ! -Media.net- !
 0.0.0.0 static.media.net
@@ -171,6 +173,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics.google.com
 0.0.0.0 chart.googleapis.com
 0.0.0.0 issuetracker.google.com
+0.0.0.0 mail-ads.google.com
 0.0.0.0 mobileads.google.com
 0.0.0.0 pagead-googlehosted.l.google.com
 0.0.0.0 partner.googleadservices.com
@@ -492,6 +495,8 @@ ff02::3 ip6-allhosts
 
 ! Fvck off - GitHub
 0.0.0.0 collector.github.com
+0.0.0.0 googleads.github.com
+0.0.0.0 googleads.github.io
 
 ! Fvck off - Revolut
 0.0.0.0 aqueduct.revolutlabs.com
@@ -527,6 +532,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 client-telemetry.roblox.com
 0.0.0.0 metrics.roblox.com
 0.0.0.0 aws-eu-west-2b-lms.rbx.com
+
+! Fvck off - Gameloft
+0.0.0.0 ingameads.gameloft.com
+0.0.0.0 extads.gameloft.com
 
 ! Fvck off - wp (Wirtualna Polska)
 0.0.0.0 v.wpimg.pl
