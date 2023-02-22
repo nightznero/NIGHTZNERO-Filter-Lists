@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 131 (+15 local hosts)
+! Entries: 1 121 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -168,16 +168,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 googleadservices.com
 0.0.0.0 googletagservices.com
 0.0.0.0 google-analytics.com
-0.0.0.0 csp.withgoogle.com
-0.0.0.0 firebaseremoteconfig.googleapis.com
-0.0.0.0 userlocation.googleapis.com
-0.0.0.0 safebrowsing.googleapis.com
-0.0.0.0 semanticlocation-pa.googleapis.com
-0.0.0.0 geomobileservices-pa.googleapis.com
-0.0.0.0 optimizationguide-pa.googleapis.com
-0.0.0.0 geller-pa.googleapis.com
-0.0.0.0 auditrecording-pa.googleapis.com
-0.0.0.0 jnn-pa.googleapis.com
 0.0.0.0 analytics.google.com
 0.0.0.0 chart.googleapis.com
 0.0.0.0 issuetracker.google.com
