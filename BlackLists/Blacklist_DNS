@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 154 (+15 local hosts)
+! Entries: 1 156 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -64,7 +64,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.mo.doubleclick.net
 0.0.0.0 adclick.g.doublecklick.net
 0.0.0.0 cm.g.doubleclick.net
-0.0.0.0 doubleclickbygoogle.com
 0.0.0.0 g.doubleclick.net
 0.0.0.0 gan.doubleclick.net
 0.0.0.0 iv.doubleclick.net
@@ -78,7 +77,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 survey.g.doubleclick.net
 0.0.0.0 www.googleads.g.doubleclick.net
-0.0.0.0 www.doubleclickbygoogle.com
 ! -Media.net- !
 0.0.0.0 static.media.net
 0.0.0.0 media.net
@@ -171,6 +169,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 console.googletagservices.com
 0.0.0.0 contributor.google.com
 0.0.0.0 displayads-formats.googleusercontent.com
+0.0.0.0 doubleclickbygoogle.com
 0.0.0.0 fcmatch.google.com
 0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 google.mediacategory.com
@@ -182,6 +181,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 googleoptimize.com
 0.0.0.0 googletagservices.com
 0.0.0.0 google-analytics.com
+0.0.0.0 google-pagerank.net
 0.0.0.0 gg.google.com
 0.0.0.0 id.google.com
 0.0.0.0 id.google.pl
@@ -197,8 +197,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 safeframe.googlesyndication.com
 0.0.0.0 sb-ssl.google.com
 0.0.0.0 ssl-google-analytics.l.google.com
+0.0.0.0 static-doubleclick-net.l.google.com
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 video-ad-stats.googlesyndication.com
+0.0.0.0 www.doubleclickbygoogle.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
 0.0.0.0 www.googlecommerce.com
