@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 130 (+15 local hosts)
+! Entries: 1 127 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -176,7 +176,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 adservice.google.pl
 0.0.0.0 analytics.google.com
 0.0.0.0 chart.googleapis.com
-0.0.0.0 csi.gstatic.com
 0.0.0.0 issuetracker.google.com
 0.0.0.0 mobileads.google.com
 0.0.0.0 pagead-googlehosted.l.google.com
@@ -189,8 +188,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.googleadservices.com
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 www.googletagservices.com
-0.0.0.0 imasdk.googleapis.com
-0.0.0.0 vision.googleapis.com
 
 ! Fvck off - Firefox
 0.0.0.0 crash-reports.mozilla.com
