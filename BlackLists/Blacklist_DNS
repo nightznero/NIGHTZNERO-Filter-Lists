@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 666 (+15 local hosts)
+! Entries: 1 668 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.19
+! Updated: 2023.02.22
 !
 ! MIT License
 !
@@ -114,6 +114,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 upload.luckyorange.net
 0.0.0.0 cs.luckyorange.net
 0.0.0.0 settings.luckyorange.net
+! -Crashlytics- !
+0.0.0.0 e.crashlytics.com
+0.0.0.0 settings.crashlytics.com
 ! -WP Plugin- !
 0.0.0.0 stats.wp.com
 
