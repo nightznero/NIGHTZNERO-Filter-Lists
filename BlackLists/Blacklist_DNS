@@ -178,7 +178,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 geller-pa.googleapis.com
 0.0.0.0 auditrecording-pa.googleapis.com
 0.0.0.0 jnn-pa.googleapis.com
-0.0.0.0 adservice.google.pl
 0.0.0.0 analytics.google.com
 0.0.0.0 chart.googleapis.com
 0.0.0.0 issuetracker.google.com
