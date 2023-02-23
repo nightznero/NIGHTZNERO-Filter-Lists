@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 833
+! Entries: 837
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.20
+! Updated: 2023.02.23
 !
 ! MIT License
 !
@@ -579,7 +579,6 @@ camwhores.tv##div.container:nth-child(2) > iframe:nth-child(3)
 camwhores.tv##div.container:nth-child(2) > div.content:nth-child(4) > iframe:nth-child(3)
 camwhores.tv##div.container:nth-child(2) > div.content:nth-child(4) > div.block-video:nth-child(2) > div.table:first-child
 
-
 ! Crypto (Fake Crypto sites)
 !! BAT (Basic Attention Token)
 ||basicattentiontoken.claims^
@@ -589,6 +588,12 @@ camwhores.tv##div.container:nth-child(2) > div.content:nth-child(4) > div.block-
 ! CyberFile (filehosting service) [Bunkr]
 @@||cyberfile-is.b-cdn.net/themes^
 @@||cyberfiles-static.b-cdn.net/assets^
+
+! erodate.pl
+erodate.pl##.header-promo
+erodate.pl##header.header:nth-child(*) > div.header-promo:first-child > div.alert.alert-dismissable.fade.in.action
+erodate.pl###content > div.homepage-right:last-child > div.promo-container.module-box:nth-child(*)
+erodate.pl##.homepage-right
 
 ! Facebook [Meta]
 @@||connect.facebook.net^$tag=fb-embeds
