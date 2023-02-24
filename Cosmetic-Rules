@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 865
+! Entries: 884
 !
 ! Expires: 1 days
 !
@@ -848,6 +848,15 @@ pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 580001936703
 @@||js.reactor.cc^$domain=reactor.cc
 @@||img*.reactor.cc^
 
+! Reddit
+||alb.reddit.com^
+||events.reddit.com^
+||events.redditmedia.com^
+||reddit.com/counters/$xmlhttprequest
+||reddit.com/static/pixel.png$image
+||reddit.com/timings/
+||redditmedia.com/gtm/jail?
+
 ! Redgifs (Stealth breaking site)
 @@||redgifs.com^$domain=redgifs.com,stealth
 @@||thumbs4.redgifs.com^$domain=redgifs.com,stealth
@@ -971,6 +980,18 @@ twitter.com#@#.ProfileCanopy-card, .u-cf.OpenInAppBar, div:not([aria-labelledby=
 @@||*.you.com^$domain=*.you.com,stealth
 
 ! Youtube
+||youtube-nocookie.com/api/stats/delayplay?
+||youtube-nocookie.com/api/stats/qoe?
+||youtube-nocookie.com/ptracking?
+||youtube-nocookie.com/robots.txt?
+||youtube.com/api/stats/ads?
+||youtube.com/api/stats/delayplay?
+||youtube.com/api/stats/qoe?
+||youtube.com/get_video?
+||youtube.com/youtubei/v1/log_event?
+||youtube.com/generate_204?
+||youtube.com/ptracking?
+||youtube.com/set_awesome?
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, [].playerResponse.adPlacements)
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, [].playerResponse.playerAds)
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, 2.playerResponse.adPlacements)
