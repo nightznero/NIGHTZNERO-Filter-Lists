@@ -1028,17 +1028,17 @@ redtube.com##.kze9tw.kze9tc
 redtube.com##.uf9iw7uaw.uf9iw7uac
 
 ! Showup.tv
-! (For now disabled) @@||showup.tv^$domain=showup.tv,stealth
-! (For now disabled) @@||showup.tv/styles^$domain=showup.tv
-! (For now disabled) @@||showup.tv/scripts^$domain=showup.tv
-! (For now disabled) @@||showup.tv/images^$domain=showup.tv
-! (For now disabled) @@||showup.tv/files^$domain=showup.tv
-! (For now disabled) @@||showup.tv/fonts^$domain=showup.tv
-! (For now disabled) @@||cdn-s*.showup.tv/files^$domain=showup.tv
-! (For now disabled) @@||j*.showup.tv^$domain=showup.tv
-! (For now disabled) @@||showup.tv/site^$domain=showup.tv
-! (For now disabled) @@||cdn-e*.showup.tv^$domain=showup.tv
-! (For now disabled) ||showup.tv^$badfilter
+||showup.tv^$badfilter
+@@||showup.tv^$domain=showup.tv,stealth
+@@||showup.tv/styles^$domain=showup.tv
+@@||showup.tv/scripts^$domain=showup.tv
+@@||showup.tv/images^$domain=showup.tv
+@@||showup.tv/files^$domain=showup.tv
+@@||showup.tv/fonts^$domain=showup.tv
+@@||cdn-s*.showup.tv/files^$domain=showup.tv
+@@||j*.showup.tv^$domain=showup.tv
+@@||showup.tv/site^$domain=showup.tv
+@@||cdn-e*.showup.tv^$domain=showup.tv
 ||showup.tv/sounds^$domain=showup.tv
 
 ! SquareSpace
