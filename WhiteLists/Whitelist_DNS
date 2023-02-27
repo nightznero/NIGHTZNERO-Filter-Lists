@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 304
+! Entries: 305
 !
 ! Expires: 1 days
 !
@@ -343,7 +343,7 @@
 @@||s.shopify.com^
 
 ! Showup.tv
-@@||showup.tv^
+! (For now disabled) @@||showup.tv^
 ! Blocked by Energized.Pro - Basic
 
 ! Skype [Microsoft]
@@ -434,6 +434,10 @@
 @@||twimg.com^
 ! (For now disabled) @@||api.twitter.com^
 ! (For now disabled) @@||platform.twitter.com^
+
+! Under Armour
+@@||fieldtesting.underarmour.com^
+! Blocked by GoodbyeAds
 
 ! UTorrent
 @@||update.utorrent.com^
