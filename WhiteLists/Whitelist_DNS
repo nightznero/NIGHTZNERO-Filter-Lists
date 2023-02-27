@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.23
+! Updated: 2023.02.27
 !
 ! MIT License
 !
@@ -310,8 +310,8 @@
 ! Blocked by Energized.Pro - Spark
 
 ! Reactor.cc
-! (For now disabled) @@||reactor.cc^
-! Blocked by GoodbyeAds
+@@||reactor.cc^
+! Blocked by 1Hosts - Pro
 @@||img.reactor.cc^
 @@||img0.reactor.cc^
 @@||img1.reactor.cc^
@@ -517,8 +517,8 @@
 @@||consent.youtube.com^
 
 ! Zbiornik
-! (For now disabled) @@||zbiornik.com^
-! Blocked by GoodbyeAds
+@@||zbiornik.com^
+! Blocked by 4PDA Community hosts blacklist
 
 ! Żappka [Żabka]
 @@||snrcdn.net^
