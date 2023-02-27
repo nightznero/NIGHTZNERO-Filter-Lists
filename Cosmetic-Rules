@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.24
+! Updated: 2023.02.27
 !
 ! MIT License
 !
@@ -965,16 +965,16 @@ pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 579018344545
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 580001936703
 
 ! PornReactor.cc
-! (For now disabled) @@||js.pornreactor.cc^$domain=pornreactor.cc
-! (For now disabled) @@||img*.pornreactor.cc^
+@@||js.pornreactor.cc^$domain=pornreactor.cc
+@@||img*.pornreactor.cc^
 
 ! Pyszne.pl [TakeAway]
 @@||cw-api.takeaway.com/api^$stealth
 @@||www.pyszne.pl^$stealth
 
 ! Reactor.cc
-! (For now disabled) @@||js.reactor.cc^$domain=reactor.cc
-! (For now disabled) @@||img*.reactor.cc^
+@@||js.reactor.cc^$domain=reactor.cc
+@@||img*.reactor.cc^
 
 ! Reddit
 ||alb.reddit.com^
@@ -1129,27 +1129,27 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse.playerAds)
 
 ! Zbiornik.com
-! (For now disabled) @@||zbiornik.com/i18n.php$domain=zbiornik.com
-! (For now disabled) @@||zbiornik.com/css/zbiornik-welcome.css$domain=zbiornik.com
-! (For now disabled) @@||zbiornik.com/css/zbiornik-welcome-common.css$domain=zbiornik.com
-! (For now disabled) @@||zbiornik.com/css/zbiornik-welcome-small.css$domain=zbiornik.com
-! (For now disabled) @@||zbiornik.com/swingers.js$domain=zbiornik.com
-! (For now disabled) @@||zbiornik.com/imgs^$domain=zbiornik.com
-! (For now disabled) @@||vimg.zbiornik.com^$domain=zbiornik.com
-! (For now disabled) @@||img0*.zbiornik.com/*/images^$domain=zbiornik.com
-! (For now disabled) @@||v0*.zbiornik.com/*/videos^$domain=zbiornik.com
-! (For now disabled) @@||camshot.zbiornik.com^$domain=zbiornik.com
-! (For now disabled) @@||brajanek.zbiornik.com/ajax^$domain=zbiornik.com
-! (For now disabled) @@||denisek.zbiornik.com/ajax^$domain=zbiornik.com
-! (For now disabled) @@||dzesika.zbiornik.com/ajax^$domain=zbiornik.com
-! (For now disabled) @@||vaneska.zbiornik.com/ajax^$domain=zbiornik.com
-! (For now disabled) @@||zbiornik.com/js^$domain=zbiornik.com
-! (For now disabled) @@||wowzafut.zbiornik.com/socket.io^$domain=zbiornik.com
-! (For now disabled) @@||kamczatka.zbiornik.com/socket.io^$domain=zbiornik.com
-! (For now disabled) @@||talk.zbiornik.com/socket.io^$domain=zbiornik.com
-! (For now disabled) @@||av.zbiornik.com/av^$domain=zbiornik.com
-! (For now disabled) @@||zbiornik.com/zbiornik.css?6$domain=zbiornik.com
-! (For now disabled) @@||zbiornik.com/zbiornik.js?6$domain=zbiornik.com
-! (For now disabled) @@||zbiornik.com/tmp-ps^$domain=zbiornik.com
-! (For now disabled) @@||c*.zbiornik.com/AntMediaZbiornik^$domain=zbiornik.com
-! (For now disabled) ||zbiornik.com^$badfilter
+||zbiornik.com^$badfilter
+@@||zbiornik.com/i18n.php$domain=zbiornik.com
+@@||zbiornik.com/css/zbiornik-welcome.css$domain=zbiornik.com
+@@||zbiornik.com/css/zbiornik-welcome-common.css$domain=zbiornik.com
+@@||zbiornik.com/css/zbiornik-welcome-small.css$domain=zbiornik.com
+@@||zbiornik.com/swingers.js$domain=zbiornik.com
+@@||zbiornik.com/imgs^$domain=zbiornik.com
+@@||vimg.zbiornik.com^$domain=zbiornik.com
+@@||img0*.zbiornik.com/*/images^$domain=zbiornik.com
+@@||v0*.zbiornik.com/*/videos^$domain=zbiornik.com
+@@||camshot.zbiornik.com^$domain=zbiornik.com
+@@||brajanek.zbiornik.com/ajax^$domain=zbiornik.com
+@@||denisek.zbiornik.com/ajax^$domain=zbiornik.com
+@@||dzesika.zbiornik.com/ajax^$domain=zbiornik.com
+@@||vaneska.zbiornik.com/ajax^$domain=zbiornik.com
+@@||zbiornik.com/js^$domain=zbiornik.com
+@@||wowzafut.zbiornik.com/socket.io^$domain=zbiornik.com
+@@||kamczatka.zbiornik.com/socket.io^$domain=zbiornik.com
+@@||talk.zbiornik.com/socket.io^$domain=zbiornik.com
+@@||av.zbiornik.com/av^$domain=zbiornik.com
+@@||zbiornik.com/zbiornik.css?6$domain=zbiornik.com
+@@||zbiornik.com/zbiornik.js?6$domain=zbiornik.com
+@@||zbiornik.com/tmp-ps^$domain=zbiornik.com
+@@||c*.zbiornik.com/AntMediaZbiornik^$domain=zbiornik.com
