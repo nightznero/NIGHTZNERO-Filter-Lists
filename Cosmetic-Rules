@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1008
+! Entries: 1007
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.27
+! Updated: 2023.03.01
 !
 ! MIT License
 !
@@ -699,9 +699,9 @@ _spot_id=*&zone_id=$script,~third-party
 
 ! Brave
 ||rewards.brave.com^$badfilter
-! Blocked by 1Hosts - Pro [Domains]
+! Blocked by 1Hosts - Pro
 ||ads.brave.com^$badfilter
-! Blocked by GoodbyeAds [AdBlock-Syntax]
+! Blocked by GoodbyeAds
 @@||brave.com^$image,stylesheet,first-party
 @@||search.brave.com^$ghide
 @@||search.brave.com/api/$first-party
@@ -917,10 +917,6 @@ open.fm##.kr1hon2
 /outbrain/base?
 /outbrain?
 ||outbrainimg.com^$third-party
-
-! PixelDrain
-||pixeldrain.com^$badfilter
-! Blocked by GoodbyeAds
 
 ! PornHub
 pornhub.com##[id="pb_block"]
