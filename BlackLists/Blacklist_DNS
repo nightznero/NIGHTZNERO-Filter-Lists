@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 171 (+15 local hosts)
+! Entries: 1 166 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.28
+! Updated: 2023.03.01
 !
 ! MIT License
 !
@@ -511,12 +511,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 redditad.com
 
 ! Fvck off - TikTok
-0.0.0.0 mon-va.byteoversea.com
 0.0.0.0 sf16-muse-va.ibytedtos.com
-0.0.0.0 pitaya-va.tiktokv.com
-0.0.0.0 mon-va.tiktokv.com
-0.0.0.0 mon.tiktokv.com
-0.0.0.0 mcs-va.tiktokv.com
 0.0.0.0 ads-sg.tiktok.com
 0.0.0.0 analytics-sg.tiktok.com
 0.0.0.0 ads.tiktok.com
