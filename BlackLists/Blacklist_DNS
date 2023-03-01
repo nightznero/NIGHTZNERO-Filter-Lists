@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 166 (+15 local hosts)
+! Entries: 1 421 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -513,9 +513,98 @@ ff02::3 ip6-allhosts
 ! Fvck off - TikTok
 0.0.0.0 sf16-muse-va.ibytedtos.com
 0.0.0.0 ads-sg.tiktok.com
-0.0.0.0 analytics-sg.tiktok.com
 0.0.0.0 ads.tiktok.com
-0.0.0.0 analytics.tiktok.com
+0.0.0.0 mon-ru.tiktokv.com
+0.0.0.0 mon-sg.tiktokv.com
+0.0.0.0 mon-va.tiktokv.com
+0.0.0.0 mon15-checkout-alisg.tiktokv.com
+0.0.0.0 mon15-checkout-useast1a.tiktokv.com
+0.0.0.0 mon15-normal.tiktokv.com
+0.0.0.0 mon15-normal-useast1a.tiktokv.com
+0.0.0.0 mon16-normal.tiktokv.com
+0.0.0.0 mon16-normal-alisg.tiktokv.com
+0.0.0.0 mon16-normal-c-useast1a.tiktokv.com
+0.0.0.0 mon16-normal-c-useast2a.tiktokv.com
+0.0.0.0 mon16-normal-useast1a.tiktokv.com
+0.0.0.0 mon16-platform-ycru.tiktokv.com
+0.0.0.0 mon16-tmp-normal-useast1a.tiktokv.com
+0.0.0.0 mon19-normal-useast1a.tiktokv.com
+0.0.0.0 mon22-normal-useast1a.tiktokv.com
+0.0.0.0 monbk.tiktokv.com
+0.0.0.0 mssdk-boot.tiktokv.com
+0.0.0.0 mssdk-i18n.tiktokv.com
+0.0.0.0 mssdk-phx.tiktokv.com
+0.0.0.0 mssdk-quic-i18n.tiktokv.com
+0.0.0.0 mssdk-quic-va.tiktokv.com
+0.0.0.0 mssdk-ru.tiktokv.com
+0.0.0.0 mssdk-sg.tiktokv.com
+0.0.0.0 mssdk-va.tiktokv.com
+0.0.0.0 mssdk16-normal.tiktokv.com
+0.0.0.0 mssdk16-normal-alisg.tiktokv.com
+0.0.0.0 mssdk16-normal-useast1a.tiktokv.com
+0.0.0.0 mssdk16-normal-useast2a.tiktokv.com
+0.0.0.0 mssdk19-normal-alisg.tiktokv.com
+0.0.0.0 mssdk19-normal-useast1a.tiktokv.com
+0.0.0.0 mssdk22-normal-alisg.tiktokv.com
+0.0.0.0 mssdk22-normal-useast1a.tiktokv.com
+0.0.0.0 pitaya.tiktokv.com
+0.0.0.0 pitaya-boot.tiktokv.com
+0.0.0.0 pitaya-sg.tiktokv.com
+0.0.0.0 pitaya-task.tiktokv.com
+0.0.0.0 pitaya-task-sg.tiktokv.com
+0.0.0.0 pitaya-task-va.tiktokv.com
+0.0.0.0 pitaya-va.tiktokv.com
+0.0.0.0 rtc-logger-va.tiktokv.com
+0.0.0.0 rtlog.tiktokv.com
+0.0.0.0 rtlog-boot.tiktokv.com
+0.0.0.0 rtlog-i18n.tiktokv.com
+0.0.0.0 rtlog-phx.tiktokv.com
+0.0.0.0 rtlog-ru.tiktokv.com
+0.0.0.0 rtlog-va.tiktokv.com
+0.0.0.0 rtlog-va-useast2a.tiktokv.com
+0.0.0.0 rtlog15-normal-useast1a.tiktokv.com
+0.0.0.0 rtlog15-normal-useast2a.tiktokv.com
+0.0.0.0 rtlog16-applog-useast1a.tiktokv.com
+0.0.0.0 rtlog16-applog-useast2a.tiktokv.com
+0.0.0.0 rtlog16-normal.tiktokv.com
+0.0.0.0 rtlog16-normal-alisg.tiktokv.com
+0.0.0.0 rtlog16-normal-ind.tiktokv.com
+0.0.0.0 rtlog16-normal-useast1a.tiktokv.com
+0.0.0.0 rtlog16-normal-useast2a.tiktokv.com
+0.0.0.0 rtlog16-tmp-normal-useast1a.tiktokv.com
+0.0.0.0 rtlog17-normal-alisg.tiktokv.com
+0.0.0.0 rtlog17-normal-useast1a.tiktokv.com
+0.0.0.0 rtlog17-normal-useast2a.tiktokv.com
+0.0.0.0 rtlog19-applog-useast1a.tiktokv.com
+0.0.0.0 rtlog19-normal-alisg.tiktokv.com
+0.0.0.0 rtlog19-normal-useast1a.tiktokv.com
+0.0.0.0 rtlog19-normal-useast2a.tiktokv.com
+0.0.0.0 rtlog22-normal.tiktokv.com
+0.0.0.0 rtlog22-normal-alisg.tiktokv.com
+0.0.0.0 rtlog22-normal-useast1a.tiktokv.com
+0.0.0.0 rtlog22-normal-useast2a.tiktokv.com
+0.0.0.0 frontier.us.tiktokv.com
+0.0.0.0 gecko16-platform-useast5.us.tiktokv.com
+0.0.0.0 log16-applog-useast5.us.tiktokv.com
+0.0.0.0 log19-applog-useast5.us.tiktokv.com
+0.0.0.0 mcs.us.tiktokv.com
+0.0.0.0 mon.us.tiktokv.com
+0.0.0.0 mon16-platform-useast5.us.tiktokv.com
+0.0.0.0 mssdk.us.tiktokv.com
+0.0.0.0 mssdk16-platform-useast5.us.tiktokv.com
+0.0.0.0 pitaya.us.tiktokv.com
+0.0.0.0 pitaya-task.us.tiktokv.com
+0.0.0.0 rtc-logger.us.tiktokv.com
+0.0.0.0 rtlog16-applog-useast5.us.tiktokv.com
+0.0.0.0 xlog16-platform-useast5.us.tiktokv.com
+0.0.0.0 xlog.tiktokv.com
+0.0.0.0 xlog-ru.tiktokv.com
+0.0.0.0 xlog-va.tiktokv.com
+0.0.0.0 xlog-va-useast2a.tiktokv.com
+0.0.0.0 xlog16-normal-c-useast1a.tiktokv.com
+0.0.0.0 xlog16-normal-c-useast2a.tiktokv.com
+0.0.0.0 xlog16-platform-ycru.tiktokv.com
+0.0.0.0 xlog16-tmp-normal-useast1a.tiktokv.com
 
 ! Fvck off - Snapchat
 0.0.0.0 app-analytics-v2.snapchat.com
