@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 477 (+15 local hosts)
+! Entries: 1 476 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.01
+! Updated: 2023.03.02
 !
 ! MIT License
 !
@@ -39,20 +39,19 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 
 ! Fvck off - Ads
-0.0.0.0 syndication.exdynsrv.com
 0.0.0.0 tsyndicate.com
-0.0.0.0 a.exdynsrv.com
-0.0.0.0 a.realsrv.com
+0.0.0.0 exdynsrv.com
+0.0.0.0 realsrv.com
 0.0.0.0 ads.exoclick.com
 0.0.0.0 adsessionserv.com
+0.0.0.0 adtng.com
+0.0.0.0 adltserv.com
+0.0.0.0 adxadserv.com
 0.0.0.0 adspy.javrank.com
 0.0.0.0 ads.bullionyield.com
 0.0.0.0 fgn.cdn.serverable.com
 0.0.0.0 mcdlks.com
 0.0.0.0 0x01n2ptpuz3.com
-0.0.0.0 adtng.com
-0.0.0.0 go.adltserv.com
-0.0.0.0 g.adxadserv.com
 ! -Doubleclick.net- !
 0.0.0.0 mediavisor.doubleclick.net
 0.0.0.0 m.doubleclick.net
