@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1007
+! Entries: 1010
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.01
+! Updated: 2023.03.02
 !
 ! MIT License
 !
@@ -971,6 +971,9 @@ pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 580001936703
 ! Reactor.cc
 @@||js.reactor.cc^$domain=reactor.cc
 @@||img*.reactor.cc^
+reactor.cc##.w86ce344b.nfccaa22.t93438070.u2f85114e.tfc4e54fa
+reactor.cc##.j60d22ebb.mecd6c852.xdc2a2400.j82e24c3e.a2493c78a
+reactor.cc##.eed23e7a6.yedad16de.v6b9e7897
 
 ! Reddit
 ||alb.reddit.com^
