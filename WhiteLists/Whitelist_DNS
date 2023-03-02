@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 307
+! Entries: 308
 !
 ! Expires: 1 days
 !
-! Updated: 2023.02.27
+! Updated: 2023.03.02
 !
 ! MIT License
 !
@@ -23,6 +23,7 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! 1Weather
 @@||1weather.onelouder.com^
+@@||nwsalert.onelouder.com^
 @@||nwsalert1.onelouder.com^
 @@||nwsalert2.onelouder.com^
 ! Blocked by 1Hosts - Pro
