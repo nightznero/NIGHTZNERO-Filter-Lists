@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1010
+! Entries: 1011
 !
 ! Expires: 1 days
 !
@@ -728,8 +728,9 @@ camwhores.tv##div.container:nth-child(2) > div.content:nth-child(4) > div.block-
 ||ape-coin.gift^
 
 ! CyberFile (filehosting service) [Bunkr]
-@@||cyberfile-is.b-cdn.net/themes^
+@@||cyberfile-*.b-cdn.net/themes^
 @@||cyberfiles-static.b-cdn.net/assets^
+@@||cyberfile.*/account/ajax^$stealth
 
 ! erodate.pl
 erodate.pl##.header-promo
