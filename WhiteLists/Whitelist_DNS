@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 308
+! Entries: 309
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.02
+! Updated: 2023.03.03
 !
 ! MIT License
 !
@@ -123,6 +123,10 @@
 ! CyroseHD
 @@||cyrosehd.page.link^
 ! Blocked by GoodbyeAds
+
+! Dev-bsewamods
+@@||dev-bsewamods.epizy.com^
+! Blocked by HaGeZi - Multi Pro++
 
 ! Discord
 @@||discord.gg^
