@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1017
+! Entries: 1030
 !
 ! Expires: 1 days
 !
@@ -1099,7 +1099,19 @@ sympatia.onet.pl###line
 ||taboolasyndication.com^$third-party
 
 ! Teenager365.com
-
+teenager365.com##.video-archive-ad
+teenager365.com##.kc993a-body
+teenager365.com##.k*-container.k*-2.k*-hide
+teenager365.com##.kfbbbc-container.kfbbbc-2.kfbbbc-hide
+teenager365.com##.k7adc7-container.k7adc7-2.k7adc7-hide
+teenager365.com##.kc993a-container.kc993a-2.kc993a-hide
+teenager365.com##.k795b5-container.k795b5-2.k795b5-hide
+teenager365.com##.k27ff1-container.k27ff1-2.k27ff1-hide
+teenager365.com##.k4991b-container.k4991b-2.k4991b-hide
+teenager365.com##.k87c75-container.k87c75-2.k87c75-hide
+teenager365.com##.kdd1b8-container.kdd1b8-2.kdd1b8-hide
+teenager365.com##.k5121b-container.k5121b-2.k5121b-hide
+teenager365.com##.k9d4bd-container.k9d4bd-2.k9d4bd-hide
 
 ! Twitter
 @@||api.twitter.com/1.1/jot/client_event.json$domain=twitter.com
