@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 310
+! Entries: 313
 !
 ! Expires: 1 days
 !
@@ -140,6 +140,12 @@
 @@||eaassets-a.akamaihd.net^
 ! Blocked by GoodbyeAds
 @@||ea.com^
+
+! EnhanceFox
+@@||appinference-upload.guangzhuiyuan.com^
+@@||appinference-distribute.guangzhuiyuan.com^
+@@||appinference-dl.guangzhuiyuan.com^
+! Blocked by 1Hosts - Pro
 
 ! Epic Games
 @@||tracking.epicgames.com^
