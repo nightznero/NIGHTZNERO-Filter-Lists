@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1030
+! Entries: 1051
 !
 ! Expires: 1 days
 !
@@ -742,6 +742,11 @@ camwhores.tv##div.container:nth-child(2) > div.content:nth-child(4) > div.block-
 @@||dev-bsewamods.epizy.com^$domain=dev-bsewamods.epizy.com
 ! Blocked by HaGeZi - Multi Pro++
 
+! DziennikLodzki.pl
+dzienniklodzki.pl##.g05b829be564e4e510d498980d301bac4df931fd7*
+dzienniklodzki.pl##.g05b829be564e4e510d498980d301bac4df931fd7
+dzienniklodzki.pl###g05b829be564e4e510d498980d301bac4df931fd7901811034
+
 ! erodate.pl
 erodate.pl##.header-promo
 erodate.pl##header.header:nth-child(*) > div.header-promo:first-child > div.alert.alert-dismissable.fade.in.action
@@ -805,6 +810,10 @@ gamcore.com##.cc_banner.cc_container.cc_container--open
 gamcore.com##.d-none.col-xl-2.col-lg-2.col-md-12.col-sm-12.col-xs-12.d-lg-block.rightAdd
 gamcore.com###thgir
 
+! Genius
+genius.com##.optanon-alert-box-wrapper
+genius.com##.optanon-alert-box-bg
+
 ! Google
 ||www.googletagmanager.com^
 ||www.google-analytics.com^
@@ -842,6 +851,10 @@ imgur.com##.advertisement.div-ad-active-bottom_med_rec
 @@||kfc.pl^$stealth
 @@||kfcdostawa.pl/ordering-api^$stealth
 
+! Lento.pl
+lodz.lento.pl###a-sho-bootm
+lodz.lento.pl##main:nth-child(*) > div.container-fluid.otherpage-container > div.row:nth-child(*) > div.col-md-* > div.showogl > div.row-sm-flex:first-child > div.col-sm-left:first-child > div.img-cat.hidden-xs:last-child
+
 ! LinkedIn [Microsoft]
 @@||licdn.com^$tag=linked-in-embeds
 @@||platform.linkedin.com^$tag=linked-in-embeds
@@ -858,6 +871,12 @@ forum.mozilla-*.org##[id="announce"]
 ! NextCloud
 @@||bes.to^$stealth
 ! Stealth breaks media player
+
+! Nudostar.com
+nudostar.com##div.advertising1:nth-child(*)
+nudostar.com###top > div.p-body:nth-child(5) > div.p-body-inner > ul.notices.notices--block.js-notices:first-child
+nudostar.com###top > div.p-body:nth-child(5) > div.p-body-inner > ul.notices.notices--block.notices--isMulti.js-notices:first-child > li.notice.js-notice.notice--primary:last-child
+nudostar.com###top > div.p-body:nth-child(5) > div.p-body-inner > div.p-body-main:nth-child(5) > div.p-body-content > div.samCodeUnit.samAlignCenter:last-child
 
 ! OnlyFans
 onlyfans.com##.b-feed__aside.b-recommended
@@ -994,6 +1013,7 @@ reactor.cc##.eed23e7a6.yedad16de.v6b9e7897
 ||reddit.com/static/pixel.png$image
 ||reddit.com/timings/
 ||redditmedia.com/gtm/jail?
+reddit.com##.avKlJzxZU3brq4nAX0_i1._1G4yU68P50vRZ4USXfaceV._2QeqBqfT5UbHBoViZUt-wX
 
 ! Redgifs (Stealth breaking site)
 @@||redgifs.com^$domain=redgifs.com,stealth
@@ -1036,6 +1056,11 @@ redtube.com##.j53ml3w.j53ml3c
 redtube.com##.tbsamrv7qv3f
 redtube.com##.kze9tw.kze9tc
 redtube.com##.uf9iw7uaw.uf9iw7uac
+
+! Rule34
+rule34.xxx###post-view > div.sidebar:first-child > a:nth-child(2)
+rule34.xxx###right-col > div.flexi:first-child > div.sidebarRight.verticalFlexWithMargins:last-child
+rule34.xxx###right-col > div.flexi:nth-child(2) > div.sidebarRight.verticalFlexWithMargins:last-child
 
 ! Showup.tv
 ||showup.tv^$badfilter
@@ -1113,6 +1138,9 @@ teenager365.com##.kdd1b8-container.kdd1b8-2.kdd1b8-hide
 teenager365.com##.k5121b-container.k5121b-2.k5121b-hide
 teenager365.com##.k9d4bd-container.k9d4bd-2.k9d4bd-hide
 
+! TikTok
+tiktok.com###main > div.jsx-4200132659.cookie-banner:last-child
+
 ! Twitter
 @@||api.twitter.com/1.1/jot/client_event.json$domain=twitter.com
 @@||api.twitter.com^$tag=twitter-embeds
@@ -1128,6 +1156,15 @@ teenager365.com##.k9d4bd-container.k9d4bd-2.k9d4bd-hide
 ||twitter.com/1.1/jot/client_event.json
 twitter.com##[style]>div>div>[data-testid=placementTracking]
 twitter.com#@#.ProfileCanopy-card, .u-cf.OpenInAppBar, div:not([aria-labelledby="modal-header"]) .r-18qmn74.r-1vsu8ta.r-1joea0r.r-1777fci.r-1pz39u2.r-obd0qt.css-1dbjc4n > div:not([aria-disabled="true"]), header div[style*="height: calc(53px);"]
+
+! XHamster.com
+xhamster.com##.right-rectangle.wig-spot-container.list-items
+xhamster.com##.wig-cams-widget.rectangle.rendered
+
+! XVideos.com
+xvideos.com##.x-message.x-message-info
+xvideos.com##.icon-f.icf-info-circle
+xvideos.com##.ic
 
 ! You.com (Search engine)
 @@||*.you.com^$domain=*.you.com,stealth
