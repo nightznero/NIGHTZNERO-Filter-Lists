@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1016
+! Entries: 1017
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.03
+! Updated: 2023.03.07
 !
 ! MIT License
 !
@@ -1098,6 +1098,9 @@ sympatia.onet.pl###line
 ||taboola.com^$third-party
 ||taboolasyndication.com^$third-party
 
+! Teenager365.com
+
+
 ! Twitter
 @@||api.twitter.com/1.1/jot/client_event.json$domain=twitter.com
 @@||api.twitter.com^$tag=twitter-embeds
@@ -1116,6 +1119,9 @@ twitter.com#@#.ProfileCanopy-card, .u-cf.OpenInAppBar, div:not([aria-labelledby=
 
 ! You.com (Search engine)
 @@||*.you.com^$domain=*.you.com,stealth
+
+! YouPorn
+youporn.com##.lf6z1k2g5R7a
 
 ! Youtube
 ||youtube-nocookie.com/api/stats/delayplay?
