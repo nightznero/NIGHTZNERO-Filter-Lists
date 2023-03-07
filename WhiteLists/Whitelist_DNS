@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 313
+! Entries: 314
 !
 ! Expires: 1 days
 !
@@ -144,6 +144,7 @@
 ! EnhanceFox
 @@||appinference-upload.guangzhuiyuan.com^
 @@||appinference-distribute.guangzhuiyuan.com^
+@@||appinference-distribute2.guangzhuiyuan.com^
 @@||appinference-dl.guangzhuiyuan.com^
 ! Blocked by 1Hosts - Pro
 
