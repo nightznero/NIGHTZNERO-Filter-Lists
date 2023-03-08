@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 486 (+15 local hosts)
+! Entries: 1 484 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -1040,9 +1040,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pmir.3g.qq.com
 
 ! Fvck off - Drojian/InShot
-0.0.0.0 inshotapp.com
 0.0.0.0 myinstashot.com
-0.0.0.0 inshot.cc
 0.0.0.0 inshot.com
 0.0.0.0 drojian.ltd
 0.0.0.0 drojian.dev
