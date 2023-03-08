@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 485 (+15 local hosts)
+! Entries: 1 486 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.06
+! Updated: 2023.03.08
 !
 ! MIT License
 !
@@ -756,6 +756,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ofleakednow.co
 0.0.0.0 leakedonly.co
 0.0.0.0 freeleaked.me
+0.0.0.0 bestofleaks.com
 
 ! Fvck off - Fake Apk Stores (I have nothing to mods if they are made properly n safe)
 0.0.0.0 apksoul.net
