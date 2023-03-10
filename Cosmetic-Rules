@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1067
+! Entries: 1073
 !
 ! Expires: 1 days
 !
@@ -739,7 +739,10 @@ camwhores.tv##div.container:nth-child(2) > div.content:nth-child(4) > div.block-
 cumonprintedpics.com###message > center:first-child
 cumonprintedpics.com###message > center:nth-child(4)
 
-! CyberFile (filehosting service) [Bunkr]
+! CyberDrop.me (file hosting service)
+cyberdrop.me###adwl-footer
+
+! CyberFile (file hosting service) [Bunkr]
 @@||cyberfile-*.b-cdn.net/themes^
 @@||cyberfiles-static.b-cdn.net/assets^
 @@||cyberfile.*/cache/plugins/mediaconverter^$stealth
@@ -885,12 +888,18 @@ lodz.lento.pl##main:nth-child(*) > div.container-fluid.otherpage-container > div
 @@||bezcennechwile.mastercard.pl^
 @@||rpm.upaid.pl^
 
+! METAsrc.com
+metasrc.com###content > div._qngo9y:first-child > div._lo7gbl._yq1p7n:first-child > div > div.desktop.desktop-wide:last-child
+
 ! Mozilla
 forum.mozilla-*.org##[id="announce"]
 
 ! NextCloud
 @@||bes.to^$stealth
 ! Stealth breaks media player
+
+! NudePatch.net
+nudepatch.net##div:nth-child(41)
 
 ! Nudostar.com
 nudostar.com##div.advertising1:nth-child(*)
@@ -967,6 +976,9 @@ open.fm##.kr1hon2
 /outbrain/base?
 /outbrain?
 ||outbrainimg.com^$third-party
+
+! Patreon.com
+patreon.com##.sc-ckVGcZ.jGlPut
 
 ! PornHub
 pornhub.com##[id="pb_block"]
@@ -1190,6 +1202,12 @@ twitter.com#@#.ProfileCanopy-card, .u-cf.OpenInAppBar, div:not([aria-labelledby=
 
 ! U.GG
 u.gg###page-content > div:last-child > div.media-query.media-query_TABLET__DESKTOP_LARGE:first-child
+
+! Vinted
+vinted.*##.c-cell.c-cell--wide.c-cell--primary.c-cell--default
+
+! VK
+vk.com##.ads_ads_box*.ver.repeat_ver.size_site
 
 ! XHamster.com
 xhamster.com##.right-rectangle.wig-spot-container.list-items
