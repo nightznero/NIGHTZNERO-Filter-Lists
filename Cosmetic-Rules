@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1051
+! Entries: 1067
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.07
+! Updated: 2023.03.10
 !
 ! MIT License
 !
@@ -680,6 +680,10 @@ _spot_id=*&zone_id=$script,~third-party
 4pda.*##[target] [src*="s.4pda.to"][alt=""][title=""][border="0"]
 4pda.*##[valign="top"] > > :not(#logostrip)
 
+! Allegro.pl
+allegro.pl##div.main-wrapper:nth-child(4) > div:last-child > div.mgn2_14.mp0t_0a.mqu1_21.mgmw_wo.mli8_k4._sjlwg:first-child
+allegro.pl##div.main-wrapper:nth-child(3) > div:last-child
+
 ! Amazon
 ||amazon.*/action-impressions/
 ||amazon.*/ajax/counter?
@@ -731,12 +735,20 @@ camwhores.tv##div.container:nth-child(2) > div.content:nth-child(4) > div.block-
 !! APE
 ||ape-coin.gift^
 
+! CumOnPrintedPics.com
+cumonprintedpics.com###message > center:first-child
+cumonprintedpics.com###message > center:nth-child(4)
+
 ! CyberFile (filehosting service) [Bunkr]
 @@||cyberfile-*.b-cdn.net/themes^
 @@||cyberfiles-static.b-cdn.net/assets^
 @@||cyberfile.*/cache/plugins/mediaconverter^$stealth
 @@||cyberfile.*/account/ajax^$stealth
 @@||cyberfile.*/account/avatar^$stealth
+
+! DaniDaniels.com
+danidaniels.com##.strip-notification-wrapper.verification-sent
+danidaniels.com###gdpr-cookie-accept
 
 ! Dev-bsewamods
 @@||dev-bsewamods.epizy.com^$domain=dev-bsewamods.epizy.com
@@ -803,6 +815,10 @@ leagueoflegends.fandom.com##.wds-banner-notification.wds-message.notify
 leagueoflegends.fandom.com###\35 b2d1649b2-188-1
 leagueoflegends.fandom.com###\35 bbe13967e-188-1
 
+! Filmweb.pl
+filmweb.pl##.rodoBoard
+filmweb.pl##.boardsWrapper.rodo__overlay.IRI
+
 ! Gamecore
 gamcore.com##.add_game
 gamcore.com##.cc_banner-wrapper
@@ -817,6 +833,10 @@ genius.com##.optanon-alert-box-bg
 ! Google
 ||www.googletagmanager.com^
 ||www.google-analytics.com^
+
+! GOunlimited.to
+gounlimited.to###adbd
+gounlimited.to##.overdiv
 
 ! Igg-Games
 igg-games.com###evM
@@ -1076,6 +1096,10 @@ rule34.xxx###right-col > div.flexi:nth-child(2) > div.sidebarRight.verticalFlexW
 @@||cdn-e*.showup.tv^$domain=showup.tv
 ||showup.tv/sounds^$domain=showup.tv
 
+! SoundCloud
+soundcloud.com#@#.dropbar__content, .footer__appButtonContainer
+soundcloud.com##.announcement.g-dark.m-dismiss-visible
+
 ! SquareSpace
 ||assets.squarespace.com$badfilter
 ||static1.squarespace.com$badfilter
@@ -1123,6 +1147,10 @@ sympatia.onet.pl###line
 ||taboola.com^$third-party
 ||taboolasyndication.com^$third-party
 
+! Team Speak
+teamspeak.com###gdpr-cookie-message
+myteamspeak.com##.cc-window.cc-banner.cc-type-info.cc-theme-block.cc-bottom.cc-color-override-1754772916
+
 ! Teenager365.com
 teenager365.com##.video-archive-ad
 teenager365.com##.kc993a-body
@@ -1137,6 +1165,9 @@ teenager365.com##.k87c75-container.k87c75-2.k87c75-hide
 teenager365.com##.kdd1b8-container.kdd1b8-2.kdd1b8-hide
 teenager365.com##.k5121b-container.k5121b-2.k5121b-hide
 teenager365.com##.k9d4bd-container.k9d4bd-2.k9d4bd-hide
+
+! Tinder
+tinder.com##.Pos\(f\).Start\(0\).End\(0\).Z\(2\).Bxsh\(\$bxsh-4-way-spread\).B\(0\).Bgc\(\#fff\).C\(\$c-secondary\)
 
 ! TikTok
 tiktok.com###main > div.jsx-4200132659.cookie-banner:last-child
@@ -1156,6 +1187,9 @@ tiktok.com###main > div.jsx-4200132659.cookie-banner:last-child
 ||twitter.com/1.1/jot/client_event.json
 twitter.com##[style]>div>div>[data-testid=placementTracking]
 twitter.com#@#.ProfileCanopy-card, .u-cf.OpenInAppBar, div:not([aria-labelledby="modal-header"]) .r-18qmn74.r-1vsu8ta.r-1joea0r.r-1777fci.r-1pz39u2.r-obd0qt.css-1dbjc4n > div:not([aria-disabled="true"]), header div[style*="height: calc(53px);"]
+
+! U.GG
+u.gg###page-content > div:last-child > div.media-query.media-query_TABLET__DESKTOP_LARGE:first-child
 
 ! XHamster.com
 xhamster.com##.right-rectangle.wig-spot-container.list-items
