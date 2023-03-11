@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 486 (+15 local hosts)
+! Entries: 1 487 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -94,6 +94,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 api16-access-sg.pangle.io
 0.0.0.0 tnc16-alisg.isnssdk.com
 0.0.0.0 tnc16-alisg.byteoversea.com
+0.0.0.0 split.io^
 0.0.0.0 analytics.saint.to
 ! -Hotjar- !
 0.0.0.0 api-hotjar.com
