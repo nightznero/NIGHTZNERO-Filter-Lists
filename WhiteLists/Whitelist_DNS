@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 316
+! Entries: 317
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.10
+! Updated: 2023.03.11
 !
 ! MIT License
 !
@@ -182,6 +182,10 @@
 
 ! GitHub
 @@||t.en25.com^
+
+Gleam.io
+@@||gleam.io^
+! Blocked by GoodbyeAds
 
 ! Google
 @@||firebaseinstallations.googleapis.com^
