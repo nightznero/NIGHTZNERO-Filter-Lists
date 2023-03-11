@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 317
+! Entries: 320
 !
 ! Expires: 1 days
 !
@@ -151,6 +151,9 @@
 
 ! Epic Games
 @@||tracking.epicgames.com^
+
+! ESET Mobile Security
+@@||play.eset.com^
 
 ! Facebook [Meta]
 @@||graph.facebook.com^
@@ -422,11 +425,13 @@ Gleam.io
 ! Blocked by GoodbyeAds
 
 ! Spotify
+@@||audio4-fa.scdn.co^
 @@||dealer.spotify.com^
 @@||api-tv.spotify.com^
 @@||apresolve.spotify.com^
 @@||spclient.wg.spotify.com^
 @@||audio-ak-spotify-com.akamaized.net^
+@@||lite-images-i.scdn.co^
 
 ! Square Space
 @@||static1.squarespace.com^
