@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1073
+! Entries: 1080
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.10
+! Updated: 2023.03.13
 !
 ! MIT License
 !
@@ -669,6 +669,9 @@ _spot_id=*&zone_id=$script,~third-party
 ||papayads.net^$third-party
 ||revcontent.com^$third-party
 
+1SITERIP
+1siterip.com##div.all-wr:nth-child(2) > div.middle.clearfix:nth-child(2) > aside.middle-right:last-child
+
 ! 4PDA
 ||4pda.*/79tJPvZFILa8.*
 ||4pda.*/st/ztm?*
@@ -729,11 +732,18 @@ camwhores.tv##div.container:nth-child(2) > iframe:nth-child(3)
 camwhores.tv##div.container:nth-child(2) > div.content:nth-child(4) > iframe:nth-child(3)
 camwhores.tv##div.container:nth-child(2) > div.content:nth-child(4) > div.block-video:nth-child(2) > div.table:first-child
 
+! CHILLWAGON
+chillwagonthegame.com##.cb-wrapper
+chillwagonthegame.com##.cookie-bubble.bottom-left.show
+
 ! Crypto (Fake Crypto sites)
 !! BAT (Basic Attention Token)
 ||basicattentiontoken.claims^
 !! APE
 ||ape-coin.gift^
+
+cdti.pl
+ctdi.pl###bannerdown
 
 ! CumOnPrintedPics.com
 cumonprintedpics.com###message > center:first-child
@@ -829,6 +839,10 @@ gamcore.com##.cc_banner.cc_container.cc_container--open
 gamcore.com##.d-none.col-xl-2.col-lg-2.col-md-12.col-sm-12.col-xs-12.d-lg-block.rightAdd
 gamcore.com###thgir
 
+! Gamepedia
+!! The Binding of Isaac
+bindingofisaacrebirth.gamepedia.com###siderail_bindingofisaacre_gamepedia
+
 ! Genius
 genius.com##.optanon-alert-box-wrapper
 genius.com##.optanon-alert-box-bg
@@ -890,6 +904,9 @@ lodz.lento.pl##main:nth-child(*) > div.container-fluid.otherpage-container > div
 
 ! METAsrc.com
 metasrc.com###content > div._qngo9y:first-child > div._lo7gbl._yq1p7n:first-child > div > div.desktop.desktop-wide:last-child
+
+! MinuteInBox.com (temp mail)
+minuteinbox.com##.wpcc-container.wpcc-float.wpcc-transparency-15.wpcc-bottom.wpcc-left.wpcc-color-custom--*
 
 ! Mozilla
 forum.mozilla-*.org##[id="announce"]
@@ -979,6 +996,9 @@ open.fm##.kr1hon2
 
 ! Patreon.com
 patreon.com##.sc-ckVGcZ.jGlPut
+
+! PayPal
+paypal.com##.gdprCookieBanner_container.gdprCookieBanner_container-custom
 
 ! PornHub
 pornhub.com##[id="pb_block"]
