@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1088
+! Entries: 1093
 !
 ! Expires: 1 days
 !
@@ -56,6 +56,11 @@
 ||127.0.0.1^$third-party,domain=~localhost|~[::1]|~[::ffff:7f00:1]
 ||[::1]^$third-party,domain=~localhost|~127.0.0.1|~[::ffff:7f00:1]
 ||[::ffff:7f00:1]^$third-party,domain=~localhost|~127.0.0.1|~[::1]
+||tsyndicate.com^$third-party,important
+||exdynsrv.com^$third-party,important
+||realsrv.com^$third-party,important
+||exoclick.com^$third-party,important
+||adsessionserv.com^$third-party,important
 /afs/ads/*
 /gen_204?$image,other,ping,script
 ?adType=
