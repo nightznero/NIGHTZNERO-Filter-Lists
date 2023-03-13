@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1084
+! Entries: 1088
 !
 ! Expires: 1 days
 !
@@ -704,6 +704,9 @@ allegro.pl##div.main-wrapper:nth-child(3) > div:last-child
 ||msn.com/onecollector/
 ||bing.com/fd/ls/lsp.aspx
 
+! boonga.pl
+boonga.pl##.ec-fixed.ec-icon.ec-double-btn
+
 ! Brave
 ||rewards.brave.com^$badfilter
 ! Blocked by 1Hosts - Pro
@@ -908,8 +911,14 @@ lodz.lento.pl##main:nth-child(*) > div.container-fluid.otherpage-container > div
 ! METAsrc.com
 metasrc.com###content > div._qngo9y:first-child > div._lo7gbl._yq1p7n:first-child > div > div.desktop.desktop-wide:last-child
 
+! Minecraft.org.pl
+minecraft.org.pl##div[style="position: fixed; top: 0; left: 0; bottom: 0; right: 0;display: flex;justify-content: center;align-items:center;font-size:20px;background:rgba(0,0,0,.5)"]
+
 ! MinuteInBox.com (temp mail)
 minuteinbox.com##.wpcc-container.wpcc-float.wpcc-transparency-15.wpcc-bottom.wpcc-left.wpcc-color-custom--*
+
+! ModDB
+moddb.com##.cc_banner.cc_container.cc_container--open
 
 ! Mozilla
 forum.mozilla-*.org##[id="announce"]
@@ -1212,6 +1221,9 @@ tinder.com##.Pos\(f\).Start\(0\).End\(0\).Z\(2\).Bxsh\(\$bxsh-4-way-spread\).B\(
 
 ! TikTok
 tiktok.com###main > div.jsx-4200132659.cookie-banner:last-child
+
+! TubeOffline
+tubeoffline.com##div.divContent2.borderCurve.otherSites:nth-child(*)
 
 ! Twitter
 @@||api.twitter.com/1.1/jot/client_event.json$domain=twitter.com
