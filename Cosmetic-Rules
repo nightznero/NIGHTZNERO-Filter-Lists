@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1080
+! Entries: 1084
 !
 ! Expires: 1 days
 !
@@ -778,6 +778,9 @@ erodate.pl##header.header:nth-child(*) > div.header-promo:first-child > div.aler
 erodate.pl###content > div.homepage-right:last-child > div.promo-container.module-box:nth-child(*)
 erodate.pl##.homepage-right
 
+! erome
+erome.com##.free-space
+
 ! Facebook [Meta]
 @@||connect.facebook.net^$tag=fb-embeds
 @@||connect.facebook.com^$tag=fb-embeds
@@ -915,6 +918,9 @@ forum.mozilla-*.org##[id="announce"]
 @@||bes.to^$stealth
 ! Stealth breaks media player
 
+! Niebo Nie Jest Już Limitem [NNJL]
+nnjl.pl##.woocommerce-store-notice.demo_store
+
 ! NudePatch.net
 nudepatch.net##div:nth-child(41)
 
@@ -999,6 +1005,9 @@ patreon.com##.sc-ckVGcZ.jGlPut
 
 ! PayPal
 paypal.com##.gdprCookieBanner_container.gdprCookieBanner_container-custom
+
+! pornoeggs
+pornoeggs.com##.vast_clickthrough_layer.vast_clickthrough_layer_*
 
 ! PornHub
 pornhub.com##[id="pb_block"]
@@ -1228,6 +1237,9 @@ vinted.*##.c-cell.c-cell--wide.c-cell--primary.c-cell--default
 
 ! VK
 vk.com##.ads_ads_box*.ver.repeat_ver.size_site
+
+! WallpaperPlay
+wallpaperplay.com##.cc-window.cc-banner.cc-type-info.cc-theme-edgeless.cc-bottom.cc-color-override-*
 
 ! XHamster.com
 xhamster.com##.right-rectangle.wig-spot-container.list-items
