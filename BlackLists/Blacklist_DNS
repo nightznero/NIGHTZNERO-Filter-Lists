@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.11
+! Updated: 2023.03.14
 !
 ! MIT License
 !
@@ -525,8 +525,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 heads-fa.scdn.co
 
 ! Fvck off - Twitch.tv
-0.0.0.0 spade.twitch.tv
-0.0.0.0 spade.sci.twitch.tv
+! (For now disabled) 0.0.0.0 spade.twitch.tv
+! (For now disabled) 0.0.0.0 spade.sci.twitch.tv
 
 ! Fvck off - Facebook
 0.0.0.0 pixel.facebook.com
