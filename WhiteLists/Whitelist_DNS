@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 320
+! Entries: 321
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.11
+! Updated: 2023.03.14
 !
 ! MIT License
 !
@@ -341,10 +341,11 @@ Gleam.io
 ! Blocked by Energized.Pro - Spark
 
 ! Reddit 
-! (For now disabled) @@||accounts.reddit.com^
-! (For now disabled) @@||i.reddit.com^
-! (For now disabled) @@||redd.it^
-! (For now disabled) @@||cdn.embedly.com^
+@@||accounts.reddit.com^
+@@||i.reddit.com^
+@@||redd.it^
+@@||i.redd.it^
+@@||cdn.embedly.com^
 
 ! Samsung
 @@||pushmessage.samsung.com^
