@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.14
+! Updated: 2023.03.15
 !
 ! MIT License
 !
@@ -56,12 +56,12 @@
 ||127.0.0.1^$third-party,domain=~localhost|~[::1]|~[::ffff:7f00:1]
 ||[::1]^$third-party,domain=~localhost|~127.0.0.1|~[::ffff:7f00:1]
 ||[::ffff:7f00:1]^$third-party,domain=~localhost|~127.0.0.1|~[::1]
-||tsyndicate.com^$third-party,important
-||exdynsrv.com^$third-party,important
-||realsrv.com^$third-party,important
-||exoclick.com^$third-party,important
-||adsessionserv.com^$third-party,important
-||qrlsx.com^$third-party,important
+||tsyndicate.com^$third-party,popup,important
+||exdynsrv.com^$third-party,popup,important
+||realsrv.com^$third-party,popup,important
+||exoclick.com^$third-party,popup,important
+||adsessionserv.com^$third-party,popup,important
+||qrlsx.com^$third-party,popup,important
 /afs/ads/*
 /gen_204?$image,other,ping,script
 ?adType=
