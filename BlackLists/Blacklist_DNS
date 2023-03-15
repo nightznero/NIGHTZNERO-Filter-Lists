@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 487 (+15 local hosts)
+! Entries: 1 489 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.14
+! Updated: 2023.03.15
 !
 ! MIT License
 !
@@ -525,8 +525,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 heads-fa.scdn.co
 
 ! Fvck off - Twitch.tv
-! (For now disabled) 0.0.0.0 spade.twitch.tv
-! (For now disabled) 0.0.0.0 spade.sci.twitch.tv
+0.0.0.0 spade.twitch.tv
+0.0.0.0 edge.ads.twitch.tv
+0.0.0.0 countess.twitch.tv
+0.0.0.0 analytics.m7g.twitch.tv
 
 ! Fvck off - Facebook
 0.0.0.0 pixel.facebook.com
