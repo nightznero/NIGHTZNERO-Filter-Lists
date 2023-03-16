@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 487 (+15 local hosts)
+! Entries: 1 488 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -707,9 +707,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics.picsart.com
 
 ! Fvck off - WPS Office [KingSoft]
-0.0.0.0 d4z1onkegyrs5.cloudfront.net
 0.0.0.0 cloudservice14.kingsoft-office-service.com
+0.0.0.0 d4z1onkegyrs5.cloudfront.net
 0.0.0.0 api-ad-adapter.wps.com
+
+! Fvck off - WOT Mobile Security Protection
+0.0.0.0 analytics.api.mywot.com
 
 ! Fvck off - Puffin Browser [CloudMosa]
 0.0.0.0 collector.cloudmosa.net
