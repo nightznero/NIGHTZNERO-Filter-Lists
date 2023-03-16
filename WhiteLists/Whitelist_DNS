@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 329
+! Entries: 330
 !
 ! Expires: 1 days
 !
@@ -86,6 +86,7 @@
 ! Brave Browser
 @@||rewards.brave.com^
 ! Blocked by 1Hosts - Pro
+@@||sync-v2.brave.com^
 
 ! Brazzers AIO
 @@||site-api.project1service.com^
