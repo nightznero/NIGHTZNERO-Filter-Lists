@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 322
+! Entries: 324
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.15
+! Updated: 2023.03.16
 !
 ! MIT License
 !
@@ -276,6 +276,9 @@ Gleam.io
 ! OnePlus OTA updates
 @@||open.oneplus.net^
 
+! OpenAI
+@@||api.openai.com^
+
 ! Opera
 @@||api.recsys.opera.com^
 ! Blocked by 4PDA
@@ -412,10 +415,11 @@ Gleam.io
 @@||api.euro.hismarttv.com^
 
 ! Snapchat
-! (For now disabled) @@||gcp.api.snapchat.com^
-! (For now disabled) @@||bolt-gcdn.sc-cdn.net^
-! (For now disabled) @@||cf-st.sc-cdn.net^
-! (For now disabled) @@||app.snapchat.com^
+@@||aws.api.snapchat.com^
+@@||gcp.api.snapchat.com^
+@@||bolt-gcdn.sc-cdn.net^
+@@||cf-st.sc-cdn.net^
+@@||app.snapchat.com^
 
 ! SoundCloud
 @@||s.pwt.soundcloud.com^
