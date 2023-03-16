@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 325
+! Entries: 327
 !
 ! Expires: 1 days
 !
@@ -503,6 +503,12 @@ Gleam.io
 @@||v20.events.data.microsoft.com^
 @@||client-s.gateway.messenger.live.com^
 @@||arc.msn.com^
+
+! WPS Office
+! (For now disabled) @@||movip.wps.com^
+! Blocked by GoodByeAds
+! (For now disabled) @@||plugin-server.wps.com^
+! Blocked by 1Hosts - Pro
 
 ! Xbox [Microsoft]
 @@||xbox.ipv6.microsoft.com^
