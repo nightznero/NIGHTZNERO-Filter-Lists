@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 324
+! Entries: 325
 !
 ! Expires: 1 days
 !
@@ -275,6 +275,10 @@ Gleam.io
 
 ! OnePlus OTA updates
 @@||open.oneplus.net^
+
+! OpenSignal
+@@||api.onesignal.com^
+! Blocked by GoodByeAds n 1Hosts - Pro
 
 ! OpenAI
 @@||api.openai.com^
