@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1095
+! Entries: 1096
 !
 ! Expires: 1 days
 !
@@ -127,6 +127,7 @@ $document,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|asos.com|a
 ||vms-players.minutemediaservices.com^$script,third-party
 ||voqally.com/hub/app/
 ||vplayer.newseveryday.com^
+||entitlements.jwplayer.com^
 
 ! Anti AdBlock Enhanced+
 &crc=1|$xmlhttprequest,third-party
