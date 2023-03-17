@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 488 (+15 local hosts)
+! Entries: 1 490 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.16
+! Updated: 2023.03.17
 !
 ! MIT License
 !
@@ -196,6 +196,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 googlecm.hit.gemius.pl
 0.0.0.0 googlecommerce.com
 0.0.0.0 googleoptimize.com
+0.0.0.0 googlesyndication.com
 0.0.0.0 googletagservices.com
 0.0.0.0 google-analytics.com
 0.0.0.0 google-pagerank.net
@@ -230,6 +231,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 clouderrorreporting.googleapis.com
 0.0.0.0 crashlyticsreports-pa.googleapis.com
 0.0.0.0 firebaselogging.googleapis.com
+0.0.0.0 jnn-pa.googleapis.com
 
 ! Fvck off - Firefox
 0.0.0.0 crash-reports.mozilla.com
