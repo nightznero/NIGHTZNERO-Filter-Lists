@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 330
+! Entries: 331
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.16
+! Updated: 2023.03.18
 !
 ! MIT License
 !
@@ -436,6 +436,7 @@ Gleam.io
 
 ! Spotify
 @@||audio4-fa.scdn.co^
+@@||ap-gew4.spotify.com^
 @@||dealer.spotify.com^
 @@||api-tv.spotify.com^
 @@||apresolve.spotify.com^
