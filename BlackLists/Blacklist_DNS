@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 491 (+15 local hosts)
+! Entries: 1 493 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.17
+! Updated: 2023.03.18
 !
 ! MIT License
 !
@@ -704,7 +704,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 matomo.darken.eu
 
 ! Fvck off - Snaptube
-0.0.0.0 api.ad-snaptube.app
+0.0.0.0 sensors.snaptube.app
+0.0.0.0 misc.api.snaptube.app
+0.0.0.0 ad-snaptube.app
 
 ! Fvck off - PicsArt
 0.0.0.0 analytics.picsart.com
