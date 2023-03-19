@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 335
+! Entries: 340
 !
 ! Expires: 1 days
 !
@@ -196,6 +196,7 @@ Gleam.io
 @@||firebaseinstallations.googleapis.com^
 ! Blocked by various lists,and breaking apps cuz its creating unique id
 @@||firebaseremoteconfig.googleapis.com^
+@@||encrypted-tbn0.gstatic.com^
 @@||encrypted-tbn1.gstatic.com^
 @@||encrypted-tbn2.gstatic.com^
 @@||encrypted-tbn3.gstatic.com^
@@ -209,9 +210,13 @@ Gleam.io
 @@||feedproxy.google.com^
 @@||fonts.gstatic.com^
 @@||*.gmail.com^
-@@||clients4.google.com^
-@@||clients2.google.com^
 @@||android.clients.google.com^
+@@||clients1.google.com^
+@@||clients2.google.com^
+@@||clients3.google.com^
+@@||clients4.google.com^
+@@||clients5.google.com^
+@@||clients6.google.com^
 @@||googleapis.l.google.com^
 
 ! Google Drive
