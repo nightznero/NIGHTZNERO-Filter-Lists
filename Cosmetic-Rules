@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1096
+! Entries: 1095
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.17
+! Updated: 2023.03.20
 !
 ! MIT License
 !
@@ -36,7 +36,6 @@
 ##body:style(overflow: auto !important;)
 #@#adsContent
 ##.box-adv
-##.sponsored-post
 ##.cmp-footer_footer
 ##.cookie-alert.text-13-sm
 ##.cookie-policy-tip
