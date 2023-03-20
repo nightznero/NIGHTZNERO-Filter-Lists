@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 353
+! Entries: 354
 !
 ! Expires: 1 days
 !
@@ -205,6 +205,7 @@ Gleam.io
 @@||encrypted-tbn3.gstatic.com^
 ! Blocked by 4PDA Community hosts blacklist
 @@||geller-pa.googleapis.com^
+@@||jnn-pa.googleapis.com^
 ! Blocked by 1Hosts - Pro
 @@||connectivitycheck.gstatic.com^
 @@||mtalk.google.com^
