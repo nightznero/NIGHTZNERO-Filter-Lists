@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 494 (+15 local hosts)
+! Entries: 1 495 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -557,6 +557,9 @@ ff02::3 ip6-allhosts
 ! Fvck off - LinkedIn [Microsoft]
 0.0.0.0 ads.linkedin.com
 0.0.0.0 analytics.pointdrive.linkedin.com
+
+! Fvck off - Bitdefender
+0.0.0.0 bitdefender.sc.omtrdc.net
 
 ! Fvck off - Avast
 0.0.0.0 shepherd.ff.avast.com
