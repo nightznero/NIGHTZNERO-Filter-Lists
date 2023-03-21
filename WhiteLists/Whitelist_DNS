@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 354
+! Entries: 355
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.20
+! Updated: 2023.03.21
 !
 ! MIT License
 !
@@ -382,6 +382,7 @@ Gleam.io
 @@||capi.samsungcloud.com^
 ! Blocked by 1Hosts - Pro
 @@||account.samsung.com^
+@@||vas.samsungapps.com^
 
 ! Samsung Pay
 @@||api.usebutton.com^
