@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 356
+! Entries: 359
 !
 ! Expires: 1 days
 !
@@ -493,6 +493,11 @@ Gleam.io
 ! Twitch.tv
 @@||mp.twitch.tv^
 @@||spade.sci.twitch.tv^
+
+! Twitch extension's
+@@||cdn.betterttv.net^
+@@||cdn.7tv.app^
+@@||pronouns.alejo.io^
 
 ! TwitchMod / OrangeTV / PurpleTV
 @@||api.nopbreak.ru^
