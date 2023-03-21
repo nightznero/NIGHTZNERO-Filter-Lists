@@ -167,7 +167,7 @@
 @@||b-graph.facebook.com^
 ! Blocked by 1Hosts - Pro
 ! (For now disabled) @@||web.facebook.com^
-! Blocked by DuckDuckGo Tracker Radar
+! Blocked by DuckDuckGo Tracker Radar n NIGHTZNERO Blacklist
 
 ! Facebook Lite/Messenger Lite [Meta]
 @@||api.facebook.com^
@@ -260,8 +260,8 @@ Gleam.io
 
 ! Instagram [Meta]
 @@||i.instagram.com^
-! (For now disabled) @@||graph.instagram.com^
-! Blocked by GoodbyeAds
+@@||graph.instagram.com^
+! Blocked by 4PDA Community hosts blacklist
 @@||cdninstagram.com^
 @@||scontent.cdninstagram.com^
 @@||instagram.c10r.facebook.com^
