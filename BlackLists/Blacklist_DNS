@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 497 (+15 local hosts)
+! Entries: 1 498 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -770,6 +770,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 leaked-of.com
 0.0.0.0 vervesex.com
 0.0.0.0 xxxhub123.com
+0.0.0.0 xnlyfanx.com
 0.0.0.0 getleaks.me
 0.0.0.0 leakedonly.me
 0.0.0.0 of-leaked.co
