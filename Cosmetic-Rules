@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1096
+! Entries: 1097
 !
 ! Expires: 1 days
 !
@@ -1023,6 +1023,7 @@ paypal.com##.gdprCookieBanner_container.gdprCookieBanner_container-custom
 
 ! pCloud
 @@172.255.6.177$network
+@@172.255.6.177:443$network
 ! Blocked by Dandelion Sprout's Annoyances List
 
 ! pornoeggs
