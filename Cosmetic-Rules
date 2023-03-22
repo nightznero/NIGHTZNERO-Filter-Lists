@@ -1022,7 +1022,7 @@ patreon.com##.sc-ckVGcZ.jGlPut
 paypal.com##.gdprCookieBanner_container.gdprCookieBanner_container-custom
 
 ! pCloud
-172.255.6.*$network,badfilter
+@@172.255.6.177$network
 ! Blocked by Dandelion Sprout's Annoyances List
 
 ! pornoeggs
