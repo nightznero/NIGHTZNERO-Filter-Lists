@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 361
+! Entries: 362
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.21
+! Updated: 2023.03.23
 !
 ! MIT License
 !
@@ -495,6 +495,7 @@ Gleam.io
 @@||traffic.eks.megaphone.cloud^
 
 ! Twitch.tv
+@@||gql.twitch.tv^
 @@||mp.twitch.tv^
 @@||spade.sci.twitch.tv^
 
