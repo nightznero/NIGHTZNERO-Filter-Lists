@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 362
+! Entries: 365
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.23
+! Updated: 2023.03.24
 !
 ! MIT License
 !
@@ -81,6 +81,11 @@
 
 ! Bitdefender
 @@||nimbus.bitdefender.net^
+
+! Bitwarden
+@@||identity.bitwarden.com^
+@@||api.bitwarden.com^
+@@||api.pwnedpasswords.com^
 
 ! Blokada
 @@||go.blokada.org^
