@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 365
+! Entries: 370
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.24
+! Updated: 2023.03.30
 !
 ! MIT License
 !
@@ -505,8 +505,13 @@ Gleam.io
 @@||spade.sci.twitch.tv^
 
 ! Twitch extension's
+@@||api.betterttv.net^
 @@||cdn.betterttv.net^
+@@||api.frankerfacez.com^
+@@||cdn.frankerfacez.com^
+@@||api.7tv.app^
 @@||cdn.7tv.app^
+@@||7tv.io^
 @@||pronouns.alejo.io^
 
 ! TwitchMod / OrangeTV / PurpleTV
