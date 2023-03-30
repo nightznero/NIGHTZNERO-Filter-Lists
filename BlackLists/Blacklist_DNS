@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 504 (+15 local hosts)
+! Entries: 1 526 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.29
+! Updated: 2023.03.30
 !
 ! MIT License
 !
@@ -81,6 +81,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 survey.g.doubleclick.net
 0.0.0.0 www.googleads.g.doubleclick.net
+! -Adcolony- !
+0.0.0.0 ads30.adcolony.com
+0.0.0.0 adc3-launch.adcolony.com
+0.0.0.0 events3alt.adcolony.com
+0.0.0.0 wd.adcolony.com
 ! -Media.net- !
 0.0.0.0 static.media.net
 0.0.0.0 media.net
@@ -105,18 +110,32 @@ ff02::3 ip6-allhosts
 0.0.0.0 split.io^
 0.0.0.0 analytics.saint.to
 ! -Hotjar- !
+0.0.0.0 adm.hotjar.com
+0.0.0.0 identify.hotjar.com
+0.0.0.0 insights.hotjar.com
+0.0.0.0 script.hotjar.com
+0.0.0.0 surveys.hotjar.com
+0.0.0.0 careers.hotjar.com
+0.0.0.0 events.hotjar.io
 0.0.0.0 api-hotjar.com
 0.0.0.0 hotjar-analytics.com
 0.0.0.0 hotjar.com
 0.0.0.0 static.hotjar.com
 ! -MouseFlow- !
 0.0.0.0 mouseflow.com
+0.0.0.0 api.mouseflow.com
+0.0.0.0 tools.mouseflow.com
+0.0.0.0 cdn-test.mouseflow.com
 0.0.0.0 a.mouseflow.com
 ! -FreshMarketer- !
 0.0.0.0 freshmarketer.com
+0.0.0.0 claritybt.freshmarketer.com
+0.0.0.0 fwtracks.freshmarketer.com
 ! -Luckyorange- !
 0.0.0.0 luckyorange.com
 0.0.0.0 luckyorange.net
+0.0.0.0 api.luckyorange.com
+0.0.0.0 realtime.luckyorange.com
 0.0.0.0 cdn.luckyorange.com
 0.0.0.0 w1.luckyorange.com
 0.0.0.0 upload.luckyorange.net
@@ -183,12 +202,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 adservice.google.cat
 0.0.0.0 adservice.google.dj
 0.0.0.0 adservice.google.pl
+0.0.0.0 afs.googlesyndication.com
 0.0.0.0 analytics.google.com
 0.0.0.0 badad.googleplex.com
 0.0.0.0 blogergadgets.googlecode.com
 0.0.0.0 bloggergreetbox.googlecode.com
 0.0.0.0 buttons.googlesyndication.com
 0.0.0.0 cert-test.sandbox.google.com
+0.0.0.0 click.googleanalytics.com
 0.0.0.0 console.googletagservices.com
 0.0.0.0 contributor.google.com
 0.0.0.0 displayads-formats.googleusercontent.com
@@ -220,6 +241,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 partner.googleadservices.com
 0.0.0.0 safeframe.googlesyndication.com
 0.0.0.0 sb-ssl.google.com
+0.0.0.0 ssl.google-analytics.com
 0.0.0.0 ssl-google-analytics.l.google.com
 0.0.0.0 static-doubleclick-net.l.google.com
 0.0.0.0 tpc.googlesyndication.com
@@ -505,6 +527,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 fls-na.amazon.com
 0.0.0.0 adtago.s3.amazonaws.com
 0.0.0.0 analyticsengine.s3.amazonaws.com
+0.0.0.0 analytics.s3.amazonaws.com
 0.0.0.0 advice-ads.s3.amazonaws.com
 0.0.0.0 affiliationjs.s3.amazonaws.com
 0.0.0.0 advertising-api-eu.amazon.com
