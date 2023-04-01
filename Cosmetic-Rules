@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1110
+! Entries: 1086
 !
 ! Expires: 1 days
 !
@@ -1315,29 +1315,3 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(set, ytInitialPlayerRespon
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(set, playerResponse.adPlacements, undefined)
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse.adPlacements)
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse.playerAds)
-
-! Zbiornik.com (24)
-! For now disabled ||zbiornik.com^$badfilter
-! For now disabled @@||zbiornik.com/i18n.php$domain=zbiornik.com
-! For now disabled @@||zbiornik.com/css/zbiornik-welcome.css$domain=zbiornik.com
-! For now disabled @@||zbiornik.com/css/zbiornik-welcome-common.css$domain=zbiornik.com
-! For now disabled @@||zbiornik.com/css/zbiornik-welcome-small.css$domain=zbiornik.com
-! For now disabled @@||zbiornik.com/swingers.js$domain=zbiornik.com
-! For now disabled @@||zbiornik.com/imgs^$domain=zbiornik.com
-! For now disabled @@||vimg.zbiornik.com^$domain=zbiornik.com
-! For now disabled @@||img0*.zbiornik.com/*/images^$domain=zbiornik.com
-! For now disabled @@||v0*.zbiornik.com/*/videos^$domain=zbiornik.com
-! For now disabled @@||camshot.zbiornik.com^$domain=zbiornik.com
-! For now disabled @@||brajanek.zbiornik.com/ajax^$domain=zbiornik.com
-! For now disabled @@||denisek.zbiornik.com/ajax^$domain=zbiornik.com
-! For now disabled @@||dzesika.zbiornik.com/ajax^$domain=zbiornik.com
-! For now disabled @@||vaneska.zbiornik.com/ajax^$domain=zbiornik.com
-! For now disabled @@||zbiornik.com/js^$domain=zbiornik.com
-! For now disabled @@||wowzafut.zbiornik.com/socket.io^$domain=zbiornik.com
-! For now disabled @@||kamczatka.zbiornik.com/socket.io^$domain=zbiornik.com
-! For now disabled @@||talk.zbiornik.com/socket.io^$domain=zbiornik.com
-! For now disabled @@||av.zbiornik.com/av^$domain=zbiornik.com
-! For now disabled @@||zbiornik.com/zbiornik.css?6$domain=zbiornik.com
-! For now disabled @@||zbiornik.com/zbiornik.js?6$domain=zbiornik.com
-! For now disabled @@||zbiornik.com/tmp-ps^$domain=zbiornik.com
-! For now disabled @@||c*.zbiornik.com/AntMediaZbiornik^$domain=zbiornik.com
