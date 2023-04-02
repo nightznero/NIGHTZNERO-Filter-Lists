@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1086
+! Entries: 1093
 !
 ! Expires: 1 days
 !
-! Updated: 2023.04.01
+! Updated: 2023.04.02
 !
 ! MIT License
 !
@@ -1248,6 +1248,15 @@ tiktok.com###main > div.jsx-4200132659.cookie-banner:last-child
 
 ! TubeOffline
 tubeoffline.com##div.divContent2.borderCurve.otherSites:nth-child(*)
+
+! Twitch extension's
+@@||*.chatterino.com^
+@@||*.betterttv.net^
+@@||*.frankerfacez.com^
+@@||*.ffzap.com^
+@@||*.7tv.app^
+@@||*.7tv.io^
+@@||pronouns.alejo.io^
 
 ! Twitter
 @@||api.twitter.com/1.1/jot/client_event.json$domain=twitter.com
