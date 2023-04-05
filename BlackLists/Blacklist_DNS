@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 545 (+15 local hosts)
+! Entries: 1 552 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.03.30
+! Updated: 2023.04.05
 !
 ! MIT License
 !
@@ -143,6 +143,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 settings.luckyorange.net
 ! -Crashlytics- !
 0.0.0.0 e.crashlytics.com
+0.0.0.0 reports.crashlytics.com
 0.0.0.0 settings.crashlytics.com
 ! -WP Plugin- !
 0.0.0.0 stats.wp.com
@@ -150,7 +151,11 @@ ff02::3 ip6-allhosts
 ! Fvck off - Trackers
 0.0.0.0 data.flurry.com
 0.0.0.0 beacons5.gvt3.com
+! -appsflyer- !
 0.0.0.0 appsflyer.com
+0.0.0.0 events.appsflyer.com
+0.0.0.0 stats.appsflyer.com
+0.0.0.0 t.appsflyer.com
 ! -Branch.io- !
 0.0.0.0 branch.io
 0.0.0.0 api.branch.io
@@ -894,8 +899,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 xlog16-tmp-normal-useast1a.tiktokv.com
 
 ! Fvck off - Snapchat
+0.0.0.0 app-analytics.snapchat.com
 0.0.0.0 app-analytics-v2.snapchat.com
 0.0.0.0 internal-api.snapkit.com
+0.0.0.0 adserver.snapads.com
+0.0.0.0 sc-analytics.appspot.com
 
 ! Fvck off - Viber
 0.0.0.0 ads.viber.com
