@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 374
+! Entries: 376
 !
 ! Expires: 1 days
 !
-! Updated: 2023.04.02
+! Updated: 2023.04.05
 !
 ! MIT License
 !
@@ -177,6 +177,7 @@
 ! Facebook Lite/Messenger Lite [Meta]
 @@||api.facebook.com^
 @@||b-api.facebook.com^
+@@||edge-mqtt.facebook.com^
 @@||mqtt-mini.facebook.com^
 @@||snaptu-mini.facebook.com^
 @@||snaptu-mini.c10r.facebook.com^
@@ -454,6 +455,7 @@ Gleam.io
 ! Snapchat
 @@||aws.api.snapchat.com^
 @@||gcp.api.snapchat.com^
+@@||gcs.sc-cdn.net^
 @@||bolt-gcdn.sc-cdn.net^
 @@||cf-st.sc-cdn.net^
 @@||app.snapchat.com^
