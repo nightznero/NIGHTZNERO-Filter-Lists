@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 420
+! Entries: 424
 !
 ! Expires: 1 days
 !
-! Updated: 2023.04.06
+! Updated: 2023.04.07
 !
 ! MIT License
 !
@@ -101,6 +101,9 @@
 ! Apple Music
 @@||itunes.apple.com^
 @@||s.mzstatic.com^
+
+! Aurora Store
+@@||goolag.store
 
 ! Avast
 @@||bugs-bunny.sb.avast.com^
@@ -318,6 +321,9 @@ Gleam.io
 @@||scontent.cdninstagram.com^
 @@||instagram.c10r.facebook.com^
 
+! League of Legends [Riot Games]
+@@||tdm.prod01.row.cros.wr.pvp.net
+
 ! LeakedZone
 @@||p.jwpcdn.com^
 @@||prd.jwpltx.com^
@@ -446,6 +452,10 @@ Gleam.io
 @@||www.anrdoezrs.net^
 @@||cj.dotomi.com^
 @@||www.emjcd.com^
+
+! Shazam
+@@||kong-global.shz-amp-prod.shazamcloud.com
+@@||uth.shazam.com
 
 ! Shopify
 @@||s.shopify.com^
