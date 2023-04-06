@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 424
+! Entries: 425
 !
 ! Expires: 1 days
 !
@@ -253,6 +253,7 @@ Gleam.io
 ! Google
 @@||firebaseinstallations.googleapis.com^
 ! Blocked by various lists,and breaking apps cuz its creating unique id
+@@||android-safebrowsing.google.com^
 @@||firebaseremoteconfig.googleapis.com^
 @@||encrypted-tbn0.gstatic.com^
 @@||encrypted-tbn1.gstatic.com^
@@ -331,8 +332,8 @@ Gleam.io
 ! Blocked by 4PDA Community hosts blacklist
 
 ! LinkedIn [Microsoft]
-! (For now disabled) @@||licdn.com^
-! (For now disabled) @@||platform.linkedin.com^
+@@||licdn.com^
+@@||platform.linkedin.com^
 
 ! Malwarebytes
 @@||keystone.mwbsys.com^
