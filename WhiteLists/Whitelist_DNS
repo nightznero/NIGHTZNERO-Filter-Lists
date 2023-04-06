@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 381
+! Entries: 420
 !
 ! Expires: 1 days
 !
-! Updated: 2023.04.05
+! Updated: 2023.04.06
 !
 ! MIT License
 !
@@ -34,6 +34,47 @@
 
 ! Accuweather 
 @@||vortex.accuweather.com^
+
+! Alexa [Amazon]
+@@||a2z.com
+@@||avs-alexa-1-eu.amazon.com
+@@||avs-alexa-1-na.amazon.com
+@@||avs-alexa-2-eu.amazon.com
+@@||avs-alexa-2-na.amazon.com
+@@||avs-alexa-3-eu.amazon.com
+@@||avs-alexa-3-na.amazon.com
+@@||avs-alexa-4-eu.amazon.com
+@@||avs-alexa-4-na.amazon.com
+@@||avs-alexa-5-eu.amazon.com
+@@||avs-alexa-5-na.amazon.com
+@@||avs-alexa-6-eu.amazon.com
+@@||avs-alexa-6-na.amazon.com
+@@||avs-alexa-7-eu.amazon.com
+@@||avs-alexa-7-na.amazon.com
+@@||avs-alexa-8-eu.amazon.com
+@@||avs-alexa-8-na.amazon.com
+@@||avs-alexa-9-eu.amazon.com
+@@||avs-alexa-9-na.amazon.com
+@@||avs-alexa-10-eu.amazon.com
+@@||avs-alexa-10-na.amazon.com
+@@||avs-alexa-11-eu.amazon.com
+@@||avs-alexa-11-na.amazon.com
+@@||avs-alexa-12-eu.amazon.com
+@@||avs-alexa-12-na.amazon.com
+@@||avs-alexa-13-eu.amazon.com
+@@||avs-alexa-13-na.amazon.com
+@@||avs-alexa-14-eu.amazon.com
+@@||avs-alexa-14-na.amazon.com
+@@||avs-alexa-15-eu.amazon.com
+@@||avs-alexa-15-na.amazon.com
+@@||avs-alexa-16-eu.amazon.com
+@@||avs-alexa-16-na.amazon.com
+@@||avs-alexa-17-eu.amazon.com
+@@||avs-alexa-17-na.amazon.com
+@@||avs-alexa-18-eu.amazon.com
+@@||avs-alexa-18-na.amazon.com
+@@||avs-alexa-19-eu.amazon.com
+@@||avs-alexa-19-na.amazon.com
 
 ! Aliexpress
 @@||ae01.alicdn.com^
