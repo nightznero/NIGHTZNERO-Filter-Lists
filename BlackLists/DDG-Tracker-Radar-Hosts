@@ -11,11 +11,11 @@
 !
 ! Description: Based on DuckDuckGo Tracker Radar. Cleaned and disabled strings that breaks; Motorola,PornHub,Steam,Twitch,Xiaomi Home,Zalando.
 !
-! Entries: 5 424 (+15 local hosts)
+! Entries: 5 423 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.04.05
+! Updated: 2023.04.08
 !
 ! MIT License
 !
@@ -5105,7 +5105,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 norway-api.azurefd.net
 0.0.0.0 fra1-ib.adnxs.com
 0.0.0.0 vp441.infusionsoft.app
-0.0.0.0 web.facebook.com
 0.0.0.0 site-assets.cdnmns.com
 0.0.0.0 epson-by.accengage.net
 0.0.0.0 images.wagcdn.com
