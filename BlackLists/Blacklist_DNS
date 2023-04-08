@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 552 (+15 local hosts)
+! Entries: 1 551 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.04.05
+! Updated: 2023.04.08
 !
 ! MIT License
 !
@@ -580,7 +580,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics.m7g.twitch.tv
 
 ! Fvck off - Facebook
-0.0.0.0 web.facebook.com
 0.0.0.0 connect.facebook.net
 ! Monitoring if there is any issue with it
 0.0.0.0 pixel.facebook.com
