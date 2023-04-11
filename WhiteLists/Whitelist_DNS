@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 438
+! Entries: 440
 !
 ! Expires: 1 days
 !
@@ -255,10 +255,7 @@ Gleam.io
 ! Blocked by GoodbyeAds
 
 ! Google
-@@||firebaseinstallations.googleapis.com^
-! Blocked by various lists,and breaking apps cuz its creating unique id
 @@||android-safebrowsing.google.com^
-@@||firebaseremoteconfig.googleapis.com^
 @@||encrypted-tbn0.gstatic.com^
 @@||encrypted-tbn1.gstatic.com^
 @@||encrypted-tbn2.gstatic.com^
@@ -292,6 +289,15 @@ Gleam.io
 @@||clients5.google.com^
 @@||clients6.google.com^
 @@||googleapis.l.google.com^
+
+! Google APIs (Connected to Google)
+@@||firebaseinstallations.googleapis.com^
+! Blocked by various lists,and breaking apps cuz its creating unique id
+@@||firebaseremoteconfig.googleapis.com^
+! Blocked by 4PDA Community hosts blacklist
+@@||firebaseinappmessaging.googleapis.com^
+@@||firebasedynamiclinks.googleapis.com^
+! Blocked by 1Hosts - Pro
 
 ! Google Drive
 @@||www.googleapis.com^
