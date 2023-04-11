@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 551 (+15 local hosts)
+! Entries: 1 550 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.04.08
+! Updated: 2023.04.11
 !
 ! MIT License
 !
@@ -258,7 +258,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.googleoptimize.com
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 www.googletagservices.com
-0.0.0.0 androidtvwatsonfe-pa.googleapis.com
 0.0.0.0 app-measurement.com
 0.0.0.0 chart.googleapis.com
 0.0.0.0 clouderrorreporting.googleapis.com
