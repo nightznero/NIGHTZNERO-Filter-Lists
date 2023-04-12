@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 441
+! Entries: 443
 !
 ! Expires: 1 days
 !
-! Updated: 2023.04.11
+! Updated: 2023.04.12
 !
 ! MIT License
 !
@@ -77,8 +77,11 @@
 @@||avs-alexa-19-na.amazon.com
 
 ! Aliexpress
+@@||assets.alicdn.com^
 @@||ae01.alicdn.com^
+@@||ae04.alicdn.com^
 @@||my.aliexpress.com^
+! Blocked by GoodbyeAds
 
 ! Amazon
 @@||mobileanalytics.us-east-1.amazonaws.com^
