@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1095
+! Entries: 1091
 !
 ! Expires: 1 days
 !
-! Updated: 2023.04.06
+! Updated: 2023.04.12
 !
 ! MIT License
 !
@@ -55,12 +55,6 @@
 ||127.0.0.1^$third-party,domain=~localhost|~[::1]|~[::ffff:7f00:1]
 ||[::1]^$third-party,domain=~localhost|~127.0.0.1|~[::ffff:7f00:1]
 ||[::ffff:7f00:1]^$third-party,domain=~localhost|~127.0.0.1|~[::1]
-||tsyndicate.com^$third-party,popup,important
-||exdynsrv.com^$third-party,popup,important
-||realsrv.com^$third-party,popup,important
-||exoclick.com^$third-party,popup,important
-||adsessionserv.com^$third-party,popup,important
-||qrlsx.com^$third-party,popup,important
 /afs/ads/*
 /gen_204?$image,other,ping,script
 ?adType=
@@ -666,6 +660,8 @@ _spot_id=*&zone_id=$script,~third-party
 ||*.realsrv.com^$third-party,popup,important
 ||tsyndicate.com^$third-party,popup,important
 ||*.exoclick.com^$third-party,popup,important
+||adsessionserv.com^$third-party,popup,important
+||qrlsx.com^$third-party,popup,important
 ||akunamapro.com^$third-party,popup,important
 ||gerhi-psv.com^$third-party,popup,important
 ||deliveranceads.com^$third-party,popup,important
