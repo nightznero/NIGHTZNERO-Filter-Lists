@@ -278,11 +278,6 @@ Gleam.io
 @@||playmoviesdfe-pa.googleapis.com^
 @@||semanticlocation-pa.googleapis.com^
 ! Blocked by 1Hosts - Pro
-@@||connectivitycheck.gstatic.com^
-@@||mtalk.google.com^
-@@||*mtalk.google.com^
-@@||feeds.feedburner.com^
-@@||feedproxy.google.com^
 @@||fonts.gstatic.com^
 @@||android.clients.google.com^
 @@||clients1.google.com^
@@ -311,7 +306,6 @@ Gleam.io
 @@||www.forms.gle^
 
 ! Google Gmail
-@@||*.gmail.com^
 @@||ogs.google.com^
 @@||ci1.googleusercontent.com
 @@||ci2.googleusercontent.com
@@ -702,19 +696,11 @@ Gleam.io
 @@||digitalassetlinks.googleapis.com^
 
 ! YouTube [Google] ! Blocked by various lists
-@@||youtu.be^
 @@||s.youtube.com^
-@@||i.ytimg.com^
 @@||youtubei.googleapis.com^
 ! (For now disabled) @@||video-stats.l.google.com^
 ! (For now disabled) @@||play.googleapis.com^
 @@||redirector.googlevideo.com^
-@@||www.youtube.com^
-@@||m.youtube.com^
-@@||img.youtube.com^
-! (For now disabled) @@||*.googlevideo.com^
-@@||*.ytimg.com^
-@@||consent.youtube.com^
 
 ! Zbiornik
 @@||zbiornik.com^
@@ -723,3 +709,46 @@ Gleam.io
 ! Żappka [Żabka]
 @@||snrcdn.net^
 ! Blocked by Energized.Pro - Basic
+
+! ------------------------- !! -------------------------!
+!                  DeCloudUs Whitelist                  !
+!                   (Zulu DNS version)                  !
+! ------------------------- !! -------------------------!
+
+! Android
+! -------------------------
+@@||connectivitycheck.gstatic.com^
+! -------------------------
+
+! Google
+! -------------------------
+@@||www.google.com^
+! -------------------------
+
+! YouTube
+! -------------------------
+@@||www.youtube.com^
+@@||m.youtube.com^
+@@||img.youtube.com^
+@@||*.googlevideo.com^
+@@||*.ytimg.com^
+@@||youtu.be^
+@@||consent.youtube.com^
+! -------------------------
+
+! Gmail
+! -------------------------
+@@||*.gmail.com^
+! -------------------------
+
+! Mobile Apps
+! -------------------------
+@@||mtalk.google.com^
+@@||*mtalk.google.com^
+! -------------------------
+
+! RSS Feeds
+! -------------------------
+@@||feeds.feedburner.com^
+@@||feedproxy.google.com^
+! -------------------------
