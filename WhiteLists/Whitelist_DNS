@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2023.04.13
+! Updated: 2023.04.14
 !
 ! MIT License
 !
@@ -560,14 +560,14 @@ Gleam.io
 @@||static1.squarespace.com^
 ! Blocked by DuckDuckGo Tracker Radar
 
-! TeaTV
-@@||image.tmdb.org^
-! Blocked by Energized.Pro - Basic
-
 ! The Daily Beast
 @@||thedailybeast.com^
 ! Don't unbreak their metrics though
 ||metrics.thedailybeast.com^
+
+! The Movie DataBase (TMDB)
+@@||image.tmdb.org^
+! Blocked by Energized.Pro - Basic
 
 ! Trakt.tv
 @@||api.trakt.tv^
