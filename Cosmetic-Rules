@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1103
+! Entries: 1090
 !
 ! Expires: 1 days
 !
-! Updated: 2023.04.12
+! Updated: 2023.04.13
 !
 ! MIT License
 !
@@ -633,21 +633,6 @@ _spot_id=*&zone_id=$script,~third-party
 ||sp.ydr.com^
 ||sp.yorkdispatch.com^
 ||sp.zanesvilletimesrecorder.com^
-
-! DeCloudUs Whitelist (Zulu DNS version)
-@@||connectivitycheck.gstatic.com^
-@@||www.youtube.com^
-@@||m.youtube.com^
-@@||img.youtube.com^
-@@||*.googlevideo.com^
-@@||*.ytimg.com^
-@@||youtu.be^
-@@||consent.youtube.com^
-@@||*.gmail.com^
-@@||mtalk.google.com^
-@@||*mtalk.google.com^
-@@||feeds.feedburner.com^
-@@||feedproxy.google.com^
 
 ! Browsers SM (WhiteList)
 @@$css
