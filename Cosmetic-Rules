@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1090
+! Entries: 1091
 !
 ! Expires: 1 days
 !
-! Updated: 2023.04.13
+! Updated: 2023.04.16
 !
 ! MIT License
 !
@@ -963,6 +963,10 @@ open.fm##.kr1hon2
 
 ! OpenAI
 @@||*.openai.com^$stealth
+
+! OpenSubtitles.org
+@@||dl.opensubtitles.org^
+! Blocked by AdGuard Home List (Dandelion Sprout)
 
 ! Outbrain Elements
 ###around-the-web
