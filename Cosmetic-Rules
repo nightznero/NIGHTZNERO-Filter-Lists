@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2023.04.16
+! Updated: 2023.04.18
 !
 ! MIT License
 !
@@ -965,7 +965,7 @@ open.fm##.kr1hon2
 @@||*.openai.com^$stealth
 
 ! OpenSubtitles.org
-@@||dl.opensubtitles.org^
+@@||opensubtitles.org^
 ! Blocked by AdGuard Home List (Dandelion Sprout)
 
 ! Outbrain Elements
