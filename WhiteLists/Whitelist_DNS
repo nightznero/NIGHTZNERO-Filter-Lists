@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 443
+! Entries: 444
 !
 ! Expires: 1 days
 !
-! Updated: 2023.04.14
+! Updated: 2023.04.18
 !
 ! MIT License
 !
@@ -277,6 +277,7 @@ Gleam.io
 @@||optimizationguide-pa.googleapis.com^
 @@||playmoviesdfe-pa.googleapis.com^
 @@||semanticlocation-pa.googleapis.com^
+@@||userlocation.googleapis.com^
 ! Blocked by 1Hosts - Pro
 @@||fonts.gstatic.com^
 @@||android.clients.google.com^
