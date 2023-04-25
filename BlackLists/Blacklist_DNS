@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 550 (+15 local hosts)
+! Entries: 1 551 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.04.11
+! Updated: 2023.04.25
 !
 ! MIT License
 !
@@ -927,6 +927,9 @@ ff02::3 ip6-allhosts
 
 ! Fvck off - DuckDuckGo
 0.0.0.0 improving.duckduckgo.com
+
+! Fvck off - Aloha Browser
+0.0.0.0 aloha.telemetry.eyeo.com
 
 ! Fvck off - SD Maid
 0.0.0.0 matomo.darken.eu
