@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 556 (+15 local hosts)
+! Entries: 1 562 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -612,9 +612,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics-prod-gcp.ff.avast.com
 0.0.0.0 analytics.ff.avast.sec.miui.com
 0.0.0.0 mobile-campaigns.avast.com
+0.0.0.0 analytics.ff.avast.com
+0.0.0.0 au.ff.avast.com
+0.0.0.0 uib.ff.avast.com
+0.0.0.0 streamback.ff.avast.com
+0.0.0.0 hist.stats.avast.com
+0.0.0.0 v7event.stats.avast.com
+0.0.0.0 v7.stats.avast.com
 0.0.0.0 shepherd.ff.avast.com
 0.0.0.0 vanheim.ff.avast.com
-0.0.0.0 analytics.ff.avast.com
 
 ! Fvck off - CCleaner [Avast]
 0.0.0.0 shepherd.ff.avast.com.piriform.com
