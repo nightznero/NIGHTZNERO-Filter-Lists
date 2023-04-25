@@ -620,7 +620,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v7event.stats.avast.com
 0.0.0.0 v7.stats.avast.com
 0.0.0.0 shepherd.ff.avast.com
-0.0.0.0 vanheim.ff.avast.com
+0.0.0.0 avast.telemetry.eyeo.com
 
 ! Fvck off - CCleaner [Avast]
 0.0.0.0 shepherd.ff.avast.com.piriform.com
