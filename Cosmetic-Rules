@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1092
+! Entries: 1091
 !
 ! Expires: 1 days
 !
-! Updated: 2023.04.28
+! Updated: 2023.04.29
 !
 ! MIT License
 !
@@ -760,11 +760,10 @@ cumonprintedpics.com###message > center:nth-child(4)
 cyberdrop.me###adwl-footer
 
 ! CyberFile (file hosting service) [Bunkr]
-@@||cyberfile-*.b-cdn.net/themes^
-@@||cyberfiles-static.b-cdn.net/assets^
-@@||cyberfile.*/cache/plugins/mediaconverter^$stealth
-@@||cyberfile.*/account/ajax^$stealth
-@@||cyberfile.*/account/avatar^$stealth
+@@||cache.cyberfile.*^$domain=cyberfile.*
+@@||cyberfile.*/cache^$domain=cyberfile.*
+@@||cyberfile.*/account^$domain=cyberfile.*
+@@||cyberfile-*.b-cdn.net^$domain=cyberfile.*
 
 ! DaniDaniels.com
 danidaniels.com##.strip-notification-wrapper.verification-sent
