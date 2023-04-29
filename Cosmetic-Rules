@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1094
+! Entries: 1096
 !
 ! Expires: 1 days
 !
@@ -1081,6 +1081,8 @@ pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 579018344545
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 580001936703
 
 ! PornReactor.cc
+||pornreactor.cc^$badfilter
+! Blocked by AdGuard Home List (Dandelion Sprout)
 @@||js.pornreactor.cc^$domain=pornreactor.cc
 @@||img*.pornreactor.cc^
 
@@ -1089,6 +1091,8 @@ pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 580001936703
 @@||www.pyszne.pl^$stealth
 
 ! Reactor.cc
+||reactor.cc^$badfilter
+! Blocked by 1Hosts - Pro
 @@||js.reactor.cc^$domain=reactor.cc
 @@||img*.reactor.cc^
 reactor.cc##.w86ce344b.nfccaa22.t93438070.u2f85114e.tfc4e54fa
