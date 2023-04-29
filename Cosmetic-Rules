@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1091
+! Entries: 1094
 !
 ! Expires: 1 days
 !
@@ -860,6 +860,10 @@ genius.com##.optanon-alert-box-bg
 @@||widget.gleamjs.io^
 ! Blocked by Fanboy Ultimate List
 
+! GoFile.io
+@@||file*.gofile.io/download^
+@@||store*.gofile.io/download^
+
 ! Google
 ||www.googletagmanager.com^
 ||www.google-analytics.com^
@@ -1264,6 +1268,7 @@ tubeoffline.com##div.divContent2.borderCurve.otherSites:nth-child(*)
 
 ! Twitter
 @@||api.twitter.com/1.1/jot/client_event.json$domain=twitter.com
+@@||api.twitter.com/1.1/live_pipeline/update_subscriptions$domain=twitter.com
 @@||api.twitter.com^$tag=twitter-embeds
 @@||platform.twitter.com^$tag=twitter-embeds
 @@||pbs.twimg.com/media/$image,third-party
