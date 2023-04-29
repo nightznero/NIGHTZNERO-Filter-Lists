@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 453
+! Entries: 455
 !
 ! Expires: 1 days
 !
@@ -270,6 +270,11 @@
 Gleam.io
 @@||gleam.io^
 ! Blocked by GoodbyeAds
+
+! GoFile.io
+@@||file*.gofile.io^
+@@||store*.gofile.io^
+! Occasionally blocked by lists (ex. HaGeZi,1Hosts)
 
 ! Google
 @@||region1.app-measurement.com^
