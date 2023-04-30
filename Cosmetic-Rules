@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1099
+! Entries: 1100
 !
 ! Expires: 1 days
 !
@@ -1164,6 +1164,11 @@ rule34.xxx###right-col > div.flexi:nth-child(2) > div.sidebarRight.verticalFlexW
 
 ! Saint.to [SimpCity Video Service Hostage]
 @@||simp*.saint.to/videos^$domain=saint.to|simp*.saint.to
+
+! Samsung
+!! Samsung Live Chat
+@@||prod-live-chat.sprinklr.com^
+! Blocked by 1Hosts - Pro
 
 ! Showup.tv
 ||showup.tv^$badfilter
