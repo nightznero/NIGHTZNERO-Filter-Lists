@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 458
+! Entries: 462
 !
 ! Expires: 1 days
 !
@@ -378,6 +378,10 @@ Gleam.io
 ! Malwarebytes
 @@||keystone.mwbsys.com^
 
+! Microsoft Rewards
+@@||prod.rewardsplatform.microsoft.com^
+! Blocked by 1Hosts - Pro
+
 ! Netflix
 @@||nflximg.com^
 @@||nflxvideo.net^
@@ -586,6 +590,10 @@ Gleam.io
 ! SwiftKey Keyboard [Microsoft]
 @@||jenson.api.swiftkey.com^
 @@||bibo.api.swiftkey.com^
+@@||tigger-citadel.touchtype-fluency.com^
+! Blocked by 1Hosts - Pro
+@@||swiftkey-sync-production.touchtype-fluency.com^
+@@||tokens-auth.touchtype-fluency.com^
 
 ! The Daily Beast
 @@||thedailybeast.com^
