@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1096
+! Entries: 1098
 !
 ! Expires: 1 days
 !
-! Updated: 2023.04.29
+! Updated: 2023.04.30
 !
 ! MIT License
 !
@@ -921,6 +921,11 @@ lodz.lento.pl##main:nth-child(*) > div.container-fluid.otherpage-container > div
 
 ! METAsrc.com
 metasrc.com###content > div._qngo9y:first-child > div._lo7gbl._yq1p7n:first-child > div > div.desktop.desktop-wide:last-child
+
+! Microsoft
+! Support Chat
+@@||ravewidgetprd-communication-services.communication.azure.com/chat^$domain=widget.rave.office.net
+@@||widget.rave.office.net/api/requests^$domain=widget.rave.office.net
 
 ! Minecraft.org.pl
 minecraft.org.pl##div[style="position: fixed; top: 0; left: 0; bottom: 0; right: 0;display: flex;justify-content: center;align-items:center;font-size:20px;background:rgba(0,0,0,.5)"]
