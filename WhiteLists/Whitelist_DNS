@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 463
+! Entries: 464
 !
 ! Expires: 1 days
 !
@@ -489,6 +489,7 @@ Gleam.io
 @@||capi.samsungcloud.com^
 @@||prod-live-chat.sprinklr.com^
 @@||live-chat-static.sprinklr.com^
+@@||prod-samsung-live-chat.sprinklr.com^
 ! Blocked by 1Hosts - Pro
 @@||account.samsung.com^
 @@||vas.samsungapps.com^
