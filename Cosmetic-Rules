@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1101
+! Entries: 1102
 !
 ! Expires: 1 days
 !
@@ -1169,6 +1169,7 @@ rule34.xxx###right-col > div.flexi:nth-child(2) > div.sidebarRight.verticalFlexW
 !! Samsung Live Chat
 @@||prod-live-chat.sprinklr.com^
 @@||live-chat-static.sprinklr.com^
+@@||prod-samsung-live-chat.sprinklr.com^
 ! Blocked by 1Hosts - Pro
 
 ! Showup.tv
