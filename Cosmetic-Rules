@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1103
+! Entries: 1105
 !
 ! Expires: 1 days
 !
-! Updated: 2023.05.01
+! Updated: 2023.05.02
 !
 ! MIT License
 !
@@ -48,6 +48,7 @@
 
 ! Default
 @@/favicon.ico|
+://ww16.
 ||0.0.0.0^$third-party,domain=~[::]|~[::ffff:0:0]
 ||[::]^$third-party,domain=~0.0.0.0|~[::ffff:0:0]
 ||[::ffff:0:0]^$third-party,domain=~0.0.0.0|~[::]
@@ -1170,7 +1171,8 @@ rule34.xxx###right-col > div.flexi:nth-child(2) > div.sidebarRight.verticalFlexW
 @@||prod-live-chat.sprinklr.com^
 @@||live-chat-static.sprinklr.com^
 @@||prod-samsung-live-chat.sprinklr.com^
-@@||prod-lc-mqtt-nike.sprinklr.com^$domain=samsung.com
+@@||prod-lc-mqtt-nike.sprinklr.com^
+@@||spx-components.cdn.sprinklr.com^
 ! Blocked by 1Hosts - Pro
 
 ! Showup.tv
