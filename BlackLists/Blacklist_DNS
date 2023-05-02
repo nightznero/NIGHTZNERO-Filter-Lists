@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2023.04.30
+! Updated: 2023.05.03
 !
 ! MIT License
 !
@@ -252,12 +252,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 video-ad-stats.googlesyndication.com
 0.0.0.0 www.doubleclickbygoogle.com
-! (For now disabled) 0.0.0.0 www.google-analytics.com
-! (For now disabled) 0.0.0.0 www.googleadservices.com
-! (For now disabled) 0.0.0.0 www.googlecommerce.com
-! (For now disabled) 0.0.0.0 www.googleoptimize.com
-! (For now disabled) 0.0.0.0 www.googletagmanager.com
-! (For now disabled) 0.0.0.0 www.googletagservices.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 www.googleadservices.com
+0.0.0.0 www.googlecommerce.com
+0.0.0.0 www.googleoptimize.com
+0.0.0.0 www.googletagmanager.com
+0.0.0.0 www.googletagservices.com
 0.0.0.0 app-measurement.com
 0.0.0.0 chart.googleapis.com
 0.0.0.0 clouderrorreporting.googleapis.com
