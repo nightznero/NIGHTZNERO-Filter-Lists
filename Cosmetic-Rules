@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2023.05.02
+! Updated: 2023.05.03
 !
 ! MIT License
 !
@@ -1177,7 +1177,7 @@ rule34.xxx###right-col > div.flexi:nth-child(2) > div.sidebarRight.verticalFlexW
 
 ! Showup.tv
 ||showup.tv^$badfilter
-@@||showup.tv^$domain=showup.tv,stealth
+@@||showup.tv^$stealth
 @@||showup.tv/styles^$domain=showup.tv
 @@||showup.tv/scripts^$domain=showup.tv
 @@||showup.tv/images^$domain=showup.tv
