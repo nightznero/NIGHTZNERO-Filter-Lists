@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 466
+! Entries: 467
 !
 ! Expires: 1 days
 !
-! Updated: 2023.05.02
+! Updated: 2023.05.03
 !
 ! MIT License
 !
@@ -165,6 +165,9 @@
 ! Camwhores
 @@||cdn.tapioni.com^
 ! Blocked by 1Hosts - Pro
+
+! Canary Mail
+@@||backend.canarymail.io^
 
 ! Canon
 @@||gdlp01.c-wss.com^
