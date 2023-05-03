@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1105
+! Entries: 1106
 !
 ! Expires: 1 days
 !
@@ -956,6 +956,9 @@ nudostar.com##div.advertising1:nth-child(*)
 nudostar.com###top > div.p-body:nth-child(5) > div.p-body-inner > ul.notices.notices--block.js-notices:first-child
 nudostar.com###top > div.p-body:nth-child(5) > div.p-body-inner > ul.notices.notices--block.notices--isMulti.js-notices:first-child > li.notice.js-notice.notice--primary:last-child
 nudostar.com###top > div.p-body:nth-child(5) > div.p-body-inner > div.p-body-main:nth-child(5) > div.p-body-content > div.samCodeUnit.samAlignCenter:last-child
+
+! Oglaszamy24.pl
+||oglaszamy24.pl/js-css/exnb/exnbb.php^$domain=oglaszamy24.pl
 
 ! OnlyFans
 onlyfans.com##.b-feed__aside.b-recommended
