@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 519 (+15 local hosts)
+! Entries: 1 521 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.05.04
+! Updated: 2023.05.05
 !
 ! MIT License
 !
@@ -264,8 +264,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 crashlyticsreports-pa.googleapis.com
 0.0.0.0 firebaselogging.googleapis.com
 
-! Fvck off - Firefox
+! Fvck off - Mozilla
+0.0.0.0 download-stats.mozilla.org
 0.0.0.0 crash-reports.mozilla.com
+0.0.0.0 telemetry.mozilla.org
 0.0.0.0 incoming.telemetry.mozilla.org
 
 ! Fvck off - Yahoo
