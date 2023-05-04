@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 467
+! Entries: 470
 !
 ! Expires: 1 days
 !
-! Updated: 2023.05.03
+! Updated: 2023.05.05
 !
 ! MIT License
 !
@@ -257,6 +257,12 @@
 @@||rupload.facebook.com^
 
 ! Firefox [Mozilla]
+@@||snippets.mozilla.com^
+! Blocked by 1Hosts - Lite
+@@||data.mozilla.com^
+! Blocked by 1Hosts - Pro
+@@||firefox.settings.services.mozilla.com^
+! Blocked by 4PDA Community hosts blacklist
 @@||addons.mozilla.org^
 @@||detectportal.firefox.com^
 @@||shavar.services.mozilla.com^
