@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 564 (+15 local hosts)
+! Entries: 1 519 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.05.03
+! Updated: 2023.05.04
 !
 ! MIT License
 !
@@ -637,21 +637,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 events.redditmedia.com
 0.0.0.0 redditad.com
 
-! Fvck off - TikTok (263 HaGeZi + 5 NIGHTZNERO)
+! Fvck off - TikTok (223 HaGeZi+NIGHTZNERO)
 0.0.0.0 cdnlog-va-useast2a.byteoversea.com
-0.0.0.0 frontier.byteoversea.com
-0.0.0.0 frontier-sg-edu-edgeac.byteoversea.com
-0.0.0.0 frontier-va.byteoversea.com
-0.0.0.0 gecko-pangle-sg.byteoversea.com
-0.0.0.0 gecko-sg.byteoversea.com
-0.0.0.0 gecko-va.byteoversea.com
+0.0.0.0 gmcssg-sandbox.byteoversea.com
 0.0.0.0 gplog-sg.byteoversea.com
 0.0.0.0 gplog-va.byteoversea.com
+0.0.0.0 gplog-va-useast2a.byteoversea.com
 0.0.0.0 gpm-mon-sg.byteoversea.com
 0.0.0.0 gpm-mon-va.byteoversea.com
 0.0.0.0 gpm-mon-va-useast1a.byteoversea.com
 0.0.0.0 gpm-mon-va-useast2a.byteoversea.com
-0.0.0.0 lark-frontier.byteoversea.com
 0.0.0.0 log.byteoversea.com
 0.0.0.0 log15.byteoversea.com
 0.0.0.0 log16.byteoversea.com
@@ -664,28 +659,25 @@ ff02::3 ip6-allhosts
 0.0.0.0 mssdk-sg.byteoversea.com
 0.0.0.0 mssdk-sg-bu.byteoversea.com
 0.0.0.0 mssdk-va.byteoversea.com
+0.0.0.0 mssdk-va-useast2a.byteoversea.com
 0.0.0.0 pc-mon-va.byteoversea.com
+0.0.0.0 rtlog.byteoversea.com
 0.0.0.0 sgali-mcs.byteoversea.com
+0.0.0.0 sgaws-mcs.byteoversea.com
 0.0.0.0 sgee-log.byteoversea.com
 0.0.0.0 sgee-mcs.byteoversea.com
 0.0.0.0 vaali-mcs.byteoversea.com
 0.0.0.0 vaali-mcs-useast1a.byteoversea.com
 0.0.0.0 vaali-mcs-useast2a.byteoversea.com
+0.0.0.0 web-mon-useast2a.byteoversea.com
 0.0.0.0 xlog.byteoversea.com
+0.0.0.0 xlog-o.byteoversea.com
 0.0.0.0 xlog-va.byteoversea.com
 0.0.0.0 xlog-va-useast2a.byteoversea.com
 0.0.0.0 sf16-muse-va.ibytedtos.com
 0.0.0.0 analytics.snssdk.com
 0.0.0.0 applog.snssdk.com
 0.0.0.0 extlog.snssdk.com
-0.0.0.0 frontier.snssdk.com
-0.0.0.0 frontier-aweme.snssdk.com
-0.0.0.0 frontier-aweme-hl.snssdk.com
-0.0.0.0 frontier-toutiao.snssdk.com
-0.0.0.0 gecko.snssdk.com
-0.0.0.0 gecko-pangle-hl.snssdk.com
-0.0.0.0 gecko-pangle-lf.snssdk.com
-0.0.0.0 gecko-pangle-lq.snssdk.com
 0.0.0.0 log.snssdk.com
 0.0.0.0 log-hl.snssdk.com
 0.0.0.0 log-lf.snssdk.com
@@ -696,22 +688,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 mssdk-bu.snssdk.com
 0.0.0.0 os-mon.snssdk.com
 0.0.0.0 pc-mon.snssdk.com
-0.0.0.0 toutiao-frontier.snssdk.com
-0.0.0.0 varticle-frontier.snssdk.com
-0.0.0.0 varticle-frontier-hl.snssdk.com
 0.0.0.0 xlog.snssdk.com
 0.0.0.0 ads.tiktok.com
 0.0.0.0 ads-api.tiktok.com
-0.0.0.0 ads-frontier.tiktok.com
 0.0.0.0 ads-sg.tiktok.com
 0.0.0.0 analytics.tiktok.com
 0.0.0.0 analytics-attribution.tiktok.com
 0.0.0.0 analytics-attribution-va.tiktok.com
+0.0.0.0 analytics-exp-i18n.tiktok.com
 0.0.0.0 analytics-exp-sg.tiktok.com
+0.0.0.0 analytics-i18n.tiktok.com
 0.0.0.0 analytics-sg.tiktok.com
 0.0.0.0 analytics-test.tiktok.com
 0.0.0.0 analytics-useast2a.tiktok.com
-0.0.0.0 business-api.tiktok.com
 0.0.0.0 logistics.tiktok.com
 0.0.0.0 mcs-i18n.tiktok.com
 0.0.0.0 mcs-sg.tiktok.com
@@ -720,58 +709,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics-exp.us.tiktok.com
 0.0.0.0 mcs.us.tiktok.com
 0.0.0.0 mssdk.us.tiktok.com
-0.0.0.0 lf-main-gecko-source.tiktokcdn.com
-0.0.0.0 lf16-gecko-source.tiktokcdn.com
-0.0.0.0 lf16-geckocdn-sg.tiktokcdn.com
-0.0.0.0 lf19-gecko-source.tiktokcdn.com
-0.0.0.0 lf19-geckocdn-sg.tiktokcdn.com
-0.0.0.0 lf21-gecko-source.tiktokcdn.com
-0.0.0.0 lf77-gecko-source.tiktokcdn.com
-0.0.0.0 lf9-geckocdn.tiktokcdn.com
-0.0.0.0 sf16-geckocdn.tiktokcdn.com
-0.0.0.0 sf16m-geckocdn.tiktokcdn.com
-0.0.0.0 sf19-geckocdn.tiktokcdn.com
-0.0.0.0 frontier.tiktokv.com
-0.0.0.0 frontier-i18n.tiktokv.com
-0.0.0.0 frontier-phx.tiktokv.com
-0.0.0.0 frontier-ru.tiktokv.com
-0.0.0.0 frontier-va.tiktokv.com
-0.0.0.0 frontier15-normal.tiktokv.com
-0.0.0.0 frontier16-alisg.tiktokv.com
-0.0.0.0 frontier16-normal.tiktokv.com
-0.0.0.0 frontier16-normal-alisg.tiktokv.com
-0.0.0.0 frontier16-normal-useast1a.tiktokv.com
-0.0.0.0 frontier16-normal-useast2a.tiktokv.com
-0.0.0.0 frontier16-useast1a.tiktokv.com
-0.0.0.0 frontier22-normal.tiktokv.com
-0.0.0.0 frontier22-normal-alisg.tiktokv.com
-0.0.0.0 frontier22-normal-useast1a.tiktokv.com
-0.0.0.0 frontier22-normal-useast2a.tiktokv.com
-0.0.0.0 gecko-phx.tiktokv.com
-0.0.0.0 gecko-ru.tiktokv.com
-0.0.0.0 gecko-sg.tiktokv.com
-0.0.0.0 gecko-va.tiktokv.com
-0.0.0.0 gecko15-normal-alisg.tiktokv.com
-0.0.0.0 gecko15-normal-useast1a.tiktokv.com
-0.0.0.0 gecko16-normal.tiktokv.com
-0.0.0.0 gecko16-normal-alisg.tiktokv.com
-0.0.0.0 gecko16-normal-c-useast1a.tiktokv.com
-0.0.0.0 gecko16-normal-c-useast2a.tiktokv.com
-0.0.0.0 gecko16-normal-useast1a.tiktokv.com
-0.0.0.0 gecko16-normal-useast2a.tiktokv.com
-0.0.0.0 gecko16-platform-ycru.tiktokv.com
-0.0.0.0 gecko16-tmp-normal-useast1a.tiktokv.com
-0.0.0.0 gecko19-normal-alisg.tiktokv.com
-0.0.0.0 gecko19-normal-useast1a.tiktokv.com
-0.0.0.0 gecko19-normal-useast2a.tiktokv.com
-0.0.0.0 gecko22-normal.tiktokv.com
-0.0.0.0 gecko22-normal-alisg.tiktokv.com
-0.0.0.0 gecko22-normal-useast1a.tiktokv.com
-0.0.0.0 gecko22-normal-useast2a.tiktokv.com
-0.0.0.0 gecko31-normal.tiktokv.com
-0.0.0.0 gecko31-normal-alisg.tiktokv.com
-0.0.0.0 gecko31-normal-useast1a.tiktokv.com
-0.0.0.0 gecko31-normal-useast2a.tiktokv.com
 0.0.0.0 log.tiktokv.com
 0.0.0.0 log-i18n.tiktokv.com
 0.0.0.0 log-phx.tiktokv.com
@@ -792,6 +729,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 log16-tmp-normal-useast1a.tiktokv.com
 0.0.0.0 log17-normal-alisg.tiktokv.com
 0.0.0.0 log17-normal-useast1a.tiktokv.com
+0.0.0.0 log17-normal-useast2a.tiktokv.com
 0.0.0.0 log19-applog-useast1a.tiktokv.com
 0.0.0.0 log19-applog-useast2a.tiktokv.com
 0.0.0.0 log19-normal.tiktokv.com
@@ -804,9 +742,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 log22-normal-alisg.tiktokv.com
 0.0.0.0 log22-normal-useast1a.tiktokv.com
 0.0.0.0 log22-normal-useast2a.tiktokv.com
+0.0.0.0 log3-normal-c-alisg.tiktokv.com
+0.0.0.0 log3-normal-c-useast1a.tiktokv.com
 0.0.0.0 log31-normal-alisg.tiktokv.com
 0.0.0.0 log31-normal-useast2a.tiktokv.com
+0.0.0.0 log53-normal-c-useast1a.tiktokv.com
+0.0.0.0 log58-normal-c-alisg.tiktokv.com
+0.0.0.0 log58-normal-c-useast1a.tiktokv.com
+0.0.0.0 log58-normal-useast1a.tiktokv.com
+0.0.0.0 log58-normal-useast2a.tiktokv.com
+0.0.0.0 log61-normal-c-alisg.tiktokv.com
 0.0.0.0 log77-normal-c-alisg.tiktokv.com
+0.0.0.0 log77-normal-c-useast1a.tiktokv.com
 0.0.0.0 log9-normal-c-useast1a.tiktokv.com
 0.0.0.0 logbk.tiktokv.com
 0.0.0.0 mcs-sg.tiktokv.com
@@ -816,11 +763,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 mon-phx.tiktokv.com
 0.0.0.0 mon-ru.tiktokv.com
 0.0.0.0 mon-sg.tiktokv.com
+0.0.0.0 mon-useast2a.tiktokv.com
 0.0.0.0 mon-va.tiktokv.com
 0.0.0.0 mon15-checkout-alisg.tiktokv.com
 0.0.0.0 mon15-checkout-useast1a.tiktokv.com
 0.0.0.0 mon15-normal.tiktokv.com
 0.0.0.0 mon15-normal-useast1a.tiktokv.com
+0.0.0.0 mon15-normal-useast1a-checkout.tiktokv.com
 0.0.0.0 mon16-normal.tiktokv.com
 0.0.0.0 mon16-normal-alisg.tiktokv.com
 0.0.0.0 mon16-normal-c-useast1a.tiktokv.com
@@ -828,8 +777,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 mon16-normal-useast1a.tiktokv.com
 0.0.0.0 mon16-platform-ycru.tiktokv.com
 0.0.0.0 mon16-tmp-normal-useast1a.tiktokv.com
+0.0.0.0 mon19-normal.tiktokv.com
+0.0.0.0 mon19-normal-alisg.tiktokv.com
 0.0.0.0 mon19-normal-useast1a.tiktokv.com
+0.0.0.0 mon22-normal.tiktokv.com
+0.0.0.0 mon22-normal-alisg.tiktokv.com
 0.0.0.0 mon22-normal-useast1a.tiktokv.com
+0.0.0.0 mon31-normal.tiktokv.com
+0.0.0.0 mon31-normal-alisg.tiktokv.com
+0.0.0.0 mon31-normal-useast1a.tiktokv.com
+0.0.0.0 mon32-normal-useast1a.tiktokv.com
 0.0.0.0 monbk.tiktokv.com
 0.0.0.0 mssdk-i18n.tiktokv.com
 0.0.0.0 mssdk-phx.tiktokv.com
@@ -837,10 +794,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 mssdk-quic-va.tiktokv.com
 0.0.0.0 mssdk-ru.tiktokv.com
 0.0.0.0 mssdk-sg.tiktokv.com
+0.0.0.0 mssdk-va-useast2a.tiktokv.com
 0.0.0.0 mssdk16-normal.tiktokv.com
 0.0.0.0 mssdk16-normal-alisg.tiktokv.com
 0.0.0.0 mssdk16-normal-useast1a.tiktokv.com
 0.0.0.0 mssdk16-normal-useast2a.tiktokv.com
+0.0.0.0 mssdk19-normal.tiktokv.com
 0.0.0.0 mssdk19-normal-alisg.tiktokv.com
 0.0.0.0 mssdk19-normal-useast1a.tiktokv.com
 0.0.0.0 mssdk19-normal-useast2a.tiktokv.com
@@ -848,14 +807,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 mssdk22-normal-alisg.tiktokv.com
 0.0.0.0 mssdk22-normal-useast1a.tiktokv.com
 0.0.0.0 mssdk22-normal-useast2a.tiktokv.com
-0.0.0.0 pitaya.tiktokv.com
-0.0.0.0 pitaya-i18n.tiktokv.com
-0.0.0.0 pitaya-sg.tiktokv.com
-0.0.0.0 pitaya-task.tiktokv.com
-0.0.0.0 pitaya-task-i18n.tiktokv.com
-0.0.0.0 pitaya-task-sg.tiktokv.com
-0.0.0.0 pitaya-task-va.tiktokv.com
-0.0.0.0 pitaya-va.tiktokv.com
 0.0.0.0 rtc-logger-va.tiktokv.com
 0.0.0.0 rtlog.tiktokv.com
 0.0.0.0 rtlog-i18n.tiktokv.com
@@ -873,19 +824,24 @@ ff02::3 ip6-allhosts
 0.0.0.0 rtlog16-normal-useast1a.tiktokv.com
 0.0.0.0 rtlog16-normal-useast2a.tiktokv.com
 0.0.0.0 rtlog16-tmp-normal-useast1a.tiktokv.com
+0.0.0.0 rtlog17-normal.tiktokv.com
 0.0.0.0 rtlog17-normal-alisg.tiktokv.com
 0.0.0.0 rtlog17-normal-useast1a.tiktokv.com
 0.0.0.0 rtlog17-normal-useast2a.tiktokv.com
 0.0.0.0 rtlog19-applog-useast1a.tiktokv.com
+0.0.0.0 rtlog19-applog-useast2a.tiktokv.com
+0.0.0.0 rtlog19-normal.tiktokv.com
 0.0.0.0 rtlog19-normal-alisg.tiktokv.com
 0.0.0.0 rtlog19-normal-useast1a.tiktokv.com
 0.0.0.0 rtlog19-normal-useast2a.tiktokv.com
+0.0.0.0 rtlog22-applog-useast2a.tiktokv.com
 0.0.0.0 rtlog22-normal.tiktokv.com
 0.0.0.0 rtlog22-normal-alisg.tiktokv.com
 0.0.0.0 rtlog22-normal-useast1a.tiktokv.com
 0.0.0.0 rtlog22-normal-useast2a.tiktokv.com
-0.0.0.0 frontier.us.tiktokv.com
-0.0.0.0 gecko16-platform-useast5.us.tiktokv.com
+0.0.0.0 rtlog31-normal.tiktokv.com
+0.0.0.0 rtlog31-normal-useast1a.tiktokv.com
+0.0.0.0 rtlog58-normal-alisg.tiktokv.com
 0.0.0.0 log16-applog-useast5.us.tiktokv.com
 0.0.0.0 log19-applog-useast5.us.tiktokv.com
 0.0.0.0 mcs.us.tiktokv.com
@@ -893,8 +849,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mon16-platform-useast5.us.tiktokv.com
 0.0.0.0 mssdk.us.tiktokv.com
 0.0.0.0 mssdk16-platform-useast5.us.tiktokv.com
-0.0.0.0 pitaya.us.tiktokv.com
-0.0.0.0 pitaya-task.us.tiktokv.com
+0.0.0.0 mssdk19-platform-useast5.us.tiktokv.com
 0.0.0.0 rtc-logger.us.tiktokv.com
 0.0.0.0 rtlog16-applog-useast5.us.tiktokv.com
 0.0.0.0 xlog16-platform-useast5.us.tiktokv.com
