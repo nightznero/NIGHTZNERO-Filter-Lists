@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 470
+! Entries: 471
 !
 ! Expires: 1 days
 !
-! Updated: 2023.05.05
+! Updated: 2023.05.10
 !
 ! MIT License
 !
@@ -233,6 +233,7 @@
 @@||play.eset.com^
 @@||augur.scanners.eset.systems^
 @@||edf.eset.com^
+@@||ts.eset.com^
 @@||i1.gtm.eset.com^
 @@||i2.gtm.eset.com^
 @@||i3.gtm.eset.com^
