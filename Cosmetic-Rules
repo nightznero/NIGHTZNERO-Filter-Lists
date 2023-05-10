@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1106
+! Entries: 1112
 !
 ! Expires: 1 days
 !
-! Updated: 2023.05.03
+! Updated: 2023.05.10
 !
 ! MIT License
 !
@@ -769,6 +769,14 @@ cyberdrop.me###adwl-footer
 ! DaniDaniels.com
 danidaniels.com##.strip-notification-wrapper.verification-sent
 danidaniels.com###gdpr-cookie-accept
+
+! Datezone.com
+@@||mqcdn.datezone.com^$domain=datezone.com
+@@||mq2cdn.datezone.com^$domain=datezone.com
+@@||imgcdn.datezone.com/users^$domain=datezone.com
+@@||api.datezone.com/v*/camera^$domain=datezone.com
+@@||datezone.com/users/*/camera
+@@||*.streamlock.net/webrtc-session.json$domain=datezone.com
 
 ! Dev-bsewamods
 @@||dev-bsewamods.epizy.com^$domain=dev-bsewamods.epizy.com
