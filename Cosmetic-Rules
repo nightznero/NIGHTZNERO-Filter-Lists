@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2023.05.12
+! Updated: 2023.05.13
 !
 ! MIT License
 !
@@ -779,7 +779,7 @@ danidaniels.com###gdpr-cookie-accept
 @@||*.streamlock.net/webrtc-session.json$domain=datezone.com
 
 ! Dev-bsewamods
-@@||dev-bsewamods.epizy.com^$domain=dev-bsewamods.epizy.com
+@@||dev-bsewamods.epizy.com^
 ! Blocked by HaGeZi - Multi Pro++
 
 ! DziennikLodzki.pl
