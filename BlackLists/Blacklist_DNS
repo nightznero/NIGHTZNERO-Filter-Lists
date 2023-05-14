@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 521 (+15 local hosts)
+! Entries: 1 522 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.05.05
+! Updated: 2023.05.14
 !
 ! MIT License
 !
@@ -57,6 +57,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mcdlks.com
 0.0.0.0 0x01n2ptpuz3.com
 0.0.0.0 entitlements.jwplayer.com
+0.0.0.0 adsrvr.io
 ! -Doubleclick.net- !
 0.0.0.0 mediavisor.doubleclick.net
 0.0.0.0 m.doubleclick.net
