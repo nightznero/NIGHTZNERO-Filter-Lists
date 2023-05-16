@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 522 (+15 local hosts)
+! Entries: 1 523 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.05.14
+! Updated: 2023.05.16
 !
 ! MIT License
 !
@@ -943,6 +943,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.wpimg.pl
 0.0.0.0 pixel.wp.pl
 0.0.0.0 pixel6.wp.pl
+
+! Fvck off - Pracuj.pl
+0.0.0.0 tracker.pracuj.pl
 
 ! Fvck off - Jump Scares
 0.0.0.0 pnrtscr.com
