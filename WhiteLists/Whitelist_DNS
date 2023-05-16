@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 471
+! Entries: 472
 !
 ! Expires: 1 days
 !
-! Updated: 2023.05.10
+! Updated: 2023.05.16
 !
 ! MIT License
 !
@@ -423,6 +423,8 @@ Gleam.io
 ! Blocked by 4PDA
 @@||discover.operacdn.com^
 ! Blocked by Energized.Pro - Basic
+@@||api-a.op-mobile.opera.com^
+! Blocked by 1Hosts - Lite & GoodByeAds
 
 ! Origin
 @@||cdn.optimizely.com^
