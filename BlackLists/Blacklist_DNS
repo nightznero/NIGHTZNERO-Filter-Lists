@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 523 (+15 local hosts)
+! Entries: 1 526 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -601,6 +601,11 @@ ff02::3 ip6-allhosts
 
 ! Fvck off - Brave Browser
 0.0.0.0 analytics.brave.com
+
+! Fvck off - Opera Browser
+0.0.0.0 s.adx.opera.com
+0.0.0.0 res.adx.opera.com
+0.0.0.0 s-adx.op-mobile.opera.com
 
 ! Fvck off - LinkedIn [Microsoft]
 0.0.0.0 ads.linkedin.com
