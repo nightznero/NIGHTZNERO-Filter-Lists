@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1118
+! Entries: 1119
 !
 ! Expires: 1 days
 !
-! Updated: 2023.05.13
+! Updated: 2023.05.18
 !
 ! MIT License
 !
@@ -786,6 +786,9 @@ danidaniels.com###gdpr-cookie-accept
 dzienniklodzki.pl##.g05b829be564e4e510d498980d301bac4df931fd7*
 dzienniklodzki.pl##.g05b829be564e4e510d498980d301bac4df931fd7
 dzienniklodzki.pl###g05b829be564e4e510d498980d301bac4df931fd7901811034
+
+! e-pity.pl
+@@||dysk.e-file.pl/api/*$domain=e-pity.pl
 
 ! erodate.pl
 erodate.pl##.header-promo
