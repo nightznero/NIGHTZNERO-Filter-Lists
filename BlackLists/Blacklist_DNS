@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 526 (+15 local hosts)
+! Entries: 1 535 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.05.16
+! Updated: 2023.05.24
 !
 ! MIT License
 !
@@ -1686,6 +1686,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 win8.ipv6.microsoft.com
 0.0.0.0 xblgdvrassets3010.blob.core.windows.net
 0.0.0.0 ztd.dds.microsoft.com
+
+! UnCheckyAds
+0.0.0.0 cdn.appround.biz
+0.0.0.0 cdn.download.sweetpacks.com
+0.0.0.0 cdn.insta.playbryte.com
+0.0.0.0 cdn.msdwnld.com
+0.0.0.0 cdn.mypcbackup.com
+0.0.0.0 inno.bisrv.com
+0.0.0.0 installer.betterinstaller.com
+0.0.0.0 nsis.bisrv.com
+0.0.0.0 tracking.opencandy.com.s3.amazonaws.com
 
 ! DigitalSide Threat-Intel
 0.0.0.0 324232.oss-cn-hongkong.aliyuncs.com
