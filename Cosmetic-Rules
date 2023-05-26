@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1119
+! Entries: 1157
 !
 ! Expires: 1 days
 !
-! Updated: 2023.05.18
+! Updated: 2023.05.26
 !
 ! MIT License
 !
@@ -635,6 +635,69 @@ _spot_id=*&zone_id=$script,~third-party
 ||sp.yorkdispatch.com^
 ||sp.zanesvilletimesrecorder.com^
 
+! NextDNS CNAME Cloaking Blocklist
+! Eulerian [eulerian.com]
+||eulerian.net^
+! AT Internet (formerly XiTi) [atinternet.com]
+||at-o.net^
+! Keyade [keyade.com]
+||k.keyade.com^
+||k.madmetrics.com^
+! Adobe Experience Cloud (formerly Omniture) [business.adobe.com]
+||2o7.net^
+||data.adobedc.net^
+||sc.adobedc.net^
+||sc.omtrdc.net^
+! Criteo [criteo.com]
+||dnsdelegation.io^
+||storetail.io^
+! Commanders Act [commandersact.com]
+||tagcommander.com^
+! Wizaly [wizaly.com]
+||wizaly.com^
+! TraceDock [tracedock.com]
+||a351fec2c318c11ea9b9b0a0ae18fb0b-1529426863.eu-central-1.elb.amazonaws.com^
+||a5e652663674a11e997c60ac8a4ec150-1684524385.eu-central-1.elb.amazonaws.com^
+||a88045584548111e997c60ac8a4ec150-1610510072.eu-central-1.elb.amazonaws.com^
+||afc4d9aa2a91d11e997c60ac8a4ec150-2082092489.eu-central-1.elb.amazonaws.com^
+! Ingenious Technologies [ingenioustechnologies.com]
+||affex.org^
+! Webtrekk [webtrekk.com]
+||webtrekk.net^
+||wt-eu02.net^
+! Otto Group [ottogroup.media]
+||oghub.io^
+! NP6 by ChapsVision [chapsvision.com/marketing-automation]
+tracking.bp01.net
+! A8.net [a8.net]
+||trck.a8.net^
+! Actionlink [actionlink.jp]
+||mm.actionlink.jp^
+! AD EBiS [ebis.ne.jp]
+||cname.ebis.ne.jp^
+! AdSpyglass [adspyglass.com]
+||0i0i0i0.com^
+! Act-On [act-on.com]
+||actonservice.com^
+||actonsoftware.com^
+! Branch [branch.io]
+||thirdparty.bnc.lt^
+! DataUnlocker [dataunlocker.com]
+||ddns.dataunlocker.com^
+! Fathom [fathomhq.com]
+||starman.fathomdns.com^
+! AdCloud [adcloud.jp]
+||ad-cloud.jp^
+! Oracle Eloqua [oracle.com/cx/marketing]
+||hs.eloqua.com^
+! Plausible Analytics [plausible.io]
+||custom.plausible.io^
+! Pardot [pardot.com]
+||go.pardot.com^
+! Lead Forensics leadforensics.com
+!! Note: not directly disguising itself as first-party, but cloaking the destination behind plenty of random domains.
+||ghochv3eng.trafficmanager.net^
+
 ! Browsers SM (WhiteList)
 @@$css
 @@$font
@@ -945,6 +1008,11 @@ minecraft.org.pl##div[style="position: fixed; top: 0; left: 0; bottom: 0; right:
 
 ! MinuteInBox.com (temp mail)
 minuteinbox.com##.wpcc-container.wpcc-float.wpcc-transparency-15.wpcc-bottom.wpcc-left.wpcc-color-custom--*
+
+! Mobilism.org / Mobilism.me
+@@||forum.mobilism.org##I.icon-chevron-up^
+@@||forum.mobilism.me##I.icon-chevron-up^
+@@||forum.mobilism.*/styles/BBOOTS/theme/bootstrap^$domain=forum.mobilism.org^,forum.mobilism.me^
 
 ! ModDB
 moddb.com##.cc_banner.cc_container.cc_container--open
