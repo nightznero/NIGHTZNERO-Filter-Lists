@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1159
+! Entries: 1160
 !
 ! Expires: 1 days
 !
-! Updated: 2023.05.28
+! Updated: 2023.05.30
 !
 ! MIT License
 !
@@ -846,6 +846,10 @@ danidaniels.com###gdpr-cookie-accept
 ! Dev-bsewamods
 @@||dev-bsewamods.epizy.com^
 ! Blocked by HaGeZi - Multi Pro++
+
+! Dooood
+@@||dooood.com/e^
+! Blocked by 1Hosts - Pro
 
 ! DziennikLodzki.pl
 dzienniklodzki.pl##.g05b829be564e4e510d498980d301bac4df931fd7*
