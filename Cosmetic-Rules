@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1161
+! Entries: 1162
 !
 ! Expires: 1 days
 !
-! Updated: 2023.05.30
+! Updated: 2023.06.05
 !
 ! MIT License
 !
@@ -987,6 +987,10 @@ imgur.com##.advertisement.div-ad-active-bottom_med_rec
 @@||api.amrest.eu/amdv/ordering-api/KFC_PL/rest^$stealth
 @@||kfc.pl^$stealth
 @@||kfcdostawa.pl/ordering-api^$stealth
+
+! Kiwi Browser
+@@||kiwibrowser.com^
+! Blocked by 1Hosts - Pro
 
 ! Lento.pl
 lodz.lento.pl###a-sho-bootm
