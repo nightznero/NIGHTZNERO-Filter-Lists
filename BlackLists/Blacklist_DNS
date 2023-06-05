@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 535 (+15 local hosts)
+! Entries: 1 536 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.05.24
+! Updated: 2023.06.05
 !
 ! MIT License
 !
@@ -919,6 +919,9 @@ ff02::3 ip6-allhosts
 
 ! Fvck off - PicsArt
 0.0.0.0 analytics.picsart.com
+
+! Fvck off - Lensa [Prisma Labs]
+0.0.0.0 telemetry.lensa.paltabrain.com
 
 ! Fvck off - WPS Office [KingSoft]
 0.0.0.0 cloudservice14.kingsoft-office-service.com
