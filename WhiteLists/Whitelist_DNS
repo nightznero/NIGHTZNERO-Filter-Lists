@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 473
+! Entries: 474
 !
 ! Expires: 1 days
 !
-! Updated: 2023.05.30
+! Updated: 2023.06.05
 !
 ! MIT License
 !
@@ -375,6 +375,10 @@ Gleam.io
 @@||cdninstagram.com^
 @@||scontent.cdninstagram.com^
 @@||instagram.c10r.facebook.com^
+
+! Kiwi Browser
+@@||kiwibrowser.com^
+! Blocked by 1Hosts - Pro
 
 ! League of Legends [Riot Games]
 @@||tdm.prod01.row.cros.wr.pvp.net
