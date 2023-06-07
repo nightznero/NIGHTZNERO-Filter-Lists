@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 487 (+15 local hosts)
+! Entries: 1 488 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.06.06
+! Updated: 2023.06.07
 !
 ! MIT License
 !
@@ -45,6 +45,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.exoclick.com
 0.0.0.0 adsessionserv.com
 0.0.0.0 adtng.com
+0.0.0.0 adtiming.com
 0.0.0.0 akunamapro.com
 0.0.0.0 gerhi-psv.com
 0.0.0.0 deliveranceads.com
