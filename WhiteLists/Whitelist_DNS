@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 475
+! Entries: 477
 !
 ! Expires: 1 days
 !
-! Updated: 2023.06.08
+! Updated: 2023.06.10
 !
 ! MIT License
 !
@@ -81,6 +81,7 @@
 @@||ae01.alicdn.com^
 @@||ae04.alicdn.com^
 @@||my.aliexpress.com^
+@@||alitems.site^
 ! Blocked by GoodbyeAds
 
 ! Amazon
@@ -174,6 +175,10 @@
 
 ! Captcha
 @@||api-verify.recaptcha.net^
+
+! CARROT Weather
+@@||maps.aerisapi.com^
+! Blocked by 1Hosts - Pro
 
 ! CNN
 @@||cdn.cnn.com^
