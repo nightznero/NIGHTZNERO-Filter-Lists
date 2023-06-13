@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 480
+! Entries: 481
 !
 ! Expires: 1 days
 !
@@ -82,7 +82,7 @@
 @@||ae04.alicdn.com^
 @@||my.aliexpress.com^
 @@||alitems.site^
-! Blocked by GoodbyeAds
+! Blocked by GoodByeAds
 
 ! Amazon
 @@||mobileanalytics.us-east-1.amazonaws.com^
@@ -117,7 +117,7 @@
 @@||bugs-bunny.sb.avast.com^
 @@||bugs-bunny-stage.sb.avast.com^
 @@||bugs-bunny-test.sb.avast.com^
-! Blocked by GoodbyeAds - Pro
+! Blocked by 1Hosts - Pro
 
 ! Betclic
 @@||betclic.pl^
@@ -200,7 +200,7 @@
 
 ! CyroseHD
 @@||cyrosehd.page.link^
-! Blocked by GoodbyeAds
+! Blocked by GoodByeAds
 
 ! Dev-bsewamods
 @@||dev-bsewamods.epizy.com^
@@ -224,7 +224,7 @@
 
 ! Electronic Arts (EA)
 @@||eaassets-a.akamaihd.net^
-! Blocked by GoodbyeAds
+! Blocked by GoodByeAds
 @@||ea.com^
 
 ! EnhanceFox
@@ -251,7 +251,7 @@
 ! Facebook [Meta]
 @@||graph.facebook.com^
 @@||graph-video.facebook.com^
-! Blocked by GoodbyeAds
+! Blocked by GoodByeAds
 @@||b-graph.facebook.com^
 ! Blocked by 1Hosts - Pro
 ! (For now disabled) @@||web.facebook.com^
@@ -288,7 +288,7 @@
 
 Gleam.io
 @@||gleam.io^
-! Blocked by GoodbyeAds
+! Blocked by GoodByeAds
 
 ! GoFile.io
 @@||file*.gofile.io^
@@ -374,7 +374,7 @@ Gleam.io
 
 ! InShot
 @@||aws.inshot.cc
-! Blocked by GoodbyeAds n NIGHTZNERO Blacklist
+! Blocked by GoodByeAds n NIGHTZNERO Blacklist
 
 ! Instagram [Meta]
 @@||i.instagram.com^
@@ -429,7 +429,7 @@ Gleam.io
 
 ! OpenSignal
 @@||api.onesignal.com^
-! Blocked by GoodByeAds n 1Hosts - Pro
+! Blocked by 1Hosts - Pro & GoodByeAds
 
 ! OpenAI
 @@||api.openai.com^
@@ -464,7 +464,7 @@ Gleam.io
 
 ! Pixeldrain
 @@||pixeldrain.com^
-! Blocked by GoodbyeAds
+! Blocked by GoodByeAds
 
 ! PlayStation 5 (Sony)
 @@||telemetry-console.api.playstation.com^
@@ -492,6 +492,10 @@ Gleam.io
 @@||img10.pornreactor.cc^
 @@||js.pornreactor.cc^
 ! Blocked by Energized.Pro - Spark
+
+! PREQUEL
+@@||cfimg.prequel.app^
+! Blocked by GoodByeAds
 
 ! Reactor.cc
 @@||reactor.cc^
@@ -600,7 +604,7 @@ Gleam.io
 
 ! SpankBang
 @@||spankbang.com^
-! Blocked by GoodbyeAds
+! Blocked by GoodByeAds
 
 ! Spotify
 @@||api.spotify.com^
@@ -675,7 +679,7 @@ Gleam.io
 @@||fieldtesting.underarmour.com^
 @@||uafieldtesting.sjc1.qualtrics.com^
 @@||ualistens.underarmour.com^
-! Blocked by GoodbyeAds
+! Blocked by GoodByeAds
 
 ! Upday
 @@||prod.yana.asideas.de^
@@ -691,7 +695,7 @@ Gleam.io
 
 ! Wild Rift [Riot Games]
 @@||lolstatic-a.akamaihd.net^
-! Blocked by GoodbyeAds Spotify
+! Blocked by GoodByeAds Spotify
 
 ! Windows [Microsoft]
 @@||www.msftncsi.com^
@@ -749,11 +753,9 @@ Gleam.io
 ! Blocked by 4PDA Community hosts blacklist
 !! Xiaomi Home
 @@||data.sec.miui.com^
-! Blocked by GoodbyeAds
 @@||de.api.io.mi.com^
-! Blocked by GoodbyeAds
 @@||sts.api.io.mi.com^
-! Blocked by GoodbyeAds
+! Blocked by GoodByeAds
 !! Xiaomi Payments
 @@||metok.sys.miui.com^
 @@||data.mistat.xiaomi.com^
