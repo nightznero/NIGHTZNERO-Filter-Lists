@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 482
+! Entries: 484
 !
 ! Expires: 1 days
 !
@@ -218,6 +218,8 @@
 ! Blocked by 1Hosts - Pro
 
 ! Dropbox
+@@||www.dropbox.com^
+! Blocked by The Ultimate Hosts Blacklist (UHB)
 @@||bolt.dropbox.com^
 @@||dl.dropbox.com^
 @@||dl.dropboxusercontent.com^
@@ -515,6 +517,10 @@ Gleam.io
 @@||redd.it^
 @@||i.redd.it^
 @@||cdn.embedly.com^
+
+! Rentry.co
+@@||rentry.co^
+! Blocked by The Ultimate Hosts Blacklist (UHB)
 
 ! Samsung
 @@||pushmessage.samsung.com^
