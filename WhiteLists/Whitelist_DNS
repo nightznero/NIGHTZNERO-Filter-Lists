@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 477
+! Entries: 480
 !
 ! Expires: 1 days
 !
-! Updated: 2023.06.10
+! Updated: 2023.06.13
 !
 ! MIT License
 !
@@ -299,10 +299,12 @@ Gleam.io
 @@||region1.app-measurement.com^
 ! Blocked by NIGHTZNERO Blacklist & GoodByeAds
 @@||android-safebrowsing.google.com^
+@@||developers.google.com^
 @@||encrypted-tbn0.gstatic.com^
 @@||encrypted-tbn1.gstatic.com^
 @@||encrypted-tbn2.gstatic.com^
 @@||encrypted-tbn3.gstatic.com^
+@@||safebrowsing.googleapis.com^
 ! Blocked by 4PDA Community hosts blacklist
 ! (For now disabled) @@||analyticsinsights-pa.googleapis.com^
 ! (For now disabled) @@||analyticssearch-pa.googleapis.com^
@@ -743,6 +745,8 @@ Gleam.io
 @@||clientconfig.passport.net^
 
 ! Xiaomi
+@@||file.market.xiaomi.com^
+! Blocked by 4PDA Community hosts blacklist
 !! Xiaomi Home
 @@||data.sec.miui.com^
 ! Blocked by GoodbyeAds
