@@ -835,7 +835,7 @@ danidaniels.com##.strip-notification-wrapper.verification-sent
 danidaniels.com###gdpr-cookie-accept
 
 ! Datezone.com
-@@||imgcdn.datezone.com/users/401/$domain=imgcdn.datezone.com,important
+@@||imgcdn.datezone.com/users/401/$domain=imgcdn.datezone.com|datezone.com,important
 ! Blocked by Fuck FuckAdBlock
 @@||mqcdn.datezone.com^$domain=datezone.com
 @@||mq2cdn.datezone.com^$domain=datezone.com
