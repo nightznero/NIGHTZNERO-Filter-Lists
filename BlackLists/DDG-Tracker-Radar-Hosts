@@ -11,11 +11,11 @@
 !
 ! Description: Based on DuckDuckGo Tracker Radar. Cleaned and disabled strings that breaks; Motorola,PornHub,Steam,Twitch,Xiaomi Home,Zalando.
 !
-! Entries: 5 418
+! Entries: 5 417
 !
 ! Expires: 1 days
 !
-! Updated: 2023.05.16
+! Updated: 2023.06.16
 !
 ! MIT License
 !
@@ -53,7 +53,6 @@
 0.0.0.0 pool-emerce.adhese.com
 0.0.0.0 static-bp.kameleoon.com
 0.0.0.0 r.adgeek.net
-0.0.0.0 assets-global.website-files.com
 0.0.0.0 cf2-taniaksiazka.statiki.pl
 0.0.0.0 cf1-taniaksiazka.statiki.pl
 0.0.0.0 register.feefo.com
