@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 484
+! Entries: 485
 !
 ! Expires: 1 days
 !
-! Updated: 2023.06.14
+! Updated: 2023.06.17
 !
 ! MIT License
 !
@@ -598,6 +598,8 @@ Gleam.io
 @@||api.euro.hismarttv.com^
 
 ! Snapchat
+@@||accounts.snap.com^
+! Blocked by 1Hosts - Pro
 @@||aws.api.snapchat.com^
 @@||gcp.api.snapchat.com^
 @@||gcs.sc-cdn.net^
