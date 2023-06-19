@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1162
+! Entries: 1168
 !
 ! Expires: 1 days
 !
-! Updated: 2023.06.15
+! Updated: 2023.06.19
 !
 ! MIT License
 !
@@ -773,7 +773,7 @@ allegro.pl##div.main-wrapper:nth-child(3) > div:last-child
 ! boonga.pl
 boonga.pl##.ec-fixed.ec-icon.ec-double-btn
 
-! Brave
+! Brave Browser
 ||rewards.brave.com^$badfilter
 ! Blocked by 1Hosts - Pro
 ||ads.brave.com^$badfilter
@@ -787,6 +787,9 @@ boonga.pl##.ec-fixed.ec-icon.ec-double-btn
 @@||basicattentiontoken.org^$ghide
 @@||basicattentiontoken.org^$first-party
 search.brave.com#@#+js(no-fetch-if, body:browser)
+
+! Brave Browser Forum
+@@||cdck-file-uploads-global.s3.us-west-2.amazonaws.com/temp/brave/$domain=community.brave.com
 
 ! Bunkr
 ! For now disabled @@||i*.bunkr.*/thumbs^$stealth
@@ -1408,6 +1411,10 @@ twitter.com#@#.ProfileCanopy-card, .u-cf.OpenInAppBar, div:not([aria-labelledby=
 ! U.GG
 u.gg###page-content > div:last-child > div.media-query.media-query_TABLET__DESKTOP_LARGE:first-child
 
+! Uphold (Wallet)
+@@||uphold.com/authorize^$stealth
+@@||api.uphold.com^
+
 ! Vinted
 vinted.*##.c-cell.c-cell--wide.c-cell--primary.c-cell--default
 
@@ -1431,6 +1438,9 @@ xvideos.com##.ic
 
 ! You.com (Search engine)
 @@||*.you.com^$domain=*.you.com,stealth
+@@||web.stytch.com/sdk/v1/users/search$domain=you.com
+@@||web.stytch.com/sdk/v1/passwords/authenticate$domain=you.com
+@@||you.com/api/chat/getUserChats$domain=you.com
 
 ! YouPorn
 youporn.com##.lf6z1k2g5R7a
