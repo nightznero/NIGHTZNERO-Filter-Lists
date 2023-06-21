@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 485
+! Entries: 486
 !
 ! Expires: 1 days
 !
-! Updated: 2023.06.17
+! Updated: 2023.06.22
 !
 ! MIT License
 !
@@ -291,6 +291,9 @@
 Gleam.io
 @@||gleam.io^
 ! Blocked by GoodByeAds
+@@||widget.gleamjs.io^
+! Blocked by HaGeZi - Multi Pro++
+
 
 ! GoFile.io
 @@||file*.gofile.io^
