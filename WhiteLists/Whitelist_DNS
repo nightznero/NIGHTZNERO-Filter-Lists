@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 486
+! Entries: 488
 !
 ! Expires: 1 days
 !
-! Updated: 2023.06.22
+! Updated: 2023.06.24
 !
 ! MIT License
 !
@@ -27,6 +27,9 @@
 @@||nwsalert1.onelouder.com^
 @@||nwsalert2.onelouder.com^
 ! Blocked by 1Hosts - Pro
+@@||pro-1w-video.onelouder.com^
+@@||pro-1w-dataaggregator.onelouder.com^
+! Blocked by HaGeZi - Multi Pro++
 
 ! 4Chan
 @@||8ch.net^
