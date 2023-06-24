@@ -11,11 +11,11 @@
 !
 ! Description: Based on DuckDuckGo Tracker Radar. Cleaned and disabled strings that breaks; Motorola,PornHub,Steam,Twitch,Xiaomi Home,Zalando.
 !
-! Entries: 5 417
+! Entries: 5 416
 !
 ! Expires: 1 days
 !
-! Updated: 2023.06.16
+! Updated: 2023.06.24
 !
 ! MIT License
 !
@@ -5360,7 +5360,6 @@
 0.0.0.0 www.meinestadt.de.edgekey.net
 0.0.0.0 cdn4.thumbrio.edgekey.net
 0.0.0.0 static2.makeuseofimages.com
-0.0.0.0 static1.makeuseofimages.com
 0.0.0.0 static3.makeuseofimages.com
 0.0.0.0 cmc-marke-cmc-markets.bannerflow.com
 0.0.0.0 assets.wundertax.de
