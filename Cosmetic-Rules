@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1169
+! Entries: 1172
 !
 ! Expires: 1 days
 !
-! Updated: 2023.06.22
+! Updated: 2023.07.13
 !
 ! MIT License
 !
@@ -1273,6 +1273,9 @@ rule34.xxx###right-col > div.flexi:nth-child(2) > div.sidebarRight.verticalFlexW
 
 ! Saint.to [SimpCity Video Service Hostage]
 @@||simp*.saint.to/videos^$domain=saint.to|simp*.saint.to
+@@||saint.to/embed/$domain=simpcity.*
+@@||saint.to/css/embed-video.css$domain=saint.to
+@@||cdn.fluidplayer.com^$domain=saint.to
 
 ! Samsung
 !! Samsung Live Chat
