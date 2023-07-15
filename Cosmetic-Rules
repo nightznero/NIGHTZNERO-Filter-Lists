@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2023.07.14
+! Updated: 2023.07.15
 !
 ! MIT License
 !
@@ -793,8 +793,8 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 
 ! Bunkr
 ! For now disabled @@||i*.bunkr.*/thumbs^$stealth
-@@||i*.bunkr.*/thumbs^$domain=bunkr.*|i*.bunkr.*
-@@||media-files*.bunkr.*/*.mp4$domain=bunkr.*
+@@||i*.bunkr.*/thumbs^$domain=bunkr.*|bunkrr.*|i*.bunkr.*
+@@||media-files*.bunkr.*/*.mp4$domain=bunkr.*|bunkrr.*
 
 ! CamWhores.tv
 @@||www.camwhores.tv^$stealth
