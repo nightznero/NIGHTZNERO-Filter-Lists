@@ -11,16 +11,24 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 488
+! Entries: 494
 !
 ! Expires: 1 days
 !
-! Updated: 2023.06.24
+! Updated: 2023.07.17
 !
 ! MIT License
 !
 ! Copyright (c) 2023 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! .onion sites
+@@||axqzx4s6s54s32yentfqojs3x5i7faxza6xo3ehd4bzzsg2ii4fv2iid.onion
+@@||bdf2wcxujkg6qqff.onion
+@@||fauftpffbmvh3p4h.onion
+@@||librelablmozifzc.onion
+@@||lysator7eknrfl47rlyxvgeamrv7ucefgrrlhk7rouv3sna25asetwid.onion
+@@||mirror.librelablmozifzc.onion
+
 ! 1Weather
 @@||1weather.onelouder.com^
 @@||nwsalert.onelouder.com^
