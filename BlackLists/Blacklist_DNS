@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 491 (+15 local hosts)
+! Entries: 1 525 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -272,10 +272,44 @@ ff02::3 ip6-allhosts
 0.0.0.0 firebaselogging.googleapis.com
 
 ! Fvck off - Mozilla
-0.0.0.0 download-stats.mozilla.org
+0.0.0.0 addones-mozilla.com
+0.0.0.0 affiliates.mozilla.org
+0.0.0.0 aggregates.telemetry.mozilla.org
+0.0.0.0 analysis-output.telemetry.mozilla.org
 0.0.0.0 crash-reports.mozilla.com
-0.0.0.0 telemetry.mozilla.org
+0.0.0.0 dictionary.telemetry.mozilla.org
+0.0.0.0 docs-origin.telemetry.mozilla.org
+0.0.0.0 download-stats.mozilla.org
+0.0.0.0 feedback.mozillalabs.com
+0.0.0.0 fhr.cdn.mozilla.net
+0.0.0.0 fxos.telemetry.mozilla.org
+0.0.0.0 geo.mozilla.org
+0.0.0.0 glam.telemetry.mozilla.org
+0.0.0.0 grafana.telemetry.mozilla.org
+0.0.0.0 gud.telemetry.mozilla.org
+0.0.0.0 in.telemetry.mozilla.org
 0.0.0.0 incoming.telemetry.mozilla.org
+0.0.0.0 iodide.telemetry.mozilla.org
+0.0.0.0 loop.telemetry.mozilla.org
+0.0.0.0 metrics.etherpad.mozilla.org
+0.0.0.0 metrics.mozilla.com
+0.0.0.0 missioncontrol.telemetry.mozilla.org
+0.0.0.0 ncoming.telemetry.mozilla.org
+0.0.0.0 out.telemetry.mozilla.org
+0.0.0.0 outgoing.telemetry.mozilla.org
+0.0.0.0 probeinfo.telemetry.mozilla.org
+0.0.0.0 probes.telemetry.mozilla.org
+0.0.0.0 public-data.telemetry.mozilla.org
+0.0.0.0 reports.telemetry.mozilla.org
+0.0.0.0 sql.telemetry.mozilla.org
+0.0.0.0 telemetry-experiment.cdn.mozilla.net
+0.0.0.0 telemetry-incoming.r53-2.services.mozilla.com
+0.0.0.0 telemetry.mozilla.org
+0.0.0.0 tiles.cdn.mozilla.net
+0.0.0.0 tiles.services.mozilla.com
+0.0.0.0 tracking.services.mozilla.com
+0.0.0.0 workflow.telemetry.mozilla.org
+0.0.0.0 www.telemetry.mozilla.org
 
 ! Fvck off - Yahoo
 0.0.0.0 ads.yahoo.com
