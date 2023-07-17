@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 489 (+15 local hosts)
+! Entries: 1 491 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.06.13
+! Updated: 2023.07.17
 !
 ! MIT License
 !
@@ -246,6 +246,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 mail-ads.google.com
 0.0.0.0 mobileads.google.com
 0.0.0.0 pagead2.googleadservices.com
+0.0.0.0 pagead.googlesyndication.com
+0.0.0.0 pagead1.googlesyndication.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 pagead-googlehosted.l.google.com
 0.0.0.0 partner.googleadservices.com
