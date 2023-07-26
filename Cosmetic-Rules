@@ -1441,7 +1441,7 @@ wallpaperplay.com##.cc-window.cc-banner.cc-type-info.cc-theme-edgeless.cc-bottom
 @@||wetransfer.com/api/v4/transfers^$stealth
 
 ! WP Poczta [Wirtualna Polska]
-@@||poczta.wp.pl/api/v3/drafts^$domain=poczta.wp.pl
+@@||poczta.wp.pl/api/v*/^$domain=poczta.wp.pl
 
 ! XHamster.com
 xhamster.com##.right-rectangle.wig-spot-container.list-items
