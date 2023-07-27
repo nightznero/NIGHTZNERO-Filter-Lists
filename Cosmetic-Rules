@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1184
+! Entries: 1185
 !
 ! Expires: 1 days
 !
@@ -796,10 +796,6 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 @@||i*.bunkr.*/thumbs^$domain=bunkr.*|bunkrr.*|i*.bunkr.*
 @@||media-files*.bunkr.*/*.mp4$domain=bunkr.*|bunkrr.*
 
-# caitchristinee.com [Caitlin Christine]
-@@||static.parastorage.com/services/$domain=caitlinchristinee.com
-! Blocked by DuckDuckGo Tracker Radar
-
 ! CamWhores.tv
 @@||www.camwhores.tv^$stealth
 @@||cdn.camwhores.tv/styles/all-responsive-metal.css?v=*$domain=camwhores.tv
@@ -1150,6 +1146,11 @@ open.fm##.kr1hon2
 /outbrain/base?
 /outbrain?
 ||outbrainimg.com^$third-party
+
+# ParaStorage.com (assets for sites)
+@@||static.parastorage.com/unpkg^
+@@||static.parastorage.com/services^
+! Blocked by DuckDuckGo Tracker Radar
 
 ! Patreon.com
 patreon.com##.sc-ckVGcZ.jGlPut
