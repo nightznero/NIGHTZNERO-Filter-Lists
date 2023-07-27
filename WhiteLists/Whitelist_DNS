@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 528
+! Entries: 529
 !
 ! Expires: 1 days
 !
-! Updated: 2023.07.17
+! Updated: 2023.07.27
 !
 ! MIT License
 !
@@ -348,6 +348,8 @@ Gleam.io
 ! Google
 @@||region1.app-measurement.com^
 ! Blocked by NIGHTZNERO Blacklist & GoodByeAds
+@@||safebrowsing.google.com^
+! Blocked by ADM Advanced Download Manager Host List
 @@||android-safebrowsing.google.com^
 @@||developers.google.com^
 @@||encrypted-tbn0.gstatic.com^
