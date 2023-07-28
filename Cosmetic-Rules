@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1198
+! Entries: 2004
 !
 ! Expires: 1 days
 !
@@ -891,8 +891,13 @@ erome.com##.free-space
 @@||graph.facebook.com^$tag=fb-embeds
 @@||static.ak.connect.facebook.com^$tag=fb-embeds
 ||graph.facebook.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
-||connect.facebook.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
-||connect.facebook.net^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
+||connect.facebook.net^*/sdk.js$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
+||connect.facebook.net^*/all.js$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
+||connect.facebook.com^*/all.js$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
+||connect.facebook.com^*/sdk.js$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
+||connect.facebook.net^*/sdk/$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
+||connect.facebook.net^*/fp.js$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
+||facebook.com^*/plugins/$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
 ||facebook.com/plugins/$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
 ||facebook.com/tr/$important
 ||facebook.com/tr?$important
@@ -905,6 +910,7 @@ erome.com##.free-space
 ||facebook.com/search/web/instrumentation.php?
 ||facebook.com/xti.php?
 ||pixel.facebook.com^
+||static.ak.connect.facebook.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
 facebook.com###mount_0_0 > div > div:nth-child(2) > div.rq0escxv.l9j0dhe7.du4w35lb:nth-child(2) > div.du4w35lb.l9j0dhe7.cbu4d94t.j83agx80 > div.j83agx80.cbu4d94t.jgljxmt5.l9j0dhe7.be9z9djy > div.iyyx5f41.l9j0dhe7.dhp61c6y.dp1hu0rb.owwhemhu.qowsmv63.cebpdrjk.bipmatt0.k5wvi7nf.a8s20v7p.a6sixzi8.tojvnm2t > div.j83agx80.cbu4d94t.d6urw2fd.dp1hu0rb.l9j0dhe7.du4w35lb:first-child > div.cuepibvl.ka73uehy.dp1hu0rb.j83agx80 > div.ahb00how.fer614ym.dp1hu0rb.pzfvarvs.buofh1pr.ftbm7790:last-child > div.iyyx5f41.czl6b2yu.poy2od1o.dhp61c6y.dp1hu0rb.owwhemhu.pad24vr5.cbu4d94t.n7fi1qx3.j83agx80 > div.q5bimw55.ofs802cu.dkue75c7.mb9wzai9.o8kakjsu.rpm2j7zs.k7i0oixp.gvuykj2m.j83agx80.cbu4d94t.ni8dbmo4.eg9m0zos.buofh1pr.l56l04vs.r57mb794.l9j0dhe7.kh7kg01d.c3g1iek1.k4xni2cv > div.a8s20v7p.k5wvi7nf.buofh1pr.l9j0dhe7.du4w35lb:first-child > div.cxgpxx05:nth-child(2) > div:first-child > div > div
 facebook.com###mount_0_0 > div > div:nth-child(2) > div.rq0escxv.l9j0dhe7.du4w35lb:nth-child(2) > div.du4w35lb.l9j0dhe7.cbu4d94t.j83agx80 > div.j83agx80.cbu4d94t.jgljxmt5.l9j0dhe7.be9z9djy > div.j83agx80.cbu4d94t.d6urw2fd.dp1hu0rb.l9j0dhe7.du4w35lb:first-child > div.cuepibvl.ka73uehy.dp1hu0rb.j83agx80 > div.ahb00how.o9ndlxrr.fer614ym.dp1hu0rb.pzfvarvs.buofh1pr.ftbm7790:last-child > div.iyyx5f41.czl6b2yu.poy2od1o.dhp61c6y.dp1hu0rb.owwhemhu.pad24vr5.cbu4d94t.n7fi1qx3.j83agx80 > div.q5bimw55.ofs802cu.dkue75c7.mb9wzai9.o8kakjsu.rpm2j7zs.k7i0oixp.gvuykj2m.j83agx80.cbu4d94t.ni8dbmo4.eg9m0zos.buofh1pr.l56l04vs.r57mb794.l9j0dhe7.kh7kg01d.c3g1iek1.k4xni2cv > div.a8s20v7p.k5wvi7nf.buofh1pr.pfnyh3mw.l9j0dhe7.du4w35lb:first-child > div.cxgpxx05:nth-child(2) > div:first-child
 facebook.com###mount_0_0 > div:nth-child(2) > div > div.rq0escxv.l9j0dhe7.du4w35lb:nth-child(2) > div.du4w35lb.l9j0dhe7.cbu4d94t.j83agx80 > div.j83agx80.cbu4d94t.jgljxmt5.l9j0dhe7.be9z9djy > div.j83agx80.cbu4d94t.d6urw2fd.dp1hu0rb.l9j0dhe7.du4w35lb:first-child > div.cuepibvl.ka73uehy.dp1hu0rb.j83agx80 > div.ahb00how.o9ndlxrr.fer614ym.dp1hu0rb.pzfvarvs.buofh1pr.ftbm7790:last-child > div.iyyx5f41.czl6b2yu.poy2od1o.dhp61c6y.dp1hu0rb.owwhemhu.pad24vr5.cbu4d94t.n7fi1qx3.j83agx80 > div.q5bimw55.ofs802cu.dkue75c7.mb9wzai9.o8kakjsu.rpm2j7zs.k7i0oixp.gvuykj2m.j83agx80.cbu4d94t.ni8dbmo4.eg9m0zos.buofh1pr.l56l04vs.r57mb794.l9j0dhe7.kh7kg01d.c3g1iek1.k4xni2cv > div.a8s20v7p.k5wvi7nf.buofh1pr.pfnyh3mw.l9j0dhe7.du4w35lb:first-child > div.cxgpxx05:nth-child(2) > div:first-child
