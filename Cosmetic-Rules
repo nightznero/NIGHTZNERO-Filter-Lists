@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1183
+! Entries: 1187
 !
 ! Expires: 1 days
 !
-! Updated: 2023.07.27
+! Updated: 2023.07.28
 !
 ! MIT License
 !
@@ -1357,9 +1357,13 @@ sympatia.onet.pl###line
 ! Taboola scripts
 -taboola-article.
 -taboola-loader.
+-widget-taboola-
+/ad-taboola.min.js
 /components/taboola/*
 /modulo/taboola/*
+/taboola-header.js
 /taboola-iframe/*
+/taboola-module.
 /taboola.js
 /taboola/footer.
 /taboola/head.
