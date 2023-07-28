@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 1188
+! Entries: 1192
 !
 ! Expires: 1 days
 !
@@ -1105,6 +1105,7 @@ open.fm##.kr1hon2
 ###js-outbrain-relateds
 ###js-outbrain-under-article
 ###outbrain
+###outbrain-section
 ###outbrain1
 ###outbrainWidget
 ###outbrain_widget_0
@@ -1127,7 +1128,9 @@ open.fm##.kr1hon2
 ##.outbrain-recommended
 ##.outbrain-relateds
 ##.outbrain-widget
+##.outbrain-wrap
 ##.outbrain-wrapper
+##.outbrain-wrapper-outer
 ##.outbrainWidget
 ##.outbrain__main
 ##.outbrain_container
@@ -1138,6 +1141,7 @@ open.fm##.kr1hon2
 ##.sics-component__outbrain
 ##.tr-outbrain-container
 ##.widget_ione-outbrain
+##.widget_outbrain
 ##.yom-outbrain
 !! Outbrain Scripts
 /cdn-cgi/pe/bag2?*odb.outbrain.com
