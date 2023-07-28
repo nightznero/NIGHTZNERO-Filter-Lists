@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2005
+! Entries: 2011
 !
 ! Expires: 1 days
 !
@@ -778,6 +778,12 @@ boonga.pl##.ec-fixed.ec-icon.ec-double-btn
 ! Blocked by 1Hosts - Pro
 ||ads.brave.com^$badfilter
 ! Blocked by GoodbyeAds
+@@||ads.brave.software^$first-party
+@@||ads-admin.bravesoftware.com^$first-party
+@@||ads.bravesoftware.com^$first-party
+@@||ads-admin.brave.com^$first-party
+@@||ads-admin.brave.software^$first-party
+@@||ads.brave.com^$first-party
 @@||brave.com^$image,stylesheet,first-party
 @@||search.brave.com^$ghide
 @@||search.brave.com/api/$first-party
