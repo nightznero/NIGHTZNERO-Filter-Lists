@@ -11,17 +11,17 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 530
+! Entries: 531
 !
 ! Expires: 1 days
 !
-! Updated: 2023.08.02
+! Updated: 2023.08.03
 !
 ! MIT License
 !
 ! Copyright (c) 2023 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! .onion sites
+# .onion sites
 @@||axqzx4s6s54s32yentfqojs3x5i7faxza6xo3ehd4bzzsg2ii4fv2iid.onion
 @@||bdf2wcxujkg6qqff.onion
 @@||fauftpffbmvh3p4h.onion
@@ -29,7 +29,7 @@
 @@||lysator7eknrfl47rlyxvgeamrv7ucefgrrlhk7rouv3sna25asetwid.onion
 @@||mirror.librelablmozifzc.onion
 
-! 1Weather
+# 1Weather
 @@||1weather.onelouder.com^
 @@||nwsalert.onelouder.com^
 @@||nwsalert1.onelouder.com^
@@ -39,14 +39,14 @@
 @@||pro-1w-dataaggregator.onelouder.com^
 ! Blocked by HaGeZi - Multi Pro++
 
-! 4Chan
+# 4Chan
 @@||8ch.net^
 @@||4chan.org^
 
-! Accuweather 
+# Accuweather 
 @@||vortex.accuweather.com^
 
-! Alexa [Amazon]
+# Alexa [Amazon]
 @@||a2z.com
 @@||avs-alexa-1-eu.amazon.com
 @@||avs-alexa-1-na.amazon.com
@@ -87,7 +87,7 @@
 @@||avs-alexa-19-eu.amazon.com
 @@||avs-alexa-19-na.amazon.com
 
-! Aliexpress
+# Aliexpress
 @@||assets.alicdn.com^
 @@||ae01.alicdn.com^
 @@||ae04.alicdn.com^
@@ -95,7 +95,7 @@
 @@||alitems.site^
 ! Blocked by GoodByeAds
 
-! Amazon
+# Amazon
 @@||mobileanalytics.us-east-1.amazonaws.com^
 @@||cognito-identity.us-east-1.amazonaws.com^
 @@||unagi-na.amazon.com^
@@ -109,18 +109,18 @@
 @@||device-metrics-us.amazon.com^
 @@||sqs.us-east-1.amazonaws.com^
 
-! AMP
+# AMP
 @@||*.ampproject.org^
 @@||cdn-content.ampproject.org^
 
-! Apple Music
+# Apple Music
 @@||itunes.apple.com^
 @@||s.mzstatic.com^
 
-! Aurora Store
+# Aurora Store
 @@||goolag.store
 
-! Avast
+# Avast
 @@||vanheim.ff.avast.com^
 @@||push.ff.avast.com^
 @@||feed.ff.avast.com^
@@ -130,72 +130,72 @@
 @@||bugs-bunny-test.sb.avast.com^
 ! Blocked by 1Hosts - Pro
 
-! Betclic
+# Betclic
 @@||betclic.pl^
 ! Blocked by Energized.Pro - Basic
 
-! Better Business Bureaus (BBB)
+# Better Business Bureaus (BBB)
 @@||ajax.aspnetcdn.com^
 ! Blocked by DuckDuckGo Tracker Radar
 
-! Bing [Microsoft]
+# Bing [Microsoft]
 @@||bing.com^
 ! Blocked by NIGHTZNERO Blacklist
 
-! Bing Maps / Microsoft Flight Simulator
+# Bing Maps / Microsoft Flight Simulator
 @@||dev.virtualearth.net^
 @@||ecn.dev.virtualearth.net^
 @@||t0.ssl.ak.dynamic.tiles.virtualearth.net^
 @@||t0.ssl.ak.tiles.virtualearth.net^
 
-! Bitdefender
+# Bitdefender
 @@||nimbus.bitdefender.net^
 
-! Bitwarden
+# Bitwarden
 @@||identity.bitwarden.com^
 @@||api.bitwarden.com^
 @@||api.pwnedpasswords.com^
 
-! Blokada
+# Blokada
 @@||go.blokada.org^
 ! Blocked by DuckDuckGo Tracker Radar
 
-! Brave Browser
+# Brave Browser
 @@||rewards.brave.com^
 ! Blocked by 1Hosts - Pro
 @@||sync-v2.brave.com^
 
-! Brazzers AIO
+# Brazzers AIO
 @@||site-api.project1service.com^
 
-! Buzzfeed
+# Buzzfeed
 @@||weaver-api.buzzfeed.com^
 @@||buzzfeed.com^
 @@||img.buzzfeed.com^
 @@||spicerack.buzzfeed.com^
 
-! Camwhores
+# Camwhores
 @@||cdn.tapioni.com^
 ! Blocked by 1Hosts - Pro
 
-! Canary Mail
+# Canary Mail
 @@||backend.canarymail.io^
 
-! Canon
+# Canon
 @@||gdlp01.c-wss.com^
 
-! Captcha
+# Captcha
 @@||api-verify.recaptcha.net^
 
-! CARROT Weather
+# CARROT Weather
 @@||maps.aerisapi.com^
 ! Blocked by 1Hosts - Pro
 
-! CNN
+# CNN
 @@||cdn.cnn.com^
 ! Blocked by DuckDuckGo Tracker Radar
 
-! CoinBase
+# CoinBase
 @@||coinbase.com^
 @@||www.coinbase.com^
 @@||custody.coinbase.com^
@@ -209,38 +209,38 @@
 @@||am.coinbase.com^
 @@||api.coinbase.com^
 
-! CyroseHD
+# CyroseHD
 @@||cyrosehd.page.link^
 ! Blocked by GoodByeAds
 
-! Dev-bsewamods
+# Dev-bsewamods
 @@||dev-bsewamods.epizy.com^
 ! Blocked by HaGeZi - Multi Pro++
 
-! Discord
+# Discord
 @@||discord.gg^
 
-! D-Link routers
+# D-Link routers
 @@||play.googleapis.com.dlinkrouter^
 @@||youtubei.googleapis.com.dlinkrouter^
 
-! Dooood
+# Dooood
 @@||dooood.com^
 ! Blocked by 1Hosts - Pro
 
-! Dropbox
+# Dropbox
 @@||www.dropbox.com^
 ! Blocked by The Ultimate Hosts Blacklist (UHB)
 @@||bolt.dropbox.com^
 @@||dl.dropbox.com^
 @@||dl.dropboxusercontent.com^
 
-! Electronic Arts (EA)
+# Electronic Arts (EA)
 @@||eaassets-a.akamaihd.net^
 ! Blocked by GoodByeAds
 @@||ea.com^
 
-! EnhanceFox
+# EnhanceFox
 @@||multiservice.guangzhuiyuan.com^
 @@||appinference-upload.guangzhuiyuan.com^
 @@||appinference-distribute.guangzhuiyuan.com^
@@ -248,10 +248,10 @@
 @@||appinference-dl.guangzhuiyuan.com^
 ! Blocked by 1Hosts - Pro
 
-! Epic Games
+# Epic Games
 @@||tracking.epicgames.com^
 
-! ESET Mobile Security
+# ESET Mobile Security
 @@||play.eset.com^
 @@||augur.scanners.eset.systems^
 @@||edf.eset.com^
@@ -261,7 +261,7 @@
 @@||i3.gtm.eset.com^
 @@||update.eset.com^
 
-! Facebook [Meta]
+# Facebook [Meta]
 @@||graph.facebook.com^
 @@||graph-video.facebook.com^
 ! Blocked by GoodByeAds
@@ -270,7 +270,7 @@
 ! (For now disabled) @@||web.facebook.com^
 ! Blocked by DuckDuckGo Tracker Radar n NIGHTZNERO Blacklist
 
-! Facebook Lite/Messenger Lite [Meta]
+# Facebook Lite/Messenger Lite [Meta]
 @@||api.facebook.com^
 @@||b-api.facebook.com^
 @@||edge-mqtt.facebook.com^
@@ -279,7 +279,7 @@
 @@||snaptu-mini.c10r.facebook.com^
 @@||rupload.facebook.com^
 
-! Firefox [Mozilla]
+# Firefox [Mozilla]
 @@||snippets.mozilla.com^
 ! Blocked by 1Hosts - Lite
 @@||data.mozilla.com^
@@ -330,22 +330,22 @@
 @@||www.mozilla.com^
 @@||www.mozilla.org^
 
-! GitHub
+# GitHub
 @@||t.en25.com^
 
-Gleam.io
+# Gleam.io
 @@||gleam.io^
 ! Blocked by GoodByeAds
 @@||widget.gleamjs.io^
 ! Blocked by HaGeZi - Multi Pro++
 
 
-! GoFile.io
+# GoFile.io
 @@||file*.gofile.io^
 @@||store*.gofile.io^
 ! Occasionally blocked by lists (ex. HaGeZi,1Hosts)
 
-! Google
+# Google
 @@||region1.app-measurement.com^
 ! Blocked by NIGHTZNERO Blacklist & GoodByeAds
 @@||safebrowsing.google.com^
@@ -384,7 +384,7 @@ Gleam.io
 @@||googleapis.l.google.com^
 @@||notifications-pa.googleapis.com^
 
-! Google APIs (Connected to Google)
+# Google APIs (Connected to Google)
 @@||firebaseinstallations.googleapis.com^
 ! Blocked by various lists,and breaking apps cuz its creating unique id
 @@||firebaseremoteconfig.googleapis.com^
@@ -393,15 +393,15 @@ Gleam.io
 @@||firebasedynamiclinks.googleapis.com^
 ! Blocked by 1Hosts - Pro
 
-! Google Drive
+# Google Drive
 @@||www.googleapis.com^
 @@||imasdk.googleapis.com^
 
-! Google Forms
+# Google Forms
 @@||forms.gle^
 @@||www.forms.gle^
 
-! Google Gmail
+# Google Gmail
 @@||ogs.google.com^
 @@||ci1.googleusercontent.com
 @@||ci2.googleusercontent.com
@@ -410,25 +410,25 @@ Gleam.io
 @@||ci5.googleusercontent.com
 @@||ci6.googleusercontent.com
 
-! Google Photos
+$ Google Photos
 @@||people-pa.googleapis.com^
 
-! Google Play Store
+# Google Play Store
 @@||play.app.goo.gl^
 
-! GsmArena
+# GsmArena
 @@||fdn.gsmarena.com^
 @@||fdn2.gsmarena.com^
 @@||cdn.gsmarena.com^
 
-! GTA Online [Rockstar]
+# GTA Online [Rockstar]
 @@||prod.telemetry.ros.rockstargames.com^
 
-! InShot
+# InShot
 @@||aws.inshot.cc
 ! Blocked by GoodByeAds n NIGHTZNERO Blacklist
 
-! Instagram [Meta]
+# Instagram [Meta]
 @@||i.instagram.com^
 @@||graph.instagram.com^
 ! Blocked by 4PDA Community hosts blacklist
@@ -436,31 +436,35 @@ Gleam.io
 @@||scontent.cdninstagram.com^
 @@||instagram.c10r.facebook.com^
 
-! Kiwi Browser
+# Kiwi Browser
 @@||kiwibrowser.com^
 ! Blocked by 1Hosts - Pro
 
-! League of Legends [Riot Games]
+# League of Legends [Riot Games]
 @@||tdm.prod01.row.cros.wr.pvp.net
 
-! LeakedZone
+# LeakedZone
 @@||p.jwpcdn.com^
 @@||prd.jwpltx.com^
 @@||entitlements.jwplayer.com^
 ! Blocked by 4PDA Community hosts blacklist
 
-! LinkedIn [Microsoft]
+# LinkedIn [Microsoft]
 @@||licdn.com^
 @@||platform.linkedin.com^
 
-! Malwarebytes
+# Malwarebytes
 @@||keystone.mwbsys.com^
 
-! Microsoft Rewards
+# MapBox
+@@||api.tiles.mapbox.com^
+! Blocked by ADM Advanced Download Manager Host List
+
+# Microsoft Rewards
 @@||prod.rewardsplatform.microsoft.com^
 ! Blocked by 1Hosts - Pro
 
-! Netflix
+# Netflix
 @@||nflximg.com^
 @@||nflxvideo.net^
 @@||llnwd.net^
@@ -471,22 +475,22 @@ Gleam.io
 @@||api-global.netflix.com^
 @@||ichnaea.netflix.com^
 
-! Nvidia GeForce
+# Nvidia GeForce
 @@||events.gfe.nvidia.com^
 @@||gfwsl.geforce.com^
 @@||ota-downloads.nvidia.com^
 
-! OnePlus OTA updates
+# OnePlus OTA updates
 @@||open.oneplus.net^
 
-! OpenSignal
+# OpenSignal
 @@||api.onesignal.com^
 ! Blocked by 1Hosts - Pro & GoodByeAds
 
-! OpenAI
+# OpenAI
 @@||api.openai.com^
 
-! Opera
+# Opera
 @@||api.recsys.opera.com^
 ! Blocked by 4PDA
 @@||discover.operacdn.com^
@@ -494,38 +498,38 @@ Gleam.io
 @@||api-a.op-mobile.opera.com^
 ! Blocked by 1Hosts - Lite & GoodByeAds
 
-! Origin
+# Origin
 @@||cdn.optimizely.com^
 
-! PayPal
+# PayPal
 @@||www.paypal.com^
 @@||www.glb.paypal.com^
 @@||t.paypal.com^
 @@||www.paypal.com.edgekey.net^
 
-! pCloud
+# pCloud
 @@||pcdn-www.pcloud.com^
 @@||pcdn-my.pcloud.com^
 
-! Philips Hue
+# Philips Hue
 @@||ecdinterface.philips.com^
 
-! Pinterest
+# Pinterest
 @@||assets.pinterest.com^
 @@||api.pinterest.com^
 
-! Pixeldrain
+# Pixeldrain
 @@||pixeldrain.com^
 ! Blocked by GoodByeAds
 
-! PlayStation 5 (Sony)
+# PlayStation 5 (Sony)
 @@||telemetry-console.api.playstation.com^
 
-! Plex
+# Plex
 @@||app.plex.tv^
 @@||dashboard.plex.tv^
 
-! Pornhub
+# Pornhub
 @@||pornhub.com^
 @@||ss.phncdn.com^
 @@||di.phncdn.com^
@@ -536,7 +540,7 @@ Gleam.io
 @@||hubt.pornhub.com^
 @@||cdn1d-static-shared.phncdn.com^
 
-! PornReactor.cc
+# PornReactor.cc
 @@||img.pornreactor.cc^
 @@||img0.pornreactor.cc^
 @@||img1.pornreactor.cc^
@@ -545,12 +549,12 @@ Gleam.io
 @@||js.pornreactor.cc^
 ! Blocked by Energized.Pro - Spark
 
-! PREQUEL
+# PREQUEL
 @@||cfimg.prequel.app^
 @@||ahcdn.prequel.app^
 ! Blocked by GoodByeAds
 
-! Reactor.cc
+# Reactor.cc
 @@||reactor.cc^
 ! Blocked by 1Hosts - Pro
 @@||img.reactor.cc^
@@ -561,18 +565,18 @@ Gleam.io
 @@||js.reactor.cc^
 ! Blocked by Energized.Pro - Spark
 
-! Reddit 
+# Reddit 
 @@||accounts.reddit.com^
 @@||i.reddit.com^
 @@||redd.it^
 @@||i.redd.it^
 @@||cdn.embedly.com^
 
-! Rentry.co
+# Rentry.co
 @@||rentry.co^
 ! Blocked by The Ultimate Hosts Blacklist (UHB)
 
-! Samsung
+# Samsung
 @@||pushmessage.samsung.com^
 @@||us-api.mcsvc.samsung.com^
 @@||capi.samsungcloud.com^
@@ -585,32 +589,32 @@ Gleam.io
 @@||account.samsung.com^
 @@||vas.samsungapps.com^
 
-! Samsung FREE
+# Samsung FREE
 @@||img.yana.asideas.de^
 ! Blocked by 1Hosts - Lite
 
-! Samsung Pay
+# Samsung Pay
 @@||api.usebutton.com^
 @@||cdn-us-ec.yottaa.net^
 @@||www.anrdoezrs.net^
 @@||cj.dotomi.com^
 @@||www.emjcd.com^
 
-! Shazam
+# Shazam
 @@||kong-global.shz-amp-prod.shazamcloud.com
 @@||uth.shazam.com
 
-! Shopify
+# Shopify
 @@||s.shopify.com^
 
-! Showup.tv
+# Showup.tv
 @@||showup.tv^
 ! Blocked by 1Hosts - Pro
 
-! Skype [Microsoft]
+# Skype [Microsoft]
 @@||client-s.gateway.messenger.live.com^
 
-! Smart TV
+# Smart TV
 @@||ngfts.lge.com^
 @@||mhc-ajax-eu.myhomescreen.tv^
 @@||mhc-ajax-eu-s2.myhomescreen.tv^
@@ -651,7 +655,7 @@ Gleam.io
 @@||api.us.hismarttv.com^
 @@||api.euro.hismarttv.com^
 
-! Snapchat
+# Snapchat
 @@||accounts.snap.com^
 ! Blocked by 1Hosts - Pro
 @@||aws.api.snapchat.com^
@@ -661,15 +665,15 @@ Gleam.io
 @@||cf-st.sc-cdn.net^
 @@||app.snapchat.com^
 
-! SoundCloud
+# SoundCloud
 @@||s.pwt.soundcloud.com^
 ! Blocked by Energized.Pro - Basic
 
-! SpankBang
+# SpankBang
 @@||spankbang.com^
 ! Blocked by GoodByeAds
 
-! Spotify
+# Spotify
 @@||api.spotify.com^
 @@||login5.spotify.com^
 @@||audio4-fa.scdn.co^
@@ -682,11 +686,11 @@ Gleam.io
 @@||audio-ak-spotify-com.akamaized.net^
 @@||lite-images-i.scdn.co^
 
-! Square Space
+# Square Space
 @@||static1.squarespace.com^
 ! Blocked by DuckDuckGo Tracker Radar
 
-! SwiftKey Keyboard [Microsoft]
+# SwiftKey Keyboard [Microsoft]
 @@||jenson.api.swiftkey.com^
 @@||bibo.api.swiftkey.com^
 @@||tigger-citadel.touchtype-fluency.com^
@@ -694,28 +698,28 @@ Gleam.io
 @@||swiftkey-sync-production.touchtype-fluency.com^
 @@||tokens-auth.touchtype-fluency.com^
 
-! The Daily Beast
+# The Daily Beast
 @@||thedailybeast.com^
 ! Don't unbreak their metrics though
 ||metrics.thedailybeast.com^
 
-! The Movie DataBase (TMDB)
+# The Movie DataBase (TMDB)
 @@||image.tmdb.org^
 ! Blocked by Energized.Pro - Basic
 
-! Trakt.tv
+# Trakt.tv
 @@||api.trakt.tv^
 
-! TuneIn Radio
+# TuneIn Radio
 @@||traffic.megaphone.fm^
 @@||traffic.eks.megaphone.cloud^
 
-! Twitch.tv
+# Twitch.tv
 @@||gql.twitch.tv^
 @@||mp.twitch.tv^
 @@||spade.sci.twitch.tv^
 
-! Twitch extension's
+# Twitch extension's
 @@||api.chatterino.com^
 @@||cdn.chatterino.com^
 @@||api.betterttv.net^
@@ -729,38 +733,38 @@ Gleam.io
 @@||7tv.io^
 @@||pronouns.alejo.io^
 
-! TwitchMod / OrangeTV / PurpleTV
+# TwitchMod / OrangeTV / PurpleTV
 @@||api.nopbreak.ru^
 ! Blocked by HaGeZi - Multi Pro++
 
-! Twitter
+# Twitter
 @@||twimg.com^
 ! (For now disabled) @@||api.twitter.com^
 ! (For now disabled) @@||platform.twitter.com^
 
-! Under Armour
+# Under Armour
 @@||fieldtesting.underarmour.com^
 @@||uafieldtesting.sjc1.qualtrics.com^
 @@||ualistens.underarmour.com^
 ! Blocked by GoodByeAds
 
-! Upday
+# Upday
 @@||prod.yana.asideas.de^
 ! Blocked by 1Hosts - Pro
 
-! UTorrent
+# UTorrent
 @@||update.utorrent.com^
 
-! VK (VKontate)
+# VK (VKontate)
 @@||vk.com^
 @@||pp.userapi.com^
 @@||userapi.com^
 
-! Wild Rift [Riot Games]
+# Wild Rift [Riot Games]
 @@||lolstatic-a.akamaihd.net^
 ! Blocked by GoodByeAds Spotify
 
-! Windows [Microsoft]
+# Windows [Microsoft]
 @@||www.msftncsi.com^
 @@||officeclient.microsoft.com^
 @@||dl.delivery.mp.microsoft.com^
@@ -778,18 +782,18 @@ Gleam.io
 @@||wac.edgecastcdn.net^
 @@||cds.d2s7q6s2.hwcdn.net^
 
-! WOT Mobile Security Protection
+# WOT Mobile Security Protection
 @@||user.api.mywot.com^
 @@||auth.api.mywot.com^
 ! Blocked by 4PDA Community hosts blacklist
 
-! WPS Office
+# WPS Office
 ! (For now disabled) @@||movip.wps.com^
 ! Blocked by GoodByeAds
 ! (For now disabled) @@||plugin-server.wps.com^
 ! Blocked by 1Hosts - Pro
 
-! Xbox [Microsoft]
+# Xbox [Microsoft]
 @@||xbox.ipv6.microsoft.com^
 @@||device.auth.xboxlive.com^
 @@||title.mgt.xboxlive.com^
@@ -811,36 +815,36 @@ Gleam.io
 @@||settings-win.data.microsoft.com^
 @@||clientconfig.passport.net^
 
-! Xiaomi
+# Xiaomi
 @@||file.market.xiaomi.com^
 ! Blocked by 4PDA Community hosts blacklist
-!! Xiaomi Home
+## Xiaomi Home
 @@||data.sec.miui.com^
 @@||de.api.io.mi.com^
 @@||sts.api.io.mi.com^
 ! Blocked by GoodByeAds
-!! Xiaomi Payments
+## Xiaomi Payments
 @@||metok.sys.miui.com^
 @@||data.mistat.xiaomi.com^
 @@||api.jr.mi.com^
 @@||resolver.msg.xiaomi.net^
-!! Xiaomi Weather (Wearable)
+## Xiaomi Weather (Wearable)
 @@||restapi.amap.com^
 @@||adiu.amap.com^
 @@||digitalassetlinks.googleapis.com^
 
-! YouTube [Google] ! Blocked by various lists
+# YouTube [Google] ! Blocked by various lists
 @@||s.youtube.com^
 @@||youtubei.googleapis.com^
 ! (For now disabled) @@||video-stats.l.google.com^
 ! (For now disabled) @@||play.googleapis.com^
 @@||redirector.googlevideo.com^
 
-! Zbiornik
+# Zbiornik
 @@||zbiornik.com^
 ! Blocked by 4PDA Community hosts blacklist
 
-! Żappka [Żabka]
+# Żappka [Żabka]
 @@||snrcdn.net^
 ! Blocked by Energized.Pro - Basic
 
