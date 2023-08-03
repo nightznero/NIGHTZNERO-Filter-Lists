@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 530
+! Entries: 529
 !
 ! Expires: 1 days
 !
@@ -444,8 +444,7 @@ $ Google Photos
 @@||tdm.prod01.row.cros.wr.pvp.net
 
 # LeakedZone.com / HotLeak.vip
-@@||p.jwpcdn.com^
-@@||prd.jwpltx.com^
+! (For now disabled) @@||p.jwpcdn.com^
 ! Blocked by 4PDA Community hosts blacklist
 
 # LinkedIn [Microsoft]
