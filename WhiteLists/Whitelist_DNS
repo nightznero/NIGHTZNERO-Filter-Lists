@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 529
+! Entries: 531
 !
 ! Expires: 1 days
 !
-! Updated: 2023.08.03
+! Updated: 2023.08.10
 !
 ! MIT License
 !
@@ -780,7 +780,10 @@ $ Google Photos
 @@||wac.edgecastcdn.net^
 @@||cds.d2s7q6s2.hwcdn.net^
 
-# WOT Mobile Security Protection
+# WOT (Web of Trust)
+@@||mywot.com^
+@@||www.mywot.com^
+! Blocked by ADM Advanced Download Manager Host List
 @@||user.api.mywot.com^
 @@||auth.api.mywot.com^
 ! Blocked by 4PDA Community hosts blacklist
