@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 531
+! Entries: 532
 !
 ! Expires: 1 days
 !
-! Updated: 2023.08.10
+! Updated: 2023.08.11
 !
 ! MIT License
 !
@@ -477,6 +477,10 @@ $ Google Photos
 @@||events.gfe.nvidia.com^
 @@||gfwsl.geforce.com^
 @@||ota-downloads.nvidia.com^
+
+# OneLink.me (Tracker to most of profiles)
+@@||*.onelink.me^
+! Blocked by GoodByeAds
 
 # OnePlus OTA updates
 @@||open.oneplus.net^
