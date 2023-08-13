@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2023.08.11
+! Updated: 2023.08.13
 !
 ! MIT License
 !
@@ -444,7 +444,7 @@ $ Google Photos
 @@||tdm.prod01.row.cros.wr.pvp.net
 
 # LeakedZone.com / HotLeak.vip
-! (For now disabled) @@||p.jwpcdn.com^
+@@||ssl.p.jwpcdn.com^
 ! Blocked by 4PDA Community hosts blacklist
 
 # LinkedIn [Microsoft]
