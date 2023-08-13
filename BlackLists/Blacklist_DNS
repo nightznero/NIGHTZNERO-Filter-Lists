@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 351 (+15 local hosts)
+! Entries: 1 352 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.08.09
+! Updated: 2023.08.14
 !
 ! MIT License
 !
@@ -732,10 +732,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 misc.api.snaptube.app
 0.0.0.0 ad-snaptube.app
 
-! Fvck off - PicsArt
+# Fvck off - PicsArt
 0.0.0.0 analytics.picsart.com
 
-! Fvck off - Lensa [Prisma Labs]
+# Fvck off - Lightricks LTD (Motionleap/Lightleap/Videoleap/Photoleap)
+0.0.0.0 analytics-gateway.delta.dp.lightricks.com
+
+# Fvck off - Lensa [Prisma Labs]
 0.0.0.0 telemetry.lensa.paltabrain.com
 
 ! Fvck off - WPS Office [KingSoft]
