@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 352 (+15 local hosts)
+! Entries: 1 371 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.08.14
+! Updated: 2023.08.15
 !
 ! MIT License
 !
@@ -781,7 +781,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 twpytr.com
 0.0.0.0 ijnb.cn
 0.0.0.0 czyj-to-numer.pl
-0.0.0.0 re-vanced.com
 0.0.0.0 yesdownloader.com
 0.0.0.0 saveporn.net
 0.0.0.0 phdownload.net
@@ -804,8 +803,36 @@ ff02::3 ip6-allhosts
 0.0.0.0 bestofleaks.com
 0.0.0.0 fapello-leaks.com
 
-! Fvck off - Fake Apk Stores (I have nothing to mods if they are made properly n safe)
+# Fvck off - Games sites
+0.0.0.0 igg-games.com
+0.0.0.0 pcgamestorrents.org
+0.0.0.0 gamestorrents.fm
+0.0.0.0 oceanofgames.com
+0.0.0.0 oceansofgamess.com
+0.0.0.0 loadgames.org
+0.0.0.0 loadgames.us
+0.0.0.0 downloadly.net
+0.0.0.0 downloadlyir.com
+0.0.0.0 downloadlynet.ir
+0.0.0.0 gamefabrique.com
+0.0.0.0 game3rb.com
+0.0.0.0 wifi4games.com
+0.0.0.0 nosteamgames.ro
+0.0.0.0 thekickasstorrents.to
+0.0.0.0 kickasstorrents.to
+
+# Fvck off - Minecraft Launchers
+0.0.0.0 tlauncher.org
+0.0.0.0 klauncher.ru
+
+# Fvck off - Fake Apk Stores (I have nothing to mods if they are made properly n safe)
 0.0.0.0 apksoul.net
+
+# Fvck off - ReVanced (OG ReVanced wannabe)
+0.0.0.0 re-vanced.com
+
+# Fvck off - LibreTube (scams,not the real one)
+0.0.0.0 libretube.net
 
 ! Fvck off - Camscanner App
 0.0.0.0 sf3-fe-tos.pglstatp-toutiao.com
