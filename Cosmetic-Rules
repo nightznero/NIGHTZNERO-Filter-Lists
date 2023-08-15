@@ -11,17 +11,17 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2015
+! Entries: 2017
 !
 ! Expires: 1 days
 !
-! Updated: 2023.08.03
+! Updated: 2023.08.15
 !
 ! MIT License
 !
 ! Copyright (c) 2023 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Fanboy missing elements
+# Fanboy missing elements
 ##.banner
 ##.basic-banner
 ##.board-tail-banner
@@ -46,7 +46,7 @@
 ###veta_branding
 ###veta_top
 
-! Default
+# Default
 @@/favicon.ico|
 ://ww16.
 ||0.0.0.0^$third-party,domain=~[::]|~[::ffff:0:0]
@@ -63,7 +63,7 @@
 &adsafe=
 $document,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|asos.com|att.com|bankofamerica.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|blog.getadblock.com|blogs.oracle.com|boxboat.com|britishcornershop.co.uk|bybit.com|chollometro.com|coinpanel.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|edx.org|educba.com|eonline.com|escentual.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|hammacher.com|hanes.com|hotspotshield.com|hottopic.com|housing.com|hp.com|instagram.com|itnext.io|jacquielawson.com|just-eat.co.uk|kasta.io|medium.com|microsoftedgewelcome.microsoft.com|nautica.com|nortonsafe.search.ask.com|onehanesplace.com|outnorth.fi|pepper.pl|petsupplies.com|phonesoap.com|riteaid.com|runnode.com|search.brave.com|seekingalpha.com|sonos.com|spiceworks.com|squarespace.com|studio.co.uk|subscribe.gq.com|t.me|thedailybeast.com|tiktok.com|tokopedia.com|torrid.com|tous.com|tradingview.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wired.com|ylighting.com|youtube.com|yubo.live
 
-! GDPR Tracking
+# GDPR Tracking
 ://a02342.
 ||cb-mms.carbuyer.co.uk^
 ||cmp.courrierinternational.com^
@@ -89,7 +89,7 @@ $document,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|asos.com|a
 ||twus-mms.theweek.com^
 ||vg247.com/wp-content/themes/vg247/scripts/mvg247-fsm.js
 
-! In-Video Ads
+# In-Video Ads
 ||api.fw.tv^
 ||avantisvideo.com/avm/js/video-loader.js$script,third-party
 ||channelexco.com/player/$third-party
@@ -123,7 +123,7 @@ $document,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|asos.com|a
 ||vplayer.newseveryday.com^
 ||entitlements.jwplayer.com^
 
-! Anti AdBlock Enhanced+
+# Anti AdBlock Enhanced+
 &crc=1|$xmlhttprequest,third-party
 &dev=r&adb=y|$document
 .com/1?z=$script,third-party
@@ -533,7 +533,7 @@ _spot_id=*&zone_id=$script,~third-party
 /^https?:\/\/[a-z]{8,15}\.(?:com|net|top|xyz)\/[-a-z]{4,}\.css\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$stylesheet,third-party,match-case
 /^https?:\/\/[a-z]{8,15}\.(?:com|net|top|xyz)\/[a-z]{4,}\.png\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$image,third-party,match-case
 
-! Anti-AdBlock Trackers
+# Anti-AdBlock Trackers
 ||mms.cnn.com^
 ||sp.app.com^
 ||sp.argusleader.com^
@@ -635,7 +635,7 @@ _spot_id=*&zone_id=$script,~third-party
 ||sp.yorkdispatch.com^
 ||sp.zanesvilletimesrecorder.com^
 
-! NextDNS CNAME Cloaking Blocklist
+# NextDNS CNAME Cloaking Blocklist
 ! Eulerian [eulerian.com]
 ||eulerian.net^
 ! AT Internet (formerly XiTi) [atinternet.com]
@@ -698,12 +698,12 @@ tracking.bp01.net
 !! Note: not directly disguising itself as first-party, but cloaking the destination behind plenty of random domains.
 ||ghochv3eng.trafficmanager.net^
 
-! Browsers SM (WhiteList)
+# Browsers SM (WhiteList)
 @@$css
 @@$font
 @@$media
 
-! (Fvcking) Ads
+# (Fvcking) Ads
 ||tsyndicate.com^$third-party,popup,important
 ||syndication.*.com^$third-party,popup,important
 ||*.exdynsrv.com^$third-party,popup,important
@@ -727,7 +727,7 @@ tracking.bp01.net
 ||0x01n2ptpuz3.com^$third-party,popup,important
 ||adsrvr.io^$third-party,popup,important
 
-! (Fvcking) Adservers
+# (Fvcking) Adservers
 ||pixfuture.com^$third-party
 ||closureevaporatefume.com^
 ||pub.network^
@@ -735,10 +735,10 @@ tracking.bp01.net
 ||papayads.net^$third-party
 ||revcontent.com^$third-party
 
-! 1SITERIP
+# 1SITERIP
 1siterip.com##div.all-wr:nth-child(2) > div.middle.clearfix:nth-child(2) > aside.middle-right:last-child
 
-! 4PDA
+# 4PDA
 ||4pda.*/79tJPvZFILa8.*
 ||4pda.*/st/ztm?*
 ||ds-assets.cdn.devapps.ru*/79tJPvZFILa8.*$domain=4pda.to
@@ -749,11 +749,11 @@ tracking.bp01.net
 4pda.*##[target] [src*="s.4pda.to"][alt=""][title=""][border="0"]
 4pda.*##[valign="top"] > > :not(#logostrip)
 
-! Allegro.pl
+# Allegro.pl
 allegro.pl##div.main-wrapper:nth-child(4) > div:last-child > div.mgn2_14.mp0t_0a.mqu1_21.mgmw_wo.mli8_k4._sjlwg:first-child
 allegro.pl##div.main-wrapper:nth-child(3) > div:last-child
 
-! Amazon
+# Amazon
 ||amazon.*/action-impressions/
 ||amazon.*/ajax/counter?
 ||amazon.com/1/events/$domain=~aws.amazon.com
@@ -763,17 +763,17 @@ allegro.pl##div.main-wrapper:nth-child(3) > div:last-child
 ||aax-eu-dub.amazon.com^
 ||aax-us-iad.amazon.com^
 
-! Bing [Microsoft]
+# Bing [Microsoft]
 ||bing.com/mouselog$script,redirect-rule=noopjs,domain=bing.com
 ||bing.com/fd/ls/l?ig=
 ||bing.com/fd/ls/glinkping.aspx?
 ||msn.com/onecollector/
 ||bing.com/fd/ls/lsp.aspx
 
-! boonga.pl
+# boonga.pl
 boonga.pl##.ec-fixed.ec-icon.ec-double-btn
 
-! Brave Browser
+# Brave Browser
 ||rewards.brave.com^$badfilter
 ! Blocked by 1Hosts - Pro
 ||ads.brave.com^$badfilter
@@ -795,15 +795,15 @@ boonga.pl##.ec-fixed.ec-icon.ec-double-btn
 @@||basicattentiontoken.org^$first-party
 search.brave.com#@#+js(no-fetch-if, body:browser)
 
-! Brave Browser Forum
+# Brave Browser Forum
 @@||cdck-file-uploads-global.s3.us-west-2.amazonaws.com/temp/brave/$domain=community.brave.com
 
-! Bunkr
+# Bunkr
 ! For now disabled @@||i*.bunkr.*/thumbs^$stealth
 @@||i*.bunkr.*/thumbs^$domain=bunkr.*|bunkrr.*|i*.bunkr.*
 @@||media-files*.bunkr.*/*.mp4$domain=bunkr.*|bunkrr.*
 
-! CamWhores.tv
+# CamWhores.tv
 @@||www.camwhores.tv^$stealth
 @@||cdn.camwhores.tv/styles/all-responsive-metal.css?v=*$domain=camwhores.tv
 @@||cdn.camwhores.tv/styles/jquery.fancybox-metal.css?v=*$domain=camwhores.tv
@@ -813,31 +813,31 @@ camwhores.tv##div.container:nth-child(2) > iframe:nth-child(3)
 camwhores.tv##div.container:nth-child(2) > div.content:nth-child(4) > iframe:nth-child(3)
 camwhores.tv##div.container:nth-child(2) > div.content:nth-child(4) > div.block-video:nth-child(2) > div.table:first-child
 
-! CHILLWAGON
+# CHILLWAGON
 chillwagonthegame.com##.cb-wrapper
 chillwagonthegame.com##.cookie-bubble.bottom-left.show
 
-! Crypto (Fake Crypto sites)
-!! BAT (Basic Attention Token)
+# Crypto (Fake Crypto sites)
+## BAT (Basic Attention Token)
 ||basicattentiontoken.claims^
-!! APE
+## APE
 ||ape-coin.gift^
 
-cdti.pl
+# cdti.pl
 ctdi.pl###bannerdown
 
-! Coomer.party
+# Coomer.party
 @@||c*.coomer.party/data^
 @@||c*.coomer.su/data^
 
-! CumOnPrintedPics.com
+# CumOnPrintedPics.com
 cumonprintedpics.com###message > center:first-child
 cumonprintedpics.com###message > center:nth-child(4)
 
-! CyberDrop.me (file hosting service)
+# CyberDrop.me (file hosting service)
 cyberdrop.me###adwl-footer
 
-! CyberFile (file hosting service) [Bunkr]
+# CyberFile (file hosting service) [Bunkr]
 @@||cache.cyberfile.*^$domain=cyberfile.*
 @@||cache-*.cyberfile.*^$domain=cyberfile.*
 @@||cyberfile.*/cache^$domain=cyberfile.*
@@ -845,11 +845,11 @@ cyberdrop.me###adwl-footer
 @@||cyberfile-*.b-cdn.net^$domain=cyberfile.*
 @@||cdn.plyr.io^$domain=cyberfile.*
 
-! DaniDaniels.com
+# DaniDaniels.com
 danidaniels.com##.strip-notification-wrapper.verification-sent
 danidaniels.com###gdpr-cookie-accept
 
-! Datezone.com
+# Datezone.com
 @@||imgcdn.datezone.com/users/401/$domain=imgcdn.datezone.com|datezone.com,important
 ! Blocked by Fuck FuckAdBlock
 @@||*cdn*.datezone.com/webcam/*/webcam_*.*?v=*$domain=datezone.com
@@ -860,33 +860,29 @@ danidaniels.com###gdpr-cookie-accept
 @@||movcdn*.datezone.com/webcam/*/webcam_preview.webm?v=*$domain=datezone.com
 @@||*.streamlock.net/webrtc-session.json$domain=datezone.com
 
-! Dev-bsewamods
-@@||dev-bsewamods.epizy.com^
-! Blocked by HaGeZi - Multi Pro++
-
-! Dooood
+# Dooood
 @@||dooood.com/e^
 @@||dooood.com/pass_md5^$domain=dooood.com
 ! Blocked by 1Hosts - Pro
 
-! DziennikLodzki.pl
+# DziennikLodzki.pl
 dzienniklodzki.pl##.g05b829be564e4e510d498980d301bac4df931fd7*
 dzienniklodzki.pl##.g05b829be564e4e510d498980d301bac4df931fd7
 dzienniklodzki.pl###g05b829be564e4e510d498980d301bac4df931fd7901811034
 
-! e-pity.pl
+# e-pity.pl
 @@||dysk.e-file.pl/api/*$domain=e-pity.pl
 
-! erodate.pl
+# erodate.pl
 erodate.pl##.header-promo
 erodate.pl##header.header:nth-child(*) > div.header-promo:first-child > div.alert.alert-dismissable.fade.in.action
 erodate.pl###content > div.homepage-right:last-child > div.promo-container.module-box:nth-child(*)
 erodate.pl##.homepage-right
 
-! erome
+# erome
 erome.com##.free-space
 
-! Facebook [Meta]
+# Facebook [Meta]
 @@||connect.facebook.net^*/sdk/$tag=fb-embeds
 @@||connect.facebook.net^*/sdk.js$tag=fb-embeds
 @@||connect.facebook.net^*/all.js$tag=fb-embeds
@@ -928,8 +924,8 @@ facebook.com###mount_0_0 > div:nth-child(2) > div:first-child > div.rq0escxv.l9j
 /fbevents.js$important
 /fbevents.min.js$important
 
-! Fandom
-!! League of Legends
+# Fandom
+## League of Legends
 leagueoflegends.fandom.com##.featured-video
 leagueoflegends.fandom.com##.featured-video__player-container
 leagueoflegends.fandom.com##.WikiaTopAds
@@ -948,45 +944,45 @@ leagueoflegends.fandom.com##.wds-banner-notification.wds-message.notify
 leagueoflegends.fandom.com###\35 b2d1649b2-188-1
 leagueoflegends.fandom.com###\35 bbe13967e-188-1
 
-! Filmweb.pl
+# Filmweb.pl
 filmweb.pl##.rodoBoard
 filmweb.pl##.boardsWrapper.rodo__overlay.IRI
 
-! Gamecore
+# Gamecore
 gamcore.com##.add_game
 gamcore.com##.cc_banner-wrapper
 gamcore.com##.cc_banner.cc_container.cc_container--open
 gamcore.com##.d-none.col-xl-2.col-lg-2.col-md-12.col-sm-12.col-xs-12.d-lg-block.rightAdd
 gamcore.com###thgir
 
-! Gamepedia
-!! The Binding of Isaac
+# Gamepedia
+## The Binding of Isaac
 bindingofisaacrebirth.gamepedia.com###siderail_bindingofisaacre_gamepedia
 
-! Genius
+# Genius
 genius.com##.optanon-alert-box-wrapper
 genius.com##.optanon-alert-box-bg
 
-! Gleam.io (giveaway's)
+# Gleam.io (giveaway's)
 @@||js.gleam.io/webpack/*$domain=gleam.io
 ! Blocked by HaGeZi - Multi Pro++
 @@||widget.gleamjs.io^
 ! Blocked by Fanboy Ultimate List
 
-! GoFile.io
+# GoFile.io
 @@||file*.gofile.io/download^
 @@||store*.gofile.io/download^
 
-! Google
+# Google
 @@||maps.googleapis.com/maps/api^
 ||www.googletagmanager.com^
 ||www.google-analytics.com^
 
-! GOunlimited.to
+# GOunlimited.to
 gounlimited.to###adbd
 gounlimited.to##.overdiv
 
-! Igg-Games
+# Igg-Games
 igg-games.com###evM
 igg-games.com###XHp
 igg-games.com###dLg
@@ -996,7 +992,7 @@ igg-games.com###msy
 igg-games.com###yVF
 igg-games.com###LfY
 
-! Imgur
+# Imgur
 imgur.com##iframe[src="javascript:'<html><head></head><body style=\"margin:0 auto\"><script>var uponit=true; var upapi=true;</script></body></html>'"]
 imgur.com###div-ad-under_sidebar
 imgur.com##.advertisement.div-ad-active-under_sidebar
@@ -1009,79 +1005,84 @@ imgur.com###div-ad-bottom_med_rec
 imgur.com##.advertisement.div-ad-active-top_med_rec
 imgur.com##.advertisement.div-ad-active-bottom_med_rec
 
-! Instagram [Meta]
+# Instagram [Meta]
 ||instagram.com/logging/
 ||instagram.com/logging_client_events
 ||instagram.com/ajax/bz
 
-! Interia Poczta
+# Interia Poczta
 @@||ud.interia.pl^$domain=poczta.interia.pl
 
-! KFC
+# KFC
 @@||api.amrest.eu/amdv/ordering-api/KFC_PL/rest^$stealth
 @@||kfc.pl^$stealth
 @@||kfcdostawa.pl/ordering-api^$stealth
 
-! Kiwi Browser
+# Kiwi Browser
 @@||kiwibrowser.com^
 ! Blocked by 1Hosts - Pro
 
-! Lento.pl
+# Lento.pl
 lodz.lento.pl###a-sho-bootm
 lodz.lento.pl##main:nth-child(*) > div.container-fluid.otherpage-container > div.row:nth-child(*) > div.col-md-* > div.showogl > div.row-sm-flex:first-child > div.col-sm-left:first-child > div.img-cat.hidden-xs:last-child
 
-! LinkedIn [Microsoft]
+# LinkedIn [Microsoft]
 @@||licdn.com^$tag=linked-in-embeds
 @@||platform.linkedin.com^$tag=linked-in-embeds
 ||licdn.com^$third-party,domain=~linkedin.com
 ||linkedin.com^$third-party
 
-! MasterCard
+# MasterCard
 @@||bezcennechwile.mastercard.pl^
 @@||rpm.upaid.pl^
 
-! METAsrc.com
+# METAsrc.com
 metasrc.com###content > div._qngo9y:first-child > div._lo7gbl._yq1p7n:first-child > div > div.desktop.desktop-wide:last-child
 
-! Microsoft
-! Support Chat
+# Microsoft
+## Support Chat
 @@||ravewidgetprd-communication-services.communication.azure.com/chat^$domain=widget.rave.office.net
 @@||widget.rave.office.net/api/requests^$domain=widget.rave.office.net
 
-! Minecraft.org.pl
+# Minecraft.org.pl
 minecraft.org.pl##div[style="position: fixed; top: 0; left: 0; bottom: 0; right: 0;display: flex;justify-content: center;align-items:center;font-size:20px;background:rgba(0,0,0,.5)"]
 
-! MinuteInBox.com (temp mail)
+# MinuteInBox.com (temp mail)
 minuteinbox.com##.wpcc-container.wpcc-float.wpcc-transparency-15.wpcc-bottom.wpcc-left.wpcc-color-custom--*
 
-! Mobilism.org / Mobilism.me
+# Mobilism.org / Mobilism.me
 @@||forum.mobilism.org##I.icon-chevron-up^
 @@||forum.mobilism.me##I.icon-chevron-up^
 @@||forum.mobilism.*/styles/BBOOTS/theme/bootstrap^$domain=forum.mobilism.org^,forum.mobilism.me^
 
-! ModDB
+# ModDB
 moddb.com##.cc_banner.cc_container.cc_container--open
 
-! Mozilla
+# Mozilla
 forum.mozilla-*.org##[id="announce"]
 
-! NextCloud
+# NextCloud
 @@||bes.to^$stealth
 ! Stealth breaks media player
 
-! Niebo Nie Jest Już Limitem [NNJL]
+# Niebezpiecznik.pl
+||niebezpiecznik.pl/r114.php^
+||niebezpiecznik.pl/osint^
+||niebezpiecznik.pl/wp-content/uploads/2022/08/szk1osint-600x600.png
+
+# Niebo Nie Jest Już Limitem [NNJL]
 nnjl.pl##.woocommerce-store-notice.demo_store
 
-! NudePatch.net
+# NudePatch.net
 nudepatch.net##div:nth-child(41)
 
-! Nudostar.com
+# Nudostar.com
 nudostar.com##div.advertising1:nth-child(*)
 nudostar.com###top > div.p-body:nth-child(5) > div.p-body-inner > ul.notices.notices--block.js-notices:first-child
 nudostar.com###top > div.p-body:nth-child(5) > div.p-body-inner > ul.notices.notices--block.notices--isMulti.js-notices:first-child > li.notice.js-notice.notice--primary:last-child
 nudostar.com###top > div.p-body:nth-child(5) > div.p-body-inner > div.p-body-main:nth-child(5) > div.p-body-content > div.samCodeUnit.samAlignCenter:last-child
 
-! Oglaszamy24.pl
+# Oglaszamy24.pl
 @@||oglaszamy24.pl/img^
 @@||oglaszamy24.pl/m/img^
 @@||www.oglaszamy24.pl/img^
@@ -1089,14 +1090,14 @@ nudostar.com###top > div.p-body:nth-child(5) > div.p-body-inner > div.p-body-mai
 ||oglaszamy24.pl/js-css/exnb/exnbb.php^
 ||www.oglaszamy24.pl/js-css/exnb/exnbb.php^
 
-! OLX
+# OLX
 @@||ireland.apollo.olxcdn.com/v1/temp-files$domain=olx.pl
 
-! OnlyFans
+# OnlyFans
 onlyfans.com##.b-feed__aside.b-recommended
 onlyfans.com###content > div.container:first-child > div.b-feed__wrapper:last-child > div.b-feed > div.user_posts > div.b-feed__aside.b-recommended:first-child
 
-! Open.fm
+# Open.fm
 @@||std.wpcdn.pl^$domain=open.fm
 open.fm###ADrail
 open.fm###right-side-box
@@ -1104,20 +1105,20 @@ open.fm##.aoie2jv
 open.fm##.gybvdm8
 open.fm##.kr1hon2
 
-! op.gg
+# op.gg
 *.op.gg##.banner_banner--3pjXd
 *.op.gg##.vm-skin-left-ads-container
 *.op.gg##.vm-skin-right-ads-container
 *.op.gg##iframe[src="/ads.txt/ads?uponit=true&upapi=true"]
 
-! OpenAI
+# OpenAI
 @@||*.openai.com^$stealth
 
-! OpenSubtitles.org
+# OpenSubtitles.org
 @@||opensubtitles.org^
 ! Blocked by AdGuard Home List (Dandelion Sprout)
 
-! Outbrain Elements
+# Outbrain Elements
 ###around-the-web
 ###g-outbrain
 ###js-outbrain-module
@@ -1176,21 +1177,21 @@ open.fm##.kr1hon2
 @@||static.parastorage.com/services^
 ! Blocked by DuckDuckGo Tracker Radar
 
-! Patreon.com
+# Patreon.com
 patreon.com##.sc-ckVGcZ.jGlPut
 
-! PayPal
+# PayPal
 paypal.com##.gdprCookieBanner_container.gdprCookieBanner_container-custom
 
-! pCloud
+# pCloud
 @@172.255.6.177$network
 @@172.255.6.177:443$network
 ! Blocked by Dandelion Sprout's Annoyances List
 
-! pornoeggs
+# pornoeggs
 pornoeggs.com##.vast_clickthrough_layer.vast_clickthrough_layer_*
 
-! PornHub
+# PornHub
 pornhub.com##[id="pb_block"]
 pornhub.com##[id="pb_template"]
 pornhub.com##[id^="age-verification"]
@@ -1232,17 +1233,17 @@ pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 579018317420
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 579018344545
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 580001936703
 
-! PornReactor.cc
+# PornReactor.cc
 ||pornreactor.cc^$badfilter
 ! Blocked by AdGuard Home List (Dandelion Sprout)
 @@||js.pornreactor.cc^$domain=pornreactor.cc
 @@||img*.pornreactor.cc^
 
-! Pyszne.pl [TakeAway]
+# Pyszne.pl [TakeAway]
 @@||cw-api.takeaway.com/api^$stealth
 @@||www.pyszne.pl^$stealth
 
-! Reactor.cc
+# Reactor.cc
 ||reactor.cc^$badfilter
 ! Blocked by 1Hosts - Pro
 @@||js.reactor.cc^$domain=reactor.cc
@@ -1251,7 +1252,7 @@ reactor.cc##.w86ce344b.nfccaa22.t93438070.u2f85114e.tfc4e54fa
 reactor.cc##.j60d22ebb.mecd6c852.xdc2a2400.j82e24c3e.a2493c78a
 reactor.cc##.eed23e7a6.yedad16de.v6b9e7897
 
-! Reddit
+# Reddit
 ||alb.reddit.com^
 ||events.reddit.com^
 ||events.redditmedia.com^
@@ -1261,13 +1262,13 @@ reactor.cc##.eed23e7a6.yedad16de.v6b9e7897
 ||redditmedia.com/gtm/jail?
 reddit.com##.avKlJzxZU3brq4nAX0_i1._1G4yU68P50vRZ4USXfaceV._2QeqBqfT5UbHBoViZUt-wX
 
-! Redgifs (Stealth breaking site)
+# Redgifs (Stealth breaking site)
 @@||redgifs.com^$domain=redgifs.com,stealth
 @@||thumbs4.redgifs.com^$domain=redgifs.com,stealth
 @@||auth.redgifs.com^$domain=redgifs.com,stealth
 @@||api.redgifs.com/v2^$domain=redgifs.com,stealth
 
-! RedTube
+# RedTube
 redtube.com##[id="pb_block"]
 redtube.com##[style^="float:"]
 redtube.com##[target]
@@ -1303,18 +1304,18 @@ redtube.com##.tbsamrv7qv3f
 redtube.com##.kze9tw.kze9tc
 redtube.com##.uf9iw7uaw.uf9iw7uac
 
-! Rule34
+# Rule34
 rule34.xxx###post-view > div.sidebar:first-child > a:nth-child(2)
 rule34.xxx###right-col > div.flexi:first-child > div.sidebarRight.verticalFlexWithMargins:last-child
 rule34.xxx###right-col > div.flexi:nth-child(2) > div.sidebarRight.verticalFlexWithMargins:last-child
 
-! Saint.to [SimpCity Video Service Hostage]
+# Saint.to [SimpCity Video Service Hostage]
 @@||simp*.saint.to/videos^$domain=saint.to|simp*.saint.to
 @@||saint.to/embed/$domain=simpcity.*
 @@||saint.to/css/embed-video.css$domain=saint.to
 @@||cdn.fluidplayer.com^$domain=saint.to
 
-! Samsung
+# Samsung
 !! Samsung Live Chat
 @@||prod-live-chat.sprinklr.com^
 @@||live-chat-static.sprinklr.com^
@@ -1323,7 +1324,7 @@ rule34.xxx###right-col > div.flexi:nth-child(2) > div.sidebarRight.verticalFlexW
 @@||spx-components.cdn.sprinklr.com^
 ! Blocked by 1Hosts - Pro
 
-! Showup.tv
+# Showup.tv
 ||showup.tv^$badfilter
 @@||showup.tv^$domain=showup.tv
 @@||showup.tv/styles^$domain=showup.tv
@@ -1337,7 +1338,7 @@ rule34.xxx###right-col > div.flexi:nth-child(2) > div.sidebarRight.verticalFlexW
 @@||cdn-e*.showup.tv^$domain=showup.tv
 ||showup.tv/sounds^$domain=showup.tv
 
-! SoundCloud
+# SoundCloud
 @@||api-auth.soundcloud.com^$stealth
 soundcloud.com#@#.dropbar__content, .footer__appButtonContainer
 soundcloud.com##.announcement.g-dark.m-dismiss-visible
@@ -1350,38 +1351,38 @@ soundcloud.com#@$#.volume__sliderHandle, .volume__sliderWrapper { position: rela
 soundcloud.com#@$#.volume__sliderBackground, .volume__sliderProgress { transition: none !important; }
 soundcloud.com#@$#.volume__sliderWrapper { bottom: 6px !important; }
 
-! SquareSpace
+# SquareSpace
 ||assets.squarespace.com$badfilter
 ||static1.squarespace.com$badfilter
 ! Blocked by DuckDuckGo Tracker Radar
 
-! SpankBang
+# SpankBang
 @@||assets.sb-cd.com/static^$domain=spankbang.com
 
-! SpeedTest by Ookla
+# SpeedTest by Ookla
 @@||api.mapbox.com/v4/mapbox.mapbox-streets-v8/$domain=speedtest.net
 
-! Spotify
+# Spotify
 ||akamaized.net/audio/*$media,redirect=noopmp3-0.1s,domain=open.spotify.com
 ||scdn.co/audio/*$media,redirect=noopmp3-0.1s,domain=open.spotify.com
 
-! Starbucks
+# Starbucks
 @@||cdn.optimizely.com/datafiles/$domain=starbucks.com
 @@||starbucks.com/app-assets/
 @@||app.starbucks.com/weblx/static/$domain=starbucks.com
 
-! StartPage
+# StartPage
 ||startpage.*^$removeparam=segment
 startpage.com###gcsa-top
 
-! Sympatia.onet
+# Sympatia.onet
 sympatia.onet.pl##.auto-promotion.premium.side
 sympatia.onet.pl###proposals > div.proposals > div.users-list:nth-child(3) > div.auto-promotion.premium.side:nth-child(7)
 sympatia.onet.pl##.cmp-footer_footer
 sympatia.onet.pl##.line
 sympatia.onet.pl###line
 
-! Taboola scripts
+# Taboola scripts
 -taboola-article.
 -taboola-loader.
 -widget-taboola-
@@ -1404,11 +1405,11 @@ sympatia.onet.pl###line
 ||taboola.com^$third-party
 ||taboolasyndication.com^$third-party
 
-! Team Speak
+# Team Speak
 teamspeak.com###gdpr-cookie-message
 myteamspeak.com##.cc-window.cc-banner.cc-type-info.cc-theme-block.cc-bottom.cc-color-override-1754772916
 
-! Teenager365.com
+# Teenager365.com
 teenager365.com##.video-archive-ad
 teenager365.com##.kc993a-body
 teenager365.com##.k*-container.k*-2.k*-hide
@@ -1423,16 +1424,16 @@ teenager365.com##.kdd1b8-container.kdd1b8-2.kdd1b8-hide
 teenager365.com##.k5121b-container.k5121b-2.k5121b-hide
 teenager365.com##.k9d4bd-container.k9d4bd-2.k9d4bd-hide
 
-! Tinder
+# Tinder
 tinder.com##.Pos\(f\).Start\(0\).End\(0\).Z\(2\).Bxsh\(\$bxsh-4-way-spread\).B\(0\).Bgc\(\#fff\).C\(\$c-secondary\)
 
-! TikTok
+# TikTok
 tiktok.com###main > div.jsx-4200132659.cookie-banner:last-child
 
-! TubeOffline
+# TubeOffline
 tubeoffline.com##div.divContent2.borderCurve.otherSites:nth-child(*)
 
-! Twitch extension's
+# Twitch extension's
 @@||*.chatterino.com^
 @@||*.betterttv.net^
 @@||*.frankerfacez.com^
@@ -1441,7 +1442,7 @@ tubeoffline.com##div.divContent2.borderCurve.otherSites:nth-child(*)
 @@||*.7tv.io^
 @@||pronouns.alejo.io^
 
-! Twitter
+# Twitter
 @@||api.twitter.com/1.1/jot/client_event.json$domain=twitter.com
 @@||api.twitter.com/1.1/live_pipeline/update_subscriptions$domain=twitter.com
 @@||api.twitter.com^$tag=twitter-embeds
@@ -1458,44 +1459,44 @@ tubeoffline.com##div.divContent2.borderCurve.otherSites:nth-child(*)
 twitter.com##[style]>div>div>[data-testid=placementTracking]
 twitter.com#@#.ProfileCanopy-card, .u-cf.OpenInAppBar, div:not([aria-labelledby="modal-header"]) .r-18qmn74.r-1vsu8ta.r-1joea0r.r-1777fci.r-1pz39u2.r-obd0qt.css-1dbjc4n > div:not([aria-disabled="true"]), header div[style*="height: calc(53px);"]
 
-! U.GG
+# U.GG
 u.gg###page-content > div:last-child > div.media-query.media-query_TABLET__DESKTOP_LARGE:first-child
 
-! Uphold (Wallet)
+# Uphold (Wallet)
 @@||uphold.com/authorize^$stealth
 @@||api.uphold.com^
 
-! Vinted
+# Vinted
 vinted.*##.c-cell.c-cell--wide.c-cell--primary.c-cell--default
 
-! VK
+# VK
 vk.com##.ads_ads_box*.ver.repeat_ver.size_site
 
-! WallpaperPlay
+# WallpaperPlay
 wallpaperplay.com##.cc-window.cc-banner.cc-type-info.cc-theme-edgeless.cc-bottom.cc-color-override-*
 
-! WeTransfer.com / we.tl
+# WeTransfer.com / we.tl
 @@||wetransfer.com/api/v4/transfers^$stealth
 
-! XHamster.com
+# XHamster.com
 xhamster.com##.right-rectangle.wig-spot-container.list-items
 xhamster.com##.wig-cams-widget.rectangle.rendered
 
-! XVideos.com
+# XVideos.com
 xvideos.com##.x-message.x-message-info
 xvideos.com##.icon-f.icf-info-circle
 xvideos.com##.ic
 
-! You.com (Search engine)
+# You.com (Search engine)
 @@||*.you.com^$domain=*.you.com,stealth
 @@||web.stytch.com/sdk/v1/users/search$domain=you.com
 @@||web.stytch.com/sdk/v1/passwords/authenticate$domain=you.com
 @@||you.com/api/chat/getUserChats$domain=you.com
 
-! YouPorn
+# YouPorn
 youporn.com##.lf6z1k2g5R7a
 
-! Youtube
+# Youtube
 ||youtube-nocookie.com/api/stats/delayplay?
 ||youtube-nocookie.com/api/stats/qoe?
 ||youtube-nocookie.com/ptracking?
@@ -1517,7 +1518,7 @@ youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.playerAds)
 youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.bkaEnforcementMessageViewModel, undefined)
 
-! Zbiornik.com
+# Zbiornik.com
 @@||*.zbiornik.com/ajax/*$stealth
 @@||zbiornik.com/live^$stealth
 @@||c*.zbiornik.com/AntMediaZbiornik/websocket?*Data=*$stealth
