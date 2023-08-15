@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 371 (+15 local hosts)
+! Entries: 1 378 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -833,6 +833,15 @@ ff02::3 ip6-allhosts
 
 # Fvck off - LibreTube (scams,not the real one)
 0.0.0.0 libretube.net
+
+# Fvck off - Instander (Fake sites) [The_Dise]
+0.0.0.0 instander.app
+0.0.0.0 instander.com
+0.0.0.0 instanderapkofficial.com
+0.0.0.0 theinstanderapk.com
+0.0.0.0 instander.xyz
+0.0.0.0 instaproo.org
+0.0.0.0 instagrampro.cc
 
 ! Fvck off - Camscanner App
 0.0.0.0 sf3-fe-tos.pglstatp-toutiao.com
