@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 1 379 (+15 local hosts)
+! Entries: 1 407 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -639,6 +639,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads-twitter.com
 0.0.0.0 static.ads-twitter.com
 
+! Fvck off - Reddit
+0.0.0.0 d.reddit.com
+0.0.0.0 alb.reddit.com
+0.0.0.0 w3-reporting.reddit.com
+0.0.0.0 ads.reddit.com
+0.0.0.0 rereddit.com
+0.0.0.0 events.reddit.com
+0.0.0.0 events.redditmedia.com
+0.0.0.0 redditad.com
+
 ! Fvck off - Brave Browser
 0.0.0.0 analytics.brave.com
 
@@ -677,16 +687,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 shepherd.ff.avast.com.piriform.com
 0.0.0.0 ipm-provider.ff.avast.com
 0.0.0.0 license.piriform.com
-
-! Fvck off - Reddit
-0.0.0.0 d.reddit.com
-0.0.0.0 alb.reddit.com
-0.0.0.0 w3-reporting.reddit.com
-0.0.0.0 ads.reddit.com
-0.0.0.0 rereddit.com
-0.0.0.0 events.reddit.com
-0.0.0.0 events.redditmedia.com
-0.0.0.0 redditad.com
 
 ! SwiftKey Keyboard [Microsoft]
 0.0.0.0 snippetdata.api.swiftkey.com
@@ -823,6 +823,36 @@ ff02::3 ip6-allhosts
 0.0.0.0 nosteamgames.ro
 0.0.0.0 thekickasstorrents.to
 0.0.0.0 kickasstorrents.to
+
+# Fvck off - FitGirl Repacks (Fake copycats,not the OG)
+0.0.0.0 fitgirlpack.site
+0.0.0.0 fitgirlrepack.games
+0.0.0.0 fitgirlrepacks.in
+0.0.0.0 fitgirlrepacks.co
+0.0.0.0 fitgirlrepacks.org
+0.0.0.0 fitgirlrepacks.pro
+0.0.0.0 fitgirlrepacksite.com
+0.0.0.0 fitgirl-repack.com
+0.0.0.0 fitgirl-repack.net
+0.0.0.0 fitgirl-repack.org
+0.0.0.0 fitgirl-repacks.cc
+0.0.0.0 fitgirl-repacks.to
+0.0.0.0 fitgirl-repacks.website
+0.0.0.0 fitgirl-repacks.xyz
+0.0.0.0 www.fitgirlpack.site
+0.0.0.0 www.fitgirlrepack.games
+0.0.0.0 www.fitgirlrepacks.in
+0.0.0.0 www.fitgirlrepacks.co
+0.0.0.0 www.fitgirlrepacks.org
+0.0.0.0 www.fitgirlrepacks.pro
+0.0.0.0 www.fitgirlrepacksite.com
+0.0.0.0 www.fitgirl-repack.com
+0.0.0.0 www.fitgirl-repack.net
+0.0.0.0 www.fitgirl-repack.org
+0.0.0.0 www.fitgirl-repacks.cc
+0.0.0.0 www.fitgirl-repacks.to
+0.0.0.0 www.fitgirl-repacks.website
+0.0.0.0 www.fitgirl-repacks.xyz
 
 # Fvck off - Minecraft Launchers
 0.0.0.0 tlauncher.org
