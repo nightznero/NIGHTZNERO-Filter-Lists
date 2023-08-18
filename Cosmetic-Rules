@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2016
+! Entries: 2017
 !
 ! Expires: 1 days
 !
@@ -859,6 +859,9 @@ danidaniels.com###gdpr-cookie-accept
 @@||api.datezone.com/v*/camera^$domain=datezone.com
 @@||movcdn*.datezone.com/webcam/*/webcam_preview.webm?v=*$domain=datezone.com
 @@||*.streamlock.net/webrtc-session.json$domain=datezone.com
+
+# DeepNude.CA (Clothes Remover)
+@@||newfuku.s3.us-west-1.amazonaws.com/*.jpg$domain=newfuku.com
 
 # Dooood
 @@||dooood.com/e^
