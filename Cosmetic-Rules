@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2017
+! Entries: 2026
 !
 ! Expires: 1 days
 !
@@ -950,6 +950,18 @@ leagueoflegends.fandom.com###\35 bbe13967e-188-1
 # Filmweb.pl
 filmweb.pl##.rodoBoard
 filmweb.pl##.boardsWrapper.rodo__overlay.IRI
+
+# FitGirl Repacks
+@@||fitgirl-repacks.site^$image,popup
+! https://reddit.com/r/PiratedGames/comments/drlx3r/does_anyone_know_the_official_website_for_fitgirl/
+||fitgirl-repacks.^$all,domain=~fitgirl-repacks.site
+||fitgirl-repack.^$all,domain=~fitgirl-repacks.site
+||fitgirlrepacks.^$all,domain=~fitgirl-repacks.site
+||fitgirlrepack.^$all,domain=~fitgirl-repacks.site
+||fitgirls-repack.*^$all,domain=~fitgirl-repacks.site
+||fitgirl-repacks-site.org^$doc,domain=~fitgirl-repacks.site
+||fitgirlrepacksite.com^$all,domain=~fitgirl-repacks.site
+||fitgirl.cc^$all,domain=~fitgirl-repacks.site
 
 # Gamecore
 gamcore.com##.add_game
