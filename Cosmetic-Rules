@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2017
+! Entries: 2016
 !
 ! Expires: 1 days
 !
-! Updated: 2023.08.15
+! Updated: 2023.08.18
 !
 ! MIT License
 !
@@ -1505,7 +1505,6 @@ youporn.com##.lf6z1k2g5R7a
 ||youtube.com/api/stats/delayplay?
 ||youtube.com/api/stats/qoe?
 ||youtube.com/get_video?
-||youtube.com/youtubei/v1/log_event?
 ||youtube.com/generate_204?
 ||youtube.com/ptracking?
 ||youtube.com/set_awesome?
