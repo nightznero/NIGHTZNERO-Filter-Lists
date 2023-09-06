@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2029
+! Entries: 2031
 !
 ! Expires: 1 days
 !
-! Updated: 2023.08.31
+! Updated: 2023.09.06
 !
 ! MIT License
 !
@@ -901,6 +901,7 @@ erome.com##.free-space
 @@||graph.facebook.com^$tag=fb-embeds
 @@||static.ak.connect.facebook.com^$tag=fb-embeds
 ||graph.facebook.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
+||connect.facebook.net^$domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
 ||connect.facebook.net^*/sdk.js$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
 ||connect.facebook.net^*/all.js$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
 ||connect.facebook.com^*/all.js$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
@@ -995,6 +996,7 @@ genius.com##.optanon-alert-box-bg
 # Google
 @@||maps.googleapis.com/maps/api^
 ||www.googletagmanager.com^
+||ssl.google-analytics.com^
 ||www.google-analytics.com^
 
 # GOunlimited.to
