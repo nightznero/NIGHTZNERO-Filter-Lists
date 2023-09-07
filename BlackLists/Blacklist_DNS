@@ -905,7 +905,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 auiopt.unityads.unity3d.com
 0.0.0.0 cdn2.inner-active.mobi
 0.0.0.0 cdn-creatives-akamaistls-prd.acquire.unity3dusercontent.com
-0.0.0.0 cdp.cloud.unity3d.com^
+0.0.0.0 cloud.unity3d.com
 0.0.0.0 auction.unityads.unity3d.com
 0.0.0.0 webview.unityads.unity3d.com
 0.0.0.0 config.unityads.unity3d.com
