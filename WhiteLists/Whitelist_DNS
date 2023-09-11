@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 533
+! Entries: 534
 !
 ! Expires: 1 days
 !
-! Updated: 2023.08.31
+! Updated: 2023.09.11
 !
 ! MIT License
 !
@@ -534,6 +534,10 @@ $ Google Photos
 # Pixeldrain
 @@||pixeldrain.com^
 ! Blocked by GoodByeAds
+
+# Pixl.li
+@@||pixl.li^
+! Blocked by ADM Advanced Download Manager Host List
 
 # PlayStation 5 (Sony)
 @@||telemetry-console.api.playstation.com^
