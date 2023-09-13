@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 534
+! Entries: 536
 !
 ! Expires: 1 days
 !
-! Updated: 2023.09.11
+! Updated: 2023.09.13
 !
 ! MIT License
 !
@@ -40,6 +40,7 @@
 ! Blocked by 1Hosts - Pro
 @@||pro-1w-video.onelouder.com^
 @@||pro-1w-dataaggregator.onelouder.com^
+@@||pro-storyful.onelouder.com^
 ! Blocked by HaGeZi - Multi Pro++
 
 # 4Chan
@@ -462,6 +463,8 @@ $ Google Photos
 @@||keystone.mwbsys.com^
 
 # MapBox
+@@||events.mapbox.com^
+! Blocked by GoodByeAds
 @@||api.tiles.mapbox.com^
 ! Blocked by ADM Advanced Download Manager Host List
 
