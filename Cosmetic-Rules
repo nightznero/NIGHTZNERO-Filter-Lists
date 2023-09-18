@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2535
+! Entries: 2534
 !
 ! Expires: 1 days
 !
-! Updated: 2023.09.11
+! Updated: 2023.09.18
 !
 ! MIT License
 !
@@ -1797,11 +1797,10 @@ reactor.cc##.eed23e7a6.yedad16de.v6b9e7897
 ||redditmedia.com/gtm/jail?
 reddit.com##.avKlJzxZU3brq4nAX0_i1._1G4yU68P50vRZ4USXfaceV._2QeqBqfT5UbHBoViZUt-wX
 
-# Redgifs (Stealth breaking site)
-@@||redgifs.com^$domain=redgifs.com,stealth
-@@||thumbs4.redgifs.com^$domain=redgifs.com,stealth
-@@||auth.redgifs.com^$domain=redgifs.com,stealth
-@@||api.redgifs.com/v2^$domain=redgifs.com,stealth
+# RedGifs
+@@||thumbs4.redgifs.com^$stealth
+@@||auth.redgifs.com^$stealth
+@@||api.redgifs.com/v2^$stealth
 
 # RedTube
 redtube.com##[id="pb_block"]
