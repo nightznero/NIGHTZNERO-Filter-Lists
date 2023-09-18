@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2536
+! Entries: 2538
 !
 ! Expires: 1 days
 !
@@ -1003,6 +1003,10 @@ genius.com##.optanon-alert-box-bg
 # GOunlimited.to
 gounlimited.to###adbd
 gounlimited.to##.overdiv
+
+# hdporn92.com (XXX Site)
+hdporn92.com##DIV.happy-header
+hdporn92.com##DIV.happy-header-mobile
 
 # Igg-Games
 igg-games.com###evM
