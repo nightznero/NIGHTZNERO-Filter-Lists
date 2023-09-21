@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2544
+! Entries: 2545
 !
 ! Expires: 1 days
 !
@@ -1742,6 +1742,8 @@ paypal.com##.gdprCookieBanner_container.gdprCookieBanner_container-custom
 pornoeggs.com##.vast_clickthrough_layer.vast_clickthrough_layer_*
 
 # PornHub
+@@||hubt.pornhub.com^$domain=pornhub.com
+! Blocked by 1Hosts - Pro
 pornhub.com##[id="pb_block"]
 pornhub.com##[id="pb_template"]
 pornhub.com##[id^="age-verification"]
