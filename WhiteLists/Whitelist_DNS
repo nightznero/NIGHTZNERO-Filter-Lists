@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 536
+! Entries: 537
 !
 ! Expires: 1 days
 !
-! Updated: 2023.09.13
+! Updated: 2023.09.21
 !
 ! MIT License
 !
@@ -550,6 +550,8 @@ $ Google Photos
 @@||dashboard.plex.tv^
 
 # Pornhub
+@@||dl.phncdn.com^
+! Blocked by DuckDuckGo Tracker Radar
 @@||pornhub.com^
 @@||ss.phncdn.com^
 @@||di.phncdn.com^
