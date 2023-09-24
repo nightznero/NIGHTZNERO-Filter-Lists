@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2555
+! Entries: 2556
 !
 ! Expires: 1 days
 !
@@ -991,6 +991,8 @@ genius.com##.optanon-alert-box-bg
 @@||alive.github.com^$important
 ! Blocked by Dandelion Sprout's Annoyances List
 ||collector.github.com^
+## Revanced-APKs
+@@||revanced-apks.pages.dev^$domain=revanced-apks.pages.dev
 
 # Gleam.io (giveaway's)
 @@||js.gleam.io/webpack/*$domain=gleam.io
