@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2553
+! Entries: 2554
 !
 ! Expires: 1 days
 !
@@ -704,29 +704,30 @@ tracking.bp01.net
 @@$media
 
 # (Fvcking) Ads
-||tsyndicate.com^$third-party,popup,important
-||syndication.*.com^$third-party,popup,important
-||*.exdynsrv.com^$third-party,popup,important
-||*.realsrv.com^$third-party,popup,important
-||*.exoclick.com^$third-party,popup,important
-||adsessionserv.com^$third-party,popup,important
-||adtng.com^$third-party,popup,important
-||kekw.world^$third-party,popup,important
-||adtiming.com^$third-party,popup,important
-||akunamapro.com^$third-party,popup,important
-||gerhi-psv.com^$third-party,popup,important
-||deliveranceads.com^$third-party,popup,important
-||optnx.com^$third-party,popup,important
-||adltserv.com^$third-party,popup,important
-||adxadserv.com^$third-party,popup,important
-||adspy.javrank.com^$third-party,popup,important
-||ads.bullionyield.com^$third-party,popup,important
-||qrlsx.com^$third-party,popup,important
-||fgn.cdn.serverable.com^$third-party,popup,important
-||mcdlks.com^$third-party,popup,important
 ||0x01n2ptpuz3.com^$third-party,popup,important
+||adltserv.com^$third-party,popup,important
+||ads.bullionyield.com^$third-party,popup,important
 ||adsrvr.io^$third-party,popup,important
+||adsessionserv.com^$third-party,popup,important
+||adspy.javrank.com^$third-party,popup,important
+||adtiming.com^$third-party,popup,important
+||adtng.com^$third-party,popup,important
+||adxadserv.com^$third-party,popup,important
+||akunamapro.com^$third-party,popup,important
 ||aoflix.com^$third-party,popup,important
+||deliveranceads.com^$third-party,popup,important
+||exdynsrv.com^$third-party,popup,important
+||exoclick.com^$third-party,popup,important
+||fgn.cdn.serverable.com^$third-party,popup,important
+||gerhi-psv.com^$third-party,popup,important
+||kekw.world^$third-party,popup,important
+||mcdlks.com^$third-party,popup,important
+||optnx.com^$third-party,popup,important
+||pemsrv.com^$third-party,popup,important
+||qrlsx.com^$third-party,popup,important
+||realsrv.com^$third-party,popup,important
+||syndication.*.com^$third-party,popup,important
+||tsyndicate.com^$third-party,popup,important
 
 # (Fvcking) Adservers
 ||pixfuture.com^$third-party
