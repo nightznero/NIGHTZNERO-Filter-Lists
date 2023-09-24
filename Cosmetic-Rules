@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2554
+! Entries: 2555
 !
 ! Expires: 1 days
 !
@@ -715,6 +715,7 @@ tracking.bp01.net
 ||adxadserv.com^$third-party,popup,important
 ||akunamapro.com^$third-party,popup,important
 ||aoflix.com^$third-party,popup,important
+||deephicy.net^$third-party,popup,important
 ||deliveranceads.com^$third-party,popup,important
 ||exdynsrv.com^$third-party,popup,important
 ||exoclick.com^$third-party,popup,important
