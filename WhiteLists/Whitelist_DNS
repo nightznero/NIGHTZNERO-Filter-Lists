@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 537
+! Entries: 538
 !
 ! Expires: 1 days
 !
-! Updated: 2023.09.21
+! Updated: 2023.09.24
 !
 ! MIT License
 !
@@ -340,6 +340,8 @@
 
 # GitHub
 @@||t.en25.com^
+## Revanced-APKs
+@@||revanced-apks.pages.dev^
 
 # Gleam.io
 @@||gleam.io^
