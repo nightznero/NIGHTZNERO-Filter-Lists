@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2556
+! Entries: 2557
 !
 ! Expires: 1 days
 !
-! Updated: 2023.09.24
+! Updated: 2023.09.25
 !
 ! MIT License
 !
@@ -1747,7 +1747,9 @@ paypal.com##.gdprCookieBanner_container.gdprCookieBanner_container-custom
 ||s3m1w857rkac20.cloudfront.net^
 
 # Pixl.li
-@@||i.pixl.li^
+@@||pixl.li^$domain=pixl.li,i.pixl.li
+! Blocked by 1Hosts - Pro
+@@||i.pixl.li^$domain=i.pixl.li,pixl.li
 ! Blocked by HaGeZi - Multi Pro++
 
 # pornoeggs
