@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 827 (+15 local hosts)
+! Entries: 2 828 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.09.24
+! Updated: 2023.09.29
 !
 ! MIT License
 !
@@ -670,6 +670,9 @@ ff02::3 ip6-allhosts
 ! Fvck off - LinkedIn [Microsoft]
 0.0.0.0 ads.linkedin.com
 0.0.0.0 analytics.pointdrive.linkedin.com
+
+! Fvck off - Malwarebytes
+0.0.0.0 telemetry.malwarebytes.com
 
 ! Fvck off - Bitdefender
 0.0.0.0 bitdefender.sc.omtrdc.net
