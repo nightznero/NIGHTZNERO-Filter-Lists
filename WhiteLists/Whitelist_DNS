@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 538
+! Entries: 539
 !
 ! Expires: 1 days
 !
-! Updated: 2023.09.24
+! Updated: 2023.09.30
 !
 ! MIT License
 !
@@ -477,6 +477,10 @@ $ Google Photos
 # Microsoft Rewards
 @@||prod.rewardsplatform.microsoft.com^
 ! Blocked by 1Hosts - Pro
+
+# Mortal Kombat [Warner Bros.]
+@@||event.wbinsights.com^
+! Blocked by HaGeZi - Multi PRO
 
 # Netflix
 @@||nflximg.com^
