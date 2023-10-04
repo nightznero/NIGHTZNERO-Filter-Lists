@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 543
+! Entries: 544
 !
 ! Expires: 1 days
 !
-! Updated: 2023.10.04
+! Updated: 2023.10.05
 !
 ! MIT License
 !
@@ -477,6 +477,8 @@ $ Google Photos
 # Microsoft
 @@||srtb.msn.com
 ! Blocked by GoodByeAds
+@@||browser.events.data.msn.com^
+! Blocked by GoodByeAds & HaGeZi - Multi PRO
 
 # Microsoft Rewards
 @@||prod.rewardsplatform.microsoft.com^
