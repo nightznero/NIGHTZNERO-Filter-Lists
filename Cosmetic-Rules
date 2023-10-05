@@ -704,31 +704,31 @@ tracking.bp01.net
 @@$media
 
 # (Fvcking) Ads
-||0x01n2ptpuz3.com^$important
-||adltserv.com^$important
-||ads.bullionyield.com^$important
-||adsrvr.io^$important
-||adsessionserv.com^$important
-||adspy.javrank.com^$important
-||adtiming.com^$important
-||adtng.com^$important
-||adxadserv.com^$important
-||akunamapro.com^$important
-||aoflix.com^$important
-||deephicy.net^$important
-||deliveranceads.com^$important
-||exdynsrv.com^$important
-||exoclick.com^$important
-||fgn.cdn.serverable.com^$important
-||gerhi-psv.com^$important
-||kekw.world^$important
-||mcdlks.com^$important
-||optnx.com^$important
-||pemsrv.com^$important
-||qrlsx.com^$important
-||realsrv.com^$important
-||syndication.*.com^$important
-||tsyndicate.com^$important
+||0x01n2ptpuz3.com^$important,popup
+||adltserv.com^$important,popup
+||ads.bullionyield.com^$important,popup
+||adsrvr.io^$important,popup
+||adsessionserv.com^$important,popup
+||adspy.javrank.com^$important,popup
+||adtiming.com^$important,popup
+||adtng.com^$important,popup
+||adxadserv.com^$important,popup
+||akunamapro.com^$important,popup
+||aoflix.com^$important,popup
+||deephicy.net^$important,popup
+||deliveranceads.com^$important,popup
+||exdynsrv.com^$important,popup
+||exoclick.com^$important,popup
+||fgn.cdn.serverable.com^$important,popup
+||gerhi-psv.com^$important,popup
+||kekw.world^$important,popup
+||mcdlks.com^$important,popup
+||optnx.com^$important,popup
+||pemsrv.com^$important,popup
+||qrlsx.com^$important,popup
+||realsrv.com^$important,popup
+||syndication.*.com^$important,popup
+||tsyndicate.com^$important,popup
 
 # (Fvcking) Adservers
 ||pixfuture.com^$third-party
