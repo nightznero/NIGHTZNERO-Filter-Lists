@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 544
+! Entries: 545
 !
 ! Expires: 1 days
 !
-! Updated: 2023.10.05
+! Updated: 2023.10.07
 !
 ! MIT License
 !
@@ -849,6 +849,9 @@ $ Google Photos
 @@||v10.vortex-win.data.microsoft.com^
 @@||settings-win.data.microsoft.com^
 @@||clientconfig.passport.net^
+
+@@||xHamster.com^
+! Blocked by AntiPopAds:RE (Energized.Pro)
 
 # Xiaomi
 @@||file.market.xiaomi.com^
