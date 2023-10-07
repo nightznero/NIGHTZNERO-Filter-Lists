@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2563
+! Entries: 2565
 !
 ! Expires: 1 days
 !
@@ -2051,7 +2051,9 @@ wallpaperplay.com##.cc-window.cc-banner.cc-type-info.cc-theme-edgeless.cc-bottom
 # WeTransfer.com / we.tl
 @@||wetransfer.com/api/v4/transfers^$stealth
 
-# XHamster.com
+# xHamster.com
+@@||static-lvlt.xhcdn.com/xh-*/$domain=xhamster.com
+||collector.xhamster.com^
 xhamster.com##.right-rectangle.wig-spot-container.list-items
 xhamster.com##.wig-cams-widget.rectangle.rendered
 
