@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2559
+! Entries: 2563
 !
 ! Expires: 1 days
 !
-! Updated: 2023.10.05
+! Updated: 2023.10.08
 !
 ! MIT License
 !
@@ -718,6 +718,7 @@ tracking.bp01.net
 ||deephicy.net^$important,popup
 ||deliveranceads.com^$important,popup
 ||exdynsrv.com^$important,popup
+||*.exdynsrv.com^$important,popup
 ||exoclick.com^$important,popup
 ||fgn.cdn.serverable.com^$important,popup
 ||gerhi-psv.com^$important,popup
@@ -725,10 +726,13 @@ tracking.bp01.net
 ||mcdlks.com^$important,popup
 ||optnx.com^$important,popup
 ||pemsrv.com^$important,popup
+||*.pemsrv.com^$important,popup
 ||qrlsx.com^$important,popup
 ||realsrv.com^$important,popup
+||*.realsrv.com^$important,popup
 ||syndication.*.com^$important,popup
 ||tsyndicate.com^$important,popup
+||*.tsyndicate.com^$important,popup
 
 # (Fvcking) Adservers
 ||pixfuture.com^$third-party
