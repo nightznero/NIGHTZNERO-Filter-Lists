@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2569
+! Entries: 2571
 !
 ! Expires: 1 days
 !
-! Updated: 2023.10.08
+! Updated: 2023.10.09
 !
 ! MIT License
 !
@@ -1881,6 +1881,10 @@ redtube.com##.uf9iw7uaw.uf9iw7uac
 rule34.xxx###post-view > div.sidebar:first-child > a:nth-child(2)
 rule34.xxx###right-col > div.flexi:first-child > div.sidebarRight.verticalFlexWithMargins:last-child
 rule34.xxx###right-col > div.flexi:nth-child(2) > div.sidebarRight.verticalFlexWithMargins:last-child
+
+# SimpCity
+@@||simpcity.*##DIV.generic2wide-iframe-div
+@@||simpcity.*##IFRAME.saint-iframe[src='https://saint.to/embed/*'][height='auto'][width='auto'][style='border:none;'][loading='lazy'][allow='fullscreen;'][allowfullscreen='true']
 
 # Saint.to [SimpCity Video Service Hostage]
 @@||simp*.saint.to/videos^$domain=saint.to|simp*.saint.to
