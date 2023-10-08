@@ -11,7 +11,7 @@
 !
 ! Description: Based on DuckDuckGo Tracker Radar. Cleaned and disabled strings that breaks; Motorola,PornHub,Steam,Twitch,Xiaomi Home,Zalando.
 !
-! Entries: 5 413
+! Entries: 5 412
 !
 ! Expires: 1 days
 !
@@ -2852,7 +2852,6 @@
 0.0.0.0 c-eu11.stripst.com
 0.0.0.0 c-eu12.stripst.com
 0.0.0.0 c-eu9.stripst.com
-0.0.0.0 img.stripst.com
 0.0.0.0 c-us9.stripst.com
 0.0.0.0 cabeceras.abc.es
 0.0.0.0 logv2.xiti.com
