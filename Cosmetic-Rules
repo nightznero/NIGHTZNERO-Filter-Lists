@@ -2056,7 +2056,7 @@ wallpaperplay.com##.cc-window.cc-banner.cc-type-info.cc-theme-edgeless.cc-bottom
 @@||wetransfer.com/api/v4/transfers^$stealth
 
 # xHamster.com
-@@||static-lvlt.xhcdn.com/xh-*/$domain=xhamster.com
+@@||*-lvlt.xhcdn.com/xh-*/$domain=xhamster.com
 ||collector.xhamster.com^
 xhamster.com##.right-rectangle.wig-spot-container.list-items
 xhamster.com##.wig-cams-widget.rectangle.rendered
