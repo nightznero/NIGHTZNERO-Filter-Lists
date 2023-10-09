@@ -1012,9 +1012,9 @@ genius.com##.optanon-alert-box-bg
 @@||consent.google.com/m%3Fcontinue=https://news.google.com/rss/articles/*$domain=news.google.com
 ! Blocked by AdGuard Widgets Filter
 @@||maps.googleapis.com/maps/api^
-||www.googletagmanager.com^
-||ssl.google-analytics.com^
-||www.google-analytics.com^
+@@||play.google.com/log^$domain=google.com
+||google-analytics.com^
+||googletagmanager.com^
 
 # GOunlimited.to
 gounlimited.to###adbd
