@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 546
+! Entries: 547
 !
 ! Expires: 1 days
 !
-! Updated: 2023.10.09
+! Updated: 2023.10.11
 !
 ! MIT License
 !
@@ -138,7 +138,9 @@
 @@||blog.avast.com
 ! Blocked by DuckDuckGo Tracker Radar
 
-# Betclic
+# Betclic (Bookmaker)
+@@||betclic.com^
+! Blocked by 4PDA Community hosts blacklist 
 @@||betclic.pl^
 ! Blocked by Energized.Pro - Basic
 
