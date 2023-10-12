@@ -2044,7 +2044,7 @@ twitter.com#@#.ProfileCanopy-card, .u-cf.OpenInAppBar, div:not([aria-labelledby=
 u.gg###page-content > div:last-child > div.media-query.media-query_TABLET__DESKTOP_LARGE:first-child
 
 # Undress.app
-@@||undress.app/playground_assets/banner[1-2].webp$domain=undress.app
+@@||undress.app/playground_assets/[banner1-banner2].webp$domain=undress.app
 ! Blocked by AdGuard Home List (Dandelion Sprout)
 
 # Uphold (Wallet)
