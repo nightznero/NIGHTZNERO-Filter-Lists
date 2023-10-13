@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2572
+! Entries: 2571
 !
 ! Expires: 1 days
 !
-! Updated: 2023.10.12
+! Updated: 2023.10.13
 !
 ! MIT License
 !
@@ -2042,10 +2042,6 @@ twitter.com#@#.ProfileCanopy-card, .u-cf.OpenInAppBar, div:not([aria-labelledby=
 
 # U.GG
 u.gg###page-content > div:last-child > div.media-query.media-query_TABLET__DESKTOP_LARGE:first-child
-
-# Undress.app
-@@||undress.app/playground_assets/[banner1.-banner2.]webp$domain=undress.app
-! Blocked by AdGuard Home List (Dandelion Sprout)
 
 # Uphold (Wallet)
 @@||uphold.com/authorize^$stealth
