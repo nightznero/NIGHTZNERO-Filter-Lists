@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 548
+! Entries: 547
 !
 ! Expires: 1 days
 !
@@ -477,8 +477,6 @@ $ Google Photos
 ! Blocked by ADM Advanced Download Manager Host List
 
 # Microsoft
-@@||srtb.msn.com
-! Blocked by GoodByeAds
 @@||browser.events.data.msn.com^
 ! Blocked by GoodByeAds & HaGeZi - Multi PRO
 
