@@ -1141,10 +1141,10 @@ nudostar.com###top > div.p-body:nth-child(5) > div.p-body-inner > div.p-body-mai
 @@||1px.gif^$domain=oglaszamy24.pl
 @@||oglaszamy24.pl/img^
 @@||oglaszamy24.pl/m/img^
-@@||oglaszamy24.pl##IMG.lazy[src='img/1px.gif'][data-original='storage/*.jpg'][width='100'][height='75'][border='0']
-@@||oglaszamy24.pl##DIV.s_adv_img^
-@@||oglaszamy24.pl##IMG.lazy[src='storage/*.jpg'][data-original='storage/*.jpg'][width='100'][height='75'][border='0']
 ||oglaszamy24.pl/js-css/exnb/exnbb.php^
+oglaszamy24.pl#@#IMG.lazy[src='img/1px.gif'][data-original='storage/*.jpg'][width='100'][height='75'][border='0']
+oglaszamy24.pl#@#IMG.lazy[src='storage/*.jpg'][data-original='storage/*.jpg'][width='100'][height='75'][border='0']
+oglaszamy24.pl#@#DIV.s_adv_img^
 oglaszamy24.pl##DIV#get_app_box
 oglaszamy24.pl##DIV.s_adv_c_ad
 oglaszamy24.pl##DIV.exnb_w[style='display: inline-flex;']
