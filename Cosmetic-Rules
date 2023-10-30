@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2596
+! Entries: 2597
 !
 ! Expires: 1 days
 !
-! Updated: 2023.10.26
+! Updated: 2023.10.30
 !
 ! MIT License
 !
@@ -1001,6 +1001,8 @@ genius.com##.optanon-alert-box-bg
 # Gleam.io (giveaway's)
 @@||js.gleam.io/webpack/*$domain=gleam.io
 ! Blocked by HaGeZi - Multi Pro++
+@@||js.gleam.io/images/*.svg$domain=gleam.io|cubot.net|
+! Blocked by 1Hosts - Pro
 @@||widget.gleamjs.io^
 ! Blocked by Fanboy Ultimate List
 
