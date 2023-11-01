@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 548
+! Entries: 549
 !
 ! Expires: 1 days
 !
-! Updated: 2023.10.30
+! Updated: 2023.11.02
 !
 ! MIT License
 !
@@ -49,6 +49,10 @@
 
 # Accuweather 
 @@||vortex.accuweather.com^
+
+# AdGuard
+@@||email-link.adtidy.org^
+! Blocked by ADM Advanced Download Manager Host List
 
 # Alexa [Amazon]
 @@||a2z.com^
