@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 549
+! Entries: 550
 !
 ! Expires: 1 days
 !
@@ -361,7 +361,6 @@
 @@||widget.gleamjs.io^
 ! Blocked by HaGeZi - Multi Pro++
 
-
 # GoFile.io
 @@||file*.gofile.io^
 @@||store*.gofile.io^
@@ -533,6 +532,8 @@ $ Google Photos
 ! Blocked by 4PDA
 @@||discover.operacdn.com^
 ! Blocked by Energized.Pro - Basic
+@@||speeddials.opera.com^
+! Blocked by ADM Advanced Download Manager Host List
 @@||api-a.op-mobile.opera.com^
 ! Blocked by 1Hosts - Lite & GoodByeAds
 
