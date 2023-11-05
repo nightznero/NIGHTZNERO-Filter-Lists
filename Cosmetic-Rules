@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2599
+! Entries: 2600
 !
 ! Expires: 1 days
 !
-! Updated: 2023.11.02
+! Updated: 2023.11.05
 !
 ! MIT License
 !
@@ -1055,6 +1055,9 @@ imgur.com##.advertisement.div-ad-active-bottom_med_rec
 ||instagram.com/logging/
 ||instagram.com/logging_client_events
 ||instagram.com/ajax/bz
+
+# Instander (Instagram mod) [The_Dise]
+@@||thedise.me/locales/*/ns.*.json$domain=thedise.me
 
 # Interia Poczta
 @@||ud.interia.pl/html/getattach^$domain=poczta.interia.pl
