@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2600
+! Entries: 2601
 !
 ! Expires: 1 days
 !
-! Updated: 2023.11.05
+! Updated: 2023.11.07
 !
 ! MIT License
 !
@@ -825,6 +825,10 @@ camwhores.tv##div.container:nth-child(2) > div.content:nth-child(4) > div.block-
 # CapCut (TikTok Editor) [ByteDance]
 @@||starling-oversea.byteoversea.com/check_and_get_text/$domain=capcut.com
 ! Blocked by 1Hosts - Pro
+
+# cda-hd.cc [cda-hd.co]
+@@||player.cda-hd.co/player/*.php?^$domain=cda-hd.co|cda-hd.cc
+! Blocked by HaGeZi - Multi PRO++
 
 # CHILLWAGON
 chillwagonthegame.com##.cb-wrapper
