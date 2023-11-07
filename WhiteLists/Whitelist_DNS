@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 551
+! Entries: 552
 !
 ! Expires: 1 days
 !
@@ -120,6 +120,10 @@
 # AMP
 @@||*.ampproject.org^
 @@||cdn-content.ampproject.org^
+
+# App Centrum MS [Microsoft]
+@@||mobilecenter.azureedge.net^
+! Blocked by DuckDuckGo Tracker Radar
 
 # Apple Music
 @@||itunes.apple.com^
