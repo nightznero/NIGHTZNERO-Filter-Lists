@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 550
+! Entries: 551
 !
 ! Expires: 1 days
 !
-! Updated: 2023.11.02
+! Updated: 2023.11.07
 !
 ! MIT License
 !
@@ -457,6 +457,10 @@ $ Google Photos
 @@||cdninstagram.com^
 @@||scontent.cdninstagram.com^
 @@||instagram.c10r.facebook.com^
+
+# JustWatch.com
+@@||click.justwatch.com^
+! Blocked by ADM Advanced Download Manager Host List
 
 # Kiwi Browser
 @@||kiwibrowser.com^
