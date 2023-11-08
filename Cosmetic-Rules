@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2601
+! Entries: 2602
 !
 ! Expires: 1 days
 !
-! Updated: 2023.11.07
+! Updated: 2023.11.08
 !
 ! MIT License
 !
@@ -861,6 +861,10 @@ cyberdrop.me###adwl-footer
 @@||cyberfile.*/account^$domain=cyberfile.*
 @@||cyberfile-*.b-cdn.net^$domain=cyberfile.*
 @@||cdn.plyr.io^$domain=cyberfile.*
+
+# DaGrasso
+@@||dagrasso.pl/sw.js$domain=dagrasso.pl
+! Blocked by Fuck FuckAdBlock (Blindfolded blocked)
 
 # DaniDaniels.com
 danidaniels.com##.strip-notification-wrapper.verification-sent
