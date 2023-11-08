@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2602
+! Entries: 2616
 !
 ! Expires: 1 days
 !
@@ -634,6 +634,22 @@ _spot_id=*&zone_id=$script,~third-party
 ||sp.ydr.com^
 ||sp.yorkdispatch.com^
 ||sp.zanesvilletimesrecorder.com^
+
+# Fuck FuckAdBlock - Mining
+/[-/](monero|crypto)\-miner[-./]/$script
+/[-/]c(oin)?\-?hive(\.min(er)?)?\.js/$script
+/[-/]minera?(\.(min|full)|cripts?)?\.js/$script
+/\.[a-z]{2,4}\/jquerys.js$/$script
+/\/(js|lib)\/miners?(\.[a-z0-9]{3,8})?\.js/$script
+/\/(miners?|cryptonight.*)\/(worker(\.min)?|cn)\.js/$script,xmlhttprequest
+/\/cryptonight\-worker\.js/$script
+/\/crypt[ao](cpu)?\.js/$script
+/^https?:\/\/.*\/(\%?[235][a-fA-F3-6])?[Ss](ervice)?[-_]?[Ww](orker)?[a-zA-Z0-9]?\.js(\?.*)?$/$script,xmlhttprequest,match-case,domain=~twitter.com|~youtube.com|~tiktok.com
+/^wss:\/\/(min(er?|ing)|pool[0-9]?|xmr|c(rypto|n))\..*\.[a-z]{3}:[0-9]{2,5}/$websocket
+|http*:*/bitcoincore/?ref=$script,subdocument
+|http*:*/miner.js$script
+|http*:*/script_cry.js$script
+||uptostream.com/assets/coinsif.php$subdocument
 
 # NextDNS CNAME Cloaking Blocklist
 ! Eulerian [eulerian.com]
