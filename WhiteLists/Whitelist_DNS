@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 552
+! Entries: 553
 !
 ! Expires: 1 days
 !
-! Updated: 2023.11.07
+! Updated: 2023.11.08
 !
 ! MIT License
 !
@@ -560,6 +560,10 @@ $ Google Photos
 
 # Philips Hue
 @@||ecdinterface.philips.com^
+
+# PicsArt
+@@||api.picsart.com^
+! Blocked by GoodByeAds
 
 # Pinterest
 @@||assets.pinterest.com^
