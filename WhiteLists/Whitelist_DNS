@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 554
+! Entries: 555
 !
 ! Expires: 1 days
 !
-! Updated: 2023.11.08
+! Updated: 2023.11.09
 !
 ! MIT License
 !
@@ -253,6 +253,8 @@
 # Dropbox
 @@||www.dropbox.com^
 ! Blocked by The Ultimate Hosts Blacklist (UHB)
+@@||cfl.dropboxstatic.com^
+! Blocked by DuckDuckGo Tracker Radar
 @@||bolt.dropbox.com^
 @@||dl.dropbox.com^
 @@||dl.dropboxusercontent.com^
