@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 835 (+15 local hosts)
+! Entries: 2 851 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -699,14 +699,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ipm-provider.ff.avast.com
 0.0.0.0 license.piriform.com
 
-# ExpressVPN (Scam sites)
-0.0.0.0 express-vpns.cloud
-0.0.0.0 express-vpns.fun
-0.0.0.0 express-vpns.biz
-0.0.0.0 express-vpns.online
-0.0.0.0 express-vpns.pro
-0.0.0.0 express-vpns.xyz
-
 ! SwiftKey Keyboard [Microsoft]
 0.0.0.0 snippetdata.api.swiftkey.com
 0.0.0.0 telemetry.api.swiftkey.com
@@ -774,10 +766,6 @@ ff02::3 ip6-allhosts
 ! Fvck off - Puffin Browser [CloudMosa]
 0.0.0.0 collector.cloudmosa.net
 
-! Fvck off - Blue mods [Blue•] (Discord/KiK)
-! Reason why blocked -> https://is.gd/hXN4QD
-0.0.0.0 bluemods.com
-
 ! Fvck off - Roblox
 0.0.0.0 client-telemetry.roblox.com
 0.0.0.0 metrics.roblox.com
@@ -831,6 +819,32 @@ ff02::3 ip6-allhosts
 0.0.0.0 freeleaked.me
 0.0.0.0 bestofleaks.com
 0.0.0.0 fapello-leaks.com
+
+# Fvck off - Kape Technologies [Formerly Crossrider] (Malware distributor)
+0.0.0.0 cyberghostvpn.com
+0.0.0.0 www.cyberghostvpn.com
+0.0.0.0 intego.com
+0.0.0.0 www.intego.com
+0.0.0.0 zenmate.com
+0.0.0.0 www.zenmate.com
+0.0.0.0 privateinternetaccess.com
+0.0.0.0 www.privateinternetaccess.com
+0.0.0.0 expressvpn.com
+0.0.0.0 www.expressvpn.com
+0.0.0.0 webselenese.com
+0.0.0.0 www.webselenese.com
+0.0.0.0 vpnmentor.com
+0.0.0.0 www.vpnmentor.com
+0.0.0.0 wizcase.com
+0.0.0.0 www.wizcase.com
+
+# Fvck off - ExpressVPN (Scam sites)
+0.0.0.0 express-vpns.cloud
+0.0.0.0 express-vpns.fun
+0.0.0.0 express-vpns.biz
+0.0.0.0 express-vpns.online
+0.0.0.0 express-vpns.pro
+0.0.0.0 express-vpns.xyz
 
 # Fvck off - Games sites
 0.0.0.0 igg-games.com
@@ -901,6 +915,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 instander.xyz
 0.0.0.0 instaproo.org
 0.0.0.0 instagrampro.cc
+
+# Fvck off - Blue mods [Blue•] (Discord/KiK)
+! Reason why blocked -> https://is.gd/hXN4QD
+0.0.0.0 bluemods.com
 
 ! Fvck off - Camscanner App
 0.0.0.0 sf3-fe-tos.pglstatp-toutiao.com
