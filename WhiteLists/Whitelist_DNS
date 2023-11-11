@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 555
+! Entries: 557
 !
 ! Expires: 1 days
 !
-! Updated: 2023.11.09
+! Updated: 2023.11.11
 !
 ! MIT License
 !
@@ -135,6 +135,11 @@
 
 # Aurora Store
 @@||goolag.store
+
+# AutoDesk.com / AutoDesk.org
+@@||www.autodesk.com^
+@@||www.autodesk.org^
+! Blocked by DuckDuckGo Tracker Radar
 
 # Avast
 @@||vanheim.ff.avast.com^
