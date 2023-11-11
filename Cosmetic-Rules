@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2617
+! Entries: 2619
 !
 ! Expires: 1 days
 !
-! Updated: 2023.11.09
+! Updated: 2023.11.11
 !
 ! MIT License
 !
@@ -1162,6 +1162,10 @@ forum.mozilla-*.org##[id="announce"]
 
 # Niebo Nie Jest Już Limitem [NNJL]
 nnjl.pl##.woocommerce-store-notice.demo_store
+
+# NordVPN.com
+@@||nordvpn.com/wp-content/uploads/*.jpg$domain=nordvpn.com,stealth
+@@||nordvpneditor.com/wp-content/uploads/*.jpg$domain=nordvpn.com,stealth
 
 # NudePatch.net
 nudepatch.net##div:nth-child(41)
