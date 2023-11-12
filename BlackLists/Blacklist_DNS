@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 851 (+15 local hosts)
+! Entries: 2 853 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.11.10
+! Updated: 2023.11.13
 !
 ! MIT License
 !
@@ -276,6 +276,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 chart.googleapis.com
 0.0.0.0 clouderrorreporting.googleapis.com
 0.0.0.0 crashlyticsreports-pa.googleapis.com
+0.0.0.0 federatedml-pa.googleapis.com
 0.0.0.0 firebaselogging.googleapis.com
 
 ! Fvck off - Mozilla
@@ -704,6 +705,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 telemetry.api.swiftkey.com
 
 ! Fvck off - Snapchat
+0.0.0.0 tr.snapchat.com
 0.0.0.0 app-analytics.snapchat.com
 0.0.0.0 app-analytics-v2.snapchat.com
 0.0.0.0 internal-api.snapkit.com
