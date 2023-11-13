@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 557
+! Entries: 558
 !
 ! Expires: 1 days
 !
-! Updated: 2023.11.11
+! Updated: 2023.11.13
 !
 ! MIT License
 !
@@ -919,6 +919,10 @@ $ Google Photos
 # Zbiornik
 @@||zbiornik.com^
 ! Blocked by 4PDA Community hosts blacklist
+
+# ZEN (Zero Effort Non-Bank)
+@@||partner1.cashback.zen.com^
+! Blocked by GoodByeAds (Blindfolded blocked)
 
 # Żappka [Żabka]
 @@||snrcdn.net^
