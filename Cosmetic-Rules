@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2023.11.14
+! Updated: 2023.11.15
 !
 ! MIT License
 !
@@ -1045,7 +1045,7 @@ genius.com##.optanon-alert-box-bg
 @@||consent.google.com/m%3Fcontinue=https://news.google.com/rss/articles/*$domain=news.google.com
 ! Blocked by AdGuard Widgets Filter
 @@||maps.googleapis.com/maps/api^
-@@||play.google.com/log^$domain=google.com,youtube.com,blogger.com,android.com
+@@||play.google.com/log?format=json&hasfast=true&authuser=0$domain=google.com,*.google.com,youtube.com,blogger.com,android.com
 ||google-analytics.com^
 ||googletagmanager.com^
 
