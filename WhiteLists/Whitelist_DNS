@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 559
+! Entries: 561
 !
 ! Expires: 1 days
 !
@@ -831,6 +831,12 @@ $ Google Photos
 @@||vk.com^
 @@||pp.userapi.com^
 @@||userapi.com^
+
+# Weather.com (The Weather Channel)
+@@||api.weather.com^
+! Blocked by Ultimate Hosts Blacklist (UHB)
+@@||mparticle.weather.com^
+! Blocked by 4PDA Community Hosts Blacklist
 
 # Wild Rift [Riot Games]
 @@||lolstatic-a.akamaihd.net^
