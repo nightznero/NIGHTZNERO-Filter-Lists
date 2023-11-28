@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2622
+! Entries: 2624
 !
 ! Expires: 1 days
 !
-! Updated: 2023.11.23
+! Updated: 2023.11.28
 !
 ! MIT License
 !
@@ -1094,6 +1094,8 @@ imgur.com##.advertisement.div-ad-active-bottom_med_rec
 @@||zdjecia.interia.pl/galeria^$domain=poczta.interia.pl
 poczta.interia.pl##DIV.placeholder
 poczta.interia.pl##HEADER.header-container
+poczta.interia.pl##DIV[ng-if='::isNext'][nxt-navigation-promo-place]
+poczta.interia.pl##DIV.navigation__promo-banner[ng-if='::isNavigationPromoBanner'][nxt-navigation-promo-banner]
 
 # Jasper.ai
 @@||assets-global.website-files.com/60e5f2de011b86acebc30db7^$domain=jasper.ai
