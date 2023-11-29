@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 561
+! Entries: 562
 !
 ! Expires: 1 days
 !
-! Updated: 2023.11.28
+! Updated: 2023.11.29
 !
 ! MIT License
 !
@@ -633,7 +633,9 @@ $ Google Photos
 @@||js.reactor.cc^
 ! Blocked by Energized.Pro - Spark
 
-# Reddit 
+# Reddit
+@@||alb.reddit.com^
+! Blocked by The Ultimate Hosts Blacklist (UHB)
 @@||accounts.reddit.com^
 @@||i.reddit.com^
 @@||redd.it^
