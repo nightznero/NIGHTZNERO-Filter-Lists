@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 564
+! Entries: 569
 !
 ! Expires: 1 days
 !
@@ -168,6 +168,11 @@
 # Bing [Microsoft]
 @@||bing.com^
 ! Blocked by NIGHTZNERO Blacklist
+@@||browser.events.data.msn.com^
+! Blocked by GoodByeAds & HaGeZi - Multi PRO
+@@||api.msn.com^
+@@||img-s-msn-com.akamaized.net^
+! Blocked by The Ultimate Hosts Blacklist (UHB)
 
 # Bing Maps / Microsoft Flight Simulator
 @@||dev.virtualearth.net^
@@ -507,8 +512,10 @@
 ! Blocked by ADM Advanced Download Manager Host List
 
 # Microsoft
-@@||browser.events.data.msn.com^
-! Blocked by GoodByeAds & HaGeZi - Multi PRO
+@@||self.events.data.microsoft.com^
+@@||login.microsoftonline.com^
+@@||edge.microsoft.com^
+! Blocked by The Ultimate Hosts Blacklist (UHB)
 
 # Microsoft Rewards
 @@||prod.rewardsplatform.microsoft.com^
