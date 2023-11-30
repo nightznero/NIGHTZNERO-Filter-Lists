@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 570
+! Entries: 571
 !
 ! Expires: 1 days
 !
@@ -757,6 +757,7 @@
 
 # Spotify
 @@||i.scdn.co^
+@@||encore.scdn.co^
 ! Blocked by The Ultimate Hosts Blacklist (UHB)
 @@||api.spotify.com^
 @@||login5.spotify.com^
