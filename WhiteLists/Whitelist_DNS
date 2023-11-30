@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 562
+! Entries: 564
 !
 ! Expires: 1 days
 !
-! Updated: 2023.11.29
+! Updated: 2023.11.30
 !
 ! MIT License
 !
@@ -446,7 +446,7 @@
 @@||ci5.googleusercontent.com
 @@||ci6.googleusercontent.com
 
-$ Google Photos
+# Google Photos
 @@||people-pa.googleapis.com^
 
 # Google Play Store
@@ -459,6 +459,12 @@ $ Google Photos
 
 # GTA Online [Rockstar]
 @@||prod.telemetry.ros.rockstargames.com^
+
+# Hotspot Shield VPN [AURA]
+@@||hotspotshield.com^
+@@||www.hotspotshield.com^
+! Blocked by The Ultimate Hosts Blacklist (UHB)
+
 
 # InShot
 @@||aws.inshot.cc
