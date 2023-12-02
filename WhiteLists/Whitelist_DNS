@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 573
+! Entries: 575
 !
 ! Expires: 1 days
 !
-! Updated: 2023.11.30
+! Updated: 2023.12.02
 !
 ! MIT License
 !
@@ -950,6 +950,8 @@
 ! Blocked by The Ultimate Hosts Blacklist (UHB)
 @@||partner1.cashback.zen.com^
 ! Blocked by GoodByeAds (Blindfolded blocked)
+@@||api.zen.com^
+@@||zencom.zendesk.com^
 
 # Żappka [Żabka]
 @@||snrcdn.net^
