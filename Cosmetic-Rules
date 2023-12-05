@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2023.11.28
+! Updated: 2023.12.05
 !
 ! MIT License
 !
@@ -894,7 +894,7 @@ danidaniels.com###gdpr-cookie-accept
 @@||mqcdn.datezone.com^$domain=datezone.com
 @@||mq2cdn.datezone.com^$domain=datezone.com
 @@||imgcdn.datezone.com^$domain=datezone.com
-@@||api.datezone.com/v*/camera^$domain=datezone.com
+@@||api.datezone.com/v*/*^$domain=datezone.com
 @@||movcdn*.datezone.com/webcam/*/webcam_preview.webm?v=*$domain=datezone.com
 @@||*.streamlock.net/webrtc-session.json$domain=datezone.com
 
