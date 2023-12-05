@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 575
+! Entries: 576
 !
 ! Expires: 1 days
 !
-! Updated: 2023.12.02
+! Updated: 2023.12.05
 !
 ! MIT License
 !
@@ -660,6 +660,8 @@
 ! Blocked by The Ultimate Hosts Blacklist (UHB)
 
 # Samsung
+@@||www.samsung.com^
+! Blocked by The Ultimate Hosts Blacklist (UHB)
 @@||pushmessage.samsung.com^
 @@||us-api.mcsvc.samsung.com^
 @@||capi.samsungcloud.com^
