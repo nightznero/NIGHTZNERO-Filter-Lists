@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2624
+! Entries: 2625
 !
 ! Expires: 1 days
 !
@@ -890,11 +890,12 @@ danidaniels.com###gdpr-cookie-accept
 # Datezone.com
 @@||imgcdn.datezone.com/users/401/$domain=imgcdn.datezone.com|datezone.com,important
 ! Blocked by Fuck FuckAdBlock
+@@||api.datezone.com/v*/*^$domain=datezone.com
+@@||datezone.com/users/*/images$domain=datezone.com
 @@||*cdn*.datezone.com/webcam/*/webcam_*.*?v=*$domain=datezone.com
 @@||mqcdn.datezone.com^$domain=datezone.com
 @@||mq2cdn.datezone.com^$domain=datezone.com
 @@||imgcdn.datezone.com^$domain=datezone.com
-@@||api.datezone.com/v*/*^$domain=datezone.com
 @@||movcdn*.datezone.com/webcam/*/webcam_preview.webm?v=*$domain=datezone.com
 @@||*.streamlock.net/webrtc-session.json$domain=datezone.com
 
