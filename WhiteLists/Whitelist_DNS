@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 576
+! Entries: 577
 !
 ! Expires: 1 days
 !
-! Updated: 2023.12.05
+! Updated: 2023.12.06
 !
 ! MIT License
 !
@@ -478,6 +478,7 @@
 @@||i.instagram.com^
 @@||graph.instagram.com^
 @@||graph-fallback.instagram.com^
+@@||external.xx.fbcdn.net^
 ! Blocked by 4PDA Community hosts blacklist
 @@||cdninstagram.com^
 @@||scontent.cdninstagram.com^
