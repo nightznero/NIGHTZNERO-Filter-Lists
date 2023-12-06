@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 853 (+15 local hosts)
+! Entries: 2 857 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.11.13
+! Updated: 2023.12.06
 !
 ! MIT License
 !
@@ -905,6 +905,10 @@ ff02::3 ip6-allhosts
 
 # Fvck off - ReVanced (OG ReVanced wannabe)
 0.0.0.0 re-vanced.com
+0.0.0.0 revanced.net
+0.0.0.0 revanced.to
+0.0.0.0 revancedextended.com
+0.0.0.0 revancedextended.io
 
 # Fvck off - LibreTube (scams,not the real one)
 0.0.0.0 libretube.net
