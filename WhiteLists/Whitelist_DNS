@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 577
+! Entries: 578
 !
 ! Expires: 1 days
 !
-! Updated: 2023.12.06
+! Updated: 2023.12.07
 !
 ! MIT License
 !
@@ -658,6 +658,10 @@
 
 # Rentry.co
 @@||rentry.co^
+! Blocked by The Ultimate Hosts Blacklist (UHB)
+
+# RestorePrivacy.com
+@@||cdn-resprivacy.pressidium.com^ 
 ! Blocked by The Ultimate Hosts Blacklist (UHB)
 
 # Samsung
