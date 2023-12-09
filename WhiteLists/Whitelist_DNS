@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 579
+! Entries: 580
 !
 ! Expires: 1 days
 !
-! Updated: 2023.12.07
+! Updated: 2023.12.09
 !
 ! MIT License
 !
@@ -623,6 +623,8 @@
 @@||cdn1d-static-shared.phncdn.com^
 
 # PornReactor.cc
+@@||pornreactor.cc^
+! Blocked by 1Hosts - Pro
 @@||img.pornreactor.cc^
 @@||img0.pornreactor.cc^
 @@||img1.pornreactor.cc^
