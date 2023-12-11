@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2625
+! Entries: 2626
 !
 ! Expires: 1 days
 !
-! Updated: 2023.12.05
+! Updated: 2023.12.11
 !
 ! MIT License
 !
@@ -888,10 +888,11 @@ danidaniels.com##.strip-notification-wrapper.verification-sent
 danidaniels.com###gdpr-cookie-accept
 
 # Datezone.com
-@@||imgcdn.datezone.com/users/401/$domain=imgcdn.datezone.com|datezone.com,important
+@@||imgcdn.datezone.com/users/401/$domain=datezone.com,important
 ! Blocked by Fuck FuckAdBlock
 @@||api.datezone.com/v*/*^$domain=datezone.com
 @@||datezone.com/users/*/images$domain=datezone.com
+@@||movcdn2.datezone.com/users/*/*/*/*.*?v=2$domain=datezone.com
 @@||*cdn*.datezone.com/webcam/*/webcam_*.*?v=*$domain=datezone.com
 @@||mqcdn.datezone.com^$domain=datezone.com
 @@||mq2cdn.datezone.com^$domain=datezone.com
