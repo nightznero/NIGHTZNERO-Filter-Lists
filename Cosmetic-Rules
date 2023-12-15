@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2627
+! Entries: 2620
 !
 ! Expires: 1 days
 !
-! Updated: 2023.12.13
+! Updated: 2023.12.15
 !
 ! MIT License
 !
@@ -840,6 +840,8 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 camwhores.tv##div.container:nth-child(2) > iframe:nth-child(3)
 camwhores.tv##div.container:nth-child(2) > div.content:nth-child(4) > iframe:nth-child(3)
 camwhores.tv##div.container:nth-child(2) > div.content:nth-child(4) > div.block-video:nth-child(2) > div.table:first-child
+camwhores.tv##A.tdn[rel='nofollow'][href='https://onlyfans.com/truemyrart/c1'][target='_blank']
+camwhores.tv##IFRAME[src^='https://www.scfsdvc.com/en/us/about'][style='width: 100%; height: 100px; border: 0px solid; vertical-align: bottom;'][scrolling='no'][allowfullscreen='true']
 
 # CapCut (TikTok Editor) [ByteDance]
 @@||starling-oversea.byteoversea.com/check_and_get_text/$domain=capcut.com
@@ -893,15 +895,6 @@ danidaniels.com###gdpr-cookie-accept
 # Datezone.com
 @@||imgcdn.datezone.com/users/401/$domain=datezone.com,important
 ! Blocked by Fuck FuckAdBlock
-@@||api.datezone.com/v*/*^$domain=datezone.com
-@@||datezone.com/users/*/images$domain=datezone.com
-@@||movcdn2.datezone.com/users/*/*/*/*.*?v=2$domain=datezone.com
-@@||*cdn*.datezone.com/webcam/*/webcam_*.*?v=*$domain=datezone.com
-@@||mqcdn.datezone.com^$domain=datezone.com
-@@||mq2cdn.datezone.com^$domain=datezone.com
-@@||imgcdn.datezone.com^$domain=datezone.com
-@@||movcdn*.datezone.com/webcam/*/webcam_preview.webm?v=*$domain=datezone.com
-@@||*.streamlock.net/webrtc-session.json$domain=datezone.com
 
 # DeepNude.CA (Clothes Remover)
 @@||newfuku.s3.us-west-1.amazonaws.com/*.jpg$domain=newfuku.com
