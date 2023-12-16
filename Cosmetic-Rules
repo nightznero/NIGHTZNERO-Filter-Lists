@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2620
+! Entries: 2627
 !
 ! Expires: 1 days
 !
-! Updated: 2023.12.15
+! Updated: 2023.12.16
 !
 ! MIT License
 !
@@ -1114,10 +1114,6 @@ kemono.su##A[href='//a.adtng.com/get/10014806'][style='color: #000000; padding: 
 @@||kiwibrowser.com^
 ! Blocked by 1Hosts - Pro
 
-# Multikino [Vue International]
-@@||multikino.pl/moje-konto/ustawienia$domain=multikino.pl
-@@||multikino.pl/web-user-account/*$domain=multikino.pl
-
 # Lento.pl
 lento.pl###a-sho-bootm
 lento.pl##main:nth-child(*) > div.container-fluid.otherpage-container > div.row:nth-child(*) > div.col-md-* > div.showogl > div.row-sm-flex:first-child > div.col-sm-left:first-child > div.img-cat.hidden-xs:last-child
@@ -1132,6 +1128,15 @@ lento.pl##DIV.desc.width-100.text-center.padding-top-10.padding-bottom-10
 # MasterCard
 @@||bezcennechwile.mastercard.pl^
 @@||rpm.upaid.pl^
+
+# Medonet.pl
+medonet.pl##ASIDE.intext.placeholder.right
+medonet.pl##ASIDE.intext.placeholder.right2
+medonet.pl##ASIDE.intext.placeholder.left
+medonet.pl##ASIDE.intext.placeholder.left2
+medonet.pl##ASIDE.rectangles
+medonet.pl##LI.item.placeholder
+medonet.pl##DIV.placeholder.auto-height.top3
 
 # METAsrc.com
 metasrc.com###content > div._qngo9y:first-child > div._lo7gbl._yq1p7n:first-child > div > div.desktop.desktop-wide:last-child
@@ -1157,6 +1162,10 @@ moddb.com##.cc_banner.cc_container.cc_container--open
 
 # Mozilla
 forum.mozilla-*.org##[id="announce"]
+
+# Multikino [Vue International]
+@@||multikino.pl/moje-konto/ustawienia$domain=multikino.pl
+@@||multikino.pl/web-user-account/*$domain=multikino.pl
 
 # NextCloud
 @@||bes.to^$stealth
