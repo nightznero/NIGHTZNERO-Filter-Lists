@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 583
+! Entries: 587
 !
 ! Expires: 1 days
 !
@@ -256,7 +256,7 @@
 # Discord
 @@||discord.gg^
 
-# Dooood
+# Dooood.com
 @@||dooood.com^
 ! Blocked by 1Hosts - Pro
 
@@ -387,6 +387,10 @@
 ! Occasionally blocked by lists (ex. HaGeZi,1Hosts)
 
 # GOG.com (Games Site)
+@@||recommendations-api.gog.com^
+@@||menu.gog.com^
+@@||notifications.gog.com^
+@@||reviews.gog.com^
 @@||productcard.gog-statics.com^
 ! Blocked by The Ultimate Hosts Blacklist (UHB)
 
