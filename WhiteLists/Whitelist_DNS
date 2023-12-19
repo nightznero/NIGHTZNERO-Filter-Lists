@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 587
+! Entries: 588
 !
 ! Expires: 1 days
 !
@@ -132,6 +132,10 @@
 # Apple Music
 @@||itunes.apple.com^
 @@||s.mzstatic.com^
+
+# Asus ROG (Republic of Gamers)
+@@||rog.asus.com^
+! Blocked by The Ultimate Hosts Blacklist (UHB)
 
 # Aurora Store
 @@||goolag.store
