@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 582
+! Entries: 583
 !
 ! Expires: 1 days
 !
-! Updated: 2023.12.14
+! Updated: 2023.12.19
 !
 ! MIT License
 !
@@ -385,6 +385,10 @@
 @@||file*.gofile.io^
 @@||store*.gofile.io^
 ! Occasionally blocked by lists (ex. HaGeZi,1Hosts)
+
+# GOG.com (Games Site)
+@@||productcard.gog-statics.com^
+! Blocked by The Ultimate Hosts Blacklist (UHB)
 
 # Google
 @@||region1.app-measurement.com^
