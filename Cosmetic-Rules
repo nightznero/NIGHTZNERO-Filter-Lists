@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2641
+! Entries: 2644
 !
 ! Expires: 1 days
 !
@@ -1053,16 +1053,19 @@ gounlimited.to###adbd
 gounlimited.to##.overdiv
 
 # GSMArena.com
-gsmarena.com##DIV#subHeader.col
-gsmarena.com##DIV.d-flex.flex-column.justify-center.align-center.mb-20[style='padding-bottom: 17px; min-height: 318px; margin: 0px -10px 20px; position: relative; background: var(--body-background, #efebe9);']
-gsmarena.com##DIV.d-flex.flex-column.justify-center.align-center.mb-20.pt-10[style='padding-bottom: 24px; min-height: 144px; background-image: linear-gradient(to right, rgb(224, 224, 224) 70%, transparent 30%), linear-gradient(to right, rgb(224, 224, 224) 70%, transparent 30%); background-position: left top, left bottom; background-repeat: repeat-x; background-size: 10px 1px; margin-top: 20px;']
-gsmarena.com##DIV.grid_12.top-adv[style='display: flex; justify-content: center; width: 100%;']
 gsmarena.com##DIV.adv-banner
 gsmarena.com##DIV.adv.banner
 gsmarena.com##DIV.adv-top
 gsmarena.com##DIV.adv.top
 gsmarena.com##DIV.adv-bottom
 gsmarena.com##DIV.adv.bottom
+gsmarena.com##DIV#subHeader.col
+gsmarena.com##DIV.adv.banner-mpu
+gsmarena.com##DIV.adv.banner-mpu.sticky-mpu
+gsmarena.com##DIV.adv.bottom-728
+gsmarena.com##DIV.d-flex.flex-column.justify-center.align-center.mb-20[style='padding-bottom: 17px; min-height: 318px; margin: 0px -10px 20px; position: relative; background: var(--body-background, #efebe9);']
+gsmarena.com##DIV.d-flex.flex-column.justify-center.align-center.mb-20.pt-10[style='padding-bottom: 24px; min-height: 144px; background-image: linear-gradient(to right, rgb(224, 224, 224) 70%, transparent 30%), linear-gradient(to right, rgb(224, 224, 224) 70%, transparent 30%); background-position: left top, left bottom; background-repeat: repeat-x; background-size: 10px 1px; margin-top: 20px;']
+gsmarena.com##DIV.grid_12.top-adv[style='display: flex; justify-content: center; width: 100%;']
 
 # hdporn92.com (XXX Site)
 hdporn92.com##DIV.happy-header
