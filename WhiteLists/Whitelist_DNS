@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 592
+! Entries: 594
 !
 ! Expires: 1 days
 !
-! Updated: 2023.12.21
+! Updated: 2023.12.22
 !
 ! MIT License
 !
@@ -563,6 +563,11 @@
 @@||events.gfe.nvidia.com^
 @@||gfwsl.geforce.com^
 @@||ota-downloads.nvidia.com^
+
+# OneDrive [Microsoft]
+@@||api.onedrive.com^
+@@||skyapi.live.net^
+! Blocked by The Ultimate Hosts Blacklist (UHB)
 
 # OneLink.me (Tracker to most of profiles)
 @@||*.onelink.me^
