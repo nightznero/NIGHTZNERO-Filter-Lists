@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 598
+! Entries: 602
 !
 ! Expires: 1 days
 !
@@ -538,8 +538,6 @@
 @@||login.live.com^
 @@||login.microsoftonline.com^
 @@||edge.microsoft.com^
-@@||odc.officeapps.live.com^
-@@||roaming.officeapps.live.com^
 ! Blocked by The Ultimate Hosts Blacklist (UHB)
 
 # Microsoft Rewards
@@ -566,11 +564,19 @@
 @@||gfwsl.geforce.com^
 @@||ota-downloads.nvidia.com^
 
+# Office 365 [Microsoft]
+@@||odc.officeapps.live.com^
+@@||ocws.officeapps.live.com^
+@@||ols.officeapps.live.com^
+@@||roaming.officeapps.live.com^
+@@||d.docs.live.net^
+
 # OneDrive [Microsoft]
 @@||skyapi.live.net^
 @@||skyapi.policies.live.net^
 @@||api.onedrive.com^
 @@||users.storage.live.com^
+@@||files.1drv.com^
 ! Blocked by The Ultimate Hosts Blacklist (UHB)
 
 # OneLink.me (Tracker to most of profiles)
