@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 602
+! Entries: 603
 !
 ! Expires: 1 days
 !
-! Updated: 2023.12.22
+! Updated: 2023.12.26
 !
 ! MIT License
 !
@@ -843,6 +843,10 @@
 # The Movie DataBase (TMDB)
 @@||image.tmdb.org^
 ! Blocked by Energized.Pro - Basic
+
+# The Weather Channel
+@@||s.w-x.co^
+! Blocked by GoodByeAds
 
 # Trakt.tv
 @@||api.trakt.tv^
