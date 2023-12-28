@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 606
+! Entries: 607
 !
 ! Expires: 1 days
 !
@@ -847,6 +847,7 @@
 # The North Face
 @@||static.thenorthface.com^
 @@||static.thenorthface.eu^
+@@||static.thenorthface.co.uk^
 @@||static.thenorthface.pl^
 ! Blocked by DuckDuckGo Tracker Radar
 
