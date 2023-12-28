@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2644
+! Entries: 2645
 !
 ! Expires: 1 days
 !
-! Updated: 2023.12.21
+! Updated: 2023.12.28
 !
 ! MIT License
 !
@@ -2107,6 +2107,10 @@ teenager365.com##.k87c75-container.k87c75-2.k87c75-hide
 teenager365.com##.kdd1b8-container.kdd1b8-2.kdd1b8-hide
 teenager365.com##.k5121b-container.k5121b-2.k5121b-hide
 teenager365.com##.k9d4bd-container.k9d4bd-2.k9d4bd-hide
+
+# The North Face
+@@||static.thenorthface.*^$domain=thenorthface.com|thenorthface.eu|thenorthface.pl|
+! Blocked by DuckDuckGo Tracker Radar
 
 # Tinder
 tinder.com##.Pos\(f\).Start\(0\).End\(0\).Z\(2\).Bxsh\(\$bxsh-4-way-spread\).B\(0\).Bgc\(\#fff\).C\(\$c-secondary\)
