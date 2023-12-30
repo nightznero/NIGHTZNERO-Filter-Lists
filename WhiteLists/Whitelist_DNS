@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 607
+! Entries: 608
 !
 ! Expires: 1 days
 !
-! Updated: 2023.12.28
+! Updated: 2023.12.30
 !
 ! MIT License
 !
@@ -796,6 +796,10 @@
 # SoundCloud
 @@||s.pwt.soundcloud.com^
 ! Blocked by Energized.Pro - Basic
+
+# SoundHound
+@@||music-soundhound.houndify.com^
+! Blocked by εxodus-privacy
 
 # SpankBang
 @@||spankbang.com^
