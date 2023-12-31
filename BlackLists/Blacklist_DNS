@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 862 (+15 local hosts)
+! Entries: 2 865 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.12.30
+! Updated: 2023.12.31
 !
 ! MIT License
 !
@@ -358,6 +358,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 partnerads.ysm.yahoo.com
 
 ! Fvck off - Yandex
+0.0.0.0 advertising.yandex.com
+0.0.0.0 advertising.yandex.net
+0.0.0.0 advertising.yandex.ru
 0.0.0.0 appmetrica.yandex.com
 0.0.0.0 redirect.appmetrica.yandex.com
 0.0.0.0 19534.redirect.appmetrica.yandex.com
