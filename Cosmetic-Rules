@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2645
+! Entries: 2650
 !
 ! Expires: 1 days
 !
@@ -1827,6 +1827,13 @@ paypal.com##.gdprCookieBanner_container.gdprCookieBanner_container-custom
 ||dzl5hncob6h10.cloudfront.net^
 ||s24rkom4lz2n10.cloudfront.net^
 ||s3m1w857rkac20.cloudfront.net^
+
+# Perfumy.pl
+perfumy.pl##DIV#opinions_badge.opinions_badge
+perfumy.pl##DIV#opinions_badge.opinions_badge.--hide
+perfumy.pl##DIV#opinions_badge.opinions_badge.--hide.--open
+perfumy.pl##DIV.bars_bottom.bars
+perfumy.pl##DIV.footer_settings.container.d-md-flex.justify-content-md-between.align-items-md-center.mb-md-4
 
 # Pixl.li
 @@||pixl.li^$domain=pixl.li,i.pixl.li
