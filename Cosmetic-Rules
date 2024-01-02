@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2650
+! Entries: 2654
 !
 ! Expires: 1 days
 !
-! Updated: 2024.01.01
+! Updated: 2024.01.02
 !
 ! MIT License
 !
@@ -1917,6 +1917,10 @@ pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 580001936703
 @@||js.pornreactor.cc^$domain=pornreactor.cc
 @@||img*.pornreactor.cc^
 
+# Presearch (Search Engine) [Presearch.com/Presearch.io]
+presearch.com##DIV[x-data='{ x:true, kwrdAdFirst: false }']
+presearch.com##DIV.sx-top-bar-products.sx-touch
+
 # Pyszne.pl [TakeAway]
 @@||cw-api.takeaway.com/api^$stealth
 @@||www.pyszne.pl^$stealth
@@ -1939,6 +1943,8 @@ reactor.cc##.eed23e7a6.yedad16de.v6b9e7897
 ||reddit.com/timings/
 ||redditmedia.com/gtm/jail?
 reddit.com##.avKlJzxZU3brq4nAX0_i1._1G4yU68P50vRZ4USXfaceV._2QeqBqfT5UbHBoViZUt-wX
+reddit.com##A._24UNt1hkbrZxLzs5vkvuDh[href^='https://ads.reddit.com'][target='_blank'][rel='noopener noreferrer'][aria-label='Advertise']
+www.reddit.com##DIV._1b1Jalg2nxA_Z-BjKXRfAV
 
 # RedGifs
 @@||api.redgifs.com/v*/$stealth
