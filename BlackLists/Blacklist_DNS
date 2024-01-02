@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 865 (+15 local hosts)
+! Entries: 2 864 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2023.12.31
+! Updated: 2024.01.01
 !
 ! MIT License
 !
@@ -486,7 +486,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
 0.0.0.0 globalapi.ad.xiaomi.com
 0.0.0.0 www.cdn.ad.xiaomi.com
-0.0.0.0 tracking.miui.com
 0.0.0.0 sa.api.intl.miui.com
 0.0.0.0 tracking.miui.com
 0.0.0.0 tracking.intl.miui.com
