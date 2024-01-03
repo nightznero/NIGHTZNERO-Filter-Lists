@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 865 (+15 local hosts)
+! Entries: 2 867 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.01.02
+! Updated: 2024.01.03
 !
 ! MIT License
 !
@@ -915,7 +915,7 @@ ff02::3 ip6-allhosts
 # Fvck off - Fake Apk Stores (I have nothing to mods if they are made properly n safe)
 0.0.0.0 apksoul.net
 
-# Fvck off - ReVanced (OG ReVanced wannabe)
+# Fvck off - ReVanced (OG ReVanced wannabe) [oSumAtrlX-revanced.app]
 0.0.0.0 getrevanced.com
 0.0.0.0 re-vanced.com
 0.0.0.0 revanced.net
@@ -926,7 +926,8 @@ ff02::3 ip6-allhosts
 # Fvck off - LibreTube (scams,not the real one)
 0.0.0.0 libretube.net
 
-# Fvck off - Instander (Fake sites) [The_Dise]
+# Fvck off - Instagram modZ (Fake sites of Instagram mod apks)
+## [Instander - thedise.me/instander - The_Dise] [InstaFlow - marcosshiinaider.com - Krogon500 × Marcos Shiinaider]
 0.0.0.0 instander.app
 0.0.0.0 instander.com
 0.0.0.0 instanderapkofficial.com
@@ -934,6 +935,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 instander.xyz
 0.0.0.0 instaproo.org
 0.0.0.0 instagrampro.cc
+0.0.0.0 instaproapk.in
+0.0.0.0 instaapkpro.com
 
 # Fvck off - Blue mods [Blue•] (Discord/KiK)
 ! Reason why blocked -> https://is.gd/hXN4QD
