@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2660
+! Entries: 2661
 !
 ! Expires: 1 days
 !
@@ -788,7 +788,7 @@ allegro.pl##div.main-wrapper:nth-child(3) > div:last-child
 ||aax-eu-dub.amazon.com^
 ||aax-us-iad.amazon.com^
 
-# AndroidAutority
+# AndroidAutority.com [Authority Media]
 androidauthority.com##ASIDE.---___zc
 androidauthority.com##DIV.---___4b
 androidauthority.com##DIV.---___9b
@@ -2111,8 +2111,9 @@ teamspeak.com###gdpr-cookie-message
 myteamspeak.com##.cc-window.cc-banner.cc-type-info.cc-theme-block.cc-bottom.cc-color-override-1754772916
 
 # TechManiaK Groups (techManiaK.pl|gsmManiaK.pl|mobiManiaK.pl|fotoManiaK.pl|agdManiaK.pl|rtvManiaK.pl,TabletManiaK.pl,AcerManiaK.pl,gizManiaK.pl,luxManiaK.pl,blogoManiaK.pl,activeManiaK.pl)
-techManiaK.pl|gsmManiaK.pl|mobiManiaK.pl|fotoManiaK.pl|agdManiaK.pl|rtvManiaK.pl,TabletManiaK.pl,AcerManiaK.pl,gizManiaK.pl,luxManiaK.pl,blogoManiaK.pl,activeManiaK.pl##DIV#topMenu
-techManiaK.pl|gsmManiaK.pl|mobiManiaK.pl|fotoManiaK.pl|agdManiaK.pl|rtvManiaK.pl,TabletManiaK.pl,AcerManiaK.pl,gizManiaK.pl,luxManiaK.pl,blogoManiaK.pl,activeManiaK.pl##DIV[style='margin:0 auto 10px auto; text-align:center; font-size:6px;']
+techManiaK.pl,gsmManiaK.pl,mobiManiaK.pl,fotoManiaK.pl,agdManiaK.pl,rtvManiaK.pl,TabletManiaK.pl,AcerManiaK.pl,gizManiaK.pl,luxManiaK.pl,blogoManiaK.pl,activeManiaK.pl##DIV#topMenu
+techManiaK.pl,gsmManiaK.pl,mobiManiaK.pl,fotoManiaK.pl,agdManiaK.pl,rtvManiaK.pl,TabletManiaK.pl,AcerManiaK.pl,gizManiaK.pl,luxManiaK.pl,blogoManiaK.pl,activeManiaK.pl##DIV[style='margin:10px auto; text-align:center; font-size:8px;']
+techManiaK.pl,gsmManiaK.pl,mobiManiaK.pl,fotoManiaK.pl,agdManiaK.pl,rtvManiaK.pl,TabletManiaK.pl,AcerManiaK.pl,gizManiaK.pl,luxManiaK.pl,blogoManiaK.pl,activeManiaK.pl##DIV[style='margin:0 auto 10px auto; text-align:center; font-size:6px;']
 
 # Teenager365.com
 teenager365.com##.video-archive-ad
