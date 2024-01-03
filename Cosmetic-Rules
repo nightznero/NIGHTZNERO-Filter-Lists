@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2654
+! Entries: 2660
 !
 ! Expires: 1 days
 !
-! Updated: 2024.01.02
+! Updated: 2024.01.03
 !
 ! MIT License
 !
@@ -787,6 +787,14 @@ allegro.pl##div.main-wrapper:nth-child(3) > div:last-child
 ||amazon.com^*/impress.html
 ||aax-eu-dub.amazon.com^
 ||aax-us-iad.amazon.com^
+
+# AndroidAutority
+androidauthority.com##ASIDE.---___zc
+androidauthority.com##DIV.---___4b
+androidauthority.com##DIV.---___9b
+androidauthority.com##DIV.---___af.---___bf.---___Tl.---___Xl
+androidauthority.com##DIV.---___Tb.---___Qk
+androidauthority.com##DIV.---___d.---____b.---___Qk
 
 # Bing [Microsoft]
 ||bing.com/mouselog$script,redirect-rule=noopjs,domain=bing.com
