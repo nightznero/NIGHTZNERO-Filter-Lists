@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 871 (+15 local hosts)
+! Entries: 2 870 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -655,7 +655,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 metric.reddit.com
 0.0.0.0 d.reddit.com
 0.0.0.0 pixel.reddit.com
-0.0.0.0 alb.reddit.com
 0.0.0.0 events.reddit.com
 0.0.0.0 w3-reporting.reddit.com
 0.0.0.0 events.redditmedia.com
