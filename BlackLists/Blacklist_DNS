@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 867 (+15 local hosts)
+! Entries: 2 871 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.01.03
+! Updated: 2024.01.04
 !
 ! MIT License
 !
@@ -650,13 +650,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 static.ads-twitter.com
 
 ! Fvck off - Reddit
-0.0.0.0 d.reddit.com
-0.0.0.0 alb.reddit.com
-0.0.0.0 w3-reporting.reddit.com
 0.0.0.0 ads.reddit.com
-0.0.0.0 rereddit.com
+0.0.0.0 analytics.reddit.com
+0.0.0.0 metric.reddit.com
+0.0.0.0 d.reddit.com
+0.0.0.0 pixel.reddit.com
+0.0.0.0 alb.reddit.com
 0.0.0.0 events.reddit.com
+0.0.0.0 w3-reporting.reddit.com
 0.0.0.0 events.redditmedia.com
+0.0.0.0 pixel.redditmedia.com
+0.0.0.0 rereddit.com
 0.0.0.0 redditad.com
 
 ! Fvck off - Brave Browser
