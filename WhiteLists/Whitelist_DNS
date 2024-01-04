@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 608
+! Entries: 609
 !
 ! Expires: 1 days
 !
-! Updated: 2023.12.30
+! Updated: 2024.01.04
 !
 ! MIT License
 !
@@ -688,6 +688,8 @@
 # Reddit
 @@||alb.reddit.com^
 ! Blocked by The Ultimate Hosts Blacklist (UHB)
+@@||e.reddit.com^
+! Blocked by 4PDA Community hosts blacklist
 @@||accounts.reddit.com^
 @@||i.reddit.com^
 @@||redd.it^
