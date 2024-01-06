@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 870 (+15 local hosts)
+! Entries: 2 871 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -626,13 +626,13 @@ ff02::3 ip6-allhosts
 ! Fvck off - Shazam [Apple]
 0.0.0.0 beacon.shazam.com
 
-! Fvck off - Twitch.tv
+# Fvck off - Twitch.tv
 0.0.0.0 spade.twitch.tv
 0.0.0.0 edge.ads.twitch.tv
 0.0.0.0 countess.twitch.tv
 0.0.0.0 analytics.m7g.twitch.tv
 
-! Fvck off - Facebook
+# Fvck off - Facebook
 0.0.0.0 connect.facebook.net
 0.0.0.0 pixel.facebook.com
 0.0.0.0 analytics.facebook.com
@@ -643,13 +643,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 facebookid.younetmedia.com
 0.0.0.0 facebookinbox-omni-onapp.haravan.com
 
-! Fvck off - Twitter
+# Fvck off - Twitter
 0.0.0.0 ads-api.twitter.com
 0.0.0.0 advertising.twitter.com
 0.0.0.0 ads-twitter.com
 0.0.0.0 static.ads-twitter.com
 
-! Fvck off - Reddit
+# Fvck off - Reddit
 0.0.0.0 ads.reddit.com
 0.0.0.0 analytics.reddit.com
 0.0.0.0 metric.reddit.com
@@ -662,10 +662,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 rereddit.com
 0.0.0.0 redditad.com
 
-! Fvck off - Brave Browser
+# Fvck off - Brave Browser
 0.0.0.0 analytics.brave.com
+0.0.0.0 p3a.brave.com
 
-! Fvck off - Opera Browser
+# Fvck off - Opera Browser
 0.0.0.0 s.adx.opera.com
 0.0.0.0 res.adx.opera.com
 0.0.0.0 s-adx.op-mobile.opera.com
