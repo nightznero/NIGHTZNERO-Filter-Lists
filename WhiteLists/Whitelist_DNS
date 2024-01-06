@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 609
+! Entries: 610
 !
 ! Expires: 1 days
 !
-! Updated: 2024.01.04
+! Updated: 2024.01.06
 !
 ! MIT License
 !
@@ -867,6 +867,10 @@
 # TuneIn Radio
 @@||traffic.megaphone.fm^
 @@||traffic.eks.megaphone.cloud^
+
+# TV Time [Tozelabs]
+@@||stats.tvtime.com^
+! Blocked by ADM Advanced Download Manager Host List
 
 # Twitch.tv
 @@||gql.twitch.tv^
