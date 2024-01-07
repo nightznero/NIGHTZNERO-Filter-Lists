@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2665
+! Entries: 2655
 !
 ! Expires: 1 days
 !
@@ -2027,16 +2027,6 @@ rule34.xxx###right-col > div.flexi:nth-child(2) > div.sidebarRight.verticalFlexW
 
 # Showup.tv
 ||showup.tv^$badfilter
-@@||showup.tv^$domain=showup.tv
-@@||showup.tv/styles^$domain=showup.tv
-@@||showup.tv/scripts^$domain=showup.tv
-@@||showup.tv/images^$domain=showup.tv
-@@||showup.tv/files^$domain=showup.tv
-@@||showup.tv/fonts^$domain=showup.tv
-@@||cdn-s*.showup.tv/files^$domain=showup.tv
-@@||j*.showup.tv^$domain=showup.tv
-@@||showup.tv/site^$domain=showup.tv
-@@||cdn-e*.showup.tv^$domain=showup.tv
 ||showup.tv/sounds^$domain=showup.tv
 
 # SoundCloud
