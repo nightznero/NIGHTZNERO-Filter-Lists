@@ -2145,7 +2145,7 @@ tiktok.com###main > div.jsx-4200132659.cookie-banner:last-child
 tubeoffline.com##div.divContent2.borderCurve.otherSites:nth-child(*)
 
 # TV Time
-@@||*api.tvtime.com^$domain=tvtime.com
+@@||msapi*.tvtime.com^$domain=tvtime.com
 
 # Twitch extension's
 @@||*.chatterino.com^
