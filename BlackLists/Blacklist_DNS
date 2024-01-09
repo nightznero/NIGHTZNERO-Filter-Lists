@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 872 (+15 local hosts)
+! Entries: 2 874 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.01.07
+! Updated: 2024.01.09
 !
 ! MIT License
 !
@@ -235,6 +235,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 fcmatch.google.com
 0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 google.mediacategory.com
+0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 googleadservices.com
 0.0.0.0 googleanalytics.com
 0.0.0.0 googleapi.club
@@ -664,6 +665,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 redditad.com
 
 # Fvck off - Brave Browser
+0.0.0.0 variations.brave.com
 0.0.0.0 analytics.brave.com
 0.0.0.0 p3a.brave.com
 
