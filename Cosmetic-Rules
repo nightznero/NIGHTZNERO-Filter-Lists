@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2661
+! Entries: 2663
 !
 ! Expires: 1 days
 !
-! Updated: 2024.01.09
+! Updated: 2024.01.11
 !
 ! MIT License
 !
@@ -1152,6 +1152,10 @@ lento.pl##DIV.desc.width-100.text-center.padding-top-10.padding-bottom-10
 @@||platform.linkedin.com^$tag=linked-in-embeds
 ||licdn.com^$third-party,domain=~linkedin.com
 ||linkedin.com^$third-party
+
+# LOLBeans.io (Game) [BIG BOSS DOLPHIN]
+@@||facebook.com/platform/scribe_endpoint.php/$domain=lolbeans.io
+@@||facebook.com/platform/impression.php/$domain=lolbeans.io
 
 # MasterCard
 @@||bezcennechwile.mastercard.pl^
