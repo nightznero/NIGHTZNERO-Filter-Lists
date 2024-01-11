@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 611
+! Entries: 612
 !
 ! Expires: 1 days
 !
-! Updated: 2024.01.07
+! Updated: 2024.01.08
 !
 ! MIT License
 !
@@ -310,6 +310,7 @@
 # Facebook [Meta]
 @@||graph.facebook.com^
 @@||graph-video.facebook.com^
+@@||connect.facebook.net^
 ! Blocked by GoodByeAds
 @@||b-graph.facebook.com^
 ! Blocked by 1Hosts - Pro
