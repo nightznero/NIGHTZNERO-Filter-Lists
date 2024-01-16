@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2665
+! Entries: 2666
 !
 ! Expires: 1 days
 !
-! Updated: 2024.01.14
+! Updated: 2024.01.16
 !
 ! MIT License
 !
@@ -2240,6 +2240,7 @@ youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlac
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.playerAds)
 youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.bkaEnforcementMessageViewModel, undefined)
+youtube.com##+js(nano-stb, resolve(1), *, 0.001)
 
 # Zbiornik.com
 @@||*.zbiornik.com/ajax/*$stealth
