@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2669
+! Entries: 2672
 !
 ! Expires: 1 days
 !
@@ -932,6 +932,10 @@ erodate.pl##.header-promo
 erodate.pl##header.header:nth-child(*) > div.header-promo:first-child > div.alert.alert-dismissable.fade.in.action
 erodate.pl###content > div.homepage-right:last-child > div.promo-container.module-box:nth-child(*)
 erodate.pl##.homepage-right
+## Erodate scam live cams
+erodate.pl##UL.menu-group
+erodate.pl##DIV.live-cams.module-box[data-role='live-cams']
+erodate.pl##DIV.live-cams-promo.module-box
 
 # erome
 erome.com##.free-space
