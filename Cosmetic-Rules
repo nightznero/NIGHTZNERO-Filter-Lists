@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2688
+! Entries: 2686
 !
 ! Expires: 1 days
 !
-! Updated: 2024.01.22
+! Updated: 2024.01.23
 !
 ! MIT License
 !
@@ -1865,12 +1865,6 @@ perfumy.pl##DIV#opinions_badge.opinions_badge.--hide
 perfumy.pl##DIV#opinions_badge.opinions_badge.--hide.--open
 perfumy.pl##DIV.bars_bottom.bars
 perfumy.pl##DIV.footer_settings.container.d-md-flex.justify-content-md-between.align-items-md-center.mb-md-4
-
-# Pixl.li
-@@||pixl.li^$domain=pixl.li,i.pixl.li
-! Blocked by 1Hosts - Pro
-@@||i.pixl.li^$domain=i.pixl.li,pixl.li
-! Blocked by HaGeZi - Multi Pro++
 
 # Platin Mods - The Gamming Community (PM)
 platinmods.com###siropuChatNotice
