@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2680
+! Entries: 2687
 !
 ! Expires: 1 days
 !
@@ -2034,6 +2034,13 @@ simpcity.su##A.p-navEl-link.nav-shoosh[href^='https://ucam.xxx/'][target='_blank
 simpcity.su##A.p-navEl-link.nav-bonga[href^='https://s.adsession.com/d.php'][target='_blank'][data-xf-key='4'][data-nav-id='navbonga']
 simpcity.su##A.p-navEl-link.nav-dfake[href='https://vo2.qrlsx.com/8d6af2f2-7ab9-4936-8495-1f6a796c9717'][target='_blank'][data-xf-key='5'][data-nav-id='navdfake']
 simpcity.su##A.p-navEl-link.nav-faze[href='https://pornfaze.com/'][target='_blank'][data-xf-key='6'][data-nav-id='navfaze']
+simpcity.su##A.p-navEl-link.nav-faze[href='https://theporndude.com/'][target='_blank'][data-xf-key='7'][data-nav-id='pndude']
+simpcity.su##A.nav-shoosh.offCanvasMenu-link[href^='*'][target='_blank'][data-xf-key='*'][data-nav-id='*']
+simpcity.su##A.nav-shoosh.offCanvasMenu-link[href^='https://ucam.xxx/'][target='_blank'][data-xf-key='3'][data-nav-id='navshoosh']
+simpcity.su##A.nav-bonga.offCanvasMenu-link[href^='https://s.adsession.com/d.php'][target='_blank'][data-xf-key='4'][data-nav-id='navbonga']
+simpcity.su##A.nav-dfake.offCanvasMenu-link[href='https://vo2.qrlsx.com/8d6af2f2-7ab9-4936-8495-1f6a796c9717'][target='_blank'][data-xf-key='5'][data-nav-id='navdfake']
+simpcity.su##A.nav-faze.offCanvasMenu-link[href='https://pornfaze.com/'][target='_blank'][data-xf-key='6'][data-nav-id='navfaze']
+simpcity.su##A.nav-tpd.offCanvasMenu-link[href='https://theporndude.com/'][target='_blank'][data-xf-key='7'][data-nav-id='pndude']
 
 # Saint.to [SimpCity Video Service Hostage]
 @@||simp*.saint.to/videos^$domain=saint.to|simp*.saint.to
