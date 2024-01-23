@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2686
+! Entries: 2687
 !
 ! Expires: 1 days
 !
@@ -2020,8 +2020,9 @@ rule34.xxx###right-col > div.flexi:first-child > div.sidebarRight.verticalFlexWi
 rule34.xxx###right-col > div.flexi:nth-child(2) > div.sidebarRight.verticalFlexWithMargins:last-child
 
 # SimpCity
-@@||simpcity.*##DIV.generic2wide-iframe-div
-@@||simpcity.*##IFRAME.saint-iframe[src='https://saint.to/embed/*'][height='auto'][width='auto'][style='border:none;'][loading='lazy'][allow='fullscreen;'][allowfullscreen='true']
+@@||simpcity.su##DIV.generic2wide-iframe-div
+@@||simpcity.su##IFRAME.saint-iframe[src='https://saint.to/embed/*'][height='auto'][width='auto'][style='border:none;'][loading='lazy'][allow='fullscreen;'][allowfullscreen='true']
+simpcity.su##IFRAME[width='300'][height='250'][scrolling='no'][frameborder='0'][src^='https://a.adtng.com/get/10013879'][allowtransparency='true'][marginheight='0'][marginwidth='0'][name='spot_id_10013879'][allowfullscreen='true']
 simpcity.su##DIV[style='text-align:center;margin-bottom:19px;']
 simpcity.su##DIV[style='margin: 0 auto;width:350px;margin-top:15px; text-align: center;']
 simpcity.su##A.p-navEl-link.nav-*[href^='*'][target='_blank'][data-xf-key='*'][data-nav-id='*']
