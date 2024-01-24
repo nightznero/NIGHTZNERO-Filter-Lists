@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 874 (+15 local hosts)
+! Entries: 2 875 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.01.22
+! Updated: 2024.01.24
 !
 ! MIT License
 !
@@ -785,6 +785,7 @@ ff02::3 ip6-allhosts
 # Fvck off - Waze - Navigation & Live Traffic [Google]
 0.0.0.0 ads-resources.waze.com
 0.0.0.0 adsassets.waze.com
+0.0.0.0 sdk.waze.com
 
 ! Fvck off - Roblox
 0.0.0.0 client-telemetry.roblox.com
