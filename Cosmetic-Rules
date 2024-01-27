@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2694
+! Entries: 2698
 !
 ! Expires: 1 days
 !
-! Updated: 2024.01.23
+! Updated: 2024.01.27
 !
 ! MIT License
 !
@@ -852,7 +852,9 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 camwhores.tv##div.container:nth-child(2) > iframe:nth-child(3)
 camwhores.tv##div.container:nth-child(2) > div.content:nth-child(4) > iframe:nth-child(3)
 camwhores.tv##div.container:nth-child(2) > div.content:nth-child(4) > div.block-video:nth-child(2) > div.table:first-child
+camwhores.tv##A.tdn[rel='nofollow'][href='*'][target='_blank']
 camwhores.tv##A.tdn[rel='nofollow'][href='https://onlyfans.com/truemyrart/c1'][target='_blank']
+camwhores.tv##A.tdn[rel='nofollow'][href^='https://t.crsmc.link'][target='_blank']
 camwhores.tv##IFRAME[src^='https://www.scfsdvc.com/en/us/about'][style='width: 100%; height: 100px; border: 0px solid; vertical-align: bottom;'][scrolling='no'][allowfullscreen='true']
 
 # CapCut (TikTok Editor) [ByteDance]
@@ -2174,6 +2176,10 @@ tinder.com##.Pos\(f\).Start\(0\).End\(0\).Z\(2\).Bxsh\(\$bxsh-4-way-spread\).B\(
 
 # TikTok
 tiktok.com###main > div.jsx-4200132659.cookie-banner:last-child
+
+# TrakT.tv
+trakt.tv##DIV#af1a979-cc6d540-jc8aedf-wrapper
+trakt.tv##DIV.grid-item.af1a979-grid-item.col-xxlg-1.col-xlg-2.col-lg-2.col-md-3.col-sm-3.col-xs-6
 
 # TubeOffline
 tubeoffline.com##div.divContent2.borderCurve.otherSites:nth-child(*)
