@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2698
+! Entries: 2702
 !
 ! Expires: 1 days
 !
-! Updated: 2024.01.27
+! Updated: 2024.01.28
 !
 ! MIT License
 !
@@ -1024,6 +1024,12 @@ filmweb.pl##.boardsWrapper.rodo__overlay.IRI
 
 # Flaconi Package Returns Service [Flaconi]
 @@||return-portal-api.create.aws.sevensenders.com^$domain=flaconi.return-parcel.com
+
+# Fotka.com
+fotka.com##A.QAOr8FnHznbB5WHz6h6P[href='/klubgwiazd']
+fotka.com##DIV.qQkhj7UhJcUY81KYg1cp
+fotka.com##DIV.tE3EINrAnNNVgWMseUgp.LLEyxBLBrJYB7pdVH8L_[style='height: 780px;']
+fotka.com##DIV.cookies-infostyled__Container-sc-ajf3yz-0.GRdwt
 
 # Gamecore
 gamcore.com##.add_game
