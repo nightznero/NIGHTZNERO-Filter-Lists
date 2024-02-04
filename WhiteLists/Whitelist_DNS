@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 611
+! Entries: 613
 !
 ! Expires: 1 days
 !
-! Updated: 2024.01.14
+! Updated: 2024.02.04
 !
 ! MIT License
 !
@@ -621,6 +621,10 @@
 # pCloud
 @@||pcdn-www.pcloud.com^
 @@||pcdn-my.pcloud.com^
+
+# pdalife.com / pdalife.to (modded gamez)
+@@||pdalife.com^
+@@||pdacdn.com^
 
 # Philips Hue
 @@||ecdinterface.philips.com^
