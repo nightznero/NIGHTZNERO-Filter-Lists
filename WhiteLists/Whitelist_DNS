@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 613
+! Entries: 614
 !
 ! Expires: 1 days
 !
-! Updated: 2024.02.04
+! Updated: 2024.02.07
 !
 ! MIT License
 !
@@ -679,6 +679,10 @@
 # PREQUEL
 @@||cfimg.prequel.app^
 @@||ahcdn.prequel.app^
+! Blocked by GoodByeAds
+
+# Proton Mail
+@@||go.getproton.me^
 ! Blocked by GoodByeAds
 
 # Reactor.cc
