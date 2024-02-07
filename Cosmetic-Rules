@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2705
+! Entries: 2706
 !
 ! Expires: 1 days
 !
@@ -1232,6 +1232,10 @@ forum.mozilla-*.org##[id="announce"]
 
 # Niebo Nie Jest Już Limitem [NNJL]
 nnjl.pl##.woocommerce-store-notice.demo_store
+
+# Nocowanie.pl [Wirtualna Polska]
+@@||d.nocimg.pl^$domain=nocowanie.pl
+! Blocked by DuckDuckGo Tracker Radar
 
 # NordVPN.com
 @@||nordvpn.com/wp-content/uploads/*.jpg$domain=nordvpn.com,stealth
