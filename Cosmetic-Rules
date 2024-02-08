@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2706
+! Entries: 2707
 !
 ! Expires: 1 days
 !
-! Updated: 2024.02.07
+! Updated: 2024.02.08
 !
 ! MIT License
 !
@@ -2049,6 +2049,7 @@ simpcity.su##DIV.node.node--id122.node--depth2.node--link
 simpcity.su##IFRAME[width='300'][height='250'][scrolling='no'][frameborder='0'][src^='https://a.adtng.com/get/10013879'][allowtransparency='true'][marginheight='0'][marginwidth='0'][name='spot_id_10013879'][allowfullscreen='true']
 simpcity.su##DIV[style='text-align:center;margin-bottom:19px;']
 simpcity.su##DIV[style='margin: 0 auto;width:350px;margin-top:15px; text-align: center;']
+simpcity.su##DIV[style='background-color:#FBCA27;padding:0.25em;text-align:center;font-weight:bold;']
 simpcity.su##A.p-navEl-link.nav-*[href^='*'][target='_blank'][data-xf-key='*'][data-nav-id='*']
 simpcity.su##A.p-navEl-link.nav-shoosh[href^='https://ucam.xxx/'][target='_blank'][data-xf-key='3'][data-nav-id='navshoosh']
 simpcity.su##A.p-navEl-link.nav-bonga[href^='https://s.adsession.com/d.php'][target='_blank'][data-xf-key='4'][data-nav-id='navbonga']
