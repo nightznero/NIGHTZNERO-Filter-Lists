@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2708
+! Entries: 2710
 !
 ! Expires: 1 days
 !
-! Updated: 2024.02.09
+! Updated: 2024.02.10
 !
 ! MIT License
 !
@@ -800,6 +800,7 @@ androidauthority.com##DIV.---___Tb.---___Qk
 androidauthority.com##DIV.---___d.---____b.---___Qk
 
 # ApkModDone.com [modding site]
+apkmoddone.com##DIV#sn-AddOns.section
 apkmoddone.modapkvn.com##DIV#addons-widget.section
 
 # Bing [Microsoft]
@@ -2036,6 +2037,9 @@ redtube.com##.uf9iw7uaw.uf9iw7uac
 rule34.xxx###post-view > div.sidebar:first-child > a:nth-child(2)
 rule34.xxx###right-col > div.flexi:first-child > div.sidebarRight.verticalFlexWithMargins:last-child
 rule34.xxx###right-col > div.flexi:nth-child(2) > div.sidebarRight.verticalFlexWithMargins:last-child
+
+# SendVid
+sendvid.com##DIV._ln-floater[style='overflow: visible; height: 100px;']
 
 # SimpCity
 @@||simpcity.su##DIV.generic2wide-iframe-div
