@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2715
+! Entries: 2716
 !
 ! Expires: 1 days
 !
@@ -2098,6 +2098,7 @@ skapiec.pl##DIV.topAdContainer
 skapiec.pl##DIV.topAdContainerMainPage
 skapiec.pl##DIV.rectangleAd
 skapiec.pl##DIV.rightDesktop[data-slot='right'][data-prop-lazypercentage='100']
+skapiec.pl##DIV.rightDesktop[data-prop-lazypercentage='100'][data-slot='right2']
 skapiec.pl##DIV.rightDesktopSticky[data-slot='right2'][data-prop-lazypercentage='100']
 
 # SoundCloud
