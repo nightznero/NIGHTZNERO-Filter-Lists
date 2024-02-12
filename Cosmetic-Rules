@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2710
+! Entries: 2715
 !
 ! Expires: 1 days
 !
-! Updated: 2024.02.10
+! Updated: 2024.02.12
 !
 ! MIT License
 !
@@ -2038,8 +2038,31 @@ rule34.xxx###post-view > div.sidebar:first-child > a:nth-child(2)
 rule34.xxx###right-col > div.flexi:first-child > div.sidebarRight.verticalFlexWithMargins:last-child
 rule34.xxx###right-col > div.flexi:nth-child(2) > div.sidebarRight.verticalFlexWithMargins:last-child
 
+# Saint.to [SimpCity Video Service Hostage]
+@@||simp*.saint.to/videos^$domain=saint.to|simp*.saint.to
+@@||saint.to/embed/$domain=simpcity.*
+@@||saint.to/css/embed-video.css$domain=saint.to
+@@||cdn.fluidplayer.com^$domain=saint.to
+
+# Samsung
+!! Samsung Live Chat
+@@||prod-live-chat.sprinklr.com^
+@@||live-chat-static.sprinklr.com^
+@@||prod-samsung-live-chat.sprinklr.com^
+@@||prod-lc-mqtt-nike.sprinklr.com^
+@@||spx-components.cdn.sprinklr.com^
+! Blocked by 1Hosts - Pro
+
 # SendVid
 sendvid.com##DIV._ln-floater[style='overflow: visible; height: 100px;']
+
+# Showup.tv
+||showup.tv^$badfilter
+@@||showup.tv^$domain=showup.tv
+@@||j*.showup.tv^$domain=showup.tv
+@@||cdn-*.showup.tv/files^$domain=showup.tv
+||showup.tv/sounds^$domain=showup.tv
+showup.tv##DIV.large-12.columns.footer__logo
 
 # SimpCity
 @@||simpcity.su##DIV.generic2wide-iframe-div
@@ -2070,28 +2093,12 @@ simpcity.su##A.nav-dfake.offCanvasMenu-link[href='https://vo2.qrlsx.com/8d6af2f2
 simpcity.su##A.nav-faze.offCanvasMenu-link[href='https://pornfaze.com/'][target='_blank'][data-xf-key='6'][data-nav-id='navfaze']
 simpcity.su##A.nav-tpd.offCanvasMenu-link[href='https://theporndude.com/'][target='_blank'][data-xf-key='7'][data-nav-id='pndude']
 
-# Saint.to [SimpCity Video Service Hostage]
-@@||simp*.saint.to/videos^$domain=saint.to|simp*.saint.to
-@@||saint.to/embed/$domain=simpcity.*
-@@||saint.to/css/embed-video.css$domain=saint.to
-@@||cdn.fluidplayer.com^$domain=saint.to
-
-# Samsung
-!! Samsung Live Chat
-@@||prod-live-chat.sprinklr.com^
-@@||live-chat-static.sprinklr.com^
-@@||prod-samsung-live-chat.sprinklr.com^
-@@||prod-lc-mqtt-nike.sprinklr.com^
-@@||spx-components.cdn.sprinklr.com^
-! Blocked by 1Hosts - Pro
-
-# Showup.tv
-||showup.tv^$badfilter
-@@||showup.tv^$domain=showup.tv
-@@||j*.showup.tv^$domain=showup.tv
-@@||cdn-*.showup.tv/files^$domain=showup.tv
-||showup.tv/sounds^$domain=showup.tv
-showup.tv##DIV.large-12.columns.footer__logo
+# Skąpiec.pl
+skapiec.pl##DIV.topAdContainer
+skapiec.pl##DIV.topAdContainerMainPage
+skapiec.pl##DIV.rectangleAd
+skapiec.pl##DIV.rightDesktop[data-slot='right'][data-prop-lazypercentage='100']
+skapiec.pl##DIV.rightDesktopSticky[data-slot='right2'][data-prop-lazypercentage='100']
 
 # SoundCloud
 @@||api-auth.soundcloud.com^$stealth
