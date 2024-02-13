@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2722
+! Entries: 2723
 !
 ! Expires: 1 days
 !
@@ -2255,6 +2255,7 @@ u.gg###page-content > div:last-child > div.media-query.media-query_TABLET__DESKT
 
 # UploadrAr.com (File hosting service)
 uploadrar.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
+flash.getpczone.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
 
 # Uphold (Wallet)
 @@||uphold.com/authorize^$stealth
