@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 614
+! Entries: 616
 !
 ! Expires: 1 days
 !
-! Updated: 2024.02.07
+! Updated: 2024.02.13
 !
 ! MIT License
 !
@@ -473,6 +473,10 @@
 
 # Google Play Store
 @@||play.app.goo.gl^
+
+# GrannyTube.net
+@@||cdn.grannytube.net^
+! Blocked by GoodByeAds
 
 # GsmArena
 @@||fdn.gsmarena.com^
@@ -993,8 +997,11 @@
 @@||settings-win.data.microsoft.com^
 @@||clientconfig.passport.net^
 
+# xHamster.com
 @@||xHamster.com^
 ! Blocked by AntiPopAds:RE (Energized.Pro)
+@@||static-ah.xhcdn.com^
+! Blocked by GoodByeAds
 
 # Xiaomi
 @@||file.market.xiaomi.com^
