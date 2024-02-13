@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 616
+! Entries: 622
 !
 ! Expires: 1 days
 !
@@ -685,9 +685,25 @@
 @@||ahcdn.prequel.app^
 ! Blocked by GoodByeAds
 
+# Proton (Mail | VPN | Calendar | Drive | Pass) [Proton AG]
+@@||proton.me^
+
+# Proton Calendar
+@@||calendar-api.proton.me^
+
+# Proton Drive
+@@||drive-api.proton.me^
+
 # Proton Mail
 @@||go.getproton.me^
 ! Blocked by GoodByeAds
+@@||api.protonmail.ch^
+@@||mail-api.proton.me^
+
+# Proton Pass
+@@||pass-api.proton.me^
+
+# Proton VPN
 
 # Reactor.cc
 @@||reactor.cc^
