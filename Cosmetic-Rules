@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2724
+! Entries: 2725
 !
 ! Expires: 1 days
 !
-! Updated: 2024.02.13
+! Updated: 2024.02.14
 !
 ! MIT License
 !
@@ -1236,6 +1236,9 @@ forum.mozilla-*.org##[id="announce"]
 
 # Niebo Nie Jest Już Limitem [NNJL]
 nnjl.pl##.woocommerce-store-notice.demo_store
+
+# Nike
+@@||api.nike.com/buy/list_items^$domain=nike.com
 
 # Nocowanie.pl [Wirtualna Polska]
 @@||d.nocimg.pl^$domain=nocowanie.pl
