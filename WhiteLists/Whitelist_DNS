@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 622
+! Entries: 625
 !
 ! Expires: 1 days
 !
-! Updated: 2024.02.13
+! Updated: 2024.02.14
 !
 ! MIT License
 !
@@ -49,6 +49,11 @@
 
 # Accuweather 
 @@||vortex.accuweather.com^
+
+# ACRCloud (Audio recognition service provider)
+@@||api.acrcloud.com^
+@@||identify-global.acrcloud.com^
+! Blocked by εxodus-privacy
 
 # AdGuard
 @@||email-link.adtidy.org^
@@ -280,6 +285,10 @@
 
 # DuckDuckGo Browser
 @@||staticcdn.duckduckgo.com^
+
+# eBay
+@@||ebay.com^
+! Blocked by DuckDuckGo Tracker Radar
 
 # Electronic Arts (EA)
 @@||eaassets-a.akamaihd.net^
