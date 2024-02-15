@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 625
+! Entries: 626
 !
 ! Expires: 1 days
 !
-! Updated: 2024.02.14
+! Updated: 2024.02.15
 !
 ! MIT License
 !
@@ -499,6 +499,10 @@
 @@||hotspotshield.com^
 @@||www.hotspotshield.com^
 ! Blocked by The Ultimate Hosts Blacklist (UHB)
+
+# Ibis (Hotels) [Accor - all.accor.com]
+@@||ahstatic.com^
+! Blocked by GoodByeAds Spotify
 
 # InShot
 @@||aws.inshot.cc
