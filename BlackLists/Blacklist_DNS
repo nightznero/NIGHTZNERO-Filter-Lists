@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 878 (+15 local hosts)
+! Entries: 2 879 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.02.08
+! Updated: 2024.02.15
 !
 ! MIT License
 !
@@ -628,6 +628,9 @@ ff02::3 ip6-allhosts
 
 ! Fvck off - Shazam [Apple]
 0.0.0.0 beacon.shazam.com
+
+! Fvck off - MusixMatch (Lyrics Finder)
+0.0.0.0 tracking.musixmatch.com
 
 # Fvck off - Twitch.tv
 0.0.0.0 spade.twitch.tv
