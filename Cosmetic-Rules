@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2731
+! Entries: 2733
 !
 ! Expires: 1 days
 !
-! Updated: 2024.02.16
+! Updated: 2024.02.17
 !
 ! MIT License
 !
@@ -2262,6 +2262,10 @@ twitter.com#@#.ProfileCanopy-card, .u-cf.OpenInAppBar, div:not([aria-labelledby=
 
 # U.GG
 u.gg###page-content > div:last-child > div.media-query.media-query_TABLET__DESKTOP_LARGE:first-child
+
+# unsee.cc (image hosting secured & temporary)
+unsee.cc##BUTTON.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorInherit.MuiIconButton-edgeEnd.MuiIconButton-sizeLarge.css-1be1j1n[tabindex='0'][type='button'][aria-label='Unsee stands in solidarity with the Ukrainian people against the russian invasion. Find out how you can help.']
+unsee.cc##BUTTON.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorInherit.MuiIconButton-edgeEnd.MuiIconButton-sizeLarge.css-1be1j1n[tabindex='0'][type='button'][aria-label='Unsee solidaryzuje się z narodem ukraińskim przeciwko rosyjskiej inwazji. Dowiedz się, jak możesz pomóc.']
 
 # UploadrAr.com (File hosting service)
 uploadrar.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
