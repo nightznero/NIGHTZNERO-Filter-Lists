@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2727
+! Entries: 2731
 !
 ! Expires: 1 days
 !
-! Updated: 2024.02.15
+! Updated: 2024.02.16
 !
 ! MIT License
 !
@@ -885,6 +885,10 @@ ctdi.pl###bannerdown
 # Coomer.party
 @@||c*.coomer.party/data^
 @@||c*.coomer.su/data^
+@@||img.coomer.party/icons^$domain=coomer.party
+@@||img.coomer.party/banners^$domain=coomer.party
+@@||img.coomer.su/icons^$domain=coomer.su
+@@||img.coomer.su/banners^$domain=coomer.su
 coomer.su##A[href='//a.adtng.com/get/10014806'][style='color: #000000; padding: 0;']
 
 # CumOnPrintedPics.com
