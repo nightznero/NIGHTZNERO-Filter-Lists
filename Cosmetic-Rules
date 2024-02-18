@@ -34,7 +34,6 @@
 /loadPopIn.
 /itsads/*
 ##body:style(overflow: auto !important;)
-#@#adsContent
 ##.box-adv
 ##.cmp-footer_footer
 ##.cookie-alert.text-13-sm
