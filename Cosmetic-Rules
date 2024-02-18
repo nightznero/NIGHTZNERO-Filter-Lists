@@ -15,11 +15,11 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2024.02.17
+! Updated: 2024.02.18
 !
 ! MIT License
 !
-! Copyright (c) 2023 NIGHTZNERO
+! Copyright (c) 2024 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # Fanboy missing elements
 ##.banner
@@ -1144,6 +1144,7 @@ poczta.interia.pl##DIV.placeholder
 poczta.interia.pl##HEADER.header-container
 poczta.interia.pl##DIV[ng-if='::isNext'][nxt-navigation-promo-place]
 poczta.interia.pl##DIV.navigation__promo-banner[ng-if='::isNavigationPromoBanner'][nxt-navigation-promo-banner]
+poczta.interia.pl##A.settings__app-url[ng-if='::appUrl'][target='_blank'][ng-href^='https://play.google.com/store/apps/details'][href^='https://play.google.com/store/apps/details']
 
 # Jasper.ai
 @@||assets-global.website-files.com/60e5f2de011b86acebc30db7^$domain=jasper.ai
