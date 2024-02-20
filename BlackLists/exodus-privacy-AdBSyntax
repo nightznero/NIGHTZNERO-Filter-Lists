@@ -15,14 +15,14 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2023.01.26
+! Updated: 2024.02.21
 !
 ! MIT License
 !
-! Copyright (c) 2023 NIGHTZNERO
+! Copyright (c) 2024 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ||databerries.com^
-||fidzup^
+||fidzup.com^
 ||krxd.net^
 ||a4.tl^
 ||accengage.com^
@@ -500,8 +500,8 @@
 ||sdk.predic.io^
 ||grid.amap.com^
 ||tm.amap.com^
-||mst[0-9]*.is.autonavi.com^
-||mt[0-9]*.google.cn^
+||mst*.is.autonavi.com^
+||mt*.google.cn^
 ||apilocate.amap.com^
 ||yuntuapi.amap.com^
 ||m5.amap.com^
