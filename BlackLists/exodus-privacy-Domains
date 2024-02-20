@@ -11,18 +11,18 @@
 !
 ! Description: εxodus-privacy list compiled into domain list
 !
-! Entries: 517
+! Entries: 514
 !
 ! Expires: 1 days
 !
-! Updated: 2023.01.26
+! Updated: 2024.02.21
 !
 ! MIT License
 !
-! Copyright (c) 2023 NIGHTZNERO
+! Copyright (c) 2024 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 databerries.com
-fidzup
+fidzup.com
 krxd.net
 a4.tl
 accengage.com
@@ -131,7 +131,6 @@ hypertrack.amazonaws.com
 trck.at
 events.uber.com
 lisnr.com
-54.243.73.253:8080/SilverPush/
 silverpush.co
 silverpush.com
 sdk.shopkick.com
@@ -500,8 +499,6 @@ bin5y4muil.execute-api.us-east-1.amazonaws.com
 sdk.predic.io
 grid.amap.com
 tm.amap.com
-mst[0-9]*.is.autonavi.com
-mt[0-9]*.google.cn
 apilocate.amap.com
 yuntuapi.amap.com
 m5.amap.com
