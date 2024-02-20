@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 879 (+15 local hosts)
+! Entries: 2 881 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.02.15
+! Updated: 2024.02.20
 !
 ! MIT License
 !
@@ -50,6 +50,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adxadserv.com
 0.0.0.0 akunamapro.com
 0.0.0.0 aoflix.com
+0.0.0.0 candyoffers.com
 0.0.0.0 deephicy.net
 0.0.0.0 deliveranceads.com
 0.0.0.0 entitlements.jwplayer.com
@@ -844,6 +845,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 freeleaked.me
 0.0.0.0 bestofleaks.com
 0.0.0.0 fapello-leaks.com
+0.0.0.0 grzechyseksualne.com
 
 # Fvck off - Kape Technologies [Formerly Crossrider] (Malware distributor)
 0.0.0.0 cyberghostvpn.com
