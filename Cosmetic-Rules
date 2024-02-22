@@ -849,7 +849,7 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 @@||camport.pl/nowy-panel/media-full/places^$domain=camport.pl
 
 # CamWhores.tv
-@@||www.camwhores.tv^$stealth
+@@||camwhores.tv^$stealth
 @@||cdn.camwhores.tv/styles/all-responsive-metal.css?v=*$domain=camwhores.tv
 @@||cdn.camwhores.tv/styles/jquery.fancybox-metal.css?v=*$domain=camwhores.tv
 @@||cdn.camwhores.tv/js/main.min.js?v=*$domain=camwhores.tv
