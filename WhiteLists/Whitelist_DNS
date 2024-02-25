@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 626
+! Entries: 627
 !
 ! Expires: 1 days
 !
-! Updated: 2024.02.15
+! Updated: 2024.02.25
 !
 ! MIT License
 !
@@ -387,6 +387,10 @@
 @@||www.mozgcp.net^
 @@||www.mozilla.com^
 @@||www.mozilla.org^
+
+# FMHY (Safe pirated lists) [FREEMEDIAHECKYEAH]
+@@||fmhy.net^
+! Blocked by GoodByeAds
 
 # GitHub
 @@||t.en25.com^
