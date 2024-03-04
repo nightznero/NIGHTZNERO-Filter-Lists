@@ -11,15 +11,15 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 881 (+15 local hosts)
+! Entries: 2 883 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.02.20
+! Updated: 2024.03.04
 !
 ! MIT License
 !
-! Copyright (c) 2023 NIGHTZNERO
+! Copyright (c) 2024 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Fvck off - Attribute
 0.0.0.0 0.0.0.0
@@ -803,6 +803,10 @@ ff02::3 ip6-allhosts
 ! Fvck off - wp (Wirtualna Polska)
 0.0.0.0 pixel.wp.pl
 0.0.0.0 pixel6.wp.pl
+
+! Fvck off - olx.com
+0.0.0.0 tracking.olx-st.com
+0.0.0.0 ninja.data.olxcdn.com
 
 ! Fvck off - Pracuj.pl
 0.0.0.0 tracker.pracuj.pl
