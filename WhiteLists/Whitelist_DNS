@@ -11,17 +11,19 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 628
+! Entries: 630
 !
 ! Expires: 1 days
 !
-! Updated: 2024.02.29
+! Updated: 2024.03.10
 !
 ! MIT License
 !
-! Copyright (c) 2023 NIGHTZNERO
+! Copyright (c) 2024 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # 0.0.0.0 (Blindfolded blocked local hosts-can't be fixed)
+@@||enmity.app^
+@@||powercord.dev^
 @@||tv-iptv.bid^
 
 # .onion sites
