@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 630
+! Entries: 631
 !
 ! Expires: 1 days
 !
-! Updated: 2024.03.10
+! Updated: 2024.03.11
 !
 ! MIT License
 !
@@ -1080,6 +1080,8 @@
 # Żappka [Żabka]
 @@||snrcdn.net^
 ! Blocked by Energized.Pro - Basic
+@@||api.synerise.com^
+! Blocked by εxodus-privacy
 
 ! ------------------------- !! -------------------------!
 !                  DeCloudUs Whitelist                  !
