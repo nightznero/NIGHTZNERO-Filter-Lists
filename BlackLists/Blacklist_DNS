@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 884 (+15 local hosts)
+! Entries: 2 885 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.03.12
+! Updated: 2024.03.13
 !
 ! MIT License
 !
@@ -831,6 +831,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 twpytr.com
 0.0.0.0 ijnb.cn
 0.0.0.0 czyj-to-numer.pl
+0.0.0.0 ktodzwonil.info
 0.0.0.0 yesdownloader.com
 0.0.0.0 saveporn.net
 0.0.0.0 phdownload.net
