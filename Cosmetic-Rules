@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2751
+! Entries: 2752
 !
 ! Expires: 1 days
 !
-! Updated: 2024.03.11
+! Updated: 2024.03.13
 !
 ! MIT License
 !
@@ -2361,6 +2361,7 @@ youtube.com##+js(nano-stb, resolve(1), *, 0.001)
 # Zbiornik.com
 @@||*.zbiornik.com/ajax/*$stealth
 @@||zbiornik.com/live^$stealth
+@@||zbiornik.com/attach.php?v=*$domain=zbiornik.com
 @@||c*.zbiornik.com/AntMediaZbiornik/websocket?*Data=*$stealth
 
 ! ZEN.com (Zero Effort Non-Bank)
