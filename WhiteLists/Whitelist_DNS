@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 631
+! Entries: 633
 !
 ! Expires: 1 days
 !
-! Updated: 2024.03.11
+! Updated: 2024.03.15
 !
 ! MIT License
 !
@@ -217,6 +217,11 @@
 
 # Brazzers AIO
 @@||site-api.project1service.com^
+
+# Bunkr / Bunkrr (File hostage)
+@@||get.bunkrr.su^
+@@||bunkrr.su^
+! Blocked by 1Hosts - Lite
 
 # Buzzfeed
 @@||weaver-api.buzzfeed.com^
