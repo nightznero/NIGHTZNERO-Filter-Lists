@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2752
+! Entries: 2753
 !
 ! Expires: 1 days
 !
-! Updated: 2024.03.13
+! Updated: 2024.03.15
 !
 ! MIT License
 !
@@ -803,6 +803,7 @@ androidauthority.com##DIV.---___d.---____b.---___Qk
 # ApkModDone.com [modding site]
 apkmoddone.com##DIV#sn-AddOns.section
 apkmoddone.modapkvn.com##DIV#addons-widget.section
+amd.tgamer.vn##DIV#addons-widget.section
 
 # Asics (Clothes)
 @@||asics.com/on/demandware.store^$domain=asics.com
