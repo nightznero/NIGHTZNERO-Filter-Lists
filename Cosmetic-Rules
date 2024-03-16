@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2753
+! Entries: 2756
 !
 ! Expires: 1 days
 !
-! Updated: 2024.03.15
+! Updated: 2024.03.17
 !
 ! MIT License
 !
@@ -801,6 +801,7 @@ androidauthority.com##DIV.---___Tb.---___Qk
 androidauthority.com##DIV.---___d.---____b.---___Qk
 
 # ApkModDone.com [modding site]
+@@||vip1s.top##DIV#footer-ads-wrap.flex-center
 apkmoddone.com##DIV#sn-AddOns.section
 apkmoddone.modapkvn.com##DIV#addons-widget.section
 amd.tgamer.vn##DIV#addons-widget.section
@@ -848,6 +849,7 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 @@||i*.bunkr.*/thumbs^$domain=bunkr.*|bunkrr.*|i*.bunkr.*
 @@||media-files*.bunkr.*/*.mp4$domain=bunkr.*|bunkrr.*
 @@||bunkrr.*/d/*$domain=bunkr.*|bunkrr.*
+@@||c.bunkr-cache.*/*.mp4
 
 # Camport
 @@||camport.pl/nowy-panel/media-full/places^$domain=camport.pl
@@ -2360,6 +2362,7 @@ youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(set, ytInitialPlayerRespo
 youtube.com##+js(nano-stb, resolve(1), *, 0.001)
 
 # Zbiornik.com
+@@||*.zbiornik.com^$domain=zbiornik.com
 @@||*.zbiornik.com/ajax/*$stealth
 @@||zbiornik.com/live^$stealth
 @@||zbiornik.com/attach.php?v=*$domain=zbiornik.com
