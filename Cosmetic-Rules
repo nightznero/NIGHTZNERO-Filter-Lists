@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2756
+! Entries: 2758
 !
 ! Expires: 1 days
 !
@@ -845,6 +845,9 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 @@||cdck-file-uploads-global.s3.us-west-2.amazonaws.com/temp/brave/$domain=community.brave.com
 
 # Bunkr
+@@||bunkr.*^$domain=bunkr.*|bunkrr.*
+@@||bunkrr.*^$domain=bunkrr.*|bunkr.*
+! Blocked by 1Hosts - Pro
 ! For now disabled @@||i*.bunkr.*/thumbs^$stealth
 @@||i*.bunkr.*/thumbs^$domain=bunkr.*|bunkrr.*|i*.bunkr.*
 @@||media-files*.bunkr.*/*.mp4$domain=bunkr.*|bunkrr.*
