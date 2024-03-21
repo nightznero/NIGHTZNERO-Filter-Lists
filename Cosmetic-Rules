@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2759
+! Entries: 2761
 !
 ! Expires: 1 days
 !
-! Updated: 2024.03.19
+! Updated: 2024.03.21
 !
 ! MIT License
 !
@@ -44,6 +44,7 @@
 ###cookie-bar
 ###veta_branding
 ###veta_top
+#@#/puzzle_captcha.min.js*
 
 # Default
 @@/favicon.ico|
@@ -1295,6 +1296,7 @@ oktours.pl##DIV.font-medium.text-lg.mb-3
 @@||oglaszamy24.pl*storage/*.jpg$domain=*.oglaszamy24.pl
 ||oglaszamy24.pl*video^
 ||oglaszamy24.pl/js-css/exnb/exnbb.php^
+oglaszamy24.pl#@#DIV#puzzle_captcha1.puzzle_captcha_w
 oglaszamy24.pl#@#IMG.lazy[src='storage/*.jpg'][data-original='storage/*.jpg'][width='100'][height='75'][border='0']
 oglaszamy24.pl##A[style='text-decoration:none'][href^='*/click.php'][rel='nofollow'][target='_blank']
 oglaszamy24.pl##A[style='text-decoration:none'][href^='https://femmelin.com/click.php'][rel='nofollow'][target='_blank']
