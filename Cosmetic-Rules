@@ -849,11 +849,11 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 @@||bunkr.*^$domain=bunkr.*|bunkrr.*
 @@||bunkrr.*^$domain=bunkrr.*|bunkr.*
 ! Blocked by 1Hosts - Pro
-! For now disabled @@||i*.bunkr.*/thumbs^$stealth
-@@||i*.bunkr.*/thumbs^$domain=bunkr.*|bunkrr.*|i*.bunkr.*
+@@||i*.bunkr.*/thumbs^$domain=bunkr.*|bunkrr.*
 @@||media-files*.bunkr.*/*.mp4$domain=bunkr.*|bunkrr.*
 @@||bunkrr.*/d/*$domain=bunkr.*|bunkrr.*
 @@||c.bunkr-cache.*/*.mp4
+@@||c.bunkr-cache.*^$domain=bunkr.*|bunkrr*
 
 # Camport
 @@||camport.pl/nowy-panel/media-full/places^$domain=camport.pl
