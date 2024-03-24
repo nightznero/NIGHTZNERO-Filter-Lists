@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2024.03.21
+! Updated: 2024.03.24
 !
 ! MIT License
 !
@@ -939,8 +939,8 @@ danidaniels.com##.strip-notification-wrapper.verification-sent
 danidaniels.com###gdpr-cookie-accept
 
 # Datezone.com
-@@||imgcdn.datezone.com/users/401/$domain=datezone.com,important
-! Blocked by Fuck FuckAdBlock
+@@||imgcdn.datezone.com/users/*/*/*.jpg?v=2$domain=datezone.com,important
+! Blocked by Fuck FuckAdBlock (Blindfolded)
 
 # DeepNude.CA (Clothes Remover)
 @@||newfuku.s3.us-west-1.amazonaws.com/*.jpg$domain=newfuku.com
