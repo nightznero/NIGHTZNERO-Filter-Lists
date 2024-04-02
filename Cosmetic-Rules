@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2768
+! Entries: 2776
 !
 ! Expires: 1 days
 !
-! Updated: 2024.03.26
+! Updated: 2024.04.03
 !
 ! MIT License
 !
@@ -800,6 +800,16 @@ androidauthority.com##DIV.---___9b
 androidauthority.com##DIV.---___af.---___bf.---___Tl.---___Xl
 androidauthority.com##DIV.---___Tb.---___Qk
 androidauthority.com##DIV.---___d.---____b.---___Qk
+
+# APKMirror.com
+apkmirror.com##DIV#adtester-container-125.ains.ains-24.ains-has-label.ains-apkm_release_page_top[data-ai='WzI0LDAsImFwa21fcmVsZWFzZV9wYWdlX3RvcCIsIiIsMV0=']
+apkmirror.com##DIV#adtester-container-126.ains.ains-25.ains-has-label.ains-apkm_release_page_middle[data-ai='WzI1LDAsImFwa21fcmVsZWFzZV9wYWdlX21pZGRsZSIsIiIsMV0=']
+apkmirror.com##DIV#adtester-container-127.ains.ains-26.ains-has-label.ains-apkm_release_page_below_description_above_downloads[data-ai='WzI2LDAsImFwa21fcmVsZWFzZV9wYWdlX2JlbG93X2Rlc2NyaXB0aW9uX2Fib3ZlX2Rvd25sb2FkcyIsIiIsMV0=']
+apkmirror.com##DIV#adtester-container-129.ains.ains-28.ains-has-label.ains-apkm_release_page_whatsnewtab.ai-viewport-1.ai-viewport-5[data-ai='WzI4LDAsImFwa21fcmVsZWFzZV9wYWdlX3doYXRzbmV3dGFiIiwiIiwxXQ==']
+apkmirror.com##DIV.gooWidget.google-ad-square-inline.x-showOnTabletAndDesktop
+apkmirror.com##DIV.gooWidget.google-ad-square-sidebar
+apkmirror.com##DIV.ains.ains-51.ains-apkm_outbrain_ad[style='margin: 8px 0; clear: both;']
+apkmirror.com##ASIDE#ai_widget-3.widget.block-widget
 
 # ApkModDone.com [modding site]
 @@||vip1s.top##DIV#footer-ads-wrap.flex-center
