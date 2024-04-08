@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 885 (+15 local hosts)
+! Entries: 2 886 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.03.13
+! Updated: 2024.04.08
 !
 ! MIT License
 !
@@ -817,6 +817,7 @@ ff02::3 ip6-allhosts
 # Fvck off - Jump Scares
 0.0.0.0 pnrtscr.com
 0.0.0.0 ptoszek.pl
+0.0.0.0 szok-cenowy.pl
 0.0.0.0 TheAnnoyingSite.com
 0.0.0.0 YouAreAnIdiot.cc
 ## Fvck off - Jump Scares (docked sites for famous people)
