@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2779
+! Entries: 2780
 !
 ! Expires: 1 days
 !
-! Updated: 2024.04.07
+! Updated: 2024.04.09
 !
 ! MIT License
 !
@@ -815,6 +815,7 @@ apkmirror.com##ASIDE#ai_widget-3.widget.block-widget
 @@||vip1s.top##DIV#footer-ads-wrap.flex-center
 apkmoddone.com##DIV#sn-AddOns.section
 apkmoddone.modapkvn.com##DIV#addons-widget.section
+*.tgamer.vn##DIV#addons-widget.section
 amd.tgamer.vn##DIV#addons-widget.section
 dlamd.tgamer.vn##DIV#addons-widget.section
 
