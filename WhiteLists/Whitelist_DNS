@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 637
+! Entries: 638
 !
 ! Expires: 1 days
 !
-! Updated: 2024.03.30
+! Updated: 2024.04.12
 !
 ! MIT License
 !
@@ -971,6 +971,8 @@
 @@||uafieldtesting.sjc1.qualtrics.com^
 @@||ualistens.underarmour.com^
 ! Blocked by GoodByeAds
+@@||help.underarmour.com^
+! Blocked by ADM Advanced Download Manager Host List (Blindfolded)
 
 # Upday
 @@||prod.yana.asideas.de^
