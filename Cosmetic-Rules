@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2782
+! Entries: 2783
 !
 ! Expires: 1 days
 !
-! Updated: 2024.04.09
+! Updated: 2024.04.13
 !
 ! MIT License
 !
@@ -1344,6 +1344,8 @@ oglaszamy24.pl##DIV[style='width:570px; background-image:url(img/box8_3.gif);hei
 
 # OLX
 @@||ireland.apollo.olxcdn.com/v1/temp-files$domain=olx.pl
+@@||production-graphql.eu-sharedservices.olxcdn.com/graphql$domain=olx.pl
+
 
 # OnlyFans
 onlyfans.com##.b-feed__aside.b-recommended
