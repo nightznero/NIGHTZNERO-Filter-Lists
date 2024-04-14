@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 886 (+15 local hosts)
+! Entries: 2 887 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.04.08
+! Updated: 2024.04.14
 !
 ! MIT License
 !
@@ -66,6 +66,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qrlsx.com
 0.0.0.0 randomadsrv.com
 0.0.0.0 realsrv.com
+0.0.0.0 rmshqa.com
 0.0.0.0 thanksgivingdelights.com
 0.0.0.0 tsyndicate.com
 
