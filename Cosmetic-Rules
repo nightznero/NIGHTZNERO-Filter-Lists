@@ -1988,20 +1988,19 @@ pornoeggs.com##.vast_clickthrough_layer.vast_clickthrough_layer_*
 ||*.pornhub.com$redirect=pornhub.com
 ||*.pornhubpremium.com$redirect=pornhubpremium.com
 pornhub.com##A.buttonClass.blackBtn.eudsaLink[target='_blank'][href^='https://www.pornhub.com/_xa/tabinfo']
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##+js(set, page_params.holiday_promo, true)
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##[id="pb_block"]
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##[id="pb_template"]
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##[id^="age-verification"]
-pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.realsex
-pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.premiumPromoBanner
-pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###pb_template
-pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##+js(set, page_params.holiday_promo, true)
-pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.cookieBanner
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##div.wrapper:nth-child(*) > div.container:last-child > div.gridWrapper:nth-child(*) > div.nf-videos:last-child > div.sectionWrapper > div.sectionWrapper:nth-child(7)
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##div.wrapper:nth-child(8) > div.container:last-child > div.gridWrapper:nth-child(6) > div.nf-videos:last-child > div.sectionWrapper > div.sectionWrapper:nth-child(7)
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##div.wrapper:nth-child(11) > div.container:last-child > div.gridWrapper:nth-child(8) > div.nf-videos:last-child > div.sectionWrapper > div.sectionWrapper:nth-child(7)
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##div.wrapper:nth-child(13) > div.container:last-child > div.gridWrapper:nth-child(6) > div.nf-videos:last-child > div.sectionWrapper > div.sectionWrapper:nth-child(7)
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##div.wrapper:nth-child(13) > div.container:last-child > div.gridWrapper:nth-child(7) > div.nf-videos:last-child > div.sectionWrapper > div.sectionWrapper:nth-child(7)
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##div.wrapper:nth-child(13) > div.container:last-child > div.gridWrapper:nth-child(8) > div.nf-videos:last-child > div.sectionWrapper > div.sectionWrapper:nth-child(7)
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.cookieBanner
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.premiumPromoBanner
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.realsex
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.*.hd.clear
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.fhd057mkkb6wzp3zk6rfr.fhd057mkkb6wzp3zk6rfu.hd.clear
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.kkyb159obd3nt7g3td5hr.kkyb159obd3nt7g3td5hu.hd.clear
@@ -2017,6 +2016,7 @@ pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.srtyogkwcr
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.peclneklto
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.beikuljzth
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.a5buu4qcbgz1i7f
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###pb_template
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 *
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 577970664796
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 577970737216
