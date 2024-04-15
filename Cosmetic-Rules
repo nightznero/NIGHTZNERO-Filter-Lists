@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2763
+! Entries: 2764
 !
 ! Expires: 1 days
 !
@@ -2299,6 +2299,9 @@ twitter.com#@#.ProfileCanopy-card, .u-cf.OpenInAppBar, div:not([aria-labelledby=
 # U.GG
 u.gg###page-content > div:last-child > div.media-query.media-query_TABLET__DESKTOP_LARGE:first-child
 
+# Under Armour
+@@||api.shop.ua.com/graphql^$domain=underarmour.com
+
 # unsee.cc (image hosting secured & temporary)
 @@||unsee.cc/graphql$domain=unsee.cc
 unsee.cc##BUTTON.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorInherit.MuiIconButton-edgeEnd.MuiIconButton-sizeLarge.css-1be1j1n[tabindex='0'][type='button'][aria-label='Unsee stands in solidarity with the Ukrainian people against the russian invasion. Find out how you can help.']
@@ -2342,7 +2345,7 @@ xvideos.com##.x-message.x-message-info
 xvideos.com##.icon-f.icf-info-circle
 xvideos.com##.ic
 
-# You.com (Search engine)
+# YOU.com (Search engine)
 @@||*.you.com^$domain=*.you.com,stealth
 @@||web.stytch.com/sdk/v1/users/search$domain=you.com
 @@||web.stytch.com/sdk/v1/passwords/authenticate$domain=you.com
