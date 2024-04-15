@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2785
+! Entries: 2788
 !
 ! Expires: 1 days
 !
-! Updated: 2024.04.14
+! Updated: 2024.04.15
 !
 ! MIT License
 !
@@ -1985,9 +1985,12 @@ pornoeggs.com##.vast_clickthrough_layer.vast_clickthrough_layer_*
 # PornHub
 @@||hubt.pornhub.com^$domain=pornhub.com
 ! Blocked by 1Hosts - Pro
-pornhub.com##[id="pb_block"]
-pornhub.com##[id="pb_template"]
-pornhub.com##[id^="age-verification"]
+||*.pornhub.com$redirect=pornhub.com
+||*.pornhubpremium.com$redirect=pornhubpremium.com
+pornhub.com##A.buttonClass.blackBtn.eudsaLink[target='_blank'][href^='https://www.pornhub.com/_xa/tabinfo']
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##[id="pb_block"]
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##[id="pb_template"]
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##[id^="age-verification"]
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.realsex
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.premiumPromoBanner
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###pb_template
