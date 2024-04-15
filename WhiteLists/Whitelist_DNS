@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 639
+! Entries: 640
 !
 ! Expires: 1 days
 !
-! Updated: 2024.04.12
+! Updated: 2024.04.15
 !
 ! MIT License
 !
@@ -755,6 +755,10 @@
 @@||redd.it^
 @@||i.redd.it^
 @@||cdn.embedly.com^
+
+# RedTube.com
+@@||redtube.com^
+! Blocked by AdGuard Home List (Dandelion Sprout)
 
 # Rentry.co
 @@||rentry.co^
