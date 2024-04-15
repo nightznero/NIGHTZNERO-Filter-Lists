@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 887 (+15 local hosts)
+! Entries: 2 888 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.04.14
+! Updated: 2024.04.15
 !
 ! MIT License
 !
@@ -668,6 +668,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 pixel.redditmedia.com
 0.0.0.0 rereddit.com
 0.0.0.0 redditad.com
+
+# Fvck off - RedTube (RT Premium is no longer available)
+0.0.0.0 redtubepremium.com
 
 # Fvck off - Brave Browser
 0.0.0.0 variations.brave.com
