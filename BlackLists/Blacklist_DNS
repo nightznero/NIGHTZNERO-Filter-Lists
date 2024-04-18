@@ -11,17 +11,17 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 888 (+15 local hosts)
+! Entries: 2 890 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.04.15
+! Updated: 2024.04.18
 !
 ! MIT License
 !
 ! Copyright (c) 2024 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Fvck off - Attribute
+# Fvck off - Attribute
 0.0.0.0 0.0.0.0
 0.0.0.0 0.0.0
 127.0.0.1 localhost
@@ -38,7 +38,7 @@ ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 
-! Fvck off - Ads
+# Fvck off - Ads popups
 0.0.0.0 0x01n2ptpuz3.com
 0.0.0.0 adltserv.com
 0.0.0.0 ads.bullionyield.com
@@ -69,6 +69,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 rmshqa.com
 0.0.0.0 thanksgivingdelights.com
 0.0.0.0 tsyndicate.com
+
+# Fvck off - Ads
+0.0.0.0 mercury.akamaized.net
+0.0.0.0 hesads.akamaized.net
 
 ! -Doubleclick.net- !
 0.0.0.0 mediavisor.doubleclick.net
