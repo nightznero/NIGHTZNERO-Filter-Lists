@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 641
+! Entries: 642
 !
 ! Expires: 1 days
 !
@@ -598,6 +598,10 @@
 @@||uiboot.netflix.com^
 @@||api-global.netflix.com^
 @@||ichnaea.netflix.com^
+
+# Nike
+@@||nikeconsumerservices.my.salesforce-sites.com^
+! Blocked by ADM Advanced Download Manager
 
 # Nvidia GeForce
 @@||events.gfe.nvidia.com^
