@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2765
+! Entries: 2768
 !
 ! Expires: 1 days
 !
-! Updated: 2024.04.16
+! Updated: 2024.04.18
 !
 ! MIT License
 !
@@ -2252,6 +2252,11 @@ teenager365.com##.k87c75-container.k87c75-2.k87c75-hide
 teenager365.com##.kdd1b8-container.kdd1b8-2.kdd1b8-hide
 teenager365.com##.k5121b-container.k5121b-2.k5121b-hide
 teenager365.com##.k9d4bd-container.k9d4bd-2.k9d4bd-hide
+
+# TeraBox
+@@||terabox.com/passport^$domain=terabox.com
+@@||terabox.com/api^$domain=terabox.com
+@@||terabox.com/wap^$domain=terabox.com
 
 # The North Face
 @@||static.thenorthface.*^$domain=thenorthface.com|thenorthface.eu|thenorthface.co.uk|thenorthface.pl|
