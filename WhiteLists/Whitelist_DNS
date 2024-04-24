@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 645
+! Entries: 646
 !
 ! Expires: 1 days
 !
-! Updated: 2024.04.22
+! Updated: 2024.04.24
 !
 ! MIT License
 !
@@ -252,6 +252,9 @@
 # CARROT Weather
 @@||maps.aerisapi.com^
 ! Blocked by 1Hosts - Pro
+
+# CloudFlare
+@@||challenges.cloudflare.com^
 
 # CNN
 @@||cdn.cnn.com^
