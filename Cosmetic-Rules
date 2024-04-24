@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2024.04.22
+! Updated: 2024.04.24
 !
 ! MIT License
 !
@@ -2378,9 +2378,9 @@ xvideos.com##.ic
 
 # YOU.com (Search engine)
 @@||*.you.com^$domain=*.you.com,stealth
-@@||web.stytch.com/sdk/v1/users/search$domain=you.com
-@@||web.stytch.com/sdk/v1/passwords/authenticate$domain=you.com
+@@||web.stytch.com/sdk/v1/*$domain=you.com
 @@||you.com/api/chat/getUserChats$domain=you.com
+||you.com/api/recordEvent
 
 # YouPorn
 youporn.com##.lf6z1k2g5R7a
