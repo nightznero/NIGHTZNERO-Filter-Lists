@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2791
+! Entries: 2794
 !
 ! Expires: 1 days
 !
-! Updated: 2024.04.24
+! Updated: 2024.04.25
 !
 ! MIT License
 !
@@ -2069,7 +2069,10 @@ reddit.com##A._24UNt1hkbrZxLzs5vkvuDh[href^='https://ads.reddit.com'][target='_b
 www.reddit.com##DIV._1b1Jalg2nxA_Z-BjKXRfAV
 
 # RedGifs
+@@||redgifs.com^$domain=redgifs.com
+@@||api.redgifs.com^$domain=redgifs.com
 @@||thumbs*.redgifs.com^$domain=redgifs.com
+@@||userpic.redgifs.com^$domain=redgifs.com
 ||api.redgifs.com/v*/ads^
 ||api.redgifs.com/v*/metrics^
 ||redgifs.com/assets/js/goCtrl.js
