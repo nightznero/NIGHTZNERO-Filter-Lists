@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 890 (+15 local hosts)
+! Entries: 2 893 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -630,7 +630,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 youtubei.youtube.com
 
 ! Fvck off - Spotify
-0.0.0.0 audio4-ak-spotify-com.akamaized.net
+0.0.0.0 audio-ak-spotify-com
+0.0.0.0 audio-akp.spotify.com
+0.0.0.0 video-ak.cdn.spotify.com
+0.0.0.0 video-akp.cdn.spotify.com
 
 ! Fvck off - Shazam [Apple]
 0.0.0.0 beacon.shazam.com
