@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2799
+! Entries: 2800
 !
 ! Expires: 1 days
 !
@@ -2256,6 +2256,7 @@ sympatia.onet.pl###line
 ||taboolasyndication.com^$third-party
 
 # Team Speak
+@@||myteamspeak.com/api^$domain=myteamspeak.com
 teamspeak.com###gdpr-cookie-message
 myteamspeak.com##.cc-window.cc-banner.cc-type-info.cc-theme-block.cc-bottom.cc-color-override-1754772916
 
