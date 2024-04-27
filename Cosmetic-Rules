@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2797
+! Entries: 2799
 !
 ! Expires: 1 days
 !
-! Updated: 2024.04.25
+! Updated: 2024.04.27
 !
 ! MIT License
 !
@@ -2388,6 +2388,8 @@ xvideos.com##.ic
 @@||*.you.com^$domain=*.you.com,stealth
 @@||web.stytch.com/sdk/v1/*$domain=you.com
 @@||you.com/api/chat/getUserChats$domain=you.com
+@@||you.com/api/instrumentation$domain=you.com
+@@||you.com/api/logger$domain=you.com
 ||you.com/api/recordEvent
 
 # YouPorn
