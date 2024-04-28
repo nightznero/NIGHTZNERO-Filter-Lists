@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2806
+! Entries: 2807
 !
 ! Expires: 1 days
 !
@@ -2374,6 +2374,9 @@ wallpaperplay.com##.cc-window.cc-banner.cc-type-info.cc-theme-edgeless.cc-bottom
 
 # WeTransfer.com / we.tl
 @@||wetransfer.com/api/v4/transfers^$stealth
+
+# Wolvesville (Werewolf online game)
+@@||*.api-wolvesville.com^$domain=wolvesville.com
 
 # WP Poczta [Wirtualna Polska]
 poczta.wp.pl###main > div.css-ymc9pk:nth-child(6) > div.css-lg8uat > div.exhv6wy0.css-17cqwjw > div.css-106tacj > div.css-186j4av:nth-child(5)
