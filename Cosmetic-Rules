@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2792
+! Entries: 2797
 !
 ! Expires: 1 days
 !
@@ -2167,6 +2167,12 @@ simpcity.su##.block--category65.block--category.block
 ! Promotion Section - Verified models
 simpcity.su##.block--category101.block--category.block
 ! Transgender - Transgender
+simpcity.su##li:nth-of-type(3)
+simpcity.su##li:nth-of-type(4)
+simpcity.su##li:nth-of-type(5)
+simpcity.su##li:nth-of-type(6)
+simpcity.su##li:nth-of-type(7)
+! Left Menu - Mobile
 
 # Skąpiec.pl
 skapiec.pl##DIV.topAdContainer
