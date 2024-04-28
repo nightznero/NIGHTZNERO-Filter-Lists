@@ -1215,9 +1215,9 @@ kemono.su##A[href='//a.adtng.com/get/10014806'][style='color: #000000; padding: 
 lento.pl###a-sho-bootm
 lento.pl##main:nth-child(*) > div.container-fluid.otherpage-container > div.row:nth-child(*) > div.col-md-* > div.showogl > div.row-sm-flex:first-child > div.col-sm-left:first-child > div.img-cat.hidden-xs:last-child
 lento.pl##DIV.desc.width-100.text-center.padding-top-10.padding-bottom-10
-lento.pl##main:nth-child(5) > div.container-fluid.otherpage-container > div.row:nth-child(2) > div.col-md-12 > div.showogl.padding-top-15 > div.row-sm-flex:first-child > div.col-sm-right:last-child > div.tools.margin-bottom-20-sm.margin-bottom-25-xs:last-child > ul.margin-bottom-0 > li:nth-child(4)
-lento.pl##main:nth-child(5) > div.container-fluid.otherpage-container > div.row:nth-child(2) > div.col-md-12 > div.showogl.padding-top-15 > div.row-sm-flex:first-child > div.col-sm-right:last-child > div.tools.margin-bottom-20-sm.margin-bottom-25-xs:last-child > ul.margin-bottom-0 > li:last-child
-lento.pl###footer > div.row > div.copyright.col-sm-4.col-sm-pull-8.text-c-xs:nth-child(3)
+lento.pl##.margin-bottom-0 > li:nth-of-type(5)
+lento.pl##.margin-bottom-0 > li:nth-of-type(6)
+lento.pl##.text-c-xs.col-sm-pull-8.col-sm-4.copyright
 
 # LinkedIn [Microsoft]
 @@||licdn.com^$tag=linked-in-embeds
