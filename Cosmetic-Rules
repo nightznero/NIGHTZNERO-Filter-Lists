@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2800
+! Entries: 2803
 !
 ! Expires: 1 days
 !
-! Updated: 2024.04.27
+! Updated: 2024.04.28
 !
 ! MIT License
 !
@@ -1110,6 +1110,8 @@ genius.com##.optanon-alert-box-bg
 ! Blocked by Fanboy Ultimate List
 
 # GoFile.io
+@@||api.gofile.io/accounts^$domain=gofile.io
+! (For now disabled) @@||gofile.io/dist^$domain=gofile.io
 @@||file*.gofile.io/download^
 @@||store*.gofile.io/download^
 
@@ -2054,7 +2056,8 @@ reactor.cc##.j60d22ebb.mecd6c852.xdc2a2400.j82e24c3e.a2493c78a
 reactor.cc##.eed23e7a6.yedad16de.v6b9e7897
 
 # ReCAPTCHA.net [Google]
-@@||www.recaptcha.net^
+@@||recaptcha.net^
+@@||google.com/recaptcha^$domain=google.com,important
 
 # Reddit
 ||alb.reddit.com^
@@ -2066,7 +2069,7 @@ reactor.cc##.eed23e7a6.yedad16de.v6b9e7897
 ||redditmedia.com/gtm/jail?
 reddit.com##.avKlJzxZU3brq4nAX0_i1._1G4yU68P50vRZ4USXfaceV._2QeqBqfT5UbHBoViZUt-wX
 reddit.com##A._24UNt1hkbrZxLzs5vkvuDh[href^='https://ads.reddit.com'][target='_blank'][rel='noopener noreferrer'][aria-label='Advertise']
-www.reddit.com##DIV._1b1Jalg2nxA_Z-BjKXRfAV
+reddit.com##DIV._1b1Jalg2nxA_Z-BjKXRfAV
 
 # RedGifs
 @@||redgifs.com^$domain=redgifs.com
