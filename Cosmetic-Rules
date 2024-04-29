@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2779
+! Entries: 2776
 !
 ! Expires: 1 days
 !
@@ -1314,11 +1314,8 @@ nudostar.com###top > div.p-body:nth-child(5) > div.p-body-inner > ul.notices.not
 nudostar.com###top > div.p-body:nth-child(5) > div.p-body-inner > ul.notices.notices--block.notices--isMulti.js-notices:first-child > li.notice.js-notice.notice--primary:last-child
 nudostar.com###top > div.p-body:nth-child(5) > div.p-body-inner > div.p-body-main:nth-child(5) > div.p-body-content > div.samCodeUnit.samAlignCenter:last-child
 
-# OkTours.pl (temp rules till find the right one)
-oktours.pl##DIV.flex.justify-between.items-center
-oktours.pl##BUTTON.btn.btn-primary.rounded-full.font-medium.py-3.px-6.mr-1
-oktours.pl##DIV.mb-5
-oktours.pl##DIV.font-medium.text-lg.mb-3
+# OkTours.pl
+oktours.pl##.\32 xl\:w-1\/4.lg\:w-2\/5.md\:w-1\/2.drop-shadow-widget.p-6.rounded-std.bg-white.h-auto.mx-2.left-0.bottom-2.z-20.fixed
 
 # Oglaszamy24.pl
 @@||oglaszamy24.pl*storage/*.jpg$domain=*.oglaszamy24.pl
