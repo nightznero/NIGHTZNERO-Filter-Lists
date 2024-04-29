@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2772
+! Entries: 2773
 !
 ! Expires: 1 days
 !
@@ -915,6 +915,7 @@ chillwagonthegame.com##.cb-wrapper
 chillwagonthegame.com##.cookie-bubble.bottom-left.show
 
 # CochiseFood [Cochise]
+cochisefood.pl#@#.modal-container
 cochisefood.pl##.cookie-config
 
 # Coomer.party
