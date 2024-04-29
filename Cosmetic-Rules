@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2776
+! Entries: 2774
 !
 ! Expires: 1 days
 !
@@ -732,8 +732,8 @@ tracking.bp01.net
 ||adxadserv.com^$important,popup
 ||akunamapro.com^$important,popup
 ||aoflix.com^$important,popup
-||*.candyoffers.com^$important,popup
 ||candyoffers.com^$important,popup
+||*.candyoffers.com^$important,popup
 ||deephicy.net^$important,popup
 ||deliveranceads.com^$important,popup
 ||exdynsrv.com^$important,popup
@@ -742,8 +742,8 @@ tracking.bp01.net
 ||fgn.cdn.serverable.com^$important,popup
 ||gerhi-psv.com^$important,popup
 ||kekw.world^$important,popup
-||*.magsrv.com^$important,popup
 ||magsrv.com^$important,popup
+||*.magsrv.com^$important,popup
 ||mcdlks.com^$important,popup
 ||optnx.com^$important,popup
 ||pemsrv.com^$important,popup
@@ -1324,8 +1324,6 @@ oktours.pl##.\32 xl\:w-1\/4.lg\:w-2\/5.md\:w-1\/2.drop-shadow-widget.p-6.rounded
 ||oglaszamy24.pl/js-css/exnb/exnbb.php^
 oglaszamy24.pl##.page_right_col > center
 oglaszamy24.pl##.selector_c > div:nth-of-type(2)
-! (For now disabled) oglaszamy24.pl##div.o_single_box:nth-of-type(8)
-! (For now disabled) oglaszamy24.pl##div.s_adv_1:nth-of-type(13)
 oglaszamy24.pl##div:nth-of-type(2) > div > div:nth-of-type(6) > div:nth-of-type(2)
 oglaszamy24.pl##div:nth-of-type(7)
 oglaszamy24.pl###page_c > div:nth-of-type(2) > center > div > div:nth-of-type(1)
