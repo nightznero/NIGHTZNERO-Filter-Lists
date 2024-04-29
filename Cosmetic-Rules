@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2769
+! Entries: 2770
 !
 ! Expires: 1 days
 !
@@ -1072,10 +1072,11 @@ filmweb.pl##.boardsWrapper.rodo__overlay.IRI
 @@||return-portal-api.create.aws.sevensenders.com^$domain=flaconi.return-parcel.com
 
 # Fotka.com
-fotka.com##A.QAOr8FnHznbB5WHz6h6P[href='/klubgwiazd']
-fotka.com##DIV.qQkhj7UhJcUY81KYg1cp
-fotka.com##DIV.tE3EINrAnNNVgWMseUgp.LLEyxBLBrJYB7pdVH8L_[style='height: 780px;']
-fotka.com##DIV.cookies-infostyled__Container-sc-ajf3yz-0.GRdwt
+fotka.com##.GRdwt.cookies-infostyled__Container-sc-ajf3yz-0
+fotka.com##.qQkhj7UhJcUY81KYg1cp
+fotka.com##.LLEyxBLBrJYB7pdVH8L_.tE3EINrAnNNVgWMseUgp
+fotka.com##a.QAOr8FnHznbB5WHz6h6P:nth-of-type(1)
+fotka.com##a.QAOr8FnHznbB5WHz6h6P:nth-of-type(11)
 
 # Gamecore
 gamcore.com##.add_game
