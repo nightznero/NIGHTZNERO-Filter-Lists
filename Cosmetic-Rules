@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2774
+! Entries: 2769
 !
 ! Expires: 1 days
 !
@@ -1322,11 +1322,6 @@ oktours.pl##.\32 xl\:w-1\/4.lg\:w-2\/5.md\:w-1\/2.drop-shadow-widget.p-6.rounded
 @@||oglaszamy24.pl/js-css/puzzle_captcha.min.js$domain=oglaszamy24.pl
 ||oglaszamy24.pl*video^
 ||oglaszamy24.pl/js-css/exnb/exnbb.php^
-oglaszamy24.pl##.page_right_col > center
-oglaszamy24.pl##.selector_c > div:nth-of-type(2)
-oglaszamy24.pl##div:nth-of-type(2) > div > div:nth-of-type(6) > div:nth-of-type(2)
-oglaszamy24.pl##div:nth-of-type(7)
-oglaszamy24.pl###page_c > div:nth-of-type(2) > center > div > div:nth-of-type(1)
 
 # OLX
 @@||ireland.apollo.olxcdn.com/v1/temp-files$domain=olx.pl
