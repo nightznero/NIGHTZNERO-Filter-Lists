@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2797
+! Entries: 2779
 !
 ! Expires: 1 days
 !
@@ -1325,31 +1325,13 @@ oktours.pl##DIV.font-medium.text-lg.mb-3
 @@||oglaszamy24.pl/js-css/puzzle_captcha.min.js$domain=oglaszamy24.pl
 ||oglaszamy24.pl*video^
 ||oglaszamy24.pl/js-css/exnb/exnbb.php^
-oglaszamy24.pl#@#page_c > div:last-child > div.selector_c:nth-child(2) > div:first-child > div:nth-child(4) > div > div.o_single_box:first-child > div > div:first-child
-oglaszamy24.pl##div.page_container:nth-child(4) > center:nth-child(2)
-oglaszamy24.pl##div.page_container:nth-child(4) > center:nth-child(3)
-oglaszamy24.pl##div.page_container:nth-child(4) > center:nth-child(4)
-oglaszamy24.pl##div.page_container:nth-child(4) > center:nth-child(5)
-oglaszamy24.pl##div.page_container:nth-child(4) > center:nth-child(5)
-oglaszamy24.pl##div.page_container:nth-child(4) > center:nth-child(9)
-oglaszamy24.pl##div.page_container:nth-child(4) > div.selector_c:first-child > center:nth-child(2)
-oglaszamy24.pl##div.page_container:nth-child(4) > div.selector_c:first-child > center:nth-child(3)
-oglaszamy24.pl##div.page_container:nth-child(4) > div.selector_c:first-child > center:nth-child(4)
-oglaszamy24.pl##div.page_container:nth-child(4) > div.selector_c:first-child > center:nth-child(5)
-oglaszamy24.pl##div.page_container:nth-child(4) > div.selector_c:first-child > center:nth-child(6)
-oglaszamy24.pl##div.page_container:nth-child(4) > div.selector_c:first-child > center:nth-child(9)
-oglaszamy24.pl##div.page_container:nth-child(5) > center:nth-child(2)
-oglaszamy24.pl##div.page_container:nth-child(5) > center:nth-child(3)
-oglaszamy24.pl##div.page_container:nth-child(5) > center:nth-child(4)
-oglaszamy24.pl##div.page_container:nth-child(5) > center:nth-child(5)
-oglaszamy24.pl##div.page_container:nth-child(5) > center:nth-child(6)
-oglaszamy24.pl##div.page_container:nth-child(5) > center:nth-child(9)
-oglaszamy24.pl##div.page_container:nth-child(5) > div.selector_c:first-child > center:nth-child(2)
-oglaszamy24.pl##div.page_container:nth-child(5) > div.selector_c:first-child > center:nth-child(3)
-oglaszamy24.pl##div.page_container:nth-child(5) > div.selector_c:first-child > center:nth-child(4)
-oglaszamy24.pl##div.page_container:nth-child(5) > div.selector_c:first-child > center:nth-child(5)
-oglaszamy24.pl##div.page_container:nth-child(5) > div.selector_c:first-child > center:nth-child(6)
-oglaszamy24.pl##div.page_container:nth-child(5) > div.selector_c:first-child > center:nth-child(9)
+oglaszamy24.pl##.page_right_col > center
+oglaszamy24.pl##.selector_c > div:nth-of-type(2)
+oglaszamy24.pl##div.o_single_box:nth-of-type(8)
+oglaszamy24.pl##div.s_adv_1:nth-of-type(13)
+oglaszamy24.pl##div:nth-of-type(2) > div > div:nth-of-type(6) > div:nth-of-type(2)
+oglaszamy24.pl##div:nth-of-type(7)
+oglaszamy24.pl###page_c > div:nth-of-type(2) > center > div > div:nth-of-type(1)
 
 # OLX
 @@||ireland.apollo.olxcdn.com/v1/temp-files$domain=olx.pl
