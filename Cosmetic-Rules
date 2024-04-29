@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2770
+! Entries: 2772
 !
 ! Expires: 1 days
 !
@@ -907,18 +907,15 @@ camwhoreshd.com##A.tdn[rel='nofollow'][href='https://onlyfans.com/truemyrart/c3'
 @@||player.cda-hd.co/player/*.php?^$domain=cda-hd.co|cda-hd.cc
 ! Blocked by HaGeZi - Multi PRO++
 
+# cdti.pl
+ctdi.pl###bannerdown
+
 # CHILLWAGON
 chillwagonthegame.com##.cb-wrapper
 chillwagonthegame.com##.cookie-bubble.bottom-left.show
 
-# Crypto (Fake Crypto sites)
-## BAT (Basic Attention Token)
-||basicattentiontoken.claims^
-## APE
-||ape-coin.gift^
-
-# cdti.pl
-ctdi.pl###bannerdown
+# CochiseFood [Cochise]
+cochisefood.pl##.cookie-config
 
 # Coomer.party
 @@||c*.coomer.party/data^
@@ -928,6 +925,12 @@ ctdi.pl###bannerdown
 @@||img.coomer.su/icons^$domain=coomer.su
 @@||img.coomer.su/banners^$domain=coomer.su
 coomer.su##A[href='//a.adtng.com/get/10014806'][style='color: #000000; padding: 0;']
+
+# Crypto (Fake Crypto sites)
+## BAT (Basic Attention Token)
+||basicattentiontoken.claims^
+## APE
+||ape-coin.gift^
 
 # CumOnPrintedPics.com
 cumonprintedpics.com###message > center:first-child
@@ -2401,6 +2404,7 @@ youtube.com##+js(nano-stb, resolve(1), *, 0.001)
 @@||zbiornik.com/live^$stealth
 @@||zbiornik.com/attach.php?v=*$domain=zbiornik.com
 @@||c*.zbiornik.com/AntMediaZbiornik/websocket?*Data=*$stealth
+zbiornik.com##a.zbItem
 
 ! ZEN.com (Zero Effort Non-Bank)
 @@||static.zdassets.com/ekr/snippet.js?key=5df22ff5-ba9c-40c4-937a-af20a874cf9a$domain=my.zen.com
