@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2788
+! Entries: 2791
 !
 ! Expires: 1 days
 !
@@ -2028,8 +2028,11 @@ pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 580001936703
 @@||img*.pornreactor.cc^
 
 # Presearch (Search Engine) [Presearch.com/Presearch.io]
+presearch.com##div.relative.min-w-max.transition.cursor-pointer.text-sm.pr-4.pl-2.px-2.py-2:nth-of-type(1)
 presearch.com##DIV[x-data='{ x:true, kwrdAdFirst: false }']
 presearch.com##DIV.sx-top-bar-products.sx-touch
+presearch.com##.md\:block
+presearch.com##.dark\:border-gray-900.border-gray-200.border-t.z-70.bg-white.md\:hidden.w-full.bottom-0.fixed.pta-search-mobile
 
 # Pyszne.pl [TakeAway]
 @@||cw-api.takeaway.com/api^$stealth
