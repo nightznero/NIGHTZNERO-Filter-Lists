@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2791
+! Entries: 2794
 !
 ! Expires: 1 days
 !
@@ -721,42 +721,45 @@ tracking.bp01.net
 
 # (Fvcking) Ads
 ||*srv.com^$important,popup
-||0x01n2ptpuz3.com^$important,popup
-||adltserv.com^$important,popup
-||ads.bullionyield.com^$important,popup
-||adsrvr.io^$important,popup
-||adsessionserv.com^$important,popup
-||adspy.javrank.com^$important,popup
-||adtiming.com^$important,popup
-||adtng.com^$important,popup
-||adxadserv.com^$important,popup
-||akunamapro.com^$important,popup
-||aoflix.com^$important,popup
-||candyoffers.com^$important,popup
+||0x01n2ptpuz3.com^$important
+||adltserv.com^$important
+||ads.bullionyield.com^$important
+||adsrvr.io^$important
+||adsessionserv.com^$important
+||adspy.javrank.com^$important
+||adtiming.com^$important
+||adtng.com^$important
+||adxadserv.com^$important
+||akunamapro.com^$important
+||aoflix.com^$important
+||candyoffers.com^$important
 ||*.candyoffers.com^$important,popup
-||deephicy.net^$important,popup
-||deliveranceads.com^$important,popup
-||exdynsrv.com^$important,popup
+||deephicy.net^$important
+||deliveranceads.com^$important
+||exdynsrv.com^$important
 ||*.exdynsrv.com^$important,popup
-||exoclick.com^$important,popup
-||fgn.cdn.serverable.com^$important,popup
-||gerhi-psv.com^$important,popup
-||kekw.world^$important,popup
-||magsrv.com^$important,popup
+||exoclick.com^$important
+||fanodaz.com^$important
+||*.fanodaz.com^$important,popup
+||fgn.cdn.serverable.com^$important
+||gerhi-psv.com^$important
+||kekw.world^$important
+||magsrv.com^$important
 ||*.magsrv.com^$important,popup
-||mcdlks.com^$important,popup
-||optnx.com^$important,popup
-||pemsrv.com^$important,popup
+||mcdlks.com^$important
+||opodaz.com^$important
+||optnx.com^$important
+||pemsrv.com^$important
 ||*.pemsrv.com^$important,popup
-||qrlsx.com^$important,popup
-||randomadsrv.com^$important,popup
-||realsrv.com^$important,popup
+||qrlsx.com^$important
+||randomadsrv.com^$important
+||realsrv.com^$important
 ||*.realsrv.com^$important,popup
-||rmshqa.com^$important,popup
+||rmshqa.com^$important
 ||*.rmshqa.com^$important,popup
 ||syndication.*.com^$important,popup
-||thanksgivingdelights.com^$important,popup
-||tsyndicate.com^$important,popup
+||thanksgivingdelights.com^$important
+||tsyndicate.com^$important
 ||*.tsyndicate.com^$important,popup
 
 # (Fvcking) Adservers
