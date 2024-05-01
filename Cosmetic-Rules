@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2783
+! Entries: 2785
 !
 ! Expires: 1 days
 !
@@ -959,6 +959,11 @@ danidaniels.com###gdpr-cookie-accept
 # Datezone.com
 @@||imgcdn.datezone.com/users/*/*/*.jpg?v=2$domain=datezone.com,important
 ! Blocked by Fuck FuckAdBlock (Blindfolded)
+datezone.com##li.kyceEq.Item-sc-xcthj4-1:nth-of-type(6)
+! Camera (Your)
+datezone.com##.jYkZhf.CommaList-sc-ex8x2n-0 > li:nth-of-type(2) > .hgvQVF.Link-sc-12hh1tw-0
+! Install Browser version application
+
 
 # DeepNude.CA (Clothes Remover)
 @@||newfuku.s3.us-west-1.amazonaws.com/*.jpg$domain=newfuku.com
