@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2781
+! Entries: 2783
 !
 ! Expires: 1 days
 !
@@ -1251,6 +1251,10 @@ medonet.pl##DIV.placeholder.auto-height.top3
 
 # MEGA (Cloud Storage) [MEGA.nz]
 @@||gfs*n*.userstorage.mega.co.nz/dl/*$domain=mega.nz
+
+# mega4upload.com (File hosting service)
+mega4upload.com##div.col-md-4:nth-of-type(3)
+mega4upload.com##.container > .mb-3.row
 
 # MetaCtrl
 @@||metactrl.com^$domain=metactrl.com
