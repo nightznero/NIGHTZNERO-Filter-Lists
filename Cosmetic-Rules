@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2798
+! Entries: 2794
 !
 ! Expires: 1 days
 !
@@ -2345,14 +2345,10 @@ get.rahim-soft.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
 miui.rahim-soft.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
 cloud.rahim-soft.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
 tech.fingau.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
-getpczone.com##.banner1
-getpczone.com##.banner2
-getpczone.com##.banner3
-getpczone.com##.banner4
-rahim-soft.com##.banner1
-rahim-soft.com##.banner2
-rahim-soft.com##.banner3
-rahim-soft.com##.banner4
+[$domain=uploadrar.com|getpczone.com|rahim-soft.com]##.banner1
+[$domain=uploadrar.com|getpczone.com|rahim-soft.com]##.banner2
+[$domain=uploadrar.com|getpczone.com|rahim-soft.com]##.banner3
+[$domain=uploadrar.com|getpczone.com|rahim-soft.com]##.banner4
 
 # Uphold (Wallet)
 @@||uphold.com/authorize^$stealth
