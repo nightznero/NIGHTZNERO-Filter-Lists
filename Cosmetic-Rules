@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2794
+! Entries: 2795
 !
 ! Expires: 1 days
 !
-! Updated: 2024.05.02
+! Updated: 2024.05.04
 !
 ! MIT License
 !
@@ -2147,7 +2147,8 @@ showup.tv##DIV.large-12.columns.footer__logo
 
 # SimpCity
 @@||simpcity.su##DIV.generic2wide-iframe-div
-@@||simpcity.su##IFRAME.saint-iframe[src='https://saint.to/embed/*'][height='auto'][width='auto'][style='border:none;'][loading='lazy'][allow='fullscreen;'][allowfullscreen='true']
+@@||simpcity.su##IFRAME.saint-iframe[src='][height='auto'][width='auto'][style='border:none;'][loading='lazy'][allow='fullscreen;'][allowfullscreen='true']
+simpcity.su#@#.generic2wide-iframe-div
 simpcity.su##.node--link.node--depth2.node--id95.node
 simpcity.su##.node--link.node--depth2.node--id107.node
 simpcity.su##.node--link.node--depth2.node--id119.node
@@ -2159,11 +2160,11 @@ simpcity.su##.block--category65.block--category.block
 ! Promotion Section - Verified models
 simpcity.su##.block--category101.block--category.block
 ! Transgender - Transgender
-simpcity.su##li:nth-of-type(3)
-simpcity.su##li:nth-of-type(4)
-simpcity.su##li:nth-of-type(5)
-simpcity.su##li:nth-of-type(6)
-simpcity.su##li:nth-of-type(7)
+simpcity.su##.offCanvasMenu-list > li:nth-of-type(3)
+simpcity.su##.offCanvasMenu-list > li:nth-of-type(4)
+simpcity.su##.offCanvasMenu-list > li:nth-of-type(5)
+simpcity.su##.offCanvasMenu-list > li:nth-of-type(6)
+simpcity.su##.offCanvasMenu-list > li:nth-of-type(7)
 ! Left Menu - Mobile
 
 # Skąpiec.pl
