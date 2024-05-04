@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2795
+! Entries: 2801
 !
 ! Expires: 1 days
 !
@@ -784,6 +784,13 @@ tracking.bp01.net
 4pda.*##[target] [src*="s.4pda.to"][alt=""][title=""][border="0"]
 4pda.*##[valign="top"] > > :not(#logostrip)
 
+# Aero Mods (Aero WhatsApp - Instagram - Twitter)
+aeroinsta.com#@#.image-block
+aerowitter.com#@#.image-wrapper
+yonlendir.whatsaero.com##body > center
+aerowitter.com##center
+aerowitter.com##hr
+
 # Allegro.pl
 allegro.pl##div.main-wrapper:nth-child(4) > div:last-child > div.mgn2_14.mp0t_0a.mqu1_21.mgmw_wo.mli8_k4._sjlwg:first-child
 allegro.pl##div.main-wrapper:nth-child(3) > div:last-child
@@ -1127,6 +1134,7 @@ genius.com##.optanon-alert-box-bg
 ! (For now disabled) @@||gofile.io/dist^$domain=gofile.io
 @@||file*.gofile.io/download^
 @@||store*.gofile.io/download^
+gofile.io#@#.contentLink.me-1
 
 # Google
 @@||consent.google.com/m%3Fcontinue=https://news.google.com/rss/articles/*$domain=news.google.com
