@@ -870,8 +870,8 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 @@||cdck-file-uploads-global.s3.us-west-2.amazonaws.com/temp/brave/$domain=community.brave.com
 
 # Bunkr
-@@||bunkr.*^$domain=bunkr.*|bunkrr.*
-@@||bunkrr.*^$domain=bunkrr.*|bunkr.*
+@@||bunkr.*^$domain=*.bunkr.*|*.bunkrr.*
+@@||bunkrr.*^$domain=*.bunkrr.*|*.bunkr.*
 ! Blocked by 1Hosts - Pro
 @@||i*.bunkr.*/thumbs^$domain=bunkr.*|bunkrr.*
 @@||media-files*.bunkr.*/*.mp4$domain=bunkr.*|bunkrr.*
