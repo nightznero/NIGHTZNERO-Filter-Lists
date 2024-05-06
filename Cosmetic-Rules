@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2801
+! Entries: 2811
 !
 ! Expires: 1 days
 !
-! Updated: 2024.05.04
+! Updated: 2024.05.06
 !
 ! MIT License
 !
@@ -969,6 +969,8 @@ danidaniels.com###gdpr-cookie-accept
 # Datezone.com
 @@||imgcdn.datezone.com/users/*/*/*.jpg?v=2$domain=datezone.com,important
 ! Blocked by Fuck FuckAdBlock (Blindfolded)
+datezone.com#@#.jJojyW.Btnstyled__StyledBtn-sc-1vjxyc-0.dThudR.Btnstyled__StyledBtn-sc-guxue-0.dxBUhL.Button__ButtonStyled-sc-kay66r-0
+! Scroll unlocked
 datezone.com##li.kyceEq.Item-sc-xcthj4-1:nth-of-type(6)
 ! Camera (Your)
 datezone.com##.jYkZhf.CommaList-sc-ex8x2n-0 > li:nth-of-type(2) > .hgvQVF.Link-sc-12hh1tw-0
@@ -2182,6 +2184,24 @@ skapiec.pl##DIV.rectangleAd
 skapiec.pl##DIV.rightDesktop[data-slot='right'][data-prop-lazypercentage='100']
 skapiec.pl##DIV.rightDesktop[data-prop-lazypercentage='100'][data-slot='right2']
 skapiec.pl##DIV.rightDesktopSticky[data-slot='right2'][data-prop-lazypercentage='100']
+
+# SocialMediaGirls (SMG Forum)
+forums.socialmediagirls.com#@#dl.formRow:nth-of-type(10)
+! hCaptcha
+forums.socialmediagirls.com##.js-offCanvasNavSource.p-nav-list > li:nth-of-type(2) > .rippleButton.u-ripple.p-navEl > .p-navEl-link
+forums.socialmediagirls.com##li:nth-of-type(2) > .offCanvasMenu-linkHolder > .offCanvasMenu-link
+! Blog
+forums.socialmediagirls.com##.block--category57.block--category.block
+! Self Promotion - Self Promotion
+forums.socialmediagirls.com##.node--unread.node--forum.node--depth2.node--id76.node
+! More Categories - Transgender/Non-Binary
+forums.socialmediagirls.com##.node--unread.node--forum.node--depth2.node--id157.node
+! More Categories - Male/Gay
+forums.socialmediagirls.com##.block--category131.block--category.block
+! Foreign Languages - Brazilian/Portuguese French Hungarian Spanish
+forums.socialmediagirls.com##li:nth-of-type(5) > .offCanvasMenu-linkHolder > .offCanvasMenu-link
+forums.socialmediagirls.com##li:nth-of-type(7) > .offCanvasMenu-linkHolder > .offCanvasMenu-link
+! Left Menu - Mobile
 
 # SoundCloud
 @@||api-auth.soundcloud.com^$stealth
