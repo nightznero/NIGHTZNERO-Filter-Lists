@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2813
+! Entries: 2815
 !
-! Expires: 1 days
+! Expires: 1 hour
 !
-! Updated: 2024.05.07
+! Updated: 2024.05.09
 !
 ! MIT License
 !
@@ -786,7 +786,9 @@ tracking.bp01.net
 
 # Aero Mods (Aero WhatsApp - Instagram - Twitter)
 aeroinsta.com#@#.image-block
+aerowitter.com#@#.col-lg-9.col-12
 aerowitter.com#@#.image-wrapper
+aerolla.net##body > center
 yonlendir.whatsaero.com##body > center
 aerowitter.com##center
 aerowitter.com##hr
