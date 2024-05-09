@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2024.04.27
+! Updated: 2024.05.10
 !
 ! MIT License
 !
@@ -511,7 +511,7 @@
 ||haufe.my.salesforce.com
 ||sok.my.salesforce.com
 ||asicsdigitalinc.my.salesforce.com
-||static.im-g.pl
+||static.im-g.pl^$domain=~gazeta.pl
 ||browser-consent-front.coco.s-cloud.fi
 ||smile-ui.smilecdn.co
 ||ads.us.e-planning.net
