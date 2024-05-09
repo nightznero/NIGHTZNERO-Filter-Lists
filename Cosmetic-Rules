@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2815
+! Entries: 2835
 !
 ! Expires: 1 hour
 !
@@ -1349,10 +1349,30 @@ nudostar.com###top > div.p-body:nth-child(5) > div.p-body-inner > div.p-body-mai
 oktours.pl##.\32 xl\:w-1\/4.lg\:w-2\/5.md\:w-1\/2.drop-shadow-widget.p-6.rounded-std.bg-white.h-auto.mx-2.left-0.bottom-2.z-20.fixed
 
 # Oglaszamy24.pl
-@@||oglaszamy24.pl*storage/*.jpg$domain=*.oglaszamy24.pl
+@@||oglaszamy24.pl*storage/*.jpg$domain=oglaszamy24.pl
+@@||oglaszamy24.pl/storage/*/*/*_s.jpg$domain=oglaszamy24.pl
 @@||oglaszamy24.pl/js-css/puzzle_captcha.min.js$domain=oglaszamy24.pl
+||oglaszamy24.pl/img/1px.gif
+||oglaszamy24.pl/m/img/1px.gif
 ||oglaszamy24.pl*video^
 ||oglaszamy24.pl/js-css/exnb/exnbb.php^
+oglaszamy24.pl##.selector_c > center:nth-of-type(1)
+oglaszamy24.pl##.page_container > center:nth-of-type(1)
+oglaszamy24.pl##.selector_c > div:nth-of-type(2) > center
+oglaszamy24.pl##body > div:nth-of-type(4)
+oglaszamy24.pl##center:nth-of-type(2)
+oglaszamy24.pl##center:nth-of-type(3)
+oglaszamy24.pl##div.s_adv_1:nth-of-type(13)
+oglaszamy24.pl##div.s_adv_1:nth-of-type(22)
+oglaszamy24.pl##div:nth-of-type(2) > div > div:nth-of-type(6) > div:nth-of-type(2)
+oglaszamy24.pl##div:nth-of-type(21)
+oglaszamy24.pl##[href] > div > div:nth-of-type(1)
+oglaszamy24.pl##[href] > div > div:nth-of-type(2)
+oglaszamy24.pl###page_c > div:nth-of-type(2) > div:nth-of-type(5)
+oglaszamy24.pl###page_c > div > center
+oglaszamy24.pl###page_c > div > div > center
+oglaszamy24.pl###dp_inst_chat
+oglaszamy24.pl###get_app_box
 
 # OLX
 @@||ireland.apollo.olxcdn.com/v1/temp-files$domain=olx.pl
