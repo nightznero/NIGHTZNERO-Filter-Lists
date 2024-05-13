@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 648
+! Entries: 649
 !
 ! Expires: 1 days
 !
@@ -223,6 +223,8 @@
 @@||site-api.project1service.com^
 
 # Bunkr / Bunkrr (File hostage)
+@@||stats.bunkr.ru^$domain=bunkr.*|bunkrr.*|
+! Testinggg
 @@||get.bunkrr.su^
 @@||bunkrr.su^
 @@||bunkr.si^
