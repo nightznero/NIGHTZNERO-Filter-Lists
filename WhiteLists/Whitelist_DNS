@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 649
+! Entries: 651
 !
 ! Expires: 1 days
 !
@@ -1021,6 +1021,10 @@
 ! Blocked by Ultimate Hosts Blacklist (UHB)
 @@||mparticle.weather.com^
 ! Blocked by 4PDA Community Hosts Blacklist
+
+# WhatsApp [Meta]
+@@||graph.whatsapp.com^
+@@||graph.whatsapp.net^
 
 # Wild Rift [Riot Games]
 @@||lolstatic-a.akamaihd.net^
