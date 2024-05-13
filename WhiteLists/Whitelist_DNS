@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 646
+! Entries: 647
 !
 ! Expires: 1 days
 !
-! Updated: 2024.04.24
+! Updated: 2024.05.13
 !
 ! MIT License
 !
@@ -540,6 +540,10 @@
 @@||cdninstagram.com^
 @@||scontent.cdninstagram.com^
 @@||instagram.c10r.facebook.com^
+
+# JPG.Church JPG.Fish [SimpCity Image Service Hostage]
+@@||jpg4.su^
+! Blocked by 1Hosts - Lite
 
 # JustWatch.com
 @@||click.justwatch.com^
