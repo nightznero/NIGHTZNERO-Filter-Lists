@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
 !
-! Entries: 2835
+! Entries: 2837
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.05.09
+! Updated: 2024.05.14
 !
 ! MIT License
 !
@@ -1224,6 +1224,9 @@ poczta.interia.pl##A.settings__app-url[ng-if='::appUrl'][target='_blank'][ng-hre
 @@||assets-global.website-files.com/6448591e09e840fe6d520645^$domain=jasper.ai
 ! Blocked by HaGeZi - Multi Pro++
 
+# JPG.Church JPG.Fish [SimpCity Image Service Hostage]
+@@||jpg4.su^$domain=jpg4.su
+
 # Kemono.party
 @@||c*.kemono.party/data^
 @@||c*.kemono.su/data^
@@ -2176,6 +2179,7 @@ sendvid.com##DIV._ln-floater[style='overflow: visible; height: 100px;']
 @@||showup.tv^$domain=showup.tv
 @@||j*.showup.tv^$domain=showup.tv
 @@||cdn-*.showup.tv/files^$domain=showup.tv
+@@||showup.tv/site/log_in$domain=showup.tv
 ||showup.tv/sounds^$domain=showup.tv
 showup.tv##DIV.large-12.columns.footer__logo
 
