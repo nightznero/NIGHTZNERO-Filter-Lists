@@ -9,7 +9,7 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Title: NIGHTZNERO - Cosmetic Rules
 !
-! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=1p-cookie|3p-cookie|3p-cache|xclientdata|donottrack|ip|3p-auth|searchqueries|referrer|useragent|webrtc|push|location|flash|java|dpi"
+! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
 ! Entries: 2839
 !
