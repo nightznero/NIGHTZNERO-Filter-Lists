@@ -844,8 +844,8 @@ dlamd.tgamer.vn##DIV#addons-widget.section
 ||bing.com/fd/ls/lsp.aspx
 
 # BlaBlaCar
-@@||chat.stream-io-api.com/*$domain=blablacar.pl,stealth
-@@||edge.blablacar.pl^$domain=blablacar.pl,stealth
+@@||chat.stream-io-api.com/*$domain=blablacar.pl,stealth=ip|3p-auth|referrer|
+@@||edge.blablacar.pl^$domain=blablacar.pl,stealth=ip|
 
 # boonga.pl
 boonga.pl##.ec-fixed.ec-icon.ec-double-btn
