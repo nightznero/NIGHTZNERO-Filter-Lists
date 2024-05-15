@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2839
+! Entries: 2841
 !
 ! Expires: 1 hour
 !
@@ -2405,11 +2405,13 @@ rahim-soft.com##.btn-lg.btn-info.btn
 get.rahim-soft.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
 miui.rahim-soft.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
 cloud.rahim-soft.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
+fingau.com##.col-md-offset-2.col-lg-4.col-md-4.col-sm-12.col-xs-12
+fingau.com##.btn-lg.btn-info.btn
 tech.fingau.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
-[$domain=uploadrar.com|getpczone.com|rahim-soft.com]##.banner1
-[$domain=uploadrar.com|getpczone.com|rahim-soft.com]##.banner2
-[$domain=uploadrar.com|getpczone.com|rahim-soft.com]##.banner3
-[$domain=uploadrar.com|getpczone.com|rahim-soft.com]##.banner4
+[$domain=uploadrar.com|getpczone.com|rahim-soft.com|fingau.com]##.banner1
+[$domain=uploadrar.com|getpczone.com|rahim-soft.com|fingau.com]##.banner2
+[$domain=uploadrar.com|getpczone.com|rahim-soft.com|fingau.com]##.banner3
+[$domain=uploadrar.com|getpczone.com|rahim-soft.com|fingau.com]##.banner4
 
 # Uphold (Wallet)
 @@||uphold.com/authorize^$stealth
