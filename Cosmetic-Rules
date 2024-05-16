@@ -15,7 +15,7 @@
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.05.15
+! Updated: 2024.05.16
 !
 ! MIT License
 !
@@ -891,12 +891,12 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 @@||camport.pl/nowy-panel/media-full/places^$domain=camport.pl
 
 # CamWhores.tv
-@@||camwhores.tv^$stealth
+@@||camwhores.tv/login/$domain=camwhores.tv
 @@||cdn.camwhores.tv/styles/all-responsive-metal.css?v=*$domain=camwhores.tv
 @@||cdn.camwhores.tv/styles/jquery.fancybox-metal.css?v=*$domain=camwhores.tv
 @@||cdn.camwhores.tv/js/main.min.js?v=*$domain=camwhores.tv
 @@||cdn.camwhores.tv/contents/videos_screenshots/$domain=camwhores.tv
-camwhores.tv##A.tdn[rel='nofollow'][href='*'][target='_blank']
+camwhores.tv##A.tdn[rel='nofollow'][href=][target='_blank']
 camwhores.tv##A.tdn[rel='nofollow'][href='https://onlyfans.com/truemyrart/c1'][target='_blank']
 camwhores.tv##A.tdn[rel='nofollow'][href^='https://t.crsmc.link'][target='_blank']
 camwhores.tv##A.tdn[rel='nofollow'][href^='https://faphouse.com/tour'][target='_blank']
