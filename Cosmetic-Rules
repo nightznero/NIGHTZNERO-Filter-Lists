@@ -15,7 +15,7 @@
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.05.19
+! Updated: 2024.05.21
 !
 ! MIT License
 !
@@ -2180,7 +2180,7 @@ sendvid.com##DIV._ln-floater[style='overflow: visible; height: 100px;']
 
 # Showup.tv
 ||showup.tv^$badfilter
-@@||showup.tv^$domain=showup.tv
+@@||showup.tv/site/log_in$domain=showup.tv,important
 @@||j*.showup.tv^$domain=showup.tv
 @@||cdn-*.showup.tv/files^$domain=showup.tv
 @@||showup.tv/site/log_in$domain=showup.tv
