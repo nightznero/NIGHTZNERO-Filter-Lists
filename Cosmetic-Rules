@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2841
+! Entries: 2844
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.05.24
+! Updated: 2024.05.26
 !
 ! MIT License
 !
@@ -791,6 +791,9 @@ aerolla.net##body > center
 yonlendir.whatsaero.com##body > center
 aerowitter.com##center
 aerowitter.com##hr
+
+# Adidas
+@@||adidas.com^$stealth=ip|webrtc|
 
 # Allegro.pl
 allegro.pl##div.main-wrapper:nth-child(4) > div:last-child > div.mgn2_14.mp0t_0a.mqu1_21.mgmw_wo.mli8_k4._sjlwg:first-child
@@ -2179,7 +2182,9 @@ sendvid.com##DIV._ln-floater[style='overflow: visible; height: 100px;']
 
 # Showup.tv
 ||showup.tv^$badfilter
-@@||showup.tv/site/log_in$domain=showup.tv,important
+@@||showup.tv^$stealth=ip|webrtc|
+@@||showup.tv/site/log_in^$domain=showup.tv,important
+@@||showup.tv/site/socket_addr^$domain=showup.tv,important
 @@||j*.showup.tv^$domain=showup.tv
 @@||cdn-*.showup.tv/files^$domain=showup.tv
 @@||showup.tv/site/log_in$domain=showup.tv
