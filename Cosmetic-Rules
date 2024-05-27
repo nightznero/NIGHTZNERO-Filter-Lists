@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2844
+! Entries: 2841
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.05.26
+! Updated: 2024.05.27
 !
 ! MIT License
 !
@@ -2182,12 +2182,8 @@ sendvid.com##DIV._ln-floater[style='overflow: visible; height: 100px;']
 
 # Showup.tv
 ||showup.tv^$badfilter
-@@||showup.tv^$stealth=ip|webrtc|
-@@||showup.tv/site/log_in^$domain=showup.tv,important
-@@||showup.tv/site/socket_addr^$domain=showup.tv,important
 @@||j*.showup.tv^$domain=showup.tv
 @@||cdn-*.showup.tv/files^$domain=showup.tv
-@@||showup.tv/site/log_in$domain=showup.tv
 ||showup.tv/sounds^$domain=showup.tv
 showup.tv##DIV.large-12.columns.footer__logo
 
@@ -2212,6 +2208,7 @@ simpcity.su##.offCanvasMenu-list > li:nth-of-type(5)
 simpcity.su##.offCanvasMenu-list > li:nth-of-type(6)
 simpcity.su##.offCanvasMenu-list > li:nth-of-type(7)
 ! Left Menu - Mobile
+simpcity.su##body > div:nth-of-type(1)
 
 # Skąpiec.pl
 skapiec.pl##DIV.topAdContainer
