@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 651
+! Entries: 654
 !
 ! Expires: 1 days
 !
-! Updated: 2024.05.13
+! Updated: 2024.05.28
 !
 ! MIT License
 !
@@ -176,6 +176,12 @@
 # AVG [Avast]
 @@||signal.avg.com^
 ! Blocked by DuckDuckGo Tracker Radar
+
+# Bdsm.one
+@@||cdn.bdsm.one^
+@@||cdn*.bdsm.one^
+! Blocked by GoodByeAds (Blindfolded)
+
 
 # Betclic (Bookmaker)
 @@||betclic.com^
@@ -524,6 +530,10 @@
 @@||hotspotshield.com^
 @@||www.hotspotshield.com^
 ! Blocked by The Ultimate Hosts Blacklist (UHB)
+
+# HQPorner.com
+@@||fastporndelivery.hqporner.com^
+! Blocked by GoodByeAds (Blindfolded)
 
 # Ibis (Hotels) [Accor - all.accor.com]
 @@||ahstatic.com^
