@@ -2111,13 +2111,13 @@ reddit.com##A._24UNt1hkbrZxLzs5vkvuDh[href^='https://ads.reddit.com'][target='_b
 reddit.com##DIV._1b1Jalg2nxA_Z-BjKXRfAV
 
 # RedGifs
-@@||redgifs.com^$domain=redgifs.com
+! (For now disabled) @@||redgifs.com^$domain=redgifs.com
 @@||api.redgifs.com^$domain=redgifs.com
 @@||thumbs*.redgifs.com^$domain=redgifs.com
 @@||userpic.redgifs.com^$domain=redgifs.com
-||api.redgifs.com/v*/ads^
-||api.redgifs.com/v*/metrics^
-||redgifs.com/assets/js/goCtrl.js
+||api.redgifs.com/v*/ads^$important
+||api.redgifs.com/v*/metrics^$important
+||redgifs.com/assets/js/goCtrl.js$important
 
 # RedTube
 ||*.redtube.com$redirect=redtube.com
