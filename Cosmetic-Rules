@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2842
+! Entries: 2844
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.05.27
+! Updated: 2024.05.29
 !
 ! MIT License
 !
@@ -986,13 +986,14 @@ datezone.com##li.kyceEq.Item-sc-xcthj4-1:nth-of-type(6)
 datezone.com##.jYkZhf.CommaList-sc-ex8x2n-0 > li:nth-of-type(2) > .hgvQVF.Link-sc-12hh1tw-0
 ! Install Browser version application
 
-
 # DeepNude.CA (Clothes Remover)
 @@||newfuku.s3.us-west-1.amazonaws.com/*.jpg$domain=newfuku.com
 
 # Dooood
 @@||dooood.com/e^
-@@||dooood.com/pass_md5^$domain=dooood.com
+@@||dooood.com/pass_md5^$domain=dooood.com|d0000d.com|
+@@||d0000d.com/e^
+@@||d0000d.com/pass_md5^$domain=d0000d.com|dooood.com|
 ! Blocked by 1Hosts - Pro
 
 # DropBox
