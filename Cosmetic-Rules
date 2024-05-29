@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2844
+! Entries: 2845
 !
 ! Expires: 1 hour
 !
@@ -2273,6 +2273,9 @@ soundcloud.com#@$#.volume__sliderWrapper { bottom: 6px !important; }
 # StartPage
 ||startpage.*^$removeparam=segment
 startpage.com###gcsa-top
+
+# StreamVid.net
+streamvid.net##.vjs-logo-bar
 
 # STS.pl (bookmaker)
 @@||widgets.sir.sportradar.com/303262ade65c5fde508a18168ce741e2/widgetloader$domain=sts.pl
