@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2024.05.10
+! Updated: 2024.05.30
 !
 ! MIT License
 !
@@ -511,7 +511,7 @@
 ||haufe.my.salesforce.com
 ||sok.my.salesforce.com
 ||asicsdigitalinc.my.salesforce.com
-||static.im-g.pl^$domain=~gazeta.pl
+||static.im-g.pl^$domain=~gazeta.pl|
 ||browser-consent-front.coco.s-cloud.fi
 ||smile-ui.smilecdn.co
 ||ads.us.e-planning.net
@@ -4450,7 +4450,7 @@
 ||ad-cache.tabarn.app
 ||assets.poool.fr
 ||tour.eplay.com
-||rawcdn.githack.com
+||rawcdn.githack.com^$domain=~apkmoddone.com|
 ||pm.geniusmonkey.com
 ||delta.edge.nc0.co
 ||turner.edge.nc0.co
