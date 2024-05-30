@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2840
+! Entries: 2841
 !
 ! Expires: 1 hour
 !
@@ -890,6 +890,7 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 @@||camport.pl/nowy-panel/media-full/places^$domain=camport.pl
 
 # CamWhores.tv
+@@||camwhores.tv^$stealth=ip|
 @@||camwhores.tv/login/$domain=camwhores.tv
 @@||cdn.camwhores.tv/styles/all-responsive-metal.css?v=*$domain=camwhores.tv
 @@||cdn.camwhores.tv/styles/jquery.fancybox-metal.css?v=*$domain=camwhores.tv
