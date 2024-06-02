@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2841
+! Entries: 2842
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.05.30
+! Updated: 2024.06.02
 !
 ! MIT License
 !
@@ -2073,6 +2073,7 @@ pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 580001936703
 @@||img*.pornreactor.cc^
 
 # Presearch (Search Engine) [Presearch.com/Presearch.io]
+@@||account.presearch.com^$domain=presearch.com
 presearch.com##div.relative.min-w-max.transition.cursor-pointer.text-sm.pr-4.pl-2.px-2.py-2:nth-of-type(1)
 presearch.com##DIV[x-data='{ x:true, kwrdAdFirst: false }']
 presearch.com##DIV.sx-top-bar-products.sx-touch
