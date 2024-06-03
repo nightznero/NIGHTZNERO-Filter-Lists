@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2842
+! Entries: 2845
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.06.02
+! Updated: 2024.06.03
 !
 ! MIT License
 !
@@ -2015,6 +2015,11 @@ platinmods.com##.shareButtons--iconic.shareButtons
 platinmods.com##.uix_sidebar--scroller > div.block > .block-container > .block-minorHeader
 platinmods.com##a.rippleButton.blockLink:nth-of-type(3)
 platinmods.com##a.rippleButton.blockLink:nth-of-type(6)
+
+# Porky's Łódź
+porkyslodz.pl###cc-main
+porkyslodz.pl##.is-active.js-notify.notification
+porkyslodz.pl##.u-hidden-app
 
 # pornoeggs
 pornoeggs.com##.vast_clickthrough_layer.vast_clickthrough_layer_*
