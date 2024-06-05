@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2846
+! Entries: 2851
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.06.04
+! Updated: 2024.06.05
 !
 ! MIT License
 !
@@ -989,10 +989,14 @@ datezone.com##.jYkZhf.CommaList-sc-ex8x2n-0 > li:nth-of-type(2) > .hgvQVF.Link-s
 
 # Dooood
 @@||dooood.com/e^
-@@||dooood.com/pass_md5^$domain=dooood.com|d0000d.com|
+@@||dooood.com/pass_md5^$domain=dooood.com|d0000d.com|dood.re|doods.pro|
 @@||d0000d.com/e^
-@@||d0000d.com/pass_md5^$domain=d0000d.com|dooood.com|
+@@||d0000d.com/pass_md5^$domain=d0000d.com|dooood.com|dood.re|doods.pro|
 ! Blocked by 1Hosts - Pro
+@@||dood.re/e^
+@@||dood.re/pass_md5^$domain=dooood.com|d0000d.com|dood.re|doods.pro|
+@@||doods.pro/e^
+@@||doods.pro/pass_md5^$domain=dooood.com|d0000d.com|dood.re|doods.pro|
 
 # DropBox
 @@||bolt.dropbox.com^$domain=dropbox.com
@@ -2278,6 +2282,10 @@ soundcloud.com#@$#.volume__sliderWrapper { bottom: 6px !important; }
 # StartPage
 ||startpage.*^$removeparam=segment
 startpage.com###gcsa-top
+
+StreamTape.com
+@@||thumb.tapecontent.net/thumb^$domain=streamtape.com
+! Blocked by HaGeZi - Multi Pro++
 
 # StreamVid.net
 streamvid.net##.vjs-logo-bar
