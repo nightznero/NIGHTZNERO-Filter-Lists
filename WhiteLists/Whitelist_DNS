@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 654
+! Entries: 655
 !
 ! Expires: 1 days
 !
-! Updated: 2024.05.28
+! Updated: 2024.06.05
 !
 ! MIT License
 !
@@ -793,6 +793,10 @@
 # RedTube.com
 @@||redtube.com^
 ! Blocked by AdGuard Home List (Dandelion Sprout)
+@@||ei.rdtcdn.com^
+! Blocked by DuckDuckGo Tracker Radar (Blindfolded)
+
+
 
 # Rentry.co
 @@||rentry.co^
