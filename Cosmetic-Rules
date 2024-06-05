@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2851
+! Entries: 2850
 !
 ! Expires: 1 hour
 !
@@ -2124,7 +2124,6 @@ reddit.com##DIV._1b1Jalg2nxA_Z-BjKXRfAV
 @@||thumbs*.redgifs.com^$domain=redgifs.com
 @@||userpic.redgifs.com^$domain=redgifs.com
 ||api.redgifs.com/v*/ads^$important
-||api.redgifs.com/v*/metrics^$important
 ||redgifs.com/assets/js/goCtrl.js$important
 
 # RedTube
