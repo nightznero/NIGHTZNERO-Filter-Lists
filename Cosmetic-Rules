@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2850
+! Entries: 2852
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.06.05
+! Updated: 2024.06.06
 !
 ! MIT License
 !
@@ -874,7 +874,7 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 # Brave Browser Forum
 @@||cdck-file-uploads-global.s3.us-west-2.amazonaws.com/temp/brave/$domain=community.brave.com
 
-# Bunkr
+# Bunkr (File hosting service)
 ||bunkr.si^$badfilter
 ||bunkrr.su^$badfilter
 @@||bunkr.*^$domain=bunkr.*|bunkrr.*|
@@ -889,7 +889,7 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 # Camport
 @@||camport.pl/nowy-panel/media-full/places^$domain=camport.pl
 
-# CamWhores.tv
+# CamWhores.tv (XXX)
 @@||camwhores.tv^$stealth=ip|
 @@||camwhores.tv/login/$domain=camwhores.tv
 @@||cdn.camwhores.tv/styles/all-responsive-metal.css?v=*$domain=camwhores.tv
@@ -910,7 +910,7 @@ camwhores.tv##DIV[style='text-align:center;font-size:15px;margin:10px auto; padd
 camwhores.tv##IFRAME[src^='https://www.scfsdvc.com/en/us/about'][style='width: 100%; height: 100px; border: 0px solid; vertical-align: bottom;'][scrolling='no'][allowfullscreen='true']
 camwhores.tv##P[style='padding: 1em;text-align: center;background-color:rgb(84, 116, 201);color:white;font-size: 15px;']
 
-CamWhoresHD.com
+CamWhoresHD.com (XXX)
 @@||camwhoreshd.com^$stealth
 camwhoreshd.com##DIV.box.bottom-adv
 camwhoreshd.com##A.tdn[rel='nofollow'][href='*'][target='_blank']
@@ -987,7 +987,7 @@ datezone.com##.jYkZhf.CommaList-sc-ex8x2n-0 > li:nth-of-type(2) > .hgvQVF.Link-s
 # DeepNude.CA (Clothes Remover)
 @@||newfuku.s3.us-west-1.amazonaws.com/*.jpg$domain=newfuku.com
 
-# Dooood
+# Dooood (Video hosting service)
 @@||dooood.com/e^
 @@||dooood.com/pass_md5^$domain=dooood.com|d0000d.com|dood.re|doods.pro|
 @@||d0000d.com/e^
@@ -998,7 +998,7 @@ datezone.com##.jYkZhf.CommaList-sc-ex8x2n-0 > li:nth-of-type(2) > .hgvQVF.Link-s
 @@||doods.pro/e^
 @@||doods.pro/pass_md5^$domain=dooood.com|d0000d.com|dood.re|doods.pro|
 
-# DropBox
+# DropBox (File hosting service)
 @@||bolt.dropbox.com^$domain=dropbox.com
 ! Blocked by 1Hosts - Pro
 
@@ -1144,7 +1144,7 @@ genius.com##.optanon-alert-box-bg
 @@||widget.gleamjs.io^
 ! Blocked by Fanboy Ultimate List
 
-# GoFile.io
+# GoFile.io (File hosting service)
 @@||api.gofile.io/accounts^$domain=gofile.io
 ! (For now disabled) @@||gofile.io/dist^$domain=gofile.io
 @@||file*.gofile.io/download^
@@ -1159,7 +1159,7 @@ gofile.io#@#.contentLink.me-1
 ||google-analytics.com^
 ||googletagmanager.com^
 
-# GOunlimited.to
+# GOunlimited.to (Video hosting service)
 gounlimited.to###adbd
 gounlimited.to##.overdiv
 
@@ -2185,7 +2185,7 @@ rule34.xxx###right-col > div.flexi:nth-child(2) > div.sidebarRight.verticalFlexW
 @@||spx-components.cdn.sprinklr.com^
 ! Blocked by 1Hosts - Pro
 
-# SendVid
+# SendVid (Video hosting service)
 sendvid.com##DIV._ln-floater[style='overflow: visible; height: 100px;']
 
 # Showup.tv
@@ -2282,11 +2282,11 @@ soundcloud.com#@$#.volume__sliderWrapper { bottom: 6px !important; }
 ||startpage.*^$removeparam=segment
 startpage.com###gcsa-top
 
-StreamTape.com
+StreamTape.com (Video hosting service)
 @@||thumb.tapecontent.net/thumb^$domain=streamtape.com
 ! Blocked by HaGeZi - Multi Pro++
 
-# StreamVid.net
+# StreamVid.net (Video hosting service)
 streamvid.net##.vjs-logo-bar
 
 # STS.pl (bookmaker)
@@ -2413,6 +2413,10 @@ u.gg###page-content > div:last-child > div.media-query.media-query_TABLET__DESKT
 unsee.cc##BUTTON.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorInherit.MuiIconButton-edgeEnd.MuiIconButton-sizeLarge.css-1be1j1n[tabindex='0'][type='button'][aria-label='Unsee stands in solidarity with the Ukrainian people against the russian invasion. Find out how you can help.']
 unsee.cc##BUTTON.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorInherit.MuiIconButton-edgeEnd.MuiIconButton-sizeLarge.css-1be1j1n[tabindex='0'][type='button'][aria-label='Unsee solidaryzuje się z narodem ukraińskim przeciwko rosyjskiej inwazji. Dowiedz się, jak możesz pomóc.']
 
+# upfiles.com (File hosting service)
+upfiles.com##body > div:nth-of-type(3)
+efhjd.com##body > div:nth-of-type(3)
+
 # UploadrAr.com (File hosting service)
 uploadrar.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
 getpczone.com##.col-md-offset-2.col-lg-4.col-md-4.col-sm-12.col-xs-12
@@ -2458,13 +2462,13 @@ poczta.wp.pl###main > div.css-ymc9pk:nth-child(6) > div.css-lg8uat > div.exhv6wy
 poczta.wp.pl###main > div.css-sp5xs2:nth-child(3)
 poczta.wp.pl###main > div.css-rvwv5h:nth-child(5) > div.css-nbe6jt > main.css-1b14x9g > div.css-1pckoix
 
-# xHamster.com
+# xHamster.com (XXX)
 @@||*-lvlt.xhcdn.com/xh-*/$domain=xhamster.com
 ||collector.xhamster.com^
 xhamster.com##.right-rectangle.wig-spot-container.list-items
 xhamster.com##.wig-cams-widget.rectangle.rendered
 
-# XVideos.com
+# XVideos.com (XXX)
 xvideos.com##.x-message.x-message-info
 xvideos.com##.icon-f.icf-info-circle
 xvideos.com##.ic
