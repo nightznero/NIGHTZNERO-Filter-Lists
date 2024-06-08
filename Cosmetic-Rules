@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2854
+! Entries: 2860
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.06.08
+! Updated: 2024.06.09
 !
 ! MIT License
 !
@@ -2184,6 +2184,15 @@ rule34.xxx###right-col > div.flexi:nth-child(2) > div.sidebarRight.verticalFlexW
 @@||prod-lc-mqtt-nike.sprinklr.com^
 @@||spx-components.cdn.sprinklr.com^
 ! Blocked by 1Hosts - Pro
+
+# Sankaku.app
+@@||login.sankakucomplex.com/auth/token$domain=sankaku.app|sankakucomplex.com|login.sankakucomplex.com|sankaku.plus|get.sankaku.plus|
+sankaku.app##ul.MuiList-padding-190.MuiList-root-189:nth-of-type(1) > li:nth-of-type(3)
+! Sankaku AI Creator
+sankaku.app##.jss491
+sankaku.app##.MuiPaper-rounded.MuiPaper-elevation1
+sankaku.app##.MuiPaper-rounded.MuiPaper-elevation1.jss858.MuiCard-root.MuiPaper-root
+sankaku.app##.MuiPaper-rounded.MuiPaper-elevation1.jss907.MuiCard-root.MuiPaper-root
 
 # SendVid (Video hosting service)
 sendvid.com##DIV._ln-floater[style='overflow: visible; height: 100px;']
