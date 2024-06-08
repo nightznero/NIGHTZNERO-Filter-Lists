@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2853
+! Entries: 2854
 !
 ! Expires: 1 hour
 !
@@ -2288,6 +2288,9 @@ StreamTape.com (Video hosting service)
 
 # StreamVid.net (Video hosting service)
 streamvid.net##.vjs-logo-bar
+
+# Strims.space (FameMMA | HIGH League | CloutMMA)
+@@||capo2play.com/capo.php?^$domain=strims.space|
 
 # STS.pl (bookmaker)
 @@||widgets.sir.sportradar.com/303262ade65c5fde508a18168ce741e2/widgetloader$domain=sts.pl
