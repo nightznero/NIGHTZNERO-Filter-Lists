@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 655
+! Entries: 656
 !
 ! Expires: 1 days
 !
-! Updated: 2024.06.05
+! Updated: 2024.06.08
 !
 ! MIT License
 !
@@ -964,6 +964,10 @@
 # Tinder
 @@||go.tinder.com^
 ! Blocked by GoodByeAds (Blindfolded)
+
+# Tomorrow.io (Weather)
+@@||api.coralogix.com^
+! Blocked by GoodByeAds
 
 # Trakt.tv
 @@||api.trakt.tv^
