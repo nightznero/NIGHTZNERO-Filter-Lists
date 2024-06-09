@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2860
+! Entries: 2862
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.06.09
+! Updated: 2024.06.10
 !
 ! MIT License
 !
@@ -2215,6 +2215,7 @@ simpcity.su##.node--link.node--depth2.node--id119.node
 simpcity.su##.node--link.node--depth2.node--id122.node
 simpcity.su##.node--link.node--depth2.node--id125.node
 simpcity.su##.node--link.node--depth2.node--id128.node
+simpcity.su##.node--link.node--depth2.node--id130.node
 ! Info and Links - Ads
 simpcity.su##.block--category65.block--category.block
 ! Promotion Section - Verified models
@@ -2227,6 +2228,7 @@ simpcity.su##.offCanvasMenu-list > li:nth-of-type(6)
 simpcity.su##.offCanvasMenu-list > li:nth-of-type(7)
 ! Left Menu - Mobile
 simpcity.su##body > div:nth-of-type(1)
+simpcity.su##.p-body-content > div:nth-of-type(2)
 
 # Skąpiec.pl
 skapiec.pl##DIV.topAdContainer
