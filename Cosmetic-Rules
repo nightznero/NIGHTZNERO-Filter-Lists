@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2862
+! Entries: 2865
 !
 ! Expires: 1 hour
 !
@@ -1257,6 +1257,9 @@ lento.pl##DIV.desc.width-100.text-center.padding-top-10.padding-bottom-10
 lento.pl##li:nth-of-type(4)
 lento.pl##li:nth-of-type(5)
 lento.pl##.text-c-xs.col-sm-pull-8.col-sm-4.copyright
+lento.pl##.promolabel
+lento.pl##.hash.tablelist-tr-promo.tablelist-tr
+lento.pl##.margin-bottom-25.flex-1-sm.user-offer-info
 
 # LinkedIn [Microsoft]
 @@||licdn.com^$tag=linked-in-embeds
