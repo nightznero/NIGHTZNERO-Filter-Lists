@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2024.05.30
+! Updated: 2024.06.11
 !
 ! MIT License
 !
@@ -929,7 +929,7 @@
 ||images1.midas-network.com
 ||hub.tstllc.net
 ||img.tokywoky.com
-||cdn2.bustle.com
+||cdn2.bustle.com^$domain=~bustle.com|
 ||sync-tm.everesttech.net
 ||rtd-tm.everesttech.net
 ||cm.everesttech.net
