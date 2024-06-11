@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2866
+! Entries: 2867
 !
 ! Expires: 1 hour
 !
@@ -2231,6 +2231,7 @@ simpcity.su##.offCanvasMenu-list > li:nth-of-type(6)
 simpcity.su##.offCanvasMenu-list > li:nth-of-type(7)
 ! Left Menu - Mobile
 simpcity.su##body > div:nth-of-type(1)
+simpcity.su##.p-body-inner > div:nth-of-type(1)
 simpcity.su##.p-body-content > div:nth-of-type(2)
 
 # Skąpiec.pl
