@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2872
+! Entries: 2873
 !
 ! Expires: 1 hour
 !
@@ -1162,6 +1162,7 @@ gofile.io#@#.contentLink.me-1
 ||googletagmanager.com^$third-party
 
 # GOunlimited.to (Video hosting service)
+@@||gounlimited.to/e^$stealth=webrtc|ip|
 gounlimited.to###adbd
 gounlimited.to##.overdiv
 
