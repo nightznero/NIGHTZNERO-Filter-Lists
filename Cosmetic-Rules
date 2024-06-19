@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2881
+! Entries: 2885
 !
 ! Expires: 1 hour
 !
@@ -1261,15 +1261,21 @@ kemono.su##A[href='//a.adtng.com/get/10014806'][style='color: #000000; padding: 
 ! Blocked by 1Hosts - Pro
 
 # Lento.pl
+lento.pl###updatepush-coupon
+lento.pl###a-list-boottom
 lento.pl###a-sho-bootm
-lento.pl##main:nth-child(*) > div.container-fluid.otherpage-container > div.row:nth-child(*) > div.col-md-* > div.showogl > div.row-sm-flex:first-child > div.col-sm-left:first-child > div.img-cat.hidden-xs:last-child
 lento.pl##DIV.desc.width-100.text-center.padding-top-10.padding-bottom-10
-lento.pl##li:nth-of-type(4)
-lento.pl##li:nth-of-type(5)
 lento.pl##.text-c-xs.col-sm-pull-8.col-sm-4.copyright
+lento.pl##.margin-bottom-15.display-block.pull-right.bcgr-ff.account-wallet
 lento.pl##.promolabel
 lento.pl##.hash.tablelist-tr-promo.tablelist-tr
 lento.pl##.margin-bottom-25.flex-1-sm.user-offer-info
+! Płatności⤵️
+lento.pl##.hidden-xs.relative.accounttabs > li.noactive:nth-of-type(4)
+lento.pl##.sidebar-nav > li:nth-of-type(6)
+! Pakiety⤵️
+lento.pl##.hidden-xs.relative.accounttabs > li.noactive:nth-of-type(5)
+lento.pl##.sidebar-nav > li:nth-of-type(7)
 
 # LinkedIn [Microsoft]
 @@||licdn.com^$tag=linked-in-embeds
