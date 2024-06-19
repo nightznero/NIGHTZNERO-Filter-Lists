@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2877
+! Entries: 2881
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.06.19
+! Updated: 2024.06.20
 !
 ! MIT License
 !
@@ -1242,6 +1242,10 @@ poczta.interia.pl##A.settings__app-url[ng-if='::appUrl'][target='_blank'][ng-hre
 # JPG.Church JPG.Fish [SimpCity Image Service Hostage]
 @@||jpg4.su^$domain=jpg4.su
 
+# KatFile (File hosting service)
+katfile.com#@#div.free-class.col-xs-6
+katfile.com##div.premium-class.col-xs-6
+
 # Kemono.party
 @@||c*.kemono.party/data^
 @@||c*.kemono.su/data^
@@ -2215,9 +2219,6 @@ sendvid.com##DIV._ln-floater[style='overflow: visible; height: 100px;']
 showup.tv##DIV.large-12.columns.footer__logo
 
 # SimpCity
-@@||simpcity.su##DIV.generic2wide-iframe-div
-@@||simpcity.su##IFRAME.saint-iframe[src][height='auto'][width='auto'][style='border:none;'][loading='lazy'][allow='fullscreen;'][allowfullscreen='true']
-simpcity.su#@#.generic2wide-iframe-div
 simpcity.su##.node--link.node--depth2.node--id95.node
 simpcity.su##.node--link.node--depth2.node--id107.node
 simpcity.su##.node--link.node--depth2.node--id119.node
@@ -2238,6 +2239,11 @@ simpcity.su##.offCanvasMenu-list > li:nth-of-type(5)
 simpcity.su##.offCanvasMenu-list > li:nth-of-type(6)
 simpcity.su##.offCanvasMenu-list > li:nth-of-type(7)
 ! Left Menu - Mobile
+simpcity.su#@#.js-messageContent.message-content
+simpcity.su#@#.bbWrapper
+simpcity.su#@#DIV.generic2wide-iframe-div
+simpcity.su#@#.generic2wide-iframe-div
+simpcity.su#@#IFRAME.saint-iframe[src][height='auto'][width='auto'][style='border:none;'][loading='lazy'][allow='fullscreen;'][allowfullscreen='true']
 simpcity.su##body > div:nth-of-type(1)
 simpcity.su##.p-body-inner > div:nth-of-type(1)
 simpcity.su##.p-body-inner > div:nth-of-type(2) > [href^="https://catflix.su/"]
