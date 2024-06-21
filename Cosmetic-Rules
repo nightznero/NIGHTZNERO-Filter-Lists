@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2885
+! Entries: 2888
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.06.20
+! Updated: 2024.06.21
 !
 ! MIT License
 !
@@ -2507,10 +2507,13 @@ wallpaperplay.com##.cc-window.cc-banner.cc-type-info.cc-theme-edgeless.cc-bottom
 # Wolvesville (Werewolf online game)
 @@||*.api-wolvesville.com^$domain=wolvesville.com
 
-# WP Poczta [Wirtualna Polska]
-poczta.wp.pl###main > div.css-ymc9pk:nth-child(6) > div.css-lg8uat > div.exhv6wy0.css-17cqwjw > div.css-106tacj > div.css-186j4av:nth-child(5)
-poczta.wp.pl###main > div.css-sp5xs2:nth-child(3)
-poczta.wp.pl###main > div.css-rvwv5h:nth-child(5) > div.css-nbe6jt > main.css-1b14x9g > div.css-1pckoix
+# WP Poczta [Wirtualna Polska Media]
+poczta.wp.pl##.css-sp5xs2
+poczta.wp.pl##.css-1c82bw8
+poczta.wp.pl##.css-1y5hyb7
+poczta.wp.pl##.css-14o959j
+poczta.wp.pl##.css-186j4av
+poczta.wp.pl##.css-1pckoix
 
 # xHamster.com (XXX)
 @@||*-lvlt.xhcdn.com/xh-*/$domain=xhamster.com
