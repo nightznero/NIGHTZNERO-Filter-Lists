@@ -2516,7 +2516,7 @@ poczta.wp.pl##.css-14o959j
 poczta.wp.pl##.css-186j4av
 poczta.wp.pl##.css-1pckoix
 ! Top bar - Settings - Pakiety dodatkowe or Mobile - Right Menu - Opcje - Pakiety dodatkowe / Bottom bar - Opcje - Pakiety dodatkowe ⤵️
-poczta.wp.pl##div:has(+button[href="/draft/new"]):has(>div>[href="https://poczta.wp.pl/profil/pro-account"]), [href="/w/options/proaccount"]
+poczta.wp.pl##div:last-of-type:not(:first-of-type):has(+button[href="/draft/new"]):has(>div>[href="https://poczta.wp.pl/profil/pro-account"]), [href="/w/options/proaccount"], [href="https://poczta.wp.pl/profil/pro-account"], [href="/profil/pro-account"]
 ! Top bar - Pakiety ⤵️
 poczta.wp.pl##.css-6fvaqn > .css-0
 ! Mobile - Right Menu - Profil - Pakiety dodatkowe ⤵️
