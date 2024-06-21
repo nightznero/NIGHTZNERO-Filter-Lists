@@ -1230,9 +1230,10 @@ intercity.pl###ic-top-message-icmobile
 @@||zdjecia.interia.pl/galeria^$domain=poczta.interia.pl
 poczta.interia.pl##DIV.placeholder
 poczta.interia.pl##HEADER.header-container
-poczta.interia.pl##DIV[ng-if='::isNext'][nxt-navigation-promo-place]
 poczta.interia.pl##DIV.navigation__promo-banner[ng-if='::isNavigationPromoBanner'][nxt-navigation-promo-banner]
 poczta.interia.pl##A.settings__app-url[ng-if='::appUrl'][target='_blank'][ng-href^='https://play.google.com/store/apps/details'][href^='https://play.google.com/store/apps/details']
+! Left Menu - Poczta Bez reklam & Pakiet dla firm ⤵️
+poczta.interia.pl##.navigation-scroll-container__visible-content > div:nth-of-type(3)
 
 # Jasper.ai
 @@||assets-global.website-files.com/60e5f2de011b86acebc30db7^$domain=jasper.ai
