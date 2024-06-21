@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2888
+! Entries: 2893
 !
 ! Expires: 1 hour
 !
@@ -1359,7 +1359,7 @@ nnjl.pl##.woocommerce-store-notice.demo_store
 # Nike
 @@||api.nike.com/buy/list_items^$domain=nike.com
 
-# Nocowanie.pl [Wirtualna Polska]
+# Nocowanie.pl [Wirtualna Polska Media]
 @@||d.nocimg.pl^$domain=nocowanie.pl
 ! Blocked by DuckDuckGo Tracker Radar
 
@@ -1413,7 +1413,7 @@ oglaszamy24.pl###get_app_box
 onlyfans.com##.b-feed__aside.b-recommended
 onlyfans.com###content > div.container:first-child > div.b-feed__wrapper:last-child > div.b-feed > div.user_posts > div.b-feed__aside.b-recommended:first-child
 
-# Open.fm
+# Open.fm [Wirtualna Polska Media / Audioteka Group]
 @@||std.wpcdn.pl^$domain=open.fm
 open.fm###ADrail
 open.fm###right-side-box
@@ -2514,6 +2514,16 @@ poczta.wp.pl##.css-1y5hyb7
 poczta.wp.pl##.css-14o959j
 poczta.wp.pl##.css-186j4av
 poczta.wp.pl##.css-1pckoix
+! Top bar - Settings - Pakiety dodatkowe or Mobile - Right Menu - Opcje - Pakiety dodatkowe / Bottom bar - Opcje - Pakiety dodatkowe ⤵️
+poczta.wp.pl###tabs-\:r*\:--tab-2
+! Top bar - Pakiety ⤵️
+poczta.wp.pl##.css-6fvaqn > .css-0
+! Mobile - Right Menu - Profil - Pakiety dodatkowe ⤵️
+poczta.wp.pl##a.css-13nd243:nth-of-type(4)
+! Mobile - Bottom bar - Pakiety ⤵️
+poczta.wp.pl##.css-186j4av
+! Mobile - Left Menu - App ⤵️
+poczta.wp.pl##.css-1ve658j.chakra-button
 
 # xHamster.com (XXX)
 @@||*-lvlt.xhcdn.com/xh-*/$domain=xhamster.com
