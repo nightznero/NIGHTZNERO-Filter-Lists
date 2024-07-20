@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 655
+! Entries: 656
 !
 ! Expires: 1 days
 !
-! Updated: 2024.06.20
+! Updated: 2024.07.20
 !
 ! MIT License
 !
@@ -176,6 +176,10 @@
 # AVG [Avast]
 ! Blocked by DuckDuckGo Tracker Radar ⤵️
 @@||signal.avg.com^
+
+# Banggood.com
+! Blocked by DuckDuckGo Tracker Radar ⤵️
+@@||www.banggood.com^
 
 # Bdsm.one
 ! Blocked by GoodByeAds (Blindfolded) ⤵️
