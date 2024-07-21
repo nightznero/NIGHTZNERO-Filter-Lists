@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2024.07.20
+! Updated: 2024.07.21
 !
 ! MIT License
 !
@@ -179,7 +179,7 @@
 
 # Banggood.com
 ! Blocked by DuckDuckGo Tracker Radar ⤵️
-@@||www.banggood.com^
+@@||banggood.com^
 
 # Bdsm.one
 ! Blocked by GoodByeAds (Blindfolded) ⤵️
