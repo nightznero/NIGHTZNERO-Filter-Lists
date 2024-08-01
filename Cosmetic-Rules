@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2897
+! Entries: 2898
 !
 ! Expires: 1 hour
 !
@@ -2243,6 +2243,7 @@ simpcity.su##.node--link.node--depth2.node--id119.node
 simpcity.su##.node--link.node--depth2.node--id122.node
 simpcity.su##.node--link.node--depth2.node--id125.node
 simpcity.su##.node--link.node--depth2.node--id128.node
+simpcity.su##.node--link.node--depth2.node--id129.node
 simpcity.su##.node--link.node--depth2.node--id130.node
 ! Info and Links - Ads
 simpcity.su##.block--category65.block--category.block
