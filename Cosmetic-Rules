@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2898
+! Entries: 2897
 !
 ! Expires: 1 hour
 !
@@ -2263,9 +2263,8 @@ simpcity.su#@#.bbWrapper
 simpcity.su#@#DIV.generic2wide-iframe-div
 simpcity.su#@#.generic2wide-iframe-div
 simpcity.su#@#IFRAME.saint-iframe[src][height='auto'][width='auto'][style='border:none;'][loading='lazy'][allow='fullscreen;'][allowfullscreen='true']
-simpcity.su##.p-body-inner > div:nth-of-type(1)
 simpcity.su##.p-body-inner > div:nth-of-type(2) > [href^="https://catflix.su/"]
-! test simpcity.su##.p-body-content > div:nth-of-type(2)
+simpcity.su##.p-body-content > div:nth-of-type(2)
 
 # Skąpiec.pl
 skapiec.pl##DIV.topAdContainer
