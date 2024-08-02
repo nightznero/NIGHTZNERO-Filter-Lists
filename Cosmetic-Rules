@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2896
+! Entries: 2895
 !
 ! Expires: 1 hour
 !
@@ -1154,7 +1154,6 @@ genius.com##.optanon-alert-box-bg
 
 # GoFile.io (File hosting service)
 @@||api.gofile.io/accounts^$domain=gofile.io
-@@||gofile.io/dist^$domain=gofile.io
 @@||file*.gofile.io/download^
 @@||store*.gofile.io/download^
 
