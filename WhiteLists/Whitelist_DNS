@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 656
+! Entries: 657
 !
 ! Expires: 1 days
 !
-! Updated: 2024.07.21
+! Updated: 2024.08.03
 !
 ! MIT License
 !
@@ -180,6 +180,7 @@
 # Banggood.com
 ! Blocked by DuckDuckGo Tracker Radar ⤵️
 @@||banggood.com^
+@@||ms.staticbg.com^ 
 
 # Bdsm.one
 ! Blocked by GoodByeAds (Blindfolded) ⤵️
