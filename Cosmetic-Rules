@@ -1153,7 +1153,7 @@ genius.com##.optanon-alert-box-bg
 ! Blocked by Fanboy Ultimate List
 
 # GoFile.io (File hosting service)
-@@||api.gofile.io/accounts^$domain=gofile.io
+@@||api.gofile.io^$domain=gofile.io
 @@||file*.gofile.io/download^
 @@||store*.gofile.io/download^
 
