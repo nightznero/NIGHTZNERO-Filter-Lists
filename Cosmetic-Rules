@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2895
+! Entries: 2899
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.08.02
+! Updated: 2024.08.05
 !
 ! MIT License
 !
@@ -1513,6 +1513,12 @@ paypal.com##.gdprCookieBanner_container.gdprCookieBanner_container-custom
 @@172.255.6.177$network
 @@172.255.6.177:443$network
 ! Blocked by Dandelion Sprout's Annoyances List
+
+# pdalife.to / pdalife.com
+pdalife.com##.main-prem-btn
+pdalife.com##.diamond-list.catalog-actions__link
+mobdisc.com##a.b-download__button:nth-of-type(2)
+mobdisc.com##.btn-prem
 
 # PEGASUS [NSO Group] (503 entries)
 ||d100d8mjlhh000.cloudfront.net^
