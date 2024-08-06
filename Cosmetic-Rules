@@ -981,10 +981,10 @@ danidaniels.com###gdpr-cookie-accept
 # Datezone.com
 ! Blocked by Fuck FuckAdBlock (Blindfolded) ⤵️
 @@||imgcdn.datezone.com/users/*/*/*.jpg?v=2$domain=datezone.com,important
-! (For now disabled) datezone.com###app > div.MotionDivstyled__StyledMotionDiv-sc-1v6dw5s-0.kvSkGW:last-child > div.DropdownLayerContainerstyled__StyledDropdownLayerContainer-sc-tekpka-0.kIsIzh > div.Block-sc-7vlbkn-0.hlyRKP > ul.List-sc-hmos2o-0.djmgkf > li.Item-sc-xcthj4-1.kyceEq:nth-child(7)
-! Camera (Your)
-! (For now disabled) datezone.com###app > div.MotionDivstyled__StyledMotionDiv-sc-1v6dw5s-0.kvSkGW:last-child > div.DropdownLayerContainerstyled__StyledDropdownLayerContainer-sc-tekpka-0.kIsIzh > div.Block-sc-7vlbkn-0.DGsQJ > div.Block-sc-7vlbkn-0.dZcCBP:last-child > div.Block-sc-7vlbkn-0.dzmaSk:last-child > ul.CommaList-sc-ex8x2n-0.jYkZhf:last-child > li:nth-child(2)
-! Install Browser version application
+datezone.com##li.lfvLmC.Item-sc-xcthj4-1:nth-of-type(6)
+! Webcam (Your)
+datezone.com##.kMFAVe.CommaList-sc-ex8x2n-0 > li:nth-of-type(2)
+! Install Browser version application (If issue use this "datezone.com##.kMFAVe.CommaList-sc-ex8x2n-0 > li:nth-of-type(2) > .ifFXzN.Link-sc-12hh1tw-0")
 
 # DeepNude.CA (Clothes Remover)
 @@||newfuku.s3.us-west-1.amazonaws.com/*.jpg$domain=newfuku.com
