@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2900
+! Entries: 2901
 !
 ! Expires: 1 hour
 !
@@ -979,13 +979,11 @@ danidaniels.com##.strip-notification-wrapper.verification-sent
 danidaniels.com###gdpr-cookie-accept
 
 # Datezone.com
+! Blocked by Fuck FuckAdBlock (Blindfolded) ⤵️
 @@||imgcdn.datezone.com/users/*/*/*.jpg?v=2$domain=datezone.com,important
-! Blocked by Fuck FuckAdBlock (Blindfolded)
-datezone.com#@#.jJojyW.Btnstyled__StyledBtn-sc-1vjxyc-0.dThudR.Btnstyled__StyledBtn-sc-guxue-0.dxBUhL.Button__ButtonStyled-sc-kay66r-0
-! Scroll unlocked
-datezone.com###app > div.MotionDivstyled__StyledMotionDiv-sc-1v6dw5s-0.kvSkGW:last-child > div.DropdownLayerContainerstyled__StyledDropdownLayerContainer-sc-tekpka-0.kIsIzh > div.Block-sc-7vlbkn-0.hlyRKP > ul.List-sc-hmos2o-0.djmgkf > li.Item-sc-xcthj4-1.kyceEq:nth-child(7)
+! (For now disabled) datezone.com###app > div.MotionDivstyled__StyledMotionDiv-sc-1v6dw5s-0.kvSkGW:last-child > div.DropdownLayerContainerstyled__StyledDropdownLayerContainer-sc-tekpka-0.kIsIzh > div.Block-sc-7vlbkn-0.hlyRKP > ul.List-sc-hmos2o-0.djmgkf > li.Item-sc-xcthj4-1.kyceEq:nth-child(7)
 ! Camera (Your)
-datezone.com###app > div.MotionDivstyled__StyledMotionDiv-sc-1v6dw5s-0.kvSkGW:last-child > div.DropdownLayerContainerstyled__StyledDropdownLayerContainer-sc-tekpka-0.kIsIzh > div.Block-sc-7vlbkn-0.DGsQJ > div.Block-sc-7vlbkn-0.dZcCBP:last-child > div.Block-sc-7vlbkn-0.dzmaSk:last-child > ul.CommaList-sc-ex8x2n-0.jYkZhf:last-child > li:nth-child(2)
+! (For now disabled) datezone.com###app > div.MotionDivstyled__StyledMotionDiv-sc-1v6dw5s-0.kvSkGW:last-child > div.DropdownLayerContainerstyled__StyledDropdownLayerContainer-sc-tekpka-0.kIsIzh > div.Block-sc-7vlbkn-0.DGsQJ > div.Block-sc-7vlbkn-0.dZcCBP:last-child > div.Block-sc-7vlbkn-0.dzmaSk:last-child > ul.CommaList-sc-ex8x2n-0.jYkZhf:last-child > li:nth-child(2)
 ! Install Browser version application
 
 # DeepNude.CA (Clothes Remover)
@@ -1415,6 +1413,11 @@ oglaszamy24.pl###page_c > div > center
 oglaszamy24.pl###page_c > div > div > center
 oglaszamy24.pl###dp_inst_chat
 oglaszamy24.pl###get_app_box
+oglaszamy24.pl##div.chg_btn_c1:nth-of-type(9)
+! Zmień na Wyróżnione
+oglaszamy24.pl##div.chg_btn_c2:nth-of-type(10)
+! Zmień na Premium
+
 
 # OLX
 @@||ireland.apollo.olxcdn.com/v1/temp-files$domain=olx.pl
@@ -1442,8 +1445,8 @@ open.fm##.kr1hon2
 @@||*.openai.com^$stealth
 
 # OpenSubtitles.org
+! Blocked by AdGuard Home List (Dandelion Sprout) ⤵️
 @@||opensubtitles.org^
-! Blocked by AdGuard Home List (Dandelion Sprout)
 
 # Outbrain Elements
 ###around-the-web
