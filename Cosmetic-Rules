@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2896
+! Entries: 2890
 !
 ! Expires: 1 hour
 !
@@ -2387,9 +2387,9 @@ teamspeak.com###gdpr-cookie-message
 myteamspeak.com##.cc-window.cc-banner.cc-type-info.cc-theme-block.cc-bottom.cc-color-override-1754772916
 
 # TechManiaK Groups (techManiaK.pl|gsmManiaK.pl|mobiManiaK.pl|fotoManiaK.pl|agdManiaK.pl|rtvManiaK.pl|TabletManiaK.pl|AcerManiaK.pl|gizManiaK.pl|luxManiaK.pl|blogoManiaK.pl|activeManiaK.pl)
-[$domain=techManiaK.pl|gsmManiaK.pl|mobiManiaK.pl|fotoManiaK.pl|agdManiaK.pl|rtvManiaK.pl|TabletManiaK.pl|AcerManiaK.pl|gizManiaK.pl|luxManiaK.pl|blogoManiaK.pl|activeManiaK.pl]##DIV#topMenu
-[$domain=techManiaK.pl|gsmManiaK.pl|mobiManiaK.pl|fotoManiaK.pl|agdManiaK.pl|rtvManiaK.pl|TabletManiaK.pl|AcerManiaK.pl|gizManiaK.pl|luxManiaK.pl|blogoManiaK.pl|activeManiaK.pl]##DIV[style='margin:10px auto; text-align:center; font-size:8px;']
-[$domain=techManiaK.pl|gsmManiaK.pl|mobiManiaK.pl|fotoManiaK.pl|agdManiaK.pl|rtvManiaK.pl|TabletManiaK.pl|AcerManiaK.pl|gizManiaK.pl|luxManiaK.pl|blogoManiaK.pl|activeManiaK.pl]##DIV[style='margin:0 auto 10px auto; text-align:center; font-size:6px;']
+techManiaK.pl,gsmManiaK.pl,mobiManiaK.pl,fotoManiaK.pl,agdManiaK.pl,rtvManiaK.pl,TabletManiaK.pl,AcerManiaK.pl,gizManiaK.pl,luxManiaK.pl,blogoManiaK.pl,activeManiaK.pl##DIV#topMenu
+techManiaK.pl,gsmManiaK.pl,mobiManiaK.pl,fotoManiaK.pl,agdManiaK.pl,rtvManiaK.pl,TabletManiaK.pl,AcerManiaK.pl,gizManiaK.pl,luxManiaK.pl,blogoManiaK.pl,activeManiaK.p##DIV[style='margin:10px auto; text-align:center; font-size:8px;']
+techManiaK.pl,gsmManiaK.pl,mobiManiaK.pl,fotoManiaK.pl,agdManiaK.pl,rtvManiaK.pl,TabletManiaK.pl,AcerManiaK.pl,gizManiaK.pl,luxManiaK.pl,blogoManiaK.pl,activeManiaK.p##DIV[style='margin:0 auto 10px auto; text-align:center; font-size:6px;']
 
 # Teenager365.com
 teenager365.com##.video-archive-ad
@@ -2483,19 +2483,13 @@ efhjd.com##body > div:nth-of-type(3)
 nexnoo.com##body > div:nth-of-type(3)
 
 # UploadrAr.com (File hosting service)
-uploadrar.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
-getpczone.com##.col-md-offset-2.col-lg-4.col-md-4.col-sm-12.col-xs-12
-getpczone.com##.btn-lg.btn-info.btn
-getpczone.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
-rahim-soft.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
-rahim-soft.com##.btn-lg.btn-info.btn
-fingau.com##.col-md-offset-2.col-lg-4.col-md-4.col-sm-12.col-xs-12
-fingau.com##.btn-lg.btn-info.btn
-fingau.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
-[$domain=uploadrar.com|getpczone.com|rahim-soft.com|fingau.com]##.banner1
-[$domain=uploadrar.com|getpczone.com|rahim-soft.com|fingau.com]##.banner2
-[$domain=uploadrar.com|getpczone.com|rahim-soft.com|fingau.com]##.banner3
-[$domain=uploadrar.com|getpczone.com|rahim-soft.com|fingau.com]##.banner4
+uploadrar.com,getpczone.com,rahim-soft.com,fingau.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
+uploadrar.com,getpczone.com,rahim-soft.com,fingau.com##.col-md-offset-2.col-lg-4.col-md-4.col-sm-12.col-xs-12
+uploadrar.com,getpczone.com,rahim-soft.com,fingau.com##.btn-lg.btn-info.btn
+uploadrar.com,getpczone.com,rahim-soft.com,fingau.com##.banner1
+uploadrar.com,getpczone.com,rahim-soft.com,fingau.com##.banner2
+uploadrar.com,getpczone.com,rahim-soft.com,fingau.com##.banner3
+uploadrar.com,getpczone.com,rahim-soft.com,fingau.com##.banner4
 
 # Uphold (Wallet)
 @@||uphold.com/authorize^$stealth
