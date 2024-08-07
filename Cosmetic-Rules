@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2901
+! Entries: 2896
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.08.06
+! Updated: 2024.08.07
 !
 ! MIT License
 !
@@ -2486,17 +2486,12 @@ nexnoo.com##body > div:nth-of-type(3)
 uploadrar.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
 getpczone.com##.col-md-offset-2.col-lg-4.col-md-4.col-sm-12.col-xs-12
 getpczone.com##.btn-lg.btn-info.btn
-flash.getpczone.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
-get.getpczone.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
-cloud.getpczone.com##.col-md-offset-2.col-lg-4.col-md-4.col-sm-12.col-xs-12
+getpczone.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
 rahim-soft.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
 rahim-soft.com##.btn-lg.btn-info.btn
-get.rahim-soft.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
-miui.rahim-soft.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
-cloud.rahim-soft.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
 fingau.com##.col-md-offset-2.col-lg-4.col-md-4.col-sm-12.col-xs-12
 fingau.com##.btn-lg.btn-info.btn
-tech.fingau.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
+fingau.com##DIV.col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-2
 [$domain=uploadrar.com|getpczone.com|rahim-soft.com|fingau.com]##.banner1
 [$domain=uploadrar.com|getpczone.com|rahim-soft.com|fingau.com]##.banner2
 [$domain=uploadrar.com|getpczone.com|rahim-soft.com|fingau.com]##.banner3
