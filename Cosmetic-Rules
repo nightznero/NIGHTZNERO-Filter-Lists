@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2891
+! Entries: 2894
 !
 ! Expires: 1 hour
 !
@@ -1087,6 +1087,11 @@ leagueoflegends.fandom.com##.wds-banner-notification__text
 leagueoflegends.fandom.com##.wds-banner-notification.wds-message.notify
 leagueoflegends.fandom.com###\35 b2d1649b2-188-1
 leagueoflegends.fandom.com###\35 bbe13967e-188-1
+
+# filman.cc
+filman.cc##.text-center.alert-info.alert
+filman.cc##[href="https://filman.cc/android-apk"]
+filman.cc##.dropdown-menu-right.dropdown-menu > li:nth-of-type(4)
 
 # Filmweb.pl
 filmweb.pl##.rodoBoard
