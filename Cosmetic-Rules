@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2890
+! Entries: 2891
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.08.07
+! Updated: 2024.08.08
 !
 ! MIT License
 !
@@ -2296,6 +2296,7 @@ forums.socialmediagirls.com##.node--unread.node--forum.node--depth2.node--id157.
 ! More Categories - Male/Gay
 forums.socialmediagirls.com##.block--category131.block--category.block
 ! Foreign Languages - Brazilian/Portuguese French Hungarian Spanish
+forums.socialmediagirls.com##li:nth-of-type(4) > .offCanvasMenu-linkHolder > .offCanvasMenu-link
 forums.socialmediagirls.com##li:nth-of-type(5) > .offCanvasMenu-linkHolder > .offCanvasMenu-link
 forums.socialmediagirls.com##li:nth-of-type(7) > .offCanvasMenu-linkHolder > .offCanvasMenu-link
 ! Left Menu - Mobile
