@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 657
+! Entries: 658
 !
 ! Expires: 1 days
 !
-! Updated: 2024.08.09
+! Updated: 2024.08.10
 !
 ! MIT License
 !
@@ -807,6 +807,10 @@
 # RestorePrivacy.com
 ! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵️
 @@||cdn-resprivacy.pressidium.com^
+
+# Revolut
+! Blocked by 1Hosts - Lite (Blindfolded) ⤵️
+@@||get.revolut.com^
 
 # Samsung
 @@||account.samsung.com^
