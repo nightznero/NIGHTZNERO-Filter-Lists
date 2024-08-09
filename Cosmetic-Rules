@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2898
+! Entries: 2899
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.08.08
+! Updated: 2024.08.09
 !
 ! MIT License
 !
@@ -1247,6 +1247,8 @@ poczta.interia.pl###wrapper > section.section.section--sidebar:nth-child(5) > di
 poczta.interia.pl###wrapper > section.section.section--settings:nth-child(5) > section.section--settings.settings > div.section__scroll > ul.settings__links:nth-child(3) > li.settings__links__item:nth-child(2)
 ! Mobile - Left Menu - Settings - Pakiet dla firm ⤵️
 poczta.interia.pl###wrapper > section.section.section--settings:nth-child(5) > section.section--settings.settings > div.section__scroll > ul.settings__links:nth-child(3) > li.settings__links__item:nth-child(3)
+! Settings - Pakiety Pocztowe - Poczta bez reklam & Pakiet dla firm ⤵️
+ustawienia-pocztowe.interia.pl##.nav__list-container__menu-packages.nav__list-container
 
 # Jasper.ai
 @@||assets-global.website-files.com/60e5f2de011b86acebc30db7^$domain=jasper.ai
