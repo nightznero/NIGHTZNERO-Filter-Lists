@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2024.08.03
+! Updated: 2024.08.09
 !
 ! MIT License
 !
@@ -1123,7 +1123,7 @@
 @@||digitalassetlinks.googleapis.com^
 
 # YouTube [Google] ! Blocked by various lists
-@@||s.youtube.com^
+@@||s.youtube.com/api/stats^
 @@||youtubei.googleapis.com^
 ! (For now disabled) @@||video-stats.l.google.com^
 ! (For now disabled) @@||play.googleapis.com^
