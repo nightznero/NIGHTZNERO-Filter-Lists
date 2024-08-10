@@ -1295,7 +1295,7 @@ lento.pl##.sidebar-nav > li:nth-of-type(6)
 lento.pl##.hidden-xs.relative.accounttabs > li.noactive:nth-of-type(5)
 lento.pl##.sidebar-nav > li:nth-of-type(7)
 ! "Promuj" ogłoszenie ⤵️
-lento.pl##a.ds:nth-of-type(5)
+lento.pl##a.ds:nth-of-type(6)
 ! "Wypromuj" ogłoszenie ⤵️
 lento.pl##.margin-bottom-0 > li:nth-of-type(1)
 ! Dodaj na Facebook ⤵️
