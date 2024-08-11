@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2910
+! Entries: 2909
 !
 ! Expires: 1 hour
 !
@@ -919,9 +919,8 @@ camwhores.tv##.network
 CamWhoresHD.com (XXX)
 @@||camwhoreshd.com^$stealth
 camwhoreshd.com##DIV.box.bottom-adv
-camwhoreshd.com##A.tdn[rel='nofollow'][href='*'][target='_blank']
-camwhoreshd.com##A.tdn[rel='nofollow'][href^='https://t.crsmc.link'][target='_blank']
-camwhoreshd.com##A.tdn[rel='nofollow'][href='https://onlyfans.com/truemyrart/c3'][target='_blank']
+camwhoreshd.com##.network
+camwhoreshd.com##.fh-line
 
 # CapCut (TikTok Editor) [ByteDance]
 @@||starling-oversea.byteoversea.com/check_and_get_text/$domain=capcut.com
