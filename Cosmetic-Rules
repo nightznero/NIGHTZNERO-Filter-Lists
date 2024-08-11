@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2909
+! Entries: 2913
 !
 ! Expires: 1 hour
 !
@@ -2309,6 +2309,12 @@ skapiec.pl##DIV.rectangleAd
 skapiec.pl##DIV.rightDesktop[data-slot='right'][data-prop-lazypercentage='100']
 skapiec.pl##DIV.rightDesktop[data-prop-lazypercentage='100'][data-slot='right2']
 skapiec.pl##DIV.rightDesktopSticky[data-slot='right2'][data-prop-lazypercentage='100']
+
+# SmailPro.com (Temp Email) [Sonjj]
+smailpro.com##.py-2.text-center.w-full.sm\:w-80.relative
+smailpro.com##.px-2.font-serif.dark\:text-white.text-green-800.font-bold.tracking-tight.sm\:text-6xl.leading-none.text-\[2\.5rem\].mt-4
+smailpro.com##.shadow-inner.p-4.rounded-lg.border
+smailpro.com##div.sm\:text-left.text-center.px-2
 
 # SocialMediaGirls (SMG Forum)
 ! hCaptcha (Whitelist) ⤵️
