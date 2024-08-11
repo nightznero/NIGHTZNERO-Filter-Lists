@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2903
+! Entries: 2910
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.08.10
+! Updated: 2024.08.11
 !
 ! MIT License
 !
@@ -933,6 +933,15 @@ camwhoreshd.com##A.tdn[rel='nofollow'][href='https://onlyfans.com/truemyrart/c3'
 
 # cdti.pl
 ctdi.pl###bannerdown
+
+# ChiaSeAPK (modded apks)
+chiaseapk.com##.section.main-ads-pikihome
+chiaseapk.com###top-ad-placeholder
+chiaseapk.com###bottom-ad-placeholder
+chiaseapk.com##div#new-top-ad-placeholder
+chiaseapk.com##div#new-bottom-ad-placeholder
+chiaseapk.com##.banner-qc
+chiaseapk.com##.qc
 
 # CHILLWAGON
 chillwagonthegame.com##.cb-wrapper
