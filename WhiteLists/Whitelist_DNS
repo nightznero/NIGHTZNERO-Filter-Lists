@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 658
+! Entries: 659
 !
 ! Expires: 1 days
 !
-! Updated: 2024.08.10
+! Updated: 2024.08.13
 !
 ! MIT License
 !
@@ -1014,6 +1014,10 @@
 ! (For now disabled) @@||platform.twitter.com^
 ! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵️
 @@||t.co^
+
+# Uber Eats
+! Blocked by GoodByeAds ⤵️
+@@||eats.sng.link^
 
 # Under Armour
 ! Blocked by GoodByeAds ⤵️
