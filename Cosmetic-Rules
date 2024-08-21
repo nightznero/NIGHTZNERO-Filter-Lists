@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2938
+! Entries: 2942
 !
 ! Expires: 1 hour
 !
@@ -2531,10 +2531,14 @@ tubeoffline.com##div.divContent2.borderCurve.otherSites:nth-child(*)
 @@||pronouns.alejo.io^
 
 # Twitter / 𝕏
-@@||api.twitter.com/1.1/jot/client_event.json$domain=twitter.com
-@@||api.twitter.com/1.1/live_pipeline/update_subscriptions$domain=twitter.com
+@@||api.twitter.com/1.1/jot/client_event.json$domain=twitter.com|x.com|
+@@||api.x.com/1.1/jot/client_event.json$domain=twitter.com|x.com|
+@@||api.twitter.com/1.1/live_pipeline/update_subscriptions$domain=twitter.com|x.com|
+@@||api.x.com/1.1/live_pipeline/update_subscriptions$domain=twitter.com|x.com|
 @@||api.twitter.com^$tag=twitter-embeds
+@@||api.x.com^$tag=twitter-embeds
 @@||platform.twitter.com^$tag=twitter-embeds
+@@||platform.x.com^$tag=twitter-embeds
 @@||pbs.twimg.com/media/$image,third-party
 @@||pbs.twimg.com/ext_tw_video_thumb/$image,third-party
 @@||abs.twimg.com/emoji/$image,third-party
