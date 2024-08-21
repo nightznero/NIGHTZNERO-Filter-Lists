@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2928
+! Entries: 2939
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.08.19
+! Updated: 2024.08.21
 !
 ! MIT License
 !
@@ -2171,6 +2171,30 @@ pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 580001936703
 ! Blocked by AdGuard Home List (Dandelion Sprout)
 @@||js.pornreactor.cc^$domain=pornreactor.cc
 @@||img*.pornreactor.cc^
+
+# PornX.AI (XXX) <11>
+! Premium top tab ⤵️
+pornx.ai##a.hover\:after\:bg-foreground\/10.after\:absolute.after\:transition-background.after\:rounded-xl.after\:h-full.after\:w-full.after\:opacity-0.after\:inset-0.after\:content-\[\'\'\].hover\:after\:opacity-100.py-1.px-2.no-underline.text-foreground.text-medium.data-\[focus-visible\=true\]\:outline-offset-2.data-\[focus-visible\=true\]\:outline-focus.data-\[focus-visible\=true\]\:outline-2.data-\[focus-visible\=true\]\:z-10.outline-none.tap-highlight-transparent.items-center.inline-flex.relative:nth-of-type(3)
+! Premium ads ⤵️
+pornx.ai##.md\:gap-6.bg-\[\#E74986\].rounded-b-2xl.overflow-hidden.gap-1.justify-between.items-center.select-none.w-full.flex.mx-auto.z-10.relative
+! Join Telegram ⤵️
+pornx.ai##.md\:my-4.justify-center.items-center.cursor-pointer.flex.my-3.mx-5.z-10.left-0.bottom-0.fixed
+! Join Discord ⤵️
+pornx.ai##.w-full.mb-10
+! Right Menu - Subscription ⤵️
+pornx.ai##a.active\:border-\[\#5c5c5c\].hover\:bg-\[\#575757\].ease-in-out.duration-100.transition-colors.text-\[\#eeeeee\].px-4.rounded-xl.gap-3.items-center.select-none.h-12.flex:nth-of-type(5)
+! Settings - Subscription ⤵️
+pornx.ai###react-aria4441308754-\:ra\:-tab-subscription
+! Settings - Newsletter ⤵️
+pornx.ai###react-aria4441308754-\:ra\:-tab-newsletter
+! Settings - Payment history ⤵️
+pornx.ai###react-aria4441308754-\:ra\:-tab-payments
+! Settings - Socials ⤵️
+pornx.ai###react-aria4441308754-\:ra\:-tab-socials
+! Mobile - Left Menu - Premium ⤵️
+pornx.ai##a.hover\:bg-\[\#272727\].ease-in-out.duration-150.transition-all.py-\[10px\].rounded-md.items-center.cursor-pointer.flex:nth-of-type(4)
+! Mobile - Left Menu - Discord ⤵️
+pornx.ai##.pb-\[20px\].px-\[20px\].mt-\[5px\]
 
 # Presearch (Search Engine) [Presearch.com/Presearch.io]
 @@||account.presearch.com^$domain=presearch.com
