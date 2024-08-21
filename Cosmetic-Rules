@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2942
+! Entries: 2946
 !
 ! Expires: 1 hour
 !
@@ -2122,6 +2122,7 @@ pornoeggs.com##.vast_clickthrough_layer.vast_clickthrough_layer_*
 ||*.pornhub.com$redirect=pornhub.com
 ||*.pornhubpremium.com$redirect=pornhubpremium.com
 pornhub.com##A.buttonClass.blackBtn.eudsaLink[target='_blank'][href^='https://www.pornhub.com/_xa/tabinfo']
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##+js(rc, hasAdAlert, header)
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##+js(set, page_params.holiday_promo, true)
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##[id="pb_block"]
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##[id="pb_template"]
@@ -2150,7 +2151,10 @@ pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.srtyogkwcr
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.peclneklto
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.beikuljzth
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##.a5buu4qcbgz1i7f
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###js-abContainterMain
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###pb_block
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###pb_template
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###age-verification
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 *
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 577970664796
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 577970737216
