@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2946
+! Entries: 2953
 !
 ! Expires: 1 hour
 !
@@ -2245,41 +2245,48 @@ reddit.com##DIV._1b1Jalg2nxA_Z-BjKXRfAV
 # RedTube
 ||*.redtube.com$redirect=redtube.com
 ||redtubepremium.com$redirect=redtube.com
-redtube.com##DIV#cookie_consent_min_wrapper
-redtube.com##[id="pb_block"]
-redtube.com##[style^="float:"]
-redtube.com##[target]
-redtube.com###eu_cookie_disclaimer
-redtube.com###paid_tabs_list
-redtube.com##.top_popular_category.clearfix
-redtube.com###show_page_streamate
-redtube.com###ab_banner
-redtube.com###content_container > div.search_results_streamate.clearfix:nth-child(6)
-redtube.com##.ane0q62003bmv.clearfix
-redtube.com##.l676v.clearfix
-redtube.com##.xt18vnore08bjy2v.clearfix
-redtube.com##.wj17iv.clearfix
-redtube.com##.skedov.clearfix
-redtube.com##.ane0q62003bmr.ane0q62003bmu.hd
-redtube.com##.l676r.l676u.hd
-redtube.com##.xt18vnore08bjy2r.xt18vnore08bjy2u.hd
-redtube.com##.skedor.skedou.hd
-redtube.com##.v6l8r6f
-redtube.com##.t57idio53h6m50ww.t57idio53h6m50wc
-redtube.com##.igsymlycaw
-redtube.com##.rcs2wy1aggi267cof
-redtube.com##.wuufdomhiv
-redtube.com##.lelyjskmai
-redtube.com##.mgsniizodc
-redtube.com##.lg8unlozng1kuf
-redtube.com##.x26fddf
-redtube.com##.vhlcu54qu4kp6w.vhlcu54qu4kp6c
-redtube.com##.crdawlldykegw.crdawlldykegc
-redtube.com##.ucy2oah4t4kw.ucy2oah4t4kc
-redtube.com##.j53ml3w.j53ml3c
-redtube.com##.tbsamrv7qv3f
-redtube.com##.kze9tw.kze9tc
-redtube.com##.uf9iw7uaw.uf9iw7uac
+redtube.com,redtube.net##+js(acis, Object.defineProperty, trafficjunky)
+redtube.com,redtube.net##+js(set, page_params.holiday_promo, true)
+redtube.com,redtube.net##DIV#cookie_consent_min_wrapper
+redtube.com,redtube.net##[id="pb_block"]
+redtube.com,redtube.net##[id="pb_template"]
+redtube.com,redtube.net##[id^="age-verification"]
+redtube.com,redtube.net##[style^="float:"]
+redtube.com,redtube.net##[target]
+redtube.com,redtube.net###eu_cookie_disclaimer
+redtube.com,redtube.net###pb_block
+redtube.com,redtube.net###pb_template
+redtube.com,redtube.net###age-verification
+redtube.com,redtube.net###paid_tabs_list
+redtube.com,redtube.net##.top_popular_category.clearfix
+redtube.com,redtube.net###show_page_streamate
+redtube.com,redtube.net###ab_banner
+redtube.com,redtube.net###content_container > div.search_results_streamate.clearfix:nth-child(6)
+redtube.com,redtube.net##.ane0q62003bmv.clearfix
+redtube.com,redtube.net##.l676v.clearfix
+redtube.com,redtube.net##.xt18vnore08bjy2v.clearfix
+redtube.com,redtube.net##.wj17iv.clearfix
+redtube.com,redtube.net##.skedov.clearfix
+redtube.com,redtube.net##.ane0q62003bmr.ane0q62003bmu.hd
+redtube.com,redtube.net##.l676r.l676u.hd
+redtube.com,redtube.net##.xt18vnore08bjy2r.xt18vnore08bjy2u.hd
+redtube.com,redtube.net##.skedor.skedou.hd
+redtube.com,redtube.net##.v6l8r6f
+redtube.com,redtube.net##.t57idio53h6m50ww.t57idio53h6m50wc
+redtube.com,redtube.net##.igsymlycaw
+redtube.com,redtube.net##.rcs2wy1aggi267cof
+redtube.com,redtube.net##.wuufdomhiv
+redtube.com,redtube.net##.lelyjskmai
+redtube.com,redtube.net##.mgsniizodc
+redtube.com,redtube.net##.lg8unlozng1kuf
+redtube.com,redtube.net##.x26fddf
+redtube.com,redtube.net##.vhlcu54qu4kp6w.vhlcu54qu4kp6c
+redtube.com,redtube.net##.crdawlldykegw.crdawlldykegc
+redtube.com,redtube.net##.ucy2oah4t4kw.ucy2oah4t4kc
+redtube.com,redtube.net##.j53ml3w.j53ml3c
+redtube.com,redtube.net##.tbsamrv7qv3f
+redtube.com,redtube.net##.kze9tw.kze9tc
+redtube.com,redtube.net##.uf9iw7uaw.uf9iw7uac
 
 # Rule34
 rule34.xxx###post-view > div.sidebar:first-child > a:nth-child(2)
