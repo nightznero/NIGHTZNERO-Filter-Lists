@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2956
+! Entries: 2960
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.08.21
+! Updated: 2024.08.22
 !
 ! MIT License
 !
@@ -2431,8 +2431,13 @@ soundcloud.com#@$#.volume__sliderWrapper { bottom: 6px !important; }
 @@||app.starbucks.com/weblx/static/$domain=starbucks.com
 
 # StartPage
-||startpage.*^$removeparam=segment
+||startpage.com/sp/adsense^
+||vf.startpage.com^
+||startpage.com^$removeparam=segment
 startpage.com###gcsa-top
+! Get the app ⤵️
+startpage.com##.home-app-promo
+startpage.com##.app-banner-promo-container
 
 StreamTape.com (Video hosting service)
 @@||thumb.tapecontent.net/thumb^$domain=streamtape.com
