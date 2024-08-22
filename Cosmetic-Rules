@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2960
+! Entries: 2962
 !
 ! Expires: 1 hour
 !
@@ -1196,6 +1196,8 @@ gounlimited.to###adbd
 gounlimited.to##.overdiv
 
 # GSMArena.com
+@@||fdn*.gsmarena.com^$domain=gsmarena.com|
+@@||cdn*.gsmarena.com^$domain=gsmarena.com|
 gsmarena.com##DIV.adv-banner
 gsmarena.com##DIV.adv.banner
 gsmarena.com##DIV.adv-top
