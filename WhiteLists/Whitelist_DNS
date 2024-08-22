@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2024.08.13
+! Updated: 2024.08.22
 !
 ! MIT License
 !
@@ -242,7 +242,6 @@
 @@||bunkr.si^
 ! Testinggg ⤵️
 ! (For now disabled) @@||stats.bunkr.ru^$domain=bunkr.*|bunkrr.*|
-
 
 # Buzzfeed
 @@||weaver-api.buzzfeed.com^
@@ -524,7 +523,8 @@
 ! Blocked by GoodByeAds ⤵️
 @@||cdn.grannytube.net^
 
-# GsmArena
+# GSMArena.com
+! Blocked by DuckDuckGo Tracker Radar ⤵️
 @@||fdn.gsmarena.com^
 @@||fdn2.gsmarena.com^
 @@||cdn.gsmarena.com^
