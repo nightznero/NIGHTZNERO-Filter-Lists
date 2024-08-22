@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2962
+! Entries: 2963
 !
 ! Expires: 1 hour
 !
@@ -2402,7 +2402,6 @@ forums.socialmediagirls.com##li:nth-of-type(7) > .offCanvasMenu-linkHolder > .of
 # SoundCloud
 @@||api-auth.soundcloud.com^$stealth
 soundcloud.com#@#.dropbar__content, .footer__appButtonContainer
-soundcloud.com##.announcement.g-dark.m-dismiss-visible
 soundcloud.com#@$#.m-visible.g-z-index-control-bar.playControls { position: absolute !important; top: 0 !important; margin-top: 46px !important; margin-bottom: 46px !important; }
 soundcloud.com#@$#.playControls__queue { top: 52px !important; bottom: unset !important; }
 soundcloud.com#@$#.playControls { position: absolute !important; top: 0px !important; bottom: unset !important; margin: 46px 0 46px 0 !important; visibility: visible !important; }
@@ -2411,6 +2410,11 @@ soundcloud.com#@$#.queue { box-shadow: 0 0 10px rgba(0,0,0,1) !important; }
 soundcloud.com#@$#.volume__sliderHandle, .volume__sliderWrapper { position: relative !important; transition: none !important; }
 soundcloud.com#@$#.volume__sliderBackground, .volume__sliderProgress { transition: none !important; }
 soundcloud.com#@$#.volume__sliderWrapper { bottom: 6px !important; }
+soundcloud.com##.announcement.g-dark.m-dismiss-visible
+
+# soundcore.com [Anker]
+! Cookies notification ⤵️
+soundcore.com##.slide.bar
 
 # SquareSpace
 ||assets.squarespace.com$badfilter
