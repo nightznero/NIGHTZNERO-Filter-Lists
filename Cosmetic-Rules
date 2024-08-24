@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2963
+! Entries: 2964
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.08.22
+! Updated: 2024.08.24
 !
 ! MIT License
 !
@@ -2126,8 +2126,9 @@ pornoeggs.com##.vast_clickthrough_layer.vast_clickthrough_layer_*
 # PornHub
 @@||hubt.pornhub.com^$domain=pornhub.com
 ! Blocked by 1Hosts - Pro
-||*.pornhub.com$redirect=pornhub.com
-||*.pornhubpremium.com$redirect=pornhubpremium.com
+||*.pornhub.com$redirect=pornhub.com,~www.pornhub.com
+||*.pornhubpremium.com$redirect=pornhubpremium.com~www.pornhubpremium.com
+pornhub.com##a.gtm-event-header-paidtabs.noImage.floatLeft.upperCase.blackBtn.buttonClass
 pornhub.com##A.buttonClass.blackBtn.eudsaLink[target='_blank'][href^='https://www.pornhub.com/_xa/tabinfo']
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##+js(rc, hasAdAlert, header)
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##+js(set, page_params.holiday_promo, true)
