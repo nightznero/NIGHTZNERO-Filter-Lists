@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2964
+! Entries: 2967
 !
 ! Expires: 1 hour
 !
@@ -2578,8 +2578,14 @@ tubeoffline.com##div.divContent2.borderCurve.otherSites:nth-child(*)
 ||platform.x.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp|~x.com
 ||ads-api.twitter.com^
 ||twitter.com/1.1/jot/client_event.json
-twitter.com##[style]>div>div>[data-testid=placementTracking]
-twitter.com#@#.ProfileCanopy-card, .u-cf.OpenInAppBar, div:not([aria-labelledby="modal-header"]) .r-18qmn74.r-1vsu8ta.r-1joea0r.r-1777fci.r-1pz39u2.r-obd0qt.css-1dbjc4n > div:not([aria-disabled="true"]), header div[style*="height: calc(53px);"]
+twitter.com,x.com#@#.ProfileCanopy-card, .u-cf.OpenInAppBar, div:not([aria-labelledby="modal-header"]) .r-18qmn74.r-1vsu8ta.r-1joea0r.r-1777fci.r-1pz39u2.r-obd0qt.css-1dbjc4n > div:not([aria-disabled="true"]), header div[style*="height: calc(53px);"]
+twitter.com,x.com##[style]>div>div>[data-testid=placementTracking]
+! X Premium - Left menu ⤵️
+x.com##a.r-1loqt21.r-1ny4l3l.r-13qz1uu.r-cnw61z.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(9)
+! X Premium for orgs - Left menu ⤵️
+x.com##a.r-1loqt21.r-1ny4l3l.r-13qz1uu.r-cnw61z.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(10)
+! X Premium - Mobile ⤵️
+x.com##.r-1wbh5a2.r-16y2uox.r-1t2qqvi.r-2j7rtt.r-obd0qt.r-1vsu8ta.r-1777fci.r-1pz39u2.css-175oi2r > .css-175oi2r
 
 # U.GG
 u.gg###page-content > div:last-child > div.media-query.media-query_TABLET__DESKTOP_LARGE:first-child
