@@ -1135,7 +1135,7 @@ fmovies.to,fmovies.world,fmovies.ps,fmovies.wtf,fmovies.taxi,fmovies.pub,fmovies
 fmovies.to,fmovies.world,fmovies.ps,fmovies.wtf,fmovies.taxi,fmovies.pub,fmovies.cafe,fmovies.llc,fmovies.li,fmovies.co##+js(acs, parseInt, break;case $.)
 
 # Fotka.com
-fotka.com##.GRdwt.cookies-infostyled__Container-sc-ajf3yz-0
+fotka.com##.cookies-infostyled__Container-sc-ajf3yz-0
 fotka.com##.qQkhj7UhJcUY81KYg1cp
 fotka.com##.LLEyxBLBrJYB7pdVH8L_.tE3EINrAnNNVgWMseUgp
 fotka.com##a.QAOr8FnHznbB5WHz6h6P:nth-of-type(1)
@@ -2126,8 +2126,8 @@ pornoeggs.com##.vast_clickthrough_layer.vast_clickthrough_layer_*
 # PornHub
 @@||hubt.pornhub.com^$domain=pornhub.com
 ! Blocked by 1Hosts - Pro
-||*.pornhub.com$redirect=pornhub.com,~www.pornhub.com
-||*.pornhubpremium.com$redirect=pornhubpremium.com~www.pornhubpremium.com
+||*.pornhub.com$script,redirect=pornhub.com|~www.pornhub.com|
+||*.pornhubpremium.com$script,redirect=pornhubpremium.com|~www.pornhubpremium.com|
 pornhub.com##a.gtm-event-header-paidtabs.noImage.floatLeft.upperCase.blackBtn.buttonClass
 pornhub.com##A.buttonClass.blackBtn.eudsaLink[target='_blank'][href^='https://www.pornhub.com/_xa/tabinfo']
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##+js(rc, hasAdAlert, header)
@@ -2251,8 +2251,8 @@ reddit.com##DIV._1b1Jalg2nxA_Z-BjKXRfAV
 ||redgifs.com/assets/js/goCtrl.js$important
 
 # RedTube
-||*.redtube.com$redirect=redtube.com
-||redtubepremium.com$redirect=redtube.com
+||*.redtube.com$script,redirect=redtube.com|~www.redtube.com|
+||redtubepremium.com$script,redirect=redtube.com|
 redtube.com,redtube.net##+js(acis, Object.defineProperty, trafficjunky)
 redtube.com,redtube.net##+js(set, page_params.holiday_promo, true)
 redtube.com,redtube.net##DIV#cookie_consent_min_wrapper
@@ -2446,7 +2446,7 @@ startpage.com###gcsa-top
 startpage.com##.home-app-promo
 startpage.com##.app-banner-promo-container
 
-StreamTape.com (Video hosting service)
+# StreamTape.com (Video hosting service)
 @@||thumb.tapecontent.net/thumb^$domain=streamtape.com
 ! Blocked by HaGeZi - Multi Pro++
 
@@ -2534,7 +2534,7 @@ tiktok.com###main > div.jsx-4200132659.cookie-banner:last-child
 @@||opendesktop.org/dl$domain=opendesktop.org|
 
 # TrakT.tv
-||trakt.tv/vip^$redirect=trakt.tv
+||trakt.tv/vip^$script,redirect=trakt.tv|
 trakt.tv###mobile-nav > ul > li:nth-of-type(6)
 ! VIP
 trakt.tv##div.title:nth-of-type(8)
