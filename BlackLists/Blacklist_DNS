@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 908 (+15 local hosts)
+! Entries: 2 910 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -3177,6 +3177,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 zsports-info.com
 
 ! —————————— SmartTV's —————————— !
+# Android TV (Nvidia Shield TV also)
+0.0.0.0 androidtvchannels-pa.googleapis.com
+0.0.0.0 androidtvwatsonfe-pa.googleapis.com
 
 # Samba.tv (analytics & tracking)
 0.0.0.0 api.cid.samba.tv
