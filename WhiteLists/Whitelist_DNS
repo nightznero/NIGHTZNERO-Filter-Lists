@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 659
+! Entries: 694
 !
 ! Expires: 1 days
 !
-! Updated: 2024.08.22
+! Updated: 2024.08.27
 !
 ! MIT License
 !
@@ -294,6 +294,9 @@
 # D-Link routers
 @@||play.googleapis.com.dlinkrouter^
 @@||youtubei.googleapis.com.dlinkrouter^
+
+# Deezer
+@@||tv.deezer.com^
 
 # Dev-bsewamods
 ! Blocked by HaGeZi - Multi Pro++ ⤵️
@@ -1154,6 +1157,60 @@
 @@||snrcdn.net^
 ! Blocked by εxodus-privacy ⤵️
 @@||api.synerise.com^
+
+! —————————— SmartTV's —————————— !
+# [TV] LG
+! LG Content Store ⤵️
+@@||ngfts.lge.com
+
+# [TV] Pansonic
+! Internet test connections ⤵️
+@@||mhc-ajax-eu.myhomescreen.tv^
+@@||mhc-ajax-eu-s2.myhomescreen.tv^
+@@||mhc-ajax-us.myhomescreen.tv^
+! Internet apps connections (e.x Netflix)
+@@||mhc-eu.myhomescreen.tv^
+@@||mhc-us.myhomescreen.tv^
+@@||mhc-xpana-eu.myhomescreen.tv^
+@@||mhc-xpana-eu-s2.myhomescreen.tv^
+@@||mhc-xpana-us.myhomescreen.tv^
+! Firmware updates ⤵️
+@@||vcs.vdspf.com^
+
+# [TV] Philips
+@@||deviceportal.nettvservices.com
+@@||epg.corio.com
+! Philips Hue Bridge ⤵️
+@@||ecdinterface.philips.com
+@@||www.ecdinterface.philips.com
+
+# [TV] Samsung
+! Multi connections ⤵️
+@@||samsungosp.com^
+@@||www.samsungosp.com^
+@@||samsungotn.net^
+@@||www.samsungotn.net^
+@@||auth.samsungosp.com^
+@@||gpm.samsungqbe.com^
+@@||multiscreen.samsung.com^
+@@||dev-multiscreen.samsung.com^
+@@||time.samsungcloudsolution.com^
+! Updates ⤵️
+@@||lcprd1.samsungcloudsolution.net^
+@@||otnprd10.samsungcloudsolution.net^
+@@||otnprd11.samsungcloudsolution.net^
+@@||otnprd8.samsungcloudsolution.net^
+@@||otnprd9.samsungcloudsolution.net^
+! Samsung Galaxy Store ⤵️
+@@||d1oxlq5h9kq8q5.cloudfront.net^
+! Samsung TV Plus ⤵️
+@@||osb-ussvc.samsungqbe.com^
+
+# [TV] Sony Bravia
+@@||applicast.ga.sony.net
+@@||reg.biv.sony.tv^
+@@||service.biv.sony.tv^
+@@||update.biv.sony.tv^
 
 ! ------------------------- !! -------------------------!
 !                  DeCloudUs Whitelist                  !
