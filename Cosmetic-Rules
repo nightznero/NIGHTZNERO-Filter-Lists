@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2999
+! Entries: 3000
 !
 ! Expires: 1 hour
 !
@@ -844,6 +844,10 @@ apkmoddone.com##.adB
 # BlaBlaCar
 @@||chat.stream-io-api.com/*$domain=blablacar.pl,stealth=ip|3p-auth|referrer|
 @@||edge.blablacar.pl^$domain=blablacar.pl,stealth=ip|
+
+# Bọlt Food
+! Blocked by 1Hosts - Pro ⤵️
+@@||boltfood.onelink.me^
 
 # Booking.com
 ||booking.com^$document,removeparam=aid
