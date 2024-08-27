@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 2971
+! Entries: 2999
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.08.25
+! Updated: 2024.08.27
 !
 ! MIT License
 !
@@ -1075,6 +1075,42 @@ facebook.com###mount_0_0 > div:nth-child(2) > div:first-child > div.rq0escxv.l9j
 /fbevents-amd.js$important
 /fbevents.js$important
 /fbevents.min.js$important
+! "Suggestions" below a post
+facebook.com##.userContentWrapper > ._5pax > DIV > .mvs
+! News Feed - "Similar To Page X" (after liking a post in the news feed)
+facebook.com##.commentable_item + .mvs
+facebook.com##.commentable_item + div > .mvs
+facebook.com##div[id^="substream_"] > div > div > .mvm
+facebook.com##DIV[id^="substream_"] > DIV > DIV > DIV > .mbm > ._4_ck
+facebook.com##DIV[id^="substream_"] > DIV > DIV > DIV[data-ownerid^="u_"] > .mvm
+facebook.com##DIV[id^="substream_"] > DIV > DIV > DIV[data-ownerid^="u_"] > DIV > .mbm > ._4_ck
+facebook.com##DIV[id^="feed_stream_"] > DIV[id^="js_"] > DIV > DIV > DIV[data-ownerid^="u_"] > .mvm
+facebook.com##DIV[id^="substream_"] ._2bex > .mbm > ._4_ck
+facebook.com###pagelet_group_ .mbm > ._4_ck
+! News Feed - "Trending about Page X" and "Page X is posting about Page Y", "Page X is similar to Pages you like"
+facebook.com##.storyContent > .storyUnconnectedPost
+! Pages Feed - "Like Your Favorite Pages" ⤵️
+facebook.com##.megaphone_location_pages_feed
+! Music Feed - "Featured Music Services" ⤵️
+facebook.com###music_services
+! Games Feed "Games Your Friends Are Playing" ⤵️
+facebook.com##.rightColumnWrapper > ._5ksw
+facebook.com##.rightColumnWrapper > ._5ms_
+! "Recommended games" ⤵️
+facebook.com###pagelet_games_rhc
+! "Games You May Like" ⤵️
+facebook.com##.mbm._6nl + .uiList > ._6n2
+facebook.com##.mbm._6nl
+facebook.com##._5pcr > .mbm._43rz
+facebook.com##._5pcr > .mbm._43rz + ._43r-
+facebook.com##.mbm._43rz + .uiList > ._43s1
+facebook.com##.mbm._43rz + .uiList + .uiList
+facebook.com##.mbm > ._5pcr > .mbs + ._43r- > .uiList
+facebook.com##.mbm > ._5pcr > .mbs
+facebook.com##DIV[id^="topnews_main_stream_"] .userContentWrapper > ._1dwg > ._5x46 > A[href="https://www.facebook.com/games/"]
+facebook.com##DIV[id^="topnews_main_stream_"] .userContentWrapper > ._1dwg ._50z3 > ._50zm
+facebook.com##DIV[id^="topnews_main_stream_"] .userContentWrapper > ._1dwg > ._5x46 > ._3dp._29k > DIV > ._5pbw > .fsl.fwb.fcb
+facebook.com##DIV[id^="topnews_main_stream_"] .userContentWrapper > ._1dwg > ._5x46 > ._3dp._29k > DIV > ._5pbw + .uiLinkSubtle[href="https://www.facebook.com/games/"]
 
 # Fandom
 ## League of Legends
