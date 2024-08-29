@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3004
+! Entries: 3007
 !
 ! Expires: 1 hour
 !
@@ -1281,6 +1281,11 @@ imgur.com###div-ad-top_med_rec
 imgur.com###div-ad-bottom_med_rec
 imgur.com##.advertisement.div-ad-active-top_med_rec
 imgur.com##.advertisement.div-ad-active-bottom_med_rec
+
+# Infidrive.net (File hosting service)
+infidrive.net##.gap-4.grid-cols-1.md\:grid-cols-3.grid > div:nth-of-type(1)
+infidrive.net##[href="/premium"]
+infidrive.net##[href="/buy"]
 
 # Instagram [Meta]
 ||instagram.com/logging/
