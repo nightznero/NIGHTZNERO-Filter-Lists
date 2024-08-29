@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3003
+! Entries: 3005
 !
 ! Expires: 1 hour
 !
@@ -881,14 +881,16 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 @@||cdck-file-uploads-global.s3.us-west-2.amazonaws.com/temp/brave/$domain=community.brave.com
 
 # Bunkr (File hosting service)
+||1.bunkr-cache.se^
+bunkrr.su#%#//scriptlet('prevent-setTimeout', ';return!_0x')
+bunkrr.su#%#//scriptlet('set-cookie', 'zone-cap-taco-loves-ads', '1')
+bunkr.*##.catflix
+bunkrr.*##.catflix
+! Blocked by 1Hosts - Pro ⤵️
 ||bunkr.si^$badfilter
 ||bunkrr.su^$badfilter
 @@||bunkr.*^$domain=bunkr.*|bunkrr.*|
 @@||bunkrr.*^$domain=bunkrr.*|bunkr.*|
-! Blocked by 1Hosts - Pro
-||1.bunkr-cache.se^
-bunkr.*##.catflix
-bunkrr.*##.catflix
 
 # Camport
 @@||camport.pl/nowy-panel/media-full/places^$domain=camport.pl
