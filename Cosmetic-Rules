@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3006
+! Entries: 3011
 !
 ! Expires: 1 hour
 !
@@ -2588,13 +2588,22 @@ tiktok.com###main > div.jsx-4200132659.cookie-banner:last-child
 
 # TrakT.tv
 ||trakt.tv/vip^$script,redirect=trakt.tv|
+! Adsss ⤵️
+trakt.tv###om1gYCfRiN-IGJj59JMAC-wrapper
+trakt.tv###om1gYCfRiN-LD3xSETSnk-Ba2KT6YF2O-wrapper
 trakt.tv###mobile-nav > ul > li:nth-of-type(6)
-! VIP
+! VIP ⤵️
 trakt.tv##div.title:nth-of-type(8)
 trakt.tv##div.section:nth-of-type(9)
-! Watch Now - Purchase links
+! "Get VIP" ⤵️
+trakt.tv##.hidden-xs.btn-vip.btn
+! "Join the VIP beta" buttons ⤵️
+trakt.tv##.vip-signup
+! Watch Now - Purchase links ⤵️
 trakt.tv##DIV#af1a979-cc6d540-jc8aedf-wrapper
 trakt.tv##DIV.grid-item.af1a979-grid-item.col-xxlg-1.col-xlg-2.col-lg-2.col-md-3.col-sm-3.col-xs-6
+! TrackCast for iOS (VIP) ⤵️
+trakt.tv###traktcasts-ios-beta-wrapper
 
 # TubeOffline
 tubeoffline.com##div.divContent2.borderCurve.otherSites:nth-child(*)
