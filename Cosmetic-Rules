@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3005
+! Entries: 3006
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.08.29
+! Updated: 2024.08.30
 !
 ! MIT License
 !
@@ -868,14 +868,18 @@ boonga.pl##.ec-fixed.ec-icon.ec-double-btn
 @@||ads.brave.com^$first-party
 @@||rewards.brave.com^$first-party
 @@||brave.com^$image,stylesheet,first-party
-@@||search.brave.com^$ghide
-@@||search.brave.com/api/$first-party
 @@||stats.brave.com^$ghide
 @@||stats.brave.com^$first-party
 @@||community.brave.com^$ghide
 @@||basicattentiontoken.org^$ghide
 @@||basicattentiontoken.org^$first-party
+
+# Brave Search
+@@||search.brave.com^$ghide
+@@||search.brave.com/api/$first-party
 search.brave.com#@#+js(no-fetch-if, body:browser)
+! Settings - Go to Premium ⤵️
+search.brave.com##.svelte-p1xqfc.inline-cta > .svelte-yqgdm2.premium-cta
 
 # Brave Browser Forum
 @@||cdck-file-uploads-global.s3.us-west-2.amazonaws.com/temp/brave/$domain=community.brave.com
