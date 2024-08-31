@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3014
+! Entries: 3015
 !
 ! Expires: 1 hour
 !
@@ -2368,13 +2368,14 @@ rule34.xxx###right-col > div.flexi:nth-child(2) > div.sidebarRight.verticalFlexW
 @@||cdn.fluidplayer.com^$domain=saint.to
 
 # Samsung
+@@||account.samsung.com^
+! Blocked by 1Hosts - Pro ⤵️
 !! Samsung Live Chat
 @@||prod-live-chat.sprinklr.com^
 @@||live-chat-static.sprinklr.com^
 @@||prod-samsung-live-chat.sprinklr.com^
 @@||prod-lc-mqtt-nike.sprinklr.com^
 @@||spx-components.cdn.sprinklr.com^
-! Blocked by 1Hosts - Pro
 
 # Sankaku.app
 @@||login.sankakucomplex.com/auth/token$domain=sankaku.app|sankakucomplex.com|login.sankakucomplex.com|sankaku.plus|get.sankaku.plus|
