@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 910 (+15 local hosts)
+! Entries: 2 913 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -170,7 +170,10 @@ ff02::3 ip6-allhosts
 
 ! Fvck off - Trackers
 0.0.0.0 data.flurry.com
-0.0.0.0 beacons5.gvt3.com
+0.0.0.0.0 beacons.gvt2.com
+0.0.0.0.0 beacons.gcp.gvt2.com
+0.0.0.0.0 beacons5.gvt3.com
+0.0.0.0.0 otheve.beacon.qq.com
 ! -appsflyer- !
 0.0.0.0 appsflyer.com
 0.0.0.0 events.appsflyer.com
