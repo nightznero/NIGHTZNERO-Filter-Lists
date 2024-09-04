@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3029
+! Entries: 3028
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.09.04
+! Updated: 2024.09.05
 !
 ! MIT License
 !
@@ -2800,9 +2800,8 @@ zalando.pl###main-content > .CKDt_l
 zalando.pl##body > div > div > .EKabf7
 
 # Zalando Lounge
-zalando-lounge.pl##.edwrvB.headerWrapperstyles__HeaderBannerRow-sc-11kql3e-3
 ! app ⤵️
-zalando-lounge.pl##div.edwrwG.headerWrapperstyles__HeaderBannerRow-sc-11kql3e-3:nth-of-type(1)
+zalando-lounge.pl##.headerWrapperstyles__HeaderBannerRow-sc-11kql3e-3:nth-of-type(1)
 
 # Zbiornik.com
 @@||zbiornik.com^&stealth=ip|webrtc|
