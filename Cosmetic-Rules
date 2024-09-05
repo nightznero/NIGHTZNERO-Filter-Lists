@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3028
+! Entries: 3029
 !
 ! Expires: 1 hour
 !
@@ -845,6 +845,9 @@ apkmoddone.com##.adB
 
 # Asics (Clothes)
 @@||asics.com/on/demandware.store^$domain=asics.com
+
+# Banggood.com
+banggood.com##.gdpr-entry
 
 # Bing [Microsoft]
 ||bing.com/mouselog$script,redirect-rule=noopjs,domain=bing.com
