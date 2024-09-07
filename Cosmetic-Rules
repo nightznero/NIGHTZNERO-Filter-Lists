@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3028
+! Entries: 3026
 !
 ! Expires: 1 hour
 !
@@ -1205,10 +1205,8 @@ fotka.com##a.QAOr8FnHznbB5WHz6h6P:nth-of-type(11)
 # Fragrantica (Fragrances / Parfums)
 ! "Fragram Photos" ⤵️
 fragrantica.com##div.small-12.cell:nth-of-type(6)
-fragrantica.pl##.grid-padding-y.grid-padding-x.bg-white.grid-x > div.small-12.cell:nth-of-type(4)
 ! "Right now on eBuy" ⤵️
 fragrantica.com##.grid-padding-y.grid-padding-x.bg-white.grid-x > div.small-12.cell:nth-of-type(8)
-fragrantica.pl##.grid-padding-y.grid-padding-x.bg-white.grid-x > div.small-12.cell:nth-of-type(7)
 
 # freestreams-live.my (FameMMA | HIGH League | CloutMMA)
 @@||embedstream.me^$domain=freestreams-live.my/fame-mma-stream
