@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 695
+! Entries: 696
 !
 ! Expires: 1 days
 !
-! Updated: 2024.08.29
+! Updated: 2024.09.08
 !
 ! MIT License
 !
@@ -214,6 +214,8 @@
 
 # Bitdefender
 @@||nimbus.bitdefender.net^
+! Blocked by HaGeZi - Multi Pro & GoodByeAds ⤵️ (Breaks login in Android app)
+@@||bitdefender.sc.omtrdc.net
 
 # Bitwarden
 @@||identity.bitwarden.com^
