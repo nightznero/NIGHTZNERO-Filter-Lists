@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3025
+! Entries: 3040
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.09.09
+! Updated: 2024.09.10
 !
 ! MIT License
 !
@@ -817,6 +817,25 @@ allegro.pl##div.main-wrapper:nth-child(3) > div:last-child
 ||amazon.com^*/impress.html
 ||aax-eu-dub.amazon.com^
 ||aax-us-iad.amazon.com^
+
+# AndroidAdult (XXX NSFW Android Gamez) <15>
+! Ads ⤵
+androidadult.com###box > center
+androidadult.com###post-section > center
+androidadult.com###slidevideo
+androidadult.com##center:nth-of-type(2)
+androidadult.com##center:nth-of-type(5)
+androidadult.com##center:nth-of-type(6)
+! VIP ⤵
+androidadult.com##div.col-xs-12.col-sm-6
+androidadult.com##div.col-xs-6.col-md-3:nth-of-type(2) > ul > li:nth-of-type(8)
+androidadult.com##div.col-xs-6.col-md-3:nth-of-type(2) > ul > li:nth-of-type(9)
+androidadult.com##.alert-info.alert
+androidadult.com##.alertme_email
+androidadult.com##.by-wpdiscuz
+androidadult.com##.login-patreon-user
+androidadult.com##.saleoff
+androidadult.com##.wpd-form-wrap
 
 # AndroidAutority.com [Authority Media]
 androidauthority.com##ASIDE.---___zc
