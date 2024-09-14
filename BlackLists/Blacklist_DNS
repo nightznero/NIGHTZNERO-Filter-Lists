@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 913 (+15 local hosts)
+! Entries: 2 914 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.08.27
+! Updated: 2024.09.14
 !
 ! MIT License
 !
@@ -823,6 +823,9 @@ ff02::3 ip6-allhosts
 ! Fvck off - Gameloft
 0.0.0.0 ingameads.gameloft.com
 0.0.0.0 extads.gameloft.com
+
+# Fvck off - Notino
+0.0.0.0 api.campaigns.notino.com
 
 ! Fvck off - wp (Wirtualna Polska)
 0.0.0.0 pixel.wp.pl
