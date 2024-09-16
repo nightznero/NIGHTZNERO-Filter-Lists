@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 914 (+15 local hosts)
+! Entries: 2 916 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.09.14
+! Updated: 2024.09.16
 !
 ! MIT License
 !
@@ -477,6 +477,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics.samsungknox.com
 
 ! Fvck off - Xiaomi
+0.0.0.0 app.chat.global.xiaomi.net
+0.0.0.0 fr.resolver.msg.global.xiaomi.net
 0.0.0.0 proxy.sec.miui.com
 0.0.0.0 cm.sec.miui.com
 0.0.0.0 sec-cdn.static.xiaomi.net
