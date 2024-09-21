@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 696
+! Entries: 697
 !
 ! Expires: 1 days
 !
-! Updated: 2024.09.08
+! Updated: 2024.09.21
 !
 ! MIT License
 !
@@ -35,12 +35,12 @@
 @@||mirror.librelablmozifzc.onion^
 
 # 1Weather
-! Blocked by 1Hosts - Pro ⤵️
+! Blocked by 1Hosts - Pro ⤵
 @@||1weather.onelouder.com^
 @@||nwsalert.onelouder.com^
 @@||nwsalert1.onelouder.com^
 @@||nwsalert2.onelouder.com^
-! Blocked by HaGeZi - Multi Pro++ ⤵️
+! Blocked by HaGeZi - Multi Pro++ ⤵
 @@||pro-1w-video.onelouder.com^
 @@||pro-1w-dataaggregator.onelouder.com^
 @@||pro-storyful.onelouder.com^
@@ -53,12 +53,12 @@
 @@||vortex.accuweather.com^
 
 # ACRCloud (Audio recognition service provider)
-! Blocked by εxodus-privacy ⤵️
+! Blocked by εxodus-privacy ⤵
 @@||api.acrcloud.com^
 @@||identify-global.acrcloud.com^
 
 # AdGuard
-! Blocked by ADM Advanced Download Manager Host List ⤵️
+! Blocked by ADM Advanced Download Manager Host List ⤵
 @@||email-link.adtidy.org^
 
 # Alexa [Amazon]
@@ -103,7 +103,7 @@
 @@||avs-alexa-19-na.amazon.com^
 
 # Aliexpress
-! Blocked by GoodByeAds ⤵️
+! Blocked by GoodByeAds ⤵
 @@||assets.alicdn.com^
 @@||ae01.alicdn.com^
 @@||ae04.alicdn.com^
@@ -123,9 +123,9 @@
 @@||device-metrics-us-2.amazon.com^
 @@||device-metrics-us.amazon.com^
 @@||sqs.us-east-1.amazonaws.com^
-! Blocked by AntiPopAds:RE (Energized.Pro) ⤵️
+! Blocked by AntiPopAds:RE (Energized.Pro) ⤵
 @@||amazon.com^
-! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵️
+! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵
 @@||images-eu.ssl-images-amazon.com^
 @@||images-na.ssl-images-amazon.com^
 @@||a.media-amazon.com^
@@ -136,11 +136,11 @@
 @@||cdn-content.ampproject.org^
 
 # AnyType.io
-! Blocked by 4PDA Community hosts blacklist ⤵️
+! Blocked by 4PDA Community hosts blacklist ⤵
 @@||anytype-release.fra1.cdn.digitaloceanspaces.com^
 
 # App Centrum MS [Microsoft]
-! Blocked by DuckDuckGo Tracker Radar ⤵️
+! Blocked by DuckDuckGo Tracker Radar ⤵
 @@||mobilecenter.azureedge.net^
 
 # Apple Music
@@ -148,19 +148,19 @@
 @@||s.mzstatic.com^
 
 # Asus ROG (Republic of Gamers)
-! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵️
+! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵
 @@||rog.asus.com^
 
 # Aurora Store
 @@||goolag.store
 
 # AutoDesk.com / AutoDesk.org
-! Blocked by DuckDuckGo Tracker Radar ⤵️
+! Blocked by DuckDuckGo Tracker Radar ⤵
 @@||www.autodesk.com^
 @@||www.autodesk.org^
 
 # Avast
-! Blocked by 1Hosts - Pro ⤵️
+! Blocked by 1Hosts - Pro ⤵
 @@||vanheim.ff.avast.com^
 @@||push.ff.avast.com^
 @@||feed.ff.avast.com^
@@ -170,39 +170,39 @@
 @@||bugs-bunny-test.sb.avast.com^
 
 # Avast Blog
-! Blocked by DuckDuckGo Tracker Radar ⤵️
+! Blocked by DuckDuckGo Tracker Radar ⤵
 @@||blog.avast.com^
 
 # AVG [Avast]
-! Blocked by DuckDuckGo Tracker Radar ⤵️
+! Blocked by DuckDuckGo Tracker Radar ⤵
 @@||signal.avg.com^
 
 # Banggood.com
-! Blocked by DuckDuckGo Tracker Radar ⤵️
+! Blocked by DuckDuckGo Tracker Radar ⤵
 @@||banggood.com^
 @@||ms.staticbg.com^ 
 
 # Bdsm.one
-! Blocked by GoodByeAds (Blindfolded) ⤵️
+! Blocked by GoodByeAds (Blindfolded) ⤵
 @@||cdn.bdsm.one^
 @@||cdn*.bdsm.one^
 
 # Betclic (Bookmaker)
-! Blocked by 4PDA Community hosts blacklist ⤵️
+! Blocked by 4PDA Community hosts blacklist ⤵
 @@||betclic.com^
-! Blocked by Energized.Pro - Basic ⤵️
+! Blocked by Energized.Pro - Basic ⤵
 @@||betclic.pl^
 
 # Better Business Bureaus (BBB)
-! Blocked by DuckDuckGo Tracker Radar ⤵️
+! Blocked by DuckDuckGo Tracker Radar ⤵
 @@||ajax.aspnetcdn.com^
 
 # Bing [Microsoft]
-! Blocked by NIGHTZNERO Blacklist ⤵️
+! Blocked by NIGHTZNERO Blacklist ⤵
 @@||bing.com^
-! Blocked by GoodByeAds & HaGeZi - Multi PRO ⤵️
+! Blocked by GoodByeAds & HaGeZi - Multi PRO ⤵
 @@||browser.events.data.msn.com^
-! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵️
+! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵
 @@||api.msn.com^
 @@||img-s-msn-com.akamaized.net^
 
@@ -214,7 +214,7 @@
 
 # Bitdefender
 @@||nimbus.bitdefender.net^
-! Blocked by HaGeZi - Multi Pro & GoodByeAds ⤵️ (Breaks login in Android app)
+! Blocked by HaGeZi - Multi Pro & GoodByeAds ⤵ (Breaks login in Android app)
 @@||bitdefender.sc.omtrdc.net
 
 # Bitwarden
@@ -223,13 +223,13 @@
 @@||api.pwnedpasswords.com^
 
 # Blokada
-! Blocked by DuckDuckGo Tracker Radar ⤵️
+! Blocked by DuckDuckGo Tracker Radar ⤵
 @@||go.blokada.org^
 
 # Brave Browser
 @@||sync-v2.brave.com^
 @@||go-updater.brave.com^
-! Blocked by 1Hosts - Pro ⤵️
+! Blocked by 1Hosts - Pro ⤵
 @@||rewards.brave.com^
 
 # Brazzers AIO
@@ -238,11 +238,11 @@
 # Bunkr / Bunkrr (File hostage)
 @@||bunkr.ru^
 @@||bunkrr.ru^
-! Blocked by 1Hosts - Lite ⤵️
+! Blocked by 1Hosts - Lite ⤵
 @@||get.bunkrr.su^
 @@||bunkrr.su^
 @@||bunkr.si^
-! Testinggg ⤵️
+! Testinggg ⤵
 ! (For now disabled) @@||stats.bunkr.ru^$domain=bunkr.*|bunkrr.*|
 
 # Buzzfeed
@@ -252,7 +252,7 @@
 @@||spicerack.buzzfeed.com^
 
 # Camwhores
-! Blocked by 1Hosts - Pro ⤵️
+! Blocked by 1Hosts - Pro ⤵
 ! (For now disabled) @@||cdn.tapioni.com^
 
 # Canary Mail
@@ -265,14 +265,14 @@
 @@||api-verify.recaptcha.net^
 
 # CARROT Weather
-! Blocked by 1Hosts - Pro ⤵️
+! Blocked by 1Hosts - Pro ⤵
 @@||maps.aerisapi.com^
 
 # CloudFlare
 @@||challenges.cloudflare.com^
 
 # CNN
-! Blocked by DuckDuckGo Tracker Radar ⤵️
+! Blocked by DuckDuckGo Tracker Radar ⤵
 @@||cdn.cnn.com^
 
 # CoinBase
@@ -290,7 +290,7 @@
 @@||api.coinbase.com^
 
 # CyroseHD
-! Blocked by GoodByeAds ⤵️
+! Blocked by GoodByeAds ⤵
 @@||cyrosehd.page.link^
 
 # D-Link routers
@@ -301,39 +301,39 @@
 @@||tv.deezer.com^
 
 # Dev-bsewamods
-! Blocked by HaGeZi - Multi Pro++ ⤵️
+! Blocked by HaGeZi - Multi Pro++ ⤵
 @@||dev-bsewamods.epizy.com^
 
 # Discord
 @@||discord.gg^
 
 # Dooood.com
-! Blocked by 1Hosts - Pro ⤵️
+! Blocked by 1Hosts - Pro ⤵
 @@||dooood.com^
 
 # Dropbox
 @@||bolt.dropbox.com^
 @@||dl.dropbox.com^
 @@||dl.dropboxusercontent.com^
-! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵️
+! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵
 @@||www.dropbox.com^
-! Blocked by DuckDuckGo Tracker Radar ⤵️
+! Blocked by DuckDuckGo Tracker Radar ⤵
 @@||cfl.dropboxstatic.com^
 
 # DuckDuckGo Browser
 @@||staticcdn.duckduckgo.com^
 
 # eBay
-! Blocked by DuckDuckGo Tracker Radar ⤵️
+! Blocked by DuckDuckGo Tracker Radar ⤵
 @@||ebay.com^
 
 # Electronic Arts (EA)
 @@||ea.com^
-! Blocked by GoodByeAds ⤵️
+! Blocked by GoodByeAds ⤵
 @@||eaassets-a.akamaihd.net^
 
 # EnhanceFox
-! Blocked by 1Hosts - Pro ⤵️
+! Blocked by 1Hosts - Pro ⤵
 @@||multiservice.guangzhuiyuan.com^
 @@||appinference-upload.guangzhuiyuan.com^
 @@||appinference-distribute.guangzhuiyuan.com^
@@ -357,12 +357,12 @@
 @@||graph-fallback.facebook.com^
 @@||b-graph-fallback.facebook.com^
 @@||z-m-graph.facebook.com^
-! Blocked by GoodByeAds ⤵️
+! Blocked by GoodByeAds ⤵
 @@||graph.facebook.com^
 @@||graph-video.facebook.com^
-! Blocked by 1Hosts - Pro ⤵️
+! Blocked by 1Hosts - Pro ⤵
 @@||b-graph.facebook.com^
-! Blocked by DuckDuckGo Tracker Radar n NIGHTZNERO Blacklist ⤵️
+! Blocked by DuckDuckGo Tracker Radar n NIGHTZNERO Blacklist ⤵
 @@||web.facebook.com^
 
 # Facebook Lite/Messenger Lite [Meta]
@@ -418,15 +418,15 @@
 @@||www.mozgcp.net^
 @@||www.mozilla.com^
 @@||www.mozilla.org^
-! Blocked by 1Hosts - Lite ⤵️
+! Blocked by 1Hosts - Lite ⤵
 @@||snippets.mozilla.com^
-! Blocked by 1Hosts - Pro ⤵️
+! Blocked by 1Hosts - Pro ⤵
 @@||data.mozilla.com^
-! Blocked by 4PDA Community hosts blacklist ⤵️
+! Blocked by 4PDA Community hosts blacklist ⤵
 @@||firefox.settings.services.mozilla.com^
 
 # FMHY (Safe pirated lists) [FREEMEDIAHECKYEAH]
-! Blocked by GoodByeAds ⤵️
+! Blocked by GoodByeAds ⤵
 @@||fmhy.net^
 
 # GitHub
@@ -435,18 +435,18 @@
 @@||revanced-apks.pages.dev^
 
 # Gleam.io
-! Blocked by GoodByeAds ⤵️
+! Blocked by GoodByeAds ⤵
 @@||gleam.io^
-! Blocked by HaGeZi - Multi Pro++ ⤵️
+! Blocked by HaGeZi - Multi Pro++ ⤵
 @@||widget.gleamjs.io^
 
 # GoFile.io
-! Occasionally blocked by lists (ex. HaGeZi,1Hosts) ⤵️
+! Occasionally blocked by lists (ex. HaGeZi,1Hosts) ⤵
 @@||file*.gofile.io^
 @@||store*.gofile.io^
 
 # GOG.com (Games Site)
-! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵️
+! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵
 @@||recommendations-api.gog.com^
 @@||menu.gog.com^
 @@||notifications.gog.com^
@@ -464,11 +464,11 @@
 @@||clients6.google.com^
 @@||googleapis.l.google.com^
 @@||notifications-pa.googleapis.com^
-! Blocked by NIGHTZNERO Blacklist & GoodByeAds ⤵️
+! Blocked by NIGHTZNERO Blacklist & GoodByeAds ⤵
 @@||region1.app-measurement.com^
-! Blocked by ADM Advanced Download Manager Host List ⤵️
+! Blocked by ADM Advanced Download Manager Host List ⤵
 @@||safebrowsing.google.com^
-! Blocked by 4PDA Community hosts blacklist ⤵️
+! Blocked by 4PDA Community hosts blacklist ⤵
 @@||android-safebrowsing.google.com^
 @@||developers.google.com^
 @@||encrypted-tbn0.gstatic.com^
@@ -476,7 +476,7 @@
 @@||encrypted-tbn2.gstatic.com^
 @@||encrypted-tbn3.gstatic.com^
 @@||safebrowsing.googleapis.com^
-! Blocked by 1Hosts - Pro ⤵️
+! Blocked by 1Hosts - Pro ⤵
 ! (For now disabled) @@||analyticsinsights-pa.googleapis.com^
 ! (For now disabled) @@||analyticssearch-pa.googleapis.com^
 @@||auditrecording-pa.googleapis.com^
@@ -495,9 +495,9 @@
 # Google APIs (Connected to Google)
 ! Blocked by various lists,and breaking apps cuz its creating unique id ⤵️
 @@||firebaseinstallations.googleapis.com^
-! Blocked by 4PDA Community hosts blacklist ⤵️
+! Blocked by 4PDA Community hosts blacklist ⤵
 @@||firebaseremoteconfig.googleapis.com^
-! Blocked by 1Hosts - Pro ⤵️
+! Blocked by 1Hosts - Pro ⤵
 @@||firebaseinappmessaging.googleapis.com^
 @@||firebasedynamiclinks.googleapis.com^
 
@@ -525,11 +525,11 @@
 @@||play.app.goo.gl^
 
 # GrannyTube.net
-! Blocked by GoodByeAds ⤵️
+! Blocked by GoodByeAds ⤵
 @@||cdn.grannytube.net^
 
 # GSMArena.com
-! Blocked by DuckDuckGo Tracker Radar ⤵️
+! Blocked by DuckDuckGo Tracker Radar ⤵
 @@||fdn.gsmarena.com^
 @@||fdn2.gsmarena.com^
 @@||cdn.gsmarena.com^
@@ -538,52 +538,53 @@
 @@||prod.telemetry.ros.rockstargames.com^
 
 # Hotspot Shield VPN [AURA]
-! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵️
+! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵
 @@||hotspotshield.com^
 @@||www.hotspotshield.com^
 
 # HQPorner.com
-! Blocked by GoodByeAds (Blindfolded) ⤵️
+! Blocked by GoodByeAds (Blindfolded) ⤵
 @@||fastporndelivery.hqporner.com^
+@@||fastmobileporndelivery.hqporner.com^
 
 # Ibis (Hotels) [Accor - all.accor.com]
-! Blocked by GoodByeAds Spotify ⤵️
+! Blocked by GoodByeAds Spotify ⤵
 @@||ahstatic.com^
 
 # InShot
-! Blocked by GoodByeAds n NIGHTZNERO Blacklist ⤵️
+! Blocked by GoodByeAds n NIGHTZNERO Blacklist ⤵
 @@||aws.inshot.cc
 
 # Instagram [Meta]
 @@||cdninstagram.com^
 @@||scontent.cdninstagram.com^
 @@||instagram.c10r.facebook.com^
-! Blocked by 4PDA Community hosts blacklist ⤵️
+! Blocked by 4PDA Community hosts blacklist ⤵
 @@||i.instagram.com^
 @@||graph.instagram.com^
 @@||graph-fallback.instagram.com^
 @@||external.xx.fbcdn.net^
 
 # Interia Poczta
-@@||ud.interia.pl/next/^$domain=poczta.interia.pl
+@@||ud.interia.pl/next/^
 
 # JPG.Church JPG.Fish [SimpCity Image Service Hostage]
-! Blocked by 1Hosts - Lite ⤵️
+! Blocked by 1Hosts - Lite ⤵
 @@||jpg4.su^
 
 # JustWatch.com
-! Blocked by ADM Advanced Download Manager Host List ⤵️
+! Blocked by ADM Advanced Download Manager Host List ⤵
 @@||click.justwatch.com^
 
 # Kiwi Browser
-! Blocked by 1Hosts - Pro ⤵️
+! Blocked by 1Hosts - Pro ⤵
 @@||kiwibrowser.com^
 
 # League of Legends [Riot Games]
 @@||tdm.prod01.row.cros.wr.pvp.net
 
 # LeakedZone.com / HotLeak.vip
-! Blocked by 4PDA Community hosts blacklist ⤵️
+! Blocked by 4PDA Community hosts blacklist ⤵
 @@||ssl.p.jwpcdn.com^
 
 # LinkedIn [Microsoft]
@@ -591,31 +592,31 @@
 @@||platform.linkedin.com^
 
 # LvBet.pl (Bookmaker)
-! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵️
+! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵
 @@||lvbet.pl^
 
 # Malwarebytes
 @@||keystone.mwbsys.com^
 
 # MapBox
-! Blocked by GoodByeAds ⤵️
+! Blocked by GoodByeAds ⤵
 @@||events.mapbox.com^
-! Blocked by ADM Advanced Download Manager Host List ⤵️
+! Blocked by ADM Advanced Download Manager Host List ⤵
 @@||api.tiles.mapbox.com^
 
 # Microsoft
-! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵️
+! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵
 @@||self.events.data.microsoft.com^
 @@||login.live.com^
 @@||login.microsoftonline.com^
 @@||edge.microsoft.com^
 
 # Microsoft Rewards
-! Blocked by 1Hosts - Pro ⤵️
+! Blocked by 1Hosts - Pro ⤵
 @@||prod.rewardsplatform.microsoft.com^
 
 # Mortal Kombat [Warner Bros.]
-! Blocked by HaGeZi - Multi PRO ⤵️
+! Blocked by HaGeZi - Multi PRO ⤵
 @@||event.wbinsights.com^
 
 # Nearby Share [Google]
@@ -633,7 +634,7 @@
 @@||ichnaea.netflix.com^
 
 # Nike
-! Blocked by ADM Advanced Download Manager ⤵️
+! Blocked by ADM Advanced Download Manager ⤵
 @@||nikeconsumerservices.my.salesforce-sites.com^
 
 # Nvidia GeForce
@@ -649,7 +650,7 @@
 @@||d.docs.live.net^
 
 # OneDrive [Microsoft]
-! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵️
+! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵
 @@||skyapi.live.net^
 @@||skyapi.policies.live.net^
 @@||api.onedrive.com^
@@ -657,7 +658,7 @@
 @@||files.1drv.com^
 
 # OneLink.me (Tracker to most of profiles)
-! Blocked by GoodByeAds ⤵️
+! Blocked by GoodByeAds ⤵
 @@||*.onelink.me^
 
 # OnePlus OTA updates
@@ -667,20 +668,20 @@
 @@||world.openfoodfacts.org^
 
 # OpenSignal
-! Blocked by 1Hosts - Pro & GoodByeAds ⤵️
+! Blocked by 1Hosts - Pro & GoodByeAds ⤵
 @@||api.onesignal.com^
 
 # OpenAI
 @@||api.openai.com^
 
 # Opera
-! Blocked by 4PDA Community hosts blacklist ⤵️
+! Blocked by 4PDA Community hosts blacklist ⤵
 @@||api.recsys.opera.com^
-! Blocked by Energized.Pro - Basic ⤵️
+! Blocked by Energized.Pro - Basic ⤵
 @@||discover.operacdn.com^
-! Blocked by ADM Advanced Download Manager ⤵️
+! Blocked by ADM Advanced Download Manager ⤵
 @@||speeddials.opera.com^
-! Blocked by 1Hosts - Lite & GoodByeAds ⤵️
+! Blocked by 1Hosts - Lite & GoodByeAds ⤵
 @@||api-a.op-mobile.opera.com^
 
 # Origin
@@ -704,7 +705,7 @@
 @@||ecdinterface.philips.com^
 
 # PicsArt
-! Blocked by GoodByeAds ⤵️
+! Blocked by GoodByeAds ⤵
 @@||api.picsart.com^
 
 # Pinterest
@@ -712,7 +713,7 @@
 @@||api.pinterest.com^
 
 # Pixeldrain
-! Blocked by GoodByeAds ⤵️
+! Blocked by GoodByeAds ⤵
 @@||pixeldrain.com^
 
 # PlayStation 5 (Sony)
@@ -732,13 +733,13 @@
 @@||ew.phncdn.com^
 @@||hubt.pornhub.com^
 @@||cdn1d-static-shared.phncdn.com^
-! Blocked by DuckDuckGo Tracker Radar ⤵️
+! Blocked by DuckDuckGo Tracker Radar ⤵
 @@||dl.phncdn.com^
 
 # PornReactor.cc
-! Blocked by 1Hosts - Pro ⤵️
+! Blocked by 1Hosts - Pro ⤵
 @@||pornreactor.cc^
-! Blocked by Energized.Pro - Spark ⤵️
+! Blocked by Energized.Pro - Spark ⤵
 @@||img.pornreactor.cc^
 @@||img0.pornreactor.cc^
 @@||img1.pornreactor.cc^
@@ -747,7 +748,7 @@
 @@||js.pornreactor.cc^
 
 # PREQUEL
-! Blocked by GoodByeAds ⤵️
+! Blocked by GoodByeAds ⤵
 @@||cfimg.prequel.app^
 @@||ahcdn.prequel.app^
 
@@ -763,7 +764,7 @@
 # Proton Mail
 @@||api.protonmail.ch^
 @@||mail-api.proton.me^
-! Blocked by GoodByeAds ⤵️
+! Blocked by GoodByeAds ⤵
 @@||go.getproton.me^
 
 # Proton Pass
@@ -772,9 +773,9 @@
 # Proton VPN
 
 # Reactor.cc
-! Blocked by 1Hosts - Pro ⤵️
+! Blocked by 1Hosts - Pro ⤵
 @@||reactor.cc^
-! Blocked by Energized.Pro - Spark ⤵️
+! Blocked by Energized.Pro - Spark ⤵
 @@||img.reactor.cc^
 @@||img0.reactor.cc^
 @@||img1.reactor.cc^
@@ -788,9 +789,9 @@
 @@||redd.it^
 @@||i.redd.it^
 @@||cdn.embedly.com^
-! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵️
+! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵
 @@||alb.reddit.com^
-! Blocked by 4PDA Community hosts blacklist ⤵️
+! Blocked by 4PDA Community hosts blacklist ⤵
 @@||e.reddit.com^
 
 
@@ -800,29 +801,29 @@
 @@||userpic.redgifs.com^
 
 # RedTube.com
-! Blocked by AdGuard Home List (Dandelion Sprout) ⤵️
+! Blocked by AdGuard Home List (Dandelion Sprout) ⤵
 @@||redtube.com^
-! Blocked by DuckDuckGo Tracker Radar (Blindfolded) ⤵️
+! Blocked by DuckDuckGo Tracker Radar (Blindfolded) ⤵
 @@||ei.rdtcdn.com^
 
 # Rentry.co
-! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵️
+! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵
 @@||rentry.co^
 
 # RestorePrivacy.com
-! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵️
+! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵
 @@||cdn-resprivacy.pressidium.com^
 
 # Revolut
-! Blocked by 1Hosts - Lite (Blindfolded) ⤵️
+! Blocked by 1Hosts - Lite (Blindfolded) ⤵
 @@||get.revolut.com^
 
 # Samsung
 @@||account.samsung.com^
 @@||vas.samsungapps.com^
-! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵️
+! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵
 @@||www.samsung.com^
-! Blocked by 1Hosts - Pro ⤵️
+! Blocked by 1Hosts - Pro ⤵
 @@||pushmessage.samsung.com^
 @@||us-api.mcsvc.samsung.com^
 @@||capi.samsungcloud.com^
@@ -833,7 +834,7 @@
 @@||spx-components.cdn.sprinklr.com^
 
 # Samsung FREE
-! Blocked by 1Hosts - Lite ⤵️
+! Blocked by 1Hosts - Lite ⤵
 @@||img.yana.asideas.de^
 
 # Samsung Pay
@@ -851,7 +852,7 @@
 @@||s.shopify.com^
 
 # Showup.tv
-! Blocked by 1Hosts - Pro ⤵️
+! Blocked by 1Hosts - Pro ⤵
 @@||showup.tv^
 
 # Skype [Microsoft]
@@ -905,19 +906,19 @@
 @@||bolt-gcdn.sc-cdn.net^
 @@||cf-st.sc-cdn.net^
 @@||app.snapchat.com^
-! Blocked by 1Hosts - Pro ⤵️
+! Blocked by 1Hosts - Pro ⤵
 @@||accounts.snap.com^
 
 # SoundCloud
-! Blocked by Energized.Pro - Basic ⤵️
+! Blocked by Energized.Pro - Basic ⤵
 @@||s.pwt.soundcloud.com^
 
 # SoundHound
-! Blocked by εxodus-privacy ⤵️
+! Blocked by εxodus-privacy ⤵
 @@||music-soundhound.houndify.com^
 
 # SpankBang
-! Blocked by GoodByeAds ⤵️
+! Blocked by GoodByeAds ⤵
 @@||spankbang.com^
 
 # Spotify
@@ -932,25 +933,25 @@
 @@||spclient.wg.spotify.com^
 @@||audio-ak-spotify-com.akamaized.net^
 @@||lite-images-i.scdn.co^
-! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵️
+! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵
 @@||i.scdn.co^
 @@||encore.scdn.co^
 @@||video-akpcw-cdn-spotify-com.akamaized.net^
 @@||spotify.app.link^
 
 # Square Space
-! Blocked by DuckDuckGo Tracker Radar ⤵️
+! Blocked by DuckDuckGo Tracker Radar ⤵
 @@||static1.squarespace.com^
 
 # Status.im
-! Blocked by 4PDA Community Hosts Blacklist (CNAME) ⤵️
+! Blocked by 4PDA Community Hosts Blacklist (CNAME) ⤵
 @@||status-im-files.ams3.cdn.digitaloceanspaces.com^
 
 
 # SwiftKey Keyboard [Microsoft]
 @@||swiftkey-sync-production.touchtype-fluency.com^
 @@||tokens-auth.touchtype-fluency.com^
-! Blocked by 1Hosts - Pro ⤵️
+! Blocked by 1Hosts - Pro ⤵
 @@||jenson.api.swiftkey.com^
 @@||bibo.api.swiftkey.com^
 @@||tigger-citadel.touchtype-fluency.com^
@@ -961,22 +962,22 @@
 ||metrics.thedailybeast.com^
 
 # The Movie DataBase (TMDB)
-! Blocked by Energized.Pro - Basic ⤵️
+! Blocked by Energized.Pro - Basic ⤵
 @@||image.tmdb.org^
 
 # The North Face
-! Blocked by DuckDuckGo Tracker Radar ⤵️
+! Blocked by DuckDuckGo Tracker Radar ⤵
 @@||static.thenorthface.com^
 @@||static.thenorthface.eu^
 @@||static.thenorthface.co.uk^
 @@||static.thenorthface.pl^
 
 # The Weather Channel
-! Blocked by GoodByeAds ⤵️
+! Blocked by GoodByeAds ⤵
 @@||s.w-x.co^
 
 # Tinder
-! Blocked by GoodByeAds (Blindfolded) ⤵️
+! Blocked by GoodByeAds (Blindfolded) ⤵
 @@||go.tinder.com^
 
 # Trakt.tv
@@ -987,7 +988,7 @@
 @@||traffic.eks.megaphone.cloud^
 
 # TV Time [Tozelabs]
-! Blocked by ADM Advanced Download Manager Host List ⤵️
+! Blocked by ADM Advanced Download Manager Host List ⤵
 @@||stats.tvtime.com^
 
 # Twitch.tv
@@ -1010,31 +1011,31 @@
 @@||pronouns.alejo.io^
 
 # TwitchMod / OrangeTV / PurpleTV
-! Blocked by HaGeZi - Multi Pro++ ⤵️
+! Blocked by HaGeZi - Multi Pro++ ⤵
 @@||api.nopbreak.ru^
 
 # Twitter
 @@||twimg.com^
 ! (For now disabled) @@||api.twitter.com^
 ! (For now disabled) @@||platform.twitter.com^
-! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵️
+! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵
 @@||t.co^
 
 # Uber Eats
-! Blocked by GoodByeAds ⤵️
+! Blocked by GoodByeAds ⤵
 @@||eats.sng.link^
 
 # Under Armour
-! Blocked by GoodByeAds ⤵️
+! Blocked by GoodByeAds ⤵
 @@||fieldtesting.underarmour.com^
 @@||uafieldtesting.sjc1.qualtrics.com^
 @@||ualistens.underarmour.com^
-! Blocked by ADM Advanced Download Manager Host List (Blindfolded) ⤵️
+! Blocked by ADM Advanced Download Manager Host List (Blindfolded) ⤵
 @@||help.underarmour.com^
 @@||webto.salesforce.com^
 
 # Upday
-! Blocked by 1Hosts - Pro ⤵️
+! Blocked by 1Hosts - Pro ⤵
 @@||prod.yana.asideas.de^
 
 # UTorrent
@@ -1046,9 +1047,9 @@
 @@||userapi.com^
 
 # Weather.com (The Weather Channel)
-! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵️
+! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵
 @@||api.weather.com^
-! Blocked by 4PDA Community Hosts Blacklist ⤵️
+! Blocked by 4PDA Community Hosts Blacklist ⤵
 @@||mparticle.weather.com^
 
 # WhatsApp [Meta]
@@ -1056,7 +1057,7 @@
 @@||graph.whatsapp.net^
 
 # Wild Rift [Riot Games]
-! Blocked by GoodByeAds Spotify ⤵️
+! Blocked by GoodByeAds Spotify ⤵
 @@||lolstatic-a.akamaihd.net^
 
 # Windows [Microsoft]
@@ -1078,15 +1079,15 @@
 @@||cds.d2s7q6s2.hwcdn.net^
 
 # WOT (Web of Trust)
-! Blocked by ADM Advanced Download Manager Host List ⤵️
+! Blocked by ADM Advanced Download Manager Host List ⤵
 @@||mywot.com^
 @@||www.mywot.com^
-! Blocked by 4PDA Community Hosts Blacklist ⤵️
+! Blocked by 4PDA Community Hosts Blacklist ⤵
 @@||user.api.mywot.com^
 @@||auth.api.mywot.com^
 
 # WPS Office
-! Blocked by GoodByeAds ⤵️
+! Blocked by GoodByeAds ⤵
 ! (For now disabled) @@||movip.wps.com^
 
 # Xbox [Microsoft]
@@ -1112,16 +1113,16 @@
 @@||clientconfig.passport.net^
 
 # xHamster.com
-! Blocked by AntiPopAds:RE (Energized.Pro) ⤵️
+! Blocked by AntiPopAds:RE (Energized.Pro) ⤵
 @@||xHamster.com^
-! Blocked by GoodByeAds ⤵️
+! Blocked by GoodByeAds ⤵
 @@||static-ah.xhcdn.com^
 
 # Xiaomi
-! Blocked by 4PDA Community Hosts Blacklist ⤵️
+! Blocked by 4PDA Community Hosts Blacklist ⤵
 @@||file.market.xiaomi.com^
 ## Xiaomi Home
-! Blocked by GoodByeAds ⤵️
+! Blocked by GoodByeAds ⤵
 @@||data.sec.miui.com^
 @@||de.api.io.mi.com^
 @@||sts.api.io.mi.com^
@@ -1135,41 +1136,41 @@
 @@||adiu.amap.com^
 @@||digitalassetlinks.googleapis.com^
 
-# YouTube [Google] ! Blocked by various lists
+# YouTube [Google] ! Blocked by various lists ⤵
 @@||s.youtube.com/api/stats^
 @@||youtubei.googleapis.com^
 ! (For now disabled) @@||video-stats.l.google.com^
 ! (For now disabled) @@||play.googleapis.com^
 @@||redirector.googlevideo.com^
-! Blocked by GoodByeAds ⤵️
+! Blocked by GoodByeAds ⤵
 !! Different image host for YouTube
 @@yt4.ggpht.com^
 
 # Zbiornik
-! Blocked by 4PDA Community Hosts Blacklist ⤵️
+! Blocked by 4PDA Community Hosts Blacklist ⤵
 @@||zbiornik.com^
 
 # ZEN (Zero Effort Non-Bank)
 @@||api.zen.com^
 @@||zencom.zendesk.com^
-! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵️
+! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵
 @@||zen-mobile-app.firebaseio.com^
-! Blocked by GoodByeAds (Blindfolded) ⤵️
+! Blocked by GoodByeAds (Blindfolded) ⤵
 @@||partner1.cashback.zen.com^
 
 # Żappka [Żabka]
-! Blocked by Energized.Pro - Basic ⤵️
+! Blocked by Energized.Pro - Basic ⤵
 @@||snrcdn.net^
-! Blocked by εxodus-privacy ⤵️
+! Blocked by εxodus-privacy ⤵
 @@||api.synerise.com^
 
 ! —————————— SmartTV's —————————— !
 # [TV] LG
-! LG Content Store ⤵️
+! LG Content Store ⤵
 @@||ngfts.lge.com
 
 # [TV] Pansonic
-! Internet test connections ⤵️
+! Internet test connections ⤵
 @@||mhc-ajax-eu.myhomescreen.tv^
 @@||mhc-ajax-eu-s2.myhomescreen.tv^
 @@||mhc-ajax-us.myhomescreen.tv^
@@ -1179,18 +1180,18 @@
 @@||mhc-xpana-eu.myhomescreen.tv^
 @@||mhc-xpana-eu-s2.myhomescreen.tv^
 @@||mhc-xpana-us.myhomescreen.tv^
-! Firmware updates ⤵️
+! Firmware updates ⤵
 @@||vcs.vdspf.com^
 
 # [TV] Philips
 @@||deviceportal.nettvservices.com
 @@||epg.corio.com
-! Philips Hue Bridge ⤵️
+! Philips Hue Bridge ⤵
 @@||ecdinterface.philips.com
 @@||www.ecdinterface.philips.com
 
 # [TV] Samsung
-! Multi connections ⤵️
+! Multi connections ⤵
 @@||samsungosp.com^
 @@||www.samsungosp.com^
 @@||samsungotn.net^
@@ -1200,15 +1201,15 @@
 @@||multiscreen.samsung.com^
 @@||dev-multiscreen.samsung.com^
 @@||time.samsungcloudsolution.com^
-! Updates ⤵️
+! Updates ⤵
 @@||lcprd1.samsungcloudsolution.net^
 @@||otnprd10.samsungcloudsolution.net^
 @@||otnprd11.samsungcloudsolution.net^
 @@||otnprd8.samsungcloudsolution.net^
 @@||otnprd9.samsungcloudsolution.net^
-! Samsung Galaxy Store ⤵️
+! Samsung Galaxy Store ⤵
 @@||d1oxlq5h9kq8q5.cloudfront.net^
-! Samsung TV Plus ⤵️
+! Samsung TV Plus ⤵
 @@||osb-ussvc.samsungqbe.com^
 
 # [TV] Sony Bravia
