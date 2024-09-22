@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 917 (+15 local hosts)
+! Entries: 2 918 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -881,6 +881,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bestofleaks.com
 0.0.0.0 fapello-leaks.com
 0.0.0.0 grzechyseksualne.com
+0.0.0.0 scatteredhecheaper.com
 0.0.0.0 1l2policja.online
 
 # Fvck off - Kape Technologies [Formerly Crossrider] (Malware distributor)
