@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 920 (+15 local hosts)
+! Entries: 2 921 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.09.22
+! Updated: 2024.09.24
 !
 ! MIT License
 !
@@ -72,6 +72,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tsyndicate.com
 
 # Fvck off - Ads
+0.0.0.0 ads.com
 0.0.0.0 mercury.akamaized.net
 0.0.0.0 hesads.akamaized.net
 
@@ -128,7 +129,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tnc16-alisg.isnssdk.com
 0.0.0.0 tnc16-alisg.byteoversea.com
 0.0.0.0 gameanalytics.com
-0.0.0.0 split.io^
+0.0.0.0 split.io
 0.0.0.0 analytics.saint.to
 ! -Hotjar- !
 0.0.0.0 adm.hotjar.com
