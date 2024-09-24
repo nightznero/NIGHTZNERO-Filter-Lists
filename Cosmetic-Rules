@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3041
+! Entries: 3040
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.09.15
+! Updated: 2024.09.24
 !
 ! MIT License
 !
@@ -1267,10 +1267,9 @@ genius.com##.optanon-alert-box-bg
 ! Blocked by Fanboy Ultimate List
 
 # GoFile.io (File hosting service)
-@@||api.gofile.io/accounts^$domain=gofile.io
+@@||api.gofile.io^$domain=gofile.io
 @@||file*.gofile.io/download^
 @@||store*.gofile.io/download^
-@@||gofile.io/dist/*/^$domain=gofile.io
 
 # Google
 @@||consent.google.com/m%3Fcontinue=https://news.google.com/rss/articles/*$domain=news.google.com
