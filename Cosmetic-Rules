@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3043
+! Entries: 3045
 !
 ! Expires: 1 hour
 !
@@ -1351,6 +1351,8 @@ intercity.pl###ic-top-message-icmobile
 # Interia Poczta
 @@||ud.interia.pl/html/getattach^$domain=poczta.interia.pl
 @@||zdjecia.interia.pl/galeria^$domain=poczta.interia.pl
+||poczta.interia.pl/next/adv,advKeyword$subdocument,important
+poczta.interia.pl##div.ad[nxt-ad-place]
 poczta.interia.pl##DIV.placeholder
 poczta.interia.pl##HEADER.header-container
 poczta.interia.pl##DIV.navigation__promo-banner[ng-if='::isNavigationPromoBanner'][nxt-navigation-promo-banner]
