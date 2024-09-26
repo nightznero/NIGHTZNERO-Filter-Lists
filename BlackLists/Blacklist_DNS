@@ -971,10 +971,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 apksoul.net
 
 # Fvck off - Lucky Patcher (Fake sites of Lucky Patcher - luckypatchers.com)
-0.0.0.0 luckypatcher.tools
-0.0.0.0 luckypatchers.me
-0.0.0.0 luckypatcher.biz
 0.0.0.0 luckypatchers.info
+0.0.0.0 luckypatchers.me
+0.0.0.0 luckypatcher.tools
+0.0.0.0 luckypatcher.biz
 
 # Fvck off - ReVanced (OG ReVanced wannabe) [oSumAtrlX-revanced.app]
 0.0.0.0 getrevanced.com
