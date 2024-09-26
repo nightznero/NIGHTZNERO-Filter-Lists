@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3045
+! Entries: 3046
 !
 ! Expires: 1 hour
 !
@@ -1431,6 +1431,7 @@ lento.pl##.margin-bottom-0 > li:nth-of-type(6)
 @@||connect.facebook.net/*/sdk.js$domain=lolbeans.io
 
 # Lucky Patcher [Chelpus]
+luckypatchers.info,luckypatchers.me,luckypatcher.tools,luckypatcher.biz$script,redirect=$script,redirect=www.luckypatchers.com/download/
 ! LP Downloader is a Malware,use only LP Installer ⤵️
 luckypatchers.com##[href="https://chelpus.com/download/LP_Downloader.apk"]
 
