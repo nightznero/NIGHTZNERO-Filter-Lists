@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3046
+! Entries: 3047
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.09.26
+! Updated: 2024.09.27
 !
 ! MIT License
 !
@@ -724,6 +724,7 @@ tracking.bp01.net
 ||*srv.com^$important,popup
 ||0x01n2ptpuz3.com^$important
 ||adltserv.com^$important
+||ads.com^$all
 ||ads.bullionyield.com^$important
 ||adsrvr.io^$important
 ||adsessionserv.com^$important
