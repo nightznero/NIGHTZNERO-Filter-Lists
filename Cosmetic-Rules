@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3047
+! Entries: 3048
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.09.27
+! Updated: 2024.10.06
 !
 ! MIT License
 !
@@ -777,6 +777,8 @@ tracking.bp01.net
 ||szok-cenowy.pl^$important
 ||TheAnnoyingSite.com^$important
 ||YouAreAnIdiot.cc^$important
+# 2023.05.02 ⤵
+||Only-fans.uk^$important
 # Fvck off - Shock Sites (docked sites for famous people) ⤵️
 ||lukisteve.pl^$important
 ||pajalockk.pl^$important
