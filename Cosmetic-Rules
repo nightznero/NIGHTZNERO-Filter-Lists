@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3048
+! Entries: 3050
 !
 ! Expires: 1 hour
 !
@@ -2665,6 +2665,10 @@ tubeoffline.com##div.divContent2.borderCurve.otherSites:nth-child(*)
 
 # TV Time
 @@||msapi*.tvtime.com^$domain=tvtime.com
+
+# Twitch.tv
+||edge.ads.twitch.tv^
+twitch.tv##+js(twitch-videoad)
 
 # Twitch extension's
 @@||*.chatterino.com^
