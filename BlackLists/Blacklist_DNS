@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 921 (+15 local hosts)
+! Entries: 2 922 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.10.04
+! Updated: 2024.10.06
 !
 ! MIT License
 !
@@ -851,6 +851,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 szok-cenowy.pl
 0.0.0.0 TheAnnoyingSite.com
 0.0.0.0 YouAreAnIdiot.cc
+# 2023.05.02 ⤵
+0.0.0.0 Only-fans.uk
 ## Fvck off - Jump Scares (docked sites for famous people)
 0.0.0.0 lukisteve.pl
 0.0.0.0 pajalockk.pl
