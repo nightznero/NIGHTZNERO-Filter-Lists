@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3058
+! Entries: 3059
 !
 ! Expires: 1 hour
 !
@@ -1293,6 +1293,7 @@ genius.com##.optanon-alert-box-bg
 @@||maps.googleapis.com/maps/api^
 @@||play.google.com/log?format=json&hasfast=true&authuser=0$domain=google.com|*.google.com|youtube.com|blogger.com|android.com|
 ||google-analytics.com^$third-party
+||googleoptimize.com^$third-party
 ||googletagmanager.com^$third-party
 
 # GOunlimited.to (Video hosting service)
