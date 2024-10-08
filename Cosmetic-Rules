@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3051
+! Entries: 3058
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.10.07
+! Updated: 2024.10.08
 !
 ! MIT License
 !
@@ -811,6 +811,18 @@ aerowitter.com##hr
 # Allegro.pl
 allegro.pl##div.main-wrapper:nth-child(4) > div:last-child > div.mgn2_14.mp0t_0a.mqu1_21.mgmw_wo.mli8_k4._sjlwg:first-child
 allegro.pl##div.main-wrapper:nth-child(3) > div:last-child
+
+# Allegro Lokalnie
+allegrolokalnie.pl##.mlc-home-page__hero-carousel
+! Poznaj Allegro Lokalnie ⤵
+allegrolokalnie.pl##.mlc-home-page__benefits
+! Smart! ⤵
+allegrolokalnie.pl##div.mlc-home-page-carousels > .mlc-home-page-offers-carousel
+allegrolokalnie.pl##.mlc-top-header
+! Apka Allegro Lokalnie ⤵
+allegrolokalnie.pl##.mlc-home-page__service-info
+allegrolokalnie.pl##.ml-container--large.ml-container.footer-banner
+allegrolokalnie.pl##div.mlc-site-footer__nav-section:nth-of-type(3)
 
 # Amazon
 ||amazon.*/action-impressions/
