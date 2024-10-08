@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3059
+! Entries: 3060
 !
 ! Expires: 1 hour
 !
@@ -2415,6 +2415,9 @@ redtube.com,redtube.net##.j53ml3w.j53ml3c
 redtube.com,redtube.net##.tbsamrv7qv3f
 redtube.com,redtube.net##.kze9tw.kze9tc
 redtube.com,redtube.net##.uf9iw7uaw.uf9iw7uac
+
+# Roblox
+||ephemeralcounters.api.roblox.com^
 
 # Rule34
 rule34.xxx###post-view > div.sidebar:first-child > a:nth-child(2)
