@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3060
+! Entries: 3061
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.10.08
+! Updated: 2024.10.09
 !
 ! MIT License
 !
@@ -1674,6 +1674,10 @@ open.fm##.kr1hon2
 /outbrain?
 /outbrainAd.
 ||outbrainimg.com^$third-party
+
+# Oxy.cloud (file hosting service e.x of TikTok ModCloud)
+! Blocked by OISD BIG ⤵
+@@||download.oxy.cloud/d^$domain=download.oxy.cloud
 
 # ParaStorage.com (assets for sites)
 @@||static.parastorage.com/unpkg^
