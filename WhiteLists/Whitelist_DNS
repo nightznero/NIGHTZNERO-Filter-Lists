@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 697
+! Entries: 698
 !
 ! Expires: 1 days
 !
-! Updated: 2024.09.21
+! Updated: 2024.10.09
 !
 ! MIT License
 !
@@ -686,6 +686,10 @@
 
 # Origin
 @@||cdn.optimizely.com^
+
+# Oxy.cloud (file hosting service e.x of TikTok ModCloud)
+! Blockd by HaGeZi - Multi Pro ⤵
+@@||download.oxy.cloud^
 
 # PayPal
 @@||www.paypal.com^
