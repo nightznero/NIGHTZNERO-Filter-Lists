@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3061
+! Entries: 3062
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.10.09
+! Updated: 2024.10.11
 !
 ! MIT License
 !
@@ -2762,6 +2762,9 @@ uploadrar.com,getpczone.com,rahim-soft.com,fingau.com##.banner4
 # Vinted
 vinted.*##.c-cell.c-cell--wide.c-cell--primary.c-cell--default
 
+# Vivaldi Browser ⤵
+||vivaldi.*/rep/rep.js
+
 # VK
 ||vk.com/js/api/share.js$third-party
 vk.com##.ads_ads_box*.ver.repeat_ver.size_site
@@ -2787,13 +2790,13 @@ poczta.wp.pl##.css-186j4av
 poczta.wp.pl##.css-1pckoix
 ! Top bar - Settings - Pakiety dodatkowe or Mobile - Right Menu - Opcje - Pakiety dodatkowe / Bottom bar - Opcje - Pakiety dodatkowe ⤵️
 poczta.wp.pl##div:last-of-type:not(:first-of-type):has(+button[href="/draft/new"]):has(>div>[href="https://poczta.wp.pl/profil/pro-account"]), [href="/w/options/proaccount"], [href="https://poczta.wp.pl/profil/pro-account"], [href="/profil/pro-account"]
-! Top bar - Pakiety ⤵️
+! Top bar - Pakiety ⤵
 poczta.wp.pl##.css-6fvaqn > .css-0
-! Mobile - Right Menu - Profil - Pakiety dodatkowe ⤵️
+! Mobile - Right Menu - Profil - Pakiety dodatkowe ⤵
 poczta.wp.pl##a.css-13nd243:nth-of-type(4)
-! Mobile - Bottom bar - Pakiety ⤵️
+! Mobile - Bottom bar - Pakiety ⤵
 poczta.wp.pl##.css-186j4av
-! Mobile - Left Menu - App ⤵️
+! Mobile - Left Menu - App ⤵
 poczta.wp.pl##.css-1ve658j.chakra-button
 
 # xHamster.com (XXX)
@@ -2845,13 +2848,13 @@ youtube.com##+js(nano-stb, resolve(1), *, 0.001)
 
 # Zalando
 @@||accounts.zalando.com/api^$domain=accounts.zalando.com
-! Newsletter ⤵️
+! Newsletter ⤵
 zalando.pl###main-content > .CKDt_l
-! app ⤵️
+! app ⤵
 zalando.pl##body > div > div > .EKabf7
 
 # Zalando Lounge
-! app ⤵️
+! app ⤵
 zalando-lounge.pl##.headerWrapperstyles__HeaderBannerRow-sc-11kql3e-3:nth-of-type(1)
 
 # Zbiornik.com
