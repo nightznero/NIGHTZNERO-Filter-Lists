@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3065
+! Entries: 3066
 !
 ! Expires: 1 hour
 !
@@ -1268,6 +1268,7 @@ genius.com##.optanon-alert-box-wrapper
 genius.com##.optanon-alert-box-bg
 
 # Ghostery Search Engine [Ghostery Inc]
+||d.ghostery.com^$domain=ghostery.com|ghosterysearch.com|whotracks.me|
 ghosterysearch.com##li.sponsored.result
 
 # GitHub
