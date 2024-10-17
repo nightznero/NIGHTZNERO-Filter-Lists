@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3064
+! Entries: 3065
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.10.16
+! Updated: 2024.10.17
 !
 ! MIT License
 !
@@ -2842,15 +2842,17 @@ youporn.com##.lf6z1k2g5R7a
 ||youtube.com/generate_204?
 ||youtube.com/ptracking?
 ||youtube.com/set_awesome?
+youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.bkaEnforcementMessageViewModel, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.playerAds)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, 2.playerResponse.adPlacements)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, null)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.playerAds)
-youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.bkaEnforcementMessageViewModel, undefined)
-youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots legacyImportant)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, null)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, null)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(nano-stb, resolve(1), *, 0.001)
 
 # Zalando
 @@||accounts.zalando.com/api^$domain=accounts.zalando.com
