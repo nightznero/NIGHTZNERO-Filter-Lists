@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3066
+! Entries: 3068
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.10.17
+! Updated: 2024.10.18
 !
 ! MIT License
 !
@@ -1059,6 +1059,10 @@ datezone.com##.kMFAVe.CommaList-sc-ex8x2n-0 > li:nth-of-type(2)
 
 # DeepNude.CA (Clothes Remover)
 @@||newfuku.s3.us-west-1.amazonaws.com/*.jpg$domain=newfuku.com
+
+# Discord
+@@||cdn.discordapp.com^$domain=discord.com
+||discord.com/api/v*/science
 
 # Dooood (Video hosting service)
 @@||dooood.com/e^
