@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG Stealth - "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|"
 !
-! Entries: 3068
+! Entries: 3071
 !
 ! Expires: 1 hour
 !
@@ -1303,9 +1303,12 @@ ghosterysearch.com##li.sponsored.result
 ! Blocked by AdGuard Widgets Filter
 @@||maps.googleapis.com/maps/api^
 @@||play.google.com/log?format=json&hasfast=true&authuser=0$domain=google.com|*.google.com|youtube.com|blogger.com|android.com|
+||googleadapis.l.google.com^
 ||google-analytics.com^$third-party
+||googleadservices.com^$third-party
 ||googleoptimize.com^$third-party
 ||googletagmanager.com^$third-party
+||pagead.l.doubleclick.net^$all,important
 
 # GOunlimited.to (Video hosting service)
 @@||gounlimited.to/e^$stealth=webrtc|ip|
