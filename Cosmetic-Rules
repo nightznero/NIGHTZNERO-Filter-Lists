@@ -2383,7 +2383,7 @@ reddit.com##A._24UNt1hkbrZxLzs5vkvuDh[href^='https://ads.reddit.com'][target='_b
 reddit.com##DIV._1b1Jalg2nxA_Z-BjKXRfAV
 
 # RedGifs
-! (For now disabled) @@||redgifs.com^$domain=redgifs.com
+@@||redgifs.com^$domain=redgifs.com|simpcity.su|
 @@||api.redgifs.com^$domain=redgifs.com
 @@||thumbs*.redgifs.com^$domain=redgifs.com
 @@||userpic.redgifs.com^$domain=redgifs.com
