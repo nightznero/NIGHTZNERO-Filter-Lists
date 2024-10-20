@@ -1698,8 +1698,8 @@ open.fm##.kr1hon2
 ||outbrainimg.com^$third-party
 
 # Oxy.cloud (file hosting service e.x of TikTok ModCloud)
-! Blocked by OISD BIG ⤵
-@@||download.oxy.cloud/d^$domain=download.oxy.cloud
+! Blocked by OISD Big ⤵
+@@||download.oxy.cloud/d^$domain=oxy.cloud
 
 # ParaStorage.com (assets for sites)
 @@||static.parastorage.com/unpkg^
