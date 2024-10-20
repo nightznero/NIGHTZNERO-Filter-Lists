@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3074
+! Entries: 3076
 !
 ! Expires: 1 hour
 !
@@ -1336,6 +1336,8 @@ gsmarena.com##DIV.d-flex.flex-column.justify-center.align-center.mb-20.pt-10[sty
 gsmarena.com##DIV.grid_12.top-adv[style='display: flex; justify-content: center; width: 100%;']
 
 # hCaptcha
+@@||hcaptcha.com/captcha/$script,subdocument
+@@||*.hcaptcha.com^$domain=newassets.hcaptcha.com
 @@||api*.hcaptcha.com^$stealth
 
 # hdporn92.com (XXX Site)
