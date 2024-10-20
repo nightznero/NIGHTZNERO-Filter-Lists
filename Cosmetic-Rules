@@ -15,7 +15,7 @@
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.10.20
+! Updated: 2024.10.21
 !
 ! MIT License
 !
@@ -1707,7 +1707,7 @@ open.fm##.kr1hon2
 
 # Oxy.cloud (file hosting service e.x of TikTok ModCloud)
 ! Blocked by OISD Big ⤵
-@@||download.oxy.cloud/d^$domain=oxy.cloud
+@@||download.oxy.cloud/d^$domain=oxy.cloud|download.oxy.cloud
 
 # ParaStorage.com (assets for sites)
 @@||static.parastorage.com/unpkg^
