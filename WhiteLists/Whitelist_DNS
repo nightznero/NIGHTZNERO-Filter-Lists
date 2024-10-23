@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 696
+! Entries: 697
 !
 ! Expires: 1 days
 !
-! Updated: 2024.10.20
+! Updated: 2024.10.24
 !
 ! MIT License
 !
@@ -265,6 +265,10 @@
 # CARROT Weather
 ! Blocked by 1Hosts - Pro ⤵
 @@||maps.aerisapi.com^
+
+# Cash App
+! Blocked (CNAME) by 1Hosts - Lite ⤵
+@@||click.cash.app^
 
 # CloudFlare
 @@||challenges.cloudflare.com^
