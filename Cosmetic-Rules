@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3092
+! Entries: 3093
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.10.23
+! Updated: 2024.10.24
 !
 ! MIT License
 !
@@ -1105,8 +1105,9 @@ discord.com##div.themed_a0.item_a0:nth-of-type(32)
 @@||doods.pro/pass_md5^$domain=dooood.com|d0000d.com|dood.re|doods.pro|
 
 # DropBox (File hosting service)
+! Blocked by 1Hosts - Pro ⤵
 @@||bolt.dropbox.com^$domain=dropbox.com
-! Blocked by 1Hosts - Pro
+dropbox.com##._toolkit-link_1gpi8_1._4rjmw90_3-4-0
 
 # DziennikLodzki.pl
 dzienniklodzki.pl##.g05b829be564e4e510d498980d301bac4df931fd7*
