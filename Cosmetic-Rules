@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3093
+! Entries: 3094
 !
 ! Expires: 1 hour
 !
@@ -1017,9 +1017,10 @@ cochisefood.pl#@#.modal-container
 cochisefood.pl##.cookie-config
 
 # Counter Strike Scams (CS Skin Cases)
-||keydrop.com^$important
-||hellcases^$important
-||g4skins^$important
+||keydrop.*^$important
+||key-drop.*^$important
+||hellcases.com^$important
+||g4skins.com^$important
 ||csgo-skins.com^$important
 ||farmskins.com^$important
 ||ggdrop.com^$important
