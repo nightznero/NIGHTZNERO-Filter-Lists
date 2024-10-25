@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3094
+! Entries: 3096
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.10.24
+! Updated: 2024.10.25
 !
 ! MIT License
 !
@@ -1033,6 +1033,8 @@ cochisefood.pl##.cookie-config
 @@||img.coomer.su/icons^$domain=coomer.su
 @@||img.coomer.su/banners^$domain=coomer.su
 coomer.su##A[href='//a.adtng.com/get/10014806'][style='color: #000000; padding: 0;']
+! Matrix group big top notification ⤵
+coomer.su##[href="https://coomer.su/matrix"]
 
 # Crypto (Fake Crypto sites)
 ## BAT (Basic Attention Token)
@@ -1454,6 +1456,8 @@ katfile.com##div.premium-class.col-xs-6
 @@||c*.kemono.party/data^
 @@||c*.kemono.su/data^
 kemono.su##A[href='//a.adtng.com/get/10014806'][style='color: #000000; padding: 0;']
+! Matrix group big top notification ⤵
+kemono.su##[href="https://kemono.su/matrix"]
 
 # KFC [Amrest]
 @@||api.amrest.eu/amdv/ordering-api/KFC_PL/rest^$stealth
