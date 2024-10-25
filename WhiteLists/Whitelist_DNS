@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 697
+! Entries: 696
 !
 ! Expires: 1 days
 !
-! Updated: 2024.10.24
+! Updated: 2024.10.25
 !
 ! MIT License
 !
@@ -121,8 +121,6 @@
 @@||device-metrics-us-2.amazon.com^
 @@||device-metrics-us.amazon.com^
 @@||sqs.us-east-1.amazonaws.com^
-! Blocked by AntiPopAds:RE (Energized.Pro) ⤵
-@@||amazon.com^
 ! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵
 @@||images-eu.ssl-images-amazon.com^
 @@||images-na.ssl-images-amazon.com^
