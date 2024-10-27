@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 923 (+15 local hosts)
+! Entries: 2 924 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.10.11
+! Updated: 2024.10.27
 !
 ! MIT License
 !
@@ -845,6 +845,9 @@ ff02::3 ip6-allhosts
 
 ! Fvck off - Pracuj.pl
 0.0.0.0 tracker.pracuj.pl
+
+# TechManiaK Groups (techManiaK.pl|gsmManiaK.pl|mobiManiaK.pl|fotoManiaK.pl|agdManiaK.pl|rtvManiaK.pl|TabletManiaK.pl|AcerManiaK.pl|gizManiaK.pl|luxManiaK.pl|blogoManiaK.pl|activeManiaK.pl)
+0.0.0.0 o.techmaniak.pl
 
 # Fvck off - Jump Scares
 0.0.0.0 pnrtscr.com
