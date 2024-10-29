@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3096
+! Entries: 3098
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.10.25
+! Updated: 2024.10.29
 !
 ! MIT License
 !
@@ -991,6 +991,8 @@ camwhoreshd.com##.fh-line
 
 # cda-hd.cc [cda-hd.co]
 ! Blocked by HaGeZi - Multi PRO++ ⤵
+||cda-hd.co^$badfilter
+||cda-hd.cc^$badfilter
 @@||player.cda-hd.co/player/*.php?^$domain=cda-hd.co|cda-hd.cc
 
 # cdti.pl
