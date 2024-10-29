@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 696
+! Entries: 698
 !
 ! Expires: 1 days
 !
-! Updated: 2024.10.25
+! Updated: 2024.10.29
 !
 ! MIT License
 !
@@ -148,7 +148,7 @@
 @@||rog.asus.com^
 
 # Aurora Store
-@@||goolag.store
+@@||goolag.store^
 
 # AutoDesk.com / AutoDesk.org
 ! Blocked by DuckDuckGo Tracker Radar ⤵
@@ -266,7 +266,12 @@
 
 # Cash App
 ! Blocked (CNAME) by 1Hosts - Lite ⤵
-@@||click.cash.app^
+@@||click.cash.app
+
+# cda-hd.cc [cda-hd.co]
+! Blocked by HaGeZi - Multi Pro ⤵
+@@||cda-hd.co^
+@@||cda-hd.cc^
 
 # CloudFlare
 @@||challenges.cloudflare.com^
