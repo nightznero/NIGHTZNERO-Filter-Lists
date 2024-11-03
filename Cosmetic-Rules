@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3098
+! Entries: 3102
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.11.01
+! Updated: 2024.11.04
 !
 ! MIT License
 !
@@ -824,6 +824,13 @@ allegrolokalnie.pl##.mlc-top-header
 allegrolokalnie.pl##.mlc-home-page__service-info
 allegrolokalnie.pl##.ml-container--large.ml-container.footer-banner
 allegrolokalnie.pl##div.mlc-site-footer__nav-section:nth-of-type(3)
+
+# Aloha Browser
+alohaprofile.com##.gap-4.items-center.justify-between.max-\[496px\]\:items-end.max-\[496px\]\:flex-col.flex-row.flex.bg-accent.rounded-lg.px-4.py-3.w-full.mt-6
+! "Get Premium" ⤵
+alohabrowser.com##.premium
+alohabrowser.com##.pink
+alohabrowser.com##.footer_get_premium
 
 # Amazon
 ||amazon.*/action-impressions/
