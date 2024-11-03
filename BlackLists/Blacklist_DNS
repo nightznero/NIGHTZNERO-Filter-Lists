@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 927 (+15 local hosts)
+! Entries: 2 930 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -143,6 +143,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 hotjar-analytics.com
 0.0.0.0 hotjar.com
 0.0.0.0 static.hotjar.com
+! -MixPanel- !
+0.0.0.0 api.mixpanel.com
+0.0.0.0 decide.mixpanel.com
+0.0.0.0 switchboard.mixpanel.com
 ! -MouseFlow- !
 0.0.0.0 mouseflow.com
 0.0.0.0 api.mouseflow.com
