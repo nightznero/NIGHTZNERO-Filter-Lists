@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 924 (+15 local hosts)
+! Entries: 2 927 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.10.27
+! Updated: 2024.11.03
 !
 ! MIT License
 !
@@ -223,6 +223,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 oc.umengcloud.co
 0.0.0.0 aaid.umengcloud.co
 
+# Fvck off - CloudFlare
+0.0.0.0 cloudflareinsights.com
+0.0.0.0 static.cloudflareinsights.com
+
 ! Fvck off - Google
 0.0.0.0 ade.googlesyndication.com
 0.0.0.0 ads.google.com
@@ -278,6 +282,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ssl.google-analytics.com
 0.0.0.0 ssl-google-analytics.l.google.com
 0.0.0.0 static-doubleclick-net.l.google.com
+0.0.0.0 syndicatedsearch.goog
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 video-ad-stats.googlesyndication.com
 0.0.0.0 www.doubleclickbygoogle.com
