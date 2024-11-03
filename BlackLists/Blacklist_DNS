@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 930 (+15 local hosts)
+! Entries: 2 931 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -121,7 +121,6 @@ ff02::3 ip6-allhosts
 
 ! Fvck off - Analytics
 0.0.0.0 api.statsig.com
-0.0.0.0 api2.amplitude.com
 0.0.0.0 e3log1.fineboost.com
 0.0.0.0 e3log2.fineboost.com
 0.0.0.0 e3log3.fineboost.com
@@ -131,6 +130,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 gameanalytics.com
 0.0.0.0 split.io
 0.0.0.0 analytics.saint.to
+! -Amplitude- !
+0.0.0.0 api.amplitude.com
+0.0.0.0 api2.amplitude.com
 ! -Hotjar- !
 0.0.0.0 adm.hotjar.com
 0.0.0.0 identify.hotjar.com
