@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3115
+! Entries: 3117
 !
 ! Expires: 1 hour
 !
@@ -2857,7 +2857,9 @@ vk.com##.ads_ads_box*.ver.repeat_ver.size_site
 wallpaperplay.com##.cc-window.cc-banner.cc-type-info.cc-theme-edgeless.cc-bottom.cc-color-override-*
 
 # WeTransfer.com / we.tl
-@@||wetransfer.com/api/v4/transfers^$stealth
+@@||wetransfer.com/api/v*/transfers^$stealth
+wetransfer.com##.button--enabled.welcome__button--accept.welcome__button.button
+wetransfer.com##.button--enabled.welcome__button--preferences.welcome__button.button
 
 # Wolvesville (Werewolf online game)
 @@||*.api-wolvesville.com^$domain=wolvesville.com
