@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3104
+! Entries: 3110
 !
 ! Expires: 1 hour
 !
@@ -2302,6 +2302,19 @@ platinmods.com##.shareButtons--iconic.shareButtons
 platinmods.com##.uix_sidebar--scroller > div.block > .block-container > .block-minorHeader
 platinmods.com##a.rippleButton.blockLink:nth-of-type(3)
 platinmods.com##a.rippleButton.blockLink:nth-of-type(6)
+
+# PlayStation 3 [Sony]
+! Ads ⤵
+||nsx-e.np.dl.playstation.net^
+||adproxy.ndmdhs.com^
+! "What's New" ⤵
+||mercury.dl.playstation.net^
+! PlayStation Store Preview ⤵
+||nsx.np.dl.playstation.net^
+
+# PlayStation 5 [Sony]
+||telemetry-console.api.playstation.com^
+||telemetry-cii.api.playstation.com^
 
 # Porky's Łódź
 porkyslodz.pl###cc-main
