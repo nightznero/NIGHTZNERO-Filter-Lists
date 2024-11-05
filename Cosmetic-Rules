@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3117
+! Entries: 3121
 !
 ! Expires: 1 hour
 !
@@ -773,6 +773,13 @@ tracking.bp01.net
 ||d2o03z2xnyxlz5.cloudfront.net^
 ||papayads.net^$third-party
 ||revcontent.com^$third-party
+
+# (Fvcking) Trackers
+# Adjust ⤵
+||*.adjust.com^$important
+||*.adjust.io^$important
+||*.adjust.net.in^$important
+||*.adjust.world^$important
 
 # (Fvcking) Shock Sites
 ||pnrtscr.com^$important
