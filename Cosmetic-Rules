@@ -15,7 +15,7 @@
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.11.04
+! Updated: 2024.11.05
 !
 ! MIT License
 !
@@ -2539,7 +2539,7 @@ simpcity.su#@#.bbWrapper
 simpcity.su#@#DIV.generic2wide-iframe-div
 simpcity.su#@#.generic2wide-iframe-div
 simpcity.su#@#IFRAME.saint-iframe[src][height='auto'][width='auto'][style='border:none;'][loading='lazy'][allow='fullscreen;'][allowfullscreen='true']
-simpcity.su##.p-body-inner > div:nth-of-type(2) > [href^="https://catflix.su/"]
+simpcity.su##[href^="https://catflix.su/"]
 simpcity.su##.p-body-content > div:nth-of-type(2)
 ! Info and Links - Ads ⤵️
 simpcity.su##.node--link.node--depth2.node--id95.node
