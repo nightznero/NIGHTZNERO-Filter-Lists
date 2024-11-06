@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 698
+! Entries: 699
 !
 ! Expires: 1 days
 !
-! Updated: 2024.10.29
+! Updated: 2024.11.06
 !
 ! MIT License
 !
@@ -1146,11 +1146,13 @@
 @@||digitalassetlinks.googleapis.com^
 
 # YouTube [Google] ! Blocked by various lists ⤵
-@@||s.youtube.com/api/stats^
 @@||youtubei.googleapis.com^
 ! (For now disabled) @@||video-stats.l.google.com^
 ! (For now disabled) @@||play.googleapis.com^
 @@||redirector.googlevideo.com^
+! Blocked by StevenBlack ⤵
+@@||s.youtube.com^
+@@||s.youtube.com/api/stats^
 ! Blocked by GoodByeAds ⤵
 !! Different image host for YouTube
 @@yt4.ggpht.com^
