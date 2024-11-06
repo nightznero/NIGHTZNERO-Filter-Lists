@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3121
+! Entries: 3134
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.11.05
+! Updated: 2024.11.06
 !
 ! MIT License
 !
@@ -794,6 +794,22 @@ tracking.bp01.net
 ||pajalockk.pl^$important
 ||tubson.pl^$important
 
+# (Fvcking) CNAME Clocking
+! CNAME CDN blocked 
+||d16tf39cmx7ftb.cloudfront.net^$badfilter
+||d18z4g4dosh1xa.cloudfront.net^$badfilter
+||d1a3f4spazzrp4.cloudfront.net^$badfilter
+||d1z9autcf703pk.cloudfront.net^$badfilter
+||d2i2wahzwrm1n5.cloudfront.net^$badfilter
+||d2mubj7afuiaat.cloudfront.net^$badfilter
+||d351vb1awz0j1y.cloudfront.net^$badfilter
+||d3jruqy3qmm3fd.cloudfront.net^$badfilter
+||d3k6pebee3cv6.cloudfront.net^$badfilter
+||d3odp2r1osuwn0.cloudfront.net^$badfilter
+||d3qtst53kh2p5e.cloudfront.net^$badfilter
+||d3r3h30p75xj6a.cloudfront.net^$badfilter
+||d9hhrg4mnvzow.cloudfront.net^$badfilter
+
 # 1SITERIP
 1siterip.com##div.all-wr:nth-child(2) > div.middle.clearfix:nth-child(2) > aside.middle-right:last-child
 
@@ -990,7 +1006,7 @@ camwhores.tv##P[style='padding: 1em;text-align: center;background-color:rgb(84, 
 ! CamWhores.TV Friends... Bivch who tf care of ur friends ⤵️
 camwhores.tv##.network
 
-CamWhoresHD.com (XXX)
+# CamWhoresHD.com (XXX)
 @@||camwhoreshd.com^$stealth
 camwhoreshd.com#@#.embed-wrap
 camwhoreshd.com##DIV.box.bottom-adv
