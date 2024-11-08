@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 699
+! Entries: 701
 !
 ! Expires: 1 days
 !
-! Updated: 2024.11.06
+! Updated: 2024.11.09
 !
 ! MIT License
 !
@@ -1051,9 +1051,11 @@
 @@||update.utorrent.com^
 
 # VK (VKontate)
-@@||vk.com^
+@@||api.vk.com^
+@@||login.vk.com^
 @@||pp.userapi.com^
 @@||userapi.com^
+||ads.vk.com^$important
 
 # Weather.com (The Weather Channel)
 ! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵
