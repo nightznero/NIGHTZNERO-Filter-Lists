@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 936 (+15 local hosts)
+! Entries: 2 937 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.11.09
+! Updated: 2024.11.11
 !
 ! MIT License
 !
@@ -847,6 +847,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 client-telemetry.roblox.com
 0.0.0.0 metrics.roblox.com
 0.0.0.0 aws-eu-west-2b-lms.rbx.com
+
+# Fvck off - Erabit Studios (Brotato etc)
+0.0.0.0 nano-game-ad-slot-oss.erabitstudios.cn
 
 ! Fvck off - Gameloft
 0.0.0.0 ingameads.gameloft.com
