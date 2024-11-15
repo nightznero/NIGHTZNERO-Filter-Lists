@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 940 (+15 local hosts)
+! Entries: 2 941 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.11.14
+! Updated: 2024.11.16
 !
 ! MIT License
 !
@@ -1050,7 +1050,6 @@ ff02::3 ip6-allhosts
 
 ! Fvck off - UnityAd
 0.0.0.0 ws.tapjoyads.com
-0.0.0.0 configv2.unityads.unity3d.com
 0.0.0.0 init.supersonicads.com
 0.0.0.0 teleport.soom.la
 0.0.0.0 networksdk.ssacdn.com
@@ -1058,18 +1057,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 int.akisinn.site
 0.0.0.0 connect.tapjoy.com
 0.0.0.0 pm-gateway.supersonicads.com
-0.0.0.0 publisher-config.unityads.unity3d.com
-0.0.0.0 events.mz.unity3d.com
-0.0.0.0 auction-load.unityads.unity3d.com
-0.0.0.0 nginx-auction7-prd.unityads.unity3d.com
-0.0.0.0 auiopt.unityads.unity3d.com
 0.0.0.0 cdn2.inner-active.mobi
 0.0.0.0 cdn-creatives-akamaistls-prd.acquire.unity3dusercontent.com
 0.0.0.0 cloud.unity3d.com
-0.0.0.0 auction.unityads.unity3d.com
-0.0.0.0 webview.unityads.unity3d.com
-0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 unityads.unity3d.com
 0.0.0.0 adserver.unityads.unity3d.com
+0.0.0.0 auction.unityads.unity3d.com
+0.0.0.0 auction-load.unityads.unity3d.com
+0.0.0.0 auiopt.unityads.unity3d.com
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 configv2.unityads.unity3d.com
+0.0.0.0 events.mz.unity3d.com
+0.0.0.0 nginx-auction7-prd.unityads.unity3d.com
+0.0.0.0 publisher-config.unityads.unity3d.com
+0.0.0.0 webview.unityads.unity3d.com
 
 ! Fvck off - Wondershare
 0.0.0.0 98w.com
