@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 702
+! Entries: 701
 !
 ! Expires: 1 days
 !
@@ -142,10 +142,6 @@
 # Apple Music
 @@||itunes.apple.com^
 @@||s.mzstatic.com^
-
-# Arc Browser [The Browser Company of New York, Inc]
-! Blocked by 1Hosts - Lite (Breaks "Browse for me") ⤵
-@@||api.segment.io^
 
 # Asus ROG (Republic of Gamers)
 ! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵
