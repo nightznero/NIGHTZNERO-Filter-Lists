@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3210
+! Entries: 3211
 !
 ! Expires: 1 hour
 !
@@ -1106,6 +1106,8 @@ danidaniels.com##.strip-notification-wrapper.verification-sent
 danidaniels.com###gdpr-cookie-accept
 
 # Datezone.com
+! Blocked by KAD - Anti-Scam ⤵
+||datezone.com^$badfilter
 ! Blocked by Fuck FuckAdBlock (Blindfolded) ⤵️
 @@||imgcdn.datezone.com/users/*/*/*.jpg?v=2$domain=datezone.com,important
 ! Webcam (Your) ⤵️
