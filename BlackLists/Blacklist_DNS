@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 943 (+15 local hosts)
+! Entries: 2 946 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -41,6 +41,9 @@ ff02::3 ip6-allhosts
 # Fvck off - Ads popups
 0.0.0.0 0x01n2ptpuz3.com
 0.0.0.0 adltserv.com
+0.0.0.0 adnxs.com
+0.0.0.0 adnxs-simple.com
+0.0.0.0 adnxs.net
 0.0.0.0 ads.bullionyield.com
 0.0.0.0 adsrvr.io
 0.0.0.0 adsessionserv.com
@@ -69,6 +72,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 realsrv.com
 0.0.0.0 rmshqa.com
 0.0.0.0 thanksgivingdelights.com
+0.0.0.0 toponadss.com
 0.0.0.0 tsyndicate.com
 
 # Fvck off - Ads
@@ -76,7 +80,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 a-ads.com
 0.0.0.0 mercury.akamaized.net
 0.0.0.0 hesads.akamaized.net
-0.0.0.0 toponadss.com
 
 ! -Doubleclick.net- !
 0.0.0.0 mediavisor.doubleclick.net
