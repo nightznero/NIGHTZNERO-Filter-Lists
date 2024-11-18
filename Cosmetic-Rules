@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3206
+! Entries: 3209
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.11.14
+! Updated: 2024.11.18
 !
 ! MIT License
 !
@@ -729,7 +729,9 @@ tracking.bp01.net
 ||*srv.com^$important,popup
 ||0x01n2ptpuz3.com^$important
 ||adltserv.com^$important
-||ads.com^$all
+||*ads.com^$all
+||adnxs*.com^$important
+||adnxs*.net^$important
 ||ads.bullionyield.com^$important
 ||adsrvr.io^$important
 ||adsessionserv.com^$important
@@ -765,6 +767,7 @@ tracking.bp01.net
 ||*.rmshqa.com^$important,popup
 ||syndication.*.com^$important,popup
 ||thanksgivingdelights.com^$important
+||toponadss.com^$important
 ||tsyndicate.com^$important
 ||*.tsyndicate.com^$important,popup
 
