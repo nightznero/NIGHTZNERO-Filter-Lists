@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 942 (+15 local hosts)
+! Entries: 2 943 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -716,6 +716,9 @@ ff02::3 ip6-allhosts
 
 # Fvck off - Claude [Anthropic PBC] (Artificial intelligence (AI) startup)
 0.0.0.0 statsig.anthropic.com
+
+# Fvck off - Question.AI Math Solver
+0.0.0.0 autotrack.studyquicks.com
 
 # Fvck off - RedTube (RT Premium is no longer available)
 0.0.0.0 redtubepremium.com
