@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 941 (+15 local hosts)
+! Entries: 2 942 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.11.16
+! Updated: 2024.11.18
 !
 ! MIT License
 !
@@ -76,6 +76,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a-ads.com
 0.0.0.0 mercury.akamaized.net
 0.0.0.0 hesads.akamaized.net
+0.0.0.0 toponadss.com
 
 ! -Doubleclick.net- !
 0.0.0.0 mediavisor.doubleclick.net
