@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 946 (+15 local hosts)
+! Entries: 2 948 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -61,6 +61,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 exoclick.com
 0.0.0.0 fanodaz.com
 0.0.0.0 gerhi-psv.com
+0.0.0.0 junkyadexchange.com
 0.0.0.0 kekw.world
 0.0.0.0 magsrv.com
 0.0.0.0 mcdlks.com
@@ -74,6 +75,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 thanksgivingdelights.com
 0.0.0.0 toponadss.com
 0.0.0.0 tsyndicate.com
+0.0.0.0 youradexchange.com
 
 # Fvck off - Ads
 0.0.0.0 ads.com
