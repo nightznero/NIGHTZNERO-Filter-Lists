@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 701
+! Entries: 703
 !
 ! Expires: 1 days
 !
-! Updated: 2024.11.16
+! Updated: 2024.11.19
 !
 ! MIT License
 !
@@ -301,6 +301,11 @@
 # D-Link routers
 @@||play.googleapis.com.dlinkrouter^
 @@||youtubei.googleapis.com.dlinkrouter^
+
+# Datezone.com
+! Blocked by KAD - Anti-Scam ⤵
+@@||datezone.com^
+@@||www.datezone.com^
 
 # Deezer
 @@||tv.deezer.com^
