@@ -1107,7 +1107,7 @@ danidaniels.com###gdpr-cookie-accept
 
 # Datezone.com
 ! Blocked by KAD - Anti-Scam ⤵
-||datezone.com^$badfilter
+||datezone.com^$all,badfilter
 ! Blocked by Fuck FuckAdBlock (Blindfolded) ⤵️
 @@||imgcdn.datezone.com/users/*/*/*.jpg?v=2$domain=datezone.com,important
 ! Webcam (Your) ⤵️
