@@ -15,7 +15,7 @@
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.11.18
+! Updated: 2024.11.19
 !
 ! MIT License
 !
@@ -730,7 +730,7 @@ tracking.bp01.net
 ||*srv.com^$important,popup
 ||0x01n2ptpuz3.com^$important
 ||adltserv.com^$important
-||*ads.com^$all
+||*ads.com^$all,domain=~dailyuploads.net|devuploads.com|
 ||adnxs*.com^$important
 ||adnxs*.net^$important
 ||ads.bullionyield.com^$important
