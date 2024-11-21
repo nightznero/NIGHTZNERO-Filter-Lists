@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3212
+! Entries: 3213
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.11.19
+! Updated: 2024.11.21
 !
 ! MIT License
 !
@@ -1095,6 +1095,7 @@ cyberdrop.me###adwl-footer
 @@||cyberfile.*/cache^$domain=cyberfile.*
 @@||cyberfile.*/account^$domain=cyberfile.*
 @@||cyberfile-*.b-cdn.net^$domain=cyberfile.*
+@@||p*.cyberfile.*/*/*?download_token=*$domain=cyberfile.*
 @@||cdn.plyr.io^$domain=cyberfile.*
 
 # DaGrasso
