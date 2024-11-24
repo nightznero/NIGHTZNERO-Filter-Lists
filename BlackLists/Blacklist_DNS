@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 920 (+15 local hosts)
+! Entries: 2 921 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -901,6 +901,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 1l2policja.online
 0.0.0.0 uberhorny.com
 0.0.0.0 tajnder.pl
+0.0.0.0 randkipremium.pl
 
 # Fvck off - Rentry.co
 0.0.0.0 rentry.co/z10xnybar
