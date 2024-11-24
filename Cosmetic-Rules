@@ -15,7 +15,7 @@
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.11.21
+! Updated: 2024.11.24
 !
 ! MIT License
 !
@@ -730,7 +730,7 @@ tracking.bp01.net
 ||*srv.com^$important,popup
 ||0x01n2ptpuz3.com^$important
 ||adltserv.com^$important
-||*ads.com^$all,domain=~dailyuploads.net|devuploads.com|
+||*ads.com^$all,domain=~dailyuploads.net^|devuploads.com^|
 ||adnxs*.com^$important
 ||adnxs*.net^$important
 ||ads.bullionyield.com^$important
@@ -829,7 +829,7 @@ tracking.bp01.net
 4pda.*##[target] [src*="ds-assets.cdn.devapps.ru"][alt=""][title=""][border="0"]
 4pda.*##[target] [src*="s.4pda.to"][alt=""][title=""][border="0"]
 4pda.*##[valign="top"] > > :not(#logostrip)
-4pda.to##.menu-main-mobile > li.menu-main-item:nth-of-type(6)
+4pda.*##.menu-main-mobile > li.menu-main-item:nth-of-type(6)
 
 # Aero Mods (Aero WhatsApp - Instagram - Twitter)
 aeroinsta.com#@#.image-block
