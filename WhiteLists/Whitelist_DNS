@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 703
+! Entries: 702
 !
 ! Expires: 1 days
 !
@@ -999,8 +999,6 @@
 @@||traffic.eks.megaphone.cloud^
 
 # TV Time [Tozelabs]
-! Blocked by 1Hosts - Lite ⤵ (Breaks TV points)
-@@||events.tvtime.com^
 ! Blocked by ADM Advanced Download Manager Host List ⤵
 @@||stats.tvtime.com^
 
