@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 702
+! Entries: 703
 !
 ! Expires: 1 days
 !
-! Updated: 2024.11.21
+! Updated: 2024.11.28
 !
 ! MIT License
 !
@@ -959,7 +959,6 @@
 ! Blocked by 4PDA Community Hosts Blacklist (CNAME) ⤵
 @@||status-im-files.ams3.cdn.digitaloceanspaces.com^
 
-
 # SwiftKey Keyboard [Microsoft]
 @@||swiftkey-sync-production.touchtype-fluency.com^
 @@||tokens-auth.touchtype-fluency.com^
@@ -1000,6 +999,8 @@
 @@||traffic.eks.megaphone.cloud^
 
 # TV Time [Tozelabs]
+! Blocked by 1Hosts - Lite ⤵ (Breaks TV points)
+@@||events.tvtime.com^
 ! Blocked by ADM Advanced Download Manager Host List ⤵
 @@||stats.tvtime.com^
 
