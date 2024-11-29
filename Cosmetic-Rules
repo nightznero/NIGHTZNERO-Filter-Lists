@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3215
+! Entries: 3218
 !
 ! Expires: 1 hour
 !
@@ -1523,6 +1523,8 @@ lento.pl##.margin-bottom-15.display-block.pull-right.bcgr-ff.account-wallet
 lento.pl##.promolabel
 lento.pl##.hash.tablelist-tr-promo.tablelist-tr
 lento.pl##.margin-bottom-25.flex-1-sm.user-offer-info
+! Notification about Search
+lento.pl##.box-notify-list.notifys
 ! Płatności ⤵️
 lento.pl##.hidden-xs.relative.accounttabs > li.noactive:nth-of-type(4)
 lento.pl##.sidebar-nav > li:nth-of-type(6)
@@ -1534,6 +1536,8 @@ lento.pl##.margin-bottom-0 > li:nth-of-type(1)
 ! Dodaj na Facebook ⤵️
 lento.pl##.margin-bottom-0 > li:nth-of-type(5)
 lento.pl##.margin-bottom-0 > li:nth-of-type(6)
+! Black Friday promo
+lento.pl##.blackweek
 
 # LinkedIn [Microsoft]
 @@||licdn.com^$tag=linked-in-embeds
@@ -2944,6 +2948,10 @@ uploadrar.com,getpczone.com,rahim-soft.com,fingau.com##.banner4
 @@||uphold.com/authorize^$stealth
 @@||api.uphold.com^
 ||wallet.uphold.^$all,domain=~wallet.uphold.com
+
+# Vimeo.com
+! "Upgrade" Vimeo Advanced (Pro) ⤵
+vimeo.com##.upgrade-cta
 
 # Vinted
 vinted.*##.c-cell.c-cell--wide.c-cell--primary.c-cell--default
