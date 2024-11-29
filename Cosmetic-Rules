@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3213
+! Entries: 3215
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.11.24
+! Updated: 2024.11.29
 !
 ! MIT License
 !
@@ -2988,6 +2988,10 @@ poczta.wp.pl##a.css-13nd243:nth-of-type(4)
 poczta.wp.pl##.css-186j4av
 ! Mobile - Left Menu - App ⤵
 poczta.wp.pl##.css-1ve658j.chakra-button
+
+# X-Kom.pl
+@@||auth.x-kom.pl/xkom^$domain=x-kom.pl
+@@||x-kom.pl/logowanie$domain=x-kom.pl
 
 # Xbox 360 [Microsoft]
 ! Xbox Live Dashboard ads ⤵
