@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 927 (+15 local hosts)
+! Entries: 2 929 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -657,6 +657,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 countess.twitch.tv
 0.0.0.0 analytics.m7g.twitch.tv
 
+# Fvck off - WhatsApp [Meta]
+0.0.0.0 dit.whatsapp.net
+
 # Fvck off - Facebook [Meta]
 0.0.0.0 pixel.facebook.com
 0.0.0.0 analytics.facebook.com
@@ -696,6 +699,9 @@ ff02::3 ip6-allhosts
 # Fvck off - VK (VKontakte)
 0.0.0.0 ads.vk.com
 0.0.0.0 stats.vk-portal.net
+
+# Fvck off - Oculus [Meta]
+0.0.0.0 graph.oculus.com
 
 # Fvck off - Claude [Anthropic PBC] (Artificial intelligence (AI) startup)
 0.0.0.0 statsig.anthropic.com
