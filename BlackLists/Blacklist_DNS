@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 929 (+15 local hosts)
+! Entries: 2 930 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -712,6 +712,9 @@ ff02::3 ip6-allhosts
 # Fvck off - RedTube (RT Premium is no longer available)
 0.0.0.0 redtubepremium.com
 
+# Fvck off - RedGIFs
+0.0.0.0 metrics.redgifs.com
+
 # Fvck off - Brave Browser
 0.0.0.0 variations.brave.com
 0.0.0.0 analytics.brave.com
@@ -839,7 +842,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adsassets.waze.com
 0.0.0.0 sdk.waze.com
 
-# Greyjay
+# Fvck off - Greyjay
 0.0.0.0 logs.grayjay.app
 
 # Fvck off - Roblox
