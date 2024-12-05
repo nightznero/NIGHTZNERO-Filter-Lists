@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 942 (+15 local hosts)
+! Entries: 2 943 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -121,8 +121,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 fastclick.net
 0.0.0.0 media.fastclick.net
 0.0.0.0 cdn.fastclick.net
-! -Braze- !
-0.0.0.0 sdk.iad-01.braze.com
+! -Braze- ! (formerly AppBoy Inc. 2011-2017)
+0.0.0.0 appboy.com
+0.0.0.0 braze.com
 ! -TrafficJunky- ! [MG Freesites Ltd.]
 0.0.0.0 trafficjunky.com
 0.0.0.0 trafficjunky.net
