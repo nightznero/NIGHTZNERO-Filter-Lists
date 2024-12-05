@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 930 (+15 local hosts)
+! Entries: 2 931 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -186,7 +186,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 e.crashlytics.com
 0.0.0.0 reports.crashlytics.com
 0.0.0.0 settings.crashlytics.com
-! -WP Plugin- !
+! -WordPress Plugin- !
+0.0.0.0 pixel.wp.com
 0.0.0.0 stats.wp.com
 
 ! Fvck off - Trackers
