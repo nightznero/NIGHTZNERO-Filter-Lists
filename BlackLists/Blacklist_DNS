@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 922 (+15 local hosts)
+! Entries: 2 925 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.12.04
+! Updated: 2024.12.05
 !
 ! MIT License
 !
@@ -83,7 +83,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 adswizz.com
 0.0.0.0 mercury.akamaized.net
 0.0.0.0 hesads.akamaized.net
-
 ! -Doubleclick.net- !
 0.0.0.0 mediavisor.doubleclick.net
 0.0.0.0 m.doubleclick.net
@@ -124,6 +123,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.fastclick.net
 ! -Braze- !
 0.0.0.0 sdk.iad-01.braze.com
+! -TapJoy- !
+0.0.0.0 tapjoy.com
+0.0.0.0 connect.tapjoy.com
+0.0.0.0 rpc.tapjoy.com
+0.0.0.0 tapjoyads.com
+0.0.0.0 ws.tapjoyads.com
 ! -ZipoApps- !
 0.0.0.0 config.toto.zipoapps.com
 
@@ -1034,13 +1039,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics.openfoodfacts.org
 
 ! Fvck off - UnityAd
-0.0.0.0 ws.tapjoyads.com
 0.0.0.0 init.supersonicads.com
 0.0.0.0 teleport.soom.la
 0.0.0.0 networksdk.ssacdn.com
 0.0.0.0 api.vungle.com
 0.0.0.0 int.akisinn.site
-0.0.0.0 connect.tapjoy.com
 0.0.0.0 pm-gateway.supersonicads.com
 0.0.0.0 cdn2.inner-active.mobi
 0.0.0.0 cdn-creatives-akamaistls-prd.acquire.unity3dusercontent.com
