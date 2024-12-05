@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 933 (+15 local hosts)
+! Entries: 2 942 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -149,6 +149,16 @@ ff02::3 ip6-allhosts
 ! -Amplitude- !
 0.0.0.0 api.amplitude.com
 0.0.0.0 api2.amplitude.com
+! -Comscore- !
+0.0.0.0 comscore.com
+0.0.0.0 comscore.net
+0.0.0.0 comscore.org
+0.0.0.0 comscoredatagems.com
+0.0.0.0 comscoredatamine.com
+0.0.0.0 comscoredirect.net
+0.0.0.0 comscorenetworks.net
+0.0.0.0 mycomscore.net
+0.0.0.0 mycomscore.com
 ! -Hotjar- !
 0.0.0.0 adm.hotjar.com
 0.0.0.0 identify.hotjar.com
