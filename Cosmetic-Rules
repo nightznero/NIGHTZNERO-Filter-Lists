@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3224
+! Entries: 3232
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.12.07
+! Updated: 2024.12.09
 !
 ! MIT License
 !
@@ -1049,6 +1049,21 @@ chiaseapk.com##.qc
 # CHILLWAGON
 chillwagonthegame.com##.cb-wrapper
 chillwagonthegame.com##.cookie-bubble.bottom-left.show
+
+# Chomikuj.pl
+! "Chomikowe Rozmowy" ⤵
+chomikuj.pl###chatContainer
+! "Materiały Partnerów" while download ⤵
+chomikuj.pl###ui-tooltip
+chomikuj.pl##.pp_download_frame.pp_frame
+chomikuj.pl##.publishmentRightAd
+chomikuj.pl##.ui-tooltip-pos-tl
+! "Polecane dla Ciebie" ⤵
+chomikuj.pl##.recommend_panel
+! "Ulepsz Chomika!" ⤵
+chomikuj.pl###headerUpgreadeHamster
+! Special Offer "Coronavirus" ⤵
+chomikuj.pl##.stayHomePromo_bnUser
 
 # CloudFlare.com
 @@||challenges.cloudflare.com^$stealth
