@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3232
+! Entries: 3233
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.12.09
+! Updated: 2024.12.10
 !
 ! MIT License
 !
@@ -2624,6 +2624,7 @@ redtube.com,redtube.net##.kze9tw.kze9tc
 redtube.com,redtube.net##.uf9iw7uaw.uf9iw7uac
 
 # Rentry.co
+||rentry.co/neizoi-c7rr^$important
 ||rentry.co/z10xnybar^$important
 
 # Roblox
