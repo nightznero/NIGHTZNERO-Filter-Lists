@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3233
+! Entries: 3236
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.12.10
+! Updated: 2024.12.11
 !
 ! MIT License
 !
@@ -2902,6 +2902,8 @@ tubeoffline.com##div.divContent2.borderCurve.otherSites:nth-child(*)
 @@||msapi*.tvtime.com^$domain=tvtime.com
 
 # Twitch.tv
+@@||gql.twitch.tv/^$domain=twitch.tv
+@@||passport.twitch.tv/^$domain=twitch.tv
 ||edge.ads.twitch.tv^
 twitch.tv##+js(twitch-videoad)
 
@@ -2913,6 +2915,7 @@ twitch.tv##+js(twitch-videoad)
 @@||*.7tv.app^
 @@||*.7tv.io^
 @@||pronouns.alejo.io^
+@@||pr.alejo.io^
 
 # Twitter / 𝕏
 @@||api.twitter.com/1.1/jot/client_event.json$domain=twitter.com|x.com|
