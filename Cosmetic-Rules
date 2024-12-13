@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3237
+! Entries: 3240
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.12.12
+! Updated: 2024.12.13
 !
 ! MIT License
 !
@@ -917,6 +917,11 @@ apkmirror.com##ASIDE#ai_widget-3.widget.block-widget
 apkmoddone.com#@#div#ldApGm
 apkmoddone.com##.HTML.widget
 apkmoddone.com##.adB
+
+# Archive.org
+@@||web.archive.org/web^$domain=archive.org|web.archive.org
+||analytics.archive.org^
+web.archive.org$$div[id="wm-share"]
 
 # Asics (Clothes)
 @@||asics.com/on/demandware.store^$domain=asics.com
