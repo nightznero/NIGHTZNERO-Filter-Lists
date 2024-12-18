@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 946 (+15 local hosts)
+! Entries: 2 951 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.12.10
+! Updated: 2024.12.18
 !
 ! MIT License
 !
@@ -692,11 +692,16 @@ ff02::3 ip6-allhosts
 # Fvck off - Instagram [Meta]
 0.0.0.0 graph.instagram.com
 
-# Fvck off - Twitter
+# Fvck off - Twitter 𝕏 (𝕏er?) [Jack Dorsey ➡️ Elon Musk]
+0.0.0.0 ads-twitter.com
 0.0.0.0 ads-api.twitter.com
 0.0.0.0 advertising.twitter.com
-0.0.0.0 ads-twitter.com
+0.0.0.0 analytics.twitter.com
 0.0.0.0 static.ads-twitter.com
+0.0.0.0 ads-x.com
+0.0.0.0 ads-api.x.com
+0.0.0.0 advertising.x.com
+0.0.0.0 analytics.x.com
 
 # Fvck off - Reddit
 0.0.0.0 ads.reddit.com
