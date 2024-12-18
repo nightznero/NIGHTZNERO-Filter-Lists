@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3240
+! Entries: 3241
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.12.13
+! Updated: 2024.12.18
 !
 ! MIT License
 !
@@ -2943,6 +2943,7 @@ twitch.tv##+js(twitch-videoad)
 ||platform.x.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp|~x.com
 ||ads-api.twitter.com^
 ||twitter.com/1.1/jot/client_event.json
+||x.com/1.1/jot/client_event.json
 twitter.com,x.com#@#.ProfileCanopy-card, .u-cf.OpenInAppBar, div:not([aria-labelledby="modal-header"]) .r-18qmn74.r-1vsu8ta.r-1joea0r.r-1777fci.r-1pz39u2.r-obd0qt.css-1dbjc4n > div:not([aria-disabled="true"]), header div[style*="height: calc(53px);"]
 twitter.com,x.com##[style]>div>div>[data-testid=placementTracking]
 ! X Premium - Left menu ⤵️
