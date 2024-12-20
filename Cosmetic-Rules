@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3244
+! Entries: 3245
 !
 ! Expires: 1 hour
 !
@@ -2686,6 +2686,7 @@ simpcity.su#@#.js-messageContent.message-content
 simpcity.su#@#.bbWrapper
 simpcity.su#@#DIV.generic2wide-iframe-div
 simpcity.su#@#.generic2wide-iframe-div
+simpcity.su#@#.structItem-pageJump
 simpcity.su#@#IFRAME.saint-iframe[src][height='auto'][width='auto'][style='border:none;'][loading='lazy'][allow='fullscreen;'][allowfullscreen='true']
 simpcity.su##[href^="https://catflix.su/"]
 simpcity.su##.p-body-content > div:nth-of-type(2)
