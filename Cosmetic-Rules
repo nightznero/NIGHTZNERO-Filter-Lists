@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3247
+! Entries: 3249
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.12.20
+! Updated: 2024.12.23
 !
 ! MIT License
 !
@@ -1751,6 +1751,8 @@ oktours.pl##.\32 xl\:w-1\/4.lg\:w-2\/5.md\:w-1\/2.drop-shadow-widget.p-6.rounded
 ||oglaszamy24.pl/m/img/1px.gif
 ||oglaszamy24.pl*video^
 ||oglaszamy24.pl/js-css/exnb/exnbb.php^
+||oglaszamy24.pl/js-css/prebid7.3.0.js?v=179
+||oglaszamy24.pl/js-css/reklamy
 oglaszamy24.pl##.page_container > center > div
 oglaszamy24.pl##.page_right_col > center
 oglaszamy24.pl##.page_right_col > div:nth-of-type(1)
@@ -1781,17 +1783,17 @@ oglaszamy24.pl##.page_right_col > div:nth-of-type(7)
 oglaszamy24.pl##.page_right_col > div:nth-of-type(8)
 oglaszamy24.pl##.page_right_col > div:nth-of-type(9)
 oglaszamy24.pl##.page_right_col > div:nth-of-type(10)
-! Dodaj ogłoszenie - Ogłoszenie Premium
+! Dodaj ogłoszenie - Ogłoszenie Premium ⤵
 oglaszamy24.pl##div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(4)
-! Dodaj ogłoszenie - Ogłoszenie Wyróżnione
+! Dodaj ogłoszenie - Ogłoszenie Wyróżnione ⤵
 oglaszamy24.pl##div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(3)
-! Premiuj / Wyróżnij ⤵️
+! Premiuj / Wyróżnij ⤵
 oglaszamy24.pl##.my_paid_btn
-! Zmień na Premium ⤵️
+! Zmień na Premium ⤵
 oglaszamy24.pl##div.chg_btn_c2:nth-of-type(10)
-! Zmień na Wyróżnione ⤵️
+! Zmień na Wyróżnione ⤵
 oglaszamy24.pl##div.chg_btn_c1:nth-of-type(9)
-! Android app ⤵️
+! Android app ⤵
 oglaszamy24.pl###get_app_box
 
 # OLX
