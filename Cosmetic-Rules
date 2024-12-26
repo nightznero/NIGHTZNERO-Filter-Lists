@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3252
+! Entries: 3256
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.12.23
+! Updated: 2024.12.26
 !
 ! MIT License
 !
@@ -2878,6 +2878,13 @@ teenager365.com##.k9d4bd-container.k9d4bd-2.k9d4bd-hide
 ||terabox.com/api/analytics?$important
 ||terabox.com/api/ad/getconfig?$important
 ||terabox.com/nodeapi/reporterror?$important
+! "Premium" Button ⤵
+terabox.com##.membership-entry
+! Ads ⤵
+terabox.com##.btm-content
+! Ads "View on Mobile/Download app" ⤵ Banners with promoting downloading app
+terabox.com##.text-banner
+terabox.com##.view-box
 
 # The North Face
 @@||static.thenorthface.*^$domain=thenorthface.com|thenorthface.eu|thenorthface.co.uk|thenorthface.pl|
