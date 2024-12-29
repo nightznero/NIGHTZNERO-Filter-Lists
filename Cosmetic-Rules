@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3257
+! Entries: 3258
 !
 ! Expires: 1 hour
 !
-! Updated: 2024.12.27
+! Updated: 2024.12.29
 !
 ! MIT License
 !
@@ -1383,10 +1383,11 @@ genius.com##.optanon-alert-box-bg
 ghosterysearch.com##li.sponsored.result
 
 # GitHub
+@@||github.githubassets.com/assets^$domain=github.com|github.io|pages.dev
+||collector.github.com/github/collect^
 ! Blocked by Dandelion Sprout's Annoyances List ⤵
 @@||api.github.com^$important
 @@||alive.github.com^$important
-||collector.github.com^
 ## GitHub.io
 ||zloberka.github.io/love^$important
 ## GitHub Pages dev
