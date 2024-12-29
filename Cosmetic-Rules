@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3259
+! Entries: 3260
 !
 ! Expires: 1 hour
 !
@@ -928,6 +928,10 @@ web.archive.org$$div[id="wm-share"]
 
 # Asics (Clothes)
 @@||asics.com/on/demandware.store^$domain=asics.com
+
+# Badoo - Dates
+! Chats -> "Want to see the X women who already liked You" ⤵
+badoo.com##li.csms-connections-list__item:nth-of-type(1) > .csms-connections-item > .csms-spring-box
 
 # Banggood.com
 banggood.com##.gdpr-entry
