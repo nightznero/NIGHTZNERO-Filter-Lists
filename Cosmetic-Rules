@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3258
+! Entries: 3259
 !
 ! Expires: 1 hour
 !
@@ -1441,6 +1441,8 @@ gsmarena.com##DIV.adv.bottom-728
 gsmarena.com##DIV.d-flex.flex-column.justify-center.align-center.mb-20[style='padding-bottom: 17px; min-height: 318px; margin: 0px -10px 20px; position: relative; background: var(--body-background, #efebe9);']
 gsmarena.com##DIV.d-flex.flex-column.justify-center.align-center.mb-20.pt-10[style='padding-bottom: 24px; min-height: 144px; background-image: linear-gradient(to right, rgb(224, 224, 224) 70%, transparent 30%), linear-gradient(to right, rgb(224, 224, 224) 70%, transparent 30%); background-position: left top, left bottom; background-repeat: repeat-x; background-size: 10px 1px; margin-top: 20px;']
 gsmarena.com##DIV.grid_12.top-adv[style='display: flex; justify-content: center; width: 100%;']
+! "GSMArena Daily Deals" ⤵
+gsmarena.com###subHeader2
 
 # hCaptcha
 @@||hcaptcha.com/captcha/$script,subdocument
