@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3260
+! Entries: 3269
 !
 ! Expires: 1 hour
 !
@@ -2466,9 +2466,6 @@ porkyslodz.pl###cc-main
 porkyslodz.pl##.is-active.js-notify.notification
 porkyslodz.pl##.u-hidden-app
 
-# pornoeggs
-pornoeggs.com##.vast_clickthrough_layer.vast_clickthrough_layer_*
-
 # PornHub
 @@||hubt.pornhub.com^$domain=pornhub.com
 ! Blocked by 1Hosts - Pro
@@ -2523,6 +2520,22 @@ pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 579018113971
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 579018317420
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 579018344545
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 580001936703
+
+# pornoeggs
+pornoeggs.com##.vast_clickthrough_layer
+
+# PornoLab.net
+! Ads ⤵
+pornolab.net##[href^="https://bongacams"]
+pornolab.net##.splk3 > tbody
+pornolab.net##tr.row3 > td
+pornolab.net###logo > table > tbody > tr > .tCenter
+pornolab.net###page_footer
+pornolab.net###pl-speedbar > table > tbody > tr > td
+! "❤Donate" ⤵
+pornolab.net##.hide-for-print.ta-inf2.top-alert
+pornolab.net##a[href^="viewtopic.php"]:nth-of-type(8)
+pornolab.net##a[href^="viewtopic.php"]:nth-of-type(9)
 
 # PornReactor.cc
 ||pornreactor.cc^$badfilter
