@@ -11,15 +11,15 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 951 (+15 local hosts)
+! Entries: 2 953 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2024.12.18
+! Updated: 2024.12.30
 !
 ! MIT License
 !
-! Copyright (c) 2024 NIGHTZNERO
+! Copyright (c) 2025 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # Fvck off - Attribute
 0.0.0.0 0.0.0.0
@@ -40,6 +40,8 @@ ff02::3 ip6-allhosts
 
 # Fvck off - Ads popups
 0.0.0.0 0x01n2ptpuz3.com
+0.0.0.0 adexchange.com
+0.0.0.0 adexchange.net
 0.0.0.0 adltserv.com
 0.0.0.0 ads.bullionyield.com
 0.0.0.0 adsrvr.io
