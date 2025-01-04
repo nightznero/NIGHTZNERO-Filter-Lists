@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3274
+! Entries: 3277
 !
 ! Expires: 1 hour
 !
@@ -2475,16 +2475,17 @@ porkyslodz.pl##.is-active.js-notify.notification
 porkyslodz.pl##.u-hidden-app
 
 # PornHub
-@@||hubt.pornhub.com^$domain=pornhub.com
-! Blocked by 1Hosts - Pro
 ||*.pornhub.com$script,redirect=pornhub.com|~www.pornhub.com|
 ||*.pornhubpremium.com$script,redirect=pornhubpremium.com|~www.pornhubpremium.com|
+||pornhub.com/_xa/ads^$all
+||etahub.com/events^$all
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##+js(rc, hasAdAlert, header)
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##+js(set, page_params.holiday_promo, true)
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##[id="pb_block"]
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##[id="pb_template"]
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##[id^="age-verification"]
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##a.gtm-event-header-paidtabs.noImage.floatLeft.upperCase.blackBtn.buttonClass
+pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##A.buttonClass.blackBtn.eudsaLink[target='_blank'][href^='https://www.pornhub.com/_xa/ads']
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##A.buttonClass.blackBtn.eudsaLink[target='_blank'][href^='https://www.pornhub.com/_xa/tabinfo']
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##div.wrapper:nth-child(*) > div.container:last-child > div.gridWrapper:nth-child(*) > div.nf-videos:last-child > div.sectionWrapper > div.sectionWrapper:nth-child(7)
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion##div.wrapper:nth-child(8) > div.container:last-child > div.gridWrapper:nth-child(6) > div.nf-videos:last-child > div.sectionWrapper > div.sectionWrapper:nth-child(7)
@@ -2528,6 +2529,8 @@ pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 579018113971
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 579018317420
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 579018344545
 pornhub.com,pornhubpremium.com,pornhubthbh7ap3u.onion###\31 580001936703
+! Blocked by 1Hosts - Pro ⤵
+@@||hubt.pornhub.com^$domain=pornhub.com
 
 # pornoeggs
 pornoeggs.com##.vast_clickthrough_layer
