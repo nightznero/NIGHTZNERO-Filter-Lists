@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3272
+! Entries: 3274
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.01.01
+! Updated: 2025.01.04
 !
 ! MIT License
 !
@@ -727,55 +727,57 @@ tracking.bp01.net
 @@$media
 
 # (Fvcking) Ads
-||*adexchange.com^$important
-||*adexchange.net^$important
-||*ads.com^$all,domain=~dailyuploads.net^|devuploads.com^|
+||*adexchange.com^$all
+||*adexchange.net^$all
+||*ads.com^$all,domain=~dailyuploads.net^|devuploads.com^
 ||*reg.pl^$all
-||*srv.com^$important,popup
-||0x01n2ptpuz3.com^$important
-||adltserv.com^$important
-||adnxs*.com^$important
-||adnxs*.net^$important
-||ads.bullionyield.com^$important
-||adsrvr.io^$important
-||adsessionserv.com^$important
-||adspy.javrank.com^$important
-||adtiming.com^$important
-||adtng.com^$important
-||advantageclicks.net^$important
-||*.advantageclicks.net^$important,popup
-||adxadserv.com^$important
-||akunamapro.com^$important
-||aoflix.com^$important
-||candyoffers.com^$important
-||*.candyoffers.com^$important,popup
-||deephicy.net^$important
-||deliveranceads.com^$important
-||exdynsrv.com^$important
-||*.exdynsrv.com^$important,popup
-||exoclick.com^$important
-||fanodaz.com^$important
-||*.fanodaz.com^$important,popup
-||gerhi-psv.com^$important
-||kekw.world^$important
-||magsrv.com^$important
-||*.magsrv.com^$important,popup
-||mcdlks.com^$important
-||opodaz.com^$important
-||optnx.com^$important
-||pemsrv.com^$important
-||*.pemsrv.com^$important,popup
-||qrlsx.com^$important
-||randomadsrv.com^$important
-||realsrv.com^$important
-||*.realsrv.com^$important,popup
-||rmshqa.com^$important
-||*.rmshqa.com^$important,popup
-||syndication.*.com^$important,popup
-||thanksgivingdelights.com^$important
-||toponadss.com^$important
-||tsyndicate.com^$important
-||*.tsyndicate.com^$important,popup
+||*srv.com^$all
+||0x01n2ptpuz3.com^$all
+||adltserv.com^$all
+||adnxs*.com^$all
+||adnxs*.net^$all
+||ads.bullionyield.com^$all
+||adsrvr.io^$all
+||adsessionserv.com^$all
+||adspy.javrank.com^$all
+||adtiming.com^$all
+||adtng.com^$all
+||advantageclicks.net^$all
+||*.advantageclicks.net^$all
+||adxadserv.com^$all
+||akunamapro.com^$all
+||aoflix.com^$all
+||candyoffers.com^$all
+||*.candyoffers.com^$all
+||deephicy.net^$all
+||deliveranceads.com^$all
+||exdynsrv.com^$all
+||*.exdynsrv.com^$all
+||exoclick.com^$all
+||fanodaz.com^$all
+||*.fanodaz.com^$all
+||gerhi-psv.com^$all
+||kekw.world^$all
+||magsrv.com^$all
+||*.magsrv.com^$all
+||mcdlks.com^$all
+||opodaz.com^$all
+||optnx.com^$all
+||pemsrv.com^$all
+||*.pemsrv.com^$all
+||qrlsx.com^$all
+||randomadsrv.com^$all
+||realsrv.com^$all
+||*.realsrv.com^$all
+||rmshqa.com^$all
+||*.rmshqa.com^$all
+||syndication.*.com^$all
+||thanksgivingdelights.com^$all
+||toponadss.com^$all
+||trafficjunky.com^$all
+||trafficjunky.net^$all
+||tsyndicate.com^$all
+||*.tsyndicate.com^$all
 
 # (Fvcking) Adservers
 ||pixfuture.com^$third-party
