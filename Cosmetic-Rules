@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3282
+! Entries: 3283
 !
 ! Expires: 1 hour
 !
@@ -2610,7 +2610,8 @@ reactor.cc##.eed23e7a6.yedad16de.v6b9e7897
 ||reddit.com/counters/$xmlhttprequest
 ||reddit.com/static/pixel.png$image
 ||reddit.com/timings/
-||redditmedia.com/gtm/jail?
+||redditmedia.com/gtm/jail^
+||redditstatic.com/ads^
 reddit.com##.avKlJzxZU3brq4nAX0_i1._1G4yU68P50vRZ4USXfaceV._2QeqBqfT5UbHBoViZUt-wX
 reddit.com##A._24UNt1hkbrZxLzs5vkvuDh[href^='https://ads.reddit.com'][target='_blank'][rel='noopener noreferrer'][aria-label='Advertise']
 reddit.com##DIV._1b1Jalg2nxA_Z-BjKXRfAV
