@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3277
+! Entries: 3282
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.01.06
+! Updated: 2025.01.09
 !
 ! MIT License
 !
@@ -2833,6 +2833,18 @@ startpage.com###gcsa-top
 ! Get the app ⤵️
 startpage.com##.home-app-promo
 startpage.com##.app-banner-promo-container
+
+# Streamable.com
+! "Upgrade" ⤵
+streamable.com##.upgrade.text-with-splash-expression
+! "Player Appearance - Video Watermark" Premium settings ⤵
+streamable.com##div.separator.appearance-settings__item:nth-of-type(2)
+! "Player Appearance - Remove Streamable Branding" Premium settings ⤵
+streamable.com##div.separator.appearance-settings__item:nth-of-type(3)
+! "Privacy & Security - Visibility - Hide on Streamable" Premium settings ⤵
+streamable.com##label.selectable-option:nth-of-type(2)
+! "Privacy & Security - Restrictions - Domain Privacy" Premium settings ⤵
+streamable.com##div.content-section:nth-of-type(3) > .settings-option--clickable.settings-option--with-bottom-border.settings-option.sb-flex--justify-content-flex-start.sb-flex--align-items-center.sb-flex--row.sb-flex
 
 # StreamTape.com (Video hosting service)
 @@||thumb.tapecontent.net/thumb^$domain=streamtape.com
