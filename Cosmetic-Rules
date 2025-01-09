@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3285
+! Entries: 3288
 !
 ! Expires: 1 hour
 !
@@ -1898,6 +1898,11 @@ open.fm##.kr1hon2
 # Oxy.cloud (file hosting service e.x of TikTok ModCloud)
 ! Blocked by OISD Big ⤵
 @@||download.oxy.cloud^$domain=oxy.cloud|download.oxy.cloud
+
+# Paheal.net (Rule #34)
+rule34.paheal.net###Featured_Postleft
+rule34.paheal.net###Friends_of_Pahealleft
+rule34.paheal.net###d4ed435c4212ecf21b9f1ad0a2c192d8main
 
 # ParaStorage.com (assets for sites)
 @@||static.parastorage.com/unpkg^
