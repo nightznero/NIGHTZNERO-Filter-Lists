@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3284
+! Entries: 3285
 !
 ! Expires: 1 hour
 !
@@ -3098,6 +3098,10 @@ poczta.wp.pl##a.css-13nd243:nth-of-type(4)
 poczta.wp.pl##.css-186j4av
 ! Mobile - Left Menu - App ⤵
 poczta.wp.pl##.css-1ve658j.chakra-button
+
+# WygodneZwroty.pl [AlleKurier]
+! Mobile app ⤵
+wygodnezwroty.pl##.sm\:bottom-auto.sm\:static.text-white.py-2.w-full.h-14.z-\[1000\].bottom-0.fixed.bg-ak-orange-500
 
 # X-Kom.pl
 @@||ap.x-kom.pl/api/Proxy?proxyTarget=^domain=x-kom.pl
