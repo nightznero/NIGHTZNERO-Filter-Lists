@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 705
+! Entries: 706
 !
 ! Expires: 1 days
 !
@@ -995,6 +995,7 @@
 # The Weather Channel
 ! Blocked by GoodByeAds ⤵
 @@||s.w-x.co^
+@@||v.w-x.co^
 
 # Tinder
 ! Blocked by GoodByeAds (Blindfolded) ⤵
