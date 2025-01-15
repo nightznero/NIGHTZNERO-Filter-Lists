@@ -11,7 +11,7 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 703
+! Entries: 705
 !
 ! Expires: 1 days
 !
@@ -508,6 +508,9 @@
 @@||firebaseinappmessaging.googleapis.com^
 @@||firebasedynamiclinks.googleapis.com^
 
+# Google Chrome
+@@||dl.google.com^
+
 # Google Drive
 @@||www.googleapis.com^
 @@||imasdk.googleapis.com^
@@ -535,6 +538,9 @@
 # Google Play Store
 @@||android.clients.google.com^
 @@||play.app.goo.gl^
+
+# Google/Android TV
+@@||redirector.gvt1.com^
 
 # GrannyTube.net
 ! Blocked by GoodByeAds ⤵
