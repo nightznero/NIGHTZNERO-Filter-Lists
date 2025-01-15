@@ -15,11 +15,11 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2024.12.07
+! Updated: 2025.01.15
 !
 ! MIT License
 !
-! Copyright (c) 2024 NIGHTZNERO
+! Copyright (c) 2025 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # 0.0.0.0 (Blindfolded blocked local hosts-can't be fixed)
 @@||enmity.app^
@@ -1150,7 +1150,7 @@
 
 # YouTube [Google] ! Blocked by various lists ⤵
 @@||youtubei.googleapis.com^
-! (For now disabled) @@||video-stats.l.google.com^
+@@||video-stats.l.google.com^
 ! (For now disabled) @@||play.googleapis.com^
 @@||redirector.googlevideo.com^
 ! Blocked by StevenBlack ⤵
