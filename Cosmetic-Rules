@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3292
+! Entries: 3294
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.01.14
+! Updated: 2025.01.15
 !
 ! MIT License
 !
@@ -1507,9 +1507,11 @@ infidrive.net##[href="/buy"]
 intercity.pl###ic-top-message-icmobile
 
 # Interia Poczta
+@@||avatars-api.interia.pl/avatars^$domain=poczta.interia.pl
 @@||ud.interia.pl/html/getattach^$domain=poczta.interia.pl
 @@||zdjecia.interia.pl/galeria^$domain=poczta.interia.pl
 ||poczta.interia.pl/next/adv,advKeyword$subdocument,important
+||poczta.iplsc.com/n/public/images/navigationPromoBanner^$domain=poczta.interia.pl
 poczta.interia.pl##div.ad[nxt-ad-place]
 poczta.interia.pl##DIV.placeholder
 poczta.interia.pl##HEADER.header-container
