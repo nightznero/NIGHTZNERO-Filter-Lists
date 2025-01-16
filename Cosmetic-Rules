@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3305
+! Entries: 3307
 !
 ! Expires: 1 hour
 !
@@ -2590,11 +2590,12 @@ pornx.ai##a.hover\:bg-\[\#272727\].ease-in-out.duration-150.transition-all.py-\[
 pornx.ai##.pb-\[20px\].px-\[20px\].mt-\[5px\]
 
 # Presearch (Search Engine) [Presearch.com/Presearch.io]
-@@||account.presearch.com/auth/login$domain=account.presearch.com
+@@||account.presearch.com/auth/login$domain=account.presearch.com|presearch.com|presearch.io
 presearch.com##div.relative.min-w-max.transition.cursor-pointer.text-sm.pr-4.pl-2.px-2.py-2:nth-of-type(1)
 presearch.com##DIV[x-data='{ x:true, kwrdAdFirst: false }']
 presearch.com##DIV.sx-top-bar-products.sx-touch
 presearch.com##.md\:block
+presearch.com##.p-4.text-white.md\:w-max.w-full.md\:hidden > .mb-1
 presearch.com##.dark\:border-gray-900.border-gray-200.border-t.z-70.bg-white.md\:hidden.w-full.bottom-0.fixed.pta-search-mobile
 
 # Przelewy24.pl
@@ -2602,7 +2603,7 @@ przelewy24.pl##.promotion__xpay
 
 # Pyszne.pl [TakeAway]
 @@||cw-api.takeaway.com/api^$stealth
-@@||www.pyszne.pl^$stealth
+@@||pyszne.pl^$stealth
 
 # Qualcomm
 @@||ext.qclogin.qualcomm.com/stepuplogin^$stealth
