@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 706
+! Entries: 707
 !
 ! Expires: 1 days
 !
-! Updated: 2025.01.15
+! Updated: 2025.01.16
 !
 ! MIT License
 !
@@ -554,6 +554,9 @@
 
 # GTA Online [Rockstar]
 @@||prod.telemetry.ros.rockstargames.com^
+
+# hCaptcha
+@@||api.hcaptcha.com^
 
 # Hotspot Shield VPN [AURA]
 ! Blocked by The Ultimate Hosts Blacklist (UHB) ⤵
