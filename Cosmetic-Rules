@@ -15,7 +15,7 @@
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.01.15
+! Updated: 2025.01.16
 !
 ! MIT License
 !
@@ -3019,6 +3019,7 @@ twitch.tv##+js(twitch-videoad)
 @@||abs.twimg.com/emoji/$image,third-party
 @@||pbs.twimg.com/profile_images/$image,third-party
 @@||pbs.twimg.com/amplify_video_thumb/$image,third-party
+@@||x.com/i/api/2^$stealth
 ||api.twitter.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp|~x.com
 ||api.x.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp|~x.com
 ||platform.twitter.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp|~x.com
@@ -3028,11 +3029,8 @@ twitch.tv##+js(twitch-videoad)
 ||x.com/1.1/jot/client_event.json
 twitter.com,x.com#@#.ProfileCanopy-card, .u-cf.OpenInAppBar, div:not([aria-labelledby="modal-header"]) .r-18qmn74.r-1vsu8ta.r-1joea0r.r-1777fci.r-1pz39u2.r-obd0qt.css-1dbjc4n > div:not([aria-disabled="true"]), header div[style*="height: calc(53px);"]
 twitter.com,x.com##[style]>div>div>[data-testid=placementTracking]
-! X Premium - Left menu ⤵️
-x.com##a.r-1loqt21.r-1ny4l3l.r-13qz1uu.r-cnw61z.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(9)
-! X Premium for orgs - Left menu ⤵️
-x.com##a.r-1loqt21.r-1ny4l3l.r-13qz1uu.r-cnw61z.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(10)
-! X Premium - Mobile ⤵️
+! X "Premium" (Left Menu) ⤵
+x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:nth-of-type(3) > .r-1loqt21.r-1ny4l3l.r-6416eg.r-o7ynqc.r-dnmrzs.r-16y2uox.css-175oi2r > .r-3pj75a.r-w7s2jr.r-16y2uox.r-18u37iz.r-1awozwy.css-175oi2r
 x.com##.r-1wbh5a2.r-16y2uox.r-1t2qqvi.r-2j7rtt.r-obd0qt.r-1vsu8ta.r-1777fci.r-1pz39u2.css-175oi2r > .css-175oi2r
 
 # U.GG
