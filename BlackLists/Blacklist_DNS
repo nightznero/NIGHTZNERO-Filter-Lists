@@ -11,7 +11,7 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 954 (+15 local hosts)
+! Entries: 2 955 (+15 local hosts)
 !
 ! Expires: 1 days
 !
@@ -56,6 +56,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 deephicy.net
 0.0.0.0 deliveranceads.com
 0.0.0.0 eatthiskok.b-cdn.net
+0.0.0.0 energizeio.com
 0.0.0.0 entitlements.jwplayer.com
 0.0.0.0 exdynsrv.com
 0.0.0.0 exoclick.com
