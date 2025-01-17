@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3309
+! Entries: 3312
 !
 ! Expires: 1 hour
 !
@@ -1320,12 +1320,18 @@ leagueoflegends.fandom.com###\35 b2d1649b2-188-1
 leagueoflegends.fandom.com###\35 bbe13967e-188-1
 
 # filman.cc
-! Premium player "Unlimited player" ⤵️
-filman.cc##thead > .version
-! Premium ⤵️
+! Premium ⤵
 filman.cc##.l_tinynav1.hidden-xs > li:nth-of-type(5)
 filman.cc##.dropdown-menu-right.dropdown-menu > li:nth-of-type(4)
-! Android app ⤵️
+! Film - "Ulubione" (Premium required) ⤵
+filman.cc###user-tools > ul > li:nth-of-type(1)
+! Film - "Chcę Obejrzeć" (Premium required) ⤵
+filman.cc###user-tools > ul > li:nth-of-type(2)
+! Serial - "Subskrybuj" (Premium required) ⤵
+filman.cc##div.text-center:nth-of-type(4)
+! Premium player "Unlimited player" ⤵
+filman.cc##thead > .version
+! Android app ⤵
 filman.cc##.text-center.alert-info.alert
 filman.cc##[href="https://filman.cc/android-apk"]
 
