@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3320
+! Entries: 3326
 !
 ! Expires: 1 hour
 !
@@ -1322,6 +1322,16 @@ leagueoflegends.fandom.com##.wds-banner-notification__text
 leagueoflegends.fandom.com##.wds-banner-notification.wds-message.notify
 leagueoflegends.fandom.com###\35 b2d1649b2-188-1
 leagueoflegends.fandom.com###\35 bbe13967e-188-1
+
+# FileCr.com
+! Private Category "E-Books" ⤵
+filecr.com##span.nav_link__xRJj_:nth-of-type(1)
+filecr.com##span.menu_link__lDtKC:nth-of-type(1)
+filecr.com##div.sub-category-filter.form-group:nth-of-type(2)
+! Private Category "Video Courses" ⤵
+filecr.com##span.nav_link__xRJj_:nth-of-type(2)
+filecr.com##span.menu_link__lDtKC:nth-of-type(2)
+filecr.com##div.sub-category-filter.form-group:nth-of-type(5)
 
 # filman.cc
 ! Premium ⤵
