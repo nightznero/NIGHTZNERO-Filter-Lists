@@ -15,7 +15,7 @@
 !
 ! Expires: 1 days
 !
-! Updated: 2025.01.26
+! Updated: 2025.01.27
 !
 ! MIT License
 !
@@ -1172,7 +1172,7 @@
 @@||s.youtube.com/api/stats^
 ! Blocked by GoodByeAds ⤵
 !! Different image host for YouTube
-@@yt4.ggpht.com^
+@@||yt4.ggpht.com^
 
 # Zbiornik
 ! Blocked by 4PDA Community Hosts Blacklist ⤵
