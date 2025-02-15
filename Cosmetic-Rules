@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3400
+! Entries: 3401
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.02.13
+! Updated: 2025.02.15
 !
 ! MIT License
 !
@@ -3033,6 +3033,7 @@ myteamspeak.com##.cc-window.cc-banner.cc-type-info.cc-theme-block.cc-bottom.cc-c
 techManiaK.pl,gsmManiaK.pl,mobiManiaK.pl,fotoManiaK.pl,agdManiaK.pl,rtvManiaK.pl,TabletManiaK.pl,AcerManiaK.pl,gizManiaK.pl,luxManiaK.pl,blogoManiaK.pl,activeManiaK.pl##DIV#topMenu
 techManiaK.pl,gsmManiaK.pl,mobiManiaK.pl,fotoManiaK.pl,agdManiaK.pl,rtvManiaK.pl,TabletManiaK.pl,AcerManiaK.pl,gizManiaK.pl,luxManiaK.pl,blogoManiaK.pl,activeManiaK.p##DIV[style='margin:10px auto; text-align:center; font-size:8px;']
 techManiaK.pl,gsmManiaK.pl,mobiManiaK.pl,fotoManiaK.pl,agdManiaK.pl,rtvManiaK.pl,TabletManiaK.pl,AcerManiaK.pl,gizManiaK.pl,luxManiaK.pl,blogoManiaK.pl,activeManiaK.p##DIV[style='margin:0 auto 10px auto; text-align:center; font-size:6px;']
+techManiaK.pl,gsmManiaK.pl,mobiManiaK.pl,fotoManiaK.pl,agdManiaK.pl,rtvManiaK.pl,TabletManiaK.pl,AcerManiaK.pl,gizManiaK.pl,luxManiaK.pl,blogoManiaK.pl,activeManiaK.p##div:nth-of-type(/^[0-9]+$/)
 
 # Teenager365.com
 teenager365.com##.video-archive-ad
@@ -3333,7 +3334,7 @@ zalando-lounge.pl##.headerWrapperstyles__HeaderBannerRow-sc-11kql3e-3:nth-of-typ
 @@||zbiornik.com^&stealth=ip|webrtc|
 zbiornik.com##a.zbItem
 
-! ZEN.com (Zero Effort Non-Bank)
+# ZEN.com (Zero Effort Non-Bank)
 @@||static.zdassets.com/ekr/snippet.js?key=5df22ff5-ba9c-40c4-937a-af20a874cf9a$domain=my.zen.com
 @@||widget-mediator.zopim.com/s/W/ws/*/c/*$domain=my.zen.com
 @@||static.zdassets.com/web_widget/classic/latest/*.mp3$domain=my.zen.com
