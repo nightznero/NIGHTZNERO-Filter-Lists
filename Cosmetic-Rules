@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3401
+! Entries: 3402
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.02.15
+! Updated: 2025.02.18
 !
 ! MIT License
 !
@@ -1808,6 +1808,8 @@ medonet.pl##DIV.placeholder.auto-height.top3
 # mega4upload.com (File hosting service)
 mega4upload.com##div.col-md-4:nth-of-type(3)
 mega4upload.com##.container > .mb-3.row
+! Premium download  ⤵
+mega4upload.net##.p-3 > .row > div.col-md-4:nth-of-type(3)
 
 # MetaCtrl
 @@||metactrl.com^$domain=metactrl.com
