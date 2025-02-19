@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3402
+! Entries: 3403
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.02.18
+! Updated: 2025.02.19
 !
 ! MIT License
 !
@@ -1625,17 +1625,19 @@ poczta.interia.pl##DIV.placeholder
 poczta.interia.pl##HEADER.header-container
 poczta.interia.pl##DIV.navigation__promo-banner[ng-if='::isNavigationPromoBanner'][nxt-navigation-promo-banner]
 poczta.interia.pl##A.settings__app-url[ng-if='::appUrl'][target='_blank'][ng-href^='https://play.google.com/store/apps/details'][href^='https://play.google.com/store/apps/details']
-! Left Menu - Poczta Bez reklam & Pakiet dla firm ⤵️
+! Left Menu - Poczta Bez reklam & Pakiet dla firm ⤵
 poczta.interia.pl##.navigation-scroll-container__visible-content > div:nth-of-type(3)
-! Right Menu - Settings - Poczta bez reklam ⤵️
+! Right Menu - Settings - Poczta bez reklam ⤵
 poczta.interia.pl###wrapper > section.section.section--sidebar:nth-child(5) > div.sidebar > section.section.section--opened-sidebar.section--settings.settings:last-child > div.section__scroll:last-child > ul.settings__links:first-child > li.settings__links__item:nth-child(3) > a.link
-! Right Menu - Settings - Pakiet dla firm ⤵️
+! Right Menu - Settings - Pakiet dla firm ⤵
 poczta.interia.pl###wrapper > section.section.section--sidebar:nth-child(5) > div.sidebar > section.section.section--opened-sidebar.section--settings.settings:last-child > div.section__scroll:last-child > ul.settings__links:first-child > li.settings__links__item:nth-child(4) > a.link
-! Mobile - Left Menu - Settings - Poczta bez reklam ⤵️
+! Mobile - Left Menu - Settings - Poczta bez reklam ⤵
 poczta.interia.pl###wrapper > section.section.section--settings:nth-child(5) > section.section--settings.settings > div.section__scroll > ul.settings__links:nth-child(3) > li.settings__links__item:nth-child(2)
-! Mobile - Left Menu - Settings - Pakiet dla firm ⤵️
+! Mobile - Left Menu - Settings - Pakiet dla firm ⤵
 poczta.interia.pl###wrapper > section.section.section--settings:nth-child(5) > section.section--settings.settings > div.section__scroll > ul.settings__links:nth-child(3) > li.settings__links__item:nth-child(3)
-! Settings - Pakiety Pocztowe - Poczta bez reklam & Pakiet dla firm ⤵️
+! Switch to app ⤵
+poczta.interia.pl##.app-promo-plywak__container
+! Settings - Pakiety Pocztowe - Poczta bez reklam & Pakiet dla firm ⤵
 ustawienia-pocztowe.interia.pl##.nav__list-container__menu-packages.nav__list-container
 
 # Jasper.ai
