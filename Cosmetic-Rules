@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3406
+! Entries: 3408
 !
 ! Expires: 1 hour
 !
@@ -3340,6 +3340,10 @@ zalando-lounge.pl##.headerWrapperstyles__HeaderBannerRow-sc-11kql3e-3:nth-of-typ
 # Zbiornik.com
 @@||zbiornik.com^&stealth=ip|webrtc|
 zbiornik.com##a.zbItem
+! Left Menu - VIP ⤵
+zbiornik.com###mnav > div:nth-of-type(12) > div.zbItem:nth-of-type(2)
+! Left Menu - "Who watched me" (requires VIP) ⤵
+zbiornik.com###mnav > div:nth-of-type(12) > div.zbItem:nth-of-type(3)
 
 # ZEN.com (Zero Effort Non-Bank)
 @@||static.zdassets.com/ekr/snippet.js?key=5df22ff5-ba9c-40c4-937a-af20a874cf9a$domain=my.zen.com
