@@ -1234,8 +1234,7 @@ darkreader.org##.page-grid-ios
 ! Webcam (Your) ⤵
 datezone.com##li.lfvLmC.Item-sc-xcthj4-1:nth-of-type(6)
 ! Install Browser version application ⤵
-datezone.com##.kMFAVe.CommaList-sc-ex8x2n-0 > li:nth-of-type(2) > .ifFXzN.Link-sc-12hh1tw-0")
-datezone.com##.jYkZhf.CommaList-sc-ex8x2n-0 > span:nth-of-type(2)
+datezone.com##.CommaList-sc-ex8x2n-0 > span:nth-of-type(2)
 ! Message - BLIK reminder
 datezone.com##.bzKMhh.Block-sc-7vlbkn-0
 
@@ -2050,6 +2049,7 @@ paypal.com##.gdprCookieBanner_container.gdprCookieBanner_container-custom
 ! Blocked by Dandelion Sprout's Annoyances List
 
 # pdalife.to / pdalife.com
+pdalife.com##.lang-message
 pdalife.com##.main-prem-btn
 pdalife.com##.diamond-list.catalog-actions__link
 mobdisc.com##a.b-download__button:nth-of-type(2)
