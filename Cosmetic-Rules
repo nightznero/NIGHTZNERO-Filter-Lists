@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3409
+! Entries: 3410
 !
 ! Expires: 1 hour
 !
@@ -1562,6 +1562,9 @@ gsmarena.com##DIV.grid_12.top-adv[style='display: flex; justify-content: center;
 ! "GSMArena Daily Deals" ⤵
 gsmarena.com###subHeader2
 
+# GSMManiak [TechManiaK Groups]
+gsmmaniak.pl##div:nth-of-type(5), div:nth-of-type(8), div:nth-of-type(11), div:nth-of-type(16), div:nth-of-type(21), div:nth-of-type(30), div:nth-of-type(36), div:nth-of-type(39), div:nth-of-type(42), div:nth-of-type(47), div:nth-of-type(52), div:nth-of-type(61), div:nth-of-type(67), div:nth-of-type(70), div:nth-of-type(73), div:nth-of-type(78), div:nth-of-type(83), div:nth-of-type(92)
+
 # hCaptcha
 @@||hcaptcha.com/captcha/$script,subdocument
 @@||*.hcaptcha.com^$domain=newassets.hcaptcha.com
@@ -3039,9 +3042,9 @@ myteamspeak.com##.cc-window.cc-banner.cc-type-info.cc-theme-block.cc-bottom.cc-c
 
 # TechManiaK Groups (techManiaK.pl|gsmManiaK.pl|mobiManiaK.pl|fotoManiaK.pl|agdManiaK.pl|rtvManiaK.pl|TabletManiaK.pl|AcerManiaK.pl|gizManiaK.pl|luxManiaK.pl|blogoManiaK.pl|activeManiaK.pl)
 techManiaK.pl,gsmManiaK.pl,mobiManiaK.pl,fotoManiaK.pl,agdManiaK.pl,rtvManiaK.pl,TabletManiaK.pl,AcerManiaK.pl,gizManiaK.pl,luxManiaK.pl,blogoManiaK.pl,activeManiaK.pl##DIV#topMenu
-techManiaK.pl,gsmManiaK.pl,mobiManiaK.pl,fotoManiaK.pl,agdManiaK.pl,rtvManiaK.pl,TabletManiaK.pl,AcerManiaK.pl,gizManiaK.pl,luxManiaK.pl,blogoManiaK.pl,activeManiaK.p##DIV[style='margin:10px auto; text-align:center; font-size:8px;']
-techManiaK.pl,gsmManiaK.pl,mobiManiaK.pl,fotoManiaK.pl,agdManiaK.pl,rtvManiaK.pl,TabletManiaK.pl,AcerManiaK.pl,gizManiaK.pl,luxManiaK.pl,blogoManiaK.pl,activeManiaK.p##DIV[style='margin:0 auto 10px auto; text-align:center; font-size:6px;']
-techManiaK.pl,gsmManiaK.pl,mobiManiaK.pl,fotoManiaK.pl,agdManiaK.pl,rtvManiaK.pl,TabletManiaK.pl,AcerManiaK.pl,gizManiaK.pl,luxManiaK.pl,blogoManiaK.pl,activeManiaK.p##div:nth-of-type(/^[0-9]+$/)
+techManiaK.pl,gsmManiaK.pl,mobiManiaK.pl,fotoManiaK.pl,agdManiaK.pl,rtvManiaK.pl,TabletManiaK.pl,AcerManiaK.pl,gizManiaK.pl,luxManiaK.pl,blogoManiaK.pl,activeManiaK.pl##DIV[style='margin:10px auto; text-align:center; font-size:8px;']
+techManiaK.pl,gsmManiaK.pl,mobiManiaK.pl,fotoManiaK.pl,agdManiaK.pl,rtvManiaK.pl,TabletManiaK.pl,AcerManiaK.pl,gizManiaK.pl,luxManiaK.pl,blogoManiaK.pl,activeManiaK.pl##DIV[style='margin:0 auto 10px auto; text-align:center; font-size:6px;']
+techManiaK.pl,gsmManiaK.pl,mobiManiaK.pl,fotoManiaK.pl,agdManiaK.pl,rtvManiaK.pl,TabletManiaK.pl,AcerManiaK.pl,gizManiaK.pl,luxManiaK.pl,blogoManiaK.pl,activeManiaK.pl##div:nth-of-type(/^[0-9]+$/)
 
 # Teenager365.com
 teenager365.com##.video-archive-ad
