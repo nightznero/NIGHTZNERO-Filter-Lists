@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3404
+! Entries: 3405
 !
 ! Expires: 1 hour
 !
@@ -1063,7 +1063,8 @@ boonga.pl##.ec-fixed.ec-icon.ec-double-btn
 @@||search.brave.com^$ghide
 @@||search.brave.com/api/$first-party
 search.brave.com#@#+js(no-fetch-if, body:browser)
-! Settings - Go to Premium ⤵️
+! Settings - Go to Premium ⤵
+search.brave.com##.inline-cta.svelte-e2ugt3
 search.brave.com##.svelte-p1xqfc.inline-cta > .svelte-yqgdm2.premium-cta
 
 # Brave Browser Forum
