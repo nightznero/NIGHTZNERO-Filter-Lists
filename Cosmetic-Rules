@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3413
+! Entries: 3414
 !
 ! Expires: 1 hour
 !
@@ -996,12 +996,16 @@ apkmirror.com##DIV.gooWidget.google-ad-square-sidebar
 apkmirror.com##DIV.ains.ains-51.ains-apkm_outbrain_ad[style='margin: 8px 0; clear: both;']
 apkmirror.com##ASIDE#ai_widget-3.widget.block-widget
 
-# ApkModDone.com [modding site]
+# ApkModDone.com (modding site)
 @@||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6G52FpzMgsSMCJH53KDb0i_xgVObASMDovfL2DoNwwiCBqUN1Psreb0lUYgH-wLS7FQ1Mh4tnyAP9kvPN-CN-Aktf1qCOpskqlQZqIcWKohWFQNIe8Dyx_FVK6TdQZGg6pUkfjUP0aVZN1YFHS6-vt8TmRUtzkoRGK_xCsArvqFQubLuyGC2LcQHKojFs/s1600/1024x768-clickhere-click.gif$image
 ||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw2ZUETJQOdV4rK4Y*$image
 apkmoddone.com#@#div#ldApGm
 apkmoddone.com##.HTML.widget
 apkmoddone.com##.adB
+
+# APKPure (App store)
+! "Exclusive Download" (APKPure Premium) ⤵
+apkpure.com##.download-vip-subscribe
 
 # Archive.org
 @@||web.archive.org/web^$domain=archive.org|web.archive.org
