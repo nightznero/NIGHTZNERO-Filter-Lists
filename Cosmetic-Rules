@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3416
+! Entries: 3417
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.02.24
+! Updated: 2025.02.25
 !
 ! MIT License
 !
@@ -1476,6 +1476,8 @@ fotka.com##.qQkhj7UhJcUY81KYg1cp
 fotka.com##.LLEyxBLBrJYB7pdVH8L_.tE3EINrAnNNVgWMseUgp
 fotka.com##a.QAOr8FnHznbB5WHz6h6P:nth-of-type(1)
 fotka.com##a.QAOr8FnHznbB5WHz6h6P:nth-of-type(11)
+! Messages - Klub Gwiaz (Star Club)
+fotka.com##.contactsListstyled__List-sc-1pa54q6-3.broOwV > div:nth-of-type(1) > div.contactItemstyled__Container-sc-ekyk4p-3.eIsxnk:nth-of-type(2) > .contactItemstyled__ItemButton-sc-ekyk4p-4.bDVEKE
 
 # Fragrantica (Fragrances / Parfums)
 ! "Fragram Photos" ⤵️
