@@ -1577,7 +1577,7 @@ gsmarena.com###subHeader2
 # GSMManiak [TechManiaK Groups]
 gsmmaniak.pl##div:nth-of-type(5), div:nth-of-type(8), div:nth-of-type(11), div:nth-of-type(16), div:nth-of-type(21), div:nth-of-type(30), div:nth-of-type(36), div:nth-of-type(39), div:nth-of-type(42), div:nth-of-type(47), div:nth-of-type(52), div:nth-of-type(61), div:nth-of-type(67), div:nth-of-type(70), div:nth-of-type(73), div:nth-of-type(78), div:nth-of-type(83), div:nth-of-type(92)
 !gsmmaniak.pl###intertext1 > div:nth-of-type(1), div:nth-of-type(2), div:nth-of-type(3)
-!gsmmaniak.pl##.post-page-content > div:nth-of-type(1), div:nth-of-type(2), div:nth-of-type(3)
+gsmmaniak.pl##.post-page-content > div:nth-of-type(1), div:nth-of-type(2), div:nth-of-type(3)
 
 # hCaptcha
 @@||hcaptcha.com/captcha/$script,subdocument
