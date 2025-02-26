@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3422
+! Entries: 3425
 !
 ! Expires: 1 hour
 !
@@ -3115,23 +3115,28 @@ tiktok.com###main > div.jsx-4200132659.cookie-banner:last-child
 
 # TrakT.tv
 ||trakt.tv/vip^$script,redirect=trakt.tv|
-! Adsss ⤵️
+! Adsss ⤵
 trakt.tv##.add-bottom
 trakt.tv###om1gYCfRiN-wrapper
 trakt.tv###om1gYCfRiN-LD3xSETSnk-Ba2KT6YF2O-wrapper
 trakt.tv###mobile-nav > ul > li:nth-of-type(6)
-! VIP ⤵️
+! VIP ⤵
 trakt.tv##div.title:nth-of-type(8)
 trakt.tv##div.section:nth-of-type(9)
-! "Get VIP" ⤵️
+! "Get VIP" ⤵
 trakt.tv##.btn-vip
-! "Join the VIP beta" buttons ⤵️
+! "Year in Review" ⤵
+trakt.tv##.btn.btn-profile.with-ul-menu.with-solid-bg.selected > .menu > li:nth-of-type(11) > .yir-loader
+! "Month in Review" ⤵
+trakt.tv##.btn.btn-profile.with-ul-menu.with-solid-bg.selected > .menu > li:nth-of-type(12) > .yir-loader
+! "Join the VIP beta" buttons ⤵
 trakt.tv##.vip-signup
-! TrackCast for iOS (VIP) ⤵️
+! TrackCast for iOS (VIP) ⤵
 trakt.tv###traktcasts-ios-beta-wrapper
 # TrakT.tv Lite
 ! VIP ⤵
 app.trakt.tv##.trakt-navbar-links.svelte-7tc3py > .svelte-1fs2n3z > .trakt-action-button.trakt-button-link.svelte-cge2ar
+app.trakt.tv##div.trakt-profile-container.svelte-hfo02n:nth-of-type(1)
 
 # Trash-mail
 ! Sharing on Fb/TT(X)/G+ ⤵
