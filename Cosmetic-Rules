@@ -1141,13 +1141,13 @@ camwhoreshd.com##.fh-line
 ctdi.pl###bannerdown
 
 # ChiaSeAPK (modded apks)
-chiaseapk.com##.section.main-ads-pikihome
 chiaseapk.com###top-ad-placeholder
 chiaseapk.com###bottom-ad-placeholder
+chiaseapk.com##.banner-qc
+chiaseapk.com##.section.main-ads-pikihome
+chiaseapk.com##.qc
 chiaseapk.com##div#new-top-ad-placeholder
 chiaseapk.com##div#new-bottom-ad-placeholder
-chiaseapk.com##.banner-qc
-chiaseapk.com##.qc
 
 # CHILLWAGON
 chillwagonthegame.com##.cb-wrapper
@@ -1670,7 +1670,7 @@ katfile.com#@#div.free-class.col-xs-6
 katfile.com##div.premium-class.col-xs-6
 ! Fake "Download" button ⤵
 katfile.com###container > p:nth-of-type(1)
-katfile.com##p:nth-of-type(2)
+katfile.com###container > p:nth-of-type(2)
 
 # Kemono.party
 @@||c*.kemono.party/data^
