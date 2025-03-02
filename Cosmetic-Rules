@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3436
+! Entries: 3438
 !
 ! Expires: 1 hour
 !
@@ -1714,6 +1714,8 @@ lento.pl##.hidden-xs.relative.accounttabs > li.noactive:nth-of-type(5)
 lento.pl##.sidebar-nav > li:nth-of-type(7)
 ! "Wypromuj" ogłoszenie ⤵️
 lento.pl##.margin-bottom-0 > li:nth-of-type(1)
+! "Opłać" ⤵
+lento.pl##[href*="https://www.lento.pl/potwierdz-i-zaplac.html"]
 ! Dodaj na Facebook ⤵️
 lento.pl##.margin-bottom-0 > li:nth-of-type(5)
 lento.pl##.margin-bottom-0 > li:nth-of-type(6)
@@ -3341,6 +3343,7 @@ xvideos.com##.ic
 
 # Yandex
 ## Yandex Disk
+disk.yandex.com##.PSHeader-Left
 ! Blank/Empty space ⤵
 disk.yandex.com##.direct.direct-public.direct-public_platform_desktop.direct-public_position_top.direct-public_album
 disk.yandex.com##.direct.direct-public.direct-public_platform_mobile.direct-public_position_top.direct-public_album
