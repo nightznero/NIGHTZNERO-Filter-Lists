@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3443
+! Entries: 3447
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.03.03
+! Updated: 2025.03.04
 !
 ! MIT License
 !
@@ -1736,9 +1736,18 @@ lento.pl##.coupon-black
 ! LinkedIn Premium garbage ⤵
 linkedin.com##.premium-upsell-link
 linkedin.com##.premium-upsell-link--extra-long
-linkedin.com##.display-flex.pvs-premium-upsell__container--align-start
+linkedin.com##.pvs-premium-upsell__container--align-start
 linkedin.com##.mb2.ph1.overflow-hidden.artdeco-card
-linkedin.com##.cnuththc.cnuthtgw.cnutht14.cnutht180.cnuthte0.cnuthtaw > .en2g8a0 > .cnuththc.cnuthtgw.cnuthte0.cnuthtaw > li.cnuthtg3.cnuthteo.en2g8a1:nth-of-type(2) > ._1s9oaxgl._1s9oaxgi._1s9oaxgb.cnutht1hc._1ptbkx61zv._1ptbkx61zc._1mamebb2._1s9oaxg7.cnutht17k._1ptbkx6cw.cnuthtdk.cnuthtaw._139m7k1bn._139m7k1bp._139m7k1bi._1xoe5hd0.h8e4ml0._139m7k7f.cnutht0._1gbw7kg1
+! "Achieve your goals faster with Premium" ⤵
+linkedin.com##.cnuthtaw > .cnuthtjc.cnuthtds.cnuthtb4 > ._1xoe5hd3.cnutht1h4._139m7k23._85ptzzr.h8e4ml5o
+! "Enhance Profile" (Premium) ⤵
+linkedin.com##.ember-view.artdeco-button--secondary.artdeco-button--2.artdeco-button.pvs-profile-actions__custom-action-scaled
+! "Get AI suggestions with Premium" ⤵
+linkedin.com##.ai-suggestions-bar
+! "Profile enhanced with Premium" ⤵
+linkedin.com##.pv-top-card__premium-feature-banner
+! "Try Premium" ⤵
+linkedin.com##._1k2lxme12w.en2g8a0 > .cnuththk.cnuthth4.cnuthte8.cnuthtb4 > li.cnuthtgb.cnuthtew.en2g8a1:nth-of-type(2)
 
 # LocalCDN AdBlocker Rules (2022.04.18) <66>
 @@||ajax.googleapis.com^
