@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3454
+! Entries: 3456
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.03.06
+! Updated: 2025.03.07
 !
 ! MIT License
 !
@@ -1645,8 +1645,12 @@ infidrive.net##[href="/buy"]
 ||instagram.com/logging_client_events
 ||instagram.com/ajax/bz
 
-# Instander (Instagram mod) [The_Dise]
+# Instagram modZ (Fake sites of Instagram mod legit projects)
+## InstFlow [Krogon500 × Marcos Shiinaider] (marcosshiinaider.com)
+||^instaflow^.^$all,important
+## Instander [The_Dise] (thedise.me/instander)
 @@||thedise.me/locales/*/ns.*.json$domain=thedise.me
+||^instander^.^$all,important
 
 # Intercity.pl
 intercity.pl###ic-top-message-icmobile
