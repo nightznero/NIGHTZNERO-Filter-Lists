@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3458
+! Entries: 3459
 !
 ! Expires: 1 hour
 !
@@ -2923,6 +2923,10 @@ sankaku.app##.jss491
 sankaku.app##.MuiPaper-rounded.MuiPaper-elevation1
 sankaku.app##.MuiPaper-rounded.MuiPaper-elevation1.jss858.MuiCard-root.MuiPaper-root
 sankaku.app##.MuiPaper-rounded.MuiPaper-elevation1.jss907.MuiCard-root.MuiPaper-root
+
+# Scira.AI (PerplxMini) - Grok 2 | Grok 2 Vision | Calude 3.7 Sonnet | LLaMa 3.3 70B
+! "Install Scira" ⤵
+scira.ai##.rounded-xl.text-card-foreground.p-4.bg-white.dark\:bg-neutral-900.border.border-neutral-200.dark\:border-neutral-800.shadow-lg
 
 # SendVid (Video hosting service)
 sendvid.com##DIV._ln-floater[style='overflow: visible; height: 100px;']
