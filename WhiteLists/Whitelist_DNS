@@ -11,11 +11,11 @@
 !
 ! Description: Created for my own but if you are normal guy like me and some lists block daily apps,that's whitelist is for ya
 !
-! Entries: 707
+! Entries: 709
 !
 ! Expires: 1 days
 !
-! Updated: 2025.01.27
+! Updated: 2025.03.18
 !
 ! MIT License
 !
@@ -1017,6 +1017,7 @@
 
 # Twitch.tv
 @@||gql.twitch.tv^
+@@||irc-ws.chat.twitch.tv^
 @@||mp.twitch.tv^
 @@||spade.sci.twitch.tv^
 
@@ -1033,6 +1034,7 @@
 @@||cdn.7tv.app^
 @@||7tv.io^
 @@||pronouns.alejo.io^
+@@||recent-messages.robotty.de^
 
 # TwitchMod / OrangeTV / PurpleTV
 ! Blocked by HaGeZi - Multi Pro++ ⤵
