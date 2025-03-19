@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3461
+! Entries: 3463
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.03.18
+! Updated: 2025.03.19
 !
 ! MIT License
 !
@@ -2843,6 +2843,8 @@ reddit.com##DIV._1b1Jalg2nxA_Z-BjKXRfAV
 ||api.redgifs.com/v*/ads^$important
 ||api.redgifs.com/v*/metrics^$important
 ||redgifs.com/assets/js/goCtrl.js$important
+! RedGifs "app" ⤵
+redgifs.com##.burgerMenuNav > li.burgerMenuItem:nth-of-type(2) > .menuItem
 
 # RedTube
 ||*.redtube.com$script,redirect=redtube.com|~www.redtube.com|
@@ -3199,6 +3201,7 @@ trakt.tv##.vip-signup
 trakt.tv###traktcasts-ios-beta-wrapper
 ## TrakT.tv Lite
 ! VIP ⤵
+app.trakt.tv##.trakt-vip-badge
 app.trakt.tv##.trakt-navbar-links.svelte-7tc3py > .svelte-1fs2n3z > .trakt-action-button.trakt-button-link.svelte-cge2ar
 app.trakt.tv##div.trakt-profile-container.svelte-hfo02n:nth-of-type(1)
 ! Watch Trailer (Rick Astley - Never Gonna Give You Up) ⤵
