@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3463
+! Entries: 3465
 !
 ! Expires: 1 hour
 !
@@ -1183,6 +1183,10 @@ chomikuj.pl##.stayHomePromo_bnUser
 claude.ai##.rounded-full.gap-1\.5.items-center.inline-flex.ml-0\.5.top-3\.5.right-2.absolute.border-0\.5
 claude.ai##.bg-accent-pro-900
 claude.ai##.border-accent-pro-200
+
+# ClothOff (Clothes Remover) ⤵
+clothoff.*###divInstallApp
+clothoff.*##.footer_get_app_btns__tF12v
 
 # CloudFlare.com
 @@||challenges.cloudflare.com^$stealth
