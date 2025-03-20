@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3465
+! Entries: 3466
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.03.19
+! Updated: 2025.03.20
 !
 ! MIT License
 !
@@ -2802,6 +2802,8 @@ presearch.com##DIV.sx-top-bar-products.sx-touch
 presearch.com##.md\:block
 presearch.com##.p-4.text-white.md\:w-max.w-full.md\:hidden > .mb-1
 presearch.com##.dark\:border-gray-900.border-gray-200.border-t.z-70.bg-white.md\:hidden.w-full.bottom-0.fixed.pta-search-mobile
+! "Invest in PreSearch" ⤵
+presearch.com##.mb-2.mt-2.justify-center.items-center.text-white.lg\:max-w-2xl.md\:max-w-xl.flex-col.\31 360px\:hidden.flex.text-sm
 
 # Przelewy24.pl
 przelewy24.pl##.promotion__xpay
