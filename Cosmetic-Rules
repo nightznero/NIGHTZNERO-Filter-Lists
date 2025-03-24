@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3468
+! Entries: 3469
 !
 ! Expires: 1 hour
 !
@@ -1164,6 +1164,8 @@ chillwagonthegame.com##.cookie-bubble.bottom-left.show
 # Chomikuj.pl
 ! "Chomikowe Rozmowy" ⤵
 chomikuj.pl###chatContainer
+! "Materiały Partnerów"
+chomikuj.pl##.pp_frame
 ! "Materiały Partnerów" while download ⤵
 chomikuj.pl###ui-tooltip
 chomikuj.pl##.pp_download_frame.pp_frame
