@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3469
+! Entries: 3470
 !
 ! Expires: 1 hour
 !
@@ -3004,6 +3004,8 @@ smailpro.com##.text-center.my-4.mb-8.md\:leading-\[3\.5rem\].md\:text-5xl.sm\:te
 smailpro.com##.shadow-inner.p-4.rounded-lg.border
 smailpro.com##div.sm\:text-left.text-center.px-2
 smailpro.com##.mt-2.h-24.w-full
+! Empty space between emails ⤵
+smailpro.com##.w-full.h-24.mt-2
 ! "Cloud" storage of emails ⤵
 smailpro.com##.hover\:bg-gray-100.hover\:text-gray-900.rounded-lg.py-3.px-4.inline-block
 
