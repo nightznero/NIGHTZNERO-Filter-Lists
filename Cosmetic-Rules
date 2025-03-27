@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3470
+! Entries: 3472
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.03.24
+! Updated: 2025.03.27
 !
 ! MIT License
 !
@@ -916,6 +916,12 @@ tracking.bp01.net
 4pda.*##[target] [src*="s.4pda.to"][alt=""][title=""][border="0"]
 4pda.*##[valign="top"] > > :not(#logostrip)
 4pda.*##.menu-main-mobile > li.menu-main-item:nth-of-type(6)
+
+# AdGuard DNS
+! Free Trial ⤵
+adguard-dns.io##.VaHxGEve9AQSseWXP1BB.uFIS7gsB1Ei42jK5TEZo .lPtkFeto0cofrNui9kQF
+! Upgrade ⤵
+adguard-dns.io##.gSvJAHmZjsYYSbAoDSqy
 
 # Aero Mods (Aero WhatsApp - Instagram - Twitter)
 aeroinsta.com#@#.image-block
