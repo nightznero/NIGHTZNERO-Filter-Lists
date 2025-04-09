@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3478
+! Entries: 3479
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.04.08
+! Updated: 2025.04.09
 !
 ! MIT License
 !
@@ -1753,6 +1753,8 @@ lento.pl##.user-offer-info
 lento.pl##[id="ads"]
 ! Notification about Search
 lento.pl##.box-notify-list.notifys
+! "Powiadom o podobnych ogłoszeniach" ⤵
+lento.pl##.bx-send-alert-showad
 ! Płatności ⤵️
 lento.pl##.hidden-xs.relative.accounttabs > li.noactive:nth-of-type(4)
 lento.pl##.sidebar-nav > li:nth-of-type(6)
