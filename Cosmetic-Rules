@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3486
+! Entries: 3487
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.04.15
+! Updated: 2025.04.16
 !
 ! MIT License
 !
@@ -2046,6 +2046,8 @@ oglaszamy24.pl##.my_paid_btn
 oglaszamy24.pl##div.chg_btn_c2:nth-of-type(10)
 ! Zmień na Wyróżnione ⤵
 oglaszamy24.pl##div.chg_btn_c1:nth-of-type(9)
+! Safety warning notification "Zachowaj bezpieczeństwo! Pieniądze przekazuj WYŁĄCZNIE osobiście"  ⤵
+oglaszamy24.pl##.std_box2 > .pad > div:nth-of-type(5)
 ! Android app ⤵
 oglaszamy24.pl###get_app_box
 
