@@ -15,7 +15,7 @@
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.04.16
+! Updated: 2025.04.21
 !
 ! MIT License
 !
@@ -1488,7 +1488,7 @@ filman.cc###user-tools > ul > li:nth-of-type(2)
 ! Serial - "Subskrybuj" (Premium required) ⤵
 filman.cc##div.text-center:nth-of-type(4)
 ! Player Ad load ⤵
-filman.cc###kam-ban-player
+!■filman.cc###kam-ban-player
 ! Top Ad ⤵
 filman.cc##center
 ! Premium player "Unlimited player" ⤵
