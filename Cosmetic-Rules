@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3487
+! Entries: 3488
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.04.21
+! Updated: 2025.04.22
 !
 ! MIT License
 !
@@ -1488,7 +1488,8 @@ filman.cc###user-tools > ul > li:nth-of-type(2)
 ! Serial - "Subskrybuj" (Premium required) ⤵
 filman.cc##div.text-center:nth-of-type(4)
 ! Player Ad load ⤵
-!■filman.cc###kam-ban-player
+filman.cc#@##frame
+filman.cc###kam-ban-player
 ! Top Ad ⤵
 filman.cc##center
 ! Premium player "Unlimited player" ⤵
