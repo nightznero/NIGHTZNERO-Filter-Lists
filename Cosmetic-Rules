@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3489
+! Entries: 3491
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.05.09
+! Updated: 2025.05.13
 !
 ! MIT License
 !
@@ -3228,6 +3228,9 @@ torproject.org##.px-2.h4
 
 # TrakT.tv
 ||trakt.tv/vip^$script,redirect=trakt.tv|
+! Cookies ⤵
+trakt.tv##div[class="trakt-cookie-notice svelte-11d19wl"]
+trakt.tv##div[class="trakt-cookie-underlay svelte-11d19wl"]
 ! Adsss ⤵
 trakt.tv##.add-bottom
 trakt.tv###om1gYCfRiN-wrapper
