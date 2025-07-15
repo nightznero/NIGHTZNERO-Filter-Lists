@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3493
+! Entries: 3494
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.06.12
+! Updated: 2025.07.15
 !
 ! MIT License
 !
@@ -1756,6 +1756,9 @@ kemono.su##[href="https://kemono.su/matrix"]
 @@||kiwibrowser.com^
 ! Blocked by 1Hosts - Pro
 
+# Komputer Świat
+komputerswiat.pl##.ods-ads__ph.ods-ads__ph--floating
+
 # Lento.pl
 lento.pl###updatepush-coupon
 lento.pl###a-list-boottom
@@ -3006,14 +3009,14 @@ simpcity.su#@#IFRAME.saint-iframe[src][height='auto'][width='auto'][style='borde
 simpcity.su##[href^="https://catflix.su/"]
 simpcity.su##.p-body-content > div:nth-of-type(2)
 ! Info and Links - Ads ⤵️
-simpcity.su##.node--link.node--depth2.node--id95.node
-simpcity.su##.node--link.node--depth2.node--id107.node
-simpcity.su##.node--link.node--depth2.node--id119.node
-simpcity.su##.node--link.node--depth2.node--id122.node
-simpcity.su##.node--link.node--depth2.node--id125.node
-simpcity.su##.node--link.node--depth2.node--id128.node
-simpcity.su##.node--link.node--depth2.node--id129.node
-simpcity.su##.node--link.node--depth2.node--id130.node
+simpcity.su##.node--id95
+simpcity.su##.node--id107
+simpcity.su##.node--id119
+simpcity.su##.node--id122
+simpcity.su##.node--id125
+simpcity.su##.node--id128
+simpcity.su##.node--id129
+simpcity.su##.node--id130
 ! Promotion Section - Verified models ⤵️
 simpcity.su##.block--category65.block--category.block
 ! Transgender - Transgender ⤵️
