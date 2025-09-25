@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3495
+! Entries: 3496
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.09.20
+! Updated: 2025.09.25
 !
 ! MIT License
 !
@@ -1704,15 +1704,17 @@ poczta.interia.pl##DIV.placeholder
 poczta.interia.pl##HEADER.header-container
 poczta.interia.pl##DIV.navigation__promo-banner[ng-if='::isNavigationPromoBanner'][nxt-navigation-promo-banner]
 ! Left Menu - Poczta Bez reklam & Pakiet dla firm ⤵
-poczta.interia.pl##.navigation-scroll-container__visible-content > div:nth-of-type(3)
+!(issue)poczta.interia.pl##.navigation-scroll-container__visible-content > div:nth-of-type(3)
 ! Right Menu - Settings - Poczta bez reklam ⤵
 poczta.interia.pl###wrapper > section.section.section--sidebar:nth-child(5) > div.sidebar > section.section.section--opened-sidebar.section--settings.settings:last-child > div.section__scroll:last-child > ul.settings__links:first-child > li.settings__links__item:nth-child(3) > a.link
 ! Right Menu - Settings - Pakiet dla firm ⤵
 poczta.interia.pl###wrapper > section.section.section--sidebar:nth-child(5) > div.sidebar > section.section.section--opened-sidebar.section--settings.settings:last-child > div.section__scroll:last-child > ul.settings__links:first-child > li.settings__links__item:nth-child(4) > a.link
 ! Mobile - Left Menu - Settings - Poczta bez reklam ⤵
-poczta.interia.pl###wrapper > section.section.section--settings:nth-child(5) > section.section--settings.settings > div.section__scroll > ul.settings__links:nth-child(3) > li.settings__links__item:nth-child(2)
+!(issue)poczta.interia.pl###wrapper > section.section.section--settings:nth-child(5) > section.section--settings.settings > div.section__scroll > ul.settings__links:nth-child(3) > li.settings__links__item:nth-child(2)
 ! Mobile - Left Menu - Settings - Pakiet dla firm ⤵
-poczta.interia.pl###wrapper > section.section.section--settings:nth-child(5) > section.section--settings.settings > div.section__scroll > ul.settings__links:nth-child(3) > li.settings__links__item:nth-child(3)
+!(issue)poczta.interia.pl###wrapper > section.section.section--settings:nth-child(5) > section.section--settings.settings > div.section__scroll > ul.settings__links:nth-child(3) > li.settings__links__item:nth-child(3)
+! Open App ⤵
+poczta.interia.pl##.navigation-promo-banner__icon.navigation-button
 ! Switch to app ⤵
 poczta.interia.pl##.app-promo-plywak__container
 poczta.interia.pl##A.settings__app-url[ng-if='::appUrl'][target='_blank'][ng-href^='https://play.google.com/store/apps/details'][href^='https://play.google.com/store/apps/details']
