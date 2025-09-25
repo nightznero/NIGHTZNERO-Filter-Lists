@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3496
+! Entries: 3498
 !
 ! Expires: 1 hour
 !
@@ -1703,7 +1703,10 @@ poczta.interia.pl##div.ad[nxt-ad-place]
 poczta.interia.pl##DIV.placeholder
 poczta.interia.pl##HEADER.header-container
 poczta.interia.pl##DIV.navigation__promo-banner[ng-if='::isNavigationPromoBanner'][nxt-navigation-promo-banner]
-EMPTY
+! Left Menu - "Poczta bez reklam"
+poczta.interia.pl##.navigation-list.navigation-list--promoplace > li.navigation-item:nth-of-type(1)
+! Left Menu - "PocztaPRO"
+poczta.interia.pl##.navigation-list.navigation-list--promoplace > li.navigation-item:nth-of-type(2)
 ! Right Menu - Settings - Poczta bez reklam ⤵
 poczta.interia.pl###wrapper > section.section.section--sidebar:nth-child(5) > div.sidebar > section.section.section--opened-sidebar.section--settings.settings:last-child > div.section__scroll:last-child > ul.settings__links:first-child > li.settings__links__item:nth-child(3) > a.link
 ! Right Menu - Settings - Pakiet dla firm ⤵
