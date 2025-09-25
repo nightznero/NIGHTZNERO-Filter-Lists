@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3496
+! Entries: 3497
 !
 ! Expires: 1 hour
 !
@@ -3057,20 +3057,22 @@ smailpro.com##.w-full.h-24.mt-2
 smailpro.com##.hover\:bg-gray-100.hover\:text-gray-900.rounded-lg.py-3.px-4.inline-block
 
 # SocialMediaGirls (SMG Forum)
-! hCaptcha (Whitelist) ⤵️
+! hCaptcha (Whitelist) ⤵
 forums.socialmediagirls.com#@#dl.formRow:nth-of-type(10)
-! Blog ⤵️
+! Blog ⤵
 forums.socialmediagirls.com##.js-offCanvasNavSource.p-nav-list > li:nth-of-type(2) > .rippleButton.u-ripple.p-navEl > .p-navEl-link
 forums.socialmediagirls.com##li:nth-of-type(2) > .offCanvasMenu-linkHolder > .offCanvasMenu-link
-! Self Promotion - Self Promotion ⤵️
+! Self Promotion - Self Promotion ⤵
 forums.socialmediagirls.com##.block--category57.block--category.block
-! More Categories - Transgender/Non-Binary ⤵️
+! More Categories - Transgender/Non-Binary ⤵
 forums.socialmediagirls.com##.node--unread.node--forum.node--depth2.node--id76.node
-! More Categories - Male/Gay ⤵️
+! More Categories - Male/Gay ⤵
 forums.socialmediagirls.com##.node--unread.node--forum.node--depth2.node--id157.node
 ! Foreign Languages - Brazilian/Portuguese French Hungarian Spanish ⤵️
 forums.socialmediagirls.com##.block--category131.block--category.block
-! Left Menu - Mobile ⤵️
+! "Daily Login Streak" Who cares my guyz,really ⤵
+forums.socialmediagirls.com##.block-row.block-row--separated
+! Left Menu - Mobile ⤵
 forums.socialmediagirls.com##li:nth-of-type(4) > .offCanvasMenu-linkHolder > .offCanvasMenu-link
 forums.socialmediagirls.com##li:nth-of-type(5) > .offCanvasMenu-linkHolder > .offCanvasMenu-link
 forums.socialmediagirls.com##li:nth-of-type(7) > .offCanvasMenu-linkHolder > .offCanvasMenu-link
@@ -3089,7 +3091,7 @@ soundcloud.com#@$#.volume__sliderWrapper { bottom: 6px !important; }
 soundcloud.com##.announcement.g-dark.m-dismiss-visible
 
 # soundcore.com [Anker]
-! Cookies notification ⤵️
+! Cookies notification ⤵
 soundcore.com##.slide.bar
 
 # SquareSpace
@@ -3117,7 +3119,7 @@ soundcore.com##.slide.bar
 ||vf.startpage.com^
 ||startpage.com^$removeparam=segment
 startpage.com###gcsa-top
-! Get the app ⤵️
+! Get the app ⤵
 startpage.com##.home-app-promo
 startpage.com##.app-banner-promo-container
 
