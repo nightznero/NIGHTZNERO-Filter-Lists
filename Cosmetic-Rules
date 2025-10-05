@@ -15,7 +15,7 @@
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.09.25
+! Updated: 2025.10.05
 !
 ! MIT License
 !
@@ -2999,36 +2999,36 @@ showup.tv###new-regulations-and-privacy-modal-background
 ! Google prehistoric translate ⤵
 showup.tv##.skiptranslate
 
-# SimpCity
-simpcity.su#@#.js-messageContent.message-content
-simpcity.su#@#.bbWrapper
-simpcity.su#@#DIV.generic2wide-iframe-div
-simpcity.su#@#.generic2wide-iframe-div
-simpcity.su#@#.structItem-pageJump
-simpcity.su#@#IFRAME.saint-iframe[src][height='auto'][width='auto'][style='border:none;'][loading='lazy'][allow='fullscreen;'][allowfullscreen='true']
-simpcity.su##[href^="https://catflix.su/"]
-simpcity.su##.p-body-content > div:nth-of-type(2)
+# SimpCity .su|.cr
+simpcity.*#@#.js-messageContent.message-content
+simpcity.*#@#.bbWrapper
+simpcity.*#@#DIV.generic2wide-iframe-div
+simpcity.*#@#.generic2wide-iframe-div
+simpcity.*#@#.structItem-pageJump
+simpcity.*#@#IFRAME.saint-iframe[src][height='auto'][width='auto'][style='border:none;'][loading='lazy'][allow='fullscreen;'][allowfullscreen='true']
+simpcity.*##[href^="https://catflix.su/"]
+simpcity.*##.p-body-content > div:nth-of-type(2)
 ! Info and Links - Ads ⤵️
-simpcity.su##.node--id95
-simpcity.su##.node--id107
-simpcity.su##.node--id119
-simpcity.su##.node--id122
-simpcity.su##.node--id125
-simpcity.su##.node--id128
-simpcity.su##.node--id129
-simpcity.su##.node--id130
+simpcity.*##.node--id95
+simpcity.*##.node--id107
+simpcity.*##.node--id119
+simpcity.*##.node--id122
+simpcity.*##.node--id125
+simpcity.*##.node--id128
+simpcity.*##.node--id129
+simpcity.*##.node--id130
 ! Promotion Section - Verified models ⤵️
-simpcity.su##.block--category65.block--category.block
+simpcity.*##.block--category65.block--category.block
 ! Transgender - Transgender ⤵️
-simpcity.su##.block--category101.block--category.block
+simpcity.*##.block--category101.block--category.block
 ! Brasileiras - Trans ⤵️
-simpcity.su##.node-subNodeFlatList > li:nth-of-type(10)
+simpcity.*##.node-subNodeFlatList > li:nth-of-type(10)
 ! Left Menu - Mobile ⤵️
-simpcity.su##.offCanvasMenu-list > li:nth-of-type(3)
-simpcity.su##.offCanvasMenu-list > li:nth-of-type(4)
-simpcity.su##.offCanvasMenu-list > li:nth-of-type(5)
-simpcity.su##.offCanvasMenu-list > li:nth-of-type(6)
-simpcity.su##.offCanvasMenu-list > li:nth-of-type(7)
+simpcity.*##.offCanvasMenu-list > li:nth-of-type(3)
+simpcity.*##.offCanvasMenu-list > li:nth-of-type(4)
+simpcity.*##.offCanvasMenu-list > li:nth-of-type(5)
+simpcity.*##.offCanvasMenu-list > li:nth-of-type(6)
+simpcity.*##.offCanvasMenu-list > li:nth-of-type(7)
 
 # Skąpiec.pl
 skapiec.pl##DIV.topAdContainer
