@@ -15,7 +15,7 @@
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.10.08
+! Updated: 2025.10.09
 !
 ! MIT License
 !
@@ -3064,10 +3064,10 @@ forums.socialmediagirls.com##.block--category57.block--category.block
 forums.socialmediagirls.com##.node--unread.node--forum.node--depth2.node--id76.node
 ! More Categories - Male/Gay ⤵
 forums.socialmediagirls.com##.node--unread.node--forum.node--depth2.node--id157.node
-! Foreign Languages - Brazilian/Portuguese French Hungarian Spanish ⤵️
+! Foreign Languages - Brazilian/Portuguese French Hungarian Spanish  ⤵
 forums.socialmediagirls.com##.block--category131.block--category.block
 ! "Daily Login Streak" Who cares my guyz,really ⤵
-!(BROKEN)forums.socialmediagirls.com##.block-row.block-row--separated
+forums.socialmediagirls.com##.streakStats
 ! Left Menu - Mobile ⤵
 forums.socialmediagirls.com##li:nth-of-type(4) > .offCanvasMenu-linkHolder > .offCanvasMenu-link
 forums.socialmediagirls.com##li:nth-of-type(5) > .offCanvasMenu-linkHolder > .offCanvasMenu-link
