@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3492
+! Entries: 3494
 !
 ! Expires: 1 hour
 !
@@ -3361,6 +3361,9 @@ uploadrar.com,getpczone.com,rahim-soft.com,fingau.com##.banner1
 uploadrar.com,getpczone.com,rahim-soft.com,fingau.com##.banner2
 uploadrar.com,getpczone.com,rahim-soft.com,fingau.com##.banner3
 uploadrar.com,getpczone.com,rahim-soft.com,fingau.com##.banner4
+uploadrar.com,getpczone.com,rahim-soft.com,fingau.com##.btn.btn-primary.submit-btn.m-2
+! "XFileSharing Features" (Premium) ⤵
+uploadrar.com,getpczone.com,rahim-soft.com,fingau.com##.premiumTable
 
 # Uphold (Wallet)
 @@||uphold.com/authorize^$stealth
