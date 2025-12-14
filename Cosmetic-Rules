@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3508
+! Entries: 3509
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.11.14
+! Updated: 2025.12.14
 !
 ! MIT License
 !
@@ -3375,6 +3375,7 @@ unsee.cc##BUTTON.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorInheri
 upfiles.com##body > div:nth-of-type(3)
 upfiles-urls.com##body > div:nth-of-type(3)
 upfiles.app##body > div:nth-of-type(3)
+upfion.com##.premium
 
 # UploadrAr.com (File hosting service)
 uploadrar.com,getpczone.com,rahim-soft.com,fingau.com##.banner1
