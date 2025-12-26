@@ -15,7 +15,7 @@
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.12.14
+! Updated: 2025.12.26
 !
 ! MIT License
 !
@@ -1556,9 +1556,9 @@ fotka.com##.contactsListstyled__List-sc-1pa54q6-3.broOwV > div:nth-of-type(1) > 
 
 # Fragrantica (Fragrances / Parfums)
 ! "Fragram Photos" ⤵️
-fragrantica.com##div.small-12.cell:nth-of-type(6)
+!!FIX fragrantica.com##div.small-12.cell:nth-of-type(6)
 ! "Right now on eBuy" ⤵️
-fragrantica.com##.grid-padding-y.grid-padding-x.bg-white.grid-x > div.small-12.cell:nth-of-type(8)
+!!FIX fragrantica.com##.grid-padding-y.grid-padding-x.bg-white.grid-x > div.small-12.cell:nth-of-type(8)
 
 # freestreams-live.my (FameMMA | HIGH League | CloutMMA)
 @@||embedstream.me^$domain=freestreams-live.my/fame-mma-stream
