@@ -11,15 +11,15 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3513
+! Entries: 3515
 !
 ! Expires: 1 hour
 !
-! Updated: 2025.12.31
+! Updated: 2026.01.28
 !
 ! MIT License
 !
-! Copyright (c) 2025 NIGHTZNERO
+! Copyright (c) 2026 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # Fanboy missing elements
 #@#/puzzle_captcha.min.js
@@ -2915,8 +2915,11 @@ reddit.com##DIV._1b1Jalg2nxA_Z-BjKXRfAV
 ||api.redgifs.com/v*/ads^$important
 ||api.redgifs.com/v*/metrics^$important
 ||redgifs.com/assets/js/goCtrl.js$important
+redgifs.com##.liveAdButton
+! RedGifs "Cams" ⤵
+redgifs.com##.burgerMenuNav > li.burgerMenuItem:nth-of-type(1) > .menuItem
 ! RedGifs "app" ⤵
-redgifs.com##.burgerMenuNav > li.burgerMenuItem:nth-of-type(2) > .menuItem
+redgifs.com##.burgerMenuNav > li.burgerMenuItem:nth-of-type(3) > .menuItem
 
 # RedTube
 ||*.redtube.com$script,redirect=redtube.com|~www.redtube.com|
