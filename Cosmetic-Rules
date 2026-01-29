@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3518
+! Entries: 3496
 !
 ! Expires: 1 hour
 !
@@ -2950,32 +2950,10 @@ redtube.com,redtube.net###paid_tabs_list
 redtube.com,redtube.net##.top_popular_category.clearfix
 redtube.com,redtube.net###show_page_streamate
 redtube.com,redtube.net###ab_banner
-redtube.com,redtube.net###content_container > div.search_results_streamate.clearfix:nth-child(6)
-redtube.com,redtube.net##.ane0q62003bmv.clearfix
-redtube.com,redtube.net##.l676v.clearfix
-redtube.com,redtube.net##.xt18vnore08bjy2v.clearfix
-redtube.com,redtube.net##.wj17iv.clearfix
-redtube.com,redtube.net##.skedov.clearfix
-redtube.com,redtube.net##.ane0q62003bmr.ane0q62003bmu.hd
-redtube.com,redtube.net##.l676r.l676u.hd
-redtube.com,redtube.net##.xt18vnore08bjy2r.xt18vnore08bjy2u.hd
-redtube.com,redtube.net##.skedor.skedou.hd
-redtube.com,redtube.net##.v6l8r6f
-redtube.com,redtube.net##.t57idio53h6m50ww.t57idio53h6m50wc
-redtube.com,redtube.net##.igsymlycaw
-redtube.com,redtube.net##.rcs2wy1aggi267cof
-redtube.com,redtube.net##.wuufdomhiv
-redtube.com,redtube.net##.lelyjskmai
-redtube.com,redtube.net##.mgsniizodc
-redtube.com,redtube.net##.lg8unlozng1kuf
-redtube.com,redtube.net##.x26fddf
-redtube.com,redtube.net##.vhlcu54qu4kp6w.vhlcu54qu4kp6c
-redtube.com,redtube.net##.crdawlldykegw.crdawlldykegc
-redtube.com,redtube.net##.ucy2oah4t4kw.ucy2oah4t4kc
-redtube.com,redtube.net##.j53ml3w.j53ml3c
-redtube.com,redtube.net##.tbsamrv7qv3f
-redtube.com,redtube.net##.kze9tw.kze9tc
-redtube.com,redtube.net##.uf9iw7uaw.uf9iw7uac
+redtube.com,redtube.net###paid_tab_01
+redtube.com,redtube.net###paid_tab_02
+redtube.com,redtube.net###paid_tab_03
+redtube.com,redtube.net##.upgradeButtonContainer
 
 # Rentry.co
 ||rentry.co/neizoi-c7rr^$important
