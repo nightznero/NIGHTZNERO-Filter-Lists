@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3521
+! Entries: 3518
 !
 ! Expires: 1 hour
 !
-! Updated: 2026.01.28
+! Updated: 2026.01.29
 !
 ! MIT License
 !
@@ -3389,9 +3389,6 @@ unsee.cc##BUTTON.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorInheri
 unsee.cc##BUTTON.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorInherit.MuiIconButton-edgeEnd.MuiIconButton-sizeLarge.css-1be1j1n[tabindex='0'][type='button'][aria-label='Unsee solidaryzuje się z narodem ukraińskim przeciwko rosyjskiej inwazji. Dowiedz się, jak możesz pomóc.']
 
 # upfiles.com (File hosting service)
-upfiles.com##body > div:nth-of-type(3)
-upfiles-urls.com##body > div:nth-of-type(3)
-upfiles.app##body > div:nth-of-type(3)
 upfion.com##.premium
 
 # UploadrAr.com (File hosting service)
