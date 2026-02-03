@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3494
+! Entries: 3497
 !
 ! Expires: 1 hour
 !
@@ -997,6 +997,11 @@ androidauthority.com##DIV.---___9b
 androidauthority.com##DIV.---___af.---___bf.---___Tl.---___Xl
 androidauthority.com##DIV.---___Tb.---___Qk
 androidauthority.com##DIV.---___d.---____b.---___Qk
+! Top ads  ⤵
+androidauthority.com##.e_Dc
+androidauthority.com##.e_Un
+! Affiliate links info  ⤵
+androidauthority.com##.e_tc
 ! "Latest deals on top tech" ⤵
 androidauthority.com##.e_e.e_Nj
 ! "Play Store in our newsletters" ⤵
