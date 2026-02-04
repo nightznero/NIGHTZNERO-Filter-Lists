@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3499
+! Entries: 3510
 !
 ! Expires: 1 hour
 !
@@ -1384,6 +1384,23 @@ erodate.pl##DIV.live-cams-promo.module-box
 
 # erome
 erome.com##.free-space
+
+# F95zone.to (XXX Adult games)
+f95zone.to##.node.node--id127.node--depth2.node--link
+f95zone.to##.node.node--id129.node--depth2.node--link
+f95zone.to##.node.node--id136.node--depth2.node--link
+f95zone.to##.node.node--id145.node--depth2.node--link
+! Donate ⤵
+f95zone.to##.p-sectionLinks-list > li:nth-of-type(8) > .p-navEl.u-ripple
+! "AI Porn" ⤵
+f95zone.to##.p-nav-list > li:nth-of-type(4) > .p-navEl.u-ripple
+f95zone.to##.offCanvasMenu-list > li:nth-of-type(4) > .offCanvasMenu-linkHolder
+! "AI Jerk off" ⤵
+f95zone.to##.p-nav-list > li:nth-of-type(6) > .p-navEl.u-ripple
+f95zone.to##.offCanvasMenu-list > li:nth-of-type(6) > .offCanvasMenu-linkHolder
+! "Hentai Heroes" ⤵
+f95zone.to##.p-nav-list > li:nth-of-type(7) > .p-navEl.u-ripple
+f95zone.to##.offCanvasMenu-list > li:nth-of-type(7) > .offCanvasMenu-linkHolder
 
 # Facebook [Meta]
 @@||connect.facebook.net^*/sdk/$tag=fb-embeds
