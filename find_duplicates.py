@@ -1,25 +1,14 @@
 def find_duplicates(file_path):
-    """
-    Analyze a file for exact 1:1 duplicate rules.
-    
-    Args:
-        file_path (str): The path to the file to analyze.
-    """
-    with open(file_path, 'r') as file:
-        rules = file.readlines()
-    
-    duplicates = set()
     seen = set()
-    
-    for rule in rules:
-        rule = rule.strip()  # Clean whitespace
-        if rule in seen:
-            duplicates.add(rule)
-        else:
-            seen.add(rule)
-    
+    duplicates = set()
+    with open(file_path, 'r') as file:
+        for line in file:
+            line = line.strip()
+            # Skip comment lines
+            if line.startswith('#') or line.startswith('!'):
+                continue
+            if line in seen:
+                duplicates.add(line)
+            else:
+                seen.add(line)
     return duplicates
-
-# Example usage:
-# duplicates = find_duplicates('Cosmetic-Rules')
-# print(duplicates)
