@@ -69,6 +69,7 @@
 ##.ad-container
 ##.floating-ads-container
 ##.iframe-ad-container
+##.popup-cookies
 ##.rodo-popup
 ##.gdpr-popup
 /afs/ads/*
@@ -1364,6 +1365,9 @@ discord.com##div.themed_a0.item_a0:nth-of-type(32)
 @@||dood.re/pass_md5^$domain=dooood.com|d0000d.com|dood.re|doods.pro|
 @@||doods.pro/e^
 @@||doods.pro/pass_md5^$domain=dooood.com|d0000d.com|dood.re|doods.pro|
+
+# doz.pl (Pharmacy/Apteka)
+doz.pl##.popup-cookies
 
 # DropBox (File hosting service)
 dropbox.com##._toolkit-link_1gpi8_1._4rjmw90_3-4-0
