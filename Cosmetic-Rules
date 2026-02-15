@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3511
+! Entries: 3514
 !
 ! Expires: 1 hour
 !
@@ -1054,6 +1054,13 @@ banggood.com##.gdpr-entry
 # BlaBlaCar
 @@||chat.stream-io-api.com/*$domain=blablacar.pl,stealth=ip|3p-auth|referrer|
 @@||edge.blablacar.pl^$domain=blablacar.pl,stealth=ip|
+
+# BlackMod (modded games & apks)
+! VIP trash things ⤵
+blackmod.net##.rainbow
+blackmod.net##.notices.notices--block.js-notices
+! Ad on mobile view ⤵
+blackmod.net##.block-container.lbContainer > div:nth-of-type(1)
 
 # Bọlt Food
 ! Blocked by 1Hosts - Pro ⤵️
