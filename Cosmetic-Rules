@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3514
+! Entries: 3517
 !
 ! Expires: 1 hour
 !
@@ -69,6 +69,8 @@
 ##.ad-container
 ##.floating-ads-container
 ##.iframe-ad-container
+##.rodo-popup
+##.gdpr-popup
 /afs/ads/*
 /gen_204?$image,other,ping,script
 ?adType=
@@ -1756,6 +1758,8 @@ poczta.interia.pl##div.ad[nxt-ad-place]
 poczta.interia.pl##DIV.placeholder
 poczta.interia.pl##HEADER.header-container
 poczta.interia.pl##DIV.navigation__promo-banner[ng-if='::isNavigationPromoBanner'][nxt-navigation-promo-banner]
+! RODO/GDPR Pop-up ⤵
+poczta.interia.pl##.rodo-popup
 ! Left Menu - "Poczta bez reklam" & "PocztaPRO"
 poczta.interia.pl##.navigation-list.navigation-list--promoplace
 ! Right Menu - Settings - Poczta bez reklam ⤵
