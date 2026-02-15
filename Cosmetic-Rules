@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3518
+! Entries: 3519
 !
 ! Expires: 1 hour
 !
@@ -1951,6 +1951,9 @@ linkedin.com##._1k2lxme12w.en2g8a0 > .cnuththk.cnuthth4.cnuthte8.cnuthtb4 > li.c
 luckypatchers.info,luckypatchers.me,luckypatcher.tools,luckypatcher.biz$script,redirect=$script,redirect=www.luckypatchers.com/download/
 ! LP Downloader is a Malware,use only LP Installer ⤵️
 luckypatchers.com##[href="https://chelpus.com/download/LP_Downloader.apk"]
+
+# ManyVids (XXX)
+manyvids.com##.go-premium-banner_premiumBanner__YfdQu
 
 # MasterCard
 @@||bezcennechwile.mastercard.pl^
