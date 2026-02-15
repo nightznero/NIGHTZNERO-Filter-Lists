@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3519
+! Entries: 3520
 !
 ! Expires: 1 hour
 !
-! Updated: 2026.02.15
+! Updated: 2026.02.16
 !
 ! MIT License
 !
@@ -3409,15 +3409,18 @@ unsee.cc##BUTTON.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorInheri
 # upfiles.com (File hosting service)
 upfion.com##.premium
 
-# UploadrAr.com (File hosting service)
+# Uploadrar.com (File hosting service)
 uploadrar.com,getpczone.com,rahim-soft.com,fingau.com##.banner1
 uploadrar.com,getpczone.com,rahim-soft.com,fingau.com##.banner2
 uploadrar.com,getpczone.com,rahim-soft.com,fingau.com##.banner3
 uploadrar.com,getpczone.com,rahim-soft.com,fingau.com##.banner4
 uploadrar.com,getpczone.com,rahim-soft.com,fingau.com##.btn.btn-primary.submit-btn.m-2
-uploadrar.com,getpczone.com##.border-warning
+! "XFileSharing" Features sheet (Free,Registered,Premium,Premium Pro) ⤵
+uploadrar.com##.premiumTable
 ! Premium download  ⤵
 uploadrar.com,getpczone.com##.btn-primary.m-2
+! "Get VPN - Fast & Secure" (scam ad)
+uploadrar.com,getpczone.com##.border-warning
 
 # Uphold (Wallet)
 @@||uphold.com/authorize^$stealth
