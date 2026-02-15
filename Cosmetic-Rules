@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3510
+! Entries: 3511
 !
 ! Expires: 1 hour
 !
@@ -1129,6 +1129,7 @@ bunkrr.*##.catflix
 @@||cdn.camwhores.tv/js/main.min.js?v=*$domain=camwhores.tv
 @@||cdn.camwhores.tv/contents/videos_screenshots/$domain=camwhores.tv
 camwhores.tv###camsoda-embed
+camwhores.tv##.iframe-ad-container
 camwhores.tv##A.tdn[rel='nofollow'][href][target='_blank']
 camwhores.tv##A[href][target='_blank']
 camwhores.tv##div.container:nth-child(2) > iframe:nth-child(3)
