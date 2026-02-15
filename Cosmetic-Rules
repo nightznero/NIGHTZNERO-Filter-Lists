@@ -1763,7 +1763,7 @@ poczta.interia.pl###wrapper > section.section.section--sidebar:nth-child(5) > di
 ! Right Menu - Settings - Pakiet dla firm ⤵
 poczta.interia.pl###wrapper > section.section.section--sidebar:nth-child(5) > div.sidebar > section.section.section--opened-sidebar.section--settings.settings:last-child > div.section__scroll:last-child > ul.settings__links:first-child > li.settings__links__item:nth-child(4) > a.link
 ! Open App ⤵
-poczta.interia.pl##.navigation-promo-banner__icon.navigation-button
+poczta.interia.pl##.navigation-promo-banner__icon
 ! Switch to app ⤵
 poczta.interia.pl##.app-promo-plywak__container
 poczta.interia.pl##A.settings__app-url[ng-if='::appUrl'][target='_blank'][ng-href^='https://play.google.com/store/apps/details'][href^='https://play.google.com/store/apps/details']
