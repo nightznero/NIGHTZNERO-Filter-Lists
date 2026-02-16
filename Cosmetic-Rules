@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3515
+! Entries: 3517
 !
 ! Expires: 1 hour
 !
@@ -1985,6 +1985,10 @@ mega4upload.com##div.col-md-4:nth-of-type(3)
 mega4upload.com##.container > .mb-3.row
 ! Premium download  ⤵
 mega4upload.net##.p-3 > .row > div.col-md-4:nth-of-type(3)
+! Differences between free and paid user ⤵
+mega4upload.net##div.xcol.col-lg-3
+! What is mega4upload.com (big usuless window) ⤵
+mega4upload.net##.card
 
 # Merlin AI
 ! "Get Pro x% off" ⤵
