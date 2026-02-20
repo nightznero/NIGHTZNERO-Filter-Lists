@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3522
+! Entries: 3523
 !
 ! Expires: 1 hour
 !
@@ -2998,6 +2998,10 @@ redtube.com,redtube.net###paid_tab_01
 redtube.com,redtube.net###paid_tab_02
 redtube.com,redtube.net###paid_tab_03
 redtube.com,redtube.net##.upgradeButtonContainer
+
+# ReleaseAPK - Forum (modded apks,Balatan home)
+! VIP Releases ⤵
+forum.release-apk.com##.topiclist.forums > :nth-of-type(2)
 
 # Rentry.co
 ||rentry.co/neizoi-c7rr^$important
