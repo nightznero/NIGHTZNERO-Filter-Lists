@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3526
+! Entries: 3528
 !
 ! Expires: 1 hour
 !
-! Updated: 2026.03.01
+! Updated: 2026.03.09
 !
 ! MIT License
 !
@@ -1317,10 +1317,11 @@ chat.deepseek.com##.fcaa63f8
 ! Left Menu - "Get app"
 chat.deepseek.com##.a1e75851
 
-! Dessi.co (Undresser) <13>
+! Dessi.co (Undresser) <15>
 ! Cookies alert  ⤵
 dessi.co##.CookieAlert__Wrapper-sc-a514sr-2
 ! Ads on sites ⤵
+dessi.co##html > div:nth-of-type(2)
 dessi.co##div.pages__NeverWrapper-sc-1yt8jfz-0
 dessi.co##div.ai-porn__NeverWrapper-sc-i4q1r6-0
 dessi.co##div.undress__NeverWrapper-sc-1p30qgk-1
@@ -1333,6 +1334,8 @@ dessi.co##div.face-swap__NeverWrapper-sc-bhrx2s-1
 dessi.co##div.face-swap-video__NeverWrapper-sc-1e889tg-1
 dessi.co##div.sex-chat__NeverWrapper-sc-1xz3sxf-0
 dessi.co##div.ai-voice__NeverWrapper-sc-wcuy8j-0
+! Sponsored ads in "hamburger" menu ⤵
+dessi.co##[href*="https://flufi.me"]
 
 # Discord
 @@||cdn.discordapp.com^$domain=discord.com
