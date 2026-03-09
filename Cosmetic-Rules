@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3528
+! Entries: 3527
 !
 ! Expires: 1 hour
 !
@@ -2019,12 +2019,12 @@ minecraft.org.pl##div[style="position: fixed; top: 0; left: 0; bottom: 0; right:
 # MinuteInBox.com (temp mail)
 minuteinbox.com##.wpcc-container.wpcc-float.wpcc-transparency-15.wpcc-bottom.wpcc-left.wpcc-color-custom--*
 
-# Mobilism.org / Mobilism.me
-@@||forum.mobilism.org##I.icon-chevron-up^
-@@||forum.mobilism.me##I.icon-chevron-up^
+# Mobilism.org / Mobilism.me <4>
+@@||forum.mobilism.*##I.icon-chevron-up^
 @@||forum.mobilism.*/styles/BBOOTS/theme/bootstrap^$domain=forum.mobilism.org^,forum.mobilism.me^
-forum.mobilism.org##SECTION.welcome-bar
-forum.mobilism.me##SECTION.welcome-bar
+forum.mobilism.*##SECTION.welcome-bar
+! "SocialS", literally only Twitter ⤵
+forum.mobilism.*##.social-top
 
 # ModDB
 moddb.com##.cc_banner.cc_container.cc_container--open
