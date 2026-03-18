@@ -1854,8 +1854,8 @@ lento.pl##.offerlist-description.relative > .accountlist-icon.margin-top-5 > .bt
 ! "$ Opłać" ⤵
 lento.pl##[href*="https://www.lento.pl/potwierdz-i-zaplac.html"]
 ! Dodaj na Facebook ⤵
-lento.pl##.margin-bottom-0 > li:nth-of-type(5)
-lento.pl##.margin-bottom-0 > li:nth-of-type(6)
+lento.pl##.tools > .margin-bottom-0 > li:nth-of-type(5)
+lento.pl##.tools > .margin-bottom-0 > li:nth-of-type(6)
 ! Black Friday promo ⤵
 lento.pl##.blackweek
 lento.pl##.coupon-black
