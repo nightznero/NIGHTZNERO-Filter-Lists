@@ -1847,16 +1847,16 @@ lento.pl##.sidebar-nav > li:nth-of-type(6)
 ! Pakiety  ⤵
 lento.pl##.hidden-xs.relative.accounttabs > li.noactive:nth-of-type(5)
 lento.pl##.sidebar-nav > li:nth-of-type(7)
-! "Wypromuj" ogłoszenie ⤵
+! "☆ Wypromuj ogłoszenie" ⤵
 lento.pl##.margin-bottom-0 > li:nth-of-type(1)
-! "☆Promuj" ⤵
+! "☆ Promuj" ⤵
 lento.pl##.offerlist-description.relative > .accountlist-icon.margin-top-5 > .btn-outline-rectangle.orange
-! "Opłać" ⤵
+! "$ Opłać" ⤵
 lento.pl##[href*="https://www.lento.pl/potwierdz-i-zaplac.html"]
-! Dodaj na Facebook ⤵️
+! Dodaj na Facebook ⤵
 lento.pl##.margin-bottom-0 > li:nth-of-type(5)
 lento.pl##.margin-bottom-0 > li:nth-of-type(6)
-! Black Friday promo
+! Black Friday promo ⤵
 lento.pl##.blackweek
 lento.pl##.coupon-black
 
