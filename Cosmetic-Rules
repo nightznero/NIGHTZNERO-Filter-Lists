@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3533
+! Entries: 3534
 !
 ! Expires: 1 hour
 !
-! Updated: 2026.03.21
+! Updated: 2026.04.13
 !
 ! MIT License
 !
@@ -1155,6 +1155,8 @@ camwhores.tv##IFRAME[src^='https://www.scfsdvc.com/en/us/about'][style='width: 1
 camwhores.tv##P[style='padding: 1em;text-align: center;background-color:rgb(84, 116, 201);color:white;font-size: 15px;']
 ! CamWhores.TV Friends... Bivch who tf care of ur friends ⤵
 camwhores.tv##.network
+! Mobile View ad that shows between video and related videos ⤵
+camwhores.tv##[src*="https\:\/\/traffic\.cam4pays\.com\/"]
 
 # CamWhoresHD.com (XXX)
 @@||camwhoreshd.com^$stealth
