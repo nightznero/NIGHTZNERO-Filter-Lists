@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3538
+! Entries: 3539
 !
 ! Expires: 1 hour
 !
@@ -3384,6 +3384,8 @@ tubeoffline.com##div.divContent2.borderCurve.otherSites:nth-child(*)
 twitch.tv##+js(twitch-videoad)
 ! Stories ⤵
 twitch.tv##.cJdFjy
+! "Combos" (BITS) ⤵
+twitch.tv##.Layout-sc-1xcs6mc-0.gEvECC
 
 # Twitch extension's
 @@||*.chatterino.com^
