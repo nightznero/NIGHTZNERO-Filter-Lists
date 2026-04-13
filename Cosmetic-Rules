@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3536
+! Entries: 3538
 !
 ! Expires: 1 hour
 !
@@ -1831,6 +1831,12 @@ kemono.su##[href="https://kemono.su/matrix"]
 @@||api.amrest.eu/amdv/ordering-api/KFC_PL/rest^$stealth
 @@||kfc.pl^$stealth
 @@||kfcdostawa.pl/ordering-api^$stealth
+
+# Kick.com [Stake] (Twitch.tv wannabe)
+! "Tell us a bit about You" Pop-up ⤵
+kick.com###radix-_R_2abt5ubtb_
+kick.com##.z-dialog.fixed.inset-0
+
 
 # Kiwi Browser
 @@||kiwibrowser.com^
