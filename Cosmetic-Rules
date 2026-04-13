@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3534
+! Entries: 3536
 !
 ! Expires: 1 hour
 !
@@ -3206,7 +3206,11 @@ startpage.com##.app-banner-promo-container
 
 # Streamable.com
 ! "Upgrade" ⤵
-streamable.com##.upgrade.text-with-splash-expression
+streamable.com##.upgrade
+! "Upgrade now to remove ads" ⤵
+streamable.com##.justify-center.py-2
+! "Help" blue button on right bottom ⤵
+streamable.com###launcher
 ! "Player Appearance - Video Watermark" Premium settings ⤵
 streamable.com##div.separator.appearance-settings__item:nth-of-type(2)
 ! "Player Appearance - Remove Streamable Branding" Premium settings ⤵
