@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3563
+! Entries: 3566
 !
 ! Expires: 1 hour
 !
@@ -3246,6 +3246,16 @@ streamvid.net##.vjs-logo-bar
 # STS.pl (bookmaker)
 @@||widgets.sir.sportradar.com/303262ade65c5fde508a18168ce741e2/widgetloader$domain=sts.pl
 @@||cdn.livechatinc.com/tracking.js$domain=sts.pl
+
+# SwissCows
+! SwissCows "Platinum" ⤵
+accounts.swisscows.com##div.item:nth-of-type(4)
+! SwissCows "Pro" ⤵
+accounts.swisscows.com##div.item:nth-of-type(5)
+
+# SwissCows Search 
+! "Personalized Search with Swisscows Pro" ⤵
+swisscows.com##.actions
 
 # Sympatia.onet
 sympatia.onet.pl##.auto-promotion.premium.side
