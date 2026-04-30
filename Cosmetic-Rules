@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3567
+! Entries: 3568
 !
 ! Expires: 1 hour
 !
-! Updated: 2026.04.29
+! Updated: 2026.04.30
 !
 ! MIT License
 !
@@ -1904,6 +1904,10 @@ linkedin.com##.ai-suggestions-bar
 linkedin.com##.pv-top-card__premium-feature-banner
 ! "Try Premium" ⤵
 linkedin.com##._1k2lxme12w.en2g8a0 > .cnuththk.cnuthth4.cnuthte8.cnuthtb4 > li.cnuthtgb.cnuthtew.en2g8a1:nth-of-type(2)
+
+# Link.me (Bio Links aggregation)
+! "Enhance Your Experience" (cookies pop-up) ⤵
+link.me##.cookie-consent__container
 
 # LocalCDN AdBlocker Rules (2022.04.18) <66>
 @@||ajax.googleapis.com^
