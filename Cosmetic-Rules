@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3570
+! Entries: 3572
 !
 ! Expires: 1 hour
 !
-! Updated: 2026.04.30
+! Updated: 2026.05.01
 !
 ! MIT License
 !
@@ -1093,6 +1093,10 @@ boonga.pl##.ec-fixed.ec-icon.ec-double-btn
 @@||community.brave.com^$ghide
 @@||basicattentiontoken.org^$ghide
 @@||basicattentiontoken.org^$first-party
+! Telematry "STAR" (https://brave.com/privacy-updates/19-star/) ⤵
+||star-randsrv.bsg.brave.com^$important,all
+! Usage pings (daily) ⤵
+||usage-ping.brave.com^$important,all
 
 # Brave Search
 @@||search.brave.com^$ghide
