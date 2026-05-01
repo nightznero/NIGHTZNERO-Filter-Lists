@@ -11,15 +11,15 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 956 (+15 local hosts)
+! Entries: 2 955 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2025.03.27
+! Updated: 2026.05.01
 !
 ! MIT License
 !
-! Copyright (c) 2025 NIGHTZNERO
+! Copyright (c) 2026 NIGHTZNERO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # Fvck off - Attribute
 0.0.0.0 0.0.0.0
@@ -743,7 +743,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 metrics.redgifs.com
 
 # Fvck off - Brave Browser
-0.0.0.0 variations.brave.com
 0.0.0.0 analytics.brave.com
 0.0.0.0 p3a.brave.com
 
