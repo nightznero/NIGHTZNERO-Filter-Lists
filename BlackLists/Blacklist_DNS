@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 957 (+15 local hosts)
+! Entries: 2 959 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2026.05.01
+! Updated: 2026.05.03
 !
 ! MIT License
 !
@@ -866,6 +866,10 @@ ff02::3 ip6-allhosts
 
 ! Fvck off - Puffin Browser [CloudMosa]
 0.0.0.0 collector.cloudmosa.net
+
+# Fvck off - Eyeo
+0.0.0.0 telemetry.eyeo.com
+0.0.0.0 eyeochromium.telemetry.eyeo.com
 
 # Fvck off - Waze - Navigation & Live Traffic [Google]
 0.0.0.0 ads-resources.waze.com
