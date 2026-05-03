@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3572
+! Entries: 3573
 !
 ! Expires: 1 hour
 !
-! Updated: 2026.05.01
+! Updated: 2026.05.03
 !
 ! MIT License
 !
@@ -1420,6 +1420,9 @@ erodate.pl##DIV.live-cams-promo.module-box
 
 # erome
 erome.com##.free-space
+
+# Eyeo GmbH (AdBlock Browser and ADB Lists)
+telemetry.eyeo.com^$all
 
 # F95zone.to (XXX Adult games)
 f95zone.to##.node.node--id127.node--depth2.node--link
