@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3573
+! Entries: 3583
 !
 ! Expires: 1 hour
 !
-! Updated: 2026.05.03
+! Updated: 2026.07.14
 !
 ! MIT License
 !
@@ -1237,19 +1237,23 @@ claude.ai##.border-accent-pro-200
 clothoff.*###divInstallApp
 clothoff.*##.footer_get_app_btns__tF12v
 
-# CloudFam (File hosting service) <6>
-! Free vs Premium compare ⤵
-cloudfam.io##.cf-compare
-! "Skip All Steps Instantly" ⤵
-cloudfam.io##.cf-premium-upsell
-! "Premium" download  ⤵
-cloudfam.io##.cf-premium-card
-! "or continue free" ⤵
-cloudfam.io##.cf-divider
-! AdBlock detected ⤵
+# CloudFam (File hosting service) <16>
+cloudfam.io###cf-ab-modal
 cloudfam.io###cf-ad-block-overlay
-! Ad Blocker detected "This notice is enabled by publisher not by Cloudfam" ⤵
 cloudfam.io###cf-system-notice
+cloudfam.io###cf-ublock-fallback
+cloudfam.io###premium-modal
+cloudfam.io##.cf-ad-box
+cloudfam.io##.cf-compare
+cloudfam.io##.cf-divider
+cloudfam.io##.cf-notice-bar
+cloudfam.io##.cf-prem
+cloudfam.io##.cf-premium
+cloudfam.io##.cf-premium-card
+cloudfam.io##.cf-premium-side
+cloudfam.io##.cf-premium-upsell
+cloudfam.io##.modal-content
+cloudfam.io##.▶__iframe
 
 # CloudFlare.com
 @@||challenges.cloudflare.com^$stealth
