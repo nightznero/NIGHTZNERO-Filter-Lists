@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3583
+! Entries: 3584
 !
 ! Expires: 1 hour
 !
-! Updated: 2026.07.14
+! Updated: 2026.07.23
 !
 ! MIT License
 !
@@ -3551,6 +3551,7 @@ wetransfer.com##.button--enabled.welcome__button--preferences.welcome__button.bu
 @@||*.api-wolvesville.com^$domain=wolvesville.com
 
 # WP Poczta [Wirtualna Polska Media]
+poczta.wp.pl##.trs_all_0\.05s.cv342gg.twd1ycc
 poczta.wp.pl##.css-sp5xs2
 poczta.wp.pl##.css-1c82bw8
 poczta.wp.pl##.css-1y5hyb7
