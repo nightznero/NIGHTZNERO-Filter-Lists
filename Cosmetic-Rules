@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3584
+! Entries: 3573
 !
 ! Expires: 1 hour
 !
@@ -3552,22 +3552,6 @@ wetransfer.com##.button--enabled.welcome__button--preferences.welcome__button.bu
 
 # WP Poczta [Wirtualna Polska Media]
 poczta.wp.pl##.trs_all_0\.05s.cv342gg.twd1ycc
-poczta.wp.pl##.css-sp5xs2
-poczta.wp.pl##.css-1c82bw8
-poczta.wp.pl##.css-1y5hyb7
-poczta.wp.pl##.css-14o959j
-poczta.wp.pl##.css-186j4av
-poczta.wp.pl##.css-1pckoix
-! Top bar - Settings - Pakiety dodatkowe or Mobile - Right Menu - Opcje - Pakiety dodatkowe / Bottom bar - Opcje - Pakiety dodatkowe ⤵️
-poczta.wp.pl##div:last-of-type:not(:first-of-type):has(+button[href="/draft/new"]):has(>div>[href="https://poczta.wp.pl/profil/pro-account"]), [href="/w/options/proaccount"], [href="https://poczta.wp.pl/profil/pro-account"], [href="/profil/pro-account"]
-! Top bar - Pakiety ⤵
-poczta.wp.pl##.css-6fvaqn > .css-0
-! Mobile - Right Menu - Profil - Pakiety dodatkowe ⤵
-poczta.wp.pl##a.css-13nd243:nth-of-type(4)
-! Mobile - Bottom bar - Pakiety ⤵
-poczta.wp.pl##.css-186j4av
-! Mobile - Left Menu - App ⤵
-poczta.wp.pl##.css-1ve658j.chakra-button
 
 # WygodneZwroty.pl [AlleKurier]
 ! Mobile app ⤵
