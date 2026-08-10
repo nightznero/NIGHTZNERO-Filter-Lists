@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3575
+! Entries: 3578
 !
 ! Expires: 1 hour
 !
-! Updated: 2026.08.02
+! Updated: 2026.08.10
 !
 ! MIT License
 !
@@ -974,6 +974,10 @@ alohabrowser.com##.footer_get_premium
 ||amazon.com^*/impress.html
 ||aax-eu-dub.amazon.com^
 ||aax-us-iad.amazon.com^
+! App popup  ⤵
+amazon.*##.sparkle-content
+amazon.*##.sparkle-linkText-container
+amazon.*##.sparkle-close
 
 # AndroidAdult (XXX NSFW Android Gamez) <15>
 ! Ads ⤵
