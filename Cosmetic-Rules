@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3578
+! Entries: 3582
 !
 ! Expires: 1 hour
 !
-! Updated: 2026.08.10
+! Updated: 2026.08.13
 !
 ! MIT License
 !
@@ -2291,6 +2291,12 @@ patreon.com##.sc-ckVGcZ.jGlPut
 
 # PayPal
 paypal.com##.gdprCookieBanner_container.gdprCookieBanner_container-custom
+
+# PayU (Online payments)
+secure.payu.com##.btn
+secure.payu.com##.or-view
+secure.payu.com##a[href*="https\:\/\/www\.blik\.com\/place-pozniej"]
+secure.payu.com##p
 
 # pCloud
 @@172.255.6.177$network
