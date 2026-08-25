@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3583
+! Entries: 3585
 !
 ! Expires: 1 hour
 !
@@ -1242,12 +1242,14 @@ claude.ai##.border-accent-pro-200
 clothoff.*###divInstallApp
 clothoff.*##.footer_get_app_btns__tF12v
 
-# CloudFam (File hosting service) <16>
+# CloudFam (File hosting service) <18>
 cloudfam.io###cf-ab-modal
 cloudfam.io###cf-ad-block-overlay
 cloudfam.io###cf-system-notice
 cloudfam.io###cf-ublock-fallback
+cloudfam.io###preload-monthly-promo-modal
 cloudfam.io###premium-modal
+cloudfam.io##.ad-slot-300x250
 cloudfam.io##.cf-ad-box
 cloudfam.io##.cf-compare
 cloudfam.io##.cf-divider
