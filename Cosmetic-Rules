@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3587
+! Entries: 3597
 !
 ! Expires: 1 hour
 !
@@ -3684,6 +3684,28 @@ zbiornik.com###mnav > div:nth-of-type(12) > div.zbItem:nth-of-type(3)
 @@||static.zdassets.com/ekr/snippet.js?key=5df22ff5-ba9c-40c4-937a-af20a874cf9a$domain=my.zen.com
 @@||widget-mediator.zopim.com/s/W/ws/*/c/*$domain=my.zen.com
 @@||static.zdassets.com/web_widget/classic/latest/*.mp3$domain=my.zen.com
+
+# ZooPlus
+! Darmowa dostawa od 99 zł* (top ad) ⤵
+zooplus.pl##.TopBar-module_topBar__8sDZ-
+! ABOnament (dostawa) ⤵
+zooplus.pl##div.z-radio.z-radio-card:nth-of-type(2)
+! ABOnament (Więcej informacji) ⤵
+zooplus.pl##.AutoshipmentCTA_container__85Pyk
+! ABOnament (w koszyku) "Utwórz swój pierwszy zooplus ABOnament i otrzymaj aż do 15 %" ⤵
+zooplus.pl##.FodBanner-module_fodBannerBox__35piL
+! ABOnament -15% (w koszyku) ⤵
+zooplus.pl##article.mFYvTx4hWy6T29p0v2p4 > .MTQ8Kbi_NjaSNxNmeQRp > .NILhqevsg77uCmp8_KP2 > .zKEQSP2rFDIfRsCQT3z_
+! Club Premium (Więcej informacji) ⤵
+zooplus.pl##.MemberPricePDP-module_container__HOYuD
+! Club Premium (koszyk) ⤵
+zooplus.pl##.FastTrackBoxDisplay-module_banner__2IR0f
+! Club Premium (Account) ⤵
+zooplus.pl##.OfferInfo-module_box__kyBKW
+! Najczęściej kupowane razem ⤵
+zooplus.pl##.DynamicBundle_container__4l8h_
+! Newsletter ⤵
+zooplus.pl##.Newsletter-module_shopFooterNewsletterWrapper__eEV55
 
 ! Żappka [Żabka]
 @@||upload.snrcdn.net^$domain=mail.*.com|mail.proton.me|poczta.*.pl|
