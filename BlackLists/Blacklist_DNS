@@ -11,11 +11,11 @@
 !
 ! Description: Blacklist created by me for mostly apps that i use like a daily internet user. Feel free to use it as well
 !
-! Entries: 2 960 (+15 local hosts)
+! Entries: 2 962 (+15 local hosts)
 !
 ! Expires: 1 days
 !
-! Updated: 2026.07.02
+! Updated: 2026.08.29
 !
 ! MIT License
 !
@@ -56,6 +56,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 candyoffers.com
 0.0.0.0 deephicy.net
 0.0.0.0 deliveranceads.com
+0.0.0.0 eacdn.com
 0.0.0.0 eatthiskok.b-cdn.net
 0.0.0.0 energizeio.com
 0.0.0.0 entitlements.jwplayer.com
@@ -79,6 +80,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 thanksgivingdelights.com
 0.0.0.0 toponadss.com
 0.0.0.0 tsyndicate.com
+0.0.0.0 xadsmart.com
 0.0.0.0 youradexchange.com
 
 # Fvck off - Ads
