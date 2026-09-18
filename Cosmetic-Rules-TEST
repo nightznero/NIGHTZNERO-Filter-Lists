@@ -30,8 +30,8 @@
 ||poczta.iplsc.com/n/public/images/navigationPromoBanner^$domain=poczta.interia.pl
 poczta.interia.pl##.ad-msglist-toolbar__title
 poczta.interia.pl##div.ad[nxt-ad-place]
-●poczta.interia.pl##DIV.placeholder
-●poczta.interia.pl##HEADER.header-container
+poczta.interia.pl##DIV.placeholder
+poczta.interia.pl##HEADER.header-container
 poczta.interia.pl##DIV.navigation__promo-banner[ng-if='::isNavigationPromoBanner'][nxt-navigation-promo-banner]
 ! RODO/GDPR Pop-up ⤵
 poczta.interia.pl##.rodo-popup
