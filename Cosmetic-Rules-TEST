@@ -53,3 +53,35 @@ poczta.interia.pl##.app-promo-plywak__container
 poczta.interia.pl##A.settings__app-url[ng-if='::appUrl'][target='_blank'][ng-href^='https://play.google.com/store/apps/details'][href^='https://play.google.com/store/apps/details']
 ! Settings - Pakiety Pocztowe - Poczta bez reklam & Pakiet dla firm ⤵
 ustawienia-pocztowe.interia.pl##.nav__list-container__menu-packages.nav__list-container
+
+# TrakT.tv
+||trakt.tv/vip^$script,redirect=trakt.tv|
+! Cookies ⤵
+trakt.tv##div[class="trakt-cookie-notice svelte-11d19wl"]
+trakt.tv##div[class="trakt-cookie-underlay svelte-11d19wl"]
+! Adsss ⤵
+trakt.tv##.add-bottom
+trakt.tv###om1gYCfRiN-wrapper
+trakt.tv###om1gYCfRiN-LD3xSETSnk-Ba2KT6YF2O-wrapper
+trakt.tv###mobile-nav > ul > li:nth-of-type(6)
+! VIP ⤵
+trakt.tv##div.title:nth-of-type(8)
+trakt.tv##div.section:nth-of-type(9)
+! "Get VIP" ⤵
+trakt.tv##.btn-vip
+trakt.tv##div.col-xs-12:nth-of-type(3) > .buttons
+! "Year in Review" ⤵
+trakt.tv##.btn.btn-profile.with-ul-menu.with-solid-bg.selected > .menu > li:nth-of-type(11) > .yir-loader
+! "Month in Review" ⤵
+trakt.tv##.btn.btn-profile.with-ul-menu.with-solid-bg.selected > .menu > li:nth-of-type(12) > .yir-loader
+! "Join the VIP beta" buttons ⤵
+trakt.tv##.vip-signup
+! TrackCast for iOS (VIP) ⤵
+trakt.tv###traktcasts-ios-beta-wrapper
+## TrakT.tv Lite
+! VIP ⤵
+app.trakt.tv##.trakt-vip-badge
+app.trakt.tv##.trakt-navbar-links.svelte-7tc3py > .svelte-1fs2n3z > .trakt-action-button.trakt-button-link.svelte-cge2ar
+app.trakt.tv##div.trakt-profile-container.svelte-hfo02n:nth-of-type(1)
+! Watch Trailer (Rick Astley - Never Gonna Give You Up) ⤵
+app.trakt.tv##.trakt-summary-action-header.svelte-1v90dgq
