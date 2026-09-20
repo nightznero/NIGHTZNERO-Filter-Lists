@@ -15,7 +15,7 @@
 !
 ! Expires: 1 hour
 !
-! Updated: 2026.09.19
+! Updated: 2026.09.21
 !
 ! MIT License
 !
@@ -1900,7 +1900,7 @@ lento.pl##.sidebar-nav > li:nth-of-type(7)
 ! "☆ Wypromuj ogłoszenie" ⤵
 lento.pl##.margin-bottom-0 > li:nth-of-type(1)
 ! "☆ Promuj" ⤵
-lento.pl##.offerlist-description.relative > .accountlist-icon.margin-top-5 > .btn-outline-rectangle.orange
+lento.pl##.orange
 ! "+ Odśwież za darmo | + (5/10 odświeżeń co 7 dni)"
 lento.pl##.more-refresh
 ! "$ Opłać" ⤵
