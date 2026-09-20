@@ -11,7 +11,7 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3587
+! Entries: 3589
 !
 ! Expires: 1 hour
 !
@@ -1371,6 +1371,11 @@ dessi.co##div.sex-chat__NeverWrapper-sc-1xz3sxf-0
 dessi.co##div.ai-voice__NeverWrapper-sc-wcuy8j-0
 ! Sponsored ads in "hamburger" menu ⤵
 dessi.co##[href*="https://flufi.me"]
+
+# Devuploads (File hosting service)
+! Premium ⤵
+devuploads.com##.dl-promo
+devuploads.com##.dl-promo-mini
 
 # Discord
 @@||cdn.discordapp.com^$domain=discord.com
