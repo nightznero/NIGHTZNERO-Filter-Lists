@@ -11,11 +11,11 @@
 !
 ! Description: My Cosmetic Rules migrated from AdGuard to dis list| ADG - "$strict-first-party<$strict1p>,$strict-third-party<$strict3p>,$third-party<$3p>,$document<$doc>,$stylesheet<$css>,$subdocument<$frame>,$elemhide<$ehide>,$generichide<$ghide>" "stealth=searchqueries|donottrack|3p-cookie|1p-cookie|3p-cache|3p-auth|webrtc|push|location|flash|java|referrer|useragent|ip|xclientdata|dpi|" "/(^\|.+\.)randomsite\.(com\|org)\$/"
 !
-! Entries: 3599
+! Entries: 3601
 !
 ! Expires: 1 hour
 !
-! Updated: 2026.10.22
+! Updated: 2026.10.23
 !
 ! MIT License
 !
@@ -1724,12 +1724,17 @@ gofile.io###index_ads
 ||pagead.l.doubleclick.net^$all,important
 
 # GoonBox [SimpCity Image Service Hostage] (Previously - JPG.Church | JPG.Fish | Jpg4.su)
+! ads ⤵
+goonbox.cr##.-mt-1
+! Premium ⤵
 goonbox.cr##.border-amber-500\/25.from-amber-500\/10.via-amber-500\/5
 goonbox.cr##.border-amber-500\/30.from-amber-500\/15.to-amber-500\/5
 ! "Use my AI avatar" in "Preferences" ⤵
 goonbox.cr##.flex.items-center.gap-3.rounded-xl.glass-light.p-4
 ! "Backdrops" in "Preferences" ⤵
 goonbox.cr##.space-y-4.rounded-xl.glass-light.p-4
+! "Change background" in "Profile"
+goonbox.cr##a.backdrop-frost.inline-flex.h-9.rounded-xl:nth-of-type(3)
 
 # GOunlimited.to (Video hosting service)
 @@||gounlimited.to/e^$stealth=webrtc|ip|
